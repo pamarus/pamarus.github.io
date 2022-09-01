@@ -1,3 +1,4 @@
+http://example.com/2022/09/01/My-Second-Post/
 http://example.com/2022/09/01/My-First-Post/
 http://example.com/2022/09/01/hello-world/
 http://example.com/
