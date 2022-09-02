@@ -288,9 +288,10 @@
     <style type="text/css">
     /* don't remove. */
     .about-cover {
-        height: 90.2vh;
+        height: 100vh;  /* bg-cover高度。vh是css3的自适应单位，1vh等于视口高度的1%，100vh即表示bg-cover是全屏高度。*/
     }
 </style>
+
 <div class="bg-cover pd-header about-cover">
     <div class="container">
         <div class="row">
@@ -308,14 +309,10 @@
     </div>
 </div>
 
-
-    <script>
-        // 每天切换 banner 图.  Switch banner image every day.
-        var bannerUrl = "/medias/banner/" + new Date().getDay() + '.jpg';
-        $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
-    </script>
-
-
+<script>
+    // 每天切换 banner 图.  Switch banner image every day.
+    $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay() + '.jpg)');
+</script>
 
     <footer class="page-footer bg-color">
     
