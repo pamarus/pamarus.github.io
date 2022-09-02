@@ -452,14 +452,14 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    463
+                    446
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    2 分
+                    1 分
                 </div>
                 
 
@@ -487,9 +487,12 @@
 注：如何查看Hexo博客和NexT主题版本
 
 <p>分别在博客文件夹和主题文件夹中，找到并打开 <code>package.json</code> 文件，即可看到版本信息，如下：</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">&quot;name&quot;</span>: <span class="string">&quot;hexo-theme-next&quot;</span>,</span><br><span class="line">  <span class="string">&quot;version&quot;</span>: <span class="string">&quot;7.8.0&quot;</span>,</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token string-property property">"name"</span><span class="token operator">:</span> <span class="token string">"hexo-theme-next"</span><span class="token punctuation">,</span>
+  <span class="token string-property property">"version"</span><span class="token operator">:</span> <span class="token string">"7.8.0"</span><span class="token punctuation">,</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">&quot;hexo&quot;</span>: &#123;</span><br><span class="line">    <span class="string">&quot;version&quot;</span>: <span class="string">&quot;4.2.0&quot;</span></span><br><span class="line">  &#125;,</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token string-property property">"hexo"</span><span class="token operator">:</span> <span class="token punctuation">&#123;</span>
+    <span class="token string-property property">"version"</span><span class="token operator">:</span> <span class="token string">"4.2.0"</span>
+  <span class="token punctuation">&#125;</span><span class="token punctuation">,</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
 </blockquote>
 
 <span id="more"></span>
@@ -501,7 +504,19 @@
 <ul>
 <li>在主题配置文件 <code>_config.yml</code>中找到 <code>custom_file_path</code>，如下</li>
 </ul>
-<figure class="highlight jsx"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"># <span class="title class_">Define</span> custom file paths.</span><br><span class="line"># <span class="title class_">Create</span> your custom files <span class="keyword">in</span> site directory <span class="string">`source/_data`</span> and uncomment needed files below.</span><br><span class="line"><span class="attr">custom_file_path</span>:</span><br><span class="line">  #<span class="attr">head</span>: source/_data/head.<span class="property">swig</span></span><br><span class="line">  #<span class="attr">header</span>: source/_data/header.<span class="property">swig</span></span><br><span class="line">  #<span class="attr">sidebar</span>: source/_data/sidebar.<span class="property">swig</span></span><br><span class="line">  #<span class="attr">postMeta</span>: source/_data/post-meta.<span class="property">swig</span></span><br><span class="line">  #<span class="attr">postBodyEnd</span>: source/_data/post-body-end.<span class="property">swig</span></span><br><span class="line">  #<span class="attr">footer</span>: source/_data/footer.<span class="property">swig</span></span><br><span class="line">  #<span class="attr">bodyEnd</span>: source/_data/body-end.<span class="property">swig</span></span><br><span class="line">  #<span class="attr">variable</span>: source/_data/variables.<span class="property">styl</span></span><br><span class="line">  #<span class="attr">mixin</span>: source/_data/mixins.<span class="property">styl</span></span><br><span class="line">  <span class="attr">style</span>: source/_data/styles.<span class="property">styl</span></span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-jsx" data-language="jsx"><code class="language-jsx"># Define custom file paths<span class="token punctuation">.</span>
+# Create your custom files <span class="token keyword">in</span> site directory <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">source/_data</span><span class="token template-punctuation string">`</span></span> and uncomment needed files below<span class="token punctuation">.</span>
+<span class="token literal-property property">custom_file_path</span><span class="token operator">:</span>
+  #head<span class="token operator">:</span> source<span class="token operator">/</span>_data<span class="token operator">/</span>head<span class="token punctuation">.</span>swig
+  #header<span class="token operator">:</span> source<span class="token operator">/</span>_data<span class="token operator">/</span>header<span class="token punctuation">.</span>swig
+  #sidebar<span class="token operator">:</span> source<span class="token operator">/</span>_data<span class="token operator">/</span>sidebar<span class="token punctuation">.</span>swig
+  #postMeta<span class="token operator">:</span> source<span class="token operator">/</span>_data<span class="token operator">/</span>post<span class="token operator">-</span>meta<span class="token punctuation">.</span>swig
+  #postBodyEnd<span class="token operator">:</span> source<span class="token operator">/</span>_data<span class="token operator">/</span>post<span class="token operator">-</span>body<span class="token operator">-</span>end<span class="token punctuation">.</span>swig
+  #footer<span class="token operator">:</span> source<span class="token operator">/</span>_data<span class="token operator">/</span>footer<span class="token punctuation">.</span>swig
+  #bodyEnd<span class="token operator">:</span> source<span class="token operator">/</span>_data<span class="token operator">/</span>body<span class="token operator">-</span>end<span class="token punctuation">.</span>swig
+  #variable<span class="token operator">:</span> source<span class="token operator">/</span>_data<span class="token operator">/</span>variables<span class="token punctuation">.</span>styl
+  #mixin<span class="token operator">:</span> source<span class="token operator">/</span>_data<span class="token operator">/</span>mixins<span class="token punctuation">.</span>styl
+  <span class="token literal-property property">style</span><span class="token operator">:</span> source<span class="token operator">/</span>_data<span class="token operator">/</span>styles<span class="token punctuation">.</span>styl<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
 <ul>
 <li>按照提示，新建 <code>~blog/source/_data</code> 文件夹，再在文件夹内新建 <code>styles.styl</code> 文件。</li>
@@ -1325,7 +1340,7 @@
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">23.4k</span>&nbsp;字
+                class="white-color">23k</span>&nbsp;字
             
             
             

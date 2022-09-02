@@ -510,7 +510,8 @@ src="https://raw.githubusercontent.com/Pamarus/Images/master/2020/05/MD语法学
 <ul>
 <li><strong>示例：</strong></li>
 </ul>
-<figure class="highlight jsx"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">**双星号加粗**</span><br><span class="line">__双下划线加粗__</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-jsx" data-language="jsx"><code class="language-jsx"><span class="token operator">**</span>双星号加粗<span class="token operator">**</span>
+__双下划线加粗__<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 
 <ul>
 <li><strong>显示效果：</strong></li>
@@ -523,7 +524,7 @@ src="https://raw.githubusercontent.com/Pamarus/Images/master/2020/05/MD语法学
 <h2 id="单行引用"><a href="#单行引用" class="headerlink" title="单行引用"></a>单行引用</h2><ul>
 <li><strong>示例：</strong></li>
 </ul>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&gt; 单行引用文字</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token operator">></span> 单行引用文字<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
 <ul>
 <li><strong>显示效果：</strong></li>
@@ -534,7 +535,11 @@ src="https://raw.githubusercontent.com/Pamarus/Images/master/2020/05/MD语法学
 <h2 id="多行引用"><a href="#多行引用" class="headerlink" title="多行引用"></a>多行引用</h2><ul>
 <li><strong>示例：</strong></li>
 </ul>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&gt; 引用文字</span><br><span class="line">&gt; 引用文字</span><br><span class="line">&gt; 引用文字</span><br><span class="line">&gt; </span><br><span class="line">&gt; 引用文字</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token operator">></span> 引用文字
+<span class="token operator">></span> 引用文字
+<span class="token operator">></span> 引用文字
+<span class="token operator">></span> 
+<span class="token operator">></span> 引用文字<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
 <p><strong>显示效果：</strong></p>
 <blockquote>
@@ -545,7 +550,9 @@ src="https://raw.githubusercontent.com/Pamarus/Images/master/2020/05/MD语法学
 <ul>
 <li><strong>示例：</strong></li>
 </ul>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&gt; 引用文字</span><br><span class="line">引用文字</span><br><span class="line">引用文字</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token operator">></span> 引用文字
+引用文字
+引用文字<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
 
 <ul>
 <li><strong>显示效果：</strong></li>
@@ -557,7 +564,10 @@ src="https://raw.githubusercontent.com/Pamarus/Images/master/2020/05/MD语法学
 <ul>
 <li><strong>示例：</strong></li>
 </ul>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&gt; 层级<span class="number">1</span></span><br><span class="line">&gt;</span><br><span class="line">&gt;&gt; 层级<span class="number">2</span></span><br><span class="line">&gt;&gt;&gt; 层级<span class="number">3</span></span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token operator">></span> 层级<span class="token number">1</span>
+<span class="token operator">></span>
+<span class="token operator">>></span> 层级<span class="token number">2</span>
+<span class="token operator">>>></span> 层级<span class="token number">3</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
 
 <ul>
 <li><strong>显示效果：</strong></li>
@@ -575,7 +585,12 @@ src="https://raw.githubusercontent.com/Pamarus/Images/master/2020/05/MD语法学
 <ul>
 <li><strong>示例：</strong></li>
 </ul>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&gt; <span class="number">1.</span>引用列表项，第一行列表项。</span><br><span class="line">&gt; <span class="number">2.</span>引用列表项，是第二行列表项。</span><br><span class="line">&gt; </span><br><span class="line">&gt; 引用代码区块：</span><br><span class="line">&gt; </span><br><span class="line">&gt;     <span class="keyword">return</span> <span class="title function_">shell_exec</span>(<span class="string">&quot;echo $input | $markdown_script&quot;</span>);</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token operator">></span> <span class="token number">1.</span>引用列表项，第一行列表项。
+<span class="token operator">></span> <span class="token number">2.</span>引用列表项，是第二行列表项。
+<span class="token operator">></span> 
+<span class="token operator">></span> 引用代码区块：
+<span class="token operator">></span> 
+<span class="token operator">></span>     <span class="token keyword">return</span> <span class="token function">shell_exec</span><span class="token punctuation">(</span><span class="token string">"echo $input | $markdown_script"</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
 <p><strong>显示效果：</strong></p>
 <blockquote>
@@ -588,7 +603,7 @@ src="https://raw.githubusercontent.com/Pamarus/Images/master/2020/05/MD语法学
 <ul>
 <li><strong>示例：</strong></li>
 </ul>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">这是一个段落内的 <span class="string">`one line of code`</span> 是的，就这样用</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript">这是一个段落内的 <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">one line of code</span><span class="token template-punctuation string">`</span></span> 是的，就这样用<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
 <ul>
 <li><strong>显示效果：</strong></li>
@@ -598,7 +613,7 @@ src="https://raw.githubusercontent.com/Pamarus/Images/master/2020/05/MD语法学
 <ul>
 <li><strong>示例：</strong></li>
 </ul>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">这是一个段落内的 <span class="string">`one line of code`</span> 是的，我要显示 <span class="string">``</span> <span class="string">` `</span><span class="string">` 符号</span></span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript">这是一个段落内的 <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">one line of code</span><span class="token template-punctuation string">`</span></span> 是的，我要显示 <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token template-punctuation string">`</span></span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string"> </span><span class="token template-punctuation string">`</span></span>` 符号<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
 <ul>
 <li><strong>显示效果：</strong></li>
@@ -632,16 +647,20 @@ src="https://raw.githubusercontent.com/Pamarus/Images/master/2020/05/MD语法学
 <ul>
 <li><strong>显示效果：</strong></li>
 </ul>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">var x = 1; </span><br><span class="line">var y = 2; </span><br><span class="line">var z = 3; </span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-none"><code class="language-none">var x &#x3D; 1; 
+var y &#x3D; 2; 
+var z &#x3D; 3; <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
 
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> x = <span class="number">1</span>; </span><br><span class="line"><span class="keyword">var</span> y = <span class="number">2</span>; </span><br><span class="line"><span class="keyword">var</span> z = <span class="number">3</span>; </span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token keyword">var</span> x <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span> 
+<span class="token keyword">var</span> y <span class="token operator">=</span> <span class="token number">2</span><span class="token punctuation">;</span> 
+<span class="token keyword">var</span> z <span class="token operator">=</span> <span class="token number">3</span><span class="token punctuation">;</span> <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
 
 <h1 id="插入链接"><a href="#插入链接" class="headerlink" title="插入链接"></a>插入链接</h1><p>Markdown 支持两种形式的链接语法： 内联式和引用式两种形式。</p>
 <h2 id="内联式"><a href="#内联式" class="headerlink" title="内联式"></a>内联式</h2><p>中括号内为显示文本，后面紧接一对圆括号. 圆括号里面放所需的 URL 链接,</p>
 <ul>
 <li><strong>示例：</strong></li>
 </ul>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[<span class="number">01</span>.<span class="property">Markdown</span>语法说明](<span class="attr">https</span>:<span class="comment">//github.com/appinncom/Markdown-Syntax-CN/blob/master/syntax.md)</span></span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token punctuation">[</span><span class="token number">01</span><span class="token punctuation">.</span>Markdown语法说明<span class="token punctuation">]</span><span class="token punctuation">(</span>https<span class="token operator">:</span><span class="token operator">/</span><span class="token operator">/</span>github<span class="token punctuation">.</span>com<span class="token operator">/</span>appinncom<span class="token operator">/</span>Markdown<span class="token operator">-</span>Syntax<span class="token operator">-</span><span class="token constant">CN</span><span class="token operator">/</span>blob<span class="token operator">/</span>master<span class="token operator">/</span>syntax<span class="token punctuation">.</span>md<span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
 <ul>
 <li><strong>显示效果：</strong></li>
@@ -660,7 +679,9 @@ src="https://raw.githubusercontent.com/Pamarus/Images/master/2020/05/MD语法学
 <li><p><strong>示例：</strong></p>
 </li>
 </ul>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">我们可以在 [<span class="number">02</span>.<span class="property">Markdown</span>中文文档][link1]这个网站查看<span class="variable constant_">MD</span>语法样式。</span><br><span class="line"></span><br><span class="line">[link1]:<span class="attr">https</span>:<span class="comment">//markdown-zh.readthedocs.io/en/latest/</span></span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript">我们可以在 <span class="token punctuation">[</span><span class="token number">02</span><span class="token punctuation">.</span>Markdown中文文档<span class="token punctuation">]</span><span class="token punctuation">[</span>link1<span class="token punctuation">]</span>这个网站查看<span class="token constant">MD</span>语法样式。
+
+<span class="token punctuation">[</span>link1<span class="token punctuation">]</span><span class="token operator">:</span>https<span class="token operator">:</span><span class="token operator">/</span><span class="token operator">/</span>markdown<span class="token operator">-</span>zh<span class="token punctuation">.</span>readthedocs<span class="token punctuation">.</span>io<span class="token operator">/</span>en<span class="token operator">/</span>latest<span class="token operator">/</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
 
 <ul>
 <li><strong>显示效果：</strong></li>
@@ -670,7 +691,7 @@ src="https://raw.githubusercontent.com/Pamarus/Images/master/2020/05/MD语法学
 <ul>
 <li><strong>示例：</strong></li>
 </ul>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">我们可以在 [<span class="number">03</span>.小书匠语法说明](<span class="attr">http</span>:<span class="comment">//soft.xiaoshujiang.com/docs/grammar/common/italic/ &quot;我使用小书匠编辑器&quot;) 这个网站查看MD语法样式。</span></span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript">我们可以在 <span class="token punctuation">[</span><span class="token number">03.</span>小书匠语法说明<span class="token punctuation">]</span><span class="token punctuation">(</span>http<span class="token operator">:</span><span class="token operator">/</span><span class="token operator">/</span>soft<span class="token punctuation">.</span>xiaoshujiang<span class="token punctuation">.</span>com<span class="token operator">/</span>docs<span class="token operator">/</span>grammar<span class="token operator">/</span>common<span class="token operator">/</span>italic<span class="token operator">/</span> <span class="token string">"我使用小书匠编辑器"</span><span class="token punctuation">)</span> 这个网站查看<span class="token constant">MD</span>语法样式。<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
 <ul>
 <li><strong>显示效果：</strong></li>
@@ -680,7 +701,9 @@ src="https://raw.githubusercontent.com/Pamarus/Images/master/2020/05/MD语法学
 <ul>
 <li><strong>示例：</strong></li>
 </ul>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">我们可以在 [<span class="number">02</span>.<span class="property">Markdown</span>中文文档][link2] 这个网站查看<span class="variable constant_">MD</span>语法样式。</span><br><span class="line"></span><br><span class="line">[link2]: <span class="attr">https</span>:<span class="comment">//markdown-zh.readthedocs.io/en/latest/ &quot;Markdown语法&quot;</span></span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript">我们可以在 <span class="token punctuation">[</span><span class="token number">02</span><span class="token punctuation">.</span>Markdown中文文档<span class="token punctuation">]</span><span class="token punctuation">[</span>link2<span class="token punctuation">]</span> 这个网站查看<span class="token constant">MD</span>语法样式。
+
+<span class="token punctuation">[</span>link2<span class="token punctuation">]</span><span class="token operator">:</span> https<span class="token operator">:</span><span class="token operator">/</span><span class="token operator">/</span>markdown<span class="token operator">-</span>zh<span class="token punctuation">.</span>readthedocs<span class="token punctuation">.</span>io<span class="token operator">/</span>en<span class="token operator">/</span>latest<span class="token operator">/</span> <span class="token string">"Markdown语法"</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
 
 <ul>
 <li><strong>显示效果：</strong></li>
@@ -692,7 +715,7 @@ src="https://raw.githubusercontent.com/Pamarus/Images/master/2020/05/MD语法学
 <ul>
 <li><strong>示例：</strong></li>
 </ul>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">\*文字星号\*</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript">\<span class="token operator">*</span>文字星号\<span class="token operator">*</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
 <ul>
 <li><strong>显示效果：</strong></li>
@@ -701,7 +724,18 @@ src="https://raw.githubusercontent.com/Pamarus/Images/master/2020/05/MD语法学
 <ul>
 <li>Markdown 支持以下这些符号前面加上反斜杠来帮助插入普通的符号：</li>
 </ul>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">\   反斜线</span><br><span class="line"><span class="string">`   反引号</span></span><br><span class="line"><span class="string">*   星号</span></span><br><span class="line"><span class="string">_   底线</span></span><br><span class="line"><span class="string">&#123;&#125;  花括号</span></span><br><span class="line"><span class="string">[]  方括号</span></span><br><span class="line"><span class="string">()  括弧</span></span><br><span class="line"><span class="string">#   井字号</span></span><br><span class="line"><span class="string">+   加号</span></span><br><span class="line"><span class="string">-   减号</span></span><br><span class="line"><span class="string">.   英文句点</span></span><br><span class="line"><span class="string">!   惊叹号</span></span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript">\   反斜线
+`   反引号
+<span class="token operator">*</span>   星号
+_   底线
+<span class="token punctuation">&#123;</span><span class="token punctuation">&#125;</span>  花括号
+<span class="token punctuation">[</span><span class="token punctuation">]</span>  <span class="token function">方括号</span>
+<span class="token punctuation">(</span><span class="token punctuation">)</span>  括弧
+#   井字号
+<span class="token operator">+</span>   加号
+<span class="token operator">-</span>   减号
+<span class="token punctuation">.</span>   英文句点
+<span class="token operator">!</span>   惊叹号<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
 
                 
@@ -1511,7 +1545,7 @@ src="https://raw.githubusercontent.com/Pamarus/Images/master/2020/05/MD语法学
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">23.4k</span>&nbsp;字
+                class="white-color">23k</span>&nbsp;字
             
             
             

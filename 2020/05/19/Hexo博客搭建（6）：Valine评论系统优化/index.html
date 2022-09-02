@@ -456,7 +456,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    558
+                    554
                 </div>
                 
 
@@ -494,12 +494,15 @@
 
 <h1 id="统计数字小标题处如何显示中文“评论数”，而不是valine"><a href="#统计数字小标题处如何显示中文“评论数”，而不是valine" class="headerlink" title="统计数字小标题处如何显示中文“评论数”，而不是valine"></a>统计数字小标题处如何显示中文“评论数”，而不是valine</h1><h2 id="实际显示"><a href="#实际显示" class="headerlink" title="实际显示"></a>实际显示</h2><p><img src="https://raw.githubusercontent.com/Pamarus/Images/master/2020/Valine%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F%E4%BC%98%E5%8C%9601-%E9%97%AE%E9%A2%981.jpg" alt="Valine评论系统优化01-问题1"></p>
 <p>这是默认行为。因为NexT允许同时开启多个评论系统（例如同时启用valine和gitalk），这时显示「评论数」文字会造成混乱。</p>
-<h2 id="期望效果"><a href="#期望效果" class="headerlink" title="期望效果"></a>期望效果</h2><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">发表于 <span class="number">2020</span>-<span class="number">05</span>-<span class="number">18</span>   分类于 博客教程  评论数： <span class="number">1</span></span><br></pre></td></tr></table></figure>
+<h2 id="期望效果"><a href="#期望效果" class="headerlink" title="期望效果"></a>期望效果</h2><pre class="line-numbers language-jsx" data-language="jsx"><code class="language-jsx">发表于 <span class="token number">2020</span><span class="token operator">-</span><span class="token number">05</span><span class="token operator">-</span><span class="token number">18</span>   分类于 博客教程  评论数： <span class="token number">1</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
 <h2 id="解决"><a href="#解决" class="headerlink" title="解决"></a>解决</h2><p>打开<code>themes -&gt; next -&gt; languages -&gt; zh-CN.yml</code></p>
 <p>在<code>post:</code>标签下添加:</p>
 <p><code>comments.valine: 评论数</code> (显示的汉字自定义，最好和其他评论系统有所区分）</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">post</span>:</span><br><span class="line">  comments.<span class="property">valine</span>: 评论数</span><br><span class="line">  <span class="attr">posted</span>: 发表于</span><br><span class="line">  <span class="attr">edited</span>: 更新于</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-jsx" data-language="jsx"><code class="language-jsx"><span class="token literal-property property">post</span><span class="token operator">:</span>
+  comments<span class="token punctuation">.</span>valine<span class="token operator">:</span> 评论数
+  <span class="token literal-property property">posted</span><span class="token operator">:</span> 发表于
+  <span class="token literal-property property">edited</span><span class="token operator">:</span> 更新于<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
 
 <h2 id="结果"><a href="#结果" class="headerlink" title="结果"></a>结果</h2><p><img src="https://raw.githubusercontent.com/Pamarus/Images/master/2020/Valine%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F%E4%BC%98%E5%8C%9602-%E9%97%AE%E9%A2%981.jpg" alt="Valine评论系统优化02-问题1"></p>
 <p>如 <a href="https://pamarus.github.io/">此博客：https://pamarus.github.io/</a> 所示，正常显示中文<code>评论数</code>。</p>
@@ -512,13 +515,16 @@
 <ul>
 <li>复制下面这段代码，粘贴到 <code>custom.styl</code> 文件中</li>
 </ul>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">.<span class="property">vsys</span>&#123;</span><br><span class="line">    <span class="attr">display</span>:none !important;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token punctuation">.</span>vsys<span class="token punctuation">&#123;</span>
+    <span class="token literal-property property">display</span><span class="token operator">:</span>none <span class="token operator">!</span>important<span class="token punctuation">;</span>
+<span class="token punctuation">&#125;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
 
 <ul>
 <li>引入刚刚新建的样式文件</li>
 </ul>
 <p>在custom.styl同级的<code>main.styl</code> 中的最后添加以下代码，引入刚刚新建的样式文件</p>
-<figure class="highlight jsx"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// custom</span></span><br><span class="line">@<span class="keyword">import</span> <span class="string">&quot;custom.styl&quot;</span>;</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-jsx" data-language="jsx"><code class="language-jsx"><span class="token comment">// custom</span>
+@<span class="token keyword">import</span> <span class="token string">"custom.styl"</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 
 <ul>
 <li>hexo g -d部署完成</li>
@@ -527,7 +533,12 @@
 <h1 id="分类、标签、关于页关闭评论功能"><a href="#分类、标签、关于页关闭评论功能" class="headerlink" title="分类、标签、关于页关闭评论功能"></a>分类、标签、关于页关闭评论功能</h1><h2 id="需求"><a href="#需求" class="headerlink" title="需求"></a>需求</h2><p>在NexT主题中，Valine配置之后，默认所有页面都开启评论功能。在部分页面不想或不需要显示评论功能。那么如何隐藏呢？</p>
 <h2 id="设置"><a href="#设置" class="headerlink" title="设置"></a>设置</h2><p>在 分类、标签、关于页面的本地md文件中，添加comments属性，属性值设置为true或false，来控制打开或关闭该页面的评论功能。</p>
 <p>比如分类页，这样设置：</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line"><span class="attr">title</span>: 分类</span><br><span class="line"><span class="attr">date</span>: <span class="number">2020</span>-<span class="number">05</span>-<span class="number">05</span> <span class="number">16</span>:<span class="number">38</span>:<span class="number">50</span></span><br><span class="line"><span class="attr">type</span>: categories</span><br><span class="line"><span class="attr">comments</span>: <span class="literal">false</span></span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token operator">--</span><span class="token operator">-</span>
+<span class="token literal-property property">title</span><span class="token operator">:</span> 分类
+<span class="token literal-property property">date</span><span class="token operator">:</span> <span class="token number">2020</span><span class="token operator">-</span><span class="token number">05</span><span class="token operator">-</span><span class="token number">05</span> <span class="token number">16</span><span class="token operator">:</span><span class="token number">38</span><span class="token operator">:</span><span class="token number">50</span>
+<span class="token literal-property property">type</span><span class="token operator">:</span> categories
+<span class="token literal-property property">comments</span><span class="token operator">:</span> <span class="token boolean">false</span>
+<span class="token operator">--</span><span class="token operator">-</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
 <p>标签页和关于页等同理。</p>
 <h1 id="致谢"><a href="#致谢" class="headerlink" title="致谢"></a>致谢</h1><p><a target="_blank" rel="noopener" href="https://blog.csdn.net/a1059526327/article/details/104266761">hexo博客next主题使用valine评论标题部分无法显示中文评论数</a></p>
@@ -1337,7 +1348,7 @@
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">23.4k</span>&nbsp;字
+                class="white-color">23k</span>&nbsp;字
             
             
             

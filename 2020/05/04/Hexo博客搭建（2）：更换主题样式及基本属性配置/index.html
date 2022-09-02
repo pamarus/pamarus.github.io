@@ -500,11 +500,11 @@
 <ul>
 <li>再输入以下命令：</li>
 </ul>
-<figure class="highlight jsx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone <span class="attr">https</span>:<span class="comment">//github.com/theme-next/hexo-theme-next themes/next</span></span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-jsx" data-language="jsx"><code class="language-jsx">git clone https<span class="token operator">:</span><span class="token operator">/</span><span class="token operator">/</span>github<span class="token punctuation">.</span>com<span class="token operator">/</span>theme<span class="token operator">-</span>next<span class="token operator">/</span>hexo<span class="token operator">-</span>theme<span class="token operator">-</span>next themes<span class="token operator">/</span>next<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
 <blockquote>
 <p><strong>格式：</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone 主题的GitHub链接 themes/主题名</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-none"><code class="language-none">git clone 主题的GitHub链接 themes&#x2F;主题名<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 <p>  （themes是本地博客文件夹名，<code>主题名</code>是将要保存到本地的主题文件夹名称。这个是NexT主题，本地文件夹名为next）</p>
 </blockquote>
 <ul>
@@ -537,7 +537,10 @@
 <blockquote>
 <p>注：Hexo中有两份主要的配置文件，其名称都是<code>_config.yml</code>。<br>一份位于<code>博客根目录里</code>，包含Hexo本身的配置。<br>另一份位于<code>主题目录里</code>，包含主题相关的一些配置。<br>为描述方便，以下说明中将前者称为 <code>站点配置文件</code>，后者称为<code>主题配置文件</code>。</p>
 </blockquote>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"># <span class="title class_">Extensions</span></span><br><span class="line">## <span class="title class_">Plugins</span>: <span class="attr">https</span>:<span class="comment">//hexo.io/plugins/</span></span><br><span class="line">## <span class="title class_">Themes</span>: <span class="attr">https</span>:<span class="comment">//hexo.io/themes/</span></span><br><span class="line"><span class="attr">theme</span>: next</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"># Extensions
+## Plugins<span class="token operator">:</span> https<span class="token operator">:</span><span class="token operator">/</span><span class="token operator">/</span>hexo<span class="token punctuation">.</span>io<span class="token operator">/</span>plugins<span class="token operator">/</span>
+## Themes<span class="token operator">:</span> https<span class="token operator">:</span><span class="token operator">/</span><span class="token operator">/</span>hexo<span class="token punctuation">.</span>io<span class="token operator">/</span>themes<span class="token operator">/</span>
+<span class="token literal-property property">theme</span><span class="token operator">:</span> next<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
 
 <ul>
 <li>此时即可使用浏览器访问 <code>http://localhost:4000</code>，最终显示如下图。</li>
@@ -575,31 +578,66 @@
 </ul>
 </li>
 </ul>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"># ---------------------------------------------------------------</span><br><span class="line"># <span class="title class_">Scheme</span> <span class="title class_">Settings</span></span><br><span class="line"># ---------------------------------------------------------------</span><br><span class="line"></span><br><span class="line"># <span class="title class_">Schemes</span></span><br><span class="line">#<span class="attr">scheme</span>: <span class="title class_">Muse</span></span><br><span class="line">#<span class="attr">scheme</span>: <span class="title class_">Mist</span></span><br><span class="line">#<span class="attr">scheme</span>: <span class="title class_">Pisces</span></span><br><span class="line"><span class="attr">scheme</span>: <span class="title class_">Gemini</span></span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"># <span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">-</span>
+# Scheme Settings
+# <span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">-</span>
+
+# Schemes
+#scheme<span class="token operator">:</span> Muse
+#scheme<span class="token operator">:</span> Mist
+#scheme<span class="token operator">:</span> Pisces
+<span class="token literal-property property">scheme</span><span class="token operator">:</span> Gemini<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
 
 <h1 id="修改基本属性"><a href="#修改基本属性" class="headerlink" title="修改基本属性"></a>修改基本属性</h1><p>其次我们就要修改标题、副标题、描述、作者、语言这些基本属性了，这是博客页面最直观的一些个人信息的展示。</p>
 <p>打开站点配置文件，找到<code>Site</code>，修改以下属性值</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"># <span class="title class_">Site</span></span><br><span class="line"><span class="attr">title</span>: <span class="title class_">Hexo</span></span><br><span class="line"><span class="attr">subtitle</span>: <span class="string">&#x27;&#x27;</span></span><br><span class="line"><span class="attr">description</span>: <span class="string">&#x27;&#x27;</span></span><br><span class="line"><span class="attr">keywords</span>:</span><br><span class="line"><span class="attr">author</span>: <span class="title class_">John</span> <span class="title class_">Doe</span></span><br><span class="line"><span class="attr">language</span>: en</span><br><span class="line"><span class="attr">timezone</span>: <span class="string">&#x27;&#x27;</span></span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"># Site
+<span class="token literal-property property">title</span><span class="token operator">:</span> Hexo
+<span class="token literal-property property">subtitle</span><span class="token operator">:</span> <span class="token string">''</span>
+<span class="token literal-property property">description</span><span class="token operator">:</span> <span class="token string">''</span>
+<span class="token literal-property property">keywords</span><span class="token operator">:</span>
+<span class="token literal-property property">author</span><span class="token operator">:</span> John Doe
+<span class="token literal-property property">language</span><span class="token operator">:</span> en
+<span class="token literal-property property">timezone</span><span class="token operator">:</span> <span class="token string">''</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
 <p>语言默认为<code>en</code>，中文简体为<code>zh-CN</code>，中文繁體为<code>zh-hk</code> 或者 <code>zh-tw</code></p>
 <h1 id="设置菜单"><a href="#设置菜单" class="headerlink" title="设置菜单"></a>设置菜单</h1><h2 id="开启–网页显示菜单"><a href="#开启–网页显示菜单" class="headerlink" title="开启–网页显示菜单"></a>开启–网页显示菜单</h2><p>打开主题配置文件，找到<code>menu</code>。配置项如下：</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">menu</span>:</span><br><span class="line">  <span class="attr">home</span>: / || fa fa-home</span><br><span class="line">  <span class="attr">categories</span>: <span class="regexp">/categories/</span> || fa fa-th</span><br><span class="line">  <span class="attr">tags</span>: <span class="regexp">/tags/</span> || fa fa-tags</span><br><span class="line">  <span class="attr">archives</span>: <span class="regexp">/archives/</span> || fa fa-archive</span><br><span class="line">  <span class="attr">about</span>: <span class="regexp">/about/</span> || fa fa-user</span><br><span class="line">  #<span class="attr">schedule</span>: <span class="regexp">/schedule/</span> || fa fa-calendar</span><br><span class="line">  #<span class="attr">sitemap</span>: /sitemap.<span class="property">xml</span> || fa fa-sitemap</span><br><span class="line">  #<span class="attr">commonweal</span>: <span class="regexp">/404/</span> || fa fa-heartbeat</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token literal-property property">menu</span><span class="token operator">:</span>
+  <span class="token literal-property property">home</span><span class="token operator">:</span> <span class="token operator">/</span> <span class="token operator">||</span> fa fa<span class="token operator">-</span>home
+  <span class="token literal-property property">categories</span><span class="token operator">:</span> <span class="token operator">/</span>categories<span class="token operator">/</span> <span class="token operator">||</span> fa fa<span class="token operator">-</span>th
+  <span class="token literal-property property">tags</span><span class="token operator">:</span> <span class="token operator">/</span>tags<span class="token operator">/</span> <span class="token operator">||</span> fa fa<span class="token operator">-</span>tags
+  <span class="token literal-property property">archives</span><span class="token operator">:</span> <span class="token operator">/</span>archives<span class="token operator">/</span> <span class="token operator">||</span> fa fa<span class="token operator">-</span>archive
+  <span class="token literal-property property">about</span><span class="token operator">:</span> <span class="token operator">/</span>about<span class="token operator">/</span> <span class="token operator">||</span> fa fa<span class="token operator">-</span>user
+  #schedule<span class="token operator">:</span> <span class="token operator">/</span>schedule<span class="token operator">/</span> <span class="token operator">||</span> fa fa<span class="token operator">-</span>calendar
+  #sitemap<span class="token operator">:</span> <span class="token operator">/</span>sitemap<span class="token punctuation">.</span>xml <span class="token operator">||</span> fa fa<span class="token operator">-</span>sitemap
+  #commonweal<span class="token operator">:</span> <span class="token operator">/</span><span class="token number">404</span><span class="token operator">/</span> <span class="token operator">||</span> fa fa<span class="token operator">-</span>heartbeat<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
 <ul>
 <li>同scheme一致，将需启用的菜单前面的注释 <code>#</code> 删去即可。也可以上下移动位置，改变网页上显示的上下位置。<br>如上，启用了home&#x2F;about&#x2F;tags&#x2F;categories&#x2F;archives</li>
 </ul>
 <blockquote>
 <p>格式：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">item name: link || icon name</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-none"><code class="language-none">item name: link || icon name<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 <p>item name 这个名称并不直接显示在页面上，它将用于<code>匹配图标以及翻译</code>。<br> <code>||</code> 之前的是目标链接，之后的是 <a target="_blank" rel="noopener" href="https://fontawesome.com/icons">Font Awesome</a> 图标的名字。<br>你可以再代码中找到图标引用的网址。</p>
 </blockquote>
 <h2 id="自定义菜单项的显示文本"><a href="#自定义菜单项的显示文本" class="headerlink" title="自定义菜单项的显示文本"></a>自定义菜单项的显示文本</h2><p>在上一步中设置的菜单的名称并不直接用于界面上的展示。</p>
 <p>Hexo 在生成的时候将使用<code>item name</code>查找对应的<code>翻译文本</code>，并提取显示。<br>这些翻译文本放置在 NexT 主题目录下的 languages&#x2F;{language}.yml （{language} 为你所使用的语言）。打开<code>zh-CN.yml</code>，如下：</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">menu</span>:</span><br><span class="line">  <span class="attr">home</span>: 首页</span><br><span class="line">  <span class="attr">categories</span>: 分类</span><br><span class="line">  <span class="attr">tags</span>: 标签</span><br><span class="line">  <span class="attr">archives</span>: 归档</span><br><span class="line">  <span class="attr">about</span>: 关于</span><br><span class="line">  <span class="attr">search</span>: 搜索</span><br><span class="line">  <span class="attr">schedule</span>: 日程表</span><br><span class="line">  <span class="attr">sitemap</span>: 站点地图</span><br><span class="line">  <span class="attr">commonweal</span>: 公益<span class="number">404</span></span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token literal-property property">menu</span><span class="token operator">:</span>
+  <span class="token literal-property property">home</span><span class="token operator">:</span> 首页
+  <span class="token literal-property property">categories</span><span class="token operator">:</span> 分类
+  <span class="token literal-property property">tags</span><span class="token operator">:</span> 标签
+  <span class="token literal-property property">archives</span><span class="token operator">:</span> 归档
+  <span class="token literal-property property">about</span><span class="token operator">:</span> 关于
+  <span class="token literal-property property">search</span><span class="token operator">:</span> 搜索
+  <span class="token literal-property property">schedule</span><span class="token operator">:</span> 日程表
+  <span class="token literal-property property">sitemap</span><span class="token operator">:</span> 站点地图
+  <span class="token literal-property property">commonweal</span><span class="token operator">:</span> 公益<span class="token number">404</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 <p>如果不喜欢默认的，可以自定义修改这些汉字。</p>
 <h3 id="开启–关闭图标"><a href="#开启–关闭图标" class="headerlink" title="开启–关闭图标"></a>开启–关闭图标</h3><p>menu下面有如下设置项：</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">  # <span class="title class_">Enable</span> / <span class="title class_">Disable</span> menu icons / item badges.</span><br><span class="line"><span class="attr">menu_settings</span>:</span><br><span class="line">  <span class="attr">icons</span>: <span class="literal">true</span></span><br><span class="line">  <span class="attr">badges</span>: <span class="literal">false</span></span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript">  # Enable <span class="token operator">/</span> Disable menu icons <span class="token operator">/</span> item badges<span class="token punctuation">.</span>
+<span class="token literal-property property">menu_settings</span><span class="token operator">:</span>
+  <span class="token literal-property property">icons</span><span class="token operator">:</span> <span class="token boolean">true</span>
+  <span class="token literal-property property">badges</span><span class="token operator">:</span> <span class="token boolean">false</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
 
 <p><code>icons: true</code>控制显不显示图标。可以设置成 false 不显示图标。</p>
 <blockquote>
@@ -612,7 +650,7 @@
 <ul>
 <li>在主题配置文件的menu中增加：</li>
 </ul>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">something</span>: <span class="regexp">/something/</span> ||</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token literal-property property">something</span><span class="token operator">:</span> <span class="token operator">/</span>something<span class="token operator">/</span> <span class="token operator">||</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
 <ul>
 <li><p>修改简体中文对应的翻译文件 <code>languages/zh-CN.yml</code>，在 menu 字段下添加一项：</p>
@@ -622,7 +660,7 @@
 </li>
 </ul>
 <p>在 <a target="_blank" rel="noopener" href="https://fontawesome.com/icons">Font Awesome</a> 上找到一个图标，将相应的名称填入上面代码 <code>||</code>的后面，即可生效。比如名称为<code>coffee</code>的图标，上面的代码补充完整：</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">something</span>: <span class="regexp">/something/</span> || fa fa-coffee</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token literal-property property">something</span><span class="token operator">:</span> <span class="token operator">/</span>something<span class="token operator">/</span> <span class="token operator">||</span> fa fa<span class="token operator">-</span>coffee<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
 <p>效果如下：</p>
 <p><img src="https://raw.githubusercontent.com/Pamarus/Images/master/2020/%E6%9B%B4%E6%8D%A2%E4%B8%BB%E9%A2%98%E6%A0%B7%E5%BC%8F05-%E6%B7%BB%E5%8A%A0%E8%8F%9C%E5%8D%95.jpg" alt="更换主题样式05-添加菜单"></p>
@@ -630,7 +668,10 @@
 <p>以下2020年5月14日更新</p>
 </blockquote>
 <h1 id="配置侧栏"><a href="#配置侧栏" class="headerlink" title="配置侧栏"></a>配置侧栏</h1><p>默认情况下，侧栏仅在文章页面（拥有目录列表）时才显示，并放置于左侧位置。<br>打开主题配置文件，找到 <code>sidebar</code> 字段。<br>侧栏的设置包括两个部分，其一是侧栏的位置， 其二是侧栏显示的时机。</p>
-<h2 id="左右位置"><a href="#左右位置" class="headerlink" title="左右位置"></a>左右位置</h2><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">sidebar</span>:</span><br><span class="line">  # <span class="title class_">Sidebar</span> <span class="title class_">Position</span>.</span><br><span class="line">  #<span class="attr">position</span>: left</span><br><span class="line">  <span class="attr">position</span>: right</span><br></pre></td></tr></table></figure>
+<h2 id="左右位置"><a href="#左右位置" class="headerlink" title="左右位置"></a>左右位置</h2><pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token literal-property property">sidebar</span><span class="token operator">:</span>
+  # Sidebar Position<span class="token punctuation">.</span>
+  #position<span class="token operator">:</span> left
+  <span class="token literal-property property">position</span><span class="token operator">:</span> right<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
 
 <p><img src="https://raw.githubusercontent.com/Pamarus/Images/master/2020/%E6%9B%B4%E6%8D%A2%E4%B8%BB%E9%A2%98%E6%A0%B7%E5%BC%8F06-%E5%8F%B3%E4%BE%A7%E4%BE%A7%E6%A0%8F.jpg" alt="更换主题样式06-右侧侧栏"></p>
 <blockquote>
@@ -639,7 +680,12 @@
 <h2 id="设置侧栏显示的时机"><a href="#设置侧栏显示的时机" class="headerlink" title="设置侧栏显示的时机"></a>设置侧栏显示的时机</h2><p>修改 <code>sidebar.display</code> 的值，支持的选项有：</p>
 <p>post - 默认行为，在文章页面（拥有目录列表）时显示<br>always - 在所有页面中都显示<br>hide - 在所有页面中都隐藏（可以手动展开）<br>remove - 完全移除</p>
 <p>代码如下：</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"># <span class="title class_">Sidebar</span> <span class="title class_">Display</span> (only <span class="keyword">for</span> <span class="title class_">Muse</span> | <span class="title class_">Mist</span>), available <span class="attr">values</span>:</span><br><span class="line">#  - post    expand on posts automatically. <span class="title class_">Default</span>.</span><br><span class="line">#  - always  expand <span class="keyword">for</span> all pages automatically.</span><br><span class="line">#  - hide    expand only when click on the sidebar toggle icon.</span><br><span class="line">#  - remove  totally remove sidebar including sidebar toggle.</span><br><span class="line"><span class="attr">display</span>: post</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"># Sidebar <span class="token function">Display</span> <span class="token punctuation">(</span>only <span class="token keyword">for</span> Muse <span class="token operator">|</span> Mist<span class="token punctuation">)</span><span class="token punctuation">,</span> available values<span class="token operator">:</span>
+#  <span class="token operator">-</span> post    expand on posts automatically<span class="token punctuation">.</span> Default<span class="token punctuation">.</span>
+#  <span class="token operator">-</span> always  expand <span class="token keyword">for</span> all pages automatically<span class="token punctuation">.</span>
+#  <span class="token operator">-</span> hide    expand only when click on the sidebar toggle icon<span class="token punctuation">.</span>
+#  <span class="token operator">-</span> remove  totally remove sidebar including sidebar toggle<span class="token punctuation">.</span>
+<span class="token literal-property property">display</span><span class="token operator">:</span> post<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
 <blockquote>
 <p>最后别忘了hexo g -d命令，部署到github上。</p>
@@ -1461,7 +1507,7 @@
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">23.4k</span>&nbsp;字
+                class="white-color">23k</span>&nbsp;字
             
             
             
