@@ -74,52 +74,7 @@
   </url>
   
   <url>
-    <loc>https://pamarus.github.io/2022/07/12/%E5%AE%89%E5%AE%89%E6%88%90%E9%95%BF%E6%97%A5%E8%AE%B0-2022%E5%B9%B407%E6%9C%88/</loc>
-    
-    <lastmod>2022-08-07</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pamarus.github.io/2022/05/14/%E5%AE%89%E5%AE%89%E6%88%90%E9%95%BF%E6%97%A5%E8%AE%B0-2022%E5%B9%B404%E6%9C%88/</loc>
-    
-    <lastmod>2022-08-07</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pamarus.github.io/2022/06/12/%E5%AE%89%E5%AE%89%E6%88%90%E9%95%BF%E6%97%A5%E8%AE%B0-2022%E5%B9%B406%E6%9C%88/</loc>
-    
-    <lastmod>2022-08-07</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pamarus.github.io/2022/05/16/%E5%AE%89%E5%AE%89%E6%88%90%E9%95%BF%E6%97%A5%E8%AE%B0-2022%E5%B9%B405%E6%9C%88/</loc>
-    
-    <lastmod>2022-08-07</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://pamarus.github.io/2020/06/11/Hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%EF%BC%888%EF%BC%89%EF%BC%9A%E6%9B%BF%E6%8D%A2%E4%BD%BF%E7%94%A8matery%E4%B8%BB%E9%A2%98%E5%8F%8A%E8%AF%A6%E7%BB%86%E9%85%8D%E7%BD%AE/</loc>
-    
-    <lastmod>2022-05-19</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pamarus.github.io/2022/05/19/5S%E5%AE%89%E6%8A%9A%E5%93%84%E7%9D%A1%E6%B3%95/</loc>
     
     <lastmod>2022-05-19</lastmod>
     
@@ -302,20 +257,6 @@
   </url>
   
   <url>
-    <loc>https://pamarus.github.io/tags/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/</loc>
-    <lastmod>2022-09-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://pamarus.github.io/tags/%E5%AE%89%E5%AE%89/</loc>
-    <lastmod>2022-09-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://pamarus.github.io/tags/Mac%E7%BB%88%E7%AB%AF/</loc>
     <lastmod>2022-09-02</lastmod>
     <changefreq>weekly</changefreq>
@@ -375,13 +316,6 @@
   
   <url>
     <loc>https://pamarus.github.io/categories/Hexo%E5%8D%9A%E5%AE%A2/</loc>
-    <lastmod>2022-09-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://pamarus.github.io/categories/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/</loc>
     <lastmod>2022-09-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
