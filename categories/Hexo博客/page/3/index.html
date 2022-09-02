@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="404, Hexo">
+    <meta name="keywords" content="分类: Hexo博客, Hexo">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>404 | Hexo</title>
+    <title>分类: Hexo博客 | Hexo</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -285,34 +285,242 @@
 
 </header>
 
-    <style type="text/css">
-    /* don't remove. */
-    .about-cover {
-        height: 100vh;  /* bg-cover高度。vh是css3的自适应单位，1vh等于视口高度的1%，100vh即表示bg-cover是全屏高度。*/
-    }
-</style>
-
-<div class="bg-cover pd-header about-cover">
+    <div class="bg-cover pd-header about-cover">
     <div class="container">
-        <div class="row">
-            <div class="col s10 offset-s1 m8 offset-m2 l8 offset-l2">
-                <div class="brand">
-                    <div class="title center-align">
-                        404
-                    </div>
-                    <div class="description center-align">
-                        Oops～，你来到了没有知识的荒原 :(
-                    </div>
-                </div>
+    <div class="row">
+    <div class="col s10 offset-s1 m8 offset-m2 l8 offset-l2">
+        <div class="brand">
+            <div class="title center-align">
+                
+                    subtitle
+                
+            </div>
+
+            <div class="description center-align">
+                
+                <span id="subtitle"></span>
+                <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+                <script>
+                    var typed = new Typed("#subtitle", {
+                        strings: ['从来没有真正的绝境, 只有心灵的迷途','Never really desperate, only the lost of the soul'],
+                        startDelay: 300,
+                        typeSpeed: 100,
+                        loop: true,
+                        backSpeed: 50,
+                        showCursor: true
+                    });
+                </script>
+                
             </div>
         </div>
     </div>
 </div>
 
+
 <script>
     // 每天切换 banner 图.  Switch banner image every day.
-    $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay() + '.jpg)');
+    var bannerUrl = "/medias/banner/" + new Date().getDay() + '.jpg';
+    $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
 </script>
+
+
+    </div>
+</div>
+
+<main class="content">
+
+    
+
+<div id="category-cloud" class="container chip-container">
+    <div class="card">
+        <div class="card-content">
+            <div class="tag-title center-align">
+                <i class="fas fa-bookmark"></i>&nbsp;&nbsp;文章分类
+            </div>
+            <div class="tag-chips">
+                
+                
+                
+                <a href="/categories/Hexo%E5%8D%9A%E5%AE%A2/" title="Hexo博客: 14">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-active "
+                            style="background-color: #F9EBEA;">Hexo博客
+                        <span class="tag-length">14</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/categories/%E5%8A%9E%E5%85%AC%E8%BD%AF%E4%BB%B6/" title="办公软件: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            style="background-color: #F5EEF8;">办公软件
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/categories/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/" title="编程语言: 4">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            style="background-color: #D5F5E3;">编程语言
+                        <span class="tag-length">4</span>
+                    </span>
+                </a>
+                
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    
+
+    <article id="articles" class="container articles">
+        <div class="row tags-posts">
+            
+            <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/2020/05/04/Hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%EF%BC%881%EF%BC%89%EF%BC%9AMac%E7%AB%AF%E4%BD%BF%E7%94%A8Hexo+GitHub%20Pages%E6%90%AD%E5%BB%BA%E5%85%8D%E8%B4%B9%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/">
+                        <div class="card-image tag-image">
+                            
+                            <img src="/medias/featureimages/Hexo.png" class="responsive-img" alt="Hexo博客搭建（1）：Mac端使用Hexo+GitHub Pages搭建免费个人博客">
+                            
+                            <span class="card-title">Hexo博客搭建（1）：Mac端使用Hexo+GitHub Pages搭建免费个人博客</span>
+                        </div>
+                    </a>
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                
+自己创建博客的过程整理，供日后查阅。本人Mac端，使用Hexo和GitHub搭建的博客。一步一步操作就可以。
+废话不多说了，下面开始。
+
+
+
+基本介绍
+选择哪种方案搭建博客
+
+参考这篇文章，免费搭建个人博客的几种高效方案，最终选定hexo
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-05-04
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/Hexo%E5%8D%9A%E5%AE%A2/" class="post-category">
+                                    Hexo博客
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/Hexo-Blog/">
+                            <span class="chip bg-color">Hexo_Blog</span>
+                        </a>
+                        
+                        <a href="/tags/%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/">
+                            <span class="chip bg-color">博客教程</span>
+                        </a>
+                        
+                        <a href="/tags/GitHub/">
+                            <span class="chip bg-color">GitHub</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/2020/05/03/Markdown%EF%BC%881%EF%BC%89%EF%BC%9A%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95%E5%AD%A6%E4%B9%A0%E5%8F%8A%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/">
+                        <div class="card-image tag-image">
+                            
+                            <img src="/medias/featureimages/Markdown.png" class="responsive-img" alt="Markdown（1）：基础语法学习及快速入门">
+                            
+                            <span class="card-title">Markdown（1）：基础语法学习及快速入门</span>
+                        </div>
+                    </a>
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                
+零到1新手，花了两天时间，4月30日把自己的第一个博客搭建成功。5.1放假除了上课做作业，空闲时间学习了博客主题配置、GitHub图床、Markdown语法、小书匠Markdown一些操作等基础知识。陆续整合到博客上，方便以后查阅，也作为
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-05-03
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/Hexo%E5%8D%9A%E5%AE%A2/" class="post-category">
+                                    Hexo博客
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/Hexo-Blog/">
+                            <span class="chip bg-color">Hexo_Blog</span>
+                        </a>
+                        
+                        <a href="/tags/Markdown/">
+                            <span class="chip bg-color">Markdown</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </div>
+    </article>
+</main>
+
+
+<div class="container paging">
+    <div class="row">
+        <div class="col s6 m4 l4">
+            
+            <a href="/categories/Hexo%E5%8D%9A%E5%AE%A2/page/2/"
+               class="left btn-floating btn-large waves-effect waves-light bg-color">
+                <i class="fas fa-angle-left"></i>
+            </a>
+            
+        </div>
+        <div class="page-info col m4 l4 hide-on-small-only">
+            <div class="center-align b-text-gray">3 / 3</div>
+        </div>
+        <div class="col s6 m4 l4">
+            
+            <a class="right btn-floating btn-large disabled">
+                <i class="fas fa-angle-right"></i>
+            </a>
+            
+        </div>
+    </div>
+</div>
+
+
+
 
     <footer class="page-footer bg-color">
     
