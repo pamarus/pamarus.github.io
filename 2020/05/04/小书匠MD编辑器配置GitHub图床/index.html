@@ -450,10 +450,25 @@
                 
 
                 
-
+                <div class="info-break-policy">
+                    <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
+                    318
+                </div>
                 
 
                 
+                <div class="info-break-policy">
+                    <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
+                    1 分
+                </div>
+                
+
+                
+                    <div id="busuanzi_container_page_pv" class="info-break-policy">
+                        <i class="far fa-eye fa-fw"></i>阅读次数:&nbsp;&nbsp;
+                        <span id="busuanzi_value_page_pv"></span>
+                    </div>
+				
             </div>
         </div>
         <hr class="clearfix">
@@ -464,7 +479,7 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="创建GitHub仓库"><a href="#创建GitHub仓库" class="headerlink" title="创建GitHub仓库"></a>创建GitHub仓库</h2><p>上一篇博客搭建教程有写，见 <a href="https://pamarus.github.io/2020/05/04/hexo-bo-ke-da-jian-1-mac-duan-shi-yong-hexo-github-pages-da-jian-mian-fei-ge-ren-bo-ke/#toc-heading-12">4.1.2. GitHub创建个人仓库</a>,图中仓库名写上自己喜欢的就好。我使用的库名时候Images。</p>
+                <h2 id="创建GitHub仓库"><a href="#创建GitHub仓库" class="headerlink" title="创建GitHub仓库"></a>创建GitHub仓库</h2><p>上一篇博客搭建教程有写，见 <a target="_blank" rel="noopener" href="https://pamarus.github.io/2020/05/04/hexo-bo-ke-da-jian-1-mac-duan-shi-yong-hexo-github-pages-da-jian-mian-fei-ge-ren-bo-ke/#toc-heading-12">4.1.2. GitHub创建个人仓库</a>,图中仓库名写上自己喜欢的就好。我使用的库名时候Images。</p>
 <p><img src="https://note.youdao.com/yws/api/personal/file/WEB99a9e5541e7777993386b31592ff0f53?method=download&shareKey=5d2726b29071aaf2c64c1bdb0f459d5e" alt="01创建仓库"></p>
 <h2 id="创建Token"><a href="#创建Token" class="headerlink" title="创建Token"></a>创建Token</h2><p><img src="https://note.youdao.com/yws/api/personal/file/WEB0fcf6e2662a9e7881404b21c4965ca31?method=download&shareKey=8c57ede9ec5d7cc35b91aa4d3f1b6627" alt="02点击setting"></p>
 <p><img src="https://note.youdao.com/yws/api/personal/file/WEBc0f5788f122fb0ff223010f1c1eeb710?method=download&shareKey=8f1cc3f3290ec6752d0076ee970aac6a" alt="03进入setting页面"></p>
@@ -505,7 +520,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://pamarus.github.io/2020/05/04/%E5%B0%8F%E4%B9%A6%E5%8C%A0MD%E7%BC%96%E8%BE%91%E5%99%A8%E9%85%8D%E7%BD%AEGitHub%E5%9B%BE%E5%BA%8A/">https://pamarus.github.io/2020/05/04/%E5%B0%8F%E4%B9%A6%E5%8C%A0MD%E7%BC%96%E8%BE%91%E5%99%A8%E9%85%8D%E7%BD%AEGitHub%E5%9B%BE%E5%BA%8A/</a>
+                    <a href="https://pamarus.github/2020/05/04/%E5%B0%8F%E4%B9%A6%E5%8C%A0MD%E7%BC%96%E8%BE%91%E5%99%A8%E9%85%8D%E7%BD%AEGitHub%E5%9B%BE%E5%BA%8A/">https://pamarus.github/2020/05/04/%E5%B0%8F%E4%B9%A6%E5%8C%A0MD%E7%BC%96%E8%BE%91%E5%99%A8%E9%85%8D%E7%BD%AEGitHub%E5%9B%BE%E5%BA%8A/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -1151,8 +1166,8 @@
             tocSelector: '#toc-content',
             contentSelector: '#articleContent',
             headingsOffset: -($(window).height() * 0.4 - 45),
-            collapseDepth: Number('0'),
-            headingSelector: 'h2, h3, h4'
+            collapseDepth: Number('1'),
+            headingSelector: 'h1, h2, h3, h4, h5, h6'
         });
 
         // modify the toc link href to support Chinese.
@@ -1164,7 +1179,7 @@
 
         // modify the heading title id to support Chinese.
         i = 0;
-        $('#articleContent').children('h2, h3, h4').each(function () {
+        $('#articleContent').children('h1, h2, h3, h4, h5, h6').each(function () {
             $(this).attr('id', tocHeading + (++i));
         });
 
@@ -1295,6 +1310,9 @@
             |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
             <br>
             
+            &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
+                class="white-color">23.4k</span>&nbsp;字
+            
             
             
             
@@ -1323,7 +1341,7 @@
 
 
 
-    <a href="mailto:jiaqi0725@gmail.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
+    <a href="mailto:jiaqi0725@gmail.com" class="tooltipped" target="_blank" data-tooltip="Email联系我：jiaqi0725@gmail.com" data-position="top" data-delay="50">
         <i class="fas fa-envelope-open"></i>
     </a>
 

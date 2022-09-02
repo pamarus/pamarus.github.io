@@ -446,10 +446,25 @@
                 
 
                 
-
+                <div class="info-break-policy">
+                    <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
+                    275
+                </div>
                 
 
                 
+                <div class="info-break-policy">
+                    <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
+                    1 分
+                </div>
+                
+
+                
+                    <div id="busuanzi_container_page_pv" class="info-break-policy">
+                        <i class="far fa-eye fa-fw"></i>阅读次数:&nbsp;&nbsp;
+                        <span id="busuanzi_value_page_pv"></span>
+                    </div>
+				
             </div>
         </div>
         <hr class="clearfix">
@@ -496,7 +511,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://pamarus.github.io/2020/06/15/Markdown%EF%BC%883%EF%BC%89%EF%BC%9A%E5%9B%BE%E7%89%87%E6%A0%B7%E5%BC%8F%E4%BC%98%E5%8C%96%E7%BE%8E%E5%8C%96/">https://pamarus.github.io/2020/06/15/Markdown%EF%BC%883%EF%BC%89%EF%BC%9A%E5%9B%BE%E7%89%87%E6%A0%B7%E5%BC%8F%E4%BC%98%E5%8C%96%E7%BE%8E%E5%8C%96/</a>
+                    <a href="https://pamarus.github/2020/06/15/Markdown%EF%BC%883%EF%BC%89%EF%BC%9A%E5%9B%BE%E7%89%87%E6%A0%B7%E5%BC%8F%E4%BC%98%E5%8C%96%E7%BE%8E%E5%8C%96/">https://pamarus.github/2020/06/15/Markdown%EF%BC%883%EF%BC%89%EF%BC%9A%E5%9B%BE%E7%89%87%E6%A0%B7%E5%BC%8F%E4%BC%98%E5%8C%96%E7%BE%8E%E5%8C%96/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -1126,8 +1141,8 @@
             tocSelector: '#toc-content',
             contentSelector: '#articleContent',
             headingsOffset: -($(window).height() * 0.4 - 45),
-            collapseDepth: Number('0'),
-            headingSelector: 'h2, h3, h4'
+            collapseDepth: Number('1'),
+            headingSelector: 'h1, h2, h3, h4, h5, h6'
         });
 
         // modify the toc link href to support Chinese.
@@ -1139,7 +1154,7 @@
 
         // modify the heading title id to support Chinese.
         i = 0;
-        $('#articleContent').children('h2, h3, h4').each(function () {
+        $('#articleContent').children('h1, h2, h3, h4, h5, h6').each(function () {
             $(this).attr('id', tocHeading + (++i));
         });
 
@@ -1270,6 +1285,9 @@
             |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
             <br>
             
+            &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
+                class="white-color">23.4k</span>&nbsp;字
+            
             
             
             
@@ -1298,7 +1316,7 @@
 
 
 
-    <a href="mailto:jiaqi0725@gmail.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
+    <a href="mailto:jiaqi0725@gmail.com" class="tooltipped" target="_blank" data-tooltip="Email联系我：jiaqi0725@gmail.com" data-position="top" data-delay="50">
         <i class="fas fa-envelope-open"></i>
     </a>
 
