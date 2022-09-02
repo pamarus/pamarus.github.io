@@ -286,62 +286,9 @@
 </header>
 
     
-<style>
-    .carousel-control {
-        width: 45px;
-        height: 45px;
-        line-height: 55px;
-        border-radius: 45px;
-        background: transparent;
-        cursor: pointer;
-        z-index: 100;
-    }
-
-    #prev-cover {
-        position: absolute;
-        top: 48%;
-        left: 8px;
-    }
-
-    #next-cover {
-        position: absolute;
-        top: 48%;
-        right: 8px;;
-    }
-
-    #prev-cover i {
-        margin-right: 3px;
-    }
-
-    #next-cover i {
-        margin-left: 3px;
-    }
-
-    .carousel-control:hover {
-        background-color: rgba(0, 0, 0, .4);
-    }
-
-    .carousel-control i {
-        color: #fff;
-        font-size: 2.4rem;
-    }
-</style>
-
-
-
-<div class="carousel carousel-slider center index-cover" data-indicators="true" style="margin-top: -64px;">
-    
-        <div id="prev-cover" class="left waves-effect carousel-control">
-            <i class="icon fa fa-angle-left"></i>
-        </div>
-        <div id="next-cover" class="right waves-effect carousel-control">
-            <i class="icon fa fa-angle-right"></i>
-        </div>
-    
-
-    <div class="carousel-item red white-text bg-cover about-cover">
-        <div class="container">
-            <div class="row">
+    <div class="bg-cover pd-header about-cover">
+    <div class="container">
+    <div class="row">
     <div class="col s10 offset-s1 m8 offset-m2 l8 offset-l2">
         <div class="brand">
             <div class="title center-align">
@@ -378,406 +325,12 @@
 </script>
 
 
-
-            <div class="cover-btns">
-                <a href="#articles" class="waves-effect waves-light btn">
-                    <i class="fa fa-angle-double-down"></i>开始阅读
-                </a>
-
-                
-                    <a href="https://github.com/blinkfox/hexo-theme-matery" class="waves-effect waves-light btn" target="_blank">
-                        <i class="fab fa-github-alt"></i>Github
-                    </a>
-                
-            </div>
-            <div class="cover-social-link">
-    <a href="https://github.com/blinkfox" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
-        <i class="fab fa-github"></i>
-    </a>
-
-
-
-    <a href="mailto:1181062873@qq.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
-        <i class="fas fa-envelope-open"></i>
-    </a>
-
-
-
-
-
-
-
-    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=1181062873" class="tooltipped" target="_blank" data-tooltip="QQ联系我: 1181062873" data-position="top" data-delay="50">
-        <i class="fab fa-qq"></i>
-    </a>
-
-
-
-
-
-
-
-    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
-        <i class="fas fa-rss"></i>
-    </a>
-
-</div>
-        </div>
     </div>
-
-    
-        
-
-        
-            
-            <div class="carousel-item amber white-text carousel-post bg-cover"
-                 style="background-image: url('/medias/featureimages/Hexo.png');">
-                <div class="container">
-                    <div class="row">
-                        <div class="col s10 offset-s1">
-                            <div class="title center-align">Hexo博客搭建（1）：Mac端使用Hexo+GitHub Pages搭建免费个人博客</div>
-                            <div class="description center-align">
-                                
-                                    
-自己创建博客的过程整理，供日后查阅。本人Mac端，使用Hexo和GitHub搭建的博客。一步一步操作就可以。
-废话不多说了，下面开始。
-
-
-
-基本介绍
-选择哪种方案搭建博客
-
-参考这篇文章，免费搭建个人博客的几种高效方案，最终选定hexo
-                                
-                            </div>
-                            <div class="cover-btns">
-                                <a href="/2020/05/04/Hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%EF%BC%881%EF%BC%89%EF%BC%9AMac%E7%AB%AF%E4%BD%BF%E7%94%A8Hexo+GitHub%20Pages%E6%90%AD%E5%BB%BA%E5%85%8D%E8%B4%B9%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" class="waves-effect waves-light btn"
-                                   target="_blank">
-                                    <i class="icon fa fa-eye fa-fw"></i>阅读更多
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        
-            
-            <div class="carousel-item amber white-text carousel-post bg-cover"
-                 style="background-image: url('/medias/featureimages/Hexo.png');">
-                <div class="container">
-                    <div class="row">
-                        <div class="col s10 offset-s1">
-                            <div class="title center-align">Hexo博客搭建（8）：替换使用matery主题及详细配置</div>
-                            <div class="description center-align">
-                                
-                                    在 官网 或 这个网站 Easy Hexo 选择自己喜欢的主题。经过对比，我选择了matery主题。喜欢他的MD风格设计和响应式设计，它的首页banner轮播、文章配图、支持Valine评论系统等特性，也满足自己的需求。
-
-
-特性
-简单漂亮
-                                
-                            </div>
-                            <div class="cover-btns">
-                                <a href="/2020/06/11/Hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%EF%BC%888%EF%BC%89%EF%BC%9A%E6%9B%BF%E6%8D%A2%E4%BD%BF%E7%94%A8matery%E4%B8%BB%E9%A2%98%E5%8F%8A%E8%AF%A6%E7%BB%86%E9%85%8D%E7%BD%AE/" class="waves-effect waves-light btn"
-                                   target="_blank">
-                                    <i class="icon fa fa-eye fa-fw"></i>阅读更多
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        
-            
-            <div class="carousel-item amber white-text carousel-post bg-cover"
-                 style="background-image: url('/medias/featureimages/Markdown.png');">
-                <div class="container">
-                    <div class="row">
-                        <div class="col s10 offset-s1">
-                            <div class="title center-align">Markdown（1）：基础语法学习及快速入门</div>
-                            <div class="description center-align">
-                                
-                                    
-零到1新手，花了两天时间，4月30日把自己的第一个博客搭建成功。5.1放假除了上课做作业，空闲时间学习了博客主题配置、GitHub图床、Markdown语法、小书匠Markdown一些操作等基础知识。陆续整合到博客上，方便以后查阅，也作为
-                                
-                            </div>
-                            <div class="cover-btns">
-                                <a href="/2020/05/03/Markdown%EF%BC%881%EF%BC%89%EF%BC%9A%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95%E5%AD%A6%E4%B9%A0%E5%8F%8A%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/" class="waves-effect waves-light btn"
-                                   target="_blank">
-                                    <i class="icon fa fa-eye fa-fw"></i>阅读更多
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        
-            
-            <div class="carousel-item amber white-text carousel-post bg-cover"
-                 style="background-image: url('/medias/featureimages/Processing.png');">
-                <div class="container">
-                    <div class="row">
-                        <div class="col s10 offset-s1">
-                            <div class="title center-align">Processing学习记录（1）：初相识</div>
-                            <div class="description center-align">
-                                
-                                    第一篇，初相识
-
-
-下载安装这一步不需要详细介绍，作为个人学习记录，在此备注一下：
-访问 Processing官网，根据自己的操作系统，下载对应的版本。我的是mac系统。
-初识界面之前接触eclipse等一些开发软件界面，相比较，Proce
-                                
-                            </div>
-                            <div class="cover-btns">
-                                <a href="/2020/05/24/Processing%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95%EF%BC%881%EF%BC%89%EF%BC%9A%E5%88%9D%E7%9B%B8%E8%AF%86/" class="waves-effect waves-light btn"
-                                   target="_blank">
-                                    <i class="icon fa fa-eye fa-fw"></i>阅读更多
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        
-    
 </div>
-
-<script>
-    $(function () {
-        let coverSlider = $('.carousel');
-
-        //用户触摸轮播自动 restartPlay 是否生效
-        let initUserPressedOrDraggedActive = false
-
-        //用户触摸轮播自动 restartPlay
-        function initUserPressedOrDragged(instance) {
-            setInterval(() => {
-                if (instance.pressed || instance.dragged) {
-                    // console.log('initUserPressedOrDragged: ',instance.pressed,instance.dragged)
-                    restartPlay()
-                }
-            }, 1000)
-        }
-
-        coverSlider.carousel({
-            duration: Number('120'),
-            fullWidth: true,
-            indicators: 'true' === 'true',
-            onCycleTo() {
-                if (!initUserPressedOrDraggedActive) {
-                    // console.log('initUserPressedOrDraggedActive')
-                    initUserPressedOrDragged(this)
-                    initUserPressedOrDraggedActive = true
-                }
-            },
-        })
-
-        let carouselIntervalId;
-        
-        // Loop to call the next cover article picture.
-        let autoCarousel = function () {
-            carouselIntervalId = setInterval(function () {
-                coverSlider.carousel('next');
-            }, 5000);
-        };
-        autoCarousel();
-        
-
-        function restartPlay() {
-            
-            clearInterval(carouselIntervalId);
-            autoCarousel();
-            
-        };
-
-        
-        // prev and next cover post.
-        $('#prev-cover').click(function () {
-            coverSlider.carousel('prev');
-            restartPlay();
-        });
-        $('#next-cover').click(function () {
-            coverSlider.carousel('next');
-            restartPlay();
-        });
-        
-    });
-</script>
-
 
 
 <main class="content">
 
-    
-    <div id="indexCard" class="index-card">
-        <div class="container ">
-            <div class="card">
-                <div class="card-content">
-                    
-                        <div class="dream">
-    
-    <div class="title center-align">
-        <i class="far fa-lightbulb"></i>&nbsp;&nbsp;我的梦想
-    </div>
-    
-    <div class="row">
-        <div class="col l8 offset-l2 m10 offset-m1 s10 offset-s1 center-align text">
-            不是每个人都应该像我这样去建造一座水晶大教堂，但是每个人都应该拥有自己的梦想，设计自己的梦想，追求自己的梦想，实现自己的梦想。梦想是生命的灵魂，是心灵的灯塔，是引导人走向成功的信仰。有了崇高的梦想，只要矢志不渝地追求，梦想就会成为现实，奋斗就会变成壮举，生命就会创造奇迹。——罗伯·舒乐
-        </div>
-    </div>
-</div>
-
-                    
-
-                    
-
-                    
-
-                    
-                    <div id="recommend-sections" class="recommend">
-                        
-
-
-
-
-
-<div class="title"><i class="far fa-thumbs-up"></i>&nbsp;&nbsp;推荐文章</div>
-
-<div class="row">
-
-    
-    
-    <div class="col s12 m6" >
-        
-             <div class="post-card" style="background-image: url('/medias/featureimages/Hexo.png')">
-        
-            <div class="post-body">
-                <div class="post-categories">
-                    
-                        
-                            <a href="/categories/Hexo%E5%8D%9A%E5%AE%A2/" class="category">Hexo博客</a>
-                        
-                    
-                </div>
-                <a href="/2020/05/04/Hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%EF%BC%881%EF%BC%89%EF%BC%9AMac%E7%AB%AF%E4%BD%BF%E7%94%A8Hexo+GitHub%20Pages%E6%90%AD%E5%BB%BA%E5%85%8D%E8%B4%B9%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/">
-                    <h3 class="post-title">Hexo博客搭建（1）：Mac端使用Hexo+GitHub Pages搭建免费个人博客</h3>
-                </a>
-                <p class="post-description">
-                    
-                        
-自己创建博客的过程整理，供日后查阅。本人Mac端，使用Hexo和GitHub搭建的博客。一步一步操作就可以。
-废话不多说了，下面开始。
-
-
-                    
-                </p>
-                <a href="/2020/05/04/Hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%EF%BC%881%EF%BC%89%EF%BC%9AMac%E7%AB%AF%E4%BD%BF%E7%94%A8Hexo+GitHub%20Pages%E6%90%AD%E5%BB%BA%E5%85%8D%E8%B4%B9%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" class="read-more btn waves-effect waves-light" style="background: linear-gradient(to right, #FF5E3A 0%, #FF2A68 100%)" target="_blank">
-                    <i class="icon far fa-eye fa-fw"></i>阅读更多
-                </a>
-            </div>
-        </div>
-    </div>
-    
-    
-    <div class="col s12 m6" >
-        
-             <div class="post-card" style="background-image: url('/medias/featureimages/Hexo.png')">
-        
-            <div class="post-body">
-                <div class="post-categories">
-                    
-                        
-                            <a href="/categories/Hexo%E5%8D%9A%E5%AE%A2/" class="category">Hexo博客</a>
-                        
-                    
-                </div>
-                <a href="/2020/06/11/Hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%EF%BC%888%EF%BC%89%EF%BC%9A%E6%9B%BF%E6%8D%A2%E4%BD%BF%E7%94%A8matery%E4%B8%BB%E9%A2%98%E5%8F%8A%E8%AF%A6%E7%BB%86%E9%85%8D%E7%BD%AE/">
-                    <h3 class="post-title">Hexo博客搭建（8）：替换使用matery主题及详细配置</h3>
-                </a>
-                <p class="post-description">
-                    
-                        在 官网 或 这个网站 Easy Hexo 选择自己喜欢的主题。经过对比，我选择了matery主题。喜欢他的MD风格设计和响应式设计，它的首
-                    
-                </p>
-                <a href="/2020/06/11/Hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%EF%BC%888%EF%BC%89%EF%BC%9A%E6%9B%BF%E6%8D%A2%E4%BD%BF%E7%94%A8matery%E4%B8%BB%E9%A2%98%E5%8F%8A%E8%AF%A6%E7%BB%86%E9%85%8D%E7%BD%AE/" class="read-more btn waves-effect waves-light" style="background: linear-gradient(to right, #EF4DB6 0%, #C643FC 100%)" target="_blank">
-                    <i class="icon far fa-eye fa-fw"></i>阅读更多
-                </a>
-            </div>
-        </div>
-    </div>
-    
-    
-    <div class="col s12 m6" data-aos="zoom-in-up">
-        
-             <div class="post-card" style="background-image: url('/medias/featureimages/Markdown.png')">
-        
-            <div class="post-body">
-                <div class="post-categories">
-                    
-                        
-                            <a href="/categories/Hexo%E5%8D%9A%E5%AE%A2/" class="category">Hexo博客</a>
-                        
-                    
-                </div>
-                <a href="/2020/05/03/Markdown%EF%BC%881%EF%BC%89%EF%BC%9A%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95%E5%AD%A6%E4%B9%A0%E5%8F%8A%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/">
-                    <h3 class="post-title">Markdown（1）：基础语法学习及快速入门</h3>
-                </a>
-                <p class="post-description">
-                    
-                        
-零到1新手，花了两天时间，4月30日把自己的第一个博客搭建成功。5.1放假除了上课做作业，空闲时间学习了博客主题配置、GitHub图床、M
-                    
-                </p>
-                <a href="/2020/05/03/Markdown%EF%BC%881%EF%BC%89%EF%BC%9A%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95%E5%AD%A6%E4%B9%A0%E5%8F%8A%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/" class="read-more btn waves-effect waves-light" style="background: linear-gradient(to right, #1AD6FD 0%, #1D62F0 100%)" target="_blank">
-                    <i class="icon far fa-eye fa-fw"></i>阅读更多
-                </a>
-            </div>
-        </div>
-    </div>
-    
-    
-    <div class="col s12 m6" data-aos="zoom-in-up">
-        
-             <div class="post-card" style="background-image: url('/medias/featureimages/Processing.png')">
-        
-            <div class="post-body">
-                <div class="post-categories">
-                    
-                        
-                            <a href="/categories/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/" class="category">编程语言</a>
-                        
-                    
-                </div>
-                <a href="/2020/05/24/Processing%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95%EF%BC%881%EF%BC%89%EF%BC%9A%E5%88%9D%E7%9B%B8%E8%AF%86/">
-                    <h3 class="post-title">Processing学习记录（1）：初相识</h3>
-                </a>
-                <p class="post-description">
-                    
-                        第一篇，初相识
-
-
-下载安装这一步不需要详细介绍，作为个人学习记录，在此备注一下：
-访问 Processing官网，根据自己的操作系统，下载
-                    
-                </p>
-                <a href="/2020/05/24/Processing%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95%EF%BC%881%EF%BC%89%EF%BC%9A%E5%88%9D%E7%9B%B8%E8%AF%86/" class="read-more btn waves-effect waves-light" style="background: linear-gradient(to right, #FFCC00 0%, #FF9500 100%)" target="_blank">
-                    <i class="icon far fa-eye fa-fw"></i>阅读更多
-                </a>
-            </div>
-        </div>
-    </div>
-    
-
-</div>
-
-
-                    </div>
-                    
-                </div>
-            </div>
-        </div>
-    </div>
     
 
     
@@ -788,437 +341,24 @@
             
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2022/07/12/%E5%AE%89%E5%AE%89%E6%88%90%E9%95%BF%E6%97%A5%E8%AE%B0-2022%E5%B9%B407%E6%9C%88/">
+                    <a href="/2020/05/25/Processing%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95%EF%BC%882%EF%BC%89%EF%BC%9A%E4%BD%BF%E7%94%A8%E9%97%AE%E9%A2%98%E5%8F%8A%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95%E6%B1%87%E6%80%BB/">
                         <div class="card-image">
                             
-                            <img src="/medias/featureimages/%E5%B0%81%E9%9D%A2-%E5%AE%89%E5%AE%892022-07.jpg" class="responsive-img" alt="安安成长日记-2022年07月">
+                            <img src="/medias/featureimages/Processing.png" class="responsive-img" alt="Processing学习记录（2）：使用问题及解决方法汇总">
                             
-                            <span class="card-title">安安成长日记-2022年07月</span>
+                            <span class="card-title">Processing学习记录（2）：使用问题及解决方法汇总</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                                这儿有东西被加密了，点击看看😵
+                                这篇集中记录Processing学习及使用过程中遇到的一些问题，解决方法。
                             
                         </div>
                         <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-07-12
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/" class="post-category">
-                                    生活日常
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/">
-                            <span class="chip bg-color">生活日常</span>
-                        </a>
-                        
-                        <a href="/tags/%E5%AE%89%E5%AE%89/">
-                            <span class="chip bg-color">安安</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2022/06/12/%E5%AE%89%E5%AE%89%E6%88%90%E9%95%BF%E6%97%A5%E8%AE%B0-2022%E5%B9%B406%E6%9C%88/">
-                        <div class="card-image">
-                            
-                            <img src="/medias/featureimages/%E5%B0%81%E9%9D%A2-%E5%AE%89%E5%AE%892022-06.jpg" class="responsive-img" alt="安安成长日记-2022年06月">
-                            
-                            <span class="card-title">安安成长日记-2022年06月</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                这儿有东西被加密了，点击看看😵
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-06-12
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/" class="post-category">
-                                    生活日常
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/">
-                            <span class="chip bg-color">生活日常</span>
-                        </a>
-                        
-                        <a href="/tags/%E5%AE%89%E5%AE%89/">
-                            <span class="chip bg-color">安安</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2022/05/19/5S%E5%AE%89%E6%8A%9A%E5%93%84%E7%9D%A1%E6%B3%95/">
-                        <div class="card-image">
-                            
-                            <img src="/medias/featureimages/%E5%B0%81%E9%9D%A2-5S%E5%AE%89%E6%8A%9A%E5%93%84%E7%9D%A1%E6%B3%95.jpg" class="responsive-img" alt="5S安抚哄睡法">
-                            
-                            <span class="card-title">5S安抚哄睡法</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                这儿有东西被加密了，点击看看😵
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-05-19
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/" class="post-category">
-                                    生活日常
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/">
-                            <span class="chip bg-color">生活日常</span>
-                        </a>
-                        
-                        <a href="/tags/%E5%AE%89%E5%AE%89/">
-                            <span class="chip bg-color">安安</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2022/05/16/%E5%AE%89%E5%AE%89%E6%88%90%E9%95%BF%E6%97%A5%E8%AE%B0-2022%E5%B9%B405%E6%9C%88/">
-                        <div class="card-image">
-                            
-                            <img src="/medias/featureimages/%E5%B0%81%E9%9D%A2-%E5%AE%89%E5%AE%892022-05.jpg" class="responsive-img" alt="安安成长日记-2022年05月">
-                            
-                            <span class="card-title">安安成长日记-2022年05月</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                这儿有东西被加密了，点击看看😵
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-05-16
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/" class="post-category">
-                                    生活日常
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/">
-                            <span class="chip bg-color">生活日常</span>
-                        </a>
-                        
-                        <a href="/tags/%E5%AE%89%E5%AE%89/">
-                            <span class="chip bg-color">安安</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2022/05/15/Mac%E7%BB%88%E7%AB%AF%E6%98%BE%E7%A4%BA192%EF%BC%8C%E4%B8%8D%E6%98%BE%E7%A4%BA%E7%94%B5%E8%84%91%E5%90%8D%E5%AD%97%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/">
-                        <div class="card-image">
-                            
-                            <img src="/medias/featureimages/xiaoshujiang.png" class="responsive-img" alt="Mac终端显示192，不显示用户名的解决方法">
-                            
-                            <span class="card-title">Mac终端显示192，不显示用户名的解决方法</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                问题：Mac终端页面本应该显示机器名的，但是显示为192
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-05-15
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/%E5%8A%9E%E5%85%AC%E8%BD%AF%E4%BB%B6/" class="post-category">
-                                    办公软件
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/Mac%E7%BB%88%E7%AB%AF/">
-                            <span class="chip bg-color">Mac终端</span>
-                        </a>
-                        
-                        <a href="/tags/192/">
-                            <span class="chip bg-color">192</span>
-                        </a>
-                        
-                        <a href="/tags/Mac%E9%97%AE%E9%A2%98/">
-                            <span class="chip bg-color">Mac问题</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2022/05/14/%E5%AE%89%E5%AE%89%E6%88%90%E9%95%BF%E6%97%A5%E8%AE%B0-2022%E5%B9%B404%E6%9C%88/">
-                        <div class="card-image">
-                            
-                            <img src="/medias/featureimages/%E5%B0%81%E9%9D%A2-%E5%AE%89%E5%AE%892022-04.jpg" class="responsive-img" alt="安安成长日记-2022年04月">
-                            
-                            <span class="card-title">安安成长日记-2022年04月</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                这儿有东西被加密了，点击看看😵
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-05-14
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/" class="post-category">
-                                    生活日常
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/">
-                            <span class="chip bg-color">生活日常</span>
-                        </a>
-                        
-                        <a href="/tags/%E5%AE%89%E5%AE%89/">
-                            <span class="chip bg-color">安安</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2022/05/14/Hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%EF%BC%889%EF%BC%89%EF%BC%9A%E8%AE%BE%E7%BD%AE%E6%96%87%E7%AB%A0%E5%8A%A0%E5%AF%86/">
-                        <div class="card-image">
-                            
-                            <img src="/medias/featureimages/Hexo.png" class="responsive-img" alt="Hexo博客搭建（9）：设置文章加密">
-                            
-                            <span class="card-title">Hexo博客搭建（9）：设置文章加密</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                计划写宝宝成长日记，希望其他人不能浏览，通过密码验证的方式查看。而Hexo编写的md文章发布生成的静态页面默认是公开不加密的，所有人多可以访问，所以这就需要对博客文章进行加密，有两种方法，其一，通过matery主题中自带的verifyPas
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-05-14
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/Hexo%E5%8D%9A%E5%AE%A2/" class="post-category">
-                                    Hexo博客
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/Hexo-Blog/">
-                            <span class="chip bg-color">Hexo_Blog</span>
-                        </a>
-                        
-                        <a href="/tags/%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/">
-                            <span class="chip bg-color">博客教程</span>
-                        </a>
-                        
-                        <a href="/tags/matery/">
-                            <span class="chip bg-color">matery</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2020/06/15/Markdown%EF%BC%883%EF%BC%89%EF%BC%9A%E5%9B%BE%E7%89%87%E6%A0%B7%E5%BC%8F%E4%BC%98%E5%8C%96%E7%BE%8E%E5%8C%96/">
-                        <div class="card-image">
-                            
-                            <img src="/medias/featureimages/Markdown.png" class="responsive-img" alt="Markdown（3）：图片样式优化美化">
-                            
-                            <span class="card-title">Markdown（3）：图片样式优化美化</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                调整图片大小用markdown编写博客的时候，插入的图片无法调整大小，影响美观度。
-我们可以使用img标签插入图片。
-格式如下：
-1&lt;img src=&quot;链接&quot; width=&quot;宽度&quot; height
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-06-15
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/Hexo%E5%8D%9A%E5%AE%A2/" class="post-category">
-                                    Hexo博客
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/Hexo-Blog/">
-                            <span class="chip bg-color">Hexo_Blog</span>
-                        </a>
-                        
-                        <a href="/tags/Markdown/">
-                            <span class="chip bg-color">Markdown</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2020/06/13/Processing%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95%EF%BC%884%EF%BC%89%EF%BC%9A%E6%8F%8F%E8%BE%B9%E5%B1%9E%E6%80%A7%E3%80%81%E5%A1%AB%E5%85%85%E5%92%8C%E8%83%8C%E6%99%AF%E8%89%B2/">
-                        <div class="card-image">
-                            
-                            <img src="/medias/featureimages/Processing.png" class="responsive-img" alt="Processing学习记录（4）：描边属性、填充和背景色">
-                            
-                            <span class="card-title">Processing学习记录（4）：描边属性、填充和背景色</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                
-这一篇介绍Processing的描边属性、填充和背景色。Processing绘图默认的是浅灰色背景、黑色线条、白色的图形（如下图）。若想改变这些默认值，需要使用background()、stroke()、fill()函数。
-
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-06-13
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-05-25
                             </span>
                             <span class="publish-author">
                                 
@@ -1247,24 +387,72 @@
             
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2020/06/11/Hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%EF%BC%888%EF%BC%89%EF%BC%9A%E6%9B%BF%E6%8D%A2%E4%BD%BF%E7%94%A8matery%E4%B8%BB%E9%A2%98%E5%8F%8A%E8%AF%A6%E7%BB%86%E9%85%8D%E7%BD%AE/">
+                    <a href="/2020/05/24/Processing%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95%EF%BC%881%EF%BC%89%EF%BC%9A%E5%88%9D%E7%9B%B8%E8%AF%86/">
                         <div class="card-image">
                             
-                            <img src="/medias/featureimages/Hexo.png" class="responsive-img" alt="Hexo博客搭建（8）：替换使用matery主题及详细配置">
+                            <img src="/medias/featureimages/Processing.png" class="responsive-img" alt="Processing学习记录（1）：初相识">
                             
-                            <span class="card-title">Hexo博客搭建（8）：替换使用matery主题及详细配置</span>
+                            <span class="card-title">Processing学习记录（1）：初相识</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                                在 官网 或 这个网站 Easy Hexo 选择自己喜欢的主题。经过对比，我选择了matery主题。喜欢他的MD风格设计和响应式设计，它的首页banner轮播、文章配图、支持Valine评论系统等特性，也满足自己的需求。
+                                第一篇，初相识
                             
                         </div>
                         <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-06-11
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-05-24
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/" class="post-category">
+                                    编程语言
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/Processing/">
+                            <span class="chip bg-color">Processing</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/2020/05/19/Hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%EF%BC%886%EF%BC%89%EF%BC%9AValine%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F%E4%BC%98%E5%8C%96/">
+                        <div class="card-image">
+                            
+                            <img src="/medias/featureimages/Hexo.png" class="responsive-img" alt="Hexo博客搭建（6）：Valine评论系统优化">
+                            
+                            <span class="card-title">Hexo博客搭建（6）：Valine评论系统优化</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                
+上一篇安装好valine评论系统，但是还要一些细节需要优化。
+
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-05-19
                             </span>
                             <span class="publish-author">
                                 
@@ -1286,16 +474,16 @@
                             <span class="chip bg-color">Hexo_Blog</span>
                         </a>
                         
+                        <a href="/tags/NexT/">
+                            <span class="chip bg-color">NexT</span>
+                        </a>
+                        
                         <a href="/tags/%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/">
                             <span class="chip bg-color">博客教程</span>
                         </a>
                         
-                        <a href="/tags/GitHub/">
-                            <span class="chip bg-color">GitHub</span>
-                        </a>
-                        
-                        <a href="/tags/matery/">
-                            <span class="chip bg-color">matery</span>
+                        <a href="/tags/Valine/">
+                            <span class="chip bg-color">Valine</span>
                         </a>
                         
                     </div>
@@ -1305,24 +493,136 @@
             
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2020/06/04/Hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%EF%BC%887%EF%BC%89%EF%BC%9ANexT%E4%B8%BB%E9%A2%98%E6%97%A0custom.styl%E6%96%87%E4%BB%B6%EF%BC%8C%E5%A6%82%E4%BD%95%E8%87%AA%E5%AE%9A%E4%B9%89%E6%A0%B7%E5%BC%8F/">
+                    <a href="/2020/05/18/valine%E8%AF%84%E8%AE%BA%E6%B5%8B%E8%AF%95/">
                         <div class="card-image">
                             
-                            <img src="/medias/featureimages/Hexo.png" class="responsive-img" alt="Hexo博客搭建（7）：NexT主题无custom.styl文件，如何自定义样式">
                             
-                            <span class="card-title">Hexo博客搭建（7）：NexT主题无custom.styl文件，如何自定义样式</span>
+                            <img src="/medias/featureimages/23.jpg" class="responsive-img" alt="valine评论测试">
+                            
+                            <span class="card-title">valine评论测试</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                                我的Hexo博客主题版本是 v4.2.0，NexT主题版本是 v7.8.0，没有 next/source/css/_custom/ 文件夹和 custom.styl 文件，而网上很多教程都是在这个 custom.styl 文件中添加自定义C
+                                valine评论测试  :smile:
+
                             
                         </div>
                         <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-06-04
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-05-18
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/Hexo%E5%8D%9A%E5%AE%A2/" class="post-category">
+                                    Hexo博客
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/Hexo-Blog/">
+                            <span class="chip bg-color">Hexo_Blog</span>
+                        </a>
+                        
+                        <a href="/tags/NexT/">
+                            <span class="chip bg-color">NexT</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/2020/05/17/Hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%EF%BC%885%EF%BC%89%EF%BC%9ANexT%E4%B8%BB%E9%A2%98-%E9%9B%86%E6%88%90valine%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/">
+                        <div class="card-image">
+                            
+                            <img src="/medias/featureimages/Hexo.png" class="responsive-img" alt="Hexo博客搭建（5）：NexT主题-集成valine评论系统">
+                            
+                            <span class="card-title">Hexo博客搭建（5）：NexT主题-集成valine评论系统</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                打开next文件夹内的配置文件_config.yml，找到 Comments Settings，选择一个评论系统，设置为true。可选的有：changyan，disqus，disqusjs，gitalk，livere，valine，这几个都
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-05-17
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/Hexo%E5%8D%9A%E5%AE%A2/" class="post-category">
+                                    Hexo博客
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/Hexo-Blog/">
+                            <span class="chip bg-color">Hexo_Blog</span>
+                        </a>
+                        
+                        <a href="/tags/NexT/">
+                            <span class="chip bg-color">NexT</span>
+                        </a>
+                        
+                        <a href="/tags/%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/">
+                            <span class="chip bg-color">博客教程</span>
+                        </a>
+                        
+                        <a href="/tags/Valine/">
+                            <span class="chip bg-color">Valine</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/2020/05/13/Hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%EF%BC%884%EF%BC%89%EF%BC%9ANexT%E4%B8%BB%E9%A2%98-%E9%A6%96%E9%A1%B5%E4%B8%8D%E6%98%BE%E7%A4%BA%E5%85%A8%E9%83%A8%E5%86%85%E5%AE%B9%EF%BC%8C%E6%98%BE%E7%A4%BA%E9%A2%84%E8%A7%88/">
+                        <div class="card-image">
+                            
+                            <img src="/medias/featureimages/Hexo.png" class="responsive-img" alt="Hexo博客搭建（4）：NexT主题-首页不显示全部内容，显示预览">
+                            
+                            <span class="card-title">Hexo博客搭建（4）：NexT主题-首页不显示全部内容，显示预览</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                
+Next主题的基本配置都差不多了，现在还有一个问题。就是首页默认显示文章的全部内容，而不是预览，如何设置只显示部分呢？
+
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-05-13
                             </span>
                             <span class="publish-author">
                                 
@@ -1359,12 +659,12 @@
             
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2020/05/25/Processing%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95%EF%BC%883%EF%BC%89%EF%BC%9A2D%E5%87%A0%E4%BD%95%E5%9B%BE%E5%BD%A2%E7%BB%98%E5%88%B6/">
+                    <a href="/2020/05/06/Hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%EF%BC%883%EF%BC%89%EF%BC%9ANexT%E4%B8%BB%E9%A2%98-%E8%B7%B3%E8%BD%AC%E5%88%86%E7%B1%BB%E3%80%81%E6%A0%87%E7%AD%BE%E3%80%81%E5%85%B3%E4%BA%8E%E9%A1%B5%E6%8A%A5%E9%94%99%EF%BC%8C%E6%97%A0%E6%B3%95%E6%89%93%E5%BC%80%E6%80%8E%E4%B9%88%E5%8A%9E/">
                         <div class="card-image">
                             
-                            <img src="/medias/featureimages/Processing.png" class="responsive-img" alt="Processing学习记录（3）：2D几何图形绘制">
+                            <img src="/medias/featureimages/Hexo.png" class="responsive-img" alt="Hexo博客搭建（3）：NexT主题-跳转分类、标签、关于页报错，无法打开怎么办">
                             
-                            <span class="card-title">Processing学习记录（3）：2D几何图形绘制</span>
+                            <span class="card-title">Hexo博客搭建（3）：NexT主题-跳转分类、标签、关于页报错，无法打开怎么办</span>
                         </div>
                     </a>
 
@@ -1372,20 +672,20 @@
                         <div class="summary block-with-text">
                             
                                 
-这一篇介绍Processing基本的2D几何图标的绘制。
+上一步我们成功安装主题，打开博客地址，操作之后会发现，点击首页、归档菜单是正常打开的。但是点击分类、标签、关于页时，跳转404，报错无法打开。如下图：
 
                             
                         </div>
                         <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-05-25
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-05-06
                             </span>
                             <span class="publish-author">
                                 
                                 <i class="fas fa-bookmark fa-fw icon-category"></i>
                                 
-                                <a href="/categories/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/" class="post-category">
-                                    编程语言
+                                <a href="/categories/Hexo%E5%8D%9A%E5%AE%A2/" class="post-category">
+                                    Hexo博客
                                 </a>
                                 
                                 
@@ -1396,8 +696,297 @@
                     
                     <div class="card-action article-tags">
                         
-                        <a href="/tags/Processing/">
-                            <span class="chip bg-color">Processing</span>
+                        <a href="/tags/Hexo-Blog/">
+                            <span class="chip bg-color">Hexo_Blog</span>
+                        </a>
+                        
+                        <a href="/tags/NexT/">
+                            <span class="chip bg-color">NexT</span>
+                        </a>
+                        
+                        <a href="/tags/%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/">
+                            <span class="chip bg-color">博客教程</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/2020/05/05/Markdown%EF%BC%882%EF%BC%89%EF%BC%9A%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0%E5%A4%9A%E4%B8%AAtags/">
+                        <div class="card-image">
+                            
+                            <img src="/medias/featureimages/Markdown.png" class="responsive-img" alt="Markdown（2）：如何添加多个tags">
+                            
+                            <span class="card-title">Markdown（2）：如何添加多个tags</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                显示问题
+
+当添加多个标签时，小书匠编辑器默认是这样的：
+
+1tags: 新建,模板,小书匠
+
+此时网页端显示就会有问题，三个标签识别为一个:
+
+#新建,模板,小书匠
+
+解决方法
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-05-05
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/Hexo%E5%8D%9A%E5%AE%A2/" class="post-category">
+                                    Hexo博客
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/Hexo-Blog/">
+                            <span class="chip bg-color">Hexo_Blog</span>
+                        </a>
+                        
+                        <a href="/tags/Markdown/">
+                            <span class="chip bg-color">Markdown</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/2020/05/04/%E5%B0%8F%E4%B9%A6%E5%8C%A0MD%E7%BC%96%E8%BE%91%E5%99%A8%E9%85%8D%E7%BD%AEGitHub%E5%9B%BE%E5%BA%8A/">
+                        <div class="card-image">
+                            
+                            <img src="/medias/featureimages/xiaoshujiang.png" class="responsive-img" alt="小书匠MD编辑器配置GitHub图床">
+                            
+                            <span class="card-title">小书匠MD编辑器配置GitHub图床</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                创建GitHub仓库上一篇博客搭建教程有写，见 4.1.2. GitHub创建个人仓库,图中仓库名写上自己喜欢的就好。我使用的库名时候Images。
+
+创建Token
+
+
+GitHub网页右上角头像下拉，选择setting，点击最下面Dev
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-05-04
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/Hexo%E5%8D%9A%E5%AE%A2/" class="post-category">
+                                    Hexo博客
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/Hexo-Blog/">
+                            <span class="chip bg-color">Hexo_Blog</span>
+                        </a>
+                        
+                        <a href="/tags/GitHub/">
+                            <span class="chip bg-color">GitHub</span>
+                        </a>
+                        
+                        <a href="/tags/Markdown/">
+                            <span class="chip bg-color">Markdown</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/2020/05/04/Hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%EF%BC%882%EF%BC%89%EF%BC%9A%E6%9B%B4%E6%8D%A2%E4%B8%BB%E9%A2%98%E6%A0%B7%E5%BC%8F%E5%8F%8A%E5%9F%BA%E6%9C%AC%E5%B1%9E%E6%80%A7%E9%85%8D%E7%BD%AE/">
+                        <div class="card-image">
+                            
+                            <img src="/medias/featureimages/Hexo.png" class="responsive-img" alt="Hexo博客搭建（2）：更换主题样式及基本属性配置">
+                            
+                            <span class="card-title">Hexo博客搭建（2）：更换主题样式及基本属性配置</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                ——以NexT为例
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-05-04
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/Hexo%E5%8D%9A%E5%AE%A2/" class="post-category">
+                                    Hexo博客
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/Hexo-Blog/">
+                            <span class="chip bg-color">Hexo_Blog</span>
+                        </a>
+                        
+                        <a href="/tags/NexT/">
+                            <span class="chip bg-color">NexT</span>
+                        </a>
+                        
+                        <a href="/tags/%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/">
+                            <span class="chip bg-color">博客教程</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/2020/05/04/Hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%EF%BC%881%EF%BC%89%EF%BC%9AMac%E7%AB%AF%E4%BD%BF%E7%94%A8Hexo+GitHub%20Pages%E6%90%AD%E5%BB%BA%E5%85%8D%E8%B4%B9%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/">
+                        <div class="card-image">
+                            
+                            <img src="/medias/featureimages/Hexo.png" class="responsive-img" alt="Hexo博客搭建（1）：Mac端使用Hexo+GitHub Pages搭建免费个人博客">
+                            
+                            <span class="card-title">Hexo博客搭建（1）：Mac端使用Hexo+GitHub Pages搭建免费个人博客</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                
+自己创建博客的过程整理，供日后查阅。本人Mac端，使用Hexo和GitHub搭建的博客。一步一步操作就可以。
+废话不多说了，下面开始。
+
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-05-04
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/Hexo%E5%8D%9A%E5%AE%A2/" class="post-category">
+                                    Hexo博客
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/Hexo-Blog/">
+                            <span class="chip bg-color">Hexo_Blog</span>
+                        </a>
+                        
+                        <a href="/tags/%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/">
+                            <span class="chip bg-color">博客教程</span>
+                        </a>
+                        
+                        <a href="/tags/GitHub/">
+                            <span class="chip bg-color">GitHub</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/2020/05/03/Markdown%EF%BC%881%EF%BC%89%EF%BC%9A%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95%E5%AD%A6%E4%B9%A0%E5%8F%8A%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/">
+                        <div class="card-image">
+                            
+                            <img src="/medias/featureimages/Markdown.png" class="responsive-img" alt="Markdown（1）：基础语法学习及快速入门">
+                            
+                            <span class="card-title">Markdown（1）：基础语法学习及快速入门</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                
+零到1新手，花了两天时间，4月30日把自己的第一个博客搭建成功。5.1放假除了上课做作业，空闲时间学习了博客主题配置、GitHub图床、Markdown语法、小书匠Markdown一些操作等基础知识。陆续整合到博客上，方便以后查阅，也作为
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-05-03
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/Hexo%E5%8D%9A%E5%AE%A2/" class="post-category">
+                                    Hexo博客
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/Hexo-Blog/">
+                            <span class="chip bg-color">Hexo_Blog</span>
+                        </a>
+                        
+                        <a href="/tags/Markdown/">
+                            <span class="chip bg-color">Markdown</span>
                         </a>
                         
                     </div>
@@ -1415,18 +1004,18 @@
     <div class="row">
         <div class="col s6 m4 l4">
             
-            <a class="left btn-floating btn-large disabled">
+            <a href="/"
+               class="left btn-floating btn-large waves-effect waves-light bg-color">
                 <i class="fas fa-angle-left"></i>
             </a>
             
         </div>
         <div class="page-info col m4 l4 hide-on-small-only">
-            <div class="center-align b-text-gray">1 / 2</div>
+            <div class="center-align b-text-gray">2 / 2</div>
         </div>
         <div class="col s6 m4 l4">
             
-            <a href="/page/2/"
-               class="right btn-floating btn-large waves-effect waves-light bg-color">
+            <a class="right btn-floating btn-large disabled">
                 <i class="fas fa-angle-right"></i>
             </a>
             
