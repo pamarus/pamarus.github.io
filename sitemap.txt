@@ -1,3 +1,4 @@
+https://pamarus.github.io/about/index.html
 https://pamarus.github.io/2020/05/19/hexo-bo-ke-da-jian-6-valine-ping-lun-xi-tong-you-hua/
 https://pamarus.github.io/2020/06/11/hexo-bo-ke-da-jian-8-ti-huan-shi-yong-matery-zhu-ti-ji-xiang-xi-pei-zhi/
 https://pamarus.github.io/2020/05/04/hexo-bo-ke-da-jian-1-mac-duan-shi-yong-hexo-github-pages-da-jian-mian-fei-ge-ren-bo-ke/
@@ -7,7 +8,6 @@ https://pamarus.github.io/friends/index.html
 https://pamarus.github.io/contact/index.html
 https://pamarus.github.io/tags/index.html
 https://pamarus.github.io/categories/index.html
-https://pamarus.github.io/about/index.html
 https://pamarus.github.io/2022/05/15/mac-zhong-duan-xian-shi-192-bu-xian-shi-dian-nao-ming-zi-de-jie-jue-fang-fa/
 https://pamarus.github.io/2020/05/04/xiao-shu-jiang-md-bian-ji-qi-pei-zhi-github-tu-chuang/
 https://pamarus.github.io/2020/05/03/markdown-1-ji-chu-yu-fa-xue-xi-ji-kuai-su-ru-men/
