@@ -110,6 +110,51 @@
   </url>
   
   <url>
+    <loc>https://pamarus.github.io/2022/07/12/an-an-cheng-chang-ri-ji-2022-nian-07-yue/</loc>
+    
+    <lastmod>2022-08-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pamarus.github.io/2022/05/14/an-an-cheng-chang-ri-ji-2022-nian-04-yue/</loc>
+    
+    <lastmod>2022-08-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pamarus.github.io/2022/06/12/an-an-cheng-chang-ri-ji-2022-nian-06-yue/</loc>
+    
+    <lastmod>2022-08-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pamarus.github.io/2022/05/16/an-an-cheng-chang-ri-ji-2022-nian-05-yue/</loc>
+    
+    <lastmod>2022-08-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pamarus.github.io/2022/05/19/5s-an-fu-hong-shui-fa/</loc>
+    
+    <lastmod>2022-05-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://pamarus.github.io/2020/05/03/markdown-1-ji-chu-yu-fa-xue-xi-ji-kuai-su-ru-men/</loc>
     
     <lastmod>2022-05-16</lastmod>
@@ -312,6 +357,20 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>https://pamarus.github.io/tags/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/</loc>
+    <lastmod>2022-09-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://pamarus.github.io/tags/%E5%AE%89%E5%AE%89/</loc>
+    <lastmod>2022-09-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
   
   <url>
@@ -330,6 +389,13 @@
   
   <url>
     <loc>https://pamarus.github.io/categories/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/</loc>
+    <lastmod>2022-09-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://pamarus.github.io/categories/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/</loc>
     <lastmod>2022-09-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
