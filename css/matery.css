@@ -880,7 +880,7 @@ article a {
 
 article a:hover {
     font-weight: bold;
-    color: #42b983;
+    color: #4F72E1;
     text-decoration: underline;
 }
 
@@ -1088,7 +1088,7 @@ article .article-tags .chip {
 
 #artDetail .post-cate {
     float: right;
-    color: #42b983;
+    color: #4F72E1;
 }
 
 #artDetail .post-cate a {
