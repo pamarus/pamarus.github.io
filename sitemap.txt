@@ -1,3 +1,4 @@
+https://pamarus.github.io/2020/07/11/jia-mi-ce-shi/
 https://pamarus.github.io/2022/05/15/mac-zhong-duan-xian-shi-192-bu-xian-shi-dian-nao-ming-zi-de-jie-jue-fang-fa/
 https://pamarus.github.io/2022/05/14/an-an-cheng-chang-ri-ji-2022-nian-04-yue/
 https://pamarus.github.io/about/index.html
@@ -42,6 +43,8 @@ https://pamarus.github.io/tags/Markdown/
 https://pamarus.github.io/tags/Processing/
 https://pamarus.github.io/tags/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/
 https://pamarus.github.io/tags/%E5%AE%89%E5%AE%89/
+https://pamarus.github.io/tags/%E6%A0%87%E7%AD%BE1/
+https://pamarus.github.io/tags/%E6%A0%87%E7%AD%BE2/
 https://pamarus.github.io/categories/Hexo%E5%8D%9A%E5%AE%A2/
 https://pamarus.github.io/categories/%E5%8A%9E%E5%85%AC%E8%BD%AF%E4%BB%B6/
 https://pamarus.github.io/categories/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/
