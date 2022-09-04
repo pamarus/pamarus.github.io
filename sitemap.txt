@@ -1,4 +1,6 @@
+https://pamarus.github.io/2022/05/14/an-an-cheng-chang-ri-ji-2022-nian-04-yue/
 https://pamarus.github.io/2022/07/11/jia-mi-ce-shi/
+https://pamarus.github.io/2022/05/16/an-an-cheng-chang-ri-ji-2022-nian-05-yue/
 https://pamarus.github.io/2020/06/11/hexo-bo-ke-da-jian-8-ti-huan-shi-yong-matery-zhu-ti-ji-xiang-xi-pei-zhi/
 https://pamarus.github.io/2022/05/15/mac-zhong-duan-xian-shi-192-bu-xian-shi-dian-nao-ming-zi-de-jie-jue-fang-fa/
 https://pamarus.github.io/about/index.html
@@ -11,6 +13,9 @@ https://pamarus.github.io/contact/index.html
 https://pamarus.github.io/tags/index.html
 https://pamarus.github.io/categories/index.html
 https://pamarus.github.io/2020/05/04/xiao-shu-jiang-md-bian-ji-qi-pei-zhi-github-tu-chuang/
+https://pamarus.github.io/2022/08/08/an-an-cheng-chang-ri-ji-2022-nian-08-yue/
+https://pamarus.github.io/2022/07/12/an-an-cheng-chang-ri-ji-2022-nian-07-yue/
+https://pamarus.github.io/2022/06/12/an-an-cheng-chang-ri-ji-2022-nian-06-yue/
 https://pamarus.github.io/2020/05/03/markdown-1-ji-chu-yu-fa-xue-xi-ji-kuai-su-ru-men/
 https://pamarus.github.io/2022/05/14/hexo-bo-ke-da-jian-9-she-zhi-wen-zhang-jia-mi/
 https://pamarus.github.io/2020/05/05/markdown-2-ru-he-tian-jia-duo-ge-tags/
@@ -25,6 +30,8 @@ https://pamarus.github.io/2020/05/13/hexo-bo-ke-da-jian-4-next-zhu-ti-shou-ye-bu
 https://pamarus.github.io/2020/05/04/hexo-bo-ke-da-jian-2-geng-huan-zhu-ti-yang-shi-ji-ji-ben-shu-xing-pei-zhi/
 https://pamarus.github.io/2020/05/18/valine-ping-lun-ce-shi/
 https://pamarus.github.io/
+https://pamarus.github.io/tags/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/
+https://pamarus.github.io/tags/%E5%AE%89%E5%AE%89/
 https://pamarus.github.io/tags/Hexo-Blog/
 https://pamarus.github.io/tags/GitHub/
 https://pamarus.github.io/tags/%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/
@@ -38,6 +45,7 @@ https://pamarus.github.io/tags/Markdown/
 https://pamarus.github.io/tags/Processing/
 https://pamarus.github.io/tags/%E6%A0%87%E7%AD%BE2/
 https://pamarus.github.io/tags/%E5%8A%A0%E5%AF%86%E6%96%87%E7%AB%A0/
+https://pamarus.github.io/categories/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/
 https://pamarus.github.io/categories/Hexo%E5%8D%9A%E5%AE%A2/
 https://pamarus.github.io/categories/%E5%8A%9E%E5%85%AC%E8%BD%AF%E4%BB%B6/
 https://pamarus.github.io/categories/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/
