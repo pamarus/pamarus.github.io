@@ -6,7 +6,7 @@
   <link href="https://pamarus.github.io/atom.xml" rel="self"/>
   
   <link href="https://pamarus.github.io/"/>
-  <updated>2022-08-27T06:03:25.080Z</updated>
+  <updated>2022-08-07T09:08:13.413Z</updated>
   <id>https://pamarus.github.io/</id>
   
   <author>
@@ -15,27 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>安安成长日记-2022年08月</title>
-    <link href="https://pamarus.github.io/2022/08/08/an-an-cheng-chang-ri-ji-2022-nian-08-yue/"/>
-    <id>https://pamarus.github.io/2022/08/08/an-an-cheng-chang-ri-ji-2022-nian-08-yue/</id>
-    <published>2022-08-08T11:56:34.000Z</published>
-    <updated>2022-08-27T06:03:25.080Z</updated>
-    
-    
-    <summary type="html">这儿有东西被加密了，点击看看😵</summary>
-    
-    
-    
-    <category term="生活日常" scheme="https://pamarus.github.io/categories/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/"/>
-    
-    
-    <category term="生活日常" scheme="https://pamarus.github.io/tags/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/"/>
-    
-    <category term="安安" scheme="https://pamarus.github.io/tags/%E5%AE%89%E5%AE%89/"/>
-    
-  </entry>
   
   <entry>
     <title>安安成长日记-2022年07月</title>
@@ -483,6 +462,37 @@
     <category term="博客教程" scheme="https://pamarus.github.io/tags/%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/"/>
     
     <category term="NexT" scheme="https://pamarus.github.io/tags/NexT/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Markdown（2）：如何添加多个tags</title>
+    <link href="https://pamarus.github.io/2020/05/05/markdown-2-ru-he-tian-jia-duo-ge-tags/"/>
+    <id>https://pamarus.github.io/2020/05/05/markdown-2-ru-he-tian-jia-duo-ge-tags/</id>
+    <published>2020-05-04T16:30:27.000Z</published>
+    <updated>2022-05-14T04:37:21.000Z</updated>
+    
+    
+    <summary type="html">&lt;h1&gt;1. 显示问题&lt;/h1&gt;
+
+&lt;p&gt;当添加多个标签时，小书匠编辑器默认是这样的：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://note.youdao.com/yws/api/personal/file/7974c49acbada6fc5bd659cb52dd2c08?method=download&amp;amp;shareKey=be637b2e713c0332e75da57b26281961&quot; alt=&quot;01卡片的文章摘要显示效果&quot;&gt;&lt;/p&gt;
+&lt;pre class=&quot;line-numbers language-jsx&quot; data-language=&quot;jsx&quot;&gt;&lt;code class=&quot;language-jsx&quot;&gt;&lt;span class=&quot;token literal-property property&quot;&gt;tags&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; 新建&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;模板&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;小书匠&lt;span aria-hidden=&quot;true&quot; class=&quot;line-numbers-rows&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;此时网页端显示就会有问题，三个标签识别为一个:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;#新建,模板,小书匠&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&quot;解决方法&quot;&gt;2. 解决方法&lt;/h1&gt;</summary>
+    
+    
+    
+    <category term="Hexo博客" scheme="https://pamarus.github.io/categories/Hexo%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+    <category term="Hexo_Blog" scheme="https://pamarus.github.io/tags/Hexo-Blog/"/>
+    
+    <category term="Markdown" scheme="https://pamarus.github.io/tags/Markdown/"/>
     
   </entry>
   
