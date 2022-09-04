@@ -2,9 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://pamarus.github.io/2022/05/15/mac-zhong-duan-xian-shi-192-bu-xian-shi-dian-nao-ming-zi-de-jie-jue-fang-fa/</loc>
+    
+    <lastmod>2022-09-04</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://pamarus.github.io/2022/05/14/an-an-cheng-chang-ri-ji-2022-nian-04-yue/</loc>
     
-    <lastmod>2022-09-03</lastmod>
+    <lastmod>2022-09-04</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -95,15 +104,6 @@
     <loc>https://pamarus.github.io/categories/index.html</loc>
     
     <lastmod>2022-09-02</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pamarus.github.io/2022/05/15/mac-zhong-duan-xian-shi-192-bu-xian-shi-dian-nao-ming-zi-de-jie-jue-fang-fa/</loc>
-    
-    <lastmod>2022-08-31</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>

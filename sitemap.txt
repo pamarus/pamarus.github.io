@@ -1,3 +1,4 @@
+https://pamarus.github.io/2022/05/15/mac-zhong-duan-xian-shi-192-bu-xian-shi-dian-nao-ming-zi-de-jie-jue-fang-fa/
 https://pamarus.github.io/2022/05/14/an-an-cheng-chang-ri-ji-2022-nian-04-yue/
 https://pamarus.github.io/about/index.html
 https://pamarus.github.io/2020/05/19/hexo-bo-ke-da-jian-6-valine-ping-lun-xi-tong-you-hua/
@@ -9,7 +10,6 @@ https://pamarus.github.io/friends/index.html
 https://pamarus.github.io/contact/index.html
 https://pamarus.github.io/tags/index.html
 https://pamarus.github.io/categories/index.html
-https://pamarus.github.io/2022/05/15/mac-zhong-duan-xian-shi-192-bu-xian-shi-dian-nao-ming-zi-de-jie-jue-fang-fa/
 https://pamarus.github.io/2020/05/04/xiao-shu-jiang-md-bian-ji-qi-pei-zhi-github-tu-chuang/
 https://pamarus.github.io/2022/07/12/an-an-cheng-chang-ri-ji-2022-nian-07-yue/
 https://pamarus.github.io/2022/06/12/an-an-cheng-chang-ri-ji-2022-nian-06-yue/
