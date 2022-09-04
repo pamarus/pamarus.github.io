@@ -42,7 +42,6 @@ https://pamarus.github.io/tags/192/
 https://pamarus.github.io/tags/Mac%E9%97%AE%E9%A2%98/
 https://pamarus.github.io/tags/Markdown/
 https://pamarus.github.io/tags/Processing/
-https://pamarus.github.io/tags/%E6%A0%87%E7%AD%BE2/
 https://pamarus.github.io/categories/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/
 https://pamarus.github.io/categories/Hexo%E5%8D%9A%E5%AE%A2/
 https://pamarus.github.io/categories/%E5%8A%9E%E5%85%AC%E8%BD%AF%E4%BB%B6/
