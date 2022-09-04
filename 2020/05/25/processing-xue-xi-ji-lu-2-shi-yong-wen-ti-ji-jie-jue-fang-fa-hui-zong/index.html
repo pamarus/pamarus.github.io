@@ -293,19 +293,6 @@
 </header>
 
     
-<script src="/libs/cryptojs/crypto-js.min.js"></script>
-<script>
-    (function() {
-        let pwd = '';
-        if (pwd && pwd.length > 0) {
-            if (pwd !== CryptoJS.SHA256(prompt('请输入访问本文章的密码')).toString(CryptoJS.enc.Hex)) {
-                alert('密码错误，将返回主页！');
-                location.href = '/';
-            }
-        }
-    })();
-</script>
-
 
 
 
@@ -464,7 +451,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    98
+                    99
                 </div>
                 
 
@@ -502,7 +489,7 @@
                 <p>这篇集中记录Processing学习及使用过程中遇到的一些问题，解决方法。</p>
 <span id="more"></span>
 
-<h1 id="中文显示乱码"><a href="#中文显示乱码" class="headerlink" title="中文显示乱码"></a>中文显示乱码</h1><ul>
+<h1 id="中文显示乱码">1. 中文显示乱码</h1><ul>
 <li>问题，在Processing输入中文时，显示为乱码，如下</li>
 </ul>
 <p><img src="https://raw.githubusercontent.com/Pamarus/Images/master/2020/Processing%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95%EF%BC%882%EF%BC%89-01.jpg" alt="Processing学习记录（2）-01"></p>
@@ -1348,7 +1335,7 @@
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">25k</span>&nbsp;字
+                class="white-color">25.1k</span>&nbsp;字
             
             
             

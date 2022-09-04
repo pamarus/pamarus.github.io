@@ -293,19 +293,6 @@
 </header>
 
     
-<script src="/libs/cryptojs/crypto-js.min.js"></script>
-<script>
-    (function() {
-        let pwd = '';
-        if (pwd && pwd.length > 0) {
-            if (pwd !== CryptoJS.SHA256(prompt('请输入访问本文章的密码')).toString(CryptoJS.enc.Hex)) {
-                alert('密码错误，将返回主页！');
-                location.href = '/';
-            }
-        }
-    })();
-</script>
-
 
 
 
@@ -459,7 +446,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-07-11
+                    2022-07-11
                 </div>
                 
 
@@ -468,7 +455,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    4
+                    6
                 </div>
                 
 
@@ -503,10 +490,18 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <span id="more"></span>
-
-<p>加密测试</p>
-
+                <div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="71f9cefbf4c7746ae9a782493a17fc03db0cbbe7632dc0ec0b0f56df81b5faf8">4630436162ade97ba2718b7d0c4b3b63ffdeec587444c3ee2f97d6707062425ed18f6776af66b66248a009db2a6d9a5ffc83df889c55984d18df1406a77eba8ae509195b2ad31d79beb23a48f0454a71032bbc3f8c37cdadad1b8f52c6a68b73c36600b77a336868328f6717a37f426a</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">
                 
             </div>
             <hr/>
@@ -532,7 +527,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://pamarus.github.io/2020/07/11/jia-mi-ce-shi/">https://pamarus.github.io/2020/07/11/jia-mi-ce-shi/</a>
+                    <a href="https://pamarus.github.io/2022/07/11/jia-mi-ce-shi/">https://pamarus.github.io/2022/07/11/jia-mi-ce-shi/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -1008,83 +1003,29 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/2022/05/14/hexo-bo-ke-da-jian-9-she-zhi-wen-zhang-jia-mi/">
+                <a href="/2022/07/11/jia-mi-ce-shi/">
                     <div class="card-image">
                         
-                        <img src="/medias/featureimages/Hexo.png" class="responsive-img" alt="Hexo博客搭建（9）：设置文章加密">
                         
-                        <span class="card-title">Hexo博客搭建（9）：设置文章加密</span>
+                        <img src="/medias/featureimages/8.jpg" class="responsive-img" alt="加密测试">
+                        
+                        <span class="card-title">加密测试</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            计划写宝宝成长日记，希望其他人不能浏览，通过密码验证的方式查看。而Hexo编写的md文章发布生成的静态页面默认是公开不加密的，所有人多可以访问，所以这就需要对博客文章进行加密，有两种方法，其一，通过matery主题中自带的verifyPas
-                        
-                    </div>
-                    <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2022-05-14
-                        </span>
-                        <span class="publish-author">
-                            
-                            <i class="fas fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/Hexo%E5%8D%9A%E5%AE%A2/" class="post-category">
-                                    Hexo博客
-                                </a>
-                            
-                            
-                        </span>
-                    </div>
-                </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/Hexo-Blog/">
-                        <span class="chip bg-color">Hexo_Blog</span>
-                    </a>
-                    
-                    <a href="/tags/%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/">
-                        <span class="chip bg-color">博客教程</span>
-                    </a>
-                    
-                    <a href="/tags/matery/">
-                        <span class="chip bg-color">matery</span>
-                    </a>
-                    
-                </div>
-                
-            </div>
-        </div>
-        
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">
-                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
-            </div>
-            <div class="card">
-                <a href="/2020/06/15/markdown-3-tu-pian-yang-shi-you-hua-mei-hua/">
-                    <div class="card-image">
-                        
-                        <img src="/medias/featureimages/Markdown.png" class="responsive-img" alt="Markdown（3）：图片样式优化美化">
-                        
-                        <span class="card-title">Markdown（3）：图片样式优化美化</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary block-with-text">
-                        
-                            
+                            Here's something encrypted, password is required to continue reading.
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-06-15
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-07-11
                             </span>
                         <span class="publish-author">
                             
@@ -1098,15 +1039,72 @@
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Hexo-Blog/">
-                        <span class="chip bg-color">Hexo_Blog</span>
+                    <a href="/tags/%E6%A0%87%E7%AD%BE1/">
+                        <span class="chip bg-color">标签1</span>
                     </a>
                     
-                    <a href="/tags/Markdown/">
-                        <span class="chip bg-color">Markdown</span>
+                    <a href="/tags/%E6%A0%87%E7%AD%BE2/">
+                        <span class="chip bg-color">标签2</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/2022/05/15/mac-zhong-duan-xian-shi-192-bu-xian-shi-dian-nao-ming-zi-de-jie-jue-fang-fa/">
+                    <div class="card-image">
+                        
+                        <img src="/medias/featureimages/xiaoshujiang.png" class="responsive-img" alt="Mac终端显示192，不显示用户名的解决方法">
+                        
+                        <span class="card-title">Mac终端显示192，不显示用户名的解决方法</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            问题：Mac终端页面本应该显示机器名的，但是显示为192
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-05-15
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E5%8A%9E%E5%85%AC%E8%BD%AF%E4%BB%B6/" class="post-category">
+                                    办公软件
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/Mac%E7%BB%88%E7%AB%AF/">
+                        <span class="chip bg-color">Mac终端</span>
+                    </a>
+                    
+                    <a href="/tags/192/">
+                        <span class="chip bg-color">192</span>
+                    </a>
+                    
+                    <a href="/tags/Mac%E9%97%AE%E9%A2%98/">
+                        <span class="chip bg-color">Mac问题</span>
                     </a>
                     
                 </div>
@@ -1353,7 +1351,7 @@
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">25k</span>&nbsp;字
+                class="white-color">25.1k</span>&nbsp;字
             
             
             

@@ -6,7 +6,7 @@
   <link href="https://pamarus.github.io/atom.xml" rel="self"/>
   
   <link href="https://pamarus.github.io/"/>
-  <updated>2022-05-19T08:22:17.520Z</updated>
+  <updated>2022-09-04T04:45:08.142Z</updated>
   <id>https://pamarus.github.io/</id>
   
   <author>
@@ -17,23 +17,23 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>5S安抚哄睡法</title>
-    <link href="https://pamarus.github.io/2022/05/19/5s-an-fu-hong-shui-fa/"/>
-    <id>https://pamarus.github.io/2022/05/19/5s-an-fu-hong-shui-fa/</id>
-    <published>2022-05-19T04:40:34.000Z</published>
-    <updated>2022-05-19T08:22:17.520Z</updated>
+    <title>加密测试</title>
+    <link href="https://pamarus.github.io/2022/07/11/jia-mi-ce-shi/"/>
+    <id>https://pamarus.github.io/2022/07/11/jia-mi-ce-shi/</id>
+    <published>2022-07-11T07:25:00.000Z</published>
+    <updated>2022-09-04T04:45:08.142Z</updated>
     
     
-    <summary type="html">这儿有东西被加密了，点击看看😵</summary>
+    <summary type="html">Here&#39;s something encrypted, password is required to continue reading.</summary>
     
     
     
-    <category term="生活日常" scheme="https://pamarus.github.io/categories/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/"/>
+    <category term="Hexo博客" scheme="https://pamarus.github.io/categories/Hexo%E5%8D%9A%E5%AE%A2/"/>
     
     
-    <category term="生活日常" scheme="https://pamarus.github.io/tags/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/"/>
+    <category term="标签1" scheme="https://pamarus.github.io/tags/%E6%A0%87%E7%AD%BE1/"/>
     
-    <category term="安安" scheme="https://pamarus.github.io/tags/%E5%AE%89%E5%AE%89/"/>
+    <category term="标签2" scheme="https://pamarus.github.io/tags/%E6%A0%87%E7%AD%BE2/"/>
     
   </entry>
   
@@ -84,33 +84,6 @@
   </entry>
   
   <entry>
-    <title>加密测试</title>
-    <link href="https://pamarus.github.io/2020/07/11/jia-mi-ce-shi/"/>
-    <id>https://pamarus.github.io/2020/07/11/jia-mi-ce-shi/</id>
-    <published>2020-07-11T07:25:00.000Z</published>
-    <updated>2022-09-04T03:05:09.214Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;span</summary>
-        
-      
-    
-    
-    
-    <category term="Hexo博客" scheme="https://pamarus.github.io/categories/Hexo%E5%8D%9A%E5%AE%A2/"/>
-    
-    
-    <category term="标签1" scheme="https://pamarus.github.io/tags/%E6%A0%87%E7%AD%BE1/"/>
-    
-    <category term="标签2" scheme="https://pamarus.github.io/tags/%E6%A0%87%E7%AD%BE2/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Markdown（3）：图片样式优化美化</title>
     <link href="https://pamarus.github.io/2020/06/15/markdown-3-tu-pian-yang-shi-you-hua-mei-hua/"/>
     <id>https://pamarus.github.io/2020/06/15/markdown-3-tu-pian-yang-shi-you-hua-mei-hua/</id>
@@ -122,7 +95,10 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;调整图片大小&quot;&gt;&lt;a href=&quot;#调整图片大小&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;h1 id=&quot;调整图片大小&quot;&gt;1. 调整图片大小&lt;/h1&gt;&lt;p&gt;用markdown编写博客的时候，插入的图片无法调整大小，影响美观度。&lt;/p&gt;
+&lt;p&gt;我们可以使用&lt;code&gt;img&lt;/code&gt;标签插入图片。&lt;/p&gt;
+&lt;p&gt;格式如下：&lt;/p&gt;
+&lt;pre</summary>
         
       
     
@@ -175,9 +151,9 @@
     
     <category term="Hexo_Blog" scheme="https://pamarus.github.io/tags/Hexo-Blog/"/>
     
-    <category term="博客教程" scheme="https://pamarus.github.io/tags/%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/"/>
-    
     <category term="GitHub" scheme="https://pamarus.github.io/tags/GitHub/"/>
+    
+    <category term="博客教程" scheme="https://pamarus.github.io/tags/%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/"/>
     
     <category term="matery" scheme="https://pamarus.github.io/tags/matery/"/>
     
@@ -211,9 +187,9 @@
     
     <category term="Hexo_Blog" scheme="https://pamarus.github.io/tags/Hexo-Blog/"/>
     
-    <category term="NexT" scheme="https://pamarus.github.io/tags/NexT/"/>
-    
     <category term="博客教程" scheme="https://pamarus.github.io/tags/%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="NexT" scheme="https://pamarus.github.io/tags/NexT/"/>
     
   </entry>
   
@@ -295,9 +271,9 @@
     
     <category term="Hexo_Blog" scheme="https://pamarus.github.io/tags/Hexo-Blog/"/>
     
-    <category term="NexT" scheme="https://pamarus.github.io/tags/NexT/"/>
-    
     <category term="博客教程" scheme="https://pamarus.github.io/tags/%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="NexT" scheme="https://pamarus.github.io/tags/NexT/"/>
     
     <category term="Valine" scheme="https://pamarus.github.io/tags/Valine/"/>
     
@@ -347,9 +323,9 @@
     
     <category term="Hexo_Blog" scheme="https://pamarus.github.io/tags/Hexo-Blog/"/>
     
-    <category term="NexT" scheme="https://pamarus.github.io/tags/NexT/"/>
-    
     <category term="博客教程" scheme="https://pamarus.github.io/tags/%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="NexT" scheme="https://pamarus.github.io/tags/NexT/"/>
     
     <category term="Valine" scheme="https://pamarus.github.io/tags/Valine/"/>
     
@@ -374,9 +350,9 @@
     
     <category term="Hexo_Blog" scheme="https://pamarus.github.io/tags/Hexo-Blog/"/>
     
-    <category term="NexT" scheme="https://pamarus.github.io/tags/NexT/"/>
-    
     <category term="博客教程" scheme="https://pamarus.github.io/tags/%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="NexT" scheme="https://pamarus.github.io/tags/NexT/"/>
     
   </entry>
   
@@ -399,9 +375,9 @@
     
     <category term="Hexo_Blog" scheme="https://pamarus.github.io/tags/Hexo-Blog/"/>
     
-    <category term="NexT" scheme="https://pamarus.github.io/tags/NexT/"/>
-    
     <category term="博客教程" scheme="https://pamarus.github.io/tags/%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="NexT" scheme="https://pamarus.github.io/tags/NexT/"/>
     
   </entry>
   
@@ -413,17 +389,17 @@
     <updated>2022-05-14T04:37:21.000Z</updated>
     
     
-    <summary type="html">&lt;h1&gt;显示问题&lt;/h1&gt;
+    <summary type="html">&lt;h1&gt;1. 显示问题&lt;/h1&gt;
 
 &lt;p&gt;当添加多个标签时，小书匠编辑器默认是这样的：&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://note.youdao.com/yws/api/personal/file/7974c49acbada6fc5bd659cb52dd2c08?method=download&amp;shareKey=be637b2e713c0332e75da57b26281961&quot; alt=&quot;01卡片的文章摘要显示效果&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://note.youdao.com/yws/api/personal/file/7974c49acbada6fc5bd659cb52dd2c08?method=download&amp;amp;shareKey=be637b2e713c0332e75da57b26281961&quot; alt=&quot;01卡片的文章摘要显示效果&quot;&gt;&lt;/p&gt;
 &lt;pre class=&quot;line-numbers language-jsx&quot; data-language=&quot;jsx&quot;&gt;&lt;code class=&quot;language-jsx&quot;&gt;&lt;span class=&quot;token literal-property property&quot;&gt;tags&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; 新建&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;模板&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;小书匠&lt;span aria-hidden=&quot;true&quot; class=&quot;line-numbers-rows&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;此时网页端显示就会有问题，三个标签识别为一个:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;#新建,模板,小书匠&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h1 id=&quot;解决方法&quot;&gt;&lt;a href=&quot;#解决方法&quot; class=&quot;headerlink&quot; title=&quot;解决方法&quot;&gt;&lt;/a&gt;解决方法&lt;/h1&gt;</summary>
+&lt;h1 id=&quot;解决方法&quot;&gt;2. 解决方法&lt;/h1&gt;</summary>
     
     
     
@@ -448,7 +424,7 @@
       
         
         
-    <summary type="html">&lt;h2 id=&quot;创建GitHub仓库&quot;&gt;1. 创建GitHub仓库&lt;/h2&gt;&lt;p&gt;上一篇博客搭建教程有写，见 &lt;a</summary>
+    <summary type="html">&lt;h2 id=&quot;创建GitHub仓库&quot;&gt;0.1. 创建GitHub仓库&lt;/h2&gt;&lt;p&gt;上一篇博客搭建教程有写，见 &lt;a</summary>
         
       
     
@@ -488,9 +464,9 @@
     
     <category term="Hexo_Blog" scheme="https://pamarus.github.io/tags/Hexo-Blog/"/>
     
-    <category term="NexT" scheme="https://pamarus.github.io/tags/NexT/"/>
-    
     <category term="博客教程" scheme="https://pamarus.github.io/tags/%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="NexT" scheme="https://pamarus.github.io/tags/NexT/"/>
     
   </entry>
   
@@ -514,9 +490,32 @@
     
     <category term="Hexo_Blog" scheme="https://pamarus.github.io/tags/Hexo-Blog/"/>
     
+    <category term="GitHub" scheme="https://pamarus.github.io/tags/GitHub/"/>
+    
     <category term="博客教程" scheme="https://pamarus.github.io/tags/%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/"/>
     
-    <category term="GitHub" scheme="https://pamarus.github.io/tags/GitHub/"/>
+  </entry>
+  
+  <entry>
+    <title>Markdown（1）：基础语法学习及快速入门</title>
+    <link href="https://pamarus.github.io/2020/05/03/markdown-1-ji-chu-yu-fa-xue-xi-ji-kuai-su-ru-men/"/>
+    <id>https://pamarus.github.io/2020/05/03/markdown-1-ji-chu-yu-fa-xue-xi-ji-kuai-su-ru-men/</id>
+    <published>2020-05-03T03:12:43.000Z</published>
+    <updated>2022-05-16T09:38:32.000Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;零到1新手，花了两天时间，4月30日把自己的第一个博客搭建成功。5.1放假除了上课做作业，空闲时间学习了博客主题配置、GitHub图床、Markdown语法、小书匠Markdown一些操作等基础知识。陆续整合到博客上，方便以后查阅，也作为最初的文章。&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="Hexo博客" scheme="https://pamarus.github.io/categories/Hexo%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+    <category term="Hexo_Blog" scheme="https://pamarus.github.io/tags/Hexo-Blog/"/>
+    
+    <category term="Markdown" scheme="https://pamarus.github.io/tags/Markdown/"/>
     
   </entry>
   

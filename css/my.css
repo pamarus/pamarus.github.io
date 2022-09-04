@@ -23,13 +23,13 @@
 }
 
 .archive .article:hover {
-  border-left-color: #4F72E1;
+  border-left-color: #3C8CE7;
 }
 
 .archive .article h6 a:hover {
-  color: #4F72E1;               /*标题文字色*/
+  color: #3C8CE7;               /*标题文字色*/
   font-weight: 500;             /*标题文字加粗*/
-  border-bottom-color: #4F72E1; /*标题hover下划线色*/
+  border-bottom-color: #3C8CE7; /*标题hover下划线色*/
 }
 
 .archive .article time {
@@ -48,7 +48,7 @@
 }
 
 .archive .article h6 a:hover {
-  border-bottom-color: #0f9d58;
+  border-bottom-color: #3C8CE7;
 }
 
 

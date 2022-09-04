@@ -293,19 +293,6 @@
 </header>
 
     
-<script src="/libs/cryptojs/crypto-js.min.js"></script>
-<script>
-    (function() {
-        let pwd = '';
-        if (pwd && pwd.length > 0) {
-            if (pwd !== CryptoJS.SHA256(prompt('请输入访问本文章的密码')).toString(CryptoJS.enc.Hex)) {
-                alert('密码错误，将返回主页！');
-                location.href = '/';
-            }
-        }
-    })();
-</script>
-
 
 
 
@@ -472,7 +459,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    317
+                    320
                 </div>
                 
 
@@ -507,16 +494,16 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="创建GitHub仓库">1. 创建GitHub仓库</h2><p>上一篇博客搭建教程有写，见 <a href="https://pamarus.github.io/2020/05/04/hexo-bo-ke-da-jian-1-mac-duan-shi-yong-hexo-github-pages-da-jian-mian-fei-ge-ren-bo-ke/#toc-heading-12">4.1.2. GitHub创建个人仓库</a>,图中仓库名写上自己喜欢的就好。我使用的库名时候Images。</p>
+                <h2 id="创建GitHub仓库">0.1. 创建GitHub仓库</h2><p>上一篇博客搭建教程有写，见 <a href="https://pamarus.github.io/2020/05/04/hexo-bo-ke-da-jian-1-mac-duan-shi-yong-hexo-github-pages-da-jian-mian-fei-ge-ren-bo-ke/#toc-heading-12">4.1.2. GitHub创建个人仓库</a>,图中仓库名写上自己喜欢的就好。我使用的库名时候Images。</p>
 <p><img src="https://note.youdao.com/yws/api/personal/file/WEB99a9e5541e7777993386b31592ff0f53?method=download&amp;shareKey=5d2726b29071aaf2c64c1bdb0f459d5e" alt="01创建仓库"></p>
-<h2 id="创建Token">2. 创建Token</h2><p><img src="https://note.youdao.com/yws/api/personal/file/WEB0fcf6e2662a9e7881404b21c4965ca31?method=download&amp;shareKey=8c57ede9ec5d7cc35b91aa4d3f1b6627" alt="02点击setting"></p>
+<h2 id="创建Token">0.2. 创建Token</h2><p><img src="https://note.youdao.com/yws/api/personal/file/WEB0fcf6e2662a9e7881404b21c4965ca31?method=download&amp;shareKey=8c57ede9ec5d7cc35b91aa4d3f1b6627" alt="02点击setting"></p>
 <p><img src="https://note.youdao.com/yws/api/personal/file/WEBc0f5788f122fb0ff223010f1c1eeb710?method=download&amp;shareKey=8f1cc3f3290ec6752d0076ee970aac6a" alt="03进入setting页面"></p>
 <p><img src="https://note.youdao.com/yws/api/personal/file/WEB7ff94a641f3e5f6e176a2fdffa9fe870?method=download&amp;shareKey=2369983080aeca1a2f3750cbaff6371b" alt="04选择Personal access tokens"></p>
 <p>GitHub网页右上角头像下拉，选择setting，点击最下面Developer setting →→ Personal access tokens →→ 右上角Generate new token →→ 按照下图这样配置，勾选上repo的相关权限即可。Note填写自己喜欢的。</p>
 <p><img src="https://note.youdao.com/yws/api/personal/file/WEB8c7d327c0982a6a5c57e87959511cf49?method=download&amp;shareKey=7b1b750638a4a9e0ac4c10b7ff44dd87" alt="05token设置"></p>
 <p>生成后，会出现一行数字。记得把Token复制到你的本地，因为一旦关闭网页将不能再看到它。</p>
 <p><img src="https://note.youdao.com/yws/api/personal/file/WEBcbf9ba1da838e9302831b03f4aa653bb?method=download&amp;shareKey=13d71e899c9035009fa196506334ebb8" alt="06成功"></p>
-<h2 id="配置小书匠的GitHub图床">3. 配置小书匠的GitHub图床</h2><p>点击选择githubimg</p>
+<h2 id="配置小书匠的GitHub图床">0.3. 配置小书匠的GitHub图床</h2><p>点击选择githubimg</p>
 <p><img src="https://note.youdao.com/yws/api/personal/file/WEBa1159b0439c8ec80da3b167ea3c0e0c6?method=download&amp;shareKey=3c29f861076f115558fd6a3464f401fa" alt="07选择githubimg"></p>
 <p>自定义名称填写自己喜欢的<br>token填写刚刚创建的token值<br>仓库名称填写第一步创建的GitHub仓库名<br>文件名按照自己习惯填写，示例如下<br><code>/2020/05/</code>：在GitHub仓库内下钻两层文件夹<br><code>{{filename}}</code>：GitHub仓库内图片名即是上传图片的本地名称。</p>
 <p>确定保存后，勾选刚刚创建的图床，最终确定保存。</p>
@@ -1043,7 +1030,7 @@
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            显示问题
+                            1. 显示问题
 
 当添加多个标签时，小书匠编辑器默认是这样的：
 
@@ -1053,7 +1040,7 @@ tags: 新建,模板,小书匠
 
 #新建,模板,小书匠
 
-解决方法
+2. 解决方法
                         
                     </div>
                     <div class="publish-info">
@@ -1131,12 +1118,12 @@ tags: 新建,模板,小书匠
                         <span class="chip bg-color">Hexo_Blog</span>
                     </a>
                     
-                    <a href="/tags/NexT/">
-                        <span class="chip bg-color">NexT</span>
-                    </a>
-                    
                     <a href="/tags/%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/">
                         <span class="chip bg-color">博客教程</span>
+                    </a>
+                    
+                    <a href="/tags/NexT/">
+                        <span class="chip bg-color">NexT</span>
                     </a>
                     
                 </div>
@@ -1383,7 +1370,7 @@ tags: 新建,模板,小书匠
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">25k</span>&nbsp;字
+                class="white-color">25.1k</span>&nbsp;字
             
             
             

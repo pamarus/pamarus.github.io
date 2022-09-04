@@ -293,19 +293,6 @@
 </header>
 
     
-<script src="/libs/cryptojs/crypto-js.min.js"></script>
-<script>
-    (function() {
-        let pwd = '';
-        if (pwd && pwd.length > 0) {
-            if (pwd !== CryptoJS.SHA256(prompt('请输入访问本文章的密码')).toString(CryptoJS.enc.Hex)) {
-                alert('密码错误，将返回主页！');
-                location.href = '/';
-            }
-        }
-    })();
-</script>
-
 
 
 
@@ -434,12 +421,12 @@
                                 <span class="chip bg-color">Hexo_Blog</span>
                             </a>
                         
-                            <a href="/tags/NexT/">
-                                <span class="chip bg-color">NexT</span>
-                            </a>
-                        
                             <a href="/tags/%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/">
                                 <span class="chip bg-color">博客教程</span>
+                            </a>
+                        
+                            <a href="/tags/NexT/">
+                                <span class="chip bg-color">NexT</span>
                             </a>
                         
                             <a href="/tags/Valine/">
@@ -476,7 +463,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    564
+                    573
                 </div>
                 
 
@@ -517,11 +504,11 @@
 
 <span id="more"></span>
 
-<h1 id="统计数字小标题处如何显示中文“评论数”，而不是valine">1. 统计数字小标题处如何显示中文“评论数”，而不是valine</h1><h2 id="实际显示">2. 实际显示</h2><p><img src="https://raw.githubusercontent.com/Pamarus/Images/master/2020/Valine%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F%E4%BC%98%E5%8C%9601-%E9%97%AE%E9%A2%981.jpg" alt="Valine评论系统优化01-问题1"></p>
+<h1 id="统计数字小标题处如何显示中文“评论数”，而不是valine">1. 统计数字小标题处如何显示中文“评论数”，而不是valine</h1><h2 id="实际显示">1.1. 实际显示</h2><p><img src="https://raw.githubusercontent.com/Pamarus/Images/master/2020/Valine%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F%E4%BC%98%E5%8C%9601-%E9%97%AE%E9%A2%981.jpg" alt="Valine评论系统优化01-问题1"></p>
 <p>这是默认行为。因为NexT允许同时开启多个评论系统（例如同时启用valine和gitalk），这时显示「评论数」文字会造成混乱。</p>
-<h2 id="期望效果">3. 期望效果</h2><pre class="line-numbers language-java" data-language="java"><code class="language-java">发表于 <span class="token number">2020</span><span class="token operator">-</span><span class="token number">05</span><span class="token operator">-</span><span class="token number">18</span>   分类于 博客教程  评论数： <span class="token number">1</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<h2 id="期望效果">1.2. 期望效果</h2><pre class="line-numbers language-java" data-language="java"><code class="language-java">发表于 <span class="token number">2020</span><span class="token operator">-</span><span class="token number">05</span><span class="token operator">-</span><span class="token number">18</span>   分类于 博客教程  评论数： <span class="token number">1</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
-<h2 id="解决">4. 解决</h2><p>打开<code>themes -&gt; next -&gt; languages -&gt; zh-CN.yml</code></p>
+<h2 id="解决">1.3. 解决</h2><p>打开<code>themes -&gt; next -&gt; languages -&gt; zh-CN.yml</code></p>
 <p>在<code>post:</code>标签下添加:</p>
 <p><code>comments.valine: 评论数</code> (显示的汉字自定义，最好和其他评论系统有所区分）</p>
 <pre class="line-numbers language-jsx" data-language="jsx"><code class="language-jsx"><span class="token literal-property property">post</span><span class="token operator">:</span>
@@ -529,11 +516,11 @@
   <span class="token literal-property property">posted</span><span class="token operator">:</span> 发表于
   <span class="token literal-property property">edited</span><span class="token operator">:</span> 更新于<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
 
-<h2 id="结果">5. 结果</h2><p><img src="https://raw.githubusercontent.com/Pamarus/Images/master/2020/Valine%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F%E4%BC%98%E5%8C%9602-%E9%97%AE%E9%A2%981.jpg" alt="Valine评论系统优化02-问题1"></p>
+<h2 id="结果">1.4. 结果</h2><p><img src="https://raw.githubusercontent.com/Pamarus/Images/master/2020/Valine%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F%E4%BC%98%E5%8C%9602-%E9%97%AE%E9%A2%981.jpg" alt="Valine评论系统优化02-问题1"></p>
 <p>如 <a href="https://pamarus.github.io/">此博客：https://pamarus.github.io/</a> 所示，正常显示中文<code>评论数</code>。</p>
-<h1 id="如何隐藏浏览器版本和操作系统版本">6. 如何隐藏浏览器版本和操作系统版本</h1><h2 id="问题">7. 问题</h2><p>评论数据的用户名右侧显示了浏览器版本和操作系统版本，我认为这是多余的，目标是隐藏不显示</p>
+<h1 id="如何隐藏浏览器版本和操作系统版本">2. 如何隐藏浏览器版本和操作系统版本</h1><h2 id="问题">2.1. 问题</h2><p>评论数据的用户名右侧显示了浏览器版本和操作系统版本，我认为这是多余的，目标是隐藏不显示</p>
 <p><img src="https://raw.githubusercontent.com/Pamarus/Images/master/2020/Valine%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F%E4%BC%98%E5%8C%9603-%E9%97%AE%E9%A2%982.jpg" alt="Valine评论系统优化03-问题2"></p>
-<h2 id="解决-1">8. 解决</h2><ul>
+<h2 id="解决-1">2.2. 解决</h2><ul>
 <li>进入theme目录下面的<code>source/css</code>文件夹，新建一个文件 <code>custom.styl</code>，如下图</li>
 </ul>
 <p><img src="https://raw.githubusercontent.com/Pamarus/Images/master/2020/Valine%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F%E4%BC%98%E5%8C%9604-%E9%97%AE%E9%A2%982.jpg" alt="Valine评论系统优化04-问题2"></p>
@@ -554,9 +541,9 @@
 <ul>
 <li>hexo g -d部署完成</li>
 </ul>
-<h2 id="最终效果">9. 最终效果</h2><p><img src="https://raw.githubusercontent.com/Pamarus/Images/master/2020/Valine%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F%E4%BC%98%E5%8C%9605-%E9%97%AE%E9%A2%982.jpg" alt="Valine评论系统优化05-问题2"></p>
-<h1 id="分类、标签、关于页关闭评论功能">10. 分类、标签、关于页关闭评论功能</h1><h2 id="需求">11. 需求</h2><p>在NexT主题中，Valine配置之后，默认所有页面都开启评论功能。在部分页面不想或不需要显示评论功能。那么如何隐藏呢？</p>
-<h2 id="设置">12. 设置</h2><p>在 分类、标签、关于页面的本地md文件中，添加comments属性，属性值设置为true或false，来控制打开或关闭该页面的评论功能。</p>
+<h2 id="最终效果">2.3. 最终效果</h2><p><img src="https://raw.githubusercontent.com/Pamarus/Images/master/2020/Valine%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F%E4%BC%98%E5%8C%9605-%E9%97%AE%E9%A2%982.jpg" alt="Valine评论系统优化05-问题2"></p>
+<h1 id="分类、标签、关于页关闭评论功能">3. 分类、标签、关于页关闭评论功能</h1><h2 id="需求">3.1. 需求</h2><p>在NexT主题中，Valine配置之后，默认所有页面都开启评论功能。在部分页面不想或不需要显示评论功能。那么如何隐藏呢？</p>
+<h2 id="设置">3.2. 设置</h2><p>在 分类、标签、关于页面的本地md文件中，添加comments属性，属性值设置为true或false，来控制打开或关闭该页面的评论功能。</p>
 <p>比如分类页，这样设置：</p>
 <pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token operator">--</span><span class="token operator">-</span>
 <span class="token literal-property property">title</span><span class="token operator">:</span> 分类
@@ -566,7 +553,7 @@
 <span class="token operator">--</span><span class="token operator">-</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
 <p>标签页和关于页等同理。</p>
-<h1 id="致谢">13. 致谢</h1><p><a target="_blank" rel="noopener" href="https://blog.csdn.net/a1059526327/article/details/104266761">hexo博客next主题使用valine评论标题部分无法显示中文评论数</a></p>
+<h1 id="致谢">4. 致谢</h1><p><a target="_blank" rel="noopener" href="https://blog.csdn.net/a1059526327/article/details/104266761">hexo博客next主题使用valine评论标题部分无法显示中文评论数</a></p>
 <p><a target="_blank" rel="noopener" href="https://github.com/theme-next/hexo-theme-next/issues/1267">使用 valine 不显示“评论数“文字 #1267</a></p>
 <p><a target="_blank" rel="noopener" href="https://hjxlog.com/posts/20191203a1.html">hexo-Next主题valine评论系统不显示浏览器版本和操作系统版本</a></p>
 
@@ -637,12 +624,12 @@
                                     <span class="chip bg-color">Hexo_Blog</span>
                                 </a>
                             
-                                <a href="/tags/NexT/">
-                                    <span class="chip bg-color">NexT</span>
-                                </a>
-                            
                                 <a href="/tags/%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/">
                                     <span class="chip bg-color">博客教程</span>
+                                </a>
+                            
+                                <a href="/tags/NexT/">
+                                    <span class="chip bg-color">NexT</span>
                                 </a>
                             
                                 <a href="/tags/Valine/">
@@ -1417,7 +1404,7 @@
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">25k</span>&nbsp;字
+                class="white-color">25.1k</span>&nbsp;字
             
             
             

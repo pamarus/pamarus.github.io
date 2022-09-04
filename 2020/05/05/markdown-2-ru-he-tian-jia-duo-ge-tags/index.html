@@ -293,19 +293,6 @@
 </header>
 
     
-<script src="/libs/cryptojs/crypto-js.min.js"></script>
-<script>
-    (function() {
-        let pwd = '';
-        if (pwd && pwd.length > 0) {
-            if (pwd !== CryptoJS.SHA256(prompt('请输入访问本文章的密码')).toString(CryptoJS.enc.Hex)) {
-                alert('密码错误，将返回主页！');
-                location.href = '/';
-            }
-        }
-    })();
-</script>
-
 
 
 
@@ -468,7 +455,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    176
+                    179
                 </div>
                 
 
@@ -503,17 +490,17 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1>显示问题</h1>
+                <h1>1. 显示问题</h1>
 
 <p>当添加多个标签时，小书匠编辑器默认是这样的：</p>
-<p><img src="https://note.youdao.com/yws/api/personal/file/7974c49acbada6fc5bd659cb52dd2c08?method=download&shareKey=be637b2e713c0332e75da57b26281961" alt="01卡片的文章摘要显示效果"></p>
+<p><img src="https://note.youdao.com/yws/api/personal/file/7974c49acbada6fc5bd659cb52dd2c08?method=download&amp;shareKey=be637b2e713c0332e75da57b26281961" alt="01卡片的文章摘要显示效果"></p>
 <pre class="line-numbers language-jsx" data-language="jsx"><code class="language-jsx"><span class="token literal-property property">tags</span><span class="token operator">:</span> 新建<span class="token punctuation">,</span>模板<span class="token punctuation">,</span>小书匠<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
 <p>此时网页端显示就会有问题，三个标签识别为一个:</p>
 <blockquote>
 <p>#新建,模板,小书匠</p>
 </blockquote>
-<h1 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h1><span id="more"></span>
+<h1 id="解决方法">2. 解决方法</h1><span id="more"></span>
 
 <p>如果要添加多个标签，有两种方法书写，都有效：</p>
 <ul>
@@ -539,7 +526,7 @@
 <blockquote>
 <p>#新建   #模板   #小书匠</p>
 </blockquote>
-<h1 id="致谢"><a href="#致谢" class="headerlink" title="致谢"></a>致谢</h1><p><a target="_blank" rel="noopener" href="http://theme-next.iissnan.com/theme-settings.html">NexT主题配置</a></p>
+<h1 id="致谢">3. 致谢</h1><p><a target="_blank" rel="noopener" href="http://theme-next.iissnan.com/theme-settings.html">NexT主题配置</a></p>
 <p><a target="_blank" rel="noopener" href="https://www.zhihu.com/question/42909784">知乎——请问，如何在markdown的tags中添加多个标签，比如有生活，有随笔等？</a></p>
 
                 
@@ -1086,12 +1073,12 @@
                         <span class="chip bg-color">Hexo_Blog</span>
                     </a>
                     
-                    <a href="/tags/NexT/">
-                        <span class="chip bg-color">NexT</span>
-                    </a>
-                    
                     <a href="/tags/%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/">
                         <span class="chip bg-color">博客教程</span>
+                    </a>
+                    
+                    <a href="/tags/NexT/">
+                        <span class="chip bg-color">NexT</span>
                     </a>
                     
                 </div>
@@ -1394,7 +1381,7 @@
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">25k</span>&nbsp;字
+                class="white-color">25.1k</span>&nbsp;字
             
             
             

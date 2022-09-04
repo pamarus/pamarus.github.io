@@ -293,19 +293,6 @@
 </header>
 
     
-<script src="/libs/cryptojs/crypto-js.min.js"></script>
-<script>
-    (function() {
-        let pwd = '';
-        if (pwd && pwd.length > 0) {
-            if (pwd !== CryptoJS.SHA256(prompt('请输入访问本文章的密码')).toString(CryptoJS.enc.Hex)) {
-                alert('密码错误，将返回主页！');
-                location.href = '/';
-            }
-        }
-    })();
-</script>
-
 
 
 
@@ -464,7 +451,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    680
+                    687
                 </div>
                 
 
@@ -502,21 +489,21 @@
                 <p>第一篇，初相识</p>
 <span id="more"></span>
 
-<h1 id="下载安装"><a href="#下载安装" class="headerlink" title="下载安装"></a>下载安装</h1><p>这一步不需要详细介绍，作为个人学习记录，在此备注一下：</p>
+<h1 id="下载安装">1. 下载安装</h1><p>这一步不需要详细介绍，作为个人学习记录，在此备注一下：</p>
 <p>访问 <a target="_blank" rel="noopener" href="https://processing.org/">Processing官网</a>，根据自己的操作系统，下载对应的版本。我的是mac系统。</p>
-<h1 id="初识界面"><a href="#初识界面" class="headerlink" title="初识界面"></a>初识界面</h1><p>之前接触eclipse等一些开发软件界面，相比较，Processing的开发环境非常简单明了。</p>
+<h1 id="初识界面">2. 初识界面</h1><p>之前接触eclipse等一些开发软件界面，相比较，Processing的开发环境非常简单明了。</p>
 <p><img src="https://raw.githubusercontent.com/Pamarus/Images/master/2020/Processing%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%9501-%E7%95%8C%E9%9D%A2.jpg" alt="Processing学习记录01-界面"></p>
 <p>Processing由<code>代码编辑区、工具栏、标签栏、控制台</code>组成。<br>Mac菜单栏在电脑界面顶栏。<br>当点击工具栏<code>运行</code>按钮后，会弹出一个新的窗口，称为显示窗口。</p>
 <p>举例来说，比如代码区编写代码设置画布大小，点击运行，弹出下图中右侧的显示窗口，大小为400*400。(Processing默认画布大小是100*100）</p>
 <p><img src="https://raw.githubusercontent.com/Pamarus/Images/master/2020/Processing%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%9502-%E6%98%BE%E7%A4%BA%E7%AA%97%E5%8F%A3.jpg" alt="Processing学习记录02-显示窗口"></p>
-<h1 id="创建第一个图形"><a href="#创建第一个图形" class="headerlink" title="创建第一个图形"></a>创建第一个图形</h1><p>先绘制一个圆</p>
-<h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><pre class="line-numbers language-jsx" data-language="jsx"><code class="language-jsx"><span class="token keyword">void</span> <span class="token function">setup</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
+<h1 id="创建第一个图形">3. 创建第一个图形</h1><p>先绘制一个圆</p>
+<h2 id="代码">3.1. 代码</h2><pre class="line-numbers language-jsx" data-language="jsx"><code class="language-jsx"><span class="token keyword">void</span> <span class="token function">setup</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
   <span class="token function">size</span><span class="token punctuation">(</span><span class="token number">400</span><span class="token punctuation">,</span><span class="token number">400</span><span class="token punctuation">)</span><span class="token punctuation">;</span>            <span class="token comment">//画布大小设置为400*400</span>
   <span class="token function">ellipse</span><span class="token punctuation">(</span><span class="token number">50</span><span class="token punctuation">,</span><span class="token number">50</span><span class="token punctuation">,</span><span class="token number">100</span><span class="token punctuation">,</span><span class="token number">100</span><span class="token punctuation">)</span><span class="token punctuation">;</span>   <span class="token comment">// 以50,50为圆心，画一个直径为100的圆</span>
-<span class="token punctuation">&#125;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
 
-<h2 id="效果"><a href="#效果" class="headerlink" title="效果"></a>效果</h2><p><img src="https://raw.githubusercontent.com/Pamarus/Images/master/2020/Processing%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%9503-%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%9B%BE%E5%BD%A2.jpg" alt="Processing学习记录03-第一个图形"></p>
-<h2 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h2><ul>
+<h2 id="效果">3.2. 效果</h2><p><img src="https://raw.githubusercontent.com/Pamarus/Images/master/2020/Processing%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%9503-%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%9B%BE%E5%BD%A2.jpg" alt="Processing学习记录03-第一个图形"></p>
+<h2 id="说明">3.3. 说明</h2><ul>
 <li>设置画布大小的函数：</li>
 </ul>
 <pre class="line-numbers language-jsx" data-language="jsx"><code class="language-jsx"><span class="token function">size</span><span class="token punctuation">(</span>width<span class="token punctuation">,</span>height<span class="token punctuation">)</span>；<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
@@ -533,55 +520,55 @@
 <li>setup ()函数<ul>
 <li>标准的Processing主程序的结构之一。</li>
 <li>setup (){ 设置画布 }</li>
-<li>作用是设置画布，<code>&#123;&#125;</code>内的内容只执行一次，一般用来进行初始化设置，如上面的画布大小。</li>
+<li>作用是设置画布，<code>{}</code>内的内容只执行一次，一般用来进行初始化设置，如上面的画布大小。</li>
 <li>后面不需要再做改变的设置，可以放在<code>setup ()</code>中。</li>
 </ul>
 </li>
 </ul>
-<h1 id="绘制第一个动画"><a href="#绘制第一个动画" class="headerlink" title="绘制第一个动画"></a>绘制第一个动画</h1><h2 id="代码："><a href="#代码：" class="headerlink" title="代码："></a>代码：</h2><pre class="line-numbers language-jsx" data-language="jsx"><code class="language-jsx">int r <span class="token operator">=</span><span class="token number">0</span><span class="token punctuation">;</span>
-<span class="token keyword">void</span> <span class="token function">setup</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
+<h1 id="绘制第一个动画">4. 绘制第一个动画</h1><h2 id="代码：">4.1. 代码：</h2><pre class="line-numbers language-jsx" data-language="jsx"><code class="language-jsx">int r <span class="token operator">=</span><span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token keyword">void</span> <span class="token function">setup</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
   <span class="token function">size</span><span class="token punctuation">(</span><span class="token number">400</span><span class="token punctuation">,</span><span class="token number">400</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token punctuation">&#125;</span>
-<span class="token keyword">void</span> <span class="token function">draw</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
+<span class="token punctuation">}</span>
+<span class="token keyword">void</span> <span class="token function">draw</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
   <span class="token function">ellipse</span><span class="token punctuation">(</span><span class="token number">200</span><span class="token punctuation">,</span><span class="token number">200</span><span class="token punctuation">,</span>r<span class="token operator">++</span><span class="token punctuation">,</span>r<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  <span class="token comment">//200,200为中心点，一个不断往外扩大的圆</span>
-<span class="token punctuation">&#125;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
-<h2 id="效果-1"><a href="#效果-1" class="headerlink" title="效果"></a>效果</h2><p>圆连续变大：</p>
+<h2 id="效果-1">4.2. 效果</h2><p>圆连续变大：</p>
 <p><img src="https://raw.githubusercontent.com/Pamarus/Images/master/2020/Processing%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%9504-%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8A%A8%E7%94%BB.png" alt="Processing学习记录04-第一个动画"></p>
-<h2 id="说明-1"><a href="#说明-1" class="headerlink" title="说明"></a>说明</h2><ul>
+<h2 id="说明-1">4.3. 说明</h2><ul>
 <li>draw ()函数<ul>
 <li>标准的Processing主程序的结构之一。</li>
 <li>draw (){ 开始作画 }</li>
-<li>作用是绘制图形，运行动画，<code>&#123;&#125;</code>内的内容循环执行。每运行一次相当于在画布中绘制一个新的帧，运行完一次后再执行下一次。</li>
+<li>作用是绘制图形，运行动画，<code>{}</code>内的内容循环执行。每运行一次相当于在画布中绘制一个新的帧，运行完一次后再执行下一次。</li>
 </ul>
 </li>
 </ul>
-<h1 id="第一个交互"><a href="#第一个交互" class="headerlink" title="第一个交互"></a>第一个交互</h1><blockquote>
+<h1 id="第一个交互">5. 第一个交互</h1><blockquote>
 <p>调用鼠标绘制一根直线</p>
 </blockquote>
-<h2 id="代码-1"><a href="#代码-1" class="headerlink" title="代码"></a>代码</h2><pre class="line-numbers language-jsx" data-language="jsx"><code class="language-jsx"><span class="token keyword">void</span> <span class="token function">setup</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
+<h2 id="代码-1">5.1. 代码</h2><pre class="line-numbers language-jsx" data-language="jsx"><code class="language-jsx"><span class="token keyword">void</span> <span class="token function">setup</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
   <span class="token function">size</span><span class="token punctuation">(</span><span class="token number">400</span><span class="token punctuation">,</span><span class="token number">400</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token punctuation">&#125;</span>
-<span class="token keyword">void</span> <span class="token function">draw</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
+<span class="token punctuation">}</span>
+<span class="token keyword">void</span> <span class="token function">draw</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
   <span class="token function">line</span><span class="token punctuation">(</span>mouseX<span class="token punctuation">,</span>mouseY<span class="token punctuation">,</span><span class="token number">200</span><span class="token punctuation">,</span><span class="token number">200</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  <span class="token comment">// 从200,200往外绘制一条直线,不消除痕迹</span>
-<span class="token punctuation">&#125;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
-<h2 id="效果-2"><a href="#效果-2" class="headerlink" title="效果"></a>效果</h2><p><img src="https://raw.githubusercontent.com/Pamarus/Images/master/2020/Processing%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%9505-%E7%AC%AC%E4%B8%80%E4%B8%AA%E4%BA%A4%E4%BA%921.jpg" alt="Processing学习记录05-第一个交互1"></p>
-<h2 id="说明-2"><a href="#说明-2" class="headerlink" title="说明"></a>说明</h2><ul>
+<h2 id="效果-2">5.2. 效果</h2><p><img src="https://raw.githubusercontent.com/Pamarus/Images/master/2020/Processing%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%9505-%E7%AC%AC%E4%B8%80%E4%B8%AA%E4%BA%A4%E4%BA%921.jpg" alt="Processing学习记录05-第一个交互1"></p>
+<h2 id="说明-2">5.3. 说明</h2><ul>
 <li>mouseX和mouseY是系统变量，是鼠标所在的坐标位置。</li>
 <li>绘画中不消除原有的绘画留下的痕迹。</li>
 <li>如果想要消除痕迹，需要每次载入一个空白页面。如下：</li>
 </ul>
-<h2 id="消除痕迹"><a href="#消除痕迹" class="headerlink" title="消除痕迹"></a>消除痕迹</h2><ul>
+<h2 id="消除痕迹">5.4. 消除痕迹</h2><ul>
 <li>代码如下：</li>
 </ul>
-<pre class="line-numbers language-jsx" data-language="jsx"><code class="language-jsx"><span class="token keyword">void</span> <span class="token function">setup</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
+<pre class="line-numbers language-jsx" data-language="jsx"><code class="language-jsx"><span class="token keyword">void</span> <span class="token function">setup</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
   <span class="token function">size</span><span class="token punctuation">(</span><span class="token number">400</span><span class="token punctuation">,</span><span class="token number">400</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token punctuation">&#125;</span>
-<span class="token keyword">void</span> <span class="token function">draw</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
+<span class="token punctuation">}</span>
+<span class="token keyword">void</span> <span class="token function">draw</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
   <span class="token function">background</span><span class="token punctuation">(</span><span class="token number">255</span><span class="token punctuation">)</span><span class="token punctuation">;</span>          <span class="token comment">// 加载空白页面</span>
   <span class="token function">line</span><span class="token punctuation">(</span>mouseX<span class="token punctuation">,</span>mouseY<span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  <span class="token comment">// 从0,0往外绘制一条直线,消除上一条痕迹</span>
-<span class="token punctuation">&#125;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
 <ul>
 <li>效果</li>
@@ -1176,12 +1163,12 @@
                         <span class="chip bg-color">Hexo_Blog</span>
                     </a>
                     
-                    <a href="/tags/NexT/">
-                        <span class="chip bg-color">NexT</span>
-                    </a>
-                    
                     <a href="/tags/%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/">
                         <span class="chip bg-color">博客教程</span>
+                    </a>
+                    
+                    <a href="/tags/NexT/">
+                        <span class="chip bg-color">NexT</span>
                     </a>
                     
                     <a href="/tags/Valine/">
@@ -1432,7 +1419,7 @@
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">25k</span>&nbsp;字
+                class="white-color">25.1k</span>&nbsp;字
             
             
             
