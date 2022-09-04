@@ -293,6 +293,19 @@
 </header>
 
     
+<script src="/libs/cryptojs/crypto-js.min.js"></script>
+<script>
+    (function() {
+        let pwd = '';
+        if (pwd && pwd.length > 0) {
+            if (pwd !== CryptoJS.SHA256(prompt('请输入访问本文章的密码')).toString(CryptoJS.enc.Hex)) {
+                alert('密码错误，将返回主页！');
+                location.href = '/';
+            }
+        }
+    })();
+</script>
+
 
 
 
@@ -1003,16 +1016,17 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/2022/06/12/an-an-cheng-chang-ri-ji-2022-nian-06-yue/">
+                <a href="/2022/05/19/5s-an-fu-hong-shui-fa/">
                     <div class="card-image">
                         
-                        <img src="/medias/featureimages/%E5%B0%81%E9%9D%A2-%E5%AE%89%E5%AE%892022-06.jpg" class="responsive-img" alt="安安成长日记-2022年06月">
+                        <img src="/medias/featureimages/%E5%B0%81%E9%9D%A2-5S%E5%AE%89%E6%8A%9A%E5%93%84%E7%9D%A1%E6%B3%95.jpg" class="responsive-img" alt="5S安抚哄睡法">
                         
-                        <span class="card-title">安安成长日记-2022年06月</span>
+                        <span class="card-title">5S安抚哄睡法</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -1022,9 +1036,9 @@
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2022-06-12
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-05-19
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
@@ -1037,6 +1051,7 @@
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
@@ -1059,30 +1074,30 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2022/05/16/an-an-cheng-chang-ri-ji-2022-nian-05-yue/">
+                <a href="/2022/05/15/mac-zhong-duan-xian-shi-192-bu-xian-shi-dian-nao-ming-zi-de-jie-jue-fang-fa/">
                     <div class="card-image">
                         
-                        <img src="/medias/featureimages/%E5%B0%81%E9%9D%A2-%E5%AE%89%E5%AE%892022-05.jpg" class="responsive-img" alt="安安成长日记-2022年05月">
+                        <img src="/medias/featureimages/xiaoshujiang.png" class="responsive-img" alt="Mac终端显示192，不显示用户名的解决方法">
                         
-                        <span class="card-title">安安成长日记-2022年05月</span>
+                        <span class="card-title">Mac终端显示192，不显示用户名的解决方法</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            这儿有东西被加密了，点击看看😵
+                            Here's something encrypted, password is required to continue reading.
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-05-16
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-05-15
                             </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/" class="post-category">
-                                    生活日常
+                            <a href="/categories/%E5%8A%9E%E5%85%AC%E8%BD%AF%E4%BB%B6/" class="post-category">
+                                    办公软件
                                 </a>
                             
                             
@@ -1092,12 +1107,16 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/">
-                        <span class="chip bg-color">生活日常</span>
+                    <a href="/tags/Mac%E7%BB%88%E7%AB%AF/">
+                        <span class="chip bg-color">Mac终端</span>
                     </a>
                     
-                    <a href="/tags/%E5%AE%89%E5%AE%89/">
-                        <span class="chip bg-color">安安</span>
+                    <a href="/tags/192/">
+                        <span class="chip bg-color">192</span>
+                    </a>
+                    
+                    <a href="/tags/Mac%E9%97%AE%E9%A2%98/">
+                        <span class="chip bg-color">Mac问题</span>
                     </a>
                     
                 </div>
@@ -1344,7 +1363,7 @@
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">24.8k</span>&nbsp;字
+                class="white-color">24.7k</span>&nbsp;字
             
             
             
