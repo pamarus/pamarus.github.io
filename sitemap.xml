@@ -11,6 +11,15 @@
   </url>
   
   <url>
+    <loc>https://pamarus.github.io/2020/06/11/hexo-bo-ke-da-jian-8-ti-huan-shi-yong-matery-zhu-ti-ji-xiang-xi-pei-zhi/</loc>
+    
+    <lastmod>2022-09-04</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://pamarus.github.io/2022/05/15/mac-zhong-duan-xian-shi-192-bu-xian-shi-dian-nao-ming-zi-de-jie-jue-fang-fa/</loc>
     
     <lastmod>2022-09-04</lastmod>
@@ -30,15 +39,6 @@
   
   <url>
     <loc>https://pamarus.github.io/2020/05/19/hexo-bo-ke-da-jian-6-valine-ping-lun-xi-tong-you-hua/</loc>
-    
-    <lastmod>2022-09-02</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pamarus.github.io/2020/06/11/hexo-bo-ke-da-jian-8-ti-huan-shi-yong-matery-zhu-ti-ji-xiang-xi-pei-zhi/</loc>
     
     <lastmod>2022-09-02</lastmod>
     
@@ -322,14 +322,14 @@
   </url>
   
   <url>
-    <loc>https://pamarus.github.io/tags/%E6%A0%87%E7%AD%BE1/</loc>
+    <loc>https://pamarus.github.io/tags/%E6%A0%87%E7%AD%BE2/</loc>
     <lastmod>2022-09-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://pamarus.github.io/tags/%E6%A0%87%E7%AD%BE2/</loc>
+    <loc>https://pamarus.github.io/tags/%E5%8A%A0%E5%AF%86%E6%96%87%E7%AB%A0/</loc>
     <lastmod>2022-09-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

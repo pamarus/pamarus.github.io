@@ -6,7 +6,7 @@
   <link href="https://pamarus.github.io/atom.xml" rel="self"/>
   
   <link href="https://pamarus.github.io/"/>
-  <updated>2022-09-04T04:45:08.142Z</updated>
+  <updated>2022-09-04T05:31:51.871Z</updated>
   <id>https://pamarus.github.io/</id>
   
   <author>
@@ -21,19 +21,19 @@
     <link href="https://pamarus.github.io/2022/07/11/jia-mi-ce-shi/"/>
     <id>https://pamarus.github.io/2022/07/11/jia-mi-ce-shi/</id>
     <published>2022-07-11T07:25:00.000Z</published>
-    <updated>2022-09-04T04:45:08.142Z</updated>
+    <updated>2022-09-04T05:31:51.871Z</updated>
     
     
-    <summary type="html">Here&#39;s something encrypted, password is required to continue reading.</summary>
+    <summary type="html">这儿有东西被加密了，点击看看😵</summary>
     
     
     
     <category term="Hexo博客" scheme="https://pamarus.github.io/categories/Hexo%E5%8D%9A%E5%AE%A2/"/>
     
     
-    <category term="标签1" scheme="https://pamarus.github.io/tags/%E6%A0%87%E7%AD%BE1/"/>
-    
     <category term="标签2" scheme="https://pamarus.github.io/tags/%E6%A0%87%E7%AD%BE2/"/>
+    
+    <category term="加密文章" scheme="https://pamarus.github.io/tags/%E5%8A%A0%E5%AF%86%E6%96%87%E7%AB%A0/"/>
     
   </entry>
   
@@ -139,7 +139,7 @@
     <link href="https://pamarus.github.io/2020/06/11/hexo-bo-ke-da-jian-8-ti-huan-shi-yong-matery-zhu-ti-ji-xiang-xi-pei-zhi/"/>
     <id>https://pamarus.github.io/2020/06/11/hexo-bo-ke-da-jian-8-ti-huan-shi-yong-matery-zhu-ti-ji-xiang-xi-pei-zhi/</id>
     <published>2020-06-11T13:36:45.000Z</published>
-    <updated>2022-09-02T10:25:22.270Z</updated>
+    <updated>2022-09-04T05:20:23.601Z</updated>
     
     
     <summary type="html">&lt;p&gt;在 &lt;a href=&quot;https://hexo.io/themes/&quot;&gt;官网&lt;/a&gt; 或 这个网站 &lt;a href=&quot;https://easyhexo.com/2-Theme-use-and-config/&quot;&gt;Easy Hexo&lt;/a&gt; 选择自己喜欢的主题。&lt;br&gt;经过对比，我选择了matery主题。喜欢他的MD风格设计和响应式设计，它的首页banner轮播、文章配图、支持Valine评论系统等特性，也满足自己的需求。&lt;/p&gt;</summary>
