@@ -29,9 +29,9 @@
 
     <script src="/libs/jquery/jquery.min.js"></script>
 
-<meta name="generator" content="Hexo 6.2.0"><link rel="alternate" href="/atom.xml" title="Pamarus" type="application/atom+xml">
-
+<meta name="generator" content="Hexo 6.2.0">
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+<link rel="alternate" href="/atom.xml" title="Pamarus" type="application/atom+xml">
 </head>
 
 
@@ -512,10 +512,8 @@
 </blockquote>
 <span id="more"></span>
 
-<p><img src="https://raw.githubusercontent.com/Pamarus/Images/master/2020/05/%E8%B7%B3%E8%BD%AC%E5%88%86%E7%B1%BB%E3%80%81%E6%A0%87%E7%AD%BE%E3%80%81%E5%85%B3%E4%BA%8E%E9%A1%B5%E6%8A%A5%E9%94%9901-%E8%B7%B3%E8%BD%AC%E6%8A%A5%E9%94%99.jpg" alt="01-跳转报错"></p>
-<h1>1. 第1种方法：删除配置文件中空格</h1>
-
-<blockquote>
+<p><img src="https://note.youdao.com/yws/api/personal/file/WEB0823822f19839ee481d97b65f044d475?method=download&amp;shareKey=67a24ab20724b6d7d2b3b170a2957ecd" alt="01-跳转报错"></p>
+<h1 id="第1种方法：删除配置文件中空格">1. 第1种方法：删除配置文件中空格</h1><blockquote>
 <p>关于链接显示<code>20%</code>的问题</p>
 </blockquote>
 <p>这个问题更多发生在，点击首页和归档菜单，显示404，查看链接地址，结尾显示<code>20%</code>。比如：<code>https://xxx.github.io/%20</code></p>
@@ -535,15 +533,13 @@
 <blockquote>
 <p>建议参阅第3种方法，检查一下是不是第3种方法中说明的问题。</p>
 </blockquote>
-<h1>2. 第2种方法：重新clone安装主题</h1>
-
-<blockquote>
+<h1 id="第2种方法：重新clone安装主题">2. 第2种方法：重新clone安装主题</h1><blockquote>
 <p><code>20%</code>这种问题如何发生的：</p>
 </blockquote>
 <ul>
 <li>我当时是因为clone主题出现的问题。<br>在这个网站 <a target="_blank" rel="noopener" href="http://theme-next.iissnan.com/getting-started.html">NexT</a> clone主题。clone之后，点击首页、归档跳转的链接都带<code>20%</code>，如下图：</li>
 </ul>
-<p><img src="https://raw.githubusercontent.com/Pamarus/Images/master/2020/05/%E8%B7%B3%E8%BD%AC%E5%88%86%E7%B1%BB%E3%80%81%E6%A0%87%E7%AD%BE%E3%80%81%E5%85%B3%E4%BA%8E%E9%A1%B5%E6%8A%A5%E9%94%9902-%E8%B7%B3%E8%BD%AC%E6%8A%A5%E9%94%99.jpg" alt="02-跳转报错"></p>
+<p><img src="https://note.youdao.com/yws/api/personal/file/WEBf5364943fd3218e74141349d365d9fb2?method=download&amp;shareKey=e3bea6ff7467ef13eef49afa3f625693" alt="02-跳转报错"></p>
 <ul>
 <li><p>出现问题之后，参阅 <a target="_blank" rel="noopener" href="https://github.com/iissnan/hexo-theme-next/blob/master/README.cn.md">GitHub仓库页</a>，会明显看见不再维护的提示。</p>
 </li>
@@ -555,12 +551,12 @@
 <blockquote>
 <p>如果安装最新版本后，仍出现问题，比如首页、归档也可以正常打开，但是分类标签页报错404，参见下面的方法。</p>
 </blockquote>
-<h1>3. 第3种方法：创建分类、标签等页面</h1>
+<h1>3. # 第3种方法：创建分类、标签等页面
 
-<blockquote>
-<p>安装最新主题（v7.8.0），启用并点击分类、标签、关于页面，404报错。并且，侧边栏<code>分类</code>、<code>标签</code>都无法点击。</p>
-</blockquote>
-<h2 id="找问题">3.1. 找问题</h2><p>看一下404的英文提示文字，大概是没有链接对应的文件的意思。</p>
+
+安装最新主题（v7.8.0），启用并点击分类、标签、关于页面，404报错。并且，侧边栏分类、标签都无法点击。
+
+</h1><h2 id="找问题">3.1. 找问题</h2><p>看一下404的英文提示文字，大概是没有链接对应的文件的意思。</p>
 <p>查阅一些文章，之后检查<code>public/</code>文件夹和对比其他博客的GitHub仓库文件，发现：<br><code>public/categories/</code>、<code>public/tags/</code> 文件夹下没有<code>index.html</code>文件，<code>public/</code>文件夹下没有<code>about</code>文件夹。所以初步判定问题是，菜单项没有根文件，不能链接到对应页面。</p>
 <p>所以设想的解决方法就是创建分类、标签、关于页面。</p>
 <h2 id="创建-分类-页面">3.2. 创建 [分类] 页面</h2><ul>
@@ -574,14 +570,14 @@
 </ul>
 <pre class="line-numbers language-jsx" data-language="jsx"><code class="language-jsx">hexo <span class="token keyword">new</span> <span class="token class-name">page</span> <span class="token string">"categories"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
-<p><img src="https://raw.githubusercontent.com/Pamarus/Images/master/2020/05/%E8%B7%B3%E8%BD%AC%E5%88%86%E7%B1%BB%E3%80%81%E6%A0%87%E7%AD%BE%E3%80%81%E5%85%B3%E4%BA%8E%E9%A1%B5%E6%8A%A5%E9%94%9903-%E5%88%9B%E5%BB%BA%E5%88%86%E7%B1%BB%E9%A1%B5%E9%9D%A2.jpg" alt="03-创建分类页面"></p>
+<p><img src="https://note.youdao.com/yws/api/personal/file/WEB212fb530efe21156d3024f414904974b?method=download&amp;shareKey=c48a95e7708dbc1dc38dbb65863cea6e" alt="03-创建分类页面"></p>
 <ul>
 <li>（3）找到本地文件<ul>
 <li>你会发现你的<code>source/</code>文件夹下有了<code>categories/index.md</code>文件</li>
 </ul>
 </li>
 </ul>
-<p><img src="https://raw.githubusercontent.com/Pamarus/Images/master/2020/05/%E8%B7%B3%E8%BD%AC%E5%88%86%E7%B1%BB%E3%80%81%E6%A0%87%E7%AD%BE%E3%80%81%E5%85%B3%E4%BA%8E%E9%A1%B5%E6%8A%A5%E9%94%9904-%E6%9C%AC%E5%9C%B0%E6%96%87%E4%BB%B6.jpg" alt="04-本地文件"></p>
+<p><img src="https://note.youdao.com/yws/api/personal/file/WEB93486e452dd2d5679662b45e9b23ad3d?method=download&amp;shareKey=b5ae50952f39b4decdc7f9110ce9e066" alt="04-本地文件"></p>
 <ul>
 <li>（4）修改<code>title</code>（可选），添加页面类型<code>type</code><ul>
 <li><p>打开<code>index.md</code>文件将 title 设置为title: 分类。<code>分类</code>将是网页显示的标题，按照自己喜好修改或者不修改。</p>
