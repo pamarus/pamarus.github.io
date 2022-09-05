@@ -508,27 +508,14 @@
 </blockquote>
 <span id="more"></span>
 
-<h1>1. 插入标题</h1>
-
-<p>Markdown 支持两种标题的语法，<code>类Setext</code> 和 <code>类atx</code> 形式。</p>
+<h1 id="插入标题">1. 插入标题</h1><p>Markdown 支持两种标题的语法，<code>类Setext</code> 和 <code>类atx</code> 形式。</p>
 <h2 id="类Setext形式">1.1. 类Setext形式</h2><p>用底线的形式，用 <code>=</code> 表示最高阶标题，用 <code>-</code> 表示第二阶标题。大于等于1个就可以生效。如下图</p>
-<center style="font-size:14px;color:#C0C0C0;text-decoration:underline;">
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://raw.githubusercontent.com/Pamarus/Images/master/2020/05/MD语法学习01-类Setext样式.jpg" width="100%" height="100%">
-01-类Setext样式
-</center>
-
+<p><img src="https://note.youdao.com/yws/api/personal/file/WEB823f3aa6f0067eab9d88f9b9a50dbada?method=download&amp;shareKey=4f4dcfe70ca89823e60b61f1e6a2e10f"></p>
 <h2 id="类Atx形式">1.2. 类Atx形式</h2><p>在行首插入1到6个 <code>#</code> ，对应到标题1到6阶。如下图：</p>
 <blockquote>
 <p><code>#</code>后面要写空格，否则不生效。</p>
 </blockquote>
-<center style="font-size:14px;color:#C0C0C0;text-decoration:underline;">
-<img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://raw.githubusercontent.com/Pamarus/Images/master/2020/05/MD语法学习02-类Atx样式.jpg" width="100%" height="100%">
-02-类Atx样式
-</center>
-
-
+<p><img src="https://note.youdao.com/yws/api/personal/file/WEB91bd7c3e2c4ea8ef428ba1adbe7a9d39?method=download&amp;shareKey=35afc6291e5fac0bfa0399c639adfffa"></p>
 <h1 id="设置粗体文字">2. 设置粗体文字</h1><p>对需要加粗的文字使用两个 <code>*</code> 或者 <code>_</code> 符号包裹，系统就会转换成加粗显示效果。</p>
 <ul>
 <li><strong>示例：</strong></li>
@@ -547,7 +534,7 @@ __双下划线加粗__<span aria-hidden="true" class="line-numbers-rows"><span><
 <h2 id="单行引用">3.1. 单行引用</h2><ul>
 <li><strong>示例：</strong></li>
 </ul>
-<pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token operator">&gt;</span> 单行引用文字<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token operator">&gt;</span> 单行引用文字<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
 <ul>
 <li><strong>显示效果：</strong></li>
@@ -558,7 +545,7 @@ __双下划线加粗__<span aria-hidden="true" class="line-numbers-rows"><span><
 <h2 id="多行引用">3.2. 多行引用</h2><ul>
 <li><strong>示例：</strong></li>
 </ul>
-<pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token operator">&gt;</span> 引用文字
+<pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token operator">&gt;</span> 引用文字
 <span class="token operator">&gt;</span> 引用文字
 <span class="token operator">&gt;</span> 引用文字
 <span class="token operator">&gt;</span> 
@@ -573,7 +560,7 @@ __双下划线加粗__<span aria-hidden="true" class="line-numbers-rows"><span><
 <ul>
 <li><strong>示例：</strong></li>
 </ul>
-<pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token operator">&gt;</span> 引用文字
+<pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token operator">&gt;</span> 引用文字
 引用文字
 引用文字<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
 
@@ -587,7 +574,7 @@ __双下划线加粗__<span aria-hidden="true" class="line-numbers-rows"><span><
 <ul>
 <li><strong>示例：</strong></li>
 </ul>
-<pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token operator">&gt;</span> 层级<span class="token number">1</span>
+<pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token operator">&gt;</span> 层级<span class="token number">1</span>
 <span class="token operator">&gt;</span>
 <span class="token operator">&gt;&gt;</span> 层级<span class="token number">2</span>
 <span class="token operator">&gt;&gt;&gt;</span> 层级<span class="token number">3</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
@@ -608,12 +595,12 @@ __双下划线加粗__<span aria-hidden="true" class="line-numbers-rows"><span><
 <ul>
 <li><strong>示例：</strong></li>
 </ul>
-<pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token operator">&gt;</span> <span class="token number">1.</span>引用列表项，第一行列表项。
+<pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token operator">&gt;</span> <span class="token number">1.</span>引用列表项，第一行列表项。
 <span class="token operator">&gt;</span> <span class="token number">2.</span>引用列表项，是第二行列表项。
 <span class="token operator">&gt;</span> 
 <span class="token operator">&gt;</span> 引用代码区块：
 <span class="token operator">&gt;</span> 
-<span class="token operator">&gt;</span>     <span class="token keyword">return</span> <span class="token function">shell_exec</span><span class="token punctuation">(</span><span class="token string">"echo $input | $markdown_script"</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<span class="token operator">&gt;</span>    <span class="token keyword">return</span> <span class="token function">shell_exec</span><span class="token punctuation">(</span><span class="token string">"echo $input | $markdown_script"</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
 <p><strong>显示效果：</strong></p>
 <blockquote>
@@ -622,26 +609,26 @@ __双下划线加粗__<span aria-hidden="true" class="line-numbers-rows"><span><
 <pre><code>return shell_exec("echo $input | $markdown_script");
 </code></pre>
 </blockquote>
-<h1 id="引用代码">4. 引用代码</h1><h2 id="行内代码">4.1. 行内代码</h2><h3 id="使用符号">4.1.1. 使用符号`</h3><p>在一个段落内显示一小段代码，使用 ` 符号即可。</p>
+<h1 id="引用代码">4. 引用代码</h1><h2 id="行内代码">4.1. 行内代码</h2><h3 id="使用符号">4.1.1. 使用符号`</h3><p>在一个段落内显示一小段代码，使用<code>`</code>符号即可。</p>
 <ul>
 <li><strong>示例：</strong></li>
 </ul>
-<pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript">这是一个段落内的 <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">one line of code</span><span class="token template-punctuation string">`</span></span> 是的，就这样用<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<pre class="line-numbers language-java" data-language="java"><code class="language-java">这是一个段落内的 `one line of code` 是的，就这样用<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
 <ul>
 <li><strong>显示效果：</strong></li>
 </ul>
 <p>这是一个段落内的 <code>one line of code</code>，是的，就这样用</p>
-<h3 id="行内代码显示">4.1.2. 行内代码显示`</h3><p>如何在行内代码里显示<code>`</code>符号， 可以使用连续书写两个 （`） 符号包裹（`），（`）左右有空格。</p>
+<h3 id="行内代码显示">4.1.2. 行内代码显示`</h3><p>如何在行内代码里显示<code>`</code>符号， 可以使用连续书写两个<code>`</code> 符号包裹<code>`</code>，要显示的包裹住的<code>`</code>符号左右有空格。</p>
 <ul>
 <li><strong>示例：</strong></li>
 </ul>
-<pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript">这是一个段落内的 <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">one line of code</span><span class="token template-punctuation string">`</span></span> 是的，我要显示 <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token template-punctuation string">`</span></span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string"> </span><span class="token template-punctuation string">`</span></span>` 符号<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<pre class="line-numbers language-java" data-language="java"><code class="language-java">这是一个段落内的 `one line of code`，是的，我要显示`` ` ``符号。<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
 <ul>
 <li><strong>显示效果：</strong></li>
 </ul>
-<p>这是一个段落内的 <code>one line of code</code> 是的，我要显示 <code>`</code> 符号， </p>
+<p>这是一个段落内的 <code>one line of code</code>，是的，我要显示<code>`</code>符号。</p>
 <h2 id="区块代码">4.2. 区块代码</h2><h3 id="缩进4个空格">4.2.1. 缩进4个空格</h3><p>在一整块范围内显示一个代码片段。缩进 4 个空格即可。</p>
 <ul>
 <li><strong>示例：</strong></li>
@@ -657,33 +644,33 @@ __双下划线加粗__<span aria-hidden="true" class="line-numbers-rows"><span><
 <p>  var x = 1;<br>  var y = 2;<br>  var z = 3;</p>
 </li>
 </ul>
-<h3 id="GFM风格代码块语法">4.2.2. GFM风格代码块语法</h3><p>连续书写三个 <code>`</code> 或者<code>~</code>包裹代码，并可以高亮显示部分代码。通过 GFM 风格显示的代码块，不再需要像普通代码块那样，每行都要空4个空格的要求。<br>同时支持高亮语言。在 <code>`</code> 后输入语言就可以生效。</p>
+<h3 id="GFM风格代码块语法">4.2.2. GFM风格代码块语法</h3><p>连续书写三个<code>`</code> 或者<code>~</code>包裹代码，并可以高亮显示部分代码。通过 GFM 风格显示的代码块，不再需要像普通代码块那样，每行都要空4个空格的要求。<br>同时支持高亮语言。在 <code>`</code> 后输入语言就可以生效。</p>
 <ul>
 <li><strong>示例：</strong></li>
 </ul>
 <blockquote>
-<p>` ` `<br>var x = 1;<br>var y = 2;<br>var z = 3;<br>` ` `</p>
+<p>` ` `java<br>var x = 1;<br>var y = 2;<br>var z = 3;<br>` ` `</p>
 </blockquote>
 <blockquote>
-<p>~ ~ ~javascript<br>var x = 1;<br>var y = 2;<br>var z = 3;<br>~ ~ ~</p>
+<p>~ ~ ~java<br>var x = 1;<br>var y = 2;<br>var z = 3;<br>~ ~ ~</p>
 </blockquote>
 <ul>
 <li><strong>显示效果：</strong></li>
 </ul>
-<pre class="line-numbers language-none"><code class="language-none">var x = 1; 
-var y = 2; 
-var z = 3; <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+<pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token keyword">var</span> x <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+<span class="token keyword">var</span> y <span class="token operator">=</span> <span class="token number">2</span><span class="token punctuation">;</span>
+<span class="token keyword">var</span> z <span class="token operator">=</span> <span class="token number">3</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
 
-<pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token keyword">var</span> x <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span> 
-<span class="token keyword">var</span> y <span class="token operator">=</span> <span class="token number">2</span><span class="token punctuation">;</span> 
-<span class="token keyword">var</span> z <span class="token operator">=</span> <span class="token number">3</span><span class="token punctuation">;</span> <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+<pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token keyword">var</span> x <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+<span class="token keyword">var</span> y <span class="token operator">=</span> <span class="token number">2</span><span class="token punctuation">;</span>
+<span class="token keyword">var</span> z <span class="token operator">=</span> <span class="token number">3</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
 
 <h1 id="插入链接">5. 插入链接</h1><p>Markdown 支持两种形式的链接语法： 内联式和引用式两种形式。</p>
 <h2 id="内联式">5.1. 内联式</h2><p>中括号内为显示文本，后面紧接一对圆括号. 圆括号里面放所需的 URL 链接,</p>
 <ul>
 <li><strong>示例：</strong></li>
 </ul>
-<pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token punctuation">[</span><span class="token number">01</span><span class="token punctuation">.</span>Markdown语法说明<span class="token punctuation">]</span><span class="token punctuation">(</span>https<span class="token operator">:</span><span class="token operator">/</span><span class="token operator">/</span>github<span class="token punctuation">.</span>com<span class="token operator">/</span>appinncom<span class="token operator">/</span>Markdown<span class="token operator">-</span>Syntax<span class="token operator">-</span><span class="token constant">CN</span><span class="token operator">/</span>blob<span class="token operator">/</span>master<span class="token operator">/</span>syntax<span class="token punctuation">.</span>md<span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token punctuation">[</span><span class="token number">01.</span>Markdown语法说明<span class="token punctuation">]</span><span class="token punctuation">(</span>https<span class="token operator">:</span><span class="token operator">/</span><span class="token operator">/</span>github<span class="token punctuation">.</span>com<span class="token operator">/</span>appinncom<span class="token operator">/</span><span class="token class-name">Markdown</span><span class="token operator">-</span><span class="token class-name">Syntax</span><span class="token operator">-</span><span class="token constant">CN</span><span class="token operator">/</span>blob<span class="token operator">/</span>master<span class="token operator">/</span>syntax<span class="token punctuation">.</span>md<span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
 <ul>
 <li><strong>显示效果：</strong></li>
@@ -702,7 +689,7 @@ var z = 3; <span aria-hidden="true" class="line-numbers-rows"><span></span><span
 <li><p><strong>示例：</strong></p>
 </li>
 </ul>
-<pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript">我们可以在 <span class="token punctuation">[</span><span class="token number">02</span><span class="token punctuation">.</span>Markdown中文文档<span class="token punctuation">]</span><span class="token punctuation">[</span>link1<span class="token punctuation">]</span>这个网站查看<span class="token constant">MD</span>语法样式。
+<pre class="line-numbers language-java" data-language="java"><code class="language-java">我们可以在 <span class="token punctuation">[</span><span class="token number">02.</span>Markdown中文文档<span class="token punctuation">]</span><span class="token punctuation">[</span>link1<span class="token punctuation">]</span>这个网站查看<span class="token constant">MD</span>语法样式。
 
 <span class="token punctuation">[</span>link1<span class="token punctuation">]</span><span class="token operator">:</span>https<span class="token operator">:</span><span class="token operator">/</span><span class="token operator">/</span>markdown<span class="token operator">-</span>zh<span class="token punctuation">.</span>readthedocs<span class="token punctuation">.</span>io<span class="token operator">/</span>en<span class="token operator">/</span>latest<span class="token operator">/</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
 
@@ -714,7 +701,7 @@ var z = 3; <span aria-hidden="true" class="line-numbers-rows"><span></span><span
 <ul>
 <li><strong>示例：</strong></li>
 </ul>
-<pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript">我们可以在 <span class="token punctuation">[</span><span class="token number">03.</span>小书匠语法说明<span class="token punctuation">]</span><span class="token punctuation">(</span>http<span class="token operator">:</span><span class="token operator">/</span><span class="token operator">/</span>soft<span class="token punctuation">.</span>xiaoshujiang<span class="token punctuation">.</span>com<span class="token operator">/</span>docs<span class="token operator">/</span>grammar<span class="token operator">/</span>common<span class="token operator">/</span>italic<span class="token operator">/</span> <span class="token string">"我使用小书匠编辑器"</span><span class="token punctuation">)</span> 这个网站查看<span class="token constant">MD</span>语法样式。<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<pre class="line-numbers language-java" data-language="java"><code class="language-java">我们可以在 <span class="token punctuation">[</span><span class="token number">03.</span>小书匠语法说明<span class="token punctuation">]</span><span class="token punctuation">(</span>http<span class="token operator">:</span><span class="token operator">/</span><span class="token operator">/</span>soft<span class="token punctuation">.</span>xiaoshujiang<span class="token punctuation">.</span>com<span class="token operator">/</span>docs<span class="token operator">/</span>grammar<span class="token operator">/</span>common<span class="token operator">/</span>italic<span class="token operator">/</span> <span class="token string">"我使用小书匠编辑器"</span><span class="token punctuation">)</span> 这个网站查看<span class="token constant">MD</span>语法样式。<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
 <ul>
 <li><strong>显示效果：</strong></li>
@@ -724,7 +711,7 @@ var z = 3; <span aria-hidden="true" class="line-numbers-rows"><span></span><span
 <ul>
 <li><strong>示例：</strong></li>
 </ul>
-<pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript">我们可以在 <span class="token punctuation">[</span><span class="token number">02</span><span class="token punctuation">.</span>Markdown中文文档<span class="token punctuation">]</span><span class="token punctuation">[</span>link2<span class="token punctuation">]</span> 这个网站查看<span class="token constant">MD</span>语法样式。
+<pre class="line-numbers language-java" data-language="java"><code class="language-java">我们可以在 <span class="token punctuation">[</span><span class="token number">02.</span>Markdown中文文档<span class="token punctuation">]</span><span class="token punctuation">[</span>link2<span class="token punctuation">]</span> 这个网站查看<span class="token constant">MD</span>语法样式。
 
 <span class="token punctuation">[</span>link2<span class="token punctuation">]</span><span class="token operator">:</span> https<span class="token operator">:</span><span class="token operator">/</span><span class="token operator">/</span>markdown<span class="token operator">-</span>zh<span class="token punctuation">.</span>readthedocs<span class="token punctuation">.</span>io<span class="token operator">/</span>en<span class="token operator">/</span>latest<span class="token operator">/</span> <span class="token string">"Markdown语法"</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
 
@@ -738,7 +725,7 @@ var z = 3; <span aria-hidden="true" class="line-numbers-rows"><span></span><span
 <ul>
 <li><strong>示例：</strong></li>
 </ul>
-<pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript">\<span class="token operator">*</span>文字星号\<span class="token operator">*</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<pre class="line-numbers language-java" data-language="java"><code class="language-java">\<span class="token operator">*</span>文字星号\<span class="token operator">*</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
 <ul>
 <li><strong>显示效果：</strong></li>
@@ -747,12 +734,12 @@ var z = 3; <span aria-hidden="true" class="line-numbers-rows"><span></span><span
 <ul>
 <li>Markdown 支持以下这些符号前面加上反斜杠来帮助插入普通的符号：</li>
 </ul>
-<pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript">\   反斜线
+<pre class="line-numbers language-java" data-language="java"><code class="language-java">\   反斜线
 `   反引号
 <span class="token operator">*</span>   星号
 _   底线
 <span class="token punctuation">{</span><span class="token punctuation">}</span>  花括号
-<span class="token punctuation">[</span><span class="token punctuation">]</span>  <span class="token function">方括号</span>
+<span class="token punctuation">[</span><span class="token punctuation">]</span>  方括号
 <span class="token punctuation">(</span><span class="token punctuation">)</span>  括弧
 #   井字号
 <span class="token operator">+</span>   加号

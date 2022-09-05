@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://pamarus.github.io/2020/05/05/markdown-2-ru-he-tian-jia-duo-ge-tags/</loc>
+    
+    <lastmod>2022-09-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pamarus.github.io/2020/05/03/markdown-1-ji-chu-yu-fa-xue-xi-ji-kuai-su-ru-men/</loc>
+    
+    <lastmod>2022-09-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://pamarus.github.io/2020/05/04/xiao-shu-jiang-md-bian-ji-qi-pei-zhi-github-tu-chuang/</loc>
     
     <lastmod>2022-09-05</lastmod>
@@ -128,15 +146,6 @@
   </url>
   
   <url>
-    <loc>https://pamarus.github.io/2022/07/11/jia-mi-ce-shi/</loc>
-    
-    <lastmod>2022-09-04</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://pamarus.github.io/2022/05/15/mac-zhong-duan-xian-shi-192-bu-xian-shi-dian-nao-ming-zi-de-jie-jue-fang-fa/</loc>
     
     <lastmod>2022-09-04</lastmod>
@@ -194,24 +203,6 @@
     <loc>https://pamarus.github.io/categories/index.html</loc>
     
     <lastmod>2022-09-02</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pamarus.github.io/2020/05/03/markdown-1-ji-chu-yu-fa-xue-xi-ji-kuai-su-ru-men/</loc>
-    
-    <lastmod>2022-05-16</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pamarus.github.io/2020/05/05/markdown-2-ru-he-tian-jia-duo-ge-tags/</loc>
-    
-    <lastmod>2022-05-14</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>

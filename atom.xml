@@ -45,25 +45,6 @@
   </entry>
   
   <entry>
-    <title>加密测试</title>
-    <link href="https://pamarus.github.io/2022/07/11/jia-mi-ce-shi/"/>
-    <id>https://pamarus.github.io/2022/07/11/jia-mi-ce-shi/</id>
-    <published>2022-07-11T07:25:00.000Z</published>
-    <updated>2022-09-04T06:44:04.289Z</updated>
-    
-    
-    <summary type="html">Here&#39;s something encrypted, password is required to continue reading.</summary>
-    
-    
-    
-    <category term="Hexo博客" scheme="https://pamarus.github.io/categories/Hexo%E5%8D%9A%E5%AE%A2/"/>
-    
-    
-    <category term="安安" scheme="https://pamarus.github.io/tags/%E5%AE%89%E5%AE%89/"/>
-    
-  </entry>
-  
-  <entry>
     <title>安安成长日记-2022年06月</title>
     <link href="https://pamarus.github.io/2022/06/12/an-an-cheng-chang-ri-ji-2022-nian-06-yue/"/>
     <id>https://pamarus.github.io/2022/06/12/an-an-cheng-chang-ri-ji-2022-nian-06-yue/</id>
@@ -496,13 +477,10 @@
     <link href="https://pamarus.github.io/2020/05/05/markdown-2-ru-he-tian-jia-duo-ge-tags/"/>
     <id>https://pamarus.github.io/2020/05/05/markdown-2-ru-he-tian-jia-duo-ge-tags/</id>
     <published>2020-05-04T16:30:27.000Z</published>
-    <updated>2022-05-14T04:37:21.000Z</updated>
+    <updated>2022-09-05T09:18:08.019Z</updated>
     
     
-    <summary type="html">&lt;h1&gt;1. 显示问题&lt;/h1&gt;
-
-&lt;p&gt;当添加多个标签时，小书匠编辑器默认是这样的：&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://note.youdao.com/yws/api/personal/file/7974c49acbada6fc5bd659cb52dd2c08?method=download&amp;amp;shareKey=be637b2e713c0332e75da57b26281961&quot; alt=&quot;01卡片的文章摘要显示效果&quot;&gt;&lt;/p&gt;
+    <summary type="html">&lt;h1 id=&quot;显示问题&quot;&gt;1. 显示问题&lt;/h1&gt;&lt;p&gt;当添加多个标签时，小书匠编辑器默认是这样的：&lt;/p&gt;
 &lt;pre class=&quot;line-numbers language-jsx&quot; data-language=&quot;jsx&quot;&gt;&lt;code class=&quot;language-jsx&quot;&gt;&lt;span class=&quot;token literal-property property&quot;&gt;tags&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; 新建&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;模板&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;小书匠&lt;span aria-hidden=&quot;true&quot; class=&quot;line-numbers-rows&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;此时网页端显示就会有问题，三个标签识别为一个:&lt;/p&gt;
@@ -517,6 +495,35 @@
     
     
     <category term="Hexo_Blog" scheme="https://pamarus.github.io/tags/Hexo-Blog/"/>
+    
+    <category term="Markdown" scheme="https://pamarus.github.io/tags/Markdown/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>小书匠MD编辑器配置GitHub图床</title>
+    <link href="https://pamarus.github.io/2020/05/04/xiao-shu-jiang-md-bian-ji-qi-pei-zhi-github-tu-chuang/"/>
+    <id>https://pamarus.github.io/2020/05/04/xiao-shu-jiang-md-bian-ji-qi-pei-zhi-github-tu-chuang/</id>
+    <published>2020-05-04T15:25:00.000Z</published>
+    <updated>2022-09-05T08:12:39.607Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;创建GitHub仓库&quot;&gt;0.1. 创建GitHub仓库&lt;/h2&gt;&lt;p&gt;上一篇博客搭建教程有写，见 &lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Hexo博客" scheme="https://pamarus.github.io/categories/Hexo%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+    <category term="Hexo_Blog" scheme="https://pamarus.github.io/tags/Hexo-Blog/"/>
+    
+    <category term="GitHub" scheme="https://pamarus.github.io/tags/GitHub/"/>
     
     <category term="Markdown" scheme="https://pamarus.github.io/tags/Markdown/"/>
     
