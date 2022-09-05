@@ -2,6 +2,60 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://pamarus.github.io/2020/05/04/xiao-shu-jiang-md-bian-ji-qi-pei-zhi-github-tu-chuang/</loc>
+    
+    <lastmod>2022-09-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pamarus.github.io/2022/05/14/hexo-bo-ke-da-jian-9-she-zhi-wen-zhang-jia-mi/</loc>
+    
+    <lastmod>2022-09-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pamarus.github.io/2020/06/11/hexo-bo-ke-da-jian-8-ti-huan-shi-yong-matery-zhu-ti-ji-xiang-xi-pei-zhi/</loc>
+    
+    <lastmod>2022-09-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pamarus.github.io/2020/06/04/hexo-bo-ke-da-jian-7-next-zhu-ti-wu-custom.styl-wen-jian-ru-he-zi-ding-yi-yang-shi/</loc>
+    
+    <lastmod>2022-09-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pamarus.github.io/2020/05/19/hexo-bo-ke-da-jian-6-valine-ping-lun-xi-tong-you-hua/</loc>
+    
+    <lastmod>2022-09-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pamarus.github.io/2020/05/17/hexo-bo-ke-da-jian-5-next-zhu-ti-ji-cheng-valine-ping-lun-xi-tong/</loc>
+    
+    <lastmod>2022-09-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://pamarus.github.io/2020/05/13/hexo-bo-ke-da-jian-4-next-zhu-ti-shou-ye-bu-xian-shi-quan-bu-nei-rong-xian-shi-yu-lan/</loc>
     
     <lastmod>2022-09-05</lastmod>
@@ -83,15 +137,6 @@
   </url>
   
   <url>
-    <loc>https://pamarus.github.io/2020/06/11/hexo-bo-ke-da-jian-8-ti-huan-shi-yong-matery-zhu-ti-ji-xiang-xi-pei-zhi/</loc>
-    
-    <lastmod>2022-09-04</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://pamarus.github.io/2022/05/15/mac-zhong-duan-xian-shi-192-bu-xian-shi-dian-nao-ming-zi-de-jie-jue-fang-fa/</loc>
     
     <lastmod>2022-09-04</lastmod>
@@ -110,25 +155,7 @@
   </url>
   
   <url>
-    <loc>https://pamarus.github.io/2020/05/19/hexo-bo-ke-da-jian-6-valine-ping-lun-xi-tong-you-hua/</loc>
-    
-    <lastmod>2022-09-02</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://pamarus.github.io/404.html</loc>
-    
-    <lastmod>2022-09-02</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pamarus.github.io/2020/05/17/hexo-bo-ke-da-jian-5-next-zhu-ti-ji-cheng-valine-ping-lun-xi-tong/</loc>
     
     <lastmod>2022-09-02</lastmod>
     
@@ -173,27 +200,9 @@
   </url>
   
   <url>
-    <loc>https://pamarus.github.io/2020/05/04/xiao-shu-jiang-md-bian-ji-qi-pei-zhi-github-tu-chuang/</loc>
-    
-    <lastmod>2022-08-29</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://pamarus.github.io/2020/05/03/markdown-1-ji-chu-yu-fa-xue-xi-ji-kuai-su-ru-men/</loc>
     
     <lastmod>2022-05-16</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pamarus.github.io/2022/05/14/hexo-bo-ke-da-jian-9-she-zhi-wen-zhang-jia-mi/</loc>
-    
-    <lastmod>2022-05-15</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -246,15 +255,6 @@
   
   <url>
     <loc>https://pamarus.github.io/2020/05/25/processing-xue-xi-ji-lu-2-shi-yong-wen-ti-ji-jie-jue-fang-fa-hui-zong/</loc>
-    
-    <lastmod>2021-05-18</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pamarus.github.io/2020/06/04/hexo-bo-ke-da-jian-7-next-zhu-ti-wu-custom.styl-wen-jian-ru-he-zi-ding-yi-yang-shi/</loc>
     
     <lastmod>2021-05-18</lastmod>
     

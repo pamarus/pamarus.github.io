@@ -508,30 +508,27 @@
         <div class="card-content article-card-content">
             <div id="articleContent">
                 <p>我的Hexo博客主题版本是 v4.2.0，NexT主题版本是 v7.8.0，没有 <code>next/source/css/_custom/</code> 文件夹和 <code>custom.styl</code> 文件，而网上很多教程都是在这个 <code>custom.styl</code> 文件中添加自定义CSS代码，针对这种情况，搜索查看了一些文章和官方issues，找到了新版本自定义CSS代码的方法。</p>
-<blockquote class="question">
-注：如何查看Hexo博客和NexT主题版本
-
+<blockquote>
+<p>注：如何查看Hexo博客和NexT主题版本</p>
 <p>分别在博客文件夹和主题文件夹中，找到并打开 <code>package.json</code> 文件，即可看到版本信息，如下：</p>
-<pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token string-property property">"name"</span><span class="token operator">:</span> <span class="token string">"hexo-theme-next"</span><span class="token punctuation">,</span>
-  <span class="token string-property property">"version"</span><span class="token operator">:</span> <span class="token string">"7.8.0"</span><span class="token punctuation">,</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
-
-<pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token string-property property">"hexo"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
-    <span class="token string-property property">"version"</span><span class="token operator">:</span> <span class="token string">"4.2.0"</span>
-  <span class="token punctuation">}</span><span class="token punctuation">,</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
 </blockquote>
+<pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token string">"name"</span><span class="token operator">:</span> <span class="token string">"hexo-theme-next"</span><span class="token punctuation">,</span>
+  <span class="token string">"version"</span><span class="token operator">:</span> <span class="token string">"7.8.0"</span><span class="token punctuation">,</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+
+<pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token string">"hexo"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token string">"version"</span><span class="token operator">:</span> <span class="token string">"4.2.0"</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
 
 <span id="more"></span>
 
-<h1>1. 问题</h1>
-
-<p>在参考网上文章配置博客网页端显示样式时，发现教程中都是说在<code>~next/source/css/_custom/custom.styl</code> 文件中添加CSS代码。但我的NexT文件夹中并没有这个文件。</p>
+<h1 id="问题">1. 问题</h1><p>在参考网上文章配置博客网页端显示样式时，发现教程中都是说在<code>~next/source/css/_custom/custom.styl</code> 文件中添加CSS代码。但我的NexT文件夹中并没有这个文件。</p>
 <h1 id="解决方法">2. 解决方法</h1><p>使用自定义CSS的方法：</p>
 <ul>
 <li>在主题配置文件 <code>_config.yml</code>中找到 <code>custom_file_path</code>，如下</li>
 </ul>
-<pre class="line-numbers language-jsx" data-language="jsx"><code class="language-jsx"># Define custom file paths<span class="token punctuation">.</span>
-# Create your custom files <span class="token keyword">in</span> site directory <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">source/_data</span><span class="token template-punctuation string">`</span></span> and uncomment needed files below<span class="token punctuation">.</span>
-<span class="token literal-property property">custom_file_path</span><span class="token operator">:</span>
+<pre class="line-numbers language-java" data-language="java"><code class="language-java"># <span class="token class-name">Define</span> custom file paths<span class="token punctuation">.</span>
+# <span class="token class-name">Create</span> your custom files in site directory `source<span class="token operator">/</span>_data` and uncomment needed files below<span class="token punctuation">.</span>
+custom_file_path<span class="token operator">:</span>
   #head<span class="token operator">:</span> source<span class="token operator">/</span>_data<span class="token operator">/</span>head<span class="token punctuation">.</span>swig
   #header<span class="token operator">:</span> source<span class="token operator">/</span>_data<span class="token operator">/</span>header<span class="token punctuation">.</span>swig
   #sidebar<span class="token operator">:</span> source<span class="token operator">/</span>_data<span class="token operator">/</span>sidebar<span class="token punctuation">.</span>swig
@@ -541,19 +538,17 @@
   #bodyEnd<span class="token operator">:</span> source<span class="token operator">/</span>_data<span class="token operator">/</span>body<span class="token operator">-</span>end<span class="token punctuation">.</span>swig
   #variable<span class="token operator">:</span> source<span class="token operator">/</span>_data<span class="token operator">/</span>variables<span class="token punctuation">.</span>styl
   #mixin<span class="token operator">:</span> source<span class="token operator">/</span>_data<span class="token operator">/</span>mixins<span class="token punctuation">.</span>styl
-  <span class="token literal-property property">style</span><span class="token operator">:</span> source<span class="token operator">/</span>_data<span class="token operator">/</span>styles<span class="token punctuation">.</span>styl<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+  style<span class="token operator">:</span> source<span class="token operator">/</span>_data<span class="token operator">/</span>styles<span class="token punctuation">.</span>styl<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
 <ul>
 <li>按照提示，新建 <code>~blog/source/_data</code> 文件夹，再在文件夹内新建 <code>styles.styl</code> 文件。</li>
 <li>将 <code>style: source/_data/styles.styl</code> 前的#号删掉，使其生效。</li>
 </ul>
 <p>之后将自定义样式的代码放在这个文件中即可。</p>
-<blockquote class="question">
-注意：
-
+<blockquote>
+<p>注意：</p>
 <p><code>~blog/source/_data</code> 文件夹和 <code>styles.styl</code> 文件是在blog根目录中新建，而不是在next根目录中。</p>
 </blockquote>
-
 <h1 id="致谢">3. 致谢</h1><p><a target="_blank" rel="noopener" href="https://github.com/theme-next/hexo-theme-next/issues/973">NexT V7.2.0:How to change blog background？如何更改博客背景？ #973</a></p>
 <p><a target="_blank" rel="noopener" href="https://blog.csdn.net/chrishly3/article/details/103992492">hexo个人博客 next主题添加背景图片(无custom.styl情况)</a></p>
 
@@ -1409,7 +1404,7 @@
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">31.8k</span>&nbsp;字
+                class="white-color">32.2k</span>&nbsp;字
             
             
             
