@@ -1,3 +1,7 @@
+https://pamarus.github.io/2020/06/13/processing-xue-xi-ji-lu-4-miao-bian-shu-xing-tian-chong-he-bei-jing-se/
+https://pamarus.github.io/2020/05/25/processing-xue-xi-ji-lu-3-2d-ji-he-tu-xing-hui-zhi/
+https://pamarus.github.io/2020/05/25/processing-xue-xi-ji-lu-2-shi-yong-wen-ti-ji-jie-jue-fang-fa-hui-zong/
+https://pamarus.github.io/2020/05/24/processing-xue-xi-ji-lu-1-chu-xiang-shi/
 https://pamarus.github.io/2020/05/05/markdown-2-ru-he-tian-jia-duo-ge-tags/
 https://pamarus.github.io/2020/05/03/markdown-1-ji-chu-yu-fa-xue-xi-ji-kuai-su-ru-men/
 https://pamarus.github.io/2020/05/04/xiao-shu-jiang-md-bian-ji-qi-pei-zhi-github-tu-chuang/
@@ -21,11 +25,7 @@ https://pamarus.github.io/friends/index.html
 https://pamarus.github.io/contact/index.html
 https://pamarus.github.io/tags/index.html
 https://pamarus.github.io/categories/index.html
-https://pamarus.github.io/2020/06/13/processing-xue-xi-ji-lu-4-miao-bian-shu-xing-tian-chong-he-bei-jing-se/
-https://pamarus.github.io/2020/05/25/processing-xue-xi-ji-lu-3-2d-ji-he-tu-xing-hui-zhi/
-https://pamarus.github.io/2020/05/24/processing-xue-xi-ji-lu-1-chu-xiang-shi/
 https://pamarus.github.io/2020/06/15/markdown-3-tu-pian-yang-shi-you-hua-mei-hua/
-https://pamarus.github.io/2020/05/25/processing-xue-xi-ji-lu-2-shi-yong-wen-ti-ji-jie-jue-fang-fa-hui-zong/
 https://pamarus.github.io/2020/05/18/valine-ping-lun-ce-shi/
 https://pamarus.github.io/
 https://pamarus.github.io/tags/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/

@@ -505,17 +505,17 @@
 <h1 id="下载安装">1. 下载安装</h1><p>这一步不需要详细介绍，作为个人学习记录，在此备注一下：</p>
 <p>访问 <a target="_blank" rel="noopener" href="https://processing.org/">Processing官网</a>，根据自己的操作系统，下载对应的版本。我的是mac系统。</p>
 <h1 id="初识界面">2. 初识界面</h1><p>之前接触eclipse等一些开发软件界面，相比较，Processing的开发环境非常简单明了。</p>
-<p><img src="https://raw.githubusercontent.com/Pamarus/Images/master/2020/Processing%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%9501-%E7%95%8C%E9%9D%A2.jpg" alt="Processing学习记录01-界面"></p>
+<p><img src="https://note.youdao.com/yws/api/personal/file/WEBd0d349b9131151502419008fe609226d?method=download&amp;shareKey=5e9966ea808b493d46a91bc4750289d3" alt="Processing学习记录01-界面"></p>
 <p>Processing由<code>代码编辑区、工具栏、标签栏、控制台</code>组成。<br>Mac菜单栏在电脑界面顶栏。<br>当点击工具栏<code>运行</code>按钮后，会弹出一个新的窗口，称为显示窗口。</p>
 <p>举例来说，比如代码区编写代码设置画布大小，点击运行，弹出下图中右侧的显示窗口，大小为400*400。(Processing默认画布大小是100*100）</p>
-<p><img src="https://raw.githubusercontent.com/Pamarus/Images/master/2020/Processing%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%9502-%E6%98%BE%E7%A4%BA%E7%AA%97%E5%8F%A3.jpg" alt="Processing学习记录02-显示窗口"></p>
+<p><img src="https://note.youdao.com/yws/api/personal/file/WEB95b0ffe8434fb0da16a0b5097bb38259?method=download&amp;shareKey=d553e7faa100581d658bf0d94c35c71a" alt="Processing学习记录02-显示窗口"></p>
 <h1 id="创建第一个图形">3. 创建第一个图形</h1><p>先绘制一个圆</p>
 <h2 id="代码">3.1. 代码</h2><pre class="line-numbers language-jsx" data-language="jsx"><code class="language-jsx"><span class="token keyword">void</span> <span class="token function">setup</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
   <span class="token function">size</span><span class="token punctuation">(</span><span class="token number">400</span><span class="token punctuation">,</span><span class="token number">400</span><span class="token punctuation">)</span><span class="token punctuation">;</span>            <span class="token comment">//画布大小设置为400*400</span>
   <span class="token function">ellipse</span><span class="token punctuation">(</span><span class="token number">50</span><span class="token punctuation">,</span><span class="token number">50</span><span class="token punctuation">,</span><span class="token number">100</span><span class="token punctuation">,</span><span class="token number">100</span><span class="token punctuation">)</span><span class="token punctuation">;</span>   <span class="token comment">// 以50,50为圆心，画一个直径为100的圆</span>
 <span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
 
-<h2 id="效果">3.2. 效果</h2><p><img src="https://raw.githubusercontent.com/Pamarus/Images/master/2020/Processing%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%9503-%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%9B%BE%E5%BD%A2.jpg" alt="Processing学习记录03-第一个图形"></p>
+<h2 id="效果">3.2. 效果</h2><p><img src="https://note.youdao.com/yws/api/personal/file/WEB7be97aa4ddf84dcd34bf9905f49ed81d?method=download&amp;shareKey=7bde7c5c9b00c73f721933b13014e090" alt="Processing学习记录03-第一个图形"></p>
 <h2 id="说明">3.3. 说明</h2><ul>
 <li>设置画布大小的函数：</li>
 </ul>
@@ -547,7 +547,7 @@
 <span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
 <h2 id="效果-1">4.2. 效果</h2><p>圆连续变大：</p>
-<p><img src="https://raw.githubusercontent.com/Pamarus/Images/master/2020/Processing%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%9504-%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8A%A8%E7%94%BB.png" alt="Processing学习记录04-第一个动画"></p>
+<p><img src="https://note.youdao.com/yws/api/personal/file/WEB73e8ce0fd4e54a36231bdecdd2a46ee4?method=download&amp;shareKey=a97ca153a9391190403250a6baa3a5bc" alt="Processing学习记录04-第一个动画"></p>
 <h2 id="说明-1">4.3. 说明</h2><ul>
 <li>draw ()函数<ul>
 <li>标准的Processing主程序的结构之一。</li>
@@ -566,7 +566,7 @@
   <span class="token function">line</span><span class="token punctuation">(</span>mouseX<span class="token punctuation">,</span>mouseY<span class="token punctuation">,</span><span class="token number">200</span><span class="token punctuation">,</span><span class="token number">200</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  <span class="token comment">// 从200,200往外绘制一条直线,不消除痕迹</span>
 <span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
-<h2 id="效果-2">5.2. 效果</h2><p><img src="https://raw.githubusercontent.com/Pamarus/Images/master/2020/Processing%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%9505-%E7%AC%AC%E4%B8%80%E4%B8%AA%E4%BA%A4%E4%BA%921.jpg" alt="Processing学习记录05-第一个交互1"></p>
+<h2 id="效果-2">5.2. 效果</h2><p><img src="https://note.youdao.com/yws/api/personal/file/WEBdd246a65d74287d577fa19117708f9b6?method=download&amp;shareKey=6e98357ba1ceba9f5338d3545ad4d5c8" alt="Processing学习记录05-第一个交互1"></p>
 <h2 id="说明-2">5.3. 说明</h2><ul>
 <li>mouseX和mouseY是系统变量，是鼠标所在的坐标位置。</li>
 <li>绘画中不消除原有的绘画留下的痕迹。</li>
@@ -586,7 +586,7 @@
 <ul>
 <li>效果</li>
 </ul>
-<p><img src="https://raw.githubusercontent.com/Pamarus/Images/master/2020/Processing%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%9506-%E7%AC%AC%E4%B8%80%E4%B8%AA%E4%BA%A4%E4%BA%922.jpg" alt="Processing学习记录06-第一个交互2"></p>
+<p><img src="https://note.youdao.com/yws/api/personal/file/WEB2b1ac7f1b96734cc2d260be206913861?method=download&amp;shareKey=129861ec2d631834cc41aafe7f61617e" alt="Processing学习记录06-第一个交互2"></p>
 
                 
             </div>
