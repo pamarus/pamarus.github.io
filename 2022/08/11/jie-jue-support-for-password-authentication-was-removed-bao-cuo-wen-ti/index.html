@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="生活日常,成长日记,安安">
+    <meta name="keywords" content="SSH验证,Token验证,密码验证报错">
     <meta name="description" content="Thinking Hacks">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>安安成长日记-2022年05月 | Pamarus</title>
+    <title>解决Support for password authentication was removed报错问题 | Pamarus</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -296,7 +296,7 @@
 <script src="/libs/cryptojs/crypto-js.min.js"></script>
 <script>
     (function() {
-        let pwd = '2a186fe05dd77a25326fb152945bef64b9d10aa729fd829ae283038cb16b666c';
+        let pwd = '';
         if (pwd && pwd.length > 0) {
             if (pwd !== CryptoJS.SHA256(prompt('你的通行证呢，点击此处输入试试噢🫣')).toString(CryptoJS.enc.Hex)) {
                 alert('通行证看着不太对，再试试噢🤔');
@@ -309,12 +309,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/%E5%B0%81%E9%9D%A2-%E5%AE%89%E5%AE%892022-05.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/20.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">安安成长日记-2022年05月</h1>
+                    <h1 class="description center-align post-title">解决Support for password authentication was removed报错问题</h1>
                 </div>
             </div>
         </div>
@@ -430,12 +430,12 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/">
-                                <span class="chip bg-color">生活日常</span>
+                            <a href="/tags/SSH%E9%AA%8C%E8%AF%81/">
+                                <span class="chip bg-color">SSH验证</span>
                             </a>
                         
-                            <a href="/tags/%E5%AE%89%E5%AE%89/">
-                                <span class="chip bg-color">安安</span>
+                            <a href="/tags/Token%E9%AA%8C%E8%AF%81/">
+                                <span class="chip bg-color">Token验证</span>
                             </a>
                         
                     </div>
@@ -446,8 +446,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/" class="post-category">
-                                生活日常
+                            <a href="/categories/Hexo%E5%8D%9A%E5%AE%A2/" class="post-category">
+                                Hexo博客
                             </a>
                         
                     </div>
@@ -459,7 +459,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2022-05-16
+                    2022-08-11
                 </div>
                 
 
@@ -468,14 +468,14 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    3k
+                    584
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    10 分
+                    2 分
                 </div>
                 
 
@@ -503,157 +503,38 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <span id="more"></span>
+                <h1 id="问题">1. 问题</h1><p>Hexo部署时候报错如下。</p>
+<pre class="line-numbers language-java" data-language="java"><code class="language-java">remote<span class="token operator">:</span> <span class="token class-name">Support</span> <span class="token keyword">for</span> password authentication was removed on <span class="token class-name">August</span> <span class="token number">13</span><span class="token punctuation">,</span> <span class="token number">2021.</span> <span class="token class-name">Please</span> use a personal access token instead<span class="token punctuation">.</span>
+remote<span class="token operator">:</span> <span class="token class-name">Please</span> see https<span class="token operator">:</span><span class="token operator">/</span><span class="token operator">/</span>github<span class="token punctuation">.</span>blog<span class="token operator">/</span><span class="token number">2020</span><span class="token operator">-</span><span class="token number">12</span><span class="token operator">-</span><span class="token number">15</span><span class="token operator">-</span>token<span class="token operator">-</span>authentication<span class="token operator">-</span>requirements<span class="token operator">-</span><span class="token keyword">for</span><span class="token operator">-</span>git<span class="token operator">-</span>operations<span class="token operator">/</span> <span class="token keyword">for</span> more information<span class="token punctuation">.</span>
+fatal<span class="token operator">:</span> unable <span class="token keyword">to</span> <span class="token namespace">access</span> 'https<span class="token operator">:</span><span class="token operator">/</span><span class="token operator">/</span>github<span class="token punctuation">.</span>com<span class="token comment">/***/</span><span class="token operator">*</span><span class="token operator">*</span><span class="token operator">*</span><span class="token punctuation">.</span>git<span class="token operator">/</span>'<span class="token operator">:</span> <span class="token class-name">The</span> requested <span class="token constant">URL</span> returned error<span class="token operator">:</span> <span class="token number">403</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
 
-<h1 id="05-01">1. 05-01</h1><p><img src="https://note.youdao.com/yws/api/personal/file/WEBf0208b7c32083857dc5391bd9fed8166?method=download&amp;shareKey=0fa1efb65c5fb7116ae23e283a1d931d"></p>
-<p>今天天晴了，上午洗完澡给宝宝晒太阳，去黄疸，很多天没晒过太阳，感觉黄疸比在医院里重。<br>晒得蛮舒服，但是一会儿就不行了，动来动去，一会儿又直接嘘嘘了🤣</p>
-<p>今天给安安洗屁股时，撒尿撒到奶奶身上了。</p>
-<p>今天妈妈给安安买的黑白卡也到了，想不到买的这个黑白卡京东这么给力。前几天还自己画了几张，也没咋用上，有点浪费了。</p>
-<h1 id="05-02">2. 05-02</h1><p>胸部涨奶有硬块，昨晚上没吸奶。妈妈今天上午发烧，上半身很热，早晨还有哆嗦，估计是乳腺炎。一直到下午都没好，急死人了，后来在美柚上挂了个电话问诊，让去医院，或自己排奶，主要是因为堵奶造成体温上升，需要把乳腺疏通。手排奶后，睡一觉温度下降了点，我也帮忙吸了一点。晚上温度下降之后又重新喂安安了。下午不敢喂，用的是前些天吸奶器吸出来的奶。到晚上就慢慢正常了，安安给力点噢，加油吸，让妈妈轻松点。</p>
-<p><img src="https://note.youdao.com/yws/api/personal/file/WEB77acfc823064ef1c2afafb7ac890117f?method=download&amp;shareKey=20a54adb4c40678d9c8d07735766de55"></p>
-<p>中午洗澡后，晒太阳时，脐带脱落了，不过还剩一点点硬痂。</p>
-<p><img src="https://note.youdao.com/yws/api/personal/file/WEBffb2a6623fad6f32ae10cfbfb9d8db47?method=download&amp;shareKey=f19305820e889daff8f4ef5d614ed6b1"></p>
-<p>安安睡着睡着90度转身了。</p>
-<h1 id="05-03">3. 05-03</h1><p><img src="https://note.youdao.com/yws/api/personal/file/WEB4997f441cdab754bbc262de8a5360924?method=download&amp;shareKey=ab5ae35e480879a8889f5d4b9c23a0af"></p>
-<p><img src="https://note.youdao.com/yws/api/personal/file/WEB3444003519e510a16fb79c459eec058a?method=download&amp;shareKey=2ced4ad0cc08899f423cefb4deed9f8c"></p>
-<p>今天洗澡蛮乖了，有点习惯了吧。</p>
-<p><img src="https://note.youdao.com/yws/api/personal/file/WEB8d406e393ce8f1635a78b6694411202b?method=download&amp;shareKey=1b13ba8ec72d6f8607d491b1a60e32cf" alt="今日份的懒腰"></p>
-<p>今天换尿不湿时，又撒尿了，爸爸的两只手都被浇到了。为了惩罚她，来几张怼脸照和丑照。</p>
-<p><img src="https://note.youdao.com/yws/api/personal/file/WEBaa84fff9b8869441075261a71823d422?method=download&amp;shareKey=3d65123bd3834926946a33b5bccd36fe"></p>
-<p><img src="https://note.youdao.com/yws/api/personal/file/WEBe319febb1a88475f7c4ed82c087d8b5e?method=download&amp;shareKey=9d9a99338af02aec796b6a67af340596"></p>
-<h1 id="05-04">4. 05-04</h1><p><img src="https://note.youdao.com/yws/api/personal/file/WEB7ed6d67fa66e2e4c84ffe0547ed936f5?method=download&amp;shareKey=5e808560622e100d5d8717ad369ed58d"></p>
-<p>上午换完纸尿裤，暂时透气一下所以没穿上新纸尿裤，妈妈喂奶时，安安撒尿到妈妈身上了，这下爸爸妈妈奶奶都“照顾”到了。</p>
-<h1 id="05-05">5. 05-05</h1><p><img src="https://note.youdao.com/yws/api/personal/file/WEBe6f6f982bd80d53d61e8f0d85bc73ccb?method=download&amp;shareKey=7927a4836fe3c5989d40b3966e5923e7" alt="这边辛苦排奶，辛亏安安好好地在睡觉"></p>
-<p>昨晚上妈妈又有点堵奶了，有点发热，凌晨还在排奶，晚上也没睡好，排奶，换纸尿裤，喂奶，头晕乎乎的，安安加油多吸一点啊。</p>
-<p><img src="https://note.youdao.com/yws/api/personal/file/WEBc890c30a125e1dcfa18b3715960917f0?method=download&amp;shareKey=9e67371adce286e00b4879881387d68b"></p>
-<p>晚上妈妈又有点晕了，在卫生间要晕倒，吓死人了，明天开始要正常吃饭，和怀孕时候一样，啥都吃点。</p>
-<p><img src="https://note.youdao.com/yws/api/personal/file/WEB31d3aa17ab7ee4e1886a56d670b38f8d?method=download&amp;shareKey=4a41d19e18069a9334c1f795a8bbcb48"></p>
-<p>安安这些天还蛮乖的。听别人说第二个月就要闹了。😦</p>
-<h1 id="05-06">6. 05-06</h1><p><img src="https://note.youdao.com/yws/api/personal/file/WEB46d939add3c8e063a64d8b6f4b356cfc?method=download&amp;shareKey=18e59aa4de18ca85bb2a83223057f64a" alt="妈妈偷拍的投降睡姿"></p>
-<p><img src="https://note.youdao.com/yws/api/personal/file/WEB1152ab753cbe6e1b781d52dacf2b0fad?method=download&amp;shareKey=45170b0c500df3fde19de497b2fdccd1" alt="今日主题：妈妈和安安的亲子时光"></p>
-<p>今日主题：妈妈和安安的亲子时光</p>
-<p>今天是中午才给安安洗澡的，上午上班忙没来得及，又要做核酸。现在只要吃饱了洗澡都很乖，不容易哭，洗完玩了一会儿。但是时间长了也不行，就开始哭了T﹏T<br>明天要去医院给安安做足底采血，下午和社区居委报备，拿通行证。</p>
-<h1 id="05-07">7. 05-07</h1><p><img src="https://note.youdao.com/yws/api/personal/file/WEB11c40b43a5960c87baca0f4ff15e3cc6?method=download&amp;shareKey=8dc40c91cbbb7864555f2a27390cee73"></p>
-<p>上午去一妇婴做足底采血检查，采血时哭的可凶了，采完抱着哄一哄就好了。天气有点热，拎了提篮过去，有点重，下次只抱着宝宝去医院了，不然太重了，时间长了拎不动。而且天气热，提篮里也捂着有点热。<br>做完采血后，妈妈去乳腺科，这些天有些涨奶，痛，还有点肿块，去看下医生。看完还可以，说不严重，需要及时排空，让宝宝多吸点。开了头孢，消炎用。希望快点好起来。<br>下午回去做完核酸，再洗澡，洗完澡给宝宝洗澡。今天宝宝一直精神好，睡的比之前要少，可能是没有完全吃饱的原因，隔一段时间就要喝一点。</p>
-<p><img src="https://note.youdao.com/yws/api/personal/file/WEBcc23bee13678b864a5b0db226eb03319?method=download&amp;shareKey=f324d79a56d9c58f7b7f1517a3ca26c4" alt="露肩装"></p>
-<h1 id="05-08">8. 05-08</h1><p><img src="https://note.youdao.com/yws/api/personal/file/WEB8b8f925e4605d9f70991aec20ba3f314?method=download&amp;shareKey=57b848ecbc96a70e6432be3f25498b90"></p>
-<p>安安这两天睡觉睡的少了，喝奶的间隔时间频繁了，睡不到两小时就醒了要吃奶。这是正常的吧。<br>今天满两周大，半月了，也开始给她吃维生素D。</p>
-<h1 id="05-09">9. 05-09</h1><p>放在身上拍嗝，然后拉臭臭了，就安静了一会儿。<br>包被包起来睡觉，安静了一会儿还是踢开了，还没吃饱，但已经吃了半小时多了，也不知道咋回事，慢慢地越来越闹，不知道是不是肠胀气</p>
-<h1 id="05-10">10. 05-10</h1><p><img src="https://note.youdao.com/yws/api/personal/file/WEBdf9fe84c19f87bc7e1e2fe7530cb6681?method=download&amp;shareKey=f7dcc7a302db0f1c0bf11c7e66d9e3a7"></p>
-<p>哈哈偷拍丑照一张，小脸上有一些小点点了，没有之前光滑了，估计是热的，睡觉捂的？</p>
-<p><img src="https://note.youdao.com/yws/api/personal/file/WEBf85e75f9b9c15207b41fe693657ee003?method=download&amp;shareKey=720ec721f744c5d8e718b4c2fbeb103d" alt="开心噢"></p>
-<p><img src="https://note.youdao.com/yws/api/personal/file/WEB442feed745a0bce67c1f0c1994c87233?method=download&amp;shareKey=9a30b234b24d619981d440a58d57e02e" alt="眼睛好大，黑球球，黑溜溜，滴溜溜的"></p>
-<p>眼睛好大，黑球球，黑溜溜，滴溜溜的</p>
-<p><img src="https://note.youdao.com/yws/api/personal/file/WEB1dc2dd6ff5a73ec9421f25fe4c23c812?method=download&amp;shareKey=b61f8652451c16ff4120c4b8e60416ea" alt="让妈妈也分你一点"></p>
-<p>今天做抗原，终于暂时告别核酸了。<br>今天安安和之前一样，吃奶睡不了多长时间，一两个小时。是在长身体吧，查了肠胀气的介绍，应该不是，正常吃奶，拉臭臭。<br>今天还给安安称了体重，3.1公斤，和之前差不多，身高头围也一致。</p>
-<h1 id="05-11">11. 05-11</h1><p><img src="https://note.youdao.com/yws/api/personal/file/WEB147c76dca91ab1fcec0ad8b51dec9187?method=download&amp;shareKey=0c55654b2fe8e62c510406f4b3e1f562" alt="小眼睛贼亮"></p>
-<p><img src="https://note.youdao.com/yws/api/personal/file/WEB862d45907a5d2cb4da42176178fdfc82?method=download&amp;shareKey=288ceb8a721e24ddf268457c81176ac0" alt="你说哭起来丑不丑🤣"></p>
-<p>今天中午看安安睡觉，中途醒了，抱起来哄一下好了，然后报到婴儿床上，不知怎么地吐奶了，包被都湿了。紧张地抱起来擦擦嘴，之后又打嗝，哎，只能放在身上拍嗝，拍了会儿不打嗝了，然后慢慢睡着，这样看起来很舒服的样子。但是放到婴儿床上又不安稳，只能抱给妈妈喂奶，睡觉💤哎</p>
-<h1 id="05-12">12. 05-12</h1><p><img src="https://note.youdao.com/yws/api/personal/file/WEB7e288f664ad5f8f8bf11fd9391f5221d?method=download&amp;shareKey=65e0ecc8f16f3f631d275ff392f822b1"><br>指甲长出来了吧，脸上常有抓痕了，得剪剪指甲了。</p>
-<p><img src="https://note.youdao.com/yws/api/personal/file/WEB14ff0e73e5d70cc0f0f04129a0046211?method=download&amp;shareKey=36052cf9e8a3f92124889209f5237b68" alt="睡熟了真好看"></p>
-<p><img src="https://note.youdao.com/yws/api/personal/file/WEB6a27fb16fb22933fccb5070b1ca627d9?method=download&amp;shareKey=071a62919d6106258d621644ecd26be5"></p>
-<div style="width:100%;height:0px;position:relative;padding-bottom:56.327%;"><iframe src="https://streamja.com/embed/yaQnm" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;"></iframe></div>
+<p>大概意思是：对密码身份验证的支持已于2021年8月13日移除。请改用个人访问令牌（personal access token）。<br>请参阅<a target="_blank" rel="noopener" href="https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/">https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/</a> 了解更多信息。</p>
+<h1 id="官方说明">2. 官方说明</h1><p>上面网站有官方说明和解决方法。</p>
+<blockquote>
+<p>近年来，GitHub客户受益于GitHub.com的多项安全增强功能，例如双重身份验证、登录警报、验证设备、防止使用泄露的密码以及WebAuthn支持。这些功能使攻击者更难获取在多个网站上重复使用的密码并使用它来尝试访问您的GitHub帐户。尽管有这些改进，但由于历史原因，未启用双因素身份验证的客户仍然能够仅使用其 GitHub 用户名和密码继续对 Git 和 API 操作进行身份验证。</p>
+<p>从2021年8月13日开始，我们在对Git操作进行身份验证时将<code>不再接受帐户密码</code>，并将要求<code>使用基于令牌的身份验证</code>，例如<code>个人访问令牌</code>（针对开发人员）或适用于GitHub.com上所有经过身份验证的Git操作的OAuth或GitHub应用程序安装令牌（针对集成商）。您也可以在您喜欢的地方继续使用<code>SSH密钥</code>。</p>
+</blockquote>
+<h1 id="使用SSH-Key进行部署验证">3. 使用SSH Key进行部署验证</h1><p>参考之前的博客搭建文章，<a href="https://pamarus.github.io/2020/05/04/hexo-bo-ke-da-jian-1-mac-duan-shi-yong-hexo-github-pages-da-jian-mian-fei-ge-ren-bo-ke/#toc-heading-17">Hexo博客搭建（1）：Mac端使用Hexo+GitHub Pages搭建免费个人博客</a></p>
+<p>根据教程，生成<code>SSH Key</code>，并在GitHub上添加<code>SSH Key</code>，修改<code>博客配置文件</code>中的<code>deploy</code>节点即可。</p>
+<p>将</p>
+<pre class="line-numbers language-java" data-language="java"><code class="language-java">deploy<span class="token operator">:</span>
+  type<span class="token operator">:</span> <span class="token char">'git'</span>
+  repository<span class="token operator">:</span> https<span class="token operator">:</span><span class="token operator">/</span><span class="token operator">/</span>github<span class="token punctuation">.</span>com<span class="token operator">/</span>用户名<span class="token operator">/</span>仓库名<span class="token punctuation">.</span>git
+  branch<span class="token operator">:</span> master<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
 
-<p>这几天开始闹了，估计是肠胀气或者攒肚子，趴着舒服点，特别是趴在妈妈身上，一点不闹，不一会儿就会睡着。</p>
-<h1 id="05-13">13. 05-13</h1><div style="width:100%;height:0px;position:relative;padding-bottom:56.327%;"><iframe src="https://streamja.com/embed/JKG1J" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;"></iframe></div>
+<p>修改为</p>
+<pre class="line-numbers language-java" data-language="java"><code class="language-java">deploy<span class="token operator">:</span>
+  type<span class="token operator">:</span> <span class="token char">'git'</span>
+  repository<span class="token operator">:</span> git<span class="token annotation punctuation">@github.com</span><span class="token operator">:</span>用户名<span class="token operator">/</span>仓库名<span class="token punctuation">.</span>git
+  branch<span class="token operator">:</span> master<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
 
-<hr>
-<div style="width:100%;height:0px;position:relative;padding-bottom:56.327%;"><iframe src="https://streamja.com/embed/gwXMz" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;"></iframe></div>
+<p>因为<code>https</code>方式适用于用户名密码验证，而<code>git</code>的部署方式适用于<code>SSH Key</code>验证。</p>
+<h1 id="使用personal-access-token">4. 使用personal access token</h1><h2 id="创建token">4.1. 创建token</h2><p>参考历史文章<a href="https://pamarus.github.io/2020/05/04/xiao-shu-jiang-md-bian-ji-qi-pei-zhi-github-tu-chuang/#toc-heading-2">小书匠MD编辑器配置GitHub图床</a>，创建个人访问令牌。</p>
+<h2 id="修改deploy节点">4.2. 修改deploy节点</h2><pre class="line-numbers language-java" data-language="java"><code class="language-java">deploy<span class="token operator">:</span>
+  type<span class="token operator">:</span> <span class="token char">'git'</span>
+  repository<span class="token operator">:</span> https<span class="token operator">:</span><span class="token operator">/</span><span class="token operator">/</span>your_token<span class="token annotation punctuation">@github.com</span><span class="token operator">/</span>用户名<span class="token operator">/</span>仓库名<span class="token punctuation">.</span>git
+  branch<span class="token operator">:</span> master<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
 
-<p>掉下去了，掉下去了…😄</p>
-<p><img src="https://note.youdao.com/yws/api/personal/file/WEBd8f3f8c49087c9b0d12918bd7991cf66?method=download&amp;shareKey=b4c3608863a07197f126f12c2d9be0c2" alt="这种黑白照质感不错"></p>
-<p><img src="https://note.youdao.com/yws/api/personal/file/WEBe5143d515c91848dd8292f35627dea02?method=download&amp;shareKey=3c5292d9667031fe2e3212ba2c0e43e7"></p>
-<p>妈妈每天在房里“陪安安一起吃饭”，等坐完月子什么时候能和我们一起。</p>
-<p><img src="https://note.youdao.com/yws/api/personal/file/WEB5cc841bc6d0f6f7175adbc4c3ae3e26f?method=download&amp;shareKey=48d883efe025a7c32347a1e7d6c030c1" alt="你瞅啥"><br>你瞅啥</p>
-<p><img src="https://note.youdao.com/yws/api/personal/file/WEB351e855f95572a4f87dda1c5cb9ef1da?method=download&amp;shareKey=56884a45c16420a26405f9c3015dd75e" alt="瞅你咋地"><br>瞅你咋地</p>
-<h1 id="05-14">14. 05-14</h1><p><img src="https://note.youdao.com/yws/api/personal/file/WEB84848c9e7019b4e9f6a5007bdf70f17b?method=download&amp;shareKey=ff394b6b17f63b82763b01d03a9a5894"></p>
-<p>早上六点多，发现安安的脐带剩下的一点硬痂也全部脱落了，看起来好看多了。但最近安安脸上有些小红点了，不知道是湿疹还是热疹。</p>
-<p><img src="https://note.youdao.com/yws/api/personal/file/WEB1e85499351ebd2da613a95425affc6b5?method=download&amp;shareKey=d0de1e775d7eeec380ae8dc114ad1d2e" alt="剪指甲"></p>
-<p><img src="https://note.youdao.com/yws/api/personal/file/WEB27d9914e2a8e55d364e7fd2f1171422f?method=download&amp;shareKey=ba32c399e68b234db8c390e2e952ceb4" alt="剪指甲"></p>
-<p>睡熟了，妈妈给安安剪指甲，指甲长起来了，脸都抓了一些红痕。</p>
-<p><img src="https://note.youdao.com/yws/api/personal/file/WEBf7ec2712f56ce2d3fe202914f003c492?method=download&amp;shareKey=1bb9618e1e72096715acb4e0d805811b" alt="痛苦面具"></p>
-<p>鼻子总是哼哧哼哧，感觉不通气，用棉签通一通鼻屎。</p>
-<h1 id="05-15">15. 05-15</h1><p>今天约了浦滨儿童医院的乙肝二针疫苗。</p>
-<p><img src="https://note.youdao.com/yws/api/personal/file/WEB2f734190ef991568478fd6df49805047?method=download&amp;shareKey=5deb0addddc1fb78c8438570f7b766c1"></p>
-<p><img src="https://note.youdao.com/yws/api/personal/file/WEB32b0b19eeb46f2474d5ff3715c93a876?method=download&amp;shareKey=ab7be9ff5bc05bc66b827dd91498c028"></p>
-<p>安安好像趴着舒服点，趴着立马就不哭了，可能是肠胀气吧。趴在腿上也可以。</p>
-<p><img src="https://note.youdao.com/yws/api/personal/file/WEBb0c9f39f4380a65da04edb195a3ce76d?method=download&amp;shareKey=14b3da4a25d3ac2efabbe5b6ad2585e1" alt="第一次大盆洗澡"></p>
-<p>第一次大盆洗澡。</p>
-<p><img src="https://note.youdao.com/yws/api/personal/file/WEB0c246c545b6979b372b50e4ef39b3649?method=download&amp;shareKey=c6bfb8e423d08a5330c7054d04aa2ab5"><br>看着头型有点扁。</p>
-<p><img src="https://note.youdao.com/yws/api/personal/file/WEB35d99f305c48dab344dea58b212181a3?method=download&amp;shareKey=4347fbcfad807cb3e133319fa4f2f715"></p>
-<p>经常睡着睡着就露肩装了🤣。</p>
-<h1 id="05-16">16. 05-16</h1><p><img src="https://note.youdao.com/yws/api/personal/file/WEB531d38ff4b55f8a597c579087661fea9?method=download&amp;shareKey=c1e29e9d6e0468c0ca42a1d4f6be094b"></p>
-<p>安安的小床快变成杂货堆了。</p>
-<div style="width:100%;height:0px;position:relative;padding-bottom:56.327%;"><iframe src="https://streamja.com/embed/N0V25" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;"></iframe></div>
-第二次大盆洗澡，乖多了
-
-<div style="width:100%;height:0px;position:relative;padding-bottom:56.327%;"><iframe src="https://streamja.com/embed/pPMk5" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;"></iframe></div>
-
-<div style="width:100%;height:0px;position:relative;padding-bottom:56.327%;"><iframe src="https://streamja.com/embed/3mzVA" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;"></iframe></div>
-搓干干
-
-<div style="width:100%;height:0px;position:relative;padding-bottom:56.327%;"><iframe src="https://streamja.com/embed/bewmE" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;"></iframe></div>
-
-<div style="width:100%;height:0px;position:relative;padding-bottom:56.327%;"><iframe src="https://streamja.com/embed/M14ql" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;"></iframe></div>
-抹油油
-
-<div style="width:100%;height:0px;position:relative;padding-bottom:56.327%;"><iframe src="https://streamja.com/embed/mr6kK" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;"></iframe></div>
-
-<div style="width:100%;height:0px;position:relative;padding-bottom:56.327%;"><iframe src="https://streamja.com/embed/WzLwE" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;"></iframe></div>
-
-<h1 id="05-17">17. 05-17</h1><p>凌晨起来，给安安换尿布时憋出一大串臭臭，差点蹭到奶奶身上，哈哈安安还不知道丑丑，拉完估计舒服了无辜地睁着大眼睛看着我们，妈妈说记下你这些囧的时刻，以后说给你听。</p>
-<p><img src="https://note.youdao.com/yws/api/personal/file/WEB8d398f60d8d1d81b73c3364b182bf0aa?method=download&amp;shareKey=9c64c7644fdc039e04acbba0d1bfe97c"><br>好几天没晒太阳了，中午时分太阳过去躺床上晒不到了，抱着在窗台晒晒一下。</p>
-<p><img src="https://note.youdao.com/yws/api/personal/file/WEBef80b11f9d6bf36e868dbc00a98683cc?method=download&amp;shareKey=34a190d88f558343e582b5c04caf5348"><br>白天有点闹，喂完奶一放下来就哭，趴在妈妈身上才能睡安稳，哭的受不了，下午趴在妈妈身上睡了两个多小时，哎妈妈太累了，安安要乖啊。因为疫情，京东买的大白鹅也一直不发货，哎，这鬼疫情啊。</p>
-<p><img src="https://note.youdao.com/yws/api/personal/file/WEB46b8e32024ae8f64957272d88769fa8b?method=download&amp;shareKey=6c53d0369bd58bba3c6e33fa78254303" alt="真香坐姿"><br>晚上还是比较闹，让和妈妈一起睡大床上的，没有单独在小床睡，这样在妈妈身边安稳点，也不知道是不是缺安全感。这几天喜欢上真香坐姿了，每次这样做都好乖，一点也不闹，估计这样坐舒服。</p>
-<h1 id="05-18">18. 05-18</h1><p><img src="https://note.youdao.com/yws/api/personal/file/WEB6268c0a8831fb016c8bfa6ea53b137de?method=download&amp;shareKey=5e0523cda467b07a1d3ee26c65047f6f"><br>早上经常醒了有点闹，好好地就哭起来，抱起来趴在腿上上，还能接睡一会。</p>
-<p>今天白天乖多了，也不知道昨天咋回事。是冻着了还是肠胀气？<br>下午给安安称了体重，3.6公斤，身长52cm，头围35，都长了点。</p>
-<h1 id="05-19">19. 05-19</h1><p><img src="https://note.youdao.com/yws/api/personal/file/WEBc11ca80417b2b0eb01dd4f6ad13d9113?method=download&amp;shareKey=bf72ecfe26ab8cc4a9ae2d8e2a02dd0f"></p>
-<h1 id="05-21">20. 05-21</h1><p><img src="https://note.youdao.com/yws/api/personal/file/WEB7ca5a7763e9c56e5399c10ef68ada138?method=download&amp;shareKey=34dcfa97a0d8e7a3615c42884f2b63f5" alt="要干“坏事”的表情"><br>拍到要干“坏事”的表情，宝宝好像这个表情都一致，锁头，嘴巴撅着，哈哈</p>
-<p><img src="https://note.youdao.com/yws/api/personal/file/WEB9521779f5f84f80934f9bb63f9a53be9?method=download&amp;shareKey=f33324be911e04ae8bfc0f298e8eab46"><br>今天还给安安清洗了鼻腔，开始有些抗拒，清一下就打喷嚏，习惯了会儿就乖多了。</p>
-<p><img src="https://note.youdao.com/yws/api/personal/file/WEB0cafdb3c1b42d2956c1a2ecab203b7c5?method=download&amp;shareKey=1ce7f5a9bae90c18c6ce63b0e2dabf04"></p>
-<p>今天安安白天没咋睡觉，吃会儿就睡一个小时，之后就哼哼唧唧，妈妈也没睡好，妈妈说安安故意不让我好好睡觉。</p>
-<p><img src="https://note.youdao.com/yws/api/personal/file/WEB6682a3e6e495278e8f76e2629c9b286b?method=download&amp;shareKey=96d46b05d3ddad96b6c70234e489f9f9" alt="通行证"></p>
-<p>今天早上拿到了通行证，只能去联华超市和家乐福，但是上午群里说人很多，所以就没去。下午有个快递鱼到了，所以就顺便去门口拿，问问能不能出去。问了可以，于是就登记去了联华超市，买了红枣枸杞花生这些东西，但是缺红豆。还买了些别的吃的，花了200多块钱。</p>
-<h1 id="05-22">21. 05-22</h1><p><img src="https://note.youdao.com/yws/api/personal/file/WEB294b45364757abf8303ef2dac0f4f350?method=download&amp;shareKey=e707cc5ae6120329bd225410b33d4240"></p>
-<p><img src="https://note.youdao.com/yws/api/personal/file/WEB1ee32422ce08322da1794953c38ee837?method=download&amp;shareKey=dd0b46d0b55e40fd7d5d81fa92f874a0"></p>
-<p>这几天闹趴在腿上很容易睡着，估计是肠胀气，趴着舒服点？但是时间趴久了，脸上印了很多衣服痕迹。</p>
-<p>今天格外闹，没怎么睡觉，睡一会儿就醒。白天奶奶用艾叶蒸蛋热敷，不知道有没有用。晚上妈妈用蒸汽眼罩敷肚子好像有点效果，放了很多屁，但不确定是不是真有用。</p>
-<p><img src="https://note.youdao.com/yws/api/personal/file/WEB7fa22c1465085a269882a637febc161e?method=download&amp;shareKey=f864ad151cd8d0f8ac859f82d63f3277"><br>今天还学会了飞机抱。</p>
-<p><img src="https://note.youdao.com/yws/api/personal/file/WEB4bed822002ca859fc38171d75f130da8?method=download&amp;shareKey=e2643f4144a0e7d6e4a80412930abb9a"><br>下午妈妈抱着安安哄着的时候，安安拉臭臭了，蹭到妈妈衣服上了😂😂</p>
-<h1 id="05-23">22. 05-23</h1><p>今天给他拍满月照，参考小红书教程，中午洗完澡换了个新衣服，借用道具橙子拍，橙子刚好是前阵子楼道里拼的，当时买了8斤数量够够的。晚上整理了一下，有些图片不太好。</p>
-<p><img src="https://note.youdao.com/yws/api/personal/file/WEB6a97650babf11bf7b6764073e7770a73?method=download&amp;shareKey=07fd5b1264685695373ffd6004f8d60e"><br>大白鹅排气枕到了，不过安安好像不太喜欢趴，不如趴人身上舒服吧😁。</p>
-<h1 id="05-24">23. 05-24</h1><p><img src="https://note.youdao.com/yws/api/personal/file/WEB536a27adfce6309c901fdbe811236704?method=download&amp;shareKey=df6819a85a2bb06b77176ec319facff6"></p>
-<p><img src="https://note.youdao.com/yws/api/personal/file/WEB9fb4f8e01b5a1f9c46ef83c8f621d806?method=download&amp;shareKey=28f666c9e83ef20156661c0fc38c874a" alt="安安“心想事成”"></p>
-<p>这些天安安肠胀气，闹得很，“二月闹”开始了吧，妈妈哄睡也特累，睡着了听见声音就得安抚。</p>
-<p><img src="https://note.youdao.com/yws/api/personal/file/WEB5d98c36ba83e501eb55c5bfb7a7ff007?method=download&amp;shareKey=74891593c824fcfeda370f79b823f9f5" alt="橙子满月照"></p>
-<div style="width:100%;height:0px;position:relative;padding-bottom:56.327%;"><iframe src="https://streamja.com/embed/v6qOA" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;"></iframe></div>
-
-<p>昨天满月照有些没拍好，而且拍到后来饿了比较闹，也没拍完，今天继续。拍完再P一下，花了不少时间，完工。蛮有意义的，后面可以用其他水果拍一拍。</p>
-<div style="width:100%;height:0px;position:relative;padding-bottom:56.327%;"><iframe src="https://streamja.com/embed/ZWKX9" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;"></iframe></div>
-晚上安安拉臭臭了，三个人围观，拉出来可开心了，也放心了。
-
-<h1 id="05-26">24. 05-26</h1><p><img src="https://note.youdao.com/yws/api/personal/file/WEB9e6c2da34545cfaa9ad4aec3db200375?method=download&amp;shareKey=809ec050726d8e31beabeb4a75560e6c"><br>这些天安安比较闹，一挪到小床上就哭，早上大床上睡着后，我们就把她放在两个枕头间睡着，哈哈</p>
-<h1 id="05-27">25. 05-27</h1><p><img src="https://note.youdao.com/yws/api/personal/file/WEB3180adf5b3a5eca038408af7b37c1e8e?method=download&amp;shareKey=f1188eb06062692b3fd48088d73a0b36" alt="满月照1"></p>
-<p><img src="https://note.youdao.com/yws/api/personal/file/WEBb873efd202c094498ec040c2ef9a9358?method=download&amp;shareKey=430fff8b121e9d2bd5532cec0732d541" alt="满月照2"><br>今天用尿不湿和安安用的部分东西拍了满月照，留作纪念。</p>
-<p><img src="https://note.youdao.com/yws/api/personal/file/WEB530eafafb0ebe9066a0c5c5d541c1386?method=download&amp;shareKey=4d49eb8c760b38119ed4ab680094a518"></p>
-<p><img src="https://note.youdao.com/yws/api/personal/file/WEB20f23fbea16732be8fa7169effd5e7eb?method=download&amp;shareKey=6b73abaef81371d0b4d0ccb2dbe65bb8"></p>
-<p>拍完洗澡，安安的脖子每次没洗干净，涂的身体乳堆积都臭臭了，今天要给她洗干净。洗完玩会儿。</p>
-<p><img src="https://note.youdao.com/yws/api/personal/file/WEB5b3f7bd1fcc47b2077618de8ca60e1d1?method=download&amp;shareKey=f3b58ef9492ecbb8e6914a5d5f51a286"><br>不闹的时候还是可以趴一会儿的。</p>
-<div style="width:100%;height:0px;position:relative;padding-bottom:56.327%;"><iframe src="https://streamja.com/embed/zbpqL" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;"></iframe></div>
-
-<div style="width:100%;height:0px;position:relative;padding-bottom:56.327%;"><iframe src="https://streamja.com/embed/92EAy" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;"></iframe></div>
-很喜欢真香坐姿。
-
-
-<h1 id="05-28">26. 05-28</h1><p><img src="https://note.youdao.com/yws/api/personal/file/WEBe4b9557b15fbb88fc340a4b86dd04afd?method=download&amp;shareKey=0437ab298c300c4cbac6ea0c90096111" alt="打疫苗"></p>
-<p>昨晚上11点才报备打疫苗，早上八点半拿到通行证，去卫生院时候都好些人排队了。<br>排了半小时进去，妈妈喂奶了，所以很乖，打疫苗也没有哭，全程安静，真乖。</p>
-<p>我们老是觉得她冷，妈妈说“有一种冷是妈妈觉得你冷，现在是有一种冷是爸爸觉得你冷，奶奶觉得你冷。”</p>
-<h1 id="05-29">27. 05-29</h1><p>安安太可怜了，这些天每天都肚子肠胀气，也不知道啥时候才好。</p>
-<h1 id="05-30">28. 05-30</h1><p>今天早上和晚上安安都拉臭臭了。</p>
-<h1 id="05-31">29. 05-31</h1><p>明天六一就要解封了。这几天都没安排集体核酸，为应对明日解封，外出要72小时核酸报告，外出做核酸排队的人很多，公司也建议我们做上。没办法，只能去居委排队做核酸。做了核酸，解封后也可以去派出所给安安上户口了。</p>
-<p><img src="https://note.youdao.com/yws/api/personal/file/WEB5c78e1cc71282d2743f7e448e0e34f52?method=download&amp;shareKey=2176ab8f2902060219625c0bde67ee0d"><br>看妈妈披头散发的样子。</p>
-<p><img src="https://note.youdao.com/yws/api/personal/file/WEB0e27c5a31fb1d357ec5690277664d5db?method=download&amp;shareKey=df8453474363857ec6ef098831960fcc"><br>妈妈开始在客厅吃饭了，身体恢复得不错，快出月子了。</p>
-<p><img src="https://note.youdao.com/yws/api/personal/file/WEB2f5549b7aa117c1d34c84231f484fb78?method=download&amp;shareKey=6c9faf491792de91b71c47708fc3bea6"><br>给安安穿了新衣服，大一号的，穿起来像裙子。</p>
 
                 
             </div>
@@ -680,7 +561,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://pamarus.github.io/2022/05/16/an-an-cheng-chang-ri-ji-2022-nian-05-yue/">https://pamarus.github.io/2022/05/16/an-an-cheng-chang-ri-ji-2022-nian-05-yue/</a>
+                    <a href="https://pamarus.github.io/2022/08/11/jie-jue-support-for-password-authentication-was-removed-bao-cuo-wen-ti/">https://pamarus.github.io/2022/08/11/jie-jue-support-for-password-authentication-was-removed-bao-cuo-wen-ti/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -718,12 +599,12 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/">
-                                    <span class="chip bg-color">生活日常</span>
+                                <a href="/tags/SSH%E9%AA%8C%E8%AF%81/">
+                                    <span class="chip bg-color">SSH验证</span>
                                 </a>
                             
-                                <a href="/tags/%E5%AE%89%E5%AE%89/">
-                                    <span class="chip bg-color">安安</span>
+                                <a href="/tags/Token%E9%AA%8C%E8%AF%81/">
+                                    <span class="chip bg-color">Token验证</span>
                                 </a>
                             
                         </div>
@@ -1160,12 +1041,68 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2022/06/12/an-an-cheng-chang-ri-ji-2022-nian-06-yue/">
+                <a href="/2022/09/06/ru-he-shi-yong-tree-ming-ling-sheng-cheng-mu-lu-shu-jie-gou/">
                     <div class="card-image">
                         
-                        <img src="/medias/featureimages/%E5%B0%81%E9%9D%A2-%E5%AE%89%E5%AE%892022-06.jpg" class="responsive-img" alt="安安成长日记-2022年06月">
+                        <img src="/medias/featureimages/xiaoshujiang.png" class="responsive-img" alt="如何使用tree命令生成目录树结构">
                         
-                        <span class="card-title">安安成长日记-2022年06月</span>
+                        <span class="card-title">如何使用tree命令生成目录树结构</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            macOS系统下使用tree命令生成目录树结构。
+                        
+                    </div>
+                    <div class="publish-info">
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2022-09-06
+                        </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E6%95%99%E7%A8%8B/" class="post-category">
+                                    教程
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/MacOS/">
+                        <span class="chip bg-color">MacOS</span>
+                    </a>
+                    
+                    <a href="/tags/tree/">
+                        <span class="chip bg-color">tree</span>
+                    </a>
+                    
+                    <a href="/tags/%E7%9B%AE%E5%BD%95%E6%A0%91/">
+                        <span class="chip bg-color">目录树</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/2022/07/12/an-an-cheng-chang-ri-ji-2022-nian-07-yue/">
+                    <div class="card-image">
+                        
+                        <img src="/medias/featureimages/%E5%B0%81%E9%9D%A2-%E5%AE%89%E5%AE%892022-07.jpg" class="responsive-img" alt="安安成长日记-2022年07月">
+                        
+                        <span class="card-title">安安成长日记-2022年07月</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -1175,9 +1112,9 @@
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2022-06-12
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-07-12
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
@@ -1199,62 +1136,6 @@
                     
                     <a href="/tags/%E5%AE%89%E5%AE%89/">
                         <span class="chip bg-color">安安</span>
-                    </a>
-                    
-                </div>
-                
-            </div>
-        </div>
-        
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">
-                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
-            </div>
-            <div class="card">
-                <a href="/2022/05/15/mac-zhong-duan-xian-shi-192-bu-xian-shi-dian-nao-ming-zi-de-jie-jue-fang-fa/">
-                    <div class="card-image">
-                        
-                        <img src="/medias/featureimages/xiaoshujiang.png" class="responsive-img" alt="Mac终端显示192，不显示用户名的解决方法">
-                        
-                        <span class="card-title">Mac终端显示192，不显示用户名的解决方法</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary block-with-text">
-                        
-                            Mac终端页面本应该显示机器名的，但是显示为192
-                        
-                    </div>
-                    <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-05-15
-                            </span>
-                        <span class="publish-author">
-                            
-                            <i class="fas fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/%E6%95%99%E7%A8%8B/" class="post-category">
-                                    教程
-                                </a>
-                            
-                            
-                        </span>
-                    </div>
-                </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/Mac%E7%BB%88%E7%AB%AF/">
-                        <span class="chip bg-color">Mac终端</span>
-                    </a>
-                    
-                    <a href="/tags/192/">
-                        <span class="chip bg-color">192</span>
-                    </a>
-                    
-                    <a href="/tags/Mac%E9%97%AE%E9%A2%98/">
-                        <span class="chip bg-color">Mac问题</span>
                     </a>
                     
                 </div>
