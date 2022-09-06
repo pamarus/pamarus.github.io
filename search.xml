@@ -150,7 +150,7 @@
       
       <categories>
           
-          <category> Hexo博客 </category>
+          <category> Hexo </category>
           
       </categories>
       
@@ -231,7 +231,7 @@
       
       <categories>
           
-          <category> Hexo博客 </category>
+          <category> Hexo </category>
           
       </categories>
       
@@ -262,7 +262,7 @@
       
       <categories>
           
-          <category> Hexo博客 </category>
+          <category> Hexo </category>
           
       </categories>
       
@@ -366,7 +366,7 @@
       
       <categories>
           
-          <category> Hexo博客 </category>
+          <category> Hexo </category>
           
       </categories>
       
@@ -388,33 +388,6 @@
     
     
     <entry>
-      <title>valine评论测试</title>
-      <link href="/2020/05/18/valine-ping-lun-ce-shi/"/>
-      <url>/2020/05/18/valine-ping-lun-ce-shi/</url>
-      
-        <content type="html"><![CDATA[<p>valine评论测试  <span class="github-emoji"><span>😄</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f604.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> Hexo博客 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Hexo_Blog </tag>
-            
-            <tag> NexT </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>Hexo博客搭建（5）：NexT主题-集成valine评论系统</title>
       <link href="/2020/05/17/hexo-bo-ke-da-jian-5-next-zhu-ti-ji-cheng-valine-ping-lun-xi-tong/"/>
       <url>/2020/05/17/hexo-bo-ke-da-jian-5-next-zhu-ti-ji-cheng-valine-ping-lun-xi-tong/</url>
@@ -424,7 +397,7 @@
       
       <categories>
           
-          <category> Hexo博客 </category>
+          <category> Hexo </category>
           
       </categories>
       
@@ -455,7 +428,7 @@
       
       <categories>
           
-          <category> Hexo博客 </category>
+          <category> Hexo </category>
           
       </categories>
       
@@ -484,7 +457,7 @@
       
       <categories>
           
-          <category> Hexo博客 </category>
+          <category> Hexo </category>
           
       </categories>
       
@@ -569,7 +542,7 @@
       
       <categories>
           
-          <category> Hexo博客 </category>
+          <category> Hexo </category>
           
       </categories>
       
@@ -598,7 +571,7 @@
       
       <categories>
           
-          <category> Hexo博客 </category>
+          <category> Hexo </category>
           
       </categories>
       

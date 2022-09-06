@@ -159,14 +159,14 @@
     <link href="https://pamarus.github.io/2022/05/14/hexo-bo-ke-da-jian-9-she-zhi-wen-zhang-jia-mi/"/>
     <id>https://pamarus.github.io/2022/05/14/hexo-bo-ke-da-jian-9-she-zhi-wen-zhang-jia-mi/</id>
     <published>2022-05-14T01:35:08.000Z</published>
-    <updated>2022-09-05T07:55:29.141Z</updated>
+    <updated>2022-09-06T05:07:11.598Z</updated>
     
     
     <summary type="html">&lt;p&gt;计划写宝宝成长日记，希望其他人不能浏览，通过密码验证的方式查看。而Hexo编写的md文章发布生成的静态页面默认是公开不加密的，所有人多可以访问，所以这就需要对博客文章进行加密，有两种方法，其一，通过matery主题中自带的&lt;code&gt;verifyPassword&lt;/code&gt;配置项实现；其二，使用插件&lt;code&gt;hexo-blog-encrypt&lt;/code&gt;。&lt;/p&gt;</summary>
     
     
     
-    <category term="Hexo博客" scheme="https://pamarus.github.io/categories/Hexo%E5%8D%9A%E5%AE%A2/"/>
+    <category term="Hexo" scheme="https://pamarus.github.io/categories/Hexo/"/>
     
     
     <category term="Hexo_Blog" scheme="https://pamarus.github.io/tags/Hexo-Blog/"/>
@@ -233,14 +233,14 @@
     <link href="https://pamarus.github.io/2020/06/11/hexo-bo-ke-da-jian-8-ti-huan-shi-yong-matery-zhu-ti-ji-xiang-xi-pei-zhi/"/>
     <id>https://pamarus.github.io/2020/06/11/hexo-bo-ke-da-jian-8-ti-huan-shi-yong-matery-zhu-ti-ji-xiang-xi-pei-zhi/</id>
     <published>2020-06-11T13:36:45.000Z</published>
-    <updated>2022-09-05T07:48:34.019Z</updated>
+    <updated>2022-09-06T05:06:57.769Z</updated>
     
     
     <summary type="html">&lt;p&gt;在 &lt;a href=&quot;https://hexo.io/themes/&quot;&gt;官网&lt;/a&gt; 或 这个网站 &lt;a href=&quot;https://easyhexo.com/2-Theme-use-and-config/&quot;&gt;Easy Hexo&lt;/a&gt; 选择自己喜欢的主题。&lt;br&gt;经过对比，我选择了matery主题。喜欢他的MD风格设计和响应式设计，它的首页banner轮播、文章配图、支持Valine评论系统等特性，也满足自己的需求。&lt;/p&gt;</summary>
     
     
     
-    <category term="Hexo博客" scheme="https://pamarus.github.io/categories/Hexo%E5%8D%9A%E5%AE%A2/"/>
+    <category term="Hexo" scheme="https://pamarus.github.io/categories/Hexo/"/>
     
     
     <category term="Hexo_Blog" scheme="https://pamarus.github.io/tags/Hexo-Blog/"/>
@@ -258,7 +258,7 @@
     <link href="https://pamarus.github.io/2020/06/04/hexo-bo-ke-da-jian-7-next-zhu-ti-wu-custom.styl-wen-jian-ru-he-zi-ding-yi-yang-shi/"/>
     <id>https://pamarus.github.io/2020/06/04/hexo-bo-ke-da-jian-7-next-zhu-ti-wu-custom.styl-wen-jian-ru-he-zi-ding-yi-yang-shi/</id>
     <published>2020-06-04T04:36:45.000Z</published>
-    <updated>2022-09-05T07:34:09.389Z</updated>
+    <updated>2022-09-06T05:06:21.463Z</updated>
     
     
     <summary type="html">&lt;p&gt;我的Hexo博客主题版本是 v4.2.0，NexT主题版本是 v7.8.0，没有 &lt;code&gt;next/source/css/_custom/&lt;/code&gt; 文件夹和 &lt;code&gt;custom.styl&lt;/code&gt; 文件，而网上很多教程都是在这个 &lt;code&gt;custom.styl&lt;/code&gt; 文件中添加自定义CSS代码，针对这种情况，搜索查看了一些文章和官方issues，找到了新版本自定义CSS代码的方法。&lt;/p&gt;
@@ -275,7 +275,7 @@
     
     
     
-    <category term="Hexo博客" scheme="https://pamarus.github.io/categories/Hexo%E5%8D%9A%E5%AE%A2/"/>
+    <category term="Hexo" scheme="https://pamarus.github.io/categories/Hexo/"/>
     
     
     <category term="Hexo_Blog" scheme="https://pamarus.github.io/tags/Hexo-Blog/"/>
@@ -350,7 +350,7 @@
     <link href="https://pamarus.github.io/2020/05/19/hexo-bo-ke-da-jian-6-valine-ping-lun-xi-tong-you-hua/"/>
     <id>https://pamarus.github.io/2020/05/19/hexo-bo-ke-da-jian-6-valine-ping-lun-xi-tong-you-hua/</id>
     <published>2020-05-19T06:52:45.000Z</published>
-    <updated>2022-09-05T07:29:57.656Z</updated>
+    <updated>2022-09-06T05:05:03.029Z</updated>
     
     
     <summary type="html">&lt;blockquote&gt;
@@ -359,7 +359,7 @@
     
     
     
-    <category term="Hexo博客" scheme="https://pamarus.github.io/categories/Hexo%E5%8D%9A%E5%AE%A2/"/>
+    <category term="Hexo" scheme="https://pamarus.github.io/categories/Hexo/"/>
     
     
     <category term="Hexo_Blog" scheme="https://pamarus.github.io/tags/Hexo-Blog/"/>
@@ -373,45 +373,18 @@
   </entry>
   
   <entry>
-    <title>valine评论测试</title>
-    <link href="https://pamarus.github.io/2020/05/18/valine-ping-lun-ce-shi/"/>
-    <id>https://pamarus.github.io/2020/05/18/valine-ping-lun-ce-shi/</id>
-    <published>2020-05-18T09:36:45.000Z</published>
-    <updated>2020-07-11T09:16:53.217Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;valine评论测试  &lt;span class=&quot;github-emoji&quot;&gt;&lt;span&gt;😄&lt;/span&gt;&lt;img src=&quot;https://github.githubassets.com/images/icons/emoji/unicode/1f604.png?v8&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="Hexo博客" scheme="https://pamarus.github.io/categories/Hexo%E5%8D%9A%E5%AE%A2/"/>
-    
-    
-    <category term="Hexo_Blog" scheme="https://pamarus.github.io/tags/Hexo-Blog/"/>
-    
-    <category term="NexT" scheme="https://pamarus.github.io/tags/NexT/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Hexo博客搭建（5）：NexT主题-集成valine评论系统</title>
     <link href="https://pamarus.github.io/2020/05/17/hexo-bo-ke-da-jian-5-next-zhu-ti-ji-cheng-valine-ping-lun-xi-tong/"/>
     <id>https://pamarus.github.io/2020/05/17/hexo-bo-ke-da-jian-5-next-zhu-ti-ji-cheng-valine-ping-lun-xi-tong/</id>
     <published>2020-05-17T03:36:45.000Z</published>
-    <updated>2022-09-05T07:09:17.668Z</updated>
+    <updated>2022-09-06T05:04:38.558Z</updated>
     
     
     <summary type="html">&lt;p&gt;打开next文件夹内的配置文件&lt;code&gt;_config.yml&lt;/code&gt;，找到 &lt;code&gt;Comments Settings&lt;/code&gt;，选择一个评论系统，设置为&lt;code&gt;true&lt;/code&gt;。可选的有：&lt;code&gt;changyan&lt;/code&gt;，&lt;code&gt;disqus&lt;/code&gt;，&lt;code&gt;disqusjs&lt;/code&gt;，&lt;code&gt;gitalk&lt;/code&gt;，&lt;code&gt;livere&lt;/code&gt;，&lt;code&gt;valine&lt;/code&gt;，这几个都是方便配置的。&lt;/p&gt;</summary>
     
     
     
-    <category term="Hexo博客" scheme="https://pamarus.github.io/categories/Hexo%E5%8D%9A%E5%AE%A2/"/>
+    <category term="Hexo" scheme="https://pamarus.github.io/categories/Hexo/"/>
     
     
     <category term="Hexo_Blog" scheme="https://pamarus.github.io/tags/Hexo-Blog/"/>
@@ -429,14 +402,14 @@
     <link href="https://pamarus.github.io/2020/05/13/hexo-bo-ke-da-jian-4-next-zhu-ti-shou-ye-bu-xian-shi-quan-bu-nei-rong-xian-shi-yu-lan/"/>
     <id>https://pamarus.github.io/2020/05/13/hexo-bo-ke-da-jian-4-next-zhu-ti-shou-ye-bu-xian-shi-quan-bu-nei-rong-xian-shi-yu-lan/</id>
     <published>2020-05-13T06:44:44.000Z</published>
-    <updated>2022-09-05T05:33:11.401Z</updated>
+    <updated>2022-09-06T05:04:15.786Z</updated>
     
     
     <summary type="html">如何配置样式、语言、菜单、侧栏等</summary>
     
     
     
-    <category term="Hexo博客" scheme="https://pamarus.github.io/categories/Hexo%E5%8D%9A%E5%AE%A2/"/>
+    <category term="Hexo" scheme="https://pamarus.github.io/categories/Hexo/"/>
     
     
     <category term="Hexo_Blog" scheme="https://pamarus.github.io/tags/Hexo-Blog/"/>
@@ -452,7 +425,7 @@
     <link href="https://pamarus.github.io/2020/05/06/hexo-bo-ke-da-jian-3-next-zhu-ti-tiao-zhuan-fen-lei-biao-qian-guan-yu-ye-bao-cuo-wu-fa-da-kai-zen-me-ban/"/>
     <id>https://pamarus.github.io/2020/05/06/hexo-bo-ke-da-jian-3-next-zhu-ti-tiao-zhuan-fen-lei-biao-qian-guan-yu-ye-bao-cuo-wu-fa-da-kai-zen-me-ban/</id>
     <published>2020-05-06T06:32:25.000Z</published>
-    <updated>2022-09-05T05:20:05.928Z</updated>
+    <updated>2022-09-06T05:07:55.182Z</updated>
     
     
     <summary type="html">&lt;blockquote&gt;
@@ -461,7 +434,7 @@
     
     
     
-    <category term="Hexo博客" scheme="https://pamarus.github.io/categories/Hexo%E5%8D%9A%E5%AE%A2/"/>
+    <category term="Hexo" scheme="https://pamarus.github.io/categories/Hexo/"/>
     
     
     <category term="Hexo_Blog" scheme="https://pamarus.github.io/tags/Hexo-Blog/"/>
@@ -526,6 +499,35 @@
     <category term="GitHub" scheme="https://pamarus.github.io/tags/GitHub/"/>
     
     <category term="Markdown" scheme="https://pamarus.github.io/tags/Markdown/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo博客搭建（2）：更换主题样式及基本属性配置</title>
+    <link href="https://pamarus.github.io/2020/05/04/hexo-bo-ke-da-jian-2-geng-huan-zhu-ti-yang-shi-ji-ji-ben-shu-xing-pei-zhi/"/>
+    <id>https://pamarus.github.io/2020/05/04/hexo-bo-ke-da-jian-2-geng-huan-zhu-ti-yang-shi-ji-ji-ben-shu-xing-pei-zhi/</id>
+    <published>2020-05-04T13:36:45.000Z</published>
+    <updated>2022-09-06T05:03:47.472Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;博客搭建成功后，下一步进行主题选择及配置工作等。如何创建hexo博客，看之前一篇记录：&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;更多主题样式参考：&lt;br&gt;&lt;a href=&quot;https://hexo.io/themes/&quot;&gt;Hexo官网 https://hexo.io/themes/&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;https://easyhexo.com/2-Theme-use-and-config/&quot;&gt;一些Hexo主题介绍&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;看有文章说NexT是应用最广泛的主题，最开始对博客还不熟悉，为尽快写文章，先选定NexT上手。熟悉之后，再看看其他主题样式，或许可以选定其他更喜欢的。&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="Hexo" scheme="https://pamarus.github.io/categories/Hexo/"/>
+    
+    
+    <category term="Hexo_Blog" scheme="https://pamarus.github.io/tags/Hexo-Blog/"/>
+    
+    <category term="博客教程" scheme="https://pamarus.github.io/tags/%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="NexT" scheme="https://pamarus.github.io/tags/NexT/"/>
     
   </entry>
   
