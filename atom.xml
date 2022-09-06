@@ -6,7 +6,7 @@
   <link href="https://pamarus.github.io/atom.xml" rel="self"/>
   
   <link href="https://pamarus.github.io/"/>
-  <updated>2022-09-06T07:16:20.564Z</updated>
+  <updated>2022-09-06T07:50:47.071Z</updated>
   <id>https://pamarus.github.io/</id>
   
   <author>
@@ -21,10 +21,16 @@
     <link href="https://pamarus.github.io/2022/09/06/ru-he-shi-yong-tree-ming-ling-sheng-cheng-mu-lu-shu-jie-gou/"/>
     <id>https://pamarus.github.io/2022/09/06/ru-he-shi-yong-tree-ming-ling-sheng-cheng-mu-lu-shu-jie-gou/</id>
     <published>2022-09-06T04:15:00.000Z</published>
-    <updated>2022-09-06T07:16:20.564Z</updated>
+    <updated>2022-09-06T07:50:47.071Z</updated>
     
     
-    <summary type="html">&lt;p&gt;macOS系统下使用tree命令生成目录树结构。&lt;/p&gt;</summary>
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;安装Homebrew&quot;&gt;1. 安装Homebrew&lt;/h1&gt;&lt;p&gt;&lt;code&gt;Homebrew&lt;/code&gt;是一款macOS（或Linux）平台下的软件包管理器,具有装置、卸载、更新、查看、搜寻等很多实用的功能，官网地址：&lt;a</summary>
+        
+      
     
     
     
@@ -130,10 +136,16 @@
     <link href="https://pamarus.github.io/2022/05/15/mac-zhong-duan-xian-shi-192-bu-xian-shi-dian-nao-ming-zi-de-jie-jue-fang-fa/"/>
     <id>https://pamarus.github.io/2022/05/15/mac-zhong-duan-xian-shi-192-bu-xian-shi-dian-nao-ming-zi-de-jie-jue-fang-fa/</id>
     <published>2022-05-15T12:25:00.000Z</published>
-    <updated>2022-09-06T05:25:55.119Z</updated>
+    <updated>2022-09-06T07:51:29.906Z</updated>
     
     
-    <summary type="html">&lt;p&gt;问题：Mac终端页面本应该显示机器名的，但是显示为192&lt;/p&gt;</summary>
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;问题&quot;&gt;1. 问题&lt;/h1&gt;&lt;p&gt;&lt;img</summary>
+        
+      
     
     
     
@@ -182,7 +194,7 @@
     <link href="https://pamarus.github.io/2022/05/14/hexo-bo-ke-da-jian-9-she-zhi-wen-zhang-jia-mi/"/>
     <id>https://pamarus.github.io/2022/05/14/hexo-bo-ke-da-jian-9-she-zhi-wen-zhang-jia-mi/</id>
     <published>2022-05-14T01:35:08.000Z</published>
-    <updated>2022-09-06T05:10:36.127Z</updated>
+    <updated>2022-09-06T07:41:20.698Z</updated>
     
     
     <summary type="html">&lt;p&gt;计划写宝宝成长日记，希望其他人不能浏览，通过密码验证的方式查看。而Hexo编写的md文章发布生成的静态页面默认是公开不加密的，所有人多可以访问，所以这就需要对博客文章进行加密，有两种方法，其一，通过matery主题中自带的&lt;code&gt;verifyPassword&lt;/code&gt;配置项实现；其二，使用插件&lt;code&gt;hexo-blog-encrypt&lt;/code&gt;。&lt;/p&gt;</summary>
@@ -205,7 +217,7 @@
     <link href="https://pamarus.github.io/2020/06/15/markdown-3-tu-pian-yang-shi-you-hua-mei-hua/"/>
     <id>https://pamarus.github.io/2020/06/15/markdown-3-tu-pian-yang-shi-you-hua-mei-hua/</id>
     <published>2020-06-15T10:25:00.000Z</published>
-    <updated>2021-05-18T09:14:48.000Z</updated>
+    <updated>2022-09-06T07:42:58.054Z</updated>
     
     
       
@@ -235,11 +247,11 @@
     <link href="https://pamarus.github.io/2020/06/13/processing-xue-xi-ji-lu-4-miao-bian-shu-xing-tian-chong-he-bei-jing-se/"/>
     <id>https://pamarus.github.io/2020/06/13/processing-xue-xi-ji-lu-4-miao-bian-shu-xing-tian-chong-he-bei-jing-se/</id>
     <published>2020-06-13T07:25:00.000Z</published>
-    <updated>2022-09-06T01:59:47.543Z</updated>
+    <updated>2022-09-06T07:47:39.195Z</updated>
     
     
     <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;这一篇介绍Processing的描边属性、填充和背景色。&lt;br&gt;Processing绘图默认的是浅灰色背景、黑色线条、白色的图形（如下图）。若想改变这些默认值，需要使用&lt;code&gt;background()&lt;/code&gt;、&lt;code&gt;stroke()&lt;/code&gt;、&lt;code&gt;fill()&lt;/code&gt;函数。&lt;/p&gt;
+&lt;p&gt;Processing绘图默认的是浅灰色背景、黑色线条、白色的图形（如下图）。若想改变这些默认值，需要使用&lt;code&gt;background()&lt;/code&gt;、&lt;code&gt;stroke()&lt;/code&gt;、&lt;code&gt;fill()&lt;/code&gt;函数。&lt;/p&gt;
 &lt;/blockquote&gt;</summary>
     
     
@@ -256,7 +268,7 @@
     <link href="https://pamarus.github.io/2020/06/11/hexo-bo-ke-da-jian-8-ti-huan-shi-yong-matery-zhu-ti-ji-xiang-xi-pei-zhi/"/>
     <id>https://pamarus.github.io/2020/06/11/hexo-bo-ke-da-jian-8-ti-huan-shi-yong-matery-zhu-ti-ji-xiang-xi-pei-zhi/</id>
     <published>2020-06-11T13:36:45.000Z</published>
-    <updated>2022-09-06T05:10:43.964Z</updated>
+    <updated>2022-09-06T07:40:30.072Z</updated>
     
     
     <summary type="html">&lt;p&gt;在 &lt;a href=&quot;https://hexo.io/themes/&quot;&gt;官网&lt;/a&gt; 或 这个网站 &lt;a href=&quot;https://easyhexo.com/2-Theme-use-and-config/&quot;&gt;Easy Hexo&lt;/a&gt; 选择自己喜欢的主题。&lt;br&gt;经过对比，我选择了matery主题。喜欢他的MD风格设计和响应式设计，它的首页banner轮播、文章配图、支持Valine评论系统等特性，也满足自己的需求。&lt;/p&gt;</summary>
@@ -281,20 +293,16 @@
     <link href="https://pamarus.github.io/2020/06/04/hexo-bo-ke-da-jian-7-next-zhu-ti-wu-custom.styl-wen-jian-ru-he-zi-ding-yi-yang-shi/"/>
     <id>https://pamarus.github.io/2020/06/04/hexo-bo-ke-da-jian-7-next-zhu-ti-wu-custom.styl-wen-jian-ru-he-zi-ding-yi-yang-shi/</id>
     <published>2020-06-04T04:36:45.000Z</published>
-    <updated>2022-09-06T05:10:47.726Z</updated>
+    <updated>2022-09-06T07:39:56.449Z</updated>
     
     
-    <summary type="html">&lt;p&gt;我的Hexo博客主题版本是 v4.2.0，NexT主题版本是 v7.8.0，没有 &lt;code&gt;next/source/css/_custom/&lt;/code&gt; 文件夹和 &lt;code&gt;custom.styl&lt;/code&gt; 文件，而网上很多教程都是在这个 &lt;code&gt;custom.styl&lt;/code&gt; 文件中添加自定义CSS代码，针对这种情况，搜索查看了一些文章和官方issues，找到了新版本自定义CSS代码的方法。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;注：如何查看Hexo博客和NexT主题版本&lt;/p&gt;
-&lt;p&gt;分别在博客文件夹和主题文件夹中，找到并打开 &lt;code&gt;package.json&lt;/code&gt; 文件，即可看到版本信息，如下：&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;pre class=&quot;line-numbers language-java&quot; data-language=&quot;java&quot;&gt;&lt;code class=&quot;language-java&quot;&gt;&lt;span class=&quot;token string&quot;&gt;&quot;name&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;hexo-theme-next&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-  &lt;span class=&quot;token string&quot;&gt;&quot;version&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;7.8.0&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span aria-hidden=&quot;true&quot; class=&quot;line-numbers-rows&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre class=&quot;line-numbers language-java&quot; data-language=&quot;java&quot;&gt;&lt;code class=&quot;language-java&quot;&gt;&lt;span class=&quot;token string&quot;&gt;&quot;hexo&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;token string&quot;&gt;&quot;version&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;4.2.0&quot;&lt;/span&gt;
-  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span aria-hidden=&quot;true&quot; class=&quot;line-numbers-rows&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;</summary>
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;我的Hexo博客主题版本是 v4.2.0，NexT主题版本是 v7.8.0，没有 &lt;code&gt;next/source/css/_custom/&lt;/code&gt; 文件夹和 &lt;code&gt;custom.styl&lt;/code&gt; 文件，而网上很多教程都是在这个</summary>
+        
+      
     
     
     
@@ -314,12 +322,18 @@
     <link href="https://pamarus.github.io/2020/05/25/processing-xue-xi-ji-lu-3-2d-ji-he-tu-xing-hui-zhi/"/>
     <id>https://pamarus.github.io/2020/05/25/processing-xue-xi-ji-lu-3-2d-ji-he-tu-xing-hui-zhi/</id>
     <published>2020-05-25T12:36:45.000Z</published>
-    <updated>2022-09-06T01:44:15.643Z</updated>
+    <updated>2022-09-06T07:46:48.180Z</updated>
     
     
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;这一篇介绍Processing基本的2D几何图标的绘制。&lt;/p&gt;
-&lt;/blockquote&gt;</summary>
+      
+      
+        
+        
+    <summary type="html">&lt;h1&gt;1. 类型及函数表&lt;/h1&gt;
+
+&lt;p&gt;&lt;img</summary>
+        
+      
     
     
     
@@ -335,10 +349,19 @@
     <link href="https://pamarus.github.io/2020/05/25/processing-xue-xi-ji-lu-2-shi-yong-wen-ti-ji-jie-jue-fang-fa-hui-zong/"/>
     <id>https://pamarus.github.io/2020/05/25/processing-xue-xi-ji-lu-2-shi-yong-wen-ti-ji-jie-jue-fang-fa-hui-zong/</id>
     <published>2020-05-25T04:36:45.000Z</published>
-    <updated>2022-09-05T09:31:32.343Z</updated>
+    <updated>2022-09-06T07:46:00.671Z</updated>
     
     
-    <summary type="html">&lt;p&gt;这篇集中记录Processing学习及使用过程中遇到的一些问题，解决方法。&lt;/p&gt;</summary>
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;中文显示乱码&quot;&gt;1. 中文显示乱码&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;问题，在Processing输入中文时，显示为乱码，如下&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img</summary>
+        
+      
     
     
     
@@ -354,10 +377,17 @@
     <link href="https://pamarus.github.io/2020/05/24/processing-xue-xi-ji-lu-1-chu-xiang-shi/"/>
     <id>https://pamarus.github.io/2020/05/24/processing-xue-xi-ji-lu-1-chu-xiang-shi/</id>
     <published>2020-05-24T11:36:45.000Z</published>
-    <updated>2022-09-05T09:25:52.215Z</updated>
+    <updated>2022-09-06T07:45:40.948Z</updated>
     
     
-    <summary type="html">&lt;p&gt;第一篇，初相识&lt;/p&gt;</summary>
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;下载安装&quot;&gt;1. 下载安装&lt;/h1&gt;&lt;p&gt;这一步不需要详细介绍，作为个人学习记录，在此备注一下：&lt;/p&gt;
+&lt;p&gt;访问 &lt;a</summary>
+        
+      
     
     
     
@@ -373,12 +403,16 @@
     <link href="https://pamarus.github.io/2020/05/19/hexo-bo-ke-da-jian-6-valine-ping-lun-xi-tong-you-hua/"/>
     <id>https://pamarus.github.io/2020/05/19/hexo-bo-ke-da-jian-6-valine-ping-lun-xi-tong-you-hua/</id>
     <published>2020-05-19T06:52:45.000Z</published>
-    <updated>2022-09-06T05:10:51.391Z</updated>
+    <updated>2022-09-06T07:33:56.070Z</updated>
     
     
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;上一篇安装好valine评论系统，但是还要一些细节需要优化。&lt;/p&gt;
-&lt;/blockquote&gt;</summary>
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;统计数字小标题处如何显示中文“评论数”，而不是valine&quot;&gt;1. 统计数字小标题处如何显示中文“评论数”，而不是valine&lt;/h1&gt;&lt;h2 id=&quot;实际显示&quot;&gt;1.1. 实际显示&lt;/h2&gt;&lt;p&gt;&lt;img</summary>
+        
+      
     
     
     
@@ -400,7 +434,7 @@
     <link href="https://pamarus.github.io/2020/05/17/hexo-bo-ke-da-jian-5-next-zhu-ti-ji-cheng-valine-ping-lun-xi-tong/"/>
     <id>https://pamarus.github.io/2020/05/17/hexo-bo-ke-da-jian-5-next-zhu-ti-ji-cheng-valine-ping-lun-xi-tong/</id>
     <published>2020-05-17T03:36:45.000Z</published>
-    <updated>2022-09-06T05:10:55.116Z</updated>
+    <updated>2022-09-06T07:33:11.291Z</updated>
     
     
     <summary type="html">&lt;p&gt;打开next文件夹内的配置文件&lt;code&gt;_config.yml&lt;/code&gt;，找到 &lt;code&gt;Comments Settings&lt;/code&gt;，选择一个评论系统，设置为&lt;code&gt;true&lt;/code&gt;。可选的有：&lt;code&gt;changyan&lt;/code&gt;，&lt;code&gt;disqus&lt;/code&gt;，&lt;code&gt;disqusjs&lt;/code&gt;，&lt;code&gt;gitalk&lt;/code&gt;，&lt;code&gt;livere&lt;/code&gt;，&lt;code&gt;valine&lt;/code&gt;，这几个都是方便配置的。&lt;/p&gt;</summary>
@@ -425,10 +459,12 @@
     <link href="https://pamarus.github.io/2020/05/13/hexo-bo-ke-da-jian-4-next-zhu-ti-shou-ye-bu-xian-shi-quan-bu-nei-rong-xian-shi-yu-lan/"/>
     <id>https://pamarus.github.io/2020/05/13/hexo-bo-ke-da-jian-4-next-zhu-ti-shou-ye-bu-xian-shi-quan-bu-nei-rong-xian-shi-yu-lan/</id>
     <published>2020-05-13T06:44:44.000Z</published>
-    <updated>2022-09-06T05:10:58.819Z</updated>
+    <updated>2022-09-06T07:32:17.207Z</updated>
     
     
-    <summary type="html">如何配置样式、语言、菜单、侧栏等</summary>
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;Next主题的基本配置都差不多了，现在还有一个问题。&lt;br&gt;就是首页默认显示文章的全部内容，而不是预览，如何设置只显示部分呢？&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
     
     
     
@@ -448,7 +484,7 @@
     <link href="https://pamarus.github.io/2020/05/06/hexo-bo-ke-da-jian-3-next-zhu-ti-tiao-zhuan-fen-lei-biao-qian-guan-yu-ye-bao-cuo-wu-fa-da-kai-zen-me-ban/"/>
     <id>https://pamarus.github.io/2020/05/06/hexo-bo-ke-da-jian-3-next-zhu-ti-tiao-zhuan-fen-lei-biao-qian-guan-yu-ye-bao-cuo-wu-fa-da-kai-zen-me-ban/</id>
     <published>2020-05-06T06:32:25.000Z</published>
-    <updated>2022-09-06T05:11:02.598Z</updated>
+    <updated>2022-09-06T07:28:16.499Z</updated>
     
     
     <summary type="html">&lt;blockquote&gt;
@@ -473,7 +509,7 @@
     <link href="https://pamarus.github.io/2020/05/05/markdown-2-ru-he-tian-jia-duo-ge-tags/"/>
     <id>https://pamarus.github.io/2020/05/05/markdown-2-ru-he-tian-jia-duo-ge-tags/</id>
     <published>2020-05-04T16:30:27.000Z</published>
-    <updated>2022-09-05T09:18:08.019Z</updated>
+    <updated>2022-09-06T07:20:41.837Z</updated>
     
     
     <summary type="html">&lt;h1 id=&quot;显示问题&quot;&gt;1. 显示问题&lt;/h1&gt;&lt;p&gt;当添加多个标签时，小书匠编辑器默认是这样的：&lt;/p&gt;
@@ -501,14 +537,14 @@
     <link href="https://pamarus.github.io/2020/05/04/xiao-shu-jiang-md-bian-ji-qi-pei-zhi-github-tu-chuang/"/>
     <id>https://pamarus.github.io/2020/05/04/xiao-shu-jiang-md-bian-ji-qi-pei-zhi-github-tu-chuang/</id>
     <published>2020-05-04T15:25:00.000Z</published>
-    <updated>2022-09-06T03:22:46.307Z</updated>
+    <updated>2022-09-06T07:51:09.245Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;创建GitHub仓库&quot;&gt;0.1. 创建GitHub仓库&lt;/h2&gt;&lt;p&gt;上一篇博客搭建教程有写，见 &lt;a</summary>
+    <summary type="html">&lt;h1 id=&quot;创建GitHub仓库&quot;&gt;1. 创建GitHub仓库&lt;/h1&gt;&lt;p&gt;上一篇博客搭建教程有写，见 &lt;a</summary>
         
       
     
