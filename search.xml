@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>如何使用tree命令生成目录树结构</title>
+      <link href="/2022/09/06/ru-he-shi-yong-tree-ming-ling-sheng-cheng-mu-lu-shu-jie-gou/"/>
+      <url>/2022/09/06/ru-he-shi-yong-tree-ming-ling-sheng-cheng-mu-lu-shu-jie-gou/</url>
+      
+        <content type="html"><![CDATA[<p>macOS系统下使用tree命令生成目录树结构。</p><span id="more"></span><h1 id="安装Homebrew">1. 安装Homebrew</h1><p><code>Homebrew</code>是一款macOS（或Linux）平台下的软件包管理器,具有装置、卸载、更新、查看、搜寻等很多实用的功能，官网地址：<a href="https://brew.sh/index_zh-cn.html">Homebrew官网</a></p><p>将以下命令粘贴至终端进行安装。</p><pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token operator">/</span>bin<span class="token operator">/</span>bash <span class="token operator">-</span>c <span class="token string">"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h1 id="安装tree命令">2. 安装tree命令</h1><p>使用以下命令安装</p><pre class="line-numbers language-java" data-language="java"><code class="language-java">brew install tree<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h1 id="基础操作">3. 基础操作</h1><p>在命令行输入tree和要生成目录树结构的本地目录地址，enter生成目录树，如</p><pre class="line-numbers language-java" data-language="java"><code class="language-java">tree <span class="token operator">/</span><span class="token class-name">Users</span><span class="token operator">/</span>user<span class="token operator">/</span><span class="token class-name">Hexo_Blog</span><span class="token operator">/</span>source<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>这是生成目录所有层级的树状结构。</p><pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token operator">/</span><span class="token class-name">Users</span><span class="token operator">/</span>user<span class="token operator">/</span><span class="token class-name">Hexo_Blog</span><span class="token operator">/</span>source├── <span class="token number">404.</span>md├── _data│   └── friends<span class="token punctuation">.</span>json├── _posts│   ├── <span class="token class-name">Hexo</span>博客搭建（<span class="token number">1</span>）：<span class="token class-name">Mac</span>端使用<span class="token class-name">Hexo</span><span class="token operator">+</span><span class="token class-name">GitHub</span> <span class="token class-name">Pages</span>搭建免费个人博客<span class="token punctuation">.</span>md│   ├── <span class="token class-name">Hexo</span>博客搭建（<span class="token number">2</span>）：更换主题样式及基本属性配置<span class="token punctuation">.</span>md│   ├── <span class="token class-name">Hexo</span>博客搭建（<span class="token number">3</span>）：<span class="token class-name">NexT</span>主题<span class="token operator">-</span>跳转分类、标签、关于页报错，无法打开怎么办<span class="token punctuation">.</span>md│   ├── <span class="token class-name">Hexo</span>博客搭建（<span class="token number">4</span>）：<span class="token class-name">NexT</span>主题<span class="token operator">-</span>首页不显示全部内容，显示预览<span class="token punctuation">.</span>md│   ├── <span class="token class-name">Hexo</span>博客搭建（<span class="token number">5</span>）：<span class="token class-name">NexT</span>主题<span class="token operator">-</span>集成valine评论系统<span class="token punctuation">.</span>md│   ├── <span class="token class-name">Hexo</span>博客搭建（<span class="token number">6</span>）：<span class="token class-name">Valine</span>评论系统优化<span class="token punctuation">.</span>md│   ├── <span class="token class-name">Hexo</span>博客搭建（<span class="token number">7</span>）：<span class="token class-name">NexT</span>主题无custom<span class="token punctuation">.</span>styl文件，如何自定义样式<span class="token punctuation">.</span>md│   ├── <span class="token class-name">Hexo</span>博客搭建（<span class="token number">8</span>）：替换使用matery主题及详细配置<span class="token punctuation">.</span>md│   ├── <span class="token class-name">Hexo</span>博客搭建（<span class="token number">9</span>）：设置文章加密<span class="token punctuation">.</span>md│   ├── <span class="token class-name">Mac</span>终端显示<span class="token number">192</span>，不显示电脑名字的解决方法<span class="token punctuation">.</span>md│   ├── <span class="token class-name">Markdown</span>（<span class="token number">1</span>）：基础语法学习及快速入门<span class="token punctuation">.</span>md│   ├── <span class="token class-name">Markdown</span>（<span class="token number">2</span>）：如何添加多个tags<span class="token punctuation">.</span>md│   ├── <span class="token class-name">Markdown</span>（<span class="token number">3</span>）：图片样式优化美化<span class="token punctuation">.</span>md│   ├── <span class="token class-name">Processing</span>学习记录（<span class="token number">1</span>）：初相识<span class="token punctuation">.</span>md│   ├── <span class="token class-name">Processing</span>学习记录（<span class="token number">2</span>）：使用问题及解决方法汇总<span class="token punctuation">.</span>md│   ├── <span class="token class-name">Processing</span>学习记录（<span class="token number">3</span>）：<span class="token number">2D</span>几何图形绘制<span class="token punctuation">.</span>md│   ├── <span class="token class-name">Processing</span>学习记录（<span class="token number">4</span>）：描边属性、填充和背景色<span class="token punctuation">.</span>md│   ├── 小书匠<span class="token constant">MD</span>编辑器配置<span class="token class-name">GitHub</span>图床<span class="token punctuation">.</span>md│   ├── 安安成长日记<span class="token operator">-</span><span class="token number">2022</span>年<span class="token number">04</span>月<span class="token punctuation">.</span>md│   ├── 安安成长日记<span class="token operator">-</span><span class="token number">2022</span>年<span class="token number">05</span>月<span class="token punctuation">.</span>md│   ├── 安安成长日记<span class="token operator">-</span><span class="token number">2022</span>年<span class="token number">06</span>月<span class="token punctuation">.</span>md│   └── 安安成长日记<span class="token operator">-</span><span class="token number">2022</span>年<span class="token number">07</span>月<span class="token punctuation">.</span>md├── about│   └── index<span class="token punctuation">.</span>md├── categories│   └── index<span class="token punctuation">.</span>md├── contact│   └── index<span class="token punctuation">.</span>md├── friends│   └── index<span class="token punctuation">.</span>md└── tags    └── index<span class="token punctuation">.</span>md<span class="token number">7</span> directories<span class="token punctuation">,</span> <span class="token number">29</span> files<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h1 id="其他命令操作">4. 其他命令操作</h1><h2 id="输出版本号">4.1. 输出版本号</h2><pre class="line-numbers language-java" data-language="java"><code class="language-java">tree <span class="token operator">--</span>version<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><pre class="line-numbers language-java" data-language="java"><code class="language-java">tree v2<span class="token punctuation">.</span><span class="token number">0.2</span> <span class="token punctuation">(</span>c<span class="token punctuation">)</span> <span class="token number">1996</span> <span class="token operator">-</span> <span class="token number">2022</span> by <span class="token class-name">Steve</span> <span class="token class-name">Baker</span><span class="token punctuation">,</span> <span class="token class-name">Thomas</span> <span class="token class-name">Moore</span><span class="token punctuation">,</span> <span class="token class-name">Francesc</span> <span class="token class-name">Rocher</span><span class="token punctuation">,</span> <span class="token class-name">Florian</span> <span class="token class-name">Sesser</span><span class="token punctuation">,</span> <span class="token class-name">Kyosuke</span> <span class="token class-name">Tokoro</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h2 id="显示指定深度">4.2. 显示指定深度</h2><p>使用<code>tree -L</code>命令实现目录树的最大显示深度。<br><code>tree -L 1</code>显示一层结构，<code>tree -L 2</code>显示二层结构，<code>tree -L n</code>显示n层结构。</p><pre class="line-numbers language-java" data-language="java"><code class="language-java">tree <span class="token operator">-</span><span class="token class-name">L</span> <span class="token number">1</span> <span class="token operator">/</span><span class="token class-name">Users</span><span class="token operator">/</span>user<span class="token operator">/</span><span class="token class-name">Hexo_Blog</span><span class="token operator">/</span><span class="token keyword">public</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token operator">/</span><span class="token class-name">Users</span><span class="token operator">/</span>user<span class="token operator">/</span><span class="token class-name">Hexo_Blog</span><span class="token operator">/</span><span class="token keyword">public</span>├── <span class="token number">2020</span>├── <span class="token number">2022</span>├── <span class="token number">404.</span>html├── about├── archives├── atom<span class="token punctuation">.</span>xml├── categories├── contact├── css├── favicon<span class="token punctuation">.</span>png├── friends├── index<span class="token punctuation">.</span>html├── js├── lib├── libs├── live2dw├── medias├── page├── search<span class="token punctuation">.</span>xml├── sitemap<span class="token punctuation">.</span>txt├── sitemap<span class="token punctuation">.</span>xml└── tags<span class="token number">15</span> directories<span class="token punctuation">,</span> <span class="token number">7</span> files<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h2 id="为文件夹附加一个">4.3. 为文件夹附加一个/</h2><p>输出的目录和文件没有区分，且是按照首字母升序排列，更加难以区分。一种方法是可以使用<code>tree -F</code>命令，为文件夹附加一个<code>/</code>符号，以示区分。</p><pre class="line-numbers language-java" data-language="java"><code class="language-java">tree <span class="token operator">-</span><span class="token class-name">F</span> <span class="token operator">-</span><span class="token class-name">L</span> <span class="token number">1</span> <span class="token operator">/</span><span class="token class-name">Users</span><span class="token operator">/</span>user<span class="token operator">/</span><span class="token class-name">Hexo_Blog</span><span class="token operator">/</span><span class="token keyword">public</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token operator">/</span><span class="token class-name">Users</span><span class="token operator">/</span>user<span class="token operator">/</span><span class="token class-name">Hexo_Blog</span><span class="token operator">/</span><span class="token keyword">public</span><span class="token operator">/</span>├── <span class="token number">2020</span><span class="token operator">/</span>├── <span class="token number">2022</span><span class="token operator">/</span>├── <span class="token number">404.</span>html├── about<span class="token operator">/</span>├── archives<span class="token operator">/</span>├── atom<span class="token punctuation">.</span>xml├── categories<span class="token operator">/</span>├── contact<span class="token operator">/</span>├── css<span class="token operator">/</span>├── favicon<span class="token punctuation">.</span>png├── friends<span class="token operator">/</span>├── index<span class="token punctuation">.</span>html├── js<span class="token operator">/</span>├── lib<span class="token operator">/</span>├── libs<span class="token operator">/</span>├── live2dw<span class="token operator">/</span>├── medias<span class="token operator">/</span>├── page<span class="token operator">/</span>├── search<span class="token punctuation">.</span>xml├── sitemap<span class="token punctuation">.</span>txt├── sitemap<span class="token punctuation">.</span>xml└── tags<span class="token operator">/</span><span class="token number">15</span> directories<span class="token punctuation">,</span> <span class="token number">7</span> files<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h2 id="将文件夹排在文件前面">4.4. 将文件夹排在文件前面</h2><p>使用<code>tree --dirsfirst</code>命令，将文件夹排在文件前面。命令可以结合起来使用，这样目录结果会更加清晰。如下：</p><pre class="line-numbers language-java" data-language="java"><code class="language-java">tree <span class="token operator">--</span>dirsfirst <span class="token operator">-</span><span class="token class-name">F</span> <span class="token operator">-</span><span class="token class-name">L</span> <span class="token number">1</span> <span class="token operator">/</span><span class="token class-name">Users</span><span class="token operator">/</span>user<span class="token operator">/</span><span class="token class-name">Hexo_Blog</span><span class="token operator">/</span><span class="token keyword">public</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token operator">/</span><span class="token class-name">Users</span><span class="token operator">/</span>user<span class="token operator">/</span><span class="token class-name">Hexo_Blog</span><span class="token operator">/</span><span class="token keyword">public</span><span class="token operator">/</span>├── <span class="token number">2020</span><span class="token operator">/</span>├── <span class="token number">2022</span><span class="token operator">/</span>├── about<span class="token operator">/</span>├── archives<span class="token operator">/</span>├── categories<span class="token operator">/</span>├── contact<span class="token operator">/</span>├── css<span class="token operator">/</span>├── friends<span class="token operator">/</span>├── js<span class="token operator">/</span>├── lib<span class="token operator">/</span>├── libs<span class="token operator">/</span>├── live2dw<span class="token operator">/</span>├── medias<span class="token operator">/</span>├── page<span class="token operator">/</span>├── tags<span class="token operator">/</span>├── <span class="token number">404.</span>html├── atom<span class="token punctuation">.</span>xml├── favicon<span class="token punctuation">.</span>png├── index<span class="token punctuation">.</span>html├── search<span class="token punctuation">.</span>xml├── sitemap<span class="token punctuation">.</span>txt└── sitemap<span class="token punctuation">.</span>xml<span class="token number">15</span> directories<span class="token punctuation">,</span> <span class="token number">7</span> file<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h2 id="仅显示目录">4.5. 仅显示目录</h2><p>使用<code>tree -d</code>命令实现显示文件夹不显示内容，显示的是所有层级的文件夹。</p><pre class="line-numbers language-java" data-language="java"><code class="language-java">tree <span class="token operator">-</span>d <span class="token operator">/</span><span class="token class-name">Users</span><span class="token operator">/</span>user<span class="token operator">/</span><span class="token class-name">Hexo_Blog</span><span class="token operator">/</span>source<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token operator">/</span><span class="token class-name">Users</span><span class="token operator">/</span>user<span class="token operator">/</span><span class="token class-name">Hexo_Blog</span><span class="token operator">/</span>source├── _data├── _posts├── about├── categories├── contact├── friends└── tags<span class="token number">7</span> directories<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><p>可以显示两层文件夹，如下：</p><pre class="line-numbers language-java" data-language="java"><code class="language-java">tree <span class="token operator">-</span>d <span class="token operator">-</span><span class="token class-name">L</span> <span class="token number">1</span> <span class="token operator">/</span><span class="token class-name">Users</span><span class="token operator">/</span>user<span class="token operator">/</span><span class="token class-name">Hexo_Blog</span><span class="token operator">/</span><span class="token keyword">public</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><pre class="line-numbers language-none"><code class="language-none">/Users/user/Hexo_Blog/public├── 2020├── 2022├── about├── archives├── categories├── contact├── css├── friends├── js├── lib├── libs├── live2dw├── medias├── page└── tags15 directories<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h2 id="屏蔽文件或文件夹">4.6. 屏蔽文件或文件夹</h2><p>使用<code>tree -I ""</code>命令屏蔽文件或文件夹。写法是tree -I “想要屏蔽的文件或文件夹名称”。</p><p>比如你想要过滤中的<code>categories文件夹</code>，可以使用<code>tree -I "categories"</code>,如果想要过滤多个目录文件,也可以<code>tree -I "categories|contact|li*"</code>,最后一个使用到正则匹配，这样以<code>li</code>开头的文件夹都不会被显示出来,目录与目录之间用竖线隔开,中间不要有空格。如下</p><pre class="line-numbers language-java" data-language="java"><code class="language-java">tree <span class="token operator">-</span><span class="token class-name">I</span> <span class="token string">"categories|contact|li*"</span> <span class="token operator">-</span><span class="token class-name">L</span> <span class="token number">1</span> <span class="token operator">/</span><span class="token class-name">Users</span><span class="token operator">/</span>user<span class="token operator">/</span><span class="token class-name">Hexo_Blog</span><span class="token operator">/</span><span class="token keyword">public</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token operator">/</span><span class="token class-name">Users</span><span class="token operator">/</span>user<span class="token operator">/</span><span class="token class-name">Hexo_Blog</span><span class="token operator">/</span><span class="token keyword">public</span>├── <span class="token number">2020</span>├── <span class="token number">2022</span>├── <span class="token number">404.</span>html├── about├── archives├── atom<span class="token punctuation">.</span>xml├── css├── favicon<span class="token punctuation">.</span>png├── friends├── index<span class="token punctuation">.</span>html├── js├── medias├── page├── search<span class="token punctuation">.</span>xml├── sitemap<span class="token punctuation">.</span>txt├── sitemap<span class="token punctuation">.</span>xml└── tags<span class="token number">10</span> directories<span class="token punctuation">,</span> <span class="token number">7</span> files<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><p>注意要区分大小写,而且要过滤的文件名必须得用双引号或者单引号包裹起来，否则无效。</p><h2 id="查看帮助">4.7. 查看帮助</h2><p>使用<code>tree --help</code>命令查看帮助，查看更多指令。遇到不正确指令也可以查看帮助进行解决。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 教程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> MacOS </tag>
+            
+            <tag> tree </tag>
+            
+            <tag> 目录树 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>安安成长日记-2022年07月</title>
       <link href="/2022/07/12/an-an-cheng-chang-ri-ji-2022-nian-07-yue/"/>
       <url>/2022/07/12/an-an-cheng-chang-ri-ji-2022-nian-07-yue/</url>
@@ -94,7 +123,7 @@
       
       <categories>
           
-          <category> 办公软件 </category>
+          <category> 教程 </category>
           
       </categories>
       
@@ -150,7 +179,7 @@
       
       <categories>
           
-          <category> Hexo </category>
+          <category> Hexo博客 </category>
           
       </categories>
       
@@ -231,7 +260,7 @@
       
       <categories>
           
-          <category> Hexo </category>
+          <category> Hexo博客 </category>
           
       </categories>
       
@@ -262,7 +291,7 @@
       
       <categories>
           
-          <category> Hexo </category>
+          <category> Hexo博客 </category>
           
       </categories>
       
@@ -366,7 +395,7 @@
       
       <categories>
           
-          <category> Hexo </category>
+          <category> Hexo博客 </category>
           
       </categories>
       
@@ -397,7 +426,7 @@
       
       <categories>
           
-          <category> Hexo </category>
+          <category> Hexo博客 </category>
           
       </categories>
       
@@ -428,7 +457,7 @@
       
       <categories>
           
-          <category> Hexo </category>
+          <category> Hexo博客 </category>
           
       </categories>
       
@@ -457,7 +486,7 @@
       
       <categories>
           
-          <category> Hexo </category>
+          <category> Hexo博客 </category>
           
       </categories>
       
@@ -513,14 +542,12 @@
       
       <categories>
           
-          <category> Hexo博客 </category>
+          <category> 教程 </category>
           
       </categories>
       
       
         <tags>
-            
-            <tag> Hexo_Blog </tag>
             
             <tag> GitHub </tag>
             
@@ -542,7 +569,7 @@
       
       <categories>
           
-          <category> Hexo </category>
+          <category> Hexo博客 </category>
           
       </categories>
       
@@ -571,7 +598,7 @@
       
       <categories>
           
-          <category> Hexo </category>
+          <category> Hexo博客 </category>
           
       </categories>
       
