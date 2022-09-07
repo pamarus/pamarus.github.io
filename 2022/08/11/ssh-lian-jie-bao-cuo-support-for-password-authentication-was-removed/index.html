@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Mac终端,192,Mac问题">
+    <meta name="keywords" content="SSH验证,Token验证,密码验证报错">
     <meta name="description" content="Thinking Hacks">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>Mac终端显示192，不显示用户名的解决方法 | Pamarus</title>
+    <title>SSH连接报错&#34;Support for password authentication was removed&#34; | Pamarus</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -309,12 +309,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/Mac.png')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/GitHub.png')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Mac终端显示192，不显示用户名的解决方法</h1>
+                    <h1 class="description center-align post-title">SSH连接报错&#34;Support for password authentication was removed&#34;</h1>
                 </div>
             </div>
         </div>
@@ -430,16 +430,12 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/Mac%E7%BB%88%E7%AB%AF/">
-                                <span class="chip bg-color">Mac终端</span>
+                            <a href="/tags/SSH%E9%AA%8C%E8%AF%81/">
+                                <span class="chip bg-color">SSH验证</span>
                             </a>
                         
-                            <a href="/tags/192/">
-                                <span class="chip bg-color">192</span>
-                            </a>
-                        
-                            <a href="/tags/Mac%E9%97%AE%E9%A2%98/">
-                                <span class="chip bg-color">Mac问题</span>
+                            <a href="/tags/Token%E9%AA%8C%E8%AF%81/">
+                                <span class="chip bg-color">Token验证</span>
                             </a>
                         
                     </div>
@@ -450,8 +446,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/%E6%95%99%E7%A8%8B/" class="post-category">
-                                教程
+                            <a href="/categories/Hexo%E5%8D%9A%E5%AE%A2/" class="post-category">
+                                Hexo博客
                             </a>
                         
                     </div>
@@ -463,7 +459,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2022-05-15
+                    2022-08-11
                 </div>
                 
 
@@ -472,14 +468,14 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    270
+                    586
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    1 分
+                    2 分
                 </div>
                 
 
@@ -507,18 +503,38 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="问题">1. 问题</h1><p><img src="https://note.youdao.com/yws/api/personal/file/WEBac85ccc39b2ee192cdbec81ff4567b93?method=download&amp;shareKey=dd3e016a11862a469f68f500d686b619"><br>问题：Mac终端页面本应该显示机器名的，但是显示为192</p>
-<h1 id="问题原因">2. 问题原因</h1><p>当前网络连接的DNS为<code>192.168.1.1</code>或<code>192.168.0.1</code>的时候，<code>Terminal</code>里的计算机名就会显示192的名字，这也是路由器的地址。<br>192.168.1.1或者192.168.0.1时，终端<br>当路由器的DNS使用自定义的，例如运营商的DNS或者公共DNS的时候，<code>Terminal</code>里的计算机名会变成你设置的电脑名字。</p>
-<h1 id="问题解决">3. 问题解决</h1><blockquote>
-<p>修改无线网络的默认DNS服务器。</p>
+                <h1 id="问题">1. 问题</h1><p><code>Hexo -d</code>部署的时候报错如下。</p>
+<pre class="line-numbers language-java" data-language="java"><code class="language-java">remote<span class="token operator">:</span> <span class="token class-name">Support</span> <span class="token keyword">for</span> password authentication was removed on <span class="token class-name">August</span> <span class="token number">13</span><span class="token punctuation">,</span> <span class="token number">2021.</span> <span class="token class-name">Please</span> use a personal access token instead<span class="token punctuation">.</span>
+remote<span class="token operator">:</span> <span class="token class-name">Please</span> see https<span class="token operator">:</span><span class="token operator">/</span><span class="token operator">/</span>github<span class="token punctuation">.</span>blog<span class="token operator">/</span><span class="token number">2020</span><span class="token operator">-</span><span class="token number">12</span><span class="token operator">-</span><span class="token number">15</span><span class="token operator">-</span>token<span class="token operator">-</span>authentication<span class="token operator">-</span>requirements<span class="token operator">-</span><span class="token keyword">for</span><span class="token operator">-</span>git<span class="token operator">-</span>operations<span class="token operator">/</span> <span class="token keyword">for</span> more information<span class="token punctuation">.</span>
+fatal<span class="token operator">:</span> unable <span class="token keyword">to</span> <span class="token namespace">access</span> 'https<span class="token operator">:</span><span class="token operator">/</span><span class="token operator">/</span>github<span class="token punctuation">.</span>com<span class="token comment">/***/</span><span class="token operator">*</span><span class="token operator">*</span><span class="token operator">*</span><span class="token punctuation">.</span>git<span class="token operator">/</span>'<span class="token operator">:</span> <span class="token class-name">The</span> requested <span class="token constant">URL</span> returned error<span class="token operator">:</span> <span class="token number">403</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+
+<p>大概意思是：对密码身份验证的支持已于2021年8月13日移除。请改用个人访问令牌（personal access token）。<br>请参阅<a target="_blank" rel="noopener" href="https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/">https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/</a> 了解更多信息。</p>
+<h1 id="官方说明">2. 官方说明</h1><p>上面网站有官方说明和解决方法。</p>
+<blockquote>
+<p>近年来，GitHub客户受益于GitHub.com的多项安全增强功能，例如双重身份验证、登录警报、验证设备、防止使用泄露的密码以及WebAuthn支持。这些功能使攻击者更难获取在多个网站上重复使用的密码并使用它来尝试访问您的GitHub帐户。尽管有这些改进，但由于历史原因，未启用双因素身份验证的客户仍然能够仅使用其 GitHub 用户名和密码继续对 Git 和 API 操作进行身份验证。</p>
+<p>从2021年8月13日开始，我们在对Git操作进行身份验证时将<code>不再接受帐户密码</code>，并将要求<code>使用基于令牌的身份验证</code>，例如<code>个人访问令牌</code>（针对开发人员）或适用于GitHub.com上所有经过身份验证的Git操作的OAuth或GitHub应用程序安装令牌（针对集成商）。您也可以在您喜欢的地方继续使用<code>SSH密钥</code>。</p>
 </blockquote>
-<p><img src="https://note.youdao.com/yws/api/personal/file/WEB4ae62549466b4695627c6e1efcd433da?method=download&amp;shareKey=c0f7ecbb35ff110f29fc90da6a2773ff"><br>在无线网络处，点击打开“网络偏好设置”。</p>
-<p><img src="https://note.youdao.com/yws/api/personal/file/WEBa916805d81e3de51881b3a9e06a45fdb?method=download&amp;shareKey=5785f626e7c7143756311382eda829d4"><br>选择“高级”</p>
-<p><img src="https://note.youdao.com/yws/api/personal/file/WEBf057b94ea371d043bed6a354f7ab0086?method=download&amp;shareKey=3a56ca60000e9d4f067dcc8879c2f98a"><br>选中DNS可以看到，系统默认的DNS服务器地址。</p>
-<p><img src="https://note.youdao.com/yws/api/personal/file/WEBf057b94ea371d043bed6a354f7ab0086?method=download&amp;shareKey=3a56ca60000e9d4f067dcc8879c2f98a"><br>点击<code>+</code>号添加新的服务器地址。输入<code>8.8.8.8</code>，然后点击<code>好</code>按钮。</p>
-<p><img src="https://note.youdao.com/yws/api/personal/file/WEB0b749f097505f7e45a54fdbc343990c0?method=download&amp;shareKey=8529752fc0e63a218aa29715d9b04705"><br>再点击<code>应用</code>按钮，进行最终的保存，最后关闭弹出框即可。</p>
-<p><img src="https://note.youdao.com/yws/api/personal/file/WEB7aad97eac4d58aa2d51732005059099c?method=download&amp;shareKey=aff4093e45d5d6edc2497b2a7153e154"><br>重新打开终端后，将会看到终端显示恢复正常。</p>
-<h1 id="参考">4. 参考</h1><p><a target="_blank" rel="noopener" href="https://discussionschinese.apple.com/thread/76800">mac终端用户名不知何故变成了192。 - Apple 社区</a></p>
+<h1 id="使用SSH-Key进行部署验证">3. 使用SSH Key进行部署验证</h1><p>参考之前的博客搭建文章，<a href="https://pamarus.github.io/2020/05/04/hexo-bo-ke-da-jian-1-mac-duan-shi-yong-hexo-github-pages-da-jian-mian-fei-ge-ren-bo-ke/#toc-heading-17">Hexo博客搭建（1）：Mac端使用Hexo+GitHub Pages搭建免费个人博客</a></p>
+<p>根据教程，生成<code>SSH Key</code>，并在GitHub上添加<code>SSH Key</code>，修改<code>博客配置文件</code>中的<code>deploy</code>节点即可。</p>
+<p>将</p>
+<pre class="line-numbers language-java" data-language="java"><code class="language-java">deploy<span class="token operator">:</span>
+  type<span class="token operator">:</span> <span class="token char">'git'</span>
+  repository<span class="token operator">:</span> https<span class="token operator">:</span><span class="token operator">/</span><span class="token operator">/</span>github<span class="token punctuation">.</span>com<span class="token operator">/</span>用户名<span class="token operator">/</span>仓库名<span class="token punctuation">.</span>git
+  branch<span class="token operator">:</span> master<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>修改为</p>
+<pre class="line-numbers language-java" data-language="java"><code class="language-java">deploy<span class="token operator">:</span>
+  type<span class="token operator">:</span> <span class="token char">'git'</span>
+  repository<span class="token operator">:</span> git<span class="token annotation punctuation">@github.com</span><span class="token operator">:</span>用户名<span class="token operator">/</span>仓库名<span class="token punctuation">.</span>git
+  branch<span class="token operator">:</span> master<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>因为<code>https</code>方式适用于用户名密码验证，而<code>git</code>的部署方式适用于<code>SSH Key</code>验证。</p>
+<h1 id="使用personal-access-token">4. 使用personal access token</h1><h2 id="创建token">4.1. 创建token</h2><p>参考历史文章<a href="https://pamarus.github.io/2020/05/04/xiao-shu-jiang-md-bian-ji-qi-pei-zhi-github-tu-chuang/#toc-heading-2">小书匠MD编辑器配置GitHub图床</a>，创建个人访问令牌。</p>
+<h2 id="修改deploy节点">4.2. 修改deploy节点</h2><pre class="line-numbers language-java" data-language="java"><code class="language-java">deploy<span class="token operator">:</span>
+  type<span class="token operator">:</span> <span class="token char">'git'</span>
+  repository<span class="token operator">:</span> https<span class="token operator">:</span><span class="token operator">/</span><span class="token operator">/</span>your_token<span class="token annotation punctuation">@github.com</span><span class="token operator">/</span>用户名<span class="token operator">/</span>仓库名<span class="token punctuation">.</span>git
+  branch<span class="token operator">:</span> master<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+
 
                 
             </div>
@@ -545,7 +561,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://pamarus.github.io/2022/05/15/mac-zhong-duan-xian-shi-192-bu-xian-shi-dian-nao-ming-zi-de-jie-jue-fang-fa/">https://pamarus.github.io/2022/05/15/mac-zhong-duan-xian-shi-192-bu-xian-shi-dian-nao-ming-zi-de-jie-jue-fang-fa/</a>
+                    <a href="https://pamarus.github.io/2022/08/11/ssh-lian-jie-bao-cuo-support-for-password-authentication-was-removed/">https://pamarus.github.io/2022/08/11/ssh-lian-jie-bao-cuo-support-for-password-authentication-was-removed/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -583,16 +599,12 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/Mac%E7%BB%88%E7%AB%AF/">
-                                    <span class="chip bg-color">Mac终端</span>
+                                <a href="/tags/SSH%E9%AA%8C%E8%AF%81/">
+                                    <span class="chip bg-color">SSH验证</span>
                                 </a>
                             
-                                <a href="/tags/192/">
-                                    <span class="chip bg-color">192</span>
-                                </a>
-                            
-                                <a href="/tags/Mac%E9%97%AE%E9%A2%98/">
-                                    <span class="chip bg-color">Mac问题</span>
+                                <a href="/tags/Token%E9%AA%8C%E8%AF%81/">
+                                    <span class="chip bg-color">Token验证</span>
                                 </a>
                             
                         </div>
@@ -1029,30 +1041,30 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2022/05/16/an-an-cheng-chang-ri-ji-2022-nian-05-yue/">
+                <a href="/2022/08/12/ssh-lian-jie-bao-cuo-http-2-stream-1-was-not-closed-cleanly-before-end-of-the-underlying-stream/">
                     <div class="card-image">
                         
-                        <img src="/medias/featureimages/%E5%B0%81%E9%9D%A2-%E5%AE%89%E5%AE%892022-05.jpg" class="responsive-img" alt="安安成长日记-2022年05月">
+                        <img src="/medias/featureimages/GitHub.png" class="responsive-img" alt="SSH连接报错&#34;HTTP 2 stream 1 was not closed cleanly before end of the underlying stream&#34;">
                         
-                        <span class="card-title">安安成长日记-2022年05月</span>
+                        <span class="card-title">SSH连接报错&#34;HTTP 2 stream 1 was not closed cleanly before end of the underlying stream&#34;</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            这儿有东西被加密了，点击看看😵
+                            
                         
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2022-05-16
+                            <i class="far fa-clock fa-fw icon-date"></i>2022-08-12
                         </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/" class="post-category">
-                                    生活日常
+                            <a href="/categories/Hexo%E5%8D%9A%E5%AE%A2/" class="post-category">
+                                    Hexo博客
                                 </a>
                             
                             
@@ -1062,12 +1074,8 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/">
-                        <span class="chip bg-color">生活日常</span>
-                    </a>
-                    
-                    <a href="/tags/%E5%AE%89%E5%AE%89/">
-                        <span class="chip bg-color">安安</span>
+                    <a href="/tags/%E9%BB%98%E8%AE%A4%E9%80%9A%E4%BF%A1%E5%8D%8F%E8%AE%AE/">
+                        <span class="chip bg-color">默认通信协议</span>
                     </a>
                     
                 </div>
@@ -1081,12 +1089,12 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2022/05/14/an-an-cheng-chang-ri-ji-2022-nian-04-yue/">
+                <a href="/2022/07/12/an-an-cheng-chang-ri-ji-2022-nian-07-yue/">
                     <div class="card-image">
                         
-                        <img src="/medias/featureimages/%E5%B0%81%E9%9D%A2-%E5%AE%89%E5%AE%892022-04.jpg" class="responsive-img" alt="安安成长日记-2022年04月">
+                        <img src="/medias/featureimages/%E5%B0%81%E9%9D%A2-%E5%AE%89%E5%AE%892022-07.jpg" class="responsive-img" alt="安安成长日记-2022年07月">
                         
-                        <span class="card-title">安安成长日记-2022年04月</span>
+                        <span class="card-title">安安成长日记-2022年07月</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -1097,7 +1105,7 @@
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-05-14
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-07-12
                             </span>
                         <span class="publish-author">
                             

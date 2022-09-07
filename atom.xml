@@ -46,18 +46,43 @@
   </entry>
   
   <entry>
-    <title>解决Support for password authentication was removed报错问题</title>
-    <link href="https://pamarus.github.io/2022/08/11/jie-jue-support-for-password-authentication-was-removed-bao-cuo-wen-ti/"/>
-    <id>https://pamarus.github.io/2022/08/11/jie-jue-support-for-password-authentication-was-removed-bao-cuo-wen-ti/</id>
+    <title>SSH连接报错&quot;HTTP 2 stream 1 was not closed cleanly before end of the underlying stream&quot;</title>
+    <link href="https://pamarus.github.io/2022/08/12/ssh-lian-jie-bao-cuo-http-2-stream-1-was-not-closed-cleanly-before-end-of-the-underlying-stream/"/>
+    <id>https://pamarus.github.io/2022/08/12/ssh-lian-jie-bao-cuo-http-2-stream-1-was-not-closed-cleanly-before-end-of-the-underlying-stream/</id>
+    <published>2022-08-12T04:11:00.000Z</published>
+    <updated>2022-09-07T06:13:45.958Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;code&gt;Hexo -d&lt;/code&gt;部署的时候发现一直报错&lt;code&gt;HTTP/2 stream 1 was not closed cleanly before end of the underlying stream&lt;/code&gt;。</summary>
+        
+      
+    
+    
+    
+    <category term="Hexo博客" scheme="https://pamarus.github.io/categories/Hexo%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+    <category term="默认通信协议" scheme="https://pamarus.github.io/tags/%E9%BB%98%E8%AE%A4%E9%80%9A%E4%BF%A1%E5%8D%8F%E8%AE%AE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SSH连接报错&quot;Support for password authentication was removed&quot;</title>
+    <link href="https://pamarus.github.io/2022/08/11/ssh-lian-jie-bao-cuo-support-for-password-authentication-was-removed/"/>
+    <id>https://pamarus.github.io/2022/08/11/ssh-lian-jie-bao-cuo-support-for-password-authentication-was-removed/</id>
     <published>2022-08-11T04:03:00.000Z</published>
-    <updated>2022-09-06T09:29:55.975Z</updated>
+    <updated>2022-09-07T05:40:12.118Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;问题&quot;&gt;1. 问题&lt;/h1&gt;&lt;p&gt;Hexo部署时候报错如下。&lt;/p&gt;
+    <summary type="html">&lt;h1 id=&quot;问题&quot;&gt;1. 问题&lt;/h1&gt;&lt;p&gt;&lt;code&gt;Hexo -d&lt;/code&gt;部署的时候报错如下。&lt;/p&gt;
 &lt;pre class=&quot;line-numbers language-java&quot; data-language=&quot;java&quot;&gt;&lt;code</summary>
         
       
@@ -529,34 +554,6 @@
     <category term="博客教程" scheme="https://pamarus.github.io/tags/%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/"/>
     
     <category term="NexT" scheme="https://pamarus.github.io/tags/NexT/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Markdown（2）：如何添加多个tags</title>
-    <link href="https://pamarus.github.io/2020/05/05/markdown-2-ru-he-tian-jia-duo-ge-tags/"/>
-    <id>https://pamarus.github.io/2020/05/05/markdown-2-ru-he-tian-jia-duo-ge-tags/</id>
-    <published>2020-05-04T16:30:27.000Z</published>
-    <updated>2022-09-06T07:20:41.837Z</updated>
-    
-    
-    <summary type="html">&lt;h1 id=&quot;显示问题&quot;&gt;1. 显示问题&lt;/h1&gt;&lt;p&gt;当添加多个标签时，小书匠编辑器默认是这样的：&lt;/p&gt;
-&lt;pre class=&quot;line-numbers language-jsx&quot; data-language=&quot;jsx&quot;&gt;&lt;code class=&quot;language-jsx&quot;&gt;&lt;span class=&quot;token literal-property property&quot;&gt;tags&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; 新建&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;模板&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;小书匠&lt;span aria-hidden=&quot;true&quot; class=&quot;line-numbers-rows&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;此时网页端显示就会有问题，三个标签识别为一个:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;#新建,模板,小书匠&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h1 id=&quot;解决方法&quot;&gt;2. 解决方法&lt;/h1&gt;</summary>
-    
-    
-    
-    <category term="Hexo博客" scheme="https://pamarus.github.io/categories/Hexo%E5%8D%9A%E5%AE%A2/"/>
-    
-    
-    <category term="Hexo_Blog" scheme="https://pamarus.github.io/tags/Hexo-Blog/"/>
-    
-    <category term="Markdown" scheme="https://pamarus.github.io/tags/Markdown/"/>
     
   </entry>
   
