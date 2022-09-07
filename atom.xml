@@ -6,7 +6,7 @@
   <link href="https://pamarus.github.io/atom.xml" rel="self"/>
   
   <link href="https://pamarus.github.io/"/>
-  <updated>2022-09-07T09:34:59.416Z</updated>
+  <updated>2022-09-07T09:40:14.177Z</updated>
   <id>https://pamarus.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://pamarus.github.io/2022/09/07/mac-xi-tong-ru-he-cha-kan-tu-pian-de-dpi-deng-can-shu/"/>
     <id>https://pamarus.github.io/2022/09/07/mac-xi-tong-ru-he-cha-kan-tu-pian-de-dpi-deng-can-shu/</id>
     <published>2022-09-07T14:23:00.000Z</published>
-    <updated>2022-09-07T09:34:59.416Z</updated>
+    <updated>2022-09-07T09:40:14.177Z</updated>
     
     
       
@@ -37,7 +37,9 @@
     <category term="教程" scheme="https://pamarus.github.io/categories/%E6%95%99%E7%A8%8B/"/>
     
     
-    <category term="macOS,DPI" scheme="https://pamarus.github.io/tags/macOS-DPI/"/>
+    <category term="macOS" scheme="https://pamarus.github.io/tags/macOS/"/>
+    
+    <category term="DPI" scheme="https://pamarus.github.io/tags/DPI/"/>
     
   </entry>
   
