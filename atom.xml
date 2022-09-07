@@ -6,7 +6,7 @@
   <link href="https://pamarus.github.io/atom.xml" rel="self"/>
   
   <link href="https://pamarus.github.io/"/>
-  <updated>2022-09-06T09:41:50.069Z</updated>
+  <updated>2022-09-07T09:03:42.372Z</updated>
   <id>https://pamarus.github.io/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Telegram 客户端 Proxy 代理设置</title>
+    <link href="https://pamarus.github.io/2022/09/07/telegram-ke-hu-duan-proxy-dai-li-she-zhi/"/>
+    <id>https://pamarus.github.io/2022/09/07/telegram-ke-hu-duan-proxy-dai-li-she-zhi/</id>
+    <published>2022-09-07T12:32:00.000Z</published>
+    <updated>2022-09-07T09:03:42.372Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Telegram-macOS-客户端&quot;&gt;1. Telegram macOS 客户端&lt;/h1&gt;&lt;p&gt;Telegram macOS 客户端不遵从系统代理，所以需要设置自定义代理。&lt;/p&gt;
+&lt;h2 id=&quot;自定义代理设置步骤&quot;&gt;1.1.</summary>
+        
+      
+    
+    
+    
+    <category term="教程" scheme="https://pamarus.github.io/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="Telegram" scheme="https://pamarus.github.io/tags/Telegram/"/>
+    
+    <category term="Proxy" scheme="https://pamarus.github.io/tags/Proxy/"/>
+    
+    <category term="代理" scheme="https://pamarus.github.io/tags/%E4%BB%A3%E7%90%86/"/>
+    
+  </entry>
   
   <entry>
     <title>如何使用tree命令生成目录树结构</title>
@@ -534,37 +564,6 @@
     
     
     <category term="Processing" scheme="https://pamarus.github.io/tags/Processing/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo博客搭建（6）：Valine评论系统优化</title>
-    <link href="https://pamarus.github.io/2020/05/19/hexo-bo-ke-da-jian-6-valine-ping-lun-xi-tong-you-hua/"/>
-    <id>https://pamarus.github.io/2020/05/19/hexo-bo-ke-da-jian-6-valine-ping-lun-xi-tong-you-hua/</id>
-    <published>2020-05-19T06:52:45.000Z</published>
-    <updated>2022-09-06T07:33:56.070Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;统计数字小标题处如何显示中文“评论数”，而不是valine&quot;&gt;1. 统计数字小标题处如何显示中文“评论数”，而不是valine&lt;/h1&gt;&lt;h2 id=&quot;实际显示&quot;&gt;1.1. 实际显示&lt;/h2&gt;&lt;p&gt;&lt;img</summary>
-        
-      
-    
-    
-    
-    <category term="Hexo博客" scheme="https://pamarus.github.io/categories/Hexo%E5%8D%9A%E5%AE%A2/"/>
-    
-    
-    <category term="Hexo_Blog" scheme="https://pamarus.github.io/tags/Hexo-Blog/"/>
-    
-    <category term="博客教程" scheme="https://pamarus.github.io/tags/%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/"/>
-    
-    <category term="NexT" scheme="https://pamarus.github.io/tags/NexT/"/>
-    
-    <category term="Valine" scheme="https://pamarus.github.io/tags/Valine/"/>
     
   </entry>
   

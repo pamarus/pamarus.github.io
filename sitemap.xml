@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://pamarus.github.io/2022/09/07/telegram-ke-hu-duan-proxy-dai-li-she-zhi/</loc>
+    
+    <lastmod>2022-09-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://pamarus.github.io/2020/07/11/mac-xi-tong-zhong-duan-bao-cuo-command-not-found/</loc>
     
     <lastmod>2022-09-07</lastmod>
@@ -444,6 +453,27 @@
   
   <url>
     <loc>https://pamarus.github.io/tags/%E9%BB%98%E8%AE%A4%E9%80%9A%E4%BF%A1%E5%8D%8F%E8%AE%AE/</loc>
+    <lastmod>2022-09-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://pamarus.github.io/tags/Telegram/</loc>
+    <lastmod>2022-09-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://pamarus.github.io/tags/Proxy/</loc>
+    <lastmod>2022-09-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://pamarus.github.io/tags/%E4%BB%A3%E7%90%86/</loc>
     <lastmod>2022-09-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

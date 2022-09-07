@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>Telegram 客户端 Proxy 代理设置</title>
+      <link href="/2022/09/07/telegram-ke-hu-duan-proxy-dai-li-she-zhi/"/>
+      <url>/2022/09/07/telegram-ke-hu-duan-proxy-dai-li-she-zhi/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Telegram-macOS-客户端">1. Telegram macOS 客户端</h1><p>Telegram macOS 客户端不遵从系统代理，所以需要设置自定义代理。</p><h2 id="自定义代理设置步骤">1.1. 自定义代理设置步骤</h2><ul><li><p>点击界面右上角按钮设置代理，或者通过菜单项<code>Preferences → Proxy</code> </p></li><li><p>点击<code>Add Proxy</code>按钮，选择<code>SOCKS5</code>。</p></li><li><p>填入以下信息</p></li></ul><blockquote><p>服务器（Server）: 127.0.0.1<br>端口（Port）: 端口需查看你的代理软件 (Surge/ClashX/ShadowsocksX…)<br>不需要填写用户名和密码</p></blockquote><p>我使用的代理软件是<code>ClashX</code>，查看本地端口的方法是：</p><p>点击<code>ClashX</code>状态栏图标 → 控制台 → 设置 → 混合代理端口:默认是7890</p><p>点击<code>Done</code>，转圈连接…</p><p><code>ClashX</code>可能连接不上，勾选<code>增强模式</code>即可。</p><h1 id="Telegram-iOS-x2F-Android-客户端">2. Telegram iOS/Android 客户端</h1><p>iOS/Android 设备上开启代理软件即可，不需要单独在 Telegram 中设置代理。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 教程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Telegram </tag>
+            
+            <tag> Proxy </tag>
+            
+            <tag> 代理 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>如何使用tree命令生成目录树结构</title>
       <link href="/2022/09/06/ru-he-shi-yong-tree-ming-ling-sheng-cheng-mu-lu-shu-jie-gou/"/>
       <url>/2022/09/06/ru-he-shi-yong-tree-ming-ling-sheng-cheng-mu-lu-shu-jie-gou/</url>

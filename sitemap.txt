@@ -1,3 +1,4 @@
+https://pamarus.github.io/2022/09/07/telegram-ke-hu-duan-proxy-dai-li-she-zhi/
 https://pamarus.github.io/2020/07/11/mac-xi-tong-zhong-duan-bao-cuo-command-not-found/
 https://pamarus.github.io/2022/08/12/ssh-lian-jie-bao-cuo-kex-exchange-identification-read-connection-reset-by-peer/
 https://pamarus.github.io/2022/08/12/ssh-lian-jie-bao-cuo-http-2-stream-1-was-not-closed-cleanly-before-end-of-the-underlying-stream/
@@ -52,6 +53,9 @@ https://pamarus.github.io/tags/%E7%9B%AE%E5%BD%95%E6%A0%91/
 https://pamarus.github.io/tags/SSH%E9%AA%8C%E8%AF%81/
 https://pamarus.github.io/tags/Token%E9%AA%8C%E8%AF%81/
 https://pamarus.github.io/tags/%E9%BB%98%E8%AE%A4%E9%80%9A%E4%BF%A1%E5%8D%8F%E8%AE%AE/
+https://pamarus.github.io/tags/Telegram/
+https://pamarus.github.io/tags/Proxy/
+https://pamarus.github.io/tags/%E4%BB%A3%E7%90%86/
 https://pamarus.github.io/categories/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/
 https://pamarus.github.io/categories/Hexo%E5%8D%9A%E5%AE%A2/
 https://pamarus.github.io/categories/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/
