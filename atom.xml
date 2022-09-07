@@ -46,11 +46,37 @@
   </entry>
   
   <entry>
+    <title>SSH连接报错&quot;kex_exchange_identification read Connection reset by peer&quot;</title>
+    <link href="https://pamarus.github.io/2022/08/12/ssh-lian-jie-bao-cuo-kex-exchange-identification-read-connection-reset-by-peer/"/>
+    <id>https://pamarus.github.io/2022/08/12/ssh-lian-jie-bao-cuo-kex-exchange-identification-read-connection-reset-by-peer/</id>
+    <published>2022-08-12T04:45:00.000Z</published>
+    <updated>2022-09-07T07:47:00.596Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;问题&quot;&gt;1. 问题&lt;/h1&gt;&lt;p&gt;&lt;code&gt;Hexo -d&lt;/code&gt;部署的时候报错如下。&lt;/p&gt;
+&lt;pre class=&quot;line-numbers language-java&quot; data-language=&quot;java&quot;&gt;&lt;code</summary>
+        
+      
+    
+    
+    
+    <category term="Hexo博客" scheme="https://pamarus.github.io/categories/Hexo%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+    <category term="默认通信协议" scheme="https://pamarus.github.io/tags/%E9%BB%98%E8%AE%A4%E9%80%9A%E4%BF%A1%E5%8D%8F%E8%AE%AE/"/>
+    
+  </entry>
+  
+  <entry>
     <title>SSH连接报错&quot;HTTP 2 stream 1 was not closed cleanly before end of the underlying stream&quot;</title>
     <link href="https://pamarus.github.io/2022/08/12/ssh-lian-jie-bao-cuo-http-2-stream-1-was-not-closed-cleanly-before-end-of-the-underlying-stream/"/>
     <id>https://pamarus.github.io/2022/08/12/ssh-lian-jie-bao-cuo-http-2-stream-1-was-not-closed-cleanly-before-end-of-the-underlying-stream/</id>
     <published>2022-08-12T04:11:00.000Z</published>
-    <updated>2022-09-07T06:13:45.958Z</updated>
+    <updated>2022-09-07T07:41:25.155Z</updated>
     
     
       
@@ -296,6 +322,36 @@
   </entry>
   
   <entry>
+    <title>Mac系统终端报错&quot;command not found&quot;</title>
+    <link href="https://pamarus.github.io/2020/07/11/mac-xi-tong-zhong-duan-bao-cuo-command-not-found/"/>
+    <id>https://pamarus.github.io/2020/07/11/mac-xi-tong-zhong-duan-bao-cuo-command-not-found/</id>
+    <published>2020-07-11T07:25:00.000Z</published>
+    <updated>2022-09-07T08:12:55.890Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;问题&quot;&gt;1. 问题&lt;/h1&gt;&lt;p&gt;Mac系统终端里，输入命令，报错”command not found”。&lt;br&gt;可能原因是修改环境变量配置错误，修改&lt;code&gt;bash_profile&lt;/code&gt;文件出错了。&lt;/p&gt;
+&lt;h1 id=&quot;解决&quot;&gt;2.</summary>
+        
+      
+    
+    
+    
+    <category term="Hexo博客" scheme="https://pamarus.github.io/categories/Hexo%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+    <category term="Mac终端" scheme="https://pamarus.github.io/tags/Mac%E7%BB%88%E7%AB%AF/"/>
+    
+    <category term="Mac问题" scheme="https://pamarus.github.io/tags/Mac%E9%97%AE%E9%A2%98/"/>
+    
+    <category term="MacOS" scheme="https://pamarus.github.io/tags/MacOS/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Markdown（3）：图片样式优化美化</title>
     <link href="https://pamarus.github.io/2020/06/15/markdown-3-tu-pian-yang-shi-you-hua-mei-hua/"/>
     <id>https://pamarus.github.io/2020/06/15/markdown-3-tu-pian-yang-shi-you-hua-mei-hua/</id>
@@ -509,56 +565,6 @@
     <category term="NexT" scheme="https://pamarus.github.io/tags/NexT/"/>
     
     <category term="Valine" scheme="https://pamarus.github.io/tags/Valine/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo博客搭建（5）：NexT主题-集成valine评论系统</title>
-    <link href="https://pamarus.github.io/2020/05/17/hexo-bo-ke-da-jian-5-next-zhu-ti-ji-cheng-valine-ping-lun-xi-tong/"/>
-    <id>https://pamarus.github.io/2020/05/17/hexo-bo-ke-da-jian-5-next-zhu-ti-ji-cheng-valine-ping-lun-xi-tong/</id>
-    <published>2020-05-17T03:36:45.000Z</published>
-    <updated>2022-09-06T07:33:11.291Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;打开next文件夹内的配置文件&lt;code&gt;_config.yml&lt;/code&gt;，找到 &lt;code&gt;Comments Settings&lt;/code&gt;，选择一个评论系统，设置为&lt;code&gt;true&lt;/code&gt;。可选的有：&lt;code&gt;changyan&lt;/code&gt;，&lt;code&gt;disqus&lt;/code&gt;，&lt;code&gt;disqusjs&lt;/code&gt;，&lt;code&gt;gitalk&lt;/code&gt;，&lt;code&gt;livere&lt;/code&gt;，&lt;code&gt;valine&lt;/code&gt;，这几个都是方便配置的。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Hexo博客" scheme="https://pamarus.github.io/categories/Hexo%E5%8D%9A%E5%AE%A2/"/>
-    
-    
-    <category term="Hexo_Blog" scheme="https://pamarus.github.io/tags/Hexo-Blog/"/>
-    
-    <category term="博客教程" scheme="https://pamarus.github.io/tags/%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/"/>
-    
-    <category term="NexT" scheme="https://pamarus.github.io/tags/NexT/"/>
-    
-    <category term="Valine" scheme="https://pamarus.github.io/tags/Valine/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo博客搭建（4）：NexT主题-首页不显示全部内容，显示预览</title>
-    <link href="https://pamarus.github.io/2020/05/13/hexo-bo-ke-da-jian-4-next-zhu-ti-shou-ye-bu-xian-shi-quan-bu-nei-rong-xian-shi-yu-lan/"/>
-    <id>https://pamarus.github.io/2020/05/13/hexo-bo-ke-da-jian-4-next-zhu-ti-shou-ye-bu-xian-shi-quan-bu-nei-rong-xian-shi-yu-lan/</id>
-    <published>2020-05-13T06:44:44.000Z</published>
-    <updated>2022-09-06T07:32:17.207Z</updated>
-    
-    
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;Next主题的基本配置都差不多了，现在还有一个问题。&lt;br&gt;就是首页默认显示文章的全部内容，而不是预览，如何设置只显示部分呢？&lt;/p&gt;
-&lt;/blockquote&gt;</summary>
-    
-    
-    
-    <category term="Hexo博客" scheme="https://pamarus.github.io/categories/Hexo%E5%8D%9A%E5%AE%A2/"/>
-    
-    
-    <category term="Hexo_Blog" scheme="https://pamarus.github.io/tags/Hexo-Blog/"/>
-    
-    <category term="博客教程" scheme="https://pamarus.github.io/tags/%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/"/>
-    
-    <category term="NexT" scheme="https://pamarus.github.io/tags/NexT/"/>
     
   </entry>
   

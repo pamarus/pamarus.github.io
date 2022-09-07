@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Hexo博客,Valine">
+    <meta name="keywords" content="MacOS,Mac终端,Mac问题">
     <meta name="description" content="Thinking Hacks">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>Hexo博客搭建（5）：NexT主题-集成valine评论系统 | Pamarus</title>
+    <title>Mac系统终端报错&#34;command not found&#34; | Pamarus</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -309,12 +309,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/Hexo.png')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/Mac.png')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Hexo博客搭建（5）：NexT主题-集成valine评论系统</h1>
+                    <h1 class="description center-align post-title">Mac系统终端报错&#34;command not found&#34;</h1>
                 </div>
             </div>
         </div>
@@ -430,20 +430,16 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/Hexo-Blog/">
-                                <span class="chip bg-color">Hexo_Blog</span>
+                            <a href="/tags/Mac%E7%BB%88%E7%AB%AF/">
+                                <span class="chip bg-color">Mac终端</span>
                             </a>
                         
-                            <a href="/tags/%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/">
-                                <span class="chip bg-color">博客教程</span>
+                            <a href="/tags/Mac%E9%97%AE%E9%A2%98/">
+                                <span class="chip bg-color">Mac问题</span>
                             </a>
                         
-                            <a href="/tags/NexT/">
-                                <span class="chip bg-color">NexT</span>
-                            </a>
-                        
-                            <a href="/tags/Valine/">
-                                <span class="chip bg-color">Valine</span>
+                            <a href="/tags/MacOS/">
+                                <span class="chip bg-color">MacOS</span>
                             </a>
                         
                     </div>
@@ -467,7 +463,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-05-17
+                    2020-07-11
                 </div>
                 
 
@@ -476,14 +472,14 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    745
+                    409
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    2 分
+                    1 分
                 </div>
                 
 
@@ -511,78 +507,26 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>打开next文件夹内的配置文件<code>_config.yml</code>，找到 <code>Comments Settings</code>，选择一个评论系统，设置为<code>true</code>。可选的有：<code>changyan</code>，<code>disqus</code>，<code>disqusjs</code>，<code>gitalk</code>，<code>livere</code>，<code>valine</code>，这几个都是方便配置的。</p>
-<span id="more"></span>
+                <h1 id="问题">1. 问题</h1><p>Mac系统终端里，输入命令，报错”command not found”。<br>可能原因是修改环境变量配置错误，修改<code>bash_profile</code>文件出错了。</p>
+<h1 id="解决">2. 解决</h1><p>有一种比较暴力的方法就是，删除<code>bash_profile</code>中的内容，保留系统默认变量，这样问题就解决了。另需要什么环境变量重新配置即可。</p>
+<h2 id="在命令行中输入：">2.1. 在命令行中输入：</h2><pre class="line-numbers language-java" data-language="java"><code class="language-java">export <span class="token constant">PATH</span><span class="token operator">=</span><span class="token operator">/</span>usr<span class="token operator">/</span>bin<span class="token operator">:</span><span class="token operator">/</span>usr<span class="token operator">/</span>sbin<span class="token operator">:</span><span class="token operator">/</span>bin<span class="token operator">:</span><span class="token operator">/</span>sbin<span class="token operator">:</span><span class="token operator">/</span>usr<span class="token operator">/</span><span class="token constant">X11R6</span><span class="token operator">/</span>bin<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
-<h1>1. 选择哪种评论系统</h1>
+<p> 这么命令可以保证终端命令行暂时可用，但把终端关闭之后再次打开就无法使用了,因此命令执行完成之后暂时不要关闭终端。</p>
+<h2 id="输入cd-进入当前用户的home目录。">2.2. 输入cd ~/进入当前用户的home目录。</h2><h2 id="创建bash-profile-执行命令">2.3. 创建bash_profile 执行命令:</h2><pre class="line-numbers language-java" data-language="java"><code class="language-java">touch <span class="token punctuation">.</span>bash_profile<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
-<p>参考以下文章，选择适合自己的：<br><a target="_blank" rel="noopener" href="https://www.zhihu.com/question/267598518">Hexo（NexT 主题）评论系统哪个好？</a><br><a target="_blank" rel="noopener" href="https://3mile.github.io/archives/128/">第三方评论系统推荐</a></p>
-<ul>
-<li><a target="_blank" rel="noopener" href="http://changyan.kuaizhan.com/">changyan（畅言）</a> ，原搜狐畅言，安装 <a target="_blank" rel="noopener" href="http://changyan.kuaizhan.com/static/help/o-beian.html">需要备案号</a>。</li>
-</ul>
-<p><img src="https://note.youdao.com/yws/api/personal/file/WEBf7cce4382a3c6e323986a2c6b65c17e7?method=download&amp;shareKey=7cb5617b8320e24ac0dfe2b5a4d2b62d" alt="集成valine评论系统01-畅言需备案"></p>
-<ul>
-<li><a target="_blank" rel="noopener" href="https://disqus.com/">disqus</a> 需要科学上网才能使用。</li>
-<li><a target="_blank" rel="noopener" href="https://github.com/gitalk/gitalk/blob/master/readme-cn.md">gitalk</a> 尝试了一下，需要登录GitHub，且只能使用GitHub登录。</li>
-<li><a target="_blank" rel="noopener" href="https://livere.com/">livere（来必力）</a> 来自韩国的产品，中国本土化做的不错，支持微信、QQ、豆瓣等多种登录方式。</li>
-<li><a target="_blank" rel="noopener" href="https://valine.js.org/">valine</a>，无后端，无需登录，轻量，看了一下别的博客，样式也蛮喜欢，最终决定用这个。</li>
-</ul>
-<h1 id="获取APP-ID-和-APP-Key">2. 获取APP ID 和 APP Key</h1><h2 id="注册登录LeanCloud">2.1. 注册登录LeanCloud</h2><p>评论系统其实是放在Leancloud上的，因此首先需要去注册一个账号</p>
-<p><a target="_blank" rel="noopener" href="https://tab.leancloud.cn/login.html#/signup">Leancloud官网，点我注册</a></p>
-<p><img src="https://note.youdao.com/yws/api/personal/file/WEB7bcdca9bf1d712b8d155d90428c9b168?method=download&amp;shareKey=7624997176d465915ce81f3614e045e8" alt="集成valine评论系统02-注册LeanCould"></p>
-<h2 id="实名认证和邮箱认证">2.2. 实名认证和邮箱认证</h2><p>注册成功后，根据提示，需要分别完成实名认证和邮箱验证</p>
-<p><img src="https://note.youdao.com/yws/api/personal/file/WEB3d50989b5873ff55eb54bd515427f0a1?method=download&amp;shareKey=2af2c0f687a1692c471a200ddadf4381" alt="集成valine评论系统03"></p>
-<ul>
-<li>实名认证——选择个人认证</li>
-</ul>
-<p><img src="https://note.youdao.com/yws/api/personal/file/WEB04a96dec766bde23e71d1e682e146993?method=download&amp;shareKey=144120ecd0826c90a562742b5716efd7" alt="集成valine评论系统04"></p>
-<ul>
-<li>输入姓名、身份证号</li>
-</ul>
-<p><img src="https://note.youdao.com/yws/api/personal/file/WEB05eb73d62f773e7a02176c8d4c9246df?method=download&amp;shareKey=c2aca2a30397ca253f2347f7c1701e9e" alt="集成valine评论系统05"></p>
-<ul>
-<li>支付宝认证</li>
-<li>感觉还蛮麻烦，介意的选择其他的</li>
-</ul>
-<p><img src="https://note.youdao.com/yws/api/personal/file/WEB32da89b006e42b63c3ed44702edd8795?method=download&amp;shareKey=6b4d20e75dffff9726054e66520986a8" alt="集成valine评论系统06"></p>
-<ul>
-<li>认证成功<br><img src="https://note.youdao.com/yws/api/personal/file/WEB1f9af6a75d396a10790c37d2403bef85?method=download&amp;shareKey=551d87e224dcf63bdce0dd7df84ce307" alt="集成valine评论系统07"></li>
-</ul>
-<h2 id="创建应用">2.3. 创建应用</h2><ul>
-<li>进入控制台后点击左下角创建应用：</li>
-</ul>
-<blockquote>
-<p>关于节点：<br>LeanCloud 有三个节点可供选择，分别是华北节点，华东节点以及国际节点。<br>如果用户主体在国内，建议使用华北节点与华东节点，如果用户主体在国外建议使用 国际节点。根据国家《网络安全法》的要求，使用 LeanCloud 国内节点服务的用户必须进行 实名认证6（个人或者企业认证）。在 LeanCloud 控制台新建应用以后不再支持更换节点。</p>
-</blockquote>
-<p><img src="https://note.youdao.com/yws/api/personal/file/WEB91d520172b24a010653abc3cee4c5ed0?method=download&amp;shareKey=432adb73a76597a7829bfdddba28b15d" alt="集成valine评论系统09"></p>
-<ul>
-<li>选择开发版，名称自定义</li>
-</ul>
-<p><img src="https://note.youdao.com/yws/api/personal/file/WEB70d0e34d0b071b0dc70e78ff1ccbb19c?method=download&amp;shareKey=cab3c29bc30bf0d747df421ea847bca4" alt="集成valine评论系统10"></p>
-<ul>
-<li>创建成功</li>
-</ul>
-<p><img src="https://note.youdao.com/yws/api/personal/file/WEBa95881eec463b559354b6d12a517e7d1?method=download&amp;shareKey=8e6a55905824d816eb9db7150f4d2719" alt="集成valine评论系统11"></p>
-<ul>
-<li>点击名称，进入刚刚创建的应用，选择左下角的<code>设置</code> &gt; <code>应用Key</code>，然后就能看到你的<code>APP ID</code>和<code>APP Key</code>了：</li>
-</ul>
-<p><img src="https://note.youdao.com/yws/api/personal/file/WEB42d5fb6486dc3c80894e4d30e043296f?method=download&amp;shareKey=5668164b48cef42a4ce4559987a605f0" alt="集成valine评论系统12"></p>
-<h1 id="配置">3. 配置</h1><h2 id="填写appid-和-appkey">3.1. 填写appid 和 appkey</h2><p>打开next文件夹内的配置文件<code>_config.yml</code>，找到<code>Valine</code>配置项，设置为<code>true</code>，填入<code>appid</code> 和 <code>appkey</code></p>
-<pre class="line-numbers language-jsx" data-language="jsx"><code class="language-jsx"># Valine
-# For more information<span class="token operator">:</span> https<span class="token operator">:</span><span class="token operator">/</span><span class="token operator">/</span>valine<span class="token punctuation">.</span>js<span class="token punctuation">.</span>org<span class="token punctuation">,</span> <span class="token literal-property property">https</span><span class="token operator">:</span><span class="token operator">/</span><span class="token operator">/</span>github<span class="token punctuation">.</span>com<span class="token operator">/</span>xCss<span class="token operator">/</span>Valine
-<span class="token literal-property property">valine</span><span class="token operator">:</span>
-  <span class="token literal-property property">enable</span><span class="token operator">:</span> <span class="token boolean">false</span>
-  <span class="token literal-property property">appid</span><span class="token operator">:</span> # Your leancloud application appid
-  <span class="token literal-property property">appkey</span><span class="token operator">:</span> # Your leancloud application appkey<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h2 id="打开并编辑bash-profile-执行命令">2.4. 打开并编辑bash_profile  执行命令:</h2><pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token keyword">open</span> <span class="token punctuation">.</span>bash_profile<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
-<h2 id="添加-Web-安全域名">3.2. 添加 Web 安全域名</h2><p>在<code>Leancloud -&gt; 设置 -&gt; 安全中心 -&gt; Web 安全域名</code> 把你的域名加进去</p>
-<p><img src="https://note.youdao.com/yws/api/personal/file/WEB4aa6821dfac551d5d35292e5ca8ca99c?method=download&amp;shareKey=fc27b851294e1ae96be2f23ffa6bc16f" alt="集成valine评论系统13-添加web安全域名"></p>
-<p>最后，<code>hexo g -d</code>命令部署，文章页面底部显示评论文本框。无需登录就可以进行评论，还支持Emoji。</p>
-<p><img src="https://note.youdao.com/yws/api/personal/file/WEBf89e1ca3e0c95cefe25ad2ee596a6601?method=download&amp;shareKey=31250eef4e8502f36519e9eafe097091" alt="集成valine评论系统14-成功"></p>
-<h1 id="评论数据管理">4. 评论数据管理</h1><p>由于Valine 是无后端评论系统，所以也就没有开发评论数据管理功能。请自行登录Leancloud应用管理。</p>
-<p>具体步骤：<code>登录 -&gt; 选择你创建的应用 -&gt; 存储 -&gt; 选择Class Comment</code>，就可以看见评论数据了。</p>
-<p><img src="https://note.youdao.com/yws/api/personal/file/WEBfe38a9b4aea8cb63646760bb59b3108e?method=download&amp;shareKey=07d70d15eb122ea3909ff1a86af4cb8b" alt="集成valine评论系统15-查看评论数据"></p>
-<h1 id="致谢">5. 致谢</h1><p><a target="_blank" rel="noopener" href="https://valine.js.org/quickstart.html">valine文档-快速开始</a></p>
+<p>这样就打开了一个记事本，会显示你之前配置过的path，修改记事本，先全部删除你觉得有用可以在桌面备份下，命令行好用后再加里。</p>
+<pre class="line-numbers language-java" data-language="java"><code class="language-java">export <span class="token constant">JAVA_HOME</span><span class="token operator">=</span>`<span class="token operator">/</span>usr<span class="token operator">/</span>libexec<span class="token operator">/</span>java_home`<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<pre class="line-numbers language-java" data-language="java"><code class="language-java">export <span class="token constant">PATH</span><span class="token operator">=</span>$<span class="token punctuation">{</span><span class="token constant">PATH</span><span class="token punctuation">}</span><span class="token operator">:</span>$<span class="token punctuation">{</span><span class="token constant">JAVA_HOME</span><span class="token punctuation">}</span><span class="token operator">:</span>$<span class="token punctuation">{</span><span class="token constant">ANDROID_SDK_ROOT</span><span class="token punctuation">}</span><span class="token operator">:</span>$<span class="token punctuation">{</span><span class="token constant">ANDROID_SDK_ROOT</span><span class="token punctuation">}</span><span class="token operator">/</span>platform<span class="token operator">-</span>tools<span class="token operator">:</span>$<span class="token punctuation">{</span><span class="token constant">ANDROID_SDK_ROOT</span><span class="token punctuation">}</span><span class="token operator">/</span>tools<span class="token operator">:</span>$<span class="token punctuation">{</span><span class="token constant">JAVA_HOME</span><span class="token punctuation">}</span><span class="token operator">:</span>$<span class="token punctuation">{</span><span class="token constant">JAVA_HOME</span><span class="token punctuation">}</span><span class="token operator">/</span>bin
+export <span class="token constant">PATH</span><span class="token operator">=</span><span class="token string">"/usr/local/bin:/usr/local/sbin:~/bin:$PATH"</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+
+<p>上面是系统的，如果想配置什么的话比如安卓开发环境在把sdk的目录加上，不配置的话就不用加了。</p>
+<h2 id="进行保存">2.5. 进行保存</h2><p>全选之后<code>command+s</code>，或者不放心的话，选中记事本，<code>文件-保存</code>，保存之后没提示，直接关掉就可以。</p>
+<h2 id="此时在命令行中输入更新命令-命令行一直不要关">2.6. 此时在命令行中输入更新命令(命令行一直不要关):</h2><pre class="line-numbers language-java" data-language="java"><code class="language-java">source <span class="token punctuation">.</span>bash_profile<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p>OK，重启终端命令行就可以了</p>
 
                 
             </div>
@@ -609,7 +553,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://pamarus.github.io/2020/05/17/hexo-bo-ke-da-jian-5-next-zhu-ti-ji-cheng-valine-ping-lun-xi-tong/">https://pamarus.github.io/2020/05/17/hexo-bo-ke-da-jian-5-next-zhu-ti-ji-cheng-valine-ping-lun-xi-tong/</a>
+                    <a href="https://pamarus.github.io/2020/07/11/mac-xi-tong-zhong-duan-bao-cuo-command-not-found/">https://pamarus.github.io/2020/07/11/mac-xi-tong-zhong-duan-bao-cuo-command-not-found/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -647,20 +591,16 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/Hexo-Blog/">
-                                    <span class="chip bg-color">Hexo_Blog</span>
+                                <a href="/tags/Mac%E7%BB%88%E7%AB%AF/">
+                                    <span class="chip bg-color">Mac终端</span>
                                 </a>
                             
-                                <a href="/tags/%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/">
-                                    <span class="chip bg-color">博客教程</span>
+                                <a href="/tags/Mac%E9%97%AE%E9%A2%98/">
+                                    <span class="chip bg-color">Mac问题</span>
                                 </a>
                             
-                                <a href="/tags/NexT/">
-                                    <span class="chip bg-color">NexT</span>
-                                </a>
-                            
-                                <a href="/tags/Valine/">
-                                    <span class="chip bg-color">Valine</span>
+                                <a href="/tags/MacOS/">
+                                    <span class="chip bg-color">MacOS</span>
                                 </a>
                             
                         </div>
@@ -1097,23 +1037,23 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2020/05/19/hexo-bo-ke-da-jian-6-valine-ping-lun-xi-tong-you-hua/">
+                <a href="/2022/05/14/hexo-bo-ke-da-jian-9-she-zhi-wen-zhang-jia-mi/">
                     <div class="card-image">
                         
-                        <img src="/medias/featureimages/Hexo.png" class="responsive-img" alt="Hexo博客搭建（6）：Valine评论系统优化">
+                        <img src="/medias/featureimages/Hexo.png" class="responsive-img" alt="Hexo博客搭建（9）：设置文章加密">
                         
-                        <span class="card-title">Hexo博客搭建（6）：Valine评论系统优化</span>
+                        <span class="card-title">Hexo博客搭建（9）：设置文章加密</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            上一篇安装好valine评论系统，但是还要一些细节需要优化。
+                            文章加密方式
                         
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-05-19
+                            <i class="far fa-clock fa-fw icon-date"></i>2022-05-14
                         </span>
                         <span class="publish-author">
                             
@@ -1138,12 +1078,8 @@
                         <span class="chip bg-color">博客教程</span>
                     </a>
                     
-                    <a href="/tags/NexT/">
-                        <span class="chip bg-color">NexT</span>
-                    </a>
-                    
-                    <a href="/tags/Valine/">
-                        <span class="chip bg-color">Valine</span>
+                    <a href="/tags/matery/">
+                        <span class="chip bg-color">matery</span>
                     </a>
                     
                 </div>
@@ -1157,23 +1093,23 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2020/05/13/hexo-bo-ke-da-jian-4-next-zhu-ti-shou-ye-bu-xian-shi-quan-bu-nei-rong-xian-shi-yu-lan/">
+                <a href="/2020/06/15/markdown-3-tu-pian-yang-shi-you-hua-mei-hua/">
                     <div class="card-image">
                         
-                        <img src="/medias/featureimages/Hexo.png" class="responsive-img" alt="Hexo博客搭建（4）：NexT主题-首页不显示全部内容，显示预览">
+                        <img src="/medias/featureimages/Markdown.png" class="responsive-img" alt="Markdown（3）：图片样式优化美化">
                         
-                        <span class="card-title">Hexo博客搭建（4）：NexT主题-首页不显示全部内容，显示预览</span>
+                        <span class="card-title">Markdown（3）：图片样式优化美化</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            摘要的配置方法
+                            Md中编辑图片样式
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-05-13
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-06-15
                             </span>
                         <span class="publish-author">
                             
@@ -1194,12 +1130,8 @@
                         <span class="chip bg-color">Hexo_Blog</span>
                     </a>
                     
-                    <a href="/tags/%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/">
-                        <span class="chip bg-color">博客教程</span>
-                    </a>
-                    
-                    <a href="/tags/NexT/">
-                        <span class="chip bg-color">NexT</span>
+                    <a href="/tags/Markdown/">
+                        <span class="chip bg-color">Markdown</span>
                     </a>
                     
                 </div>
