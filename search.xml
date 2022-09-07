@@ -85,6 +85,35 @@
     
     
     <entry>
+      <title>如何在GitHub上创建文件夹</title>
+      <link href="/2022/08/08/ru-he-zai-github-shang-chuang-jian-wen-jian-jia/"/>
+      <url>/2022/08/08/ru-he-zai-github-shang-chuang-jian-wen-jian-jia/</url>
+      
+        <content type="html"><![CDATA[<p>第一步，进入所要创建文件夹的库中点击右侧按钮<code>Add file &gt; Create new file</code></p><p><img src="https://note.youdao.com/yws/api/personal/file/WEB5c73483f8a92b881f02df17df41f0225?method=download&amp;shareKey=d10476f91f2aeb3c532c8ebd098217c3"></p><p>第二步，在这里输入你要创建的文件夹名称（此时我们创建的其实还是一个文件而不是文件夹）</p><p><img src="https://note.youdao.com/yws/api/personal/file/WEB7d71ff02f984b7eec62c9b1897499b0d?method=download&amp;shareKey=abfa98e912ac7e33bd517ee5da2e622a"></p><p>第三步，当我们输入一个<code>/</code>，<code>enter</code>后就变成下面的样子了，此时new file 就变成了一个文件夹了。</p><p><img src="https://note.youdao.com/yws/api/personal/file/WEBda371a04a7ff6a058b9d463731518044?method=download&amp;shareKey=1f635ec701af35fb60303096023024df"></p><p>第四步，在新文件夹下创建一个文件，至于什么文件随意。因为github不允许创建空文件夹，如果不创建文件，则文件夹无法生效。</p><p><img src="https://note.youdao.com/yws/api/personal/file/WEBa03b6243e1a5e93076af7945308e302d?method=download&amp;shareKey=0e638acceb14341cd96aed891ef2ff06"></p><p>创建了文件后页面拉到最下方，点击<code>Commit new file</code>，一个新的文件夹就出现了，省去了用指令上传文件繁琐的步骤</p><p><img src="https://note.youdao.com/yws/api/personal/file/WEBbd18ca89b2ca2b50f217a1e06bd4f981?method=download&amp;shareKey=b36bda54868596612e40725198e2251c"></p><p><img src="https://note.youdao.com/yws/api/personal/file/WEB935c9a5426c0aa6e059fd6cd0b7b2309?method=download&amp;shareKey=71c0d012a7cd4be167a8f09575881d00"></p><blockquote><p>备注：如果删除文件夹下面的所有文件，文件夹也会消失（github不允许创建空文件夹）</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 教程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Mac终端 </tag>
+            
+            <tag> 192 </tag>
+            
+            <tag> Mac问题 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>安安成长日记-2022年07月</title>
       <link href="/2022/07/12/an-an-cheng-chang-ri-ji-2022-nian-07-yue/"/>
       <url>/2022/07/12/an-an-cheng-chang-ri-ji-2022-nian-07-yue/</url>
