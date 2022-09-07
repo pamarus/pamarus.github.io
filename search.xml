@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>Mac系统如何查看图片的DPI等参数</title>
+      <link href="/2022/09/07/mac-xi-tong-ru-he-cha-kan-tu-pian-de-dpi-deng-can-shu/"/>
+      <url>/2022/09/07/mac-xi-tong-ru-he-cha-kan-tu-pian-de-dpi-deng-can-shu/</url>
+      
+        <content type="html"><![CDATA[<p>有时证件照、工牌照片有DPI参数要求，但在Mac系统下，<code>右击图片 → 显示简介</code>，在弹出页面中并不能直接看到图片的DPI参数。</p><p>其实，可以用苹果系统默认图片查看软件<code>Preview</code>很方便地查看图片的DPI参数。</p><p>打开图片预览，点击上方叹号按钮，弹出照片信息弹出框，就可以看见图片的详细信息，其中包括DPI参数。</p><p><img src="https://note.youdao.com/yws/api/personal/file/WEB78634b915c50e548f4fac31621977a47?method=download&amp;shareKey=bc91f288db2b6e152f3af6d384f3a985"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 教程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> macOS,DPI </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Telegram 客户端 Proxy 代理设置</title>
       <link href="/2022/09/07/telegram-ke-hu-duan-proxy-dai-li-she-zhi/"/>
       <url>/2022/09/07/telegram-ke-hu-duan-proxy-dai-li-she-zhi/</url>
@@ -49,11 +74,11 @@
       
         <tags>
             
-            <tag> MacOS </tag>
-            
             <tag> tree </tag>
             
             <tag> 目录树 </tag>
+            
+            <tag> macOS </tag>
             
         </tags>
       
@@ -78,7 +103,9 @@
       
         <tags>
             
-            <tag> 默认通信协议 </tag>
+            <tag> SSH报错 </tag>
+            
+            <tag> 部署问题 </tag>
             
         </tags>
       
@@ -104,6 +131,10 @@
         <tags>
             
             <tag> 默认通信协议 </tag>
+            
+            <tag> SSH报错 </tag>
+            
+            <tag> 部署问题 </tag>
             
         </tags>
       
@@ -132,6 +163,10 @@
             
             <tag> Token验证 </tag>
             
+            <tag> SSH报错 </tag>
+            
+            <tag> 部署问题 </tag>
+            
         </tags>
       
     </entry>
@@ -155,11 +190,7 @@
       
         <tags>
             
-            <tag> Mac终端 </tag>
-            
-            <tag> 192 </tag>
-            
-            <tag> Mac问题 </tag>
+            <tag> GitHub </tag>
             
         </tags>
       
@@ -271,6 +302,8 @@
             
             <tag> Mac问题 </tag>
             
+            <tag> macOS </tag>
+            
         </tags>
       
     </entry>
@@ -354,7 +387,7 @@
             
             <tag> Mac问题 </tag>
             
-            <tag> MacOS </tag>
+            <tag> macOS </tag>
             
         </tags>
       
@@ -712,6 +745,8 @@
       
       
         <tags>
+            
+            <tag> Hexo_Blog </tag>
             
             <tag> GitHub </tag>
             
