@@ -369,6 +369,35 @@
     
     
     <entry>
+      <title>PS怎样让两张图片的的边缘更好地融合在一起</title>
+      <link href="/2020/08/04/ps-zen-yang-rang-liang-zhang-tu-pian-de-de-bian-yuan-geng-hao-di-rong-he-zai-yi-qi/"/>
+      <url>/2020/08/04/ps-zen-yang-rang-liang-zhang-tu-pian-de-de-bian-yuan-geng-hao-di-rong-he-zai-yi-qi/</url>
+      
+        <content type="html"><![CDATA[<ul><li>在PS中打开需要处理的图片。</li></ul><p><img src="https://note.youdao.com/yws/api/personal/file/WEB3fd5eab08f0aa4cd7642d0be6f880825?method=download&amp;shareKey=4573c6a4beb89b690e3ec9a098e525c3"></p><ul><li><p>接下来将另一张图片拖入PS中，使其位于第一张图片上方，根据自己的的需要使用<code>Command+T</code>调整大小和位置。</p></li><li><p>可以根据需要抠图使用一部分。</p></li></ul><p><img src="https://note.youdao.com/yws/api/personal/file/WEB672af2fe2c3b255597e9005aa2216b12?method=download&amp;shareKey=d6d60482e5033fdf84bb77139dab6ce0"></p><p><img src="https://note.youdao.com/yws/api/personal/file/WEB67d6b32bfdb8c52e461d04b866ca94fa?method=download&amp;shareKey=f5ee4dd42bd33c590c0fcea644e39d71"></p><ul><li>接下来把要过渡的图片图层添加蒙版。</li><li>在页面右下方选择“添加矢量蒙版”小图标，点击小图标给第二张图片加上矢量蒙版。在图层右边会出现一个白色模板图标，单击选中白色蒙版。</li></ul><p><img src="https://note.youdao.com/yws/api/personal/file/WEB053b35b18874df80ecb89efb9f159aa3?method=download&amp;shareKey=705165c400538bc57b3b2835d71d96b3"></p><ul><li>然后在左边工具栏中选择“渐变工具”，并将前景色设置为黑色，后景色设置为白色。</li></ul><p><img src="https://note.youdao.com/yws/api/personal/file/WEB0bd9aa624b715bd01ff0bb0edbdc9e23?method=download&amp;shareKey=d551351d520161df46e7df81fa714532"></p><ul><li>最后在图片上按住鼠标从背景图向要融合的图方向拉渐变，就可以模糊第二张图，将两张图边缘融合在一起。根据实际展示效果灵活调整渐变位置。</li></ul><p><img src="https://note.youdao.com/yws/api/personal/file/WEB04def6c5ca0e2b4b1b510547bb245f6c?method=download&amp;shareKey=e7f030e12d98881f2945ba8ef5546047"></p><ul><li>进行部分修饰，选择画笔工具，将不透明度设为<code>20%-30%</code>，将流量改为<code>30%</code>，反复涂抹，将你想要清楚的地方涂抹出来。将前景色改为黑色，背景色改为白色，反复涂抹背景，让背景显示清楚.</li></ul><p><img src="https://note.youdao.com/yws/api/personal/file/WEB85b2d15037f119be9aae82bf29cfb1b4?method=download&amp;shareKey=8208d39bb1a4fd8af8c1394410828779"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> UI设计 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> PS </tag>
+            
+            <tag> 设计软件 </tag>
+            
+            <tag> UI设计 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Mac系统终端报错&quot;command not found&quot;</title>
       <link href="/2020/07/11/mac-xi-tong-zhong-duan-bao-cuo-command-not-found/"/>
       <url>/2020/07/11/mac-xi-tong-zhong-duan-bao-cuo-command-not-found/</url>
@@ -390,6 +419,37 @@
             <tag> Mac问题 </tag>
             
             <tag> macOS </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>PS怎样瘦脸</title>
+      <link href="/2020/07/11/ps-zen-yang-shou-lian/"/>
+      <url>/2020/07/11/ps-zen-yang-shou-lian/</url>
+      
+        <content type="html"><![CDATA[<ul><li>把图拖入PS窗口，点击<code>滤镜 → 液化</code>，进入到<code>液化</code>界面。</li></ul><p><img src="https://note.youdao.com/yws/api/personal/file/WEB6aba1011af2f9dbcdb9f38c99a2541ef?method=download&amp;shareKey=c9d22ac1ef0fd3470f9226d283f727a3"></p><p>选择左侧的<code>向前变形工具</code>，在右侧<code>调节画笔大小值</code>，按住鼠标左键不松手，往内侧缓慢调节，将脸部缩小。</p><p><img src="https://note.youdao.com/yws/api/personal/file/WEB2c1ea954b9eb5c89781d6c7391935ac7?method=download&amp;shareKey=d32507131c963e1e274dbfdc7f018e53"></p><p>点击<code>确定</code>，确认最终效果。</p><p><img src="https://note.youdao.com/yws/api/personal/file/WEBab698b6a6074d3dc414302ff4382841d?method=download&amp;shareKey=bc171965c0ee82ad72cd85aada429dd6"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> UI设计 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> PS </tag>
+            
+            <tag> 设计软件 </tag>
+            
+            <tag> 瘦脸 </tag>
+            
+            <tag> UI设计 </tag>
             
         </tags>
       
