@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://pamarus.github.io/2020/08/04/ps-zen-yang-rang-liang-zhang-tu-pian-de-de-bian-yuan-geng-hao-di-rong-he-zai-yi-qi/</loc>
+    <loc>https://pamarus.github.io/2020/08/15/ps-shi-yong-hun-se-mo-shi-zeng-jia-an-bu-liang-du/</loc>
     
     <lastmod>2022-09-08</lastmod>
     
@@ -11,7 +11,16 @@
   </url>
   
   <url>
-    <loc>https://pamarus.github.io/2020/07/11/ps-zen-yang-shou-lian/</loc>
+    <loc>https://pamarus.github.io/2020/08/04/ps-shi-yong-jian-bian-gong-ju-rang-liang-zhang-tu-pian-de-de-bian-yuan-geng-hao-di-rong-he-zai-yi-qi/</loc>
+    
+    <lastmod>2022-09-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pamarus.github.io/2020/07/11/ps-shi-yong-ye-hua-lu-jing-shou-lian/</loc>
     
     <lastmod>2022-09-08</lastmod>
     
@@ -535,13 +544,6 @@
   </url>
   
   <url>
-    <loc>https://pamarus.github.io/tags/%E8%AE%BE%E8%AE%A1%E8%BD%AF%E4%BB%B6/</loc>
-    <lastmod>2022-09-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://pamarus.github.io/tags/%E7%98%A6%E8%84%B8/</loc>
     <lastmod>2022-09-08</lastmod>
     <changefreq>weekly</changefreq>
@@ -550,6 +552,41 @@
   
   <url>
     <loc>https://pamarus.github.io/tags/UI%E8%AE%BE%E8%AE%A1/</loc>
+    <lastmod>2022-09-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://pamarus.github.io/tags/%E6%B8%90%E5%8F%98%E5%B7%A5%E5%85%B7/</loc>
+    <lastmod>2022-09-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://pamarus.github.io/tags/%E8%BE%B9%E7%BC%98%E8%9E%8D%E5%90%88/</loc>
+    <lastmod>2022-09-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://pamarus.github.io/tags/%E6%B7%B7%E8%89%B2%E6%A8%A1%E5%BC%8F/</loc>
+    <lastmod>2022-09-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://pamarus.github.io/tags/%E5%A2%9E%E5%8A%A0%E4%BA%AE%E5%BA%A6/</loc>
+    <lastmod>2022-09-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://pamarus.github.io/tags/%E6%B6%B2%E5%8C%96%E6%BB%A4%E9%95%9C/</loc>
     <lastmod>2022-09-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
