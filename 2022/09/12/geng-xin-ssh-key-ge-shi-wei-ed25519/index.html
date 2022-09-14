@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Hexo博客,NexT">
+    <meta name="keywords" content="SSH验证,Hexo_Blog,GitHub">
     <meta name="description" content="Thinking Hacks">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>Hexo博客搭建（3）：NexT主题-跳转分类、标签、关于页报错，无法打开怎么办 | Pamarus</title>
+    <title>更新SSH key格式为ed25519 | Pamarus</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -314,7 +314,7 @@
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Hexo博客搭建（3）：NexT主题-跳转分类、标签、关于页报错，无法打开怎么办</h1>
+                    <h1 class="description center-align post-title">更新SSH key格式为ed25519</h1>
                 </div>
             </div>
         </div>
@@ -434,12 +434,12 @@
                                 <span class="chip bg-color">Hexo_Blog</span>
                             </a>
                         
-                            <a href="/tags/%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/">
-                                <span class="chip bg-color">博客教程</span>
+                            <a href="/tags/GitHub/">
+                                <span class="chip bg-color">GitHub</span>
                             </a>
                         
-                            <a href="/tags/NexT/">
-                                <span class="chip bg-color">NexT</span>
+                            <a href="/tags/SSH%E9%AA%8C%E8%AF%81/">
+                                <span class="chip bg-color">SSH验证</span>
                             </a>
                         
                     </div>
@@ -450,8 +450,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/Hexo%E5%8D%9A%E5%AE%A2/" class="post-category">
-                                Hexo博客
+                            <a href="/categories/%E6%95%99%E7%A8%8B/" class="post-category">
+                                教程
                             </a>
                         
                     </div>
@@ -463,7 +463,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-05-06
+                    2022-09-12
                 </div>
                 
 
@@ -472,14 +472,14 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    993
+                    1.3k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    3 分
+                    4 分
                 </div>
                 
 
@@ -507,115 +507,53 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <blockquote>
-<p>上一步我们成功安装主题，打开博客地址，操作之后会发现，点击首页、归档菜单是正常打开的。但是点击分类、标签、关于页时，跳转404，报错无法打开。如下图：</p>
-</blockquote>
-<span id="more"></span>
-
-<p><img src="https://note.youdao.com/yws/api/personal/file/WEB0823822f19839ee481d97b65f044d475?method=download&amp;shareKey=67a24ab20724b6d7d2b3b170a2957ecd" alt="01-跳转报错"></p>
-<h1 id="第1种方法：删除配置文件中空格">1. 第1种方法：删除配置文件中空格</h1><blockquote>
-<p>关于链接显示<code>20%</code>的问题</p>
-</blockquote>
-<p>这个问题更多发生在，点击首页和归档菜单，显示404，查看链接地址，结尾显示<code>20%</code>。比如：<code>https://xxx.github.io/%20</code></p>
-<p><code>20%</code>代表空格，而这个空格来自NexT主题的配置文件中。<br>配置文件中代码如下：</p>
-<pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token literal-property property">menu</span><span class="token operator">:</span>
-  <span class="token literal-property property">home</span><span class="token operator">:</span> <span class="token operator">/</span> <span class="token operator">||</span> home
-  #about<span class="token operator">:</span> <span class="token operator">/</span>about<span class="token operator">/</span> <span class="token operator">||</span> user
-  #tags<span class="token operator">:</span> <span class="token operator">/</span>tags<span class="token operator">/</span> <span class="token operator">||</span> tags
-  #categories<span class="token operator">:</span> <span class="token operator">/</span>categories<span class="token operator">/</span> <span class="token operator">||</span> th
-  <span class="token literal-property property">archives</span><span class="token operator">:</span> <span class="token operator">/</span>archives<span class="token operator">/</span> <span class="token operator">||</span> archive
-  #schedule<span class="token operator">:</span> <span class="token operator">/</span>schedule<span class="token operator">/</span> <span class="token operator">||</span> calendar
-  #sitemap<span class="token operator">:</span> <span class="token operator">/</span>sitemap<span class="token punctuation">.</span>xml <span class="token operator">||</span> sitemap
-  #commonweal<span class="token operator">:</span> <span class="token operator">/</span><span class="token number">404</span><span class="token operator">/</span> <span class="token operator">||</span> heartbeat<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<p>将配置文件里<code>||</code>之前所有的空格删掉，重新<code>hexo g -d</code>部署，解决问题。</p>
-<p>如果你是这种问题，可以尝试一下。</p>
-<blockquote>
-<p>建议参阅第3种方法，检查一下是不是第3种方法中说明的问题。</p>
-</blockquote>
-<h1 id="第2种方法：重新clone安装主题">2. 第2种方法：重新clone安装主题</h1><blockquote>
-<p><code>20%</code>这种问题如何发生的：</p>
-</blockquote>
+                <p>官网最新的SSH Key格式和生成方式是<code>ed25519</code>，其比之前创建博客时使用的<code>rsa</code>速度更快，也更加安全。</p>
+<p>SSH很熟悉，之前Hexo博客部署时，使用SSH连接的方式，可以避免每次<code>hexo d</code>时都要输入用户名和密码，SSH连接比较方便。</p>
+<p>官网是如此说的，<em>使用SSH协议，您可以连接到远程服务器和服务并对其进行身份验证。使用SSH密钥，您可以连接到GitHub，而无需在每次访问时提供您的用户名和个人访问令牌。您还可以使用SSH密钥对提交进行签名。</em></p>
+<h1 id="SSH常见key格式">1. SSH常见key格式</h1><h2 id="各种格式密钥的特点">1.1. 各种格式密钥的特点</h2><p>之前使用的Key格式是<code>RSA</code>，密钥文件名是<code>id_rsa.pub</code>。常见的格式还有<code>DSA</code>、<code>ECDSA</code>等，特点如下。</p>
 <ul>
-<li>我当时是因为clone主题出现的问题。<br>在这个网站 <a target="_blank" rel="noopener" href="http://theme-next.iissnan.com/getting-started.html">NexT</a> clone主题。clone之后，点击首页、归档跳转的链接都带<code>20%</code>，如下图：</li>
+<li>DSA 它是不安全的，OpenSSL从v7版本开始已放弃对其支持，如果你正在使用，请马上升级。</li>
+<li>RSA 安全性依赖于key的大小，3072位或4096位的key是安全的，小于此大小的key可能需要升级一下，1024位的key已经被认为不安全。</li>
+<li>ECDSA 安全性取决于你的计算机生成随机数的能力，该随机数将用于创建签名，ECDSA使用的NIST曲线也存在可信赖性问题。</li>
+<li>ed25519 是目前最推荐的公钥算法。</li>
 </ul>
-<p><img src="https://note.youdao.com/yws/api/personal/file/WEBf5364943fd3218e74141349d365d9fb2?method=download&amp;shareKey=e3bea6ff7467ef13eef49afa3f625693" alt="02-跳转报错"></p>
-<ul>
-<li><p>出现问题之后，参阅 <a target="_blank" rel="noopener" href="https://github.com/iissnan/hexo-theme-next/blob/master/README.cn.md">GitHub仓库页</a>，会明显看见不再维护的提示。</p>
-</li>
-<li><p>查阅issues找问题，也有issuus报此问题：<a target="_blank" rel="noopener" href="https://github.com/iissnan/hexo-theme-next/issues/2233">生成URL存在空格%20，导致github pages无法访问 #2233</a> ， <a target="_blank" rel="noopener" href="https://github.com/iissnan/hexo-theme-next/issues/2209">分类无法正常使用 #2209</a> ，等等，可知此问题已在新版中解决。</p>
-</li>
-<li><p>所以，建议在 <a target="_blank" rel="noopener" href="https://github.com/theme-next/hexo-theme-next">这个仓库</a> clone安装最新版本NexT主题。大概率解决这个问题。</p>
-</li>
-</ul>
-<blockquote>
-<p>如果安装最新版本后，仍出现问题，比如首页、归档也可以正常打开，但是分类标签页报错404，参见下面的方法。</p>
-</blockquote>
-<h1 id="第3种方法：创建分类、标签等页面">3. 第3种方法：创建分类、标签等页面</h1><blockquote>
-<p>安装最新主题（v7.8.0），启用并点击分类、标签、关于页面，404报错。并且，侧边栏<code>分类</code>、<code>标签</code>都无法点击。</p>
-</blockquote>
-<h2 id="找问题">3.1. 找问题</h2><p>看一下404的英文提示文字，大概是没有链接对应的文件的意思。</p>
-<p>查阅一些文章，之后检查<code>public/</code>文件夹和对比其他博客的GitHub仓库文件，发现：<br><code>public/categories/</code>、<code>public/tags/</code> 文件夹下没有<code>index.html</code>文件，<code>public/</code>文件夹下没有<code>about</code>文件夹。所以初步判定问题是，菜单项没有根文件，不能链接到对应页面。</p>
-<p>所以设想的解决方法就是创建分类、标签、关于页面。</p>
-<h2 id="创建-分类-页面">3.2. 创建 [分类] 页面</h2><ul>
-<li>（1）终端窗口下，cd 到你的博客目录。</li>
-</ul>
-<blockquote>
-<p>CD方法：<br>输入<code>cd</code>+<code>空格</code><br>将想要定位的文件夹拖进终端，将会自动填充文件路径，再点击回车</p>
-</blockquote>
-<ul>
-<li>（2）输入命令，生成文件：</li>
-</ul>
-<pre class="line-numbers language-jsx" data-language="jsx"><code class="language-jsx">hexo <span class="token keyword">new</span> <span class="token class-name">page</span> <span class="token string">"categories"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<h2 id="ed25519的优势">1.2. ed25519的优势</h2><p><code>RSA</code>是目前使用最广泛的<code>SSH key</code>格式，但同<code>ed25519</code>相比，<code>RSA</code>速度更慢，且当key小于2048位时是不安全的。</p>
+<p><code>ed25519公钥</code>更为紧凑，仅68个字符。生成密钥和签名的过程都非常快，使用ed25519进行批量签名验证也很快。它是为防碰撞而设计的，防哈希冲突。</p>
+<h1 id="检查现有-SSH-密钥">2. 检查现有 SSH 密钥</h1><p>在生成新的SSH密钥之前，应该检查本地计算机是否存在现有密钥。</p>
+<p>输入<code>ls -al ~/.ssh</code>以查看是否存在现有的SSH密钥，这个命令的含义就是列出<code>.ssh</code>目录中的文件（如果存在）。</p>
+<pre class="line-numbers language-java" data-language="java"><code class="language-java">ls <span class="token operator">-</span>al <span class="token operator">~</span><span class="token operator">/</span><span class="token punctuation">.</span>ssh<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
-<p><img src="https://note.youdao.com/yws/api/personal/file/WEB212fb530efe21156d3024f414904974b?method=download&amp;shareKey=c48a95e7708dbc1dc38dbb65863cea6e" alt="03-创建分类页面"></p>
-<ul>
-<li>（3）找到本地文件<ul>
-<li>你会发现你的<code>source/</code>文件夹下有了<code>categories/index.md</code>文件</li>
-</ul>
-</li>
-</ul>
-<p><img src="https://note.youdao.com/yws/api/personal/file/WEB93486e452dd2d5679662b45e9b23ad3d?method=download&amp;shareKey=b5ae50952f39b4decdc7f9110ce9e066" alt="04-本地文件"></p>
-<ul>
-<li>（4）修改<code>title</code>（可选），添加页面类型<code>type</code><ul>
-<li><p>打开<code>index.md</code>文件将 title 设置为title: 分类。<code>分类</code>将是网页显示的标题，按照自己喜好修改或者不修改。</p>
-</li>
-<li><p>新增属性<code>type</code>，设置为<code>categories</code>，将自动为这个页面显示分类。页面内容如下：</p>
-</li>
-</ul>
-</li>
-</ul>
-<pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token literal-property property">title</span><span class="token operator">:</span> 分类
-<span class="token literal-property property">date</span><span class="token operator">:</span> <span class="token number">2020</span><span class="token operator">-</span><span class="token number">05</span><span class="token operator">-</span><span class="token number">05</span> <span class="token number">16</span><span class="token operator">:</span><span class="token number">38</span><span class="token operator">:</span><span class="token number">50</span>
-<span class="token literal-property property">type</span><span class="token operator">:</span> categories
-<span class="token operator">--</span><span class="token operator">-</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+<p>默认情况下，GitHub的一个支持的公钥的文件名是以下之一。<br><code>id_rsa.pub</code><br><code>id_ecdsa.pub</code><br><code>id_ed25519.pub</code></p>
+<p>提示：如果收到错误，指示<code>~/.ssh</code>不存在，则表明默认位置中没有现有的SSH密钥对。 您可以在下一步中创建新的SSH密钥对。</p>
+<p>如果有现有的SSH密钥，则可以使用该密钥通过SSH对Git操作进行身份验证。没有则生成一个新的。如果不希望使用任何可用的密钥对，当然也可以生成新的SSH密钥。</p>
+<h1 id="生成新的-SSH-密钥">3. 生成新的 SSH 密钥</h1><h2 id="使用以下命令生成密钥">3.1. 使用以下命令生成密钥</h2><pre class="line-numbers language-java" data-language="java"><code class="language-java">ssh<span class="token operator">-</span>keygen <span class="token operator">-</span>t ed25519 <span class="token operator">-</span><span class="token class-name">C</span> <span class="token string">"你的GitHub注册邮箱"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
-<ul>
-<li><p>（5）<code>hexo g -d</code>，生成部署即可。</p>
-</li>
-<li><p>（6）把文章归入分类只需在文章的顶部标题下方添加categories字段，即可自动创建分类名并加入对应的分类中。</p>
-</li>
-</ul>
-<h2 id="创建-标签-页面">3.3. 创建 [标签] 页面</h2><p>过程同上。</p>
-<pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript">hexo <span class="token keyword">new</span> <span class="token class-name">page</span> <span class="token string">"tags"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p>这个命令含义就是以填写的的电子邮件地址为标签创建新SSH密钥。<code>-t</code> 表示创建的<code>key</code>的类型，最新我们使用<code>ed25519</code>，之前创建博客时采用的命令是<code>ssh-keygen -t rsa -C "你的GitHub注册邮箱"</code>，生成的密钥格式便是<code>rsa</code>的。</p>
+<h2 id="选择保存位置">3.2. 选择保存位置</h2><p>接下来提示您<code>Enter a file in which to save the key</code>（输入要保存密钥的文件）”时，按<code>Enter键</code>。这会接受默认文件位置。</p>
+<pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token operator">&gt;</span> <span class="token class-name">Enter</span> a file in which <span class="token keyword">to</span> <span class="token namespace">save</span> the key <span class="token punctuation">(</span><span class="token operator">/</span><span class="token class-name">Users</span><span class="token operator">/</span>you<span class="token operator">/</span><span class="token punctuation">.</span>ssh<span class="token operator">/</span>id_algorithm<span class="token punctuation">)</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token class-name">Press</span> enter<span class="token punctuation">]</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
-<pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token literal-property property">title</span><span class="token operator">:</span> 标签
-<span class="token literal-property property">date</span><span class="token operator">:</span> <span class="token number">2020</span><span class="token operator">-</span><span class="token number">05</span><span class="token operator">-</span><span class="token number">05</span> <span class="token number">16</span><span class="token operator">:</span><span class="token number">54</span><span class="token operator">:</span><span class="token number">11</span>
-<span class="token literal-property property">type</span><span class="token operator">:</span> tags
-<span class="token operator">--</span><span class="token operator">-</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+<h2 id="之后在提示符下，键入安全密码。">3.3. 之后在提示符下，键入安全密码。</h2><pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token class-name">Enter</span> passphrase <span class="token punctuation">(</span>empty <span class="token keyword">for</span> no passphrase<span class="token punctuation">)</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token class-name">Type</span> a passphrase<span class="token punctuation">]</span>
+<span class="token class-name">Enter</span> same passphrase again<span class="token operator">:</span> <span class="token punctuation">[</span><span class="token class-name">Type</span> passphrase again<span class="token punctuation">]</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 
-<h2 id="创建-关于-页面">3.4. 创建 [关于] 页面</h2><p>过程同上。</p>
-<pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript">hexo <span class="token keyword">new</span> <span class="token class-name">page</span> <span class="token string">"about"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<h1 id="将SSH密钥添加到ssh-agent">4. 将SSH密钥添加到ssh-agent</h1><h2 id="在后台启动-ssh-代理。">4.1. 在后台启动 ssh 代理。</h2><pre class="line-numbers language-java" data-language="java"><code class="language-java">eval <span class="token string">"$(ssh-agent -s)"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
-<pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token literal-property property">title</span><span class="token operator">:</span> 关于
-<span class="token literal-property property">date</span><span class="token operator">:</span> <span class="token number">2020</span><span class="token operator">-</span><span class="token number">05</span><span class="token operator">-</span><span class="token number">05</span> <span class="token number">16</span><span class="token operator">:</span><span class="token number">58</span><span class="token operator">:</span><span class="token number">44</span>
-<span class="token literal-property property">type</span><span class="token operator">:</span> about
-<span class="token operator">--</span><span class="token operator">-</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+<h2 id="新建或修改-ssh-config文件">4.2. 新建或修改~/.ssh/config文件</h2><p>如果你使用的是<code>macOS Sierra 10.12.2</code>或更高版本，则需要修改 <code>~/.ssh/config</code>文件以自动将密钥加载到<code>ssh-agent</code>中并在密钥链中存储密码。</p>
+<h3 id="首先，检查你的-ssh-config文件是否在默认位置。">4.2.1. 首先，检查你的~/.ssh/config文件是否在默认位置。</h3><pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token keyword">open</span> <span class="token operator">~</span><span class="token operator">/</span><span class="token punctuation">.</span>ssh<span class="token operator">/</span>config<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
-<h1>4. 致谢</h1>
+<h3 id="如果文件不存在，请创建该文件。">4.2.2. 如果文件不存在，请创建该文件。</h3><pre class="line-numbers language-java" data-language="java"><code class="language-java">touch <span class="token operator">~</span><span class="token operator">/</span><span class="token punctuation">.</span>ssh<span class="token operator">/</span>config<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
+<h3 id="修改config文件">4.2.3. 修改config文件</h3><p>打开你的<code>~/.ssh/config</code>文件，然后将下面的代码添加到文件中。 如果您的SSH密钥文件与示例代码具有不同的名称或路径，请修改文件名或路径以匹配您当前的设置。</p>
+<pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token class-name">Host</span> <span class="token operator">*</span>
+  <span class="token class-name">AddKeysToAgent</span> yes
+  <span class="token class-name">UseKeychain</span> yes
+  <span class="token class-name">IdentityFile</span> <span class="token operator">~</span><span class="token operator">/</span><span class="token punctuation">.</span>ssh<span class="token operator">/</span>id_ed25519<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
 
-<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/weixin_43790779/article/details/104854588">1.Hexo+next主题下，点击首页，分类等导航时出现404错误</a><br><a target="_blank" rel="noopener" href="https://github.com/theme-next/hexo-theme-next">2.NexT仓库</a><br><a target="_blank" rel="noopener" href="https://blog.csdn.net/Wonz5130/article/details/84666519">3.解决 Hexo 搭建博客显示不出分类、标签问题</a><br><a target="_blank" rel="noopener" href="http://theme-next.iissnan.com/theme-settings.html">4.NexT使用文档</a></p>
+<h2 id="将SSH密钥添加到ssh-agent-1">4.3. 将SSH密钥添加到ssh-agent</h2><p>将SSH私钥添加到<code>ssh-agent</code>并将密码存储在密钥链中。 如果使用其他名称创建了密钥或要添加具有其他名称的现有密钥，请将命令中的<code>d_ed25519</code>替换为私钥文件的名称。</p>
+<pre class="line-numbers language-java" data-language="java"><code class="language-java">ssh<span class="token operator">-</span>add <span class="token operator">-</span><span class="token class-name">K</span> <span class="token operator">~</span><span class="token operator">/</span><span class="token punctuation">.</span>ssh<span class="token operator">/</span>id_ed25519<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<h1 id="将SSH密钥添加到GitHub上的帐户">5. 将SSH密钥添加到GitHub上的帐户</h1><p>生成SSH密钥对后，您必须将公钥添加到GitHub.com才能为您的帐户启用 SSH 访问。这部分内容见之前的博客搭建文章<a href="https://pamarus.github.io/2020/05/04/hexo-bo-ke-da-jian-1-mac-duan-shi-yong-hexo-github-pages-da-jian-mian-fei-ge-ren-bo-ke/#toc-heading-25">6.3部分内容</a></p>
+<h1 id="测试SSH连接有效性">6. 测试SSH连接有效性</h1><p>这部分内容见之前的之前的博客搭建文章<a href="https://pamarus.github.io/2020/05/04/hexo-bo-ke-da-jian-1-mac-duan-shi-yong-hexo-github-pages-da-jian-mian-fei-ge-ren-bo-ke/#toc-heading-26">6.4部分内容</a></p>
+<h1 id="致谢">7. 致谢</h1><p><a target="_blank" rel="noopener" href="https://docs.github.com/cn/authentication/connecting-to-github-with-ssh/checking-for-existing-ssh-keys">GitHub官方SSH身份验证说明文档</a></p>
 
                 
             </div>
@@ -642,7 +580,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://pamarus.github.io/2020/05/06/hexo-bo-ke-da-jian-3-next-zhu-ti-tiao-zhuan-fen-lei-biao-qian-guan-yu-ye-bao-cuo-wu-fa-da-kai-zen-me-ban/">https://pamarus.github.io/2020/05/06/hexo-bo-ke-da-jian-3-next-zhu-ti-tiao-zhuan-fen-lei-biao-qian-guan-yu-ye-bao-cuo-wu-fa-da-kai-zen-me-ban/</a>
+                    <a href="https://pamarus.github.io/2022/09/12/geng-xin-ssh-key-ge-shi-wei-ed25519/">https://pamarus.github.io/2022/09/12/geng-xin-ssh-key-ge-shi-wei-ed25519/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -684,12 +622,12 @@
                                     <span class="chip bg-color">Hexo_Blog</span>
                                 </a>
                             
-                                <a href="/tags/%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/">
-                                    <span class="chip bg-color">博客教程</span>
+                                <a href="/tags/GitHub/">
+                                    <span class="chip bg-color">GitHub</span>
                                 </a>
                             
-                                <a href="/tags/NexT/">
-                                    <span class="chip bg-color">NexT</span>
+                                <a href="/tags/SSH%E9%AA%8C%E8%AF%81/">
+                                    <span class="chip bg-color">SSH验证</span>
                                 </a>
                             
                         </div>
@@ -1122,40 +1060,42 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/2020/05/13/hexo-bo-ke-da-jian-4-next-zhu-ti-shou-ye-bu-xian-shi-quan-bu-nei-rong-xian-shi-yu-lan/">
+                <a href="/2022/09/12/geng-xin-ssh-key-ge-shi-wei-ed25519/">
                     <div class="card-image">
                         
-                        <img src="/medias/featureimages/Hexo.png" class="responsive-img" alt="Hexo博客搭建（4）：NexT主题-首页不显示全部内容，显示预览">
+                        <img src="/medias/featureimages/Hexo.png" class="responsive-img" alt="更新SSH key格式为ed25519">
                         
-                        <span class="card-title">Hexo博客搭建（4）：NexT主题-首页不显示全部内容，显示预览</span>
+                        <span class="card-title">更新SSH key格式为ed25519</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            摘要的配置方法
+                            更新SSH Key最新格式ed25519
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-05-13
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-09-12
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Hexo%E5%8D%9A%E5%AE%A2/" class="post-category">
-                                    Hexo博客
+                            <a href="/categories/%E6%95%99%E7%A8%8B/" class="post-category">
+                                    教程
                                 </a>
                             
                             
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
@@ -1163,12 +1103,12 @@
                         <span class="chip bg-color">Hexo_Blog</span>
                     </a>
                     
-                    <a href="/tags/%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/">
-                        <span class="chip bg-color">博客教程</span>
+                    <a href="/tags/GitHub/">
+                        <span class="chip bg-color">GitHub</span>
                     </a>
                     
-                    <a href="/tags/NexT/">
-                        <span class="chip bg-color">NexT</span>
+                    <a href="/tags/SSH%E9%AA%8C%E8%AF%81/">
+                        <span class="chip bg-color">SSH验证</span>
                     </a>
                     
                 </div>
@@ -1182,30 +1122,30 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2020/05/05/markdown-2-ru-he-tian-jia-duo-ge-tags/">
+                <a href="/2022/09/07/mac-xi-tong-ru-he-cha-kan-tu-pian-de-dpi-deng-can-shu/">
                     <div class="card-image">
                         
-                        <img src="/medias/featureimages/Markdown.png" class="responsive-img" alt="Markdown（2）：如何添加多个tags">
+                        <img src="/medias/featureimages/Mac.png" class="responsive-img" alt="Mac系统如何查看图片的DPI等参数">
                         
-                        <span class="card-title">Markdown（2）：如何添加多个tags</span>
+                        <span class="card-title">Mac系统如何查看图片的DPI等参数</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Md添加多个tags的方式
+                            
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-05-05
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-09-07
                             </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Hexo%E5%8D%9A%E5%AE%A2/" class="post-category">
-                                    Hexo博客
+                            <a href="/categories/%E6%95%99%E7%A8%8B/" class="post-category">
+                                    教程
                                 </a>
                             
                             
@@ -1215,12 +1155,12 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Hexo-Blog/">
-                        <span class="chip bg-color">Hexo_Blog</span>
+                    <a href="/tags/macOS/">
+                        <span class="chip bg-color">macOS</span>
                     </a>
                     
-                    <a href="/tags/Markdown/">
-                        <span class="chip bg-color">Markdown</span>
+                    <a href="/tags/DPI/">
+                        <span class="chip bg-color">DPI</span>
                     </a>
                     
                 </div>

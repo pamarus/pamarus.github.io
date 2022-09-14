@@ -6,7 +6,7 @@
   <link href="https://pamarus.github.io/atom.xml" rel="self"/>
   
   <link href="https://pamarus.github.io/"/>
-  <updated>2022-09-07T09:40:14.177Z</updated>
+  <updated>2022-09-14T03:05:46.657Z</updated>
   <id>https://pamarus.github.io/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>更新SSH key格式为ed25519</title>
+    <link href="https://pamarus.github.io/2022/09/12/geng-xin-ssh-key-ge-shi-wei-ed25519/"/>
+    <id>https://pamarus.github.io/2022/09/12/geng-xin-ssh-key-ge-shi-wei-ed25519/</id>
+    <published>2022-09-12T02:18:00.000Z</published>
+    <updated>2022-09-14T03:05:46.657Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;官网最新的SSH Key格式和生成方式是&lt;code&gt;ed25519&lt;/code&gt;，其比之前创建博客时使用的&lt;code&gt;rsa&lt;/code&gt;速度更快，也更加安全。&lt;/p&gt;
+&lt;p&gt;SSH很熟悉，之前Hexo博客部署时，使用SSH连接的方式，可以避免每次&lt;code&gt;hexo</summary>
+        
+      
+    
+    
+    
+    <category term="教程" scheme="https://pamarus.github.io/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="Hexo_Blog" scheme="https://pamarus.github.io/tags/Hexo-Blog/"/>
+    
+    <category term="GitHub" scheme="https://pamarus.github.io/tags/GitHub/"/>
+    
+    <category term="SSH验证" scheme="https://pamarus.github.io/tags/SSH%E9%AA%8C%E8%AF%81/"/>
+    
+  </entry>
   
   <entry>
     <title>Mac系统如何查看图片的DPI等参数</title>
@@ -572,27 +602,6 @@
     <category term="Hexo_Blog" scheme="https://pamarus.github.io/tags/Hexo-Blog/"/>
     
     <category term="Markdown" scheme="https://pamarus.github.io/tags/Markdown/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Processing学习记录（4）：描边属性、填充和背景色</title>
-    <link href="https://pamarus.github.io/2020/06/13/processing-xue-xi-ji-lu-4-miao-bian-shu-xing-tian-chong-he-bei-jing-se/"/>
-    <id>https://pamarus.github.io/2020/06/13/processing-xue-xi-ji-lu-4-miao-bian-shu-xing-tian-chong-he-bei-jing-se/</id>
-    <published>2020-06-13T07:25:00.000Z</published>
-    <updated>2022-09-06T07:47:39.195Z</updated>
-    
-    
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;Processing绘图默认的是浅灰色背景、黑色线条、白色的图形（如下图）。若想改变这些默认值，需要使用&lt;code&gt;background()&lt;/code&gt;、&lt;code&gt;stroke()&lt;/code&gt;、&lt;code&gt;fill()&lt;/code&gt;函数。&lt;/p&gt;
-&lt;/blockquote&gt;</summary>
-    
-    
-    
-    <category term="编程语言" scheme="https://pamarus.github.io/categories/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/"/>
-    
-    
-    <category term="Processing" scheme="https://pamarus.github.io/tags/Processing/"/>
     
   </entry>
   
