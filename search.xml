@@ -434,7 +434,7 @@
       
       <categories>
           
-          <category> UI设计 </category>
+          <category> 视觉设计 </category>
           
       </categories>
       
@@ -443,11 +443,11 @@
             
             <tag> PS </tag>
             
-            <tag> UI设计 </tag>
-            
             <tag> 混色模式 </tag>
             
             <tag> 增加亮度 </tag>
+            
+            <tag> 视觉设计 </tag>
             
         </tags>
       
@@ -465,7 +465,7 @@
       
       <categories>
           
-          <category> UI设计 </category>
+          <category> 视觉设计 </category>
           
       </categories>
       
@@ -474,11 +474,11 @@
             
             <tag> PS </tag>
             
-            <tag> UI设计 </tag>
-            
             <tag> 渐变工具 </tag>
             
             <tag> 边缘融合 </tag>
+            
+            <tag> 视觉设计 </tag>
             
         </tags>
       
@@ -525,7 +525,7 @@
       
       <categories>
           
-          <category> UI设计 </category>
+          <category> 视觉设计 </category>
           
       </categories>
       
@@ -536,9 +536,34 @@
             
             <tag> 瘦脸 </tag>
             
-            <tag> UI设计 </tag>
-            
             <tag> 液化滤镜 </tag>
+            
+            <tag> 视觉设计 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Pr使用取消链接功能分离音频</title>
+      <link href="/2020/07/11/pr-shi-yong-qu-xiao-lian-jie-gong-neng-fen-chi-yin-pin/"/>
+      <url>/2020/07/11/pr-shi-yong-qu-xiao-lian-jie-gong-neng-fen-chi-yin-pin/</url>
+      
+        <content type="html"><![CDATA[<p>同时选中视频轨和音频轨，右击在弹出的菜单中选择<code>取消链接</code>选项。</p><p><img src="https://note.youdao.com/yws/api/personal/file/WEBbf8ccec0c455cc1ea96de78389723b2c?method=download&amp;shareKey=86eb79e2865da5399ff65db877f40aa3"></p><p>这个时候视频画面和音频就已经分离开来。拖动音频轨，就可以看到可以单独移动，这个时候就说明成功分离了。</p><p><img src="https://note.youdao.com/yws/api/personal/file/WEB2631c9952ffdd02f4530d02b3c9a8f72?method=download&amp;shareKey=46da94db942205e9b93ba72bd6af5d9f"></p><p>此时便能很方便地在视频轨下方放置你要替换的音频了。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 视频剪辑 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Pr,音视频剪辑,分离音频] </tag>
             
         </tags>
       
@@ -1004,7 +1029,7 @@
       
       <categories>
           
-          <category> UI设计 </category>
+          <category> 视频剪辑 </category>
           
       </categories>
       

@@ -2,7 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://pamarus.github.io/2020/07/11/pr-shi-yong-qu-xiao-lian-jie-gong-neng-fen-chi-yin-pin/</loc>
+    
+    <lastmod>2022-09-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://pamarus.github.io/2019/05/25/pr-shi-yong-ti-dao-gong-ju-jian-qie-yin-shi-pin/</loc>
+    
+    <lastmod>2022-09-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pamarus.github.io/2020/08/15/ps-shi-yong-hun-se-mo-shi-zeng-jia-an-bu-liang-du/</loc>
+    
+    <lastmod>2022-09-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pamarus.github.io/2020/08/04/ps-shi-yong-jian-bian-gong-ju-rang-liang-zhang-tu-pian-de-de-bian-yuan-geng-hao-di-rong-he-zai-yi-qi/</loc>
+    
+    <lastmod>2022-09-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pamarus.github.io/2020/07/11/ps-shi-yong-ye-hua-lu-jing-shou-lian/</loc>
     
     <lastmod>2022-09-16</lastmod>
     
@@ -23,33 +59,6 @@
     <loc>https://pamarus.github.io/2022/08/08/an-an-cheng-chang-ri-ji-2022-nian-08-yue/</loc>
     
     <lastmod>2022-09-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pamarus.github.io/2020/08/15/ps-shi-yong-hun-se-mo-shi-zeng-jia-an-bu-liang-du/</loc>
-    
-    <lastmod>2022-09-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pamarus.github.io/2020/08/04/ps-shi-yong-jian-bian-gong-ju-rang-liang-zhang-tu-pian-de-de-bian-yuan-geng-hao-di-rong-he-zai-yi-qi/</loc>
-    
-    <lastmod>2022-09-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pamarus.github.io/2020/07/11/ps-shi-yong-ye-hua-lu-jing-shou-lian/</loc>
-    
-    <lastmod>2022-09-08</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -640,6 +649,20 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>https://pamarus.github.io/tags/%E8%A7%86%E8%A7%89%E8%AE%BE%E8%AE%A1/</loc>
+    <lastmod>2022-09-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://pamarus.github.io/tags/Pr-%E9%9F%B3%E8%A7%86%E9%A2%91%E5%89%AA%E8%BE%91-%E5%88%86%E7%A6%BB%E9%9F%B3%E9%A2%91/</loc>
+    <lastmod>2022-09-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
   
   <url>
@@ -671,7 +694,14 @@
   </url>
   
   <url>
-    <loc>https://pamarus.github.io/categories/UI%E8%AE%BE%E8%AE%A1/</loc>
+    <loc>https://pamarus.github.io/categories/%E8%A7%86%E8%A7%89%E8%AE%BE%E8%AE%A1/</loc>
+    <lastmod>2022-09-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://pamarus.github.io/categories/%E8%A7%86%E9%A2%91%E5%89%AA%E8%BE%91/</loc>
     <lastmod>2022-09-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
