@@ -547,35 +547,6 @@
     
     
     <entry>
-      <title>Pr使用取消链接功能分离音频</title>
-      <link href="/2020/07/11/pr-shi-yong-qu-xiao-lian-jie-gong-neng-fen-chi-yin-pin/"/>
-      <url>/2020/07/11/pr-shi-yong-qu-xiao-lian-jie-gong-neng-fen-chi-yin-pin/</url>
-      
-        <content type="html"><![CDATA[<p>同时选中视频轨和音频轨，右击在弹出的菜单中选择<code>取消链接</code>选项。</p><p><img src="https://note.youdao.com/yws/api/personal/file/WEBbf8ccec0c455cc1ea96de78389723b2c?method=download&amp;shareKey=86eb79e2865da5399ff65db877f40aa3"></p><p>这个时候视频画面和音频就已经分离开来。拖动音频轨，就可以看到可以单独移动，这个时候就说明成功分离了。</p><p><img src="https://note.youdao.com/yws/api/personal/file/WEB2631c9952ffdd02f4530d02b3c9a8f72?method=download&amp;shareKey=46da94db942205e9b93ba72bd6af5d9f"></p><p>此时便能很方便地在视频轨下方放置你要替换的音频了。</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 视频剪辑 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Pr </tag>
-            
-            <tag> 音视频剪辑 </tag>
-            
-            <tag> 分离音频 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>Markdown（3）：图片样式优化美化</title>
       <link href="/2020/06/15/markdown-3-tu-pian-yang-shi-you-hua-mei-hua/"/>
       <url>/2020/06/15/markdown-3-tu-pian-yang-shi-you-hua-mei-hua/</url>
@@ -1016,6 +987,64 @@
             <tag> Hexo_Blog </tag>
             
             <tag> Markdown </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Pr预览时调节播放速度</title>
+      <link href="/2019/05/26/pr-yu-lan-shi-diao-jie-bo-fang-su-du/"/>
+      <url>/2019/05/26/pr-yu-lan-shi-diao-jie-bo-fang-su-du/</url>
+      
+        <content type="html"><![CDATA[<p>PR中使用J、K和L键进行预览播放速度调节等。</p><h1 id="开始-amp-暂停">1. 开始&amp;暂停</h1><p>L键开始预览向前播放视频，J键开始预览倒放视频，K键暂停预览。</p><h1 id="向前播放">2. 向前播放</h1><p>L键，正常速度向前移动播放指示器。<br>如需加快速度，再按一次L键。按一次L键，速度加快一点。<br>如需减慢速度，请按住L键和K键。<br>如果要一次向前移动一帧，按住K键后，点按L键。<br>如果播放过程中需要稍微加快速度，可以按住Shift+L，松手后恢复正常速度。</p><h1 id="倒放">3. 倒放</h1><p>J键，正常速度反向移动播放指示器。<br>如需加快倒放速度，再按一次J键。按一次J键，速度加快一点。<br>如需减慢慢放速度，请按住J键和K键。<br>如果要一次向后移动一帧，按住K键后，点按J键。<br>如果倒放过程中需要稍微加快倒放速度，可以按住Shift+J，松手后恢复正常速度。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 视频剪辑 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Pr </tag>
+            
+            <tag> 音视频剪辑 </tag>
+            
+            <tag> 调节播放速度 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Pr使用取消链接功能分离音频</title>
+      <link href="/2019/05/26/pr-shi-yong-qu-xiao-lian-jie-gong-neng-fen-chi-yin-pin/"/>
+      <url>/2019/05/26/pr-shi-yong-qu-xiao-lian-jie-gong-neng-fen-chi-yin-pin/</url>
+      
+        <content type="html"><![CDATA[<p>同时选中视频轨和音频轨，右击在弹出的菜单中选择<code>取消链接</code>选项。</p><p><img src="https://note.youdao.com/yws/api/personal/file/WEBbf8ccec0c455cc1ea96de78389723b2c?method=download&amp;shareKey=86eb79e2865da5399ff65db877f40aa3"></p><p>这个时候视频画面和音频就已经分离开来。拖动音频轨，就可以看到可以单独移动，这个时候就说明成功分离了。</p><p><img src="https://note.youdao.com/yws/api/personal/file/WEB2631c9952ffdd02f4530d02b3c9a8f72?method=download&amp;shareKey=46da94db942205e9b93ba72bd6af5d9f"></p><p>此时便能很方便地在视频轨下方放置你要替换的音频了。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 视频剪辑 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Pr </tag>
+            
+            <tag> 音视频剪辑 </tag>
+            
+            <tag> 分离音频 </tag>
             
         </tags>
       

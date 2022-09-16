@@ -576,32 +576,32 @@
   </entry>
   
   <entry>
-    <title>Pr使用取消链接功能分离音频</title>
-    <link href="https://pamarus.github.io/2020/07/11/pr-shi-yong-qu-xiao-lian-jie-gong-neng-fen-chi-yin-pin/"/>
-    <id>https://pamarus.github.io/2020/07/11/pr-shi-yong-qu-xiao-lian-jie-gong-neng-fen-chi-yin-pin/</id>
-    <published>2020-07-11T07:25:00.000Z</published>
-    <updated>2022-09-16T07:50:18.481Z</updated>
+    <title>Markdown（3）：图片样式优化美化</title>
+    <link href="https://pamarus.github.io/2020/06/15/markdown-3-tu-pian-yang-shi-you-hua-mei-hua/"/>
+    <id>https://pamarus.github.io/2020/06/15/markdown-3-tu-pian-yang-shi-you-hua-mei-hua/</id>
+    <published>2020-06-15T10:25:00.000Z</published>
+    <updated>2022-09-06T07:42:58.054Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;同时选中视频轨和音频轨，右击在弹出的菜单中选择&lt;code&gt;取消链接&lt;/code&gt;选项。&lt;/p&gt;
-&lt;p&gt;&lt;img</summary>
+    <summary type="html">&lt;h1 id=&quot;调整图片大小&quot;&gt;1. 调整图片大小&lt;/h1&gt;&lt;p&gt;用markdown编写博客的时候，插入的图片无法调整大小，影响美观度。&lt;/p&gt;
+&lt;p&gt;我们可以使用&lt;code&gt;img&lt;/code&gt;标签插入图片。&lt;/p&gt;
+&lt;p&gt;格式如下：&lt;/p&gt;
+&lt;pre</summary>
         
       
     
     
     
-    <category term="视频剪辑" scheme="https://pamarus.github.io/categories/%E8%A7%86%E9%A2%91%E5%89%AA%E8%BE%91/"/>
+    <category term="Hexo博客" scheme="https://pamarus.github.io/categories/Hexo%E5%8D%9A%E5%AE%A2/"/>
     
     
-    <category term="Pr" scheme="https://pamarus.github.io/tags/Pr/"/>
+    <category term="Hexo_Blog" scheme="https://pamarus.github.io/tags/Hexo-Blog/"/>
     
-    <category term="音视频剪辑" scheme="https://pamarus.github.io/tags/%E9%9F%B3%E8%A7%86%E9%A2%91%E5%89%AA%E8%BE%91/"/>
-    
-    <category term="分离音频" scheme="https://pamarus.github.io/tags/%E5%88%86%E7%A6%BB%E9%9F%B3%E9%A2%91/"/>
+    <category term="Markdown" scheme="https://pamarus.github.io/tags/Markdown/"/>
     
   </entry>
   
