@@ -1,3 +1,5 @@
+https://pamarus.github.io/2020/07/11/flinto-01-ji-yu-ping-mu-de-jian-dan-guo-du-xiao-guo/
+https://pamarus.github.io/2022/09/07/mac-xi-tong-ru-he-cha-kan-tu-pian-de-dpi-deng-can-shu/
 https://pamarus.github.io/2019/05/26/pr-yu-lan-shi-diao-jie-bo-fang-su-du/
 https://pamarus.github.io/2019/05/26/pr-shi-yong-qu-xiao-lian-jie-gong-neng-fen-chi-yin-pin/
 https://pamarus.github.io/2019/05/25/pr-shi-yong-ti-dao-gong-ju-jian-qie-yin-shi-pin/
@@ -6,7 +8,6 @@ https://pamarus.github.io/2020/08/04/ps-shi-yong-jian-bian-gong-ju-rang-liang-zh
 https://pamarus.github.io/2020/07/11/ps-shi-yong-ye-hua-lu-jing-shou-lian/
 https://pamarus.github.io/2022/09/12/geng-xin-ssh-key-ge-shi-wei-ed25519/
 https://pamarus.github.io/2022/08/08/an-an-cheng-chang-ri-ji-2022-nian-08-yue/
-https://pamarus.github.io/2022/09/07/mac-xi-tong-ru-he-cha-kan-tu-pian-de-dpi-deng-can-shu/
 https://pamarus.github.io/2020/07/11/mac-xi-tong-zhong-duan-bao-cuo-command-not-found/
 https://pamarus.github.io/2022/09/06/ru-he-shi-yong-tree-ming-ling-sheng-cheng-mu-lu-shu-jie-gou/
 https://pamarus.github.io/2022/05/15/mac-zhong-duan-xian-shi-192-bu-xian-shi-dian-nao-ming-zi-de-jie-jue-fang-fa/
@@ -56,6 +57,8 @@ https://pamarus.github.io/tags/192/
 https://pamarus.github.io/tags/Mac%E9%97%AE%E9%A2%98/
 https://pamarus.github.io/tags/Markdown/
 https://pamarus.github.io/tags/Processing/
+https://pamarus.github.io/tags/%E6%A0%87%E7%AD%BE1/
+https://pamarus.github.io/tags/%E6%A0%87%E7%AD%BE2/
 https://pamarus.github.io/tags/tree/
 https://pamarus.github.io/tags/%E7%9B%AE%E5%BD%95%E6%A0%91/
 https://pamarus.github.io/tags/SSH%E9%AA%8C%E8%AF%81/

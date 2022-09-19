@@ -51,7 +51,7 @@
     <link href="https://pamarus.github.io/2022/09/07/mac-xi-tong-ru-he-cha-kan-tu-pian-de-dpi-deng-can-shu/"/>
     <id>https://pamarus.github.io/2022/09/07/mac-xi-tong-ru-he-cha-kan-tu-pian-de-dpi-deng-can-shu/</id>
     <published>2022-09-07T14:23:00.000Z</published>
-    <updated>2022-09-07T09:40:14.177Z</updated>
+    <updated>2022-09-16T09:13:13.701Z</updated>
     
     
       
@@ -576,21 +576,20 @@
   </entry>
   
   <entry>
-    <title>Markdown（3）：图片样式优化美化</title>
-    <link href="https://pamarus.github.io/2020/06/15/markdown-3-tu-pian-yang-shi-you-hua-mei-hua/"/>
-    <id>https://pamarus.github.io/2020/06/15/markdown-3-tu-pian-yang-shi-you-hua-mei-hua/</id>
-    <published>2020-06-15T10:25:00.000Z</published>
-    <updated>2022-09-06T07:42:58.054Z</updated>
+    <title>Flinto（01）：基于屏幕的简单过渡效果</title>
+    <link href="https://pamarus.github.io/2020/07/11/flinto-01-ji-yu-ping-mu-de-jian-dan-guo-du-xiao-guo/"/>
+    <id>https://pamarus.github.io/2020/07/11/flinto-01-ji-yu-ping-mu-de-jian-dan-guo-du-xiao-guo/</id>
+    <published>2020-07-11T07:25:00.000Z</published>
+    <updated>2022-09-19T07:48:30.951Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;调整图片大小&quot;&gt;1. 调整图片大小&lt;/h1&gt;&lt;p&gt;用markdown编写博客的时候，插入的图片无法调整大小，影响美观度。&lt;/p&gt;
-&lt;p&gt;我们可以使用&lt;code&gt;img&lt;/code&gt;标签插入图片。&lt;/p&gt;
-&lt;p&gt;格式如下：&lt;/p&gt;
-&lt;pre</summary>
+    <summary type="html">&lt;p&gt;在右侧&lt;code&gt;文档属性&lt;/code&gt;处修改屏幕尺寸等参数&lt;/p&gt;
+&lt;p&gt;点击顶部工具栏按钮&lt;code&gt;从sketch导入&lt;/code&gt;，导入要制作动效的页面素材。提前在sketch中选中要导入的画板，在弹出弹框中勾选&lt;code&gt;仅导入选定的画板&lt;/code&gt;。&lt;/p&gt;
+</summary>
         
       
     
@@ -599,9 +598,9 @@
     <category term="Hexo博客" scheme="https://pamarus.github.io/categories/Hexo%E5%8D%9A%E5%AE%A2/"/>
     
     
-    <category term="Hexo_Blog" scheme="https://pamarus.github.io/tags/Hexo-Blog/"/>
+    <category term="标签1" scheme="https://pamarus.github.io/tags/%E6%A0%87%E7%AD%BE1/"/>
     
-    <category term="Markdown" scheme="https://pamarus.github.io/tags/Markdown/"/>
+    <category term="标签2" scheme="https://pamarus.github.io/tags/%E6%A0%87%E7%AD%BE2/"/>
     
   </entry>
   
