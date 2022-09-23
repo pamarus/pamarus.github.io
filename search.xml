@@ -551,7 +551,7 @@
       <link href="/2020/07/11/flinto-01-ji-yu-ping-mu-de-jian-dan-guo-du-xiao-guo/"/>
       <url>/2020/07/11/flinto-01-ji-yu-ping-mu-de-jian-dan-guo-du-xiao-guo/</url>
       
-        <content type="html"><![CDATA[<p>在右侧<code>文档属性</code>处修改屏幕尺寸等参数</p><p>点击顶部工具栏按钮<code>从sketch导入</code>，导入要制作动效的页面素材。提前在sketch中选中要导入的画板，在弹出弹框中勾选<code>仅导入选定的画板</code>。</p><p>开始制作第一个动效</p><p>选择动效开始页面的图层，点击工具栏按钮<code>从所选图层开始链接</code>，拖动至动效结束页面。选择<code>操作手势</code>并点击<code>新建转场</code>。</p><p>在转场设计器中编辑转场效果。</p><p>默认选中了开始屏幕，此时开始屏幕时不可编辑的。可以编辑结束屏幕的元素，包括大小、位置、不透明度、旋转等等属性，而产生不一样的动态效果。</p><p>原理是开始屏幕默认向左滑走，设置结束屏幕元素的属性，假设起始位置属性为a，结束位置属性为b，动态效果即是开始屏幕隐藏，结束屏幕展示，页面效果即是结束屏幕中元素属性从a至b，由此产生的动态效果。</p><p>同理，如果选中结束屏幕，即可设置开始屏幕的元素属性，从而设计开始屏幕隐藏的动态效果。</p><p>具体效果，设置了如下效果，结束屏幕放大，置于开始屏幕下方，不透明度设为0%，那此时动态效果其实就是不透明度由0%至100%，同时屏幕缩小，从下至上展示出来。</p><p>按住<code>command</code>键，鼠标置于图层四角，可以出现旋转图标，此时可以将图层进行旋转操作。</p><p><img src="https://note.youdao.com/yws/api/personal/file/WEBfae616032a227a6169778ae7004eee46?method=download&amp;shareKey=ae7957d70bdceefb833950ec2bb6b44c"></p>]]></content>
+        <content type="html"><![CDATA[<p>在右侧<code>文档属性</code>处修改屏幕尺寸等参数</p><p>点击顶部工具栏按钮<code>从sketch导入</code>，导入要制作动效的页面素材。提前在sketch中选中要导入的画板，在弹出弹框中勾选<code>仅导入选定的画板</code>。</p><p>开始制作第一个动效</p><p>选择动效开始页面的图层，点击工具栏按钮<code>从所选图层开始链接</code>，拖动至动效结束页面。选择<code>操作手势</code>并点击<code>新建转场</code>。</p><p>在转场设计器中编辑转场效果。</p><p>默认选中了开始屏幕，此时开始屏幕时不可编辑的。可以编辑结束屏幕的元素，包括大小、位置、不透明度、旋转等等属性，而产生不一样的动态效果。</p><p>原理是开始屏幕默认向左滑走，设置结束屏幕元素的属性，假设起始位置属性为a，结束位置属性为b，动态效果即是开始屏幕隐藏，结束屏幕展示，页面效果即是结束屏幕中元素属性从a至b，由此产生的动态效果。</p><p>同理，如果选中结束屏幕，即可设置开始屏幕的元素属性，从而设计开始屏幕隐藏的动态效果。</p><p>具体效果，设置了如下效果，结束屏幕放大，置于开始屏幕下方，不透明度设为0%，那此时动态效果其实就是不透明度由0%至100%，同时屏幕缩小，从下至上展示出来。</p><p>按住<code>command</code>键，鼠标置于图层四角，可以出现旋转图标，此时可以将图层进行旋转操作。</p><p><img src="https://note.youdao.com/yws/api/personal/file/WEB5627044d3acfde510888ed0c869b1734?method=download&amp;shareKey=ed8b1787483b0f13487e0dea8c2a7feb"></p>]]></content>
       
       
       <categories>
@@ -1014,6 +1014,60 @@
             <tag> Hexo_Blog </tag>
             
             <tag> Markdown </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>AE学习记录（02）：项目面板</title>
+      <link href="/2019/07/12/ae-xue-xi-ji-lu-02-xiang-mu-mian-ban/"/>
+      <url>/2019/07/12/ae-xue-xi-ji-lu-02-xiang-mu-mian-ban/</url>
+      
+        <content type="html"><![CDATA[<p>AE界面由各个面板组成，可以自由组合，是高自由度的，根据设计师喜好不同，可自由选择。</p><h1 id="项目面板">1. 项目面板</h1><p>素材列表上方的区域展示所选中素材的详细信息。</p><h2 id="解释素材">1.1. 解释素材</h2><p>左下角<code>解释素材</code>，可以在使用素材前修改素材的部分属性，比如可以修改帧速率匹配为工程的帧速率。比如修改时间码，有些视频素材的时间码比较乱。</p><p><img src="https://note.youdao.com/yws/api/personal/file/WEB85ed523a8b026c4da02164ffd5bafb99?method=download&amp;shareKey=888415e5ecd564d4fa5affe5da716465"></p><p><img src="https://note.youdao.com/yws/api/personal/file/WEBdc7b617ff5af59dccb475e265ec7af2e?method=download&amp;shareKey=5b7a4b180cd685329d3097ad7619b9d7"></p><h2 id="新建文件夹">1.2. 新建文件夹</h2><p>如果有非常多的素材，可以使用文件夹进行分类管理。</p><h2 id="新建合成">1.3. 新建合成</h2><p>具体合成层是什么，在图层面板时讲解。</p><h2 id="项目设置">1.4. 项目设置</h2><p>加速方法、时间线样式等项目默认设置，一般使用默认即可，不需要调整。</p><h2 id="8bpc">1.5. 8bpc</h2><p>颜色深度，一般默认的8bpc即可。<br>图像会有一些颜色阶梯，因为色彩空间不足。如果对视频颜色显示高，可以将深度调高，则颜色阶梯越不明显，但是文件也会越大。</p><p>按住<code>option</code>，单击切换深度设置。</p><h2 id="删除">1.6. 删除</h2><p>选中素材，点击<code>delete</code>键也可以删除素材。</p><h2 id="导入素材">1.7. 导入素材</h2><p>本地文件夹选中素材拖入项目面板。</p><p>项目面板下方空白区域<code>右击 → 导入</code>，或者双击，则弹出选择文件弹框，选择要导入的文件或文件夹，确认即可。</p><h2 id="导入序列帧">1.8. 导入序列帧</h2><p>选择序列帧第一张，在选项中勾选<code>"ImporterJPEG序列"</code>，不勾选的话，导入的就是选中的第一张图片。</p><p>导入后，会将一系列静态图片串联起来，生成序列帧图。</p><p><img src="https://note.youdao.com/yws/api/personal/file/WEBc5c46cdf4b0ac44debcad69c8f7584c8?method=download&amp;shareKey=8080b34a145a7a2589f8414f7534fcfb"></p><p><img src="https://note.youdao.com/yws/api/personal/file/WEB187102441771e9b08ba96886801adca0?method=download&amp;shareKey=14f9fe591656b9301e9bd0067fc8b03f"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 视频剪辑 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 音视频剪辑 </tag>
+            
+            <tag> AE </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>AE学习记录（01）：工作流程初识</title>
+      <link href="/2019/07/12/ae-xue-xi-ji-lu-01-gong-zuo-liu-cheng-chu-shi/"/>
+      <url>/2019/07/12/ae-xue-xi-ji-lu-01-gong-zuo-liu-cheng-chu-shi/</url>
+      
+        <content type="html"><![CDATA[<p>通过原片视频上加文字水印来了解AE（Adobe After Effects）的工作流程。</p><p>原片导入到AE，在AE中进行制作编辑，制作后进行导出生成，以及进行工程文件的保存等。</p><p>将原片拖入左上角<code>项目面板</code>，将项目里文件拖拽入右上角预览界面或下方工作区域。</p><p>拖动右下角面板的指针，可以实时观看视频内容。</p><p><img src="https://note.youdao.com/yws/api/personal/file/WEBf9a50257466071e7679290c30e119ab4?method=download&amp;shareKey=279c9daa0e7f2719869c3b42fa5bb0ba"></p><h1 id="输入文字">1. 输入文字</h1><p>左上角工具栏点击<code>横排文字工具</code>，鼠标会变成文字工具样式，在视频页面点击一下，会出现一个竖线小图标，此时可以输入文字了。</p><p><img src="https://note.youdao.com/yws/api/personal/file/WEB3b9b8b2ee9bac1b72e7aee4938d9928d?method=download&amp;shareKey=fe774a949a38369a366e6d056f73b9d7"></p><p><img src="https://note.youdao.com/yws/api/personal/file/WEBbe7a678049ca0de3af961084a2de3307?method=download&amp;shareKey=c88f1f681ec1f9217bcee9f8fdff4601"></p><h1 id="移动文字">2. 移动文字</h1><p>工具栏点击<code>选取工具</code>，鼠标回到默认选择状态下，此时将位置拖到右下角。</p><p><img src="https://note.youdao.com/yws/api/personal/file/WEB1bf08b258f01cde89b6047912f0ac059?method=download&amp;shareKey=6ed23e8d9341d95dce66dbb09d7c76a2"></p><h1 id="放大缩小文字">3. 放大缩小文字</h1><p>选中文字，周边会出现红色锚点，点中锚点进行拖拽，就可以放大缩小了。按住<code>Shift键</code>，<code>等比例缩放</code>。</p><p>也可以在右侧字符面板设置文本的像素大小，从而控制文本大小。还可以设置字体等其他属性。</p><p><img src="https://note.youdao.com/yws/api/personal/file/WEB5d29805d2d69e7fafdc0ce5a03e11db6?method=download&amp;shareKey=38ef63b4ad5a7a0207cd4a23086b9fa0"></p><h1 id="设置文字半透明">4. 设置文字半透明</h1><p>左下角面板找到这个文本图层，文本图层的左侧有个小三角，点击展开可设置图层的更多属性。</p><p>点击<code>变换</code>左侧箭头展开，可设置<code>不透明度</code>属性值，可以在数值上拖动修改或者点击输入某一具体数值。</p><p><img src="https://note.youdao.com/yws/api/personal/file/WEBd9b861fc364b0730a5599003cbb7428d?method=download&amp;shareKey=e91e320cd547ae331ed7b0f06ea842ee"></p><h1 id="导出视频">5. 导出视频</h1><p>点击<code>文件菜单 → 导出 → 添加到渲染队列</code>，会在下方打开<code>渲染队列</code>面板，这个面板进行一些导出视频的设置。</p><p><img src="https://note.youdao.com/yws/api/personal/file/WEB7b9c1691a8d7c57d738a0716764e24e1?method=download&amp;shareKey=e59a5f52088be96f3e7a3ea8fc728132"></p><p>点击<code>输出到</code>后的文件名，弹出弹窗，设置文件保存路径和文件名。</p><p><img src="https://note.youdao.com/yws/api/personal/file/WEB1623e984f28e665b31556a247b98282a?method=download&amp;shareKey=af68d2601cec3d271e1a905038645c94"></p><p>点击<code>输出模块</code>后的<code>无损</code>，弹出<code>输出模块设置弹框</code>，可以下拉格式中选择输出的文件格式。</p><p><img src="https://note.youdao.com/yws/api/personal/file/WEB65bcfc456bc89a08a07b81a857cd42c6?method=download&amp;shareKey=2a23dd5f6f65a160a58a2bd2956101d1"></p><p>点击<code>格式选项</code>，选择视频编解码器为<code>GoProCineForm</code>。这是比较清晰文件比较小的。</p><p><img src="https://note.youdao.com/yws/api/personal/file/WEBf2043e8c3c04d34846ee3eab66db327d?method=download&amp;shareKey=244ec229fc87cf39a9485f4595adf5bd"></p><p>最后，点击右侧的<code>渲染</code>，等待完成即可。</p><h1 id="保存工程文件">6. 保存工程文件</h1><p><code>文件菜单 → 另存为 → 另存为...</code>，选择保存路径和设置工程名称，点击存储即可。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 视频剪辑 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 音视频剪辑 </tag>
+            
+            <tag> AE </tag>
             
         </tags>
       
