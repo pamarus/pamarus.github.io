@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Flinto,动效设计">
+    <meta name="keywords" content="生活日常,成长日记,安安">
     <meta name="description" content="Thinking Hacks">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>Flinto（01）：基于屏幕的简单过渡效果 | Pamarus</title>
+    <title>安安成长日记-2022年09月 | Pamarus</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -296,7 +296,7 @@
 <script src="/libs/cryptojs/crypto-js.min.js"></script>
 <script>
     (function() {
-        let pwd = '';
+        let pwd = '2a186fe05dd77a25326fb152945bef64b9d10aa729fd829ae283038cb16b666c';
         if (pwd && pwd.length > 0) {
             if (pwd !== CryptoJS.SHA256(prompt('你的通行证呢，点击此处输入试试噢🫣')).toString(CryptoJS.enc.Hex)) {
                 alert('通行证看着不太对，再试试噢🤔');
@@ -309,12 +309,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/Mac.png')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/%E5%B0%81%E9%9D%A2-%E5%AE%89%E5%AE%892022-09.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Flinto（01）：基于屏幕的简单过渡效果</h1>
+                    <h1 class="description center-align post-title">安安成长日记-2022年09月</h1>
                 </div>
             </div>
         </div>
@@ -430,12 +430,12 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/Flinto/">
-                                <span class="chip bg-color">Flinto</span>
+                            <a href="/tags/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/">
+                                <span class="chip bg-color">生活日常</span>
                             </a>
                         
-                            <a href="/tags/%E5%8A%A8%E6%95%88%E8%AE%BE%E8%AE%A1/">
-                                <span class="chip bg-color">动效设计</span>
+                            <a href="/tags/%E5%AE%89%E5%AE%89/">
+                                <span class="chip bg-color">安安</span>
                             </a>
                         
                     </div>
@@ -446,8 +446,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/%E5%8A%A8%E6%95%88%E8%AE%BE%E8%AE%A1/" class="post-category">
-                                动效设计
+                            <a href="/categories/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/" class="post-category">
+                                生活日常
                             </a>
                         
                     </div>
@@ -459,7 +459,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-07-11
+                    2022-09-08
                 </div>
                 
 
@@ -468,14 +468,14 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    424
+                    821
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    1 分
+                    2 分
                 </div>
                 
 
@@ -503,17 +503,68 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>在右侧<code>文档属性</code>处修改屏幕尺寸等参数</p>
-<p>点击顶部工具栏按钮<code>从sketch导入</code>，导入要制作动效的页面素材。提前在sketch中选中要导入的画板，在弹出弹框中勾选<code>仅导入选定的画板</code>。</p>
-<p>开始制作第一个动效</p>
-<p>选择动效开始页面的图层，点击工具栏按钮<code>从所选图层开始链接</code>，拖动至动效结束页面。选择<code>操作手势</code>并点击<code>新建转场</code>。</p>
-<p>在转场设计器中编辑转场效果。</p>
-<p>默认选中了开始屏幕，此时开始屏幕时不可编辑的。可以编辑结束屏幕的元素，包括大小、位置、不透明度、旋转等等属性，而产生不一样的动态效果。</p>
-<p>原理是开始屏幕默认向左滑走，设置结束屏幕元素的属性，假设起始位置属性为a，结束位置属性为b，动态效果即是开始屏幕隐藏，结束屏幕展示，页面效果即是结束屏幕中元素属性从a至b，由此产生的动态效果。</p>
-<p>同理，如果选中结束屏幕，即可设置开始屏幕的元素属性，从而设计开始屏幕隐藏的动态效果。</p>
-<p>具体效果，设置了如下效果，结束屏幕放大，置于开始屏幕下方，不透明度设为0%，那此时动态效果其实就是不透明度由0%至100%，同时屏幕缩小，从下至上展示出来。</p>
-<p>按住<code>command</code>键，鼠标置于图层四角，可以出现旋转图标，此时可以将图层进行旋转操作。</p>
-<p><img src="https://note.youdao.com/yws/api/personal/file/WEB5627044d3acfde510888ed0c869b1734?method=download&amp;shareKey=ed8b1787483b0f13487e0dea8c2a7feb"></p>
+                <h1 id="09-03">1. 09-03</h1><p>今天上午先去接外婆过来了，然后中午奶奶回家，回老家。<br><img src="https://note.youdao.com/yws/api/personal/file/WEB0dfb6f80ece9781f2e62ce475321e59d?method=download&amp;shareKey=932d7c539238cb2f392c4244638d85d8"></p>
+<h1 id="09-04">2. 09-04</h1><div style="width:100%;height:0px;position:relative;padding-bottom:56.327%;"><iframe src="https://streamja.com/embed/ae5Z2" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;"></iframe></div>
+
+<div style="width:100%;height:0px;position:relative;padding-bottom:56.327%;"><iframe src="https://streamja.com/embed/o7yaX" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;"></iframe></div>
+
+<div style="width:100%;height:0px;position:relative;padding-bottom:56.327%;"><iframe src="https://streamja.com/embed/Av2mr" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;"></iframe></div>
+
+<p>下午带安安出去洗澡了，第一次洗澡。安安一点儿都不怕，下水很勇敢，玩的很开心。</p>
+<p><img src="https://note.youdao.com/yws/api/personal/file/WEB28ba1828352b3a123862f05cf4b93069?method=download&amp;shareKey=afab1af43b645aeccd94381c9e8eab53"></p>
+<p>安安晚上不小心吃了点鸡蛋，希望没事。</p>
+<h1 id="09-05">3. 09-05</h1><p>肚子处有点疹子，估计是过敏了。晚上下班回家买了炉甘石洗剂，涂了希望好点。</p>
+<h1 id="09-06">4. 09-06</h1><p>观察了一天，疹子零星地多了一点，看来还是得去医院</p>
+<h1 id="09-07">5. 09-07</h1><p><img src="https://note.youdao.com/yws/api/personal/file/WEB2ef54f59802ccbe0c04bff5be41ab70b?method=download&amp;shareKey=3ee3588011abee2eae92109941f6b55d"><br>上午去医院看了，过敏，医生开了药，地奈德乳膏。</p>
+<h1 id="09-08">6. 09-08</h1><p>药膏蛮有效的，涂了就好了。</p>
+<p>她今天睡觉尿尿又侧漏了。</p>
+<p><img src="https://note.youdao.com/yws/api/personal/file/WEB975e17a623303a56e583cf523d02cd6f?method=download&amp;shareKey=ad2c0abcbecdc8704bc3a2d6ed85c0e0"><br>刚睡觉，妈妈推开门一看醒了趴着的，不知道是翻醒了，还是醒了就翻。</p>
+<h1 id="09-09">7. 09-09</h1><p>她今天尿两次到床上了，尿布老是往下滑，不知是抱着纸尿裤往下掉，还是自己动蹭的。</p>
+<p><img src="https://note.youdao.com/yws/api/personal/file/WEB12d5b3c4e29c6ea5dd884c831667473c?method=download&amp;shareKey=f7dba212641fd3f46ebded7f4563d05b"></p>
+<h1 id="09-10">8. 09-10</h1><div style="width:100%;height:0px;position:relative;padding-bottom:56.327%;"><iframe src="https://streamja.com/embed/PVM6Q" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;"></iframe></div>
+
+<p><img src="https://note.youdao.com/yws/api/personal/file/WEBc58e2fc7b1d5766cbdb4fe76b1fedd87?method=download&amp;shareKey=9a3117b2a73d3d53a8e2ac34ad982d7a"><br>今天开始奶瓶喂奶，最开始是坐在外婆腿上吃的。安安真乖，只是开始有点不习惯，吃了几次后吃的蛮顺了。</p>
+<div style="width:100%;height:0px;position:relative;padding-bottom:56.327%;"><iframe src="https://streamja.com/embed/LON0A" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;"></iframe></div>
+
+<div style="width:100%;height:0px;position:relative;padding-bottom:56.327%;"><iframe src="https://streamja.com/embed/V0MVR" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;"></iframe></div>
+
+<p>多种姿势奶瓶喝奶，最开始要妈妈坐在房间凳子上，坐在妈妈腿上吃。吃了几次后就都可以，习惯了。</p>
+<h1 id="09-12">9. 09-12</h1><p><img src="https://note.youdao.com/yws/api/personal/file/WEB95f6e9627afbe4a4779b70659361596e?method=download&amp;shareKey=e8fa40c3acf266d6f85f3f2b138b7721"><br>你看她们偷偷在干什么。</p>
+<div style="width:100%;height:0px;position:relative;padding-bottom:56.327%;"><iframe src="https://streamja.com/embed/yaqpm" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;"></iframe></div>
+
+<div style="width:100%;height:0px;position:relative;padding-bottom:56.327%;"><iframe src="https://streamja.com/embed/JKJOJ" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;"></iframe></div>
+
+<p>安安现在学会撕纸，可喜欢了，对声音越来越敏感，估计也喜欢塑料声。</p>
+<h1 id="09-14">10. 09-14</h1><p><img src="https://note.youdao.com/yws/api/personal/file/WEBc01f031f5cda39e6a41abe49cecfac3e?method=download&amp;shareKey=b149774f0bc85017b3bbdfac2f2aeba8"></p>
+<p>我出去了一下，翻过来趴着睡着了，还换了个姿势。刚还抬了下头，又趴下去睡着了</p>
+<p><img src="https://note.youdao.com/yws/api/personal/file/WEBaf877c53c5f2edd6168ff8b508d01ffc?method=download&amp;shareKey=a2a6bcfc94a7907a4e05e5c9d457ee7d"></p>
+<h1 id="09-15">11. 09-15</h1><div style="width:100%;height:0px;position:relative;padding-bottom:56.327%;"><iframe src="https://streamja.com/embed/N0Mq5" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;"></iframe></div>
+你看她把我衣服抓到了，一个劲地在玩
+
+<div style="width:100%;height:0px;position:relative;padding-bottom:56.327%;"><iframe src="https://streamja.com/embed/gw25z" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;"></iframe></div>
+妈吃饭看她笑呛到了，然后就像是点了她的笑穴一样，笑得嘎嘎的
+
+<h1 id="09-16">12. 09-16</h1><p><img src="https://note.youdao.com/yws/api/personal/file/WEB2a3fcc802c5b1c0465525f38785c7e83?method=download&amp;shareKey=16df894e8cd851c810073414ac89356e"><br>早上打疫苗，五联第三针</p>
+<h1 id="09-17">13. 09-17</h1><p><img src="https://note.youdao.com/yws/api/personal/file/WEB7ad4983c481ecebc4771300fd9fbeaa7?method=download&amp;shareKey=fdb2573eb0b6c993f803bfe4efe6bcdc"><br>推车出来玩。</p>
+<h1 id="09-18">14. 09-18</h1><div style="width:100%;height:0px;position:relative;padding-bottom:56.327%;"><iframe src="https://streamja.com/embed/v61Wq" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;"></iframe></div>
+剪指甲
+
+<div style="width:100%;height:0px;position:relative;padding-bottom:56.327%;"><iframe src="https://streamja.com/embed/92Nno" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;"></iframe></div>
+现在喜欢到处啃，抓到什么东西都要往嘴里塞。
+
+<p><img src="https://note.youdao.com/yws/api/personal/file/WEB4771249d6b3c7a44cc91b6028e396918?method=download&amp;shareKey=cb34d933435a9adbc0e00ffe43850af0"><br>周末放假，一起出来玩。</p>
+<h1 id="09-19">15. 09-19</h1><p><img src="https://note.youdao.com/yws/api/personal/file/WEB9c70217fa4df9c39341cb2ca20698a68?method=download&amp;shareKey=4fef0b6e31a499160bebbf9d877d4e99"></p>
+<p><img src="https://note.youdao.com/yws/api/personal/file/WEB913c4bb4f47da9ac721946c1ac5dee2c?method=download&amp;shareKey=4a18f0a5acee639898d1ac6140c59f5f"><br>晚上又趴过来了，趴着睡可香了。</p>
+<h1 id="09-20">16. 09-20</h1><p>晚上一哄她睡觉就哭，兴奋的不行，一放下就翻身</p>
+<h1 id="09-21">17. 09-21</h1><p><img src="https://note.youdao.com/yws/api/personal/file/WEB5e89e36b5312e4ffb38f397458a3e81a?method=download&amp;shareKey=f3ed85a9a1d27c2de65ba318e2acd20b"><br>睡着了还在嘬口水。</p>
+<h1 id="09-23">18. 09-23</h1><p>笑死我了，她在家一直哼哼唧唧，我在吸奶，妈搞不过，就抱着出门，把门一推开她就好了</p>
+<h1 id="09-24">19. 09-24</h1><p><img src="https://note.youdao.com/yws/api/personal/file/WEBe1e74e91c8bae49d5a818ed77b31b5b1?method=download&amp;shareKey=6fd7124e37da864d8c0600f01cd515e4"></p>
+<p>上午到儿童医学中心体检，第一次来，但是因为系统问题，医保卡不能使用，自费卡预约的时间是下午了，所以没有体检，注册了医保卡就回来了。一上午没睡觉，在车上安全座椅上睡着了。</p>
+<p><img src="https://note.youdao.com/yws/api/personal/file/WEBe3349bbfbbdceef421775dc184a54c27?method=download&amp;shareKey=083cabe6ac6111fd1e05ec0d596d2242"><br>给安安拍了一张屁股胎记的照片，拍的不是很清楚，好像比刚出生时要淡了，以后是不是会消失。</p>
+<h1 id="09-26">20. 09-26</h1><p><img src="https://note.youdao.com/yws/api/personal/file/WEB85b01d30e4329ce5b00143e6990a3eb1?method=download&amp;shareKey=01e3aeb3ef7820f9d676824c39407c5d"><br>没有完全趴过来，出去拿了个吸奶器就成这样了</p>
+<h1 id="09-28">21. 09-28</h1><p>这几天睡觉很不乖，晚上到很晚，放到床上就哭，也不知道怎么回事</p>
+<h1 id="09-29">22. 09-29</h1><p><img src="https://note.youdao.com/yws/api/personal/file/WEB94e8d1636b8b8c1f0718f6935adffedc?method=download&amp;shareKey=e896808b999811fe473319409b391f4d"></p>
+<p>安安可以坐起来了，餐椅靠背角度调了一点。<br>刚把她放恐龙小沙发上坐了一会，可以坐起来了，就是头老往前够。</p>
 
                 
             </div>
@@ -540,7 +591,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://pamarus.github.io/2020/07/11/flinto-01-ji-yu-ping-mu-de-jian-dan-guo-du-xiao-guo/">https://pamarus.github.io/2020/07/11/flinto-01-ji-yu-ping-mu-de-jian-dan-guo-du-xiao-guo/</a>
+                    <a href="https://pamarus.github.io/2022/09/08/an-an-cheng-chang-ri-ji-2022-nian-09-yue/">https://pamarus.github.io/2022/09/08/an-an-cheng-chang-ri-ji-2022-nian-09-yue/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -578,12 +629,12 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/Flinto/">
-                                    <span class="chip bg-color">Flinto</span>
+                                <a href="/tags/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/">
+                                    <span class="chip bg-color">生活日常</span>
                                 </a>
                             
-                                <a href="/tags/%E5%8A%A8%E6%95%88%E8%AE%BE%E8%AE%A1/">
-                                    <span class="chip bg-color">动效设计</span>
+                                <a href="/tags/%E5%AE%89%E5%AE%89/">
+                                    <span class="chip bg-color">安安</span>
                                 </a>
                             
                         </div>
@@ -1020,90 +1071,30 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2020/07/11/ps-shi-yong-ye-hua-lu-jing-shou-lian/">
+                <a href="/2022/09/12/geng-xin-ssh-key-ge-shi-wei-ed25519/">
                     <div class="card-image">
                         
-                        <img src="/medias/featureimages/PS.png" class="responsive-img" alt="PS使用液化滤镜瘦脸">
+                        <img src="/medias/featureimages/Hexo.png" class="responsive-img" alt="更新SSH key格式为ed25519">
                         
-                        <span class="card-title">PS使用液化滤镜瘦脸</span>
+                        <span class="card-title">更新SSH key格式为ed25519</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            使用液化滤镜瘦脸
+                            更新SSH Key最新格式ed25519
                         
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-07-11
+                            <i class="far fa-clock fa-fw icon-date"></i>2022-09-12
                         </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/%E8%A7%86%E8%A7%89%E8%AE%BE%E8%AE%A1/" class="post-category">
-                                    视觉设计
-                                </a>
-                            
-                            
-                        </span>
-                    </div>
-                </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/PS/">
-                        <span class="chip bg-color">PS</span>
-                    </a>
-                    
-                    <a href="/tags/%E7%98%A6%E8%84%B8/">
-                        <span class="chip bg-color">瘦脸</span>
-                    </a>
-                    
-                    <a href="/tags/%E6%B6%B2%E5%8C%96%E6%BB%A4%E9%95%9C/">
-                        <span class="chip bg-color">液化滤镜</span>
-                    </a>
-                    
-                    <a href="/tags/%E8%A7%86%E8%A7%89%E8%AE%BE%E8%AE%A1/">
-                        <span class="chip bg-color">视觉设计</span>
-                    </a>
-                    
-                </div>
-                
-            </div>
-        </div>
-        
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">
-                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
-            </div>
-            <div class="card">
-                <a href="/2020/06/15/markdown-3-tu-pian-yang-shi-you-hua-mei-hua/">
-                    <div class="card-image">
-                        
-                        <img src="/medias/featureimages/Markdown.png" class="responsive-img" alt="Markdown（3）：图片样式优化美化">
-                        
-                        <span class="card-title">Markdown（3）：图片样式优化美化</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary block-with-text">
-                        
-                            Md中编辑图片样式
-                        
-                    </div>
-                    <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-06-15
-                            </span>
-                        <span class="publish-author">
-                            
-                            <i class="fas fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/Hexo%E5%8D%9A%E5%AE%A2/" class="post-category">
-                                    Hexo博客
+                            <a href="/categories/%E6%95%99%E7%A8%8B/" class="post-category">
+                                    教程
                                 </a>
                             
                             
@@ -1117,8 +1108,64 @@
                         <span class="chip bg-color">Hexo_Blog</span>
                     </a>
                     
-                    <a href="/tags/Markdown/">
-                        <span class="chip bg-color">Markdown</span>
+                    <a href="/tags/GitHub/">
+                        <span class="chip bg-color">GitHub</span>
+                    </a>
+                    
+                    <a href="/tags/SSH%E9%AA%8C%E8%AF%81/">
+                        <span class="chip bg-color">SSH验证</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/2022/09/07/mac-xi-tong-ru-he-cha-kan-tu-pian-de-dpi-deng-can-shu/">
+                    <div class="card-image">
+                        
+                        <img src="/medias/featureimages/Mac.png" class="responsive-img" alt="Mac系统如何查看图片的DPI等参数">
+                        
+                        <span class="card-title">Mac系统如何查看图片的DPI等参数</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            Mac系统查看图片DPI参数
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-09-07
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E6%95%99%E7%A8%8B/" class="post-category">
+                                    教程
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/macOS/">
+                        <span class="chip bg-color">macOS</span>
+                    </a>
+                    
+                    <a href="/tags/DPI/">
+                        <span class="chip bg-color">DPI</span>
                     </a>
                     
                 </div>
