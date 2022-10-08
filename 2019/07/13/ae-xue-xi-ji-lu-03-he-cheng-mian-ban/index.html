@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Flinto,动效设计">
+    <meta name="keywords" content="AE,音视频剪辑,合成面板">
     <meta name="description" content="Thinking Hacks">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>Flinto（01）：基于屏幕的简单过渡效果 | Pamarus</title>
+    <title>AE学习记录（03）：合成面板 | Pamarus</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -309,12 +309,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/Mac.png')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/AE.png')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Flinto（01）：基于屏幕的简单过渡效果</h1>
+                    <h1 class="description center-align post-title">AE学习记录（03）：合成面板</h1>
                 </div>
             </div>
         </div>
@@ -430,12 +430,16 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/Flinto/">
-                                <span class="chip bg-color">Flinto</span>
+                            <a href="/tags/%E9%9F%B3%E8%A7%86%E9%A2%91%E5%89%AA%E8%BE%91/">
+                                <span class="chip bg-color">音视频剪辑</span>
                             </a>
                         
-                            <a href="/tags/%E5%8A%A8%E6%95%88%E8%AE%BE%E8%AE%A1/">
-                                <span class="chip bg-color">动效设计</span>
+                            <a href="/tags/AE/">
+                                <span class="chip bg-color">AE</span>
+                            </a>
+                        
+                            <a href="/tags/%E5%90%88%E6%88%90%E9%9D%A2%E6%9D%BF/">
+                                <span class="chip bg-color">合成面板</span>
                             </a>
                         
                     </div>
@@ -446,8 +450,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/%E5%8A%A8%E6%95%88%E8%AE%BE%E8%AE%A1/" class="post-category">
-                                动效设计
+                            <a href="/categories/%E8%A7%86%E9%A2%91%E5%89%AA%E8%BE%91/" class="post-category">
+                                视频剪辑
                             </a>
                         
                     </div>
@@ -459,7 +463,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-07-11
+                    2019-07-13
                 </div>
                 
 
@@ -468,14 +472,14 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    424
+                    1.4k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    1 分
+                    4 分
                 </div>
                 
 
@@ -503,17 +507,67 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>在右侧<code>文档属性</code>处修改屏幕尺寸等参数</p>
-<p>点击顶部工具栏按钮<code>从sketch导入</code>，导入要制作动效的页面素材。提前在sketch中选中要导入的画板，在弹出弹框中勾选<code>仅导入选定的画板</code>。</p>
-<p>开始制作第一个动效</p>
-<p>选择动效开始页面的图层，点击工具栏按钮<code>从所选图层开始链接</code>，拖动至动效结束页面。选择<code>操作手势</code>并点击<code>新建转场</code>。</p>
-<p>在转场设计器中编辑转场效果。</p>
-<p>默认选中了开始屏幕，此时开始屏幕时不可编辑的。可以编辑结束屏幕的元素，包括大小、位置、不透明度、旋转等等属性，而产生不一样的动态效果。</p>
-<p>原理是开始屏幕默认向左滑走，设置结束屏幕元素的属性，假设起始位置属性为a，结束位置属性为b，动态效果即是开始屏幕隐藏，结束屏幕展示，页面效果即是结束屏幕中元素属性从a至b，由此产生的动态效果。</p>
-<p>同理，如果选中结束屏幕，即可设置开始屏幕的元素属性，从而设计开始屏幕隐藏的动态效果。</p>
-<p>具体效果，设置了如下效果，结束屏幕放大，置于开始屏幕下方，不透明度设为0%，那此时动态效果其实就是不透明度由0%至100%，同时屏幕缩小，从下至上展示出来。</p>
-<p>按住<code>command</code>键，鼠标置于图层四角，可以出现旋转图标，此时可以将图层进行旋转操作。</p>
-<p><img src="https://note.youdao.com/yws/api/personal/file/WEB5627044d3acfde510888ed0c869b1734?method=download&amp;shareKey=ed8b1787483b0f13487e0dea8c2a7feb"></p>
+                <p>合成面板区域可以观看合成的画面效果，相当于AE的监视器面板。</p>
+<h1 id="新建合成">1. 新建合成</h1><p>相当于新建一个空画框，在里面可以插入不同的素材图层。</p>
+<h1 id="从素材新建合成">2. 从素材新建合成</h1><p>将项目面板的素材拖入合成面板，自动生成包含此素材的合成，且帧速率等参数和素材一致。</p>
+<p>点击右侧的<code>从素材新建合成</code>，弹出选择素材弹框，选择素材，生成合成。</p>
+<p><img src="https://note.youdao.com/yws/api/personal/file/WEB27d217e6497c18a5bf0568f72c7b4a30?method=download&amp;shareKey=a25fb5222ca94a1bc6bb9a8b246208df"></p>
+<h1 id="素材面板">3. 素材面板</h1><p>合成面板右侧有个素材面板，双击左侧素材，右侧素材面板即可展示此素材，素材下方有个时间轴，可以拖动预览素材。</p>
+<p>素材面板下方按钮比合成面板少一些，但是多个时间轴。</p>
+<p>素材面板可以对素材进行一定的编辑。</p>
+<p>拖动时间轴，点击时间轴下方的<code>将入点设置为当前时间</code>，其范围就缩短至当前时间指示器位置。</p>
+<p><img src="https://note.youdao.com/yws/api/personal/file/WEB92980a473a6e86a5a4916c5b376b38e8?method=download&amp;shareKey=bc49c175da17bdd1eeadc1e56090a31e"></p>
+<p><img src="https://note.youdao.com/yws/api/personal/file/WEBeac54078f755238c3ad27712074744e9?method=download&amp;shareKey=681f0a0d37d8d3dc2311de2dfd0d8ba0"></p>
+<p>再拖动时间轴，点击<code>将出点设置为当前时间</code>，则视频结束点到此位置为止。这样就选择了某一片段。</p>
+<p>点击右侧按钮<code>叠加编辑</code>，则将这一片段叠加覆盖原视频，叠加位置是合成面板当前时间指示器位置。</p>
+<p><img src="https://note.youdao.com/yws/api/personal/file/WEB1beeb766395e8740c68ea593fd26a145?method=download&amp;shareKey=8aede001793d7465db48d8a61e79a2e1"></p>
+<p><code>波纹插入编辑</code>，则在当前时间指示器位置截断原视频，并插入片段。</p>
+<p><img src="https://note.youdao.com/yws/api/personal/file/WEBf397abe098de1fe11d1986764a78552e?method=download&amp;shareKey=9d2cd28eceb66f5244d4e078082edfae"></p>
+<blockquote>
+<p>注：素材面板使用完之后记得切换到合成面板，再进行正式视频的编辑。素材面板只是进行素材的预览观看、选择、插入等。</p>
+</blockquote>
+<h1 id="放大率弹出式菜单">4. 放大率弹出式菜单</h1><p><img src="https://note.youdao.com/yws/api/personal/file/WEBfd8961901b2c5ba87723fc5759abf030?method=download&amp;shareKey=794023e2ef1428530f49fdbbdb104fb1"></p>
+<p>设置面板中视频画面预览的大小，面板观看的范围。</p>
+<p>100%：真实尺寸大小</p>
+<p>按住<code>空格键</code>，鼠标指针变为手型，此时可以拖动视频画面进行预览。</p>
+<p>适合：视频画面按照面板最大范围展示，以高度适配，上下顶边。随着面板大小变化而变化，始终可以看到全部画面大小。</p>
+<h1 id="选择网格和参考线选项">5. 选择网格和参考线选项</h1><p><img src="https://note.youdao.com/yws/api/personal/file/WEBd62084a0c780826acee4b8e95a7fe6f4?method=download&amp;shareKey=a11a60771107e179c3e5b51938dc2418"></p>
+<h2 id="标题-x2F-动作安全框">5.1. 标题/动作安全框</h2><p><img src="https://note.youdao.com/yws/api/personal/file/WEB31a14e38a61038b78624b5a6d1876065?method=download&amp;shareKey=86b3c0a9bdf3ce6b7c580ea640ac9b6e"></p>
+<p>动效最好不要超过最外围框，可能在一些电视台播放等场景中被裁切。</p>
+<h2 id="对称网格">5.2. 对称网格</h2><p><img src="https://note.youdao.com/yws/api/personal/file/WEBa47d89a8f6405a3f71bd349c53480649?method=download&amp;shareKey=a1f92e4e73cbb7920b61d775928de93c"></p>
+<p>页面元素放在什么位置，可以打开<code>对称网格</code>，作为参考。</p>
+<h2 id="网格">5.3. 网格</h2><p><img src="https://note.youdao.com/yws/api/personal/file/WEB1399b396554fe0dc7c2baa9597fdd923?method=download&amp;shareKey=4c7c42ffecdf706559a4ab7bfbcb5a11"></p>
+<p>比对称网格更加小更加细化的格子。</p>
+<p>快捷键<code>command+双引号键"</code>，显示隐藏参考线</p>
+<h2 id="标尺">5.4. 标尺</h2><h3 id="方便固定元素">5.4.1. 方便固定元素</h3><p>如果想要在固定位置添加元素，或者对齐某元素，可以使用标尺和参考线。<br>鼠标移动到标尺位置，按住可以拖动出参考线，文字、形状图层等可以贴近参考线，并吸附。</p>
+<p><img src="https://note.youdao.com/yws/api/personal/file/WEB54c94eaa4710f5d78a6ed7bdb7167831?method=download&amp;shareKey=79a74dffe9b081ae3999373da8c21fbc"></p>
+<h3 id="修改参考线颜色">5.4.2. 修改参考线颜色</h3><p><code>首选项 → 网格和参考线...</code>，可以修改网格和参考线颜色。</p>
+<h3 id="编辑坐标">5.4.3. 编辑坐标</h3><p>拉出一条参考线，如果想定位到中心点，</p>
+<p>选中参考线，右击，出现<code>编辑位置</code>按钮，可以编辑参考线坐标，这样可以方便将参考线定位到中心点。</p>
+<p><img src="https://note.youdao.com/yws/api/personal/file/WEB05e92240f926102bdfa6e4c3eb442464?method=download&amp;shareKey=37d642130180bd3fad90643e108104d9" alt="右击"></p>
+<p><img src="https://note.youdao.com/yws/api/personal/file/WEBe2976a93049509da1e959c36044f8df1?method=download&amp;shareKey=d61607bda2c2a1bbf4168125394d16ad" alt="编辑值弹框"></p>
+<p>快捷键<code>command+冒号键:</code>，显示隐藏参考线</p>
+<h1 id="切换蒙版和形状路径可见性">6. 切换蒙版和形状路径可见性</h1><p>点亮这个按钮，锚点可点击，可编辑蒙版的大小和形状。不点亮这个按钮，则蒙版的锚点不可选择不可点。</p>
+<p><img src="https://note.youdao.com/yws/api/personal/file/WEBed3fb3fbaa61d6539cd481d8ab81a9ba?method=download&amp;shareKey=4593db800438ccf5e6d87f3b9a1ffa7a"></p>
+<h1 id="预览时间（单击可更改当前时间）">7. 预览时间（单击可更改当前时间）</h1><p>实时显示时间指示器所在时间点。单击弹出“转到时间”框，可修改想跳转的精确地时间点。</p>
+<p><img src="https://note.youdao.com/yws/api/personal/file/WEBe2f32aedc505e20626a6b59b059e32cb?method=download&amp;shareKey=360fc8c6071d13d28402f3780a4fceee"></p>
+<h1 id="拍摄快照">8. 拍摄快照</h1><p>做了一个效果后，可以点击<code>拍摄快照</code>，拍摄下此效果界面。此时关闭效果，按住松开右侧的<code>显示快照</code>按钮，即可对比前后效果。</p>
+<h1 id="显示通道及色彩管理设置">9. 显示通道及色彩管理设置</h1><h2 id="查看颜色通道的信息">9.1. 查看颜色通道的信息</h2><p><img src="https://note.youdao.com/yws/api/personal/file/WEBe1b7e73d9a4ecedb94800b04d34d5c6f?method=download&amp;shareKey=c814ee1194023daaccc1c63f987dc995" alt="原图"></p>
+<p>比如选择红色，图中色环会以黑白显示，越白的地方红色最多。</p>
+<p><img src="https://note.youdao.com/yws/api/personal/file/WEB2672bc2ef84904dbeaae6af2c2e140cc?method=download&amp;shareKey=3d03c88a27cb6559686bfc1cac28ff33" alt="红色通道"></p>
+<h2 id="Alpha通道">9.2. Alpha通道</h2><p><img src="https://note.youdao.com/yws/api/personal/file/WEB2a717ad618775681150a002df22e25ea?method=download&amp;shareKey=2b4402a5e7293a9ae1504f1369d0ee17" alt="原图"></p>
+<p>选择显示Alpha通道，黑色的表示透明的，为0。白色的标识不透明，为1。</p>
+<p><img src="https://note.youdao.com/yws/api/personal/file/WEB87473daf0943d0f8e64964a4dbbd6a1a?method=download&amp;shareKey=cda5e1251e8d7dad02e883c10acb19a8" alt="显示Alpha通道"></p>
+<h1 id="分辨率">10. 分辨率</h1><p>可以设置预览的分辨率大小。比较卡时，可以选择二分之一、三分之一或四分之一，可以提高流畅度</p>
+<h1 id="目标区域">11. 目标区域</h1><p>比如只想修改某文字，不想渲染其他区域，则可以使用<code>目标区域</code>按钮，单独将一区域框起来，则只需渲染这一区域内容。最后想看整体效果，点击一下关闭即可。</p>
+<h1 id="切换透明网格">12. 切换透明网格</h1><p>开启透明网格，则可以看出哪些元素是透明的，透明的元素下方显示的是黑白交间的小网格。关闭透明网格，下方显示黑色，看不出哪些元素是透明的。<br>比如文字，透明的可以叠加，比如左侧数字。不透明的则会遮住下方内容，比如右侧数字。</p>
+<p><img src="https://note.youdao.com/yws/api/personal/file/WEB038a2112848044053b08cc4aafadffd7?method=download&amp;shareKey=7d476f27eae42ffe68eeb199e322d99d"></p>
+<h1 id="活动摄像机">13. 活动摄像机</h1><p>做一些3D效果，更多应用在三维空间里。</p>
+<h1 id="切换像素长宽比校正">14. 切换像素长宽比校正</h1><p>用在一些老视频上，像素长宽比不是1:1的情况。</p>
+<h1 id="快速预览">15. 快速预览</h1><p>提升渲染及预览速度。</p>
+<h1 id="时间轴">16. 时间轴</h1><p>合成面板中有多个合层时，且合成面板有多个合成查看器，则点击跳转至想看的合成。</p>
+<h1 id="合成流程图">17. 合成流程图</h1><p>用处不大，查看合成的流程步骤。</p>
+<h1 id="重置-x2F-调整曝光度">18. 重置/调整曝光度</h1><p>某一处比较暗，可以调整曝光度查看，但不影响实际效果，仅查看效果变化。</p>
 
                 
             </div>
@@ -540,7 +594,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://pamarus.github.io/2020/07/11/flinto-01-ji-yu-ping-mu-de-jian-dan-guo-du-xiao-guo/">https://pamarus.github.io/2020/07/11/flinto-01-ji-yu-ping-mu-de-jian-dan-guo-du-xiao-guo/</a>
+                    <a href="https://pamarus.github.io/2019/07/13/ae-xue-xi-ji-lu-03-he-cheng-mian-ban/">https://pamarus.github.io/2019/07/13/ae-xue-xi-ji-lu-03-he-cheng-mian-ban/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -578,12 +632,16 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/Flinto/">
-                                    <span class="chip bg-color">Flinto</span>
+                                <a href="/tags/%E9%9F%B3%E8%A7%86%E9%A2%91%E5%89%AA%E8%BE%91/">
+                                    <span class="chip bg-color">音视频剪辑</span>
                                 </a>
                             
-                                <a href="/tags/%E5%8A%A8%E6%95%88%E8%AE%BE%E8%AE%A1/">
-                                    <span class="chip bg-color">动效设计</span>
+                                <a href="/tags/AE/">
+                                    <span class="chip bg-color">AE</span>
+                                </a>
+                            
+                                <a href="/tags/%E5%90%88%E6%88%90%E9%9D%A2%E6%9D%BF/">
+                                    <span class="chip bg-color">合成面板</span>
                                 </a>
                             
                         </div>
@@ -1020,84 +1078,24 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2020/07/11/ps-shi-yong-ye-hua-lu-jing-shou-lian/">
+                <a href="/2020/05/03/markdown-1-ji-chu-yu-fa-xue-xi-ji-kuai-su-ru-men/">
                     <div class="card-image">
                         
-                        <img src="/medias/featureimages/PS.png" class="responsive-img" alt="PS使用液化滤镜瘦脸">
+                        <img src="/medias/featureimages/Markdown.png" class="responsive-img" alt="Markdown（1）：基础语法学习及快速入门">
                         
-                        <span class="card-title">PS使用液化滤镜瘦脸</span>
+                        <span class="card-title">Markdown（1）：基础语法学习及快速入门</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            使用液化滤镜瘦脸
+                            Md语法编写
                         
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-07-11
+                            <i class="far fa-clock fa-fw icon-date"></i>2020-05-03
                         </span>
-                        <span class="publish-author">
-                            
-                            <i class="fas fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/%E8%A7%86%E8%A7%89%E8%AE%BE%E8%AE%A1/" class="post-category">
-                                    视觉设计
-                                </a>
-                            
-                            
-                        </span>
-                    </div>
-                </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/PS/">
-                        <span class="chip bg-color">PS</span>
-                    </a>
-                    
-                    <a href="/tags/%E7%98%A6%E8%84%B8/">
-                        <span class="chip bg-color">瘦脸</span>
-                    </a>
-                    
-                    <a href="/tags/%E6%B6%B2%E5%8C%96%E6%BB%A4%E9%95%9C/">
-                        <span class="chip bg-color">液化滤镜</span>
-                    </a>
-                    
-                    <a href="/tags/%E8%A7%86%E8%A7%89%E8%AE%BE%E8%AE%A1/">
-                        <span class="chip bg-color">视觉设计</span>
-                    </a>
-                    
-                </div>
-                
-            </div>
-        </div>
-        
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">
-                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
-            </div>
-            <div class="card">
-                <a href="/2020/06/15/markdown-3-tu-pian-yang-shi-you-hua-mei-hua/">
-                    <div class="card-image">
-                        
-                        <img src="/medias/featureimages/Markdown.png" class="responsive-img" alt="Markdown（3）：图片样式优化美化">
-                        
-                        <span class="card-title">Markdown（3）：图片样式优化美化</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary block-with-text">
-                        
-                            Md中编辑图片样式
-                        
-                    </div>
-                    <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-06-15
-                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
@@ -1119,6 +1117,62 @@
                     
                     <a href="/tags/Markdown/">
                         <span class="chip bg-color">Markdown</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/2019/07/12/ae-xue-xi-ji-lu-02-xiang-mu-mian-ban/">
+                    <div class="card-image">
+                        
+                        <img src="/medias/featureimages/AE.png" class="responsive-img" alt="AE学习记录（02）：项目面板">
+                        
+                        <span class="card-title">AE学习记录（02）：项目面板</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            AE的项目面板介绍
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2019-07-12
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E8%A7%86%E9%A2%91%E5%89%AA%E8%BE%91/" class="post-category">
+                                    视频剪辑
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/%E9%9F%B3%E8%A7%86%E9%A2%91%E5%89%AA%E8%BE%91/">
+                        <span class="chip bg-color">音视频剪辑</span>
+                    </a>
+                    
+                    <a href="/tags/AE/">
+                        <span class="chip bg-color">AE</span>
+                    </a>
+                    
+                    <a href="/tags/%E9%A1%B9%E7%9B%AE%E9%9D%A2%E6%9D%BF/">
+                        <span class="chip bg-color">项目面板</span>
                     </a>
                     
                 </div>
@@ -1365,7 +1419,7 @@
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">41.4k</span>&nbsp;字
+                class="white-color">42.5k</span>&nbsp;字
             
             
             

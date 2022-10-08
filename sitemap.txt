@@ -1,8 +1,8 @@
+https://pamarus.github.io/2019/07/13/ae-xue-xi-ji-lu-03-he-cheng-mian-ban/
 https://pamarus.github.io/2022/09/08/an-an-cheng-chang-ri-ji-2022-nian-09-yue/
 https://pamarus.github.io/2022/08/08/an-an-cheng-chang-ri-ji-2022-nian-08-yue/
 https://pamarus.github.io/2019/07/12/ae-xue-xi-ji-lu-02-xiang-mu-mian-ban/
 https://pamarus.github.io/2019/07/12/ae-xue-xi-ji-lu-01-gong-zuo-liu-cheng-chu-shi/
-https://pamarus.github.io/2020/07/11/flinto-01-ji-yu-ping-mu-de-jian-dan-guo-du-xiao-guo/
 https://pamarus.github.io/2022/09/07/mac-xi-tong-ru-he-cha-kan-tu-pian-de-dpi-deng-can-shu/
 https://pamarus.github.io/2019/05/26/pr-yu-lan-shi-diao-jie-bo-fang-su-du/
 https://pamarus.github.io/2019/05/26/pr-shi-yong-qu-xiao-lian-jie-gong-neng-fen-chi-yin-pin/
@@ -86,13 +86,12 @@ https://pamarus.github.io/tags/%E5%89%83%E5%88%80/
 https://pamarus.github.io/tags/%E8%A7%86%E8%A7%89%E8%AE%BE%E8%AE%A1/
 https://pamarus.github.io/tags/%E5%88%86%E7%A6%BB%E9%9F%B3%E9%A2%91/
 https://pamarus.github.io/tags/%E8%B0%83%E8%8A%82%E6%92%AD%E6%94%BE%E9%80%9F%E5%BA%A6/
-https://pamarus.github.io/tags/Flinto/
-https://pamarus.github.io/tags/%E5%8A%A8%E6%95%88%E8%AE%BE%E8%AE%A1/
 https://pamarus.github.io/tags/AE/
+https://pamarus.github.io/tags/%E5%90%88%E6%88%90%E9%9D%A2%E6%9D%BF/
+https://pamarus.github.io/tags/%E9%A1%B9%E7%9B%AE%E9%9D%A2%E6%9D%BF/
 https://pamarus.github.io/categories/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/
 https://pamarus.github.io/categories/Hexo%E5%8D%9A%E5%AE%A2/
 https://pamarus.github.io/categories/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/
 https://pamarus.github.io/categories/%E6%95%99%E7%A8%8B/
 https://pamarus.github.io/categories/%E8%A7%86%E8%A7%89%E8%AE%BE%E8%AE%A1/
 https://pamarus.github.io/categories/%E8%A7%86%E9%A2%91%E5%89%AA%E8%BE%91/
-https://pamarus.github.io/categories/%E5%8A%A8%E6%95%88%E8%AE%BE%E8%AE%A1/
