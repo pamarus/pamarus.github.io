@@ -1022,6 +1022,35 @@
     
     
     <entry>
+      <title>AE学习记录（05）：工具面板</title>
+      <link href="/2019/07/17/ae-xue-xi-ji-lu-05-gong-ju-mian-ban/"/>
+      <url>/2019/07/17/ae-xue-xi-ji-lu-05-gong-ju-mian-ban/</url>
+      
+        <content type="html"><![CDATA[<p>AE界面顶部的工具栏。<br>大部分是在合成面板上对视频进行操作的工具。</p><h1 id="主页">1. 主页</h1><p>点击打开AE开启时弹出的欢迎界面。</p><h1 id="位移缩放工具">2. 位移缩放工具</h1><h2 id="选取工具">2.1. 选取工具</h2><p>选择图层。</p><p>快捷键<code>V</code></p><h2 id="手形工具">2.2. 手形工具</h2><p>按住空格键，鼠标指针变为手形状，此时可以拖动上下左右移动合成面板。</p><p>快捷键<code>H</code></p><h2 id="缩放工具">2.3. 缩放工具</h2><p>快捷键<code>Z</code></p><p>按住<code>option键</code>，触控板上下移动放大缩小。或者鼠标滚轮滚动放大缩小。</p><blockquote><p>鼠标左键按住不动，拖动选择框，选择某一部分放大查看细节。</p></blockquote><h1 id="方向控制功能">3. 方向控制功能</h1><h2 id="旋转工具">3.1. 旋转工具</h2><p>以<code>锚点位置</code>（默认是合成面板中心点）为中心进行左右旋转。</p><h2 id="摄像机工具">3.2. 摄像机工具</h2><p>默认无法点击。<br>首先将图层设置为3D图层，打开图层面板上<code>3D图层</code>开关，或者<code>右击图层 → 右键菜单选择3D图层</code>。</p><p><img src="https://note.youdao.com/yws/api/personal/file/WEB6e413606e875013ddf206d80340c77ba?method=download&amp;shareKey=b08f37fb21390b69f2a7a1dd0501eb3c"></p><p><img src="https://note.youdao.com/yws/api/personal/file/WEBc463b23167894d3828dbaba6db085531?method=download&amp;shareKey=7916f87fe902f5419b4e957ffdc10208"></p><p>再在图层面板空白处<code>右击 → 新建 → 摄像机...</code>，新建个摄像机图层。</p><p><img src="https://note.youdao.com/yws/api/personal/file/WEB6d026f46cb9b1fc981affbc7f80db156?method=download&amp;shareKey=f78b09e72f876cbbb45451c80a95c311"></p><p><img src="https://note.youdao.com/yws/api/personal/file/WEB28b37524ca487336d7ca1c174cf36e61?method=download&amp;shareKey=4e99cd93054226b3d626f764d2ec456d"></p><p>点击选择工具栏上摄像机工具，鼠标指针变为摄像机样式，在合成面板上按住进行3维旋转。</p><p><img src="https://note.youdao.com/yws/api/personal/file/WEB7a803aa7106081385548d35b96a59a25?method=download&amp;shareKey=3adabd0b8e056c8eaddea6022d28b8ef"></p><p><img src="https://note.youdao.com/yws/api/personal/file/WEB2d725d8028a0497d6c3c8ae02351f452?method=download&amp;shareKey=57f37fd2b95f04db545a9400f3c04899"></p><h2 id="锚点工具">3.3. 锚点工具</h2><p>可修改锚点的位置。</p><p><img src="https://note.youdao.com/yws/api/personal/file/WEBa7a90462a2f2df125fcba844aeb91a30?method=download&amp;shareKey=547700928ef575d146a2b5b5921c13b7"></p><p>比如可以改变旋转的方位，如下图的效果。</p><p><img src="https://note.youdao.com/yws/api/personal/file/WEBe12ae23221283501ff76589141fc03cc?method=download&amp;shareKey=90d604492ad952406522d27e5acc94b6"></p><p><img src="https://note.youdao.com/yws/api/personal/file/WEB3971c2aaa1075c43581e9e059e391d3c?method=download&amp;shareKey=32e1371afa88c482c9ee74a7d66b3de7"></p><p>比如可以改变缩放的方位。以锚点为基点等比例缩放。</p><p>旋转、平移等位置动画都和锚点相关。</p><h1 id="蒙版遮罩功能">4. 蒙版遮罩功能</h1><h2 id="矩形工具">4.1. 矩形工具</h2><p>选中图层，再使用矩形工具框选，是狂选出某一区域，起到蒙版遮罩的效果。</p><p><img src="https://note.youdao.com/yws/api/personal/file/WEB991674ef6c90111481d85066cd4eb37b?method=download&amp;shareKey=8fe7e20429fcf1eaea63ffbe43e8a841"></p><p>若未选中图层，使用矩形工具框选，是创建一个新的形状图层。</p><p><img src="https://note.youdao.com/yws/api/personal/file/WEB92797fe6b3d574966c2fc00755091ec7?method=download&amp;shareKey=7817319294d33ec5e857241749078489"></p><p>长按矩形工具，可以在弹出菜单中选择其他形状工具。</p><h2 id="钢笔工具">4.2. 钢笔工具</h2><p>和矩形等工具的规则形状不同，钢笔工具用于创建自定义形状的蒙版。做一些抠像、边缘效果或其他路径效果时使用。</p><h2 id="文字工具">4.3. 文字工具</h2><p>选择工具，在合成面板上，点击开始输入文字。</p><h1 id="画笔擦拭功能">5. 画笔擦拭功能</h1><h2 id="画笔工具">5.1. 画笔工具</h2><p>默认情况下在合成面板上是画不出来的。要选择想要绘制的图层，双击图层，进入到图层预览界面，此时可以进行绘制，同时可以在右侧的画笔面板上设置画笔的属性参数。</p><p><img src="https://note.youdao.com/yws/api/personal/file/WEB220c905d045b10fe220e209fd9c918c1?method=download&amp;shareKey=210435b5e8641bfe1a76a319533e266e"></p><h2 id="仿制图章工具">5.2. 仿制图章工具</h2><p>和PS类似，只是支持动态的。</p><p>将A区域的效果复制粘贴到B区域。按住<code>option键</code>，点击复制想要的点。</p><p><img src="https://note.youdao.com/yws/api/personal/file/WEBae7e47239e9619c2988dcbb01cd36f95?method=download&amp;shareKey=2ff7775ba964cd7f17cffc9fe046e556" alt="原图"></p><p><img src="https://note.youdao.com/yws/api/personal/file/WEB51d30e77cd73e30e956f920bd5aba20f?method=download&amp;shareKey=6e41dc91282e9a45117a25407a632171" alt="左侧仿制"></p><h2 id="橡皮工具">5.3. 橡皮工具</h2><p>将图层某些范围进行擦除。</p><p><img src="https://note.youdao.com/yws/api/personal/file/WEBe49506a6e16aac47a3f0e4ab1513fd97?method=download&amp;shareKey=b3e11b47d40cbb6082e60e6d97297741"></p><h1 id="Roto笔刷工具">6. Roto笔刷工具</h1><p>可应用于人像抠像。<br>选择此工具，在图层上鼠标指针变为绿色加号，拖拉可以生成选区。</p><p><img src="https://note.youdao.com/yws/api/personal/file/WEB70fb266ab04cffe1d28081f7948e69bc?method=download&amp;shareKey=deecd3cb978e2cb1e84d67106b838e3d" alt="生成选区"></p><p>切换到合成面板，可以看到人像的抠图，此时便是把人像动态的抠像出来了，和原视频分离了。</p><p>!生成抠像<a href="https://note.youdao.com/yws/api/personal/file/WEB298614c0c3b6ec0a474e54f407f424e4?method=download&amp;shareKey=2d752ed69b267180cac7ca9bb6772a61"></a></p><p>之后可以在人像的背后添加文字，并在图层下方叠加原视频，效果如下。可以制作类似的效果。</p><p><img src="https://note.youdao.com/yws/api/personal/file/WEBfb9aa04cf172b26005279cce4f7a4d0e?method=download&amp;shareKey=a1321801bae8e031994215d22c0628ed" alt="背后添加文字"></p><p><img src="https://note.youdao.com/yws/api/personal/file/WEB7e1fe41e137712feb4fef64fc2268176?method=download&amp;shareKey=dc79804d5c6c6655171090c12a8893e1" alt="最终效果"></p><h1 id="人偶位置控制工具">7. 人偶位置控制工具</h1><p>可以用于制作比较简单的人物动画，比如摆手点头之类。</p><p>先使用铆钉进行定位，后续便可以改变铆钉的位置设计动画。</p><p><img src="https://note.youdao.com/yws/api/personal/file/WEB1eba77ce2211898ff99a42230be77229?method=download&amp;shareKey=a98a555ce8c9d142d2fa049c2d357299"></p><p><img src="https://note.youdao.com/yws/api/personal/file/WEB74c3c0fadf26bb5f374e6a501b47def8?method=download&amp;shareKey=8f3b41bca70a72237d81384f02c7c896"></p><p>有时候遇到不能分层的素材文件，可以使用此方法。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 视频剪辑 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 音视频剪辑 </tag>
+            
+            <tag> AE </tag>
+            
+            <tag> 工具面板 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>AE学习记录（04）：图层面板</title>
       <link href="/2019/07/14/ae-xue-xi-ji-lu-04-tu-ceng-mian-ban/"/>
       <url>/2019/07/14/ae-xue-xi-ji-lu-04-tu-ceng-mian-ban/</url>
