@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="GitHub图床,小书匠编辑器,Markdown">
+    <meta name="keywords" content="生活日常,成长日记,安安">
     <meta name="description" content="Thinking Hacks">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>小书匠MD编辑器配置GitHub图床 | Pamarus</title>
+    <title>安安成长日记-2022年10月 | Pamarus</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -296,7 +296,7 @@
 <script src="/libs/cryptojs/crypto-js.min.js"></script>
 <script>
     (function() {
-        let pwd = '';
+        let pwd = '2a186fe05dd77a25326fb152945bef64b9d10aa729fd829ae283038cb16b666c';
         if (pwd && pwd.length > 0) {
             if (pwd !== CryptoJS.SHA256(prompt('你的通行证呢，点击此处输入试试噢🫣')).toString(CryptoJS.enc.Hex)) {
                 alert('通行证看着不太对，再试试噢🤔');
@@ -309,12 +309,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/xiaoshujiang.png')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/%E5%B0%81%E9%9D%A2-%E5%AE%89%E5%AE%892022-09.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">小书匠MD编辑器配置GitHub图床</h1>
+                    <h1 class="description center-align post-title">安安成长日记-2022年10月</h1>
                 </div>
             </div>
         </div>
@@ -430,16 +430,12 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/Hexo-Blog/">
-                                <span class="chip bg-color">Hexo_Blog</span>
+                            <a href="/tags/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/">
+                                <span class="chip bg-color">生活日常</span>
                             </a>
                         
-                            <a href="/tags/GitHub/">
-                                <span class="chip bg-color">GitHub</span>
-                            </a>
-                        
-                            <a href="/tags/Markdown/">
-                                <span class="chip bg-color">Markdown</span>
+                            <a href="/tags/%E5%AE%89%E5%AE%89/">
+                                <span class="chip bg-color">安安</span>
                             </a>
                         
                     </div>
@@ -450,8 +446,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/%E6%95%99%E7%A8%8B/" class="post-category">
-                                教程
+                            <a href="/categories/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/" class="post-category">
+                                生活日常
                             </a>
                         
                     </div>
@@ -463,7 +459,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-05-04
+                    2022-10-23
                 </div>
                 
 
@@ -472,14 +468,14 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    317
+                    902
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    1 分
+                    3 分
                 </div>
                 
 
@@ -507,22 +503,125 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="创建GitHub仓库">1. 创建GitHub仓库</h1><p>上一篇博客搭建教程有写，见 <a href="https://pamarus.github.io/2020/05/04/hexo-bo-ke-da-jian-1-mac-duan-shi-yong-hexo-github-pages-da-jian-mian-fei-ge-ren-bo-ke/#toc-heading-12">4.1.2. GitHub创建个人仓库</a>,图中仓库名写上自己喜欢的就好。我使用的库名时候Images。</p>
-<p><img src="https://note.youdao.com/yws/api/personal/file/WEB990c9591ec4224fc126b44badda700e3?method=download&amp;shareKey=20d93580865254a41d059bec3550a3de" alt="01创建仓库"></p>
-<h1 id="创建Token">2. 创建Token</h1><p><img src="https://note.youdao.com/yws/api/personal/file/WEBe9ad817d4b37a8f4d1e4647e90a02556?method=download&amp;shareKey=b9d765f87709d114d47d6fb87b63ae7b" alt="02点击setting"></p>
-<p><img src="https://note.youdao.com/yws/api/personal/file/WEB4a9abdaf72db924924db3fa5adc52527?method=download&amp;shareKey=d0ae79a2152640d19a6a3c9bf427f252" alt="03进入setting页面"></p>
-<p><img src="https://note.youdao.com/yws/api/personal/file/WEB159ef69da505e8d26be7733ab9e352c0?method=download&amp;shareKey=18a78114f95f3d68924eb56de7041f0f" alt="04选择Personal access tokens"></p>
-<p>GitHub网页右上角头像下拉，选择setting，点击最下面Developer setting →→ Personal access tokens →→ 右上角Generate new token →→ 按照下图这样配置，勾选上repo的相关权限即可。Note填写自己喜欢的。</p>
-<p><img src="https://note.youdao.com/yws/api/personal/file/WEB634bdeced3973a631b0981cc75a5bca8?method=download&amp;shareKey=38e915446844f94e3c603b94070167cf" alt="05token设置"></p>
-<p>生成后，会出现一行数字。记得把Token复制到你的本地，因为一旦关闭网页将不能再看到它。</p>
-<p><img src="https://note.youdao.com/yws/api/personal/file/WEBe970f11059a8e75f785f1769dd209588?method=download&amp;shareKey=e9f57f30dae918a57be1652f84610056" alt="06成功"></p>
-<h1 id="配置小书匠的GitHub图床">3. 配置小书匠的GitHub图床</h1><p>点击选择githubimg</p>
-<p><img src="https://note.youdao.com/yws/api/personal/file/WEB7b81f02de4915a3ec34b08d6cbadf0a2?method=download&amp;shareKey=da5d92949443e7f72ce80bacade8d1ce" alt="07选择githubimg"></p>
-<p>自定义名称填写自己喜欢的<br>token填写刚刚创建的token值<br>仓库名称填写第一步创建的GitHub仓库名<br>文件名按照自己习惯填写，示例如下<br><code>/2020/05/</code>：在GitHub仓库内下钻两层文件夹<br><code>{{filename}}</code>：GitHub仓库内图片名即是上传图片的本地名称。</p>
-<p>确定保存后，勾选刚刚创建的图床，最终确定保存。</p>
-<p><img src="https://note.youdao.com/yws/api/personal/file/WEBfc7231071b770ab8ee026cfe84ae4c42?method=download&amp;shareKey=4f06bdfe609a483015aeb258d10c8dd5" alt="08"></p>
-<p>至此配置完成。图片拖入小书匠客户端，等待自动生成MD格式，并且图片也会同步上传至GitHub仓库内，就可以图床自动保存至github了。</p>
+                <h1 id="10-01">1. 10-01</h1><div style="width:100%;height:0px;position:relative;padding-bottom:56.327%;"><iframe src="https://streamja.com/embed/XW6Oz" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;"></iframe></div>
 
+<p>今天翻身可以翻回去了，多亏了妈妈每日引导。</p>
+<p>下午睡觉醒了，带她去理发，但是宝宝理发店没人，电话预约了五号。带她走了好远，到了妙境路新川路路口。</p>
+<div style="width:100%;height:0px;position:relative;padding-bottom:56.327%;"><iframe src="https://streamja.com/embed/v6akp" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;"></iframe></div>
+
+<p>外婆带着玩开心死了。</p>
+<h1 id="10-02">2. 10-02</h1><p><img src="https://note.youdao.com/yws/api/personal/file/WEBc9dd61a8bff3447df20791dc018645f5?method=download&amp;shareKey=7a2a0b590a43670ad191f53ef3eec63f"></p>
+<p>下午去儿童医学中心体检。第二次去，第一次去没体检上。体检项目很少，感觉蛮水的，但排队还排了很久。<br>第一次做了抗原，蛮配合，估计没反应过来。第一次看见女医生突然哭起来，不过一会儿就好了，放在医生的诊疗台上笑嘻嘻的。回家路上也比较累，在车上睡着了</p>
+<p>晚上送外婆回工地那边。</p>
+<h1 id="10-03">3. 10-03</h1><div style="width:100%;height:0px;position:relative;padding-bottom:56.327%;"><iframe src="https://streamja.com/embed/kr9bE" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;"></iframe></div>
+
+<div style="width:100%;height:0px;position:relative;padding-bottom:56.327%;"><iframe src="https://streamja.com/embed/B37yP" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;"></iframe></div>
+
+<p>今天理发，理了一个西瓜头发型，蛮好看。胎发家里人不让我们自己理，要外面人来。第一次理之后就可以自己来了。</p>
+<p><img src="https://note.youdao.com/yws/api/personal/file/WEB1b833bac3de05bd2a7763764f34e472b?method=download&amp;shareKey=237bde19f1195d1caa3b97b233d8c2f1"></p>
+<div style="width:100%;height:0px;position:relative;padding-bottom:56.327%;"><iframe src="https://streamja.com/embed/wpoB1" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;"></iframe></div>
+
+<p>辅食1：吃米粉。安安很乖，第一次吃米粉也没有什么抗拒，乖乖吃。</p>
+<div style="width:100%;height:0px;position:relative;padding-bottom:56.327%;"><iframe src="https://streamja.com/embed/Q25w4" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;"></iframe></div>
+撕纸
+
+<h1 id="10-04">4. 10-04</h1><div style="width:100%;height:0px;position:relative;padding-bottom:56.327%;"><iframe src="https://streamja.com/embed/RWOQ7" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;"></iframe></div>
+
+<p>卡住了，现在翻身只能往右边翻过去，左边不会。</p>
+<div style="width:100%;height:0px;position:relative;padding-bottom:56.327%;"><iframe src="https://streamja.com/embed/7670r" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;"></iframe></div>
+妈妈同事送的玩具，小火车。
+
+<div style="width:100%;height:0px;position:relative;padding-bottom:56.327%;"><iframe src="https://streamja.com/embed/Go73v" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;"></iframe></div>
+拍巴掌逗她咯咯咯咯滴笑😆
+
+<h1 id="10-05">5. 10-05</h1><p><img src="https://note.youdao.com/yws/api/personal/file/WEBe2791bc6d801034e66ad12126efd060e?method=download&amp;shareKey=9f79d2fe7a9d84a7043b14a5e4068fed"></p>
+<p><img src="https://note.youdao.com/yws/api/personal/file/WEB7cb3ccc74459ce0b787388e11053a48e?method=download&amp;shareKey=e455d8fa9aba440219b0b6abbd700a9b"><br>坐在恐龙小沙发上。</p>
+<p><img src="https://note.youdao.com/yws/api/personal/file/WEB2983bd1cfec27f55ee01829791868b4e?method=download&amp;shareKey=8a18ac307300b65bc08d621e2d1965aa"></p>
+<p>下午睡醒了带她到外面逛了逛，去南桥路上的电瓶车店，顺便转了一大圈。<br>今天开始降温了，外面蛮冷给安安穿上新衣服。</p>
+<h1 id="10-06">6. 10-06</h1><div style="width:100%;height:0px;position:relative;padding-bottom:56.327%;"><iframe src="https://streamja.com/embed/E64N0" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;"></iframe></div>
+可以抓到自己脚。
+
+<div style="width:100%;height:0px;position:relative;padding-bottom:56.327%;"><iframe src="https://streamja.com/embed/4q75G" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;"></iframe></div>
+吃米粉时一直要抓勺子。
+
+<p><img src="https://note.youdao.com/yws/api/personal/file/WEB6bd5b2fe4e3f670b8871019bbfb4c8fe?method=download&amp;shareKey=97a35147bdabec5f7e825141e64e2061"><br>新衣服比较大，穿着都看不见脚。</p>
+<p><img src="https://note.youdao.com/yws/api/personal/file/WEBb3e3954c9cd0bd6cbbb4af5a078ecb37?method=download&amp;shareKey=af454be04e7a37d7ba6a032df3e32cd6"></p>
+<p>先带安安出去逛一逛，每次出门都好开心。</p>
+<p>转一圈回来，五点去接奶奶，表哥在老家顺道把奶奶带过来的。国庆因为公司疫情政策没回家。</p>
+<h1 id="10-07">7. 10-07</h1><p>今天下午出去买了电瓶车，2299元，后面妈妈上班骑电瓶车，可以早点回来。出门时安安很乖，在家里奶奶一个人陪着乖乖睡着了。</p>
+<h1 id="10-12">8. 10-12</h1><div style="width:100%;height:0px;position:relative;padding-bottom:56.327%;"><iframe src="https://streamja.com/embed/qLAdG" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;"></iframe></div>
+妈妈同事送的玩具，小火车。
+
+<div style="width:100%;height:0px;position:relative;padding-bottom:56.327%;"><iframe src="https://streamja.com/embed/206ga" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;"></iframe></div>
+喜欢荡秋千、升降机游戏。
+
+
+<h1 id="10-14">9. 10-14</h1><p>这几天有点过敏，不知道咋回事，手臂和肚子有一点。</p>
+<h1 id="10-15">10. 10-15</h1><div style="width:100%;height:0px;position:relative;padding-bottom:56.327%;"><iframe src="https://streamja.com/embed/62PgA" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;"></iframe></div>
+今天安安把脚塞嘴里了。
+
+<p>会翻身后睡觉经常就背着妈妈。</p>
+<h1 id="10-16">11. 10-16</h1><p><img src="https://note.youdao.com/yws/api/personal/file/WEBd309af641499b2b17d102bb3668e8f4d?method=download&amp;shareKey=b2c7526ccf7bda4b6557c6a3778817c6"></p>
+<p>秋天到了，天气转凉，新帽子也很好看。</p>
+<div style="width:100%;height:0px;position:relative;padding-bottom:56.327%;"><iframe src="https://streamja.com/embed/aeZdB" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;"></iframe></div>
+抓东西，很艰难地可以往前爬一点点。
+
+
+
+<h1 id="10-20">12. 10-20</h1><p><img src="https://note.youdao.com/yws/api/personal/file/WEBc8c3cad17b92ccb195ecbe0c678c5e40?method=download&amp;shareKey=d55bff9b0a1f1e28cc9d00293ccc6a95" alt="发型爆炸"></p>
+<div style="width:100%;height:0px;position:relative;padding-bottom:56.327%;"><iframe src="https://streamja.com/embed/o7adO" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;"></iframe></div>
+刮一点点苹果泥吃，甜甜的喜欢吃。
+
+<h1 id="10-22">13. 10-22</h1><p><img src="https://note.youdao.com/yws/api/personal/file/WEB0b76479e4c8f1df93f8adb9320320219?method=download&amp;shareKey=53d4e109daa4e2ddd160ce7998770fe6"><br>喜欢举高高。</p>
+<div style="width:100%;height:0px;position:relative;padding-bottom:56.327%;"><iframe src="https://streamja.com/embed/5qAgz" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;"></iframe></div>
+现在可以扶着坐起来。
+
+<div style="width:100%;height:0px;position:relative;padding-bottom:56.327%;"><iframe src="https://streamja.com/embed/OG2NW" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;"></iframe></div>
+辅食2：吃南瓜糊。
+
+<div style="width:100%;height:0px;position:relative;padding-bottom:56.327%;"><iframe src="https://streamja.com/embed/PV640" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;"></iframe></div>
+舔一点香瓜吃。
+
+<div style="width:100%;height:0px;position:relative;padding-bottom:56.327%;"><iframe src="https://streamja.com/embed/AvmNm" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;"></iframe></div>
+喜欢坐飞机。
+
+<h1 id="10-23">14. 10-23</h1><p><img src="https://note.youdao.com/yws/api/personal/file/WEB54dd1c50745f164034fc980a24be3e2e?method=download&amp;shareKey=850ea51d99094a8e4634366c7e823090" alt="大头照哈哈"></p>
+<p><img src="https://note.youdao.com/yws/api/personal/file/WEBbe3fdcd18cc744ec530d32baf89f4d03?method=download&amp;shareKey=84a282a971c2f56379f4f4a6fb836d53" alt="吃南瓜糊"></p>
+<div style="width:100%;height:0px;position:relative;padding-bottom:56.327%;"><iframe src="https://streamja.com/embed/3mWLq" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;"></iframe></div>
+吃南瓜糊。
+
+<div style="width:100%;height:0px;position:relative;padding-bottom:56.327%;"><iframe src="https://streamja.com/embed/be2G2" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;"></iframe></div>
+喝点水润润嗓子。
+
+
+<p><img src="https://note.youdao.com/yws/api/personal/file/WEB39308d98cefddd280ad5f6a9097b4fc8?method=download&amp;shareKey=60a4c146266a2cce7d3a3e653f039c79"><br>新衣服，呐把背面也给你康康~</p>
+<div style="width:100%;height:0px;position:relative;padding-bottom:56.327%;"><iframe src="https://streamja.com/embed/mrNGW" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;"></iframe></div>
+和纸巾战斗。
+
+<div style="width:100%;height:0px;position:relative;padding-bottom:56.327%;"><iframe src="https://streamja.com/embed/M1NlM" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;"></iframe></div>
+吃苹果，每次吃新东西都是这幅表情，也不是酸，是尝到新东西不适应，吃一会儿就好了。
+
+<div style="width:100%;height:0px;position:relative;padding-bottom:56.327%;"><iframe src="https://streamja.com/embed/WzvX5" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;"></iframe></div>
+吃苹果。
+
+<h1 id="10-25">15. 10-25</h1><p>辅食3：吃土豆泥。</p>
+<h1 id="10-27">16. 10-27</h1><p>辅食4：吃米汤。</p>
+<h1 id="10-29">17. 10-29</h1><p><img src="https://note.youdao.com/yws/api/personal/file/WEBb2138ffff5f832baee44fcb8d73becc7?method=download&amp;shareKey=8d1ad3a2e2bffb9453efe1e2695b9b96"><br>头仰着90°睡觉觉。</p>
+<p><img src="https://note.youdao.com/yws/api/personal/file/WEBcaf8c65576679ed4037aa6d82b8446c6?method=download&amp;shareKey=82981149b9c29c84c84c5f714996e155"><br>上午社区卫生院打疫苗，回去睡觉。下午儿童医学中心体检。</p>
+<div style="width:100%;height:0px;position:relative;padding-bottom:56.327%;"><iframe src="https://streamja.com/embed/v69nz" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;"></iframe></div>
+抽手指血，没哭真乖。
+
+<h1 id="10-30">18. 10-30</h1><div style="width:100%;height:0px;position:relative;padding-bottom:56.327%;"><iframe src="https://streamja.com/embed/92wpv" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;"></iframe></div>
+开饭啦，准备吃饭。
+
+<div style="width:100%;height:0px;position:relative;padding-bottom:56.327%;"><iframe src="https://streamja.com/embed/zbQaJ" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;"></iframe></div>
+辅食5：吃菠菜泥。
+
+<p><img src="https://note.youdao.com/yws/api/personal/file/WEB81c32098a5b4da44ac900e24208fde25?method=download&amp;shareKey=c926e67a2f2d87b3ef8347e82918486e"></p>
+<p><img src="https://note.youdao.com/yws/api/personal/file/WEB9e26a0dbe48b4a6edf69810d75852d09?method=download&amp;shareKey=f998da30b664dd89cb6a06a187c6f6dc"></p>
+<p>下午去拜访大妈妈，晚上饭店吃饭，很晚才回家，安安第一次出远门玩，第一次很晚回家，很晚睡觉。</p>
+<h1 id="10-31">19. 10-31</h1><div style="width:100%;height:0px;position:relative;padding-bottom:56.327%;"><iframe src="https://streamja.com/embed/ZWQG3" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;"></iframe></div>
+自从会翻身会滚之后，洗澡涂润肤乳穿衣服可难了，必须还要拿点她感兴趣的东西吸引她注意力。
                 
             </div>
             <hr/>
@@ -548,7 +647,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://pamarus.github.io/2020/05/04/xiao-shu-jiang-md-bian-ji-qi-pei-zhi-github-tu-chuang/">https://pamarus.github.io/2020/05/04/xiao-shu-jiang-md-bian-ji-qi-pei-zhi-github-tu-chuang/</a>
+                    <a href="https://pamarus.github.io/2022/10/23/an-an-cheng-chang-ri-ji-2022-nian-10-yue/">https://pamarus.github.io/2022/10/23/an-an-cheng-chang-ri-ji-2022-nian-10-yue/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -586,16 +685,12 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/Hexo-Blog/">
-                                    <span class="chip bg-color">Hexo_Blog</span>
+                                <a href="/tags/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/">
+                                    <span class="chip bg-color">生活日常</span>
                                 </a>
                             
-                                <a href="/tags/GitHub/">
-                                    <span class="chip bg-color">GitHub</span>
-                                </a>
-                            
-                                <a href="/tags/Markdown/">
-                                    <span class="chip bg-color">Markdown</span>
+                                <a href="/tags/%E5%AE%89%E5%AE%89/">
+                                    <span class="chip bg-color">安安</span>
                                 </a>
                             
                         </div>
@@ -1028,49 +1123,51 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/2020/05/05/markdown-2-ru-he-tian-jia-duo-ge-tags/">
+                <a href="/2022/10/23/an-an-cheng-chang-ri-ji-2022-nian-10-yue/">
                     <div class="card-image">
                         
-                        <img src="/medias/featureimages/Markdown.png" class="responsive-img" alt="Markdown（2）：如何添加多个tags">
+                        <img src="/medias/featureimages/%E5%B0%81%E9%9D%A2-%E5%AE%89%E5%AE%892022-09.jpg" class="responsive-img" alt="安安成长日记-2022年10月">
                         
-                        <span class="card-title">Markdown（2）：如何添加多个tags</span>
+                        <span class="card-title">安安成长日记-2022年10月</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Md添加多个tags的方式
+                            这儿有东西被加密了，点击看看😵
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-05-05
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-10-23
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Hexo%E5%8D%9A%E5%AE%A2/" class="post-category">
-                                    Hexo博客
+                            <a href="/categories/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/" class="post-category">
+                                    生活日常
                                 </a>
                             
                             
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Hexo-Blog/">
-                        <span class="chip bg-color">Hexo_Blog</span>
+                    <a href="/tags/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/">
+                        <span class="chip bg-color">生活日常</span>
                     </a>
                     
-                    <a href="/tags/Markdown/">
-                        <span class="chip bg-color">Markdown</span>
+                    <a href="/tags/%E5%AE%89%E5%AE%89/">
+                        <span class="chip bg-color">安安</span>
                     </a>
                     
                 </div>
@@ -1084,30 +1181,30 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2020/05/04/hexo-bo-ke-da-jian-2-geng-huan-zhu-ti-yang-shi-ji-ji-ben-shu-xing-pei-zhi/">
+                <a href="/2022/09/18/an-an-cheng-chang-ri-ji-2022-nian-09-yue/">
                     <div class="card-image">
                         
-                        <img src="/medias/featureimages/Hexo.png" class="responsive-img" alt="Hexo博客搭建（2）：更换主题样式及基本属性配置">
+                        <img src="/medias/featureimages/%E5%B0%81%E9%9D%A2-%E5%AE%89%E5%AE%892022-09.jpg" class="responsive-img" alt="安安成长日记-2022年09月">
                         
-                        <span class="card-title">Hexo博客搭建（2）：更换主题样式及基本属性配置</span>
+                        <span class="card-title">安安成长日记-2022年09月</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            ——以NexT为例
+                            这儿有东西被加密了，点击看看😵
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-05-04
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-09-18
                             </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Hexo%E5%8D%9A%E5%AE%A2/" class="post-category">
-                                    Hexo博客
+                            <a href="/categories/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/" class="post-category">
+                                    生活日常
                                 </a>
                             
                             
@@ -1117,16 +1214,12 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Hexo-Blog/">
-                        <span class="chip bg-color">Hexo_Blog</span>
+                    <a href="/tags/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/">
+                        <span class="chip bg-color">生活日常</span>
                     </a>
                     
-                    <a href="/tags/%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/">
-                        <span class="chip bg-color">博客教程</span>
-                    </a>
-                    
-                    <a href="/tags/NexT/">
-                        <span class="chip bg-color">NexT</span>
+                    <a href="/tags/%E5%AE%89%E5%AE%89/">
+                        <span class="chip bg-color">安安</span>
                     </a>
                     
                 </div>

@@ -6,7 +6,7 @@
   <link href="https://pamarus.github.io/atom.xml" rel="self"/>
   
   <link href="https://pamarus.github.io/"/>
-  <updated>2022-10-08T09:33:13.301Z</updated>
+  <updated>2022-11-13T12:06:27.071Z</updated>
   <id>https://pamarus.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>安安成长日记-2022年10月</title>
+    <link href="https://pamarus.github.io/2022/10/23/an-an-cheng-chang-ri-ji-2022-nian-10-yue/"/>
+    <id>https://pamarus.github.io/2022/10/23/an-an-cheng-chang-ri-ji-2022-nian-10-yue/</id>
+    <published>2022-10-23T11:56:34.000Z</published>
+    <updated>2022-11-13T12:06:27.071Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;10-01&quot;&gt;1. 10-01&lt;/h1&gt;&lt;div style=&quot;width:100%;height:0px;position:relative;padding-bottom:56.327%;&quot;&gt;&lt;iframe</summary>
+        
+      
+    
+    
+    
+    <category term="生活日常" scheme="https://pamarus.github.io/categories/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/"/>
+    
+    
+    <category term="生活日常" scheme="https://pamarus.github.io/tags/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/"/>
+    
+    <category term="安安" scheme="https://pamarus.github.io/tags/%E5%AE%89%E5%AE%89/"/>
+    
+  </entry>
   
   <entry>
     <title>安安成长日记-2022年09月</title>
@@ -565,40 +592,6 @@
     <category term="Mac问题" scheme="https://pamarus.github.io/tags/Mac%E9%97%AE%E9%A2%98/"/>
     
     <category term="macOS" scheme="https://pamarus.github.io/tags/macOS/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>PS使用液化滤镜瘦脸</title>
-    <link href="https://pamarus.github.io/2020/07/11/ps-shi-yong-ye-hua-lu-jing-shou-lian/"/>
-    <id>https://pamarus.github.io/2020/07/11/ps-shi-yong-ye-hua-lu-jing-shou-lian/</id>
-    <published>2020-07-11T07:25:00.000Z</published>
-    <updated>2022-09-16T07:05:09.547Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;ul&gt;
-&lt;li&gt;把图拖入PS窗口，点击&lt;code&gt;滤镜 → 液化&lt;/code&gt;，进入到&lt;code&gt;液化&lt;/code&gt;界面。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img</summary>
-        
-      
-    
-    
-    
-    <category term="视觉设计" scheme="https://pamarus.github.io/categories/%E8%A7%86%E8%A7%89%E8%AE%BE%E8%AE%A1/"/>
-    
-    
-    <category term="PS" scheme="https://pamarus.github.io/tags/PS/"/>
-    
-    <category term="瘦脸" scheme="https://pamarus.github.io/tags/%E7%98%A6%E8%84%B8/"/>
-    
-    <category term="液化滤镜" scheme="https://pamarus.github.io/tags/%E6%B6%B2%E5%8C%96%E6%BB%A4%E9%95%9C/"/>
-    
-    <category term="视觉设计" scheme="https://pamarus.github.io/tags/%E8%A7%86%E8%A7%89%E8%AE%BE%E8%AE%A1/"/>
     
   </entry>
   
