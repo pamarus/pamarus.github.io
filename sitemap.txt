@@ -1,3 +1,4 @@
+https://pamarus.github.io/2022/05/14/an-an-cheng-chang-ri-ji-2022-nian-04-yue/
 https://pamarus.github.io/2022/10/23/an-an-cheng-chang-ri-ji-2022-nian-10-yue/
 https://pamarus.github.io/2019/07/16/ae-xue-xi-ji-lu-02-ae-mian-ban-jie-shao/
 https://pamarus.github.io/2022/09/18/an-an-cheng-chang-ri-ji-2022-nian-09-yue/
@@ -36,7 +37,6 @@ https://pamarus.github.io/2020/05/13/hexo-bo-ke-da-jian-4-next-zhu-ti-shou-ye-bu
 https://pamarus.github.io/2020/05/04/hexo-bo-ke-da-jian-2-geng-huan-zhu-ti-yang-shi-ji-ji-ben-shu-xing-pei-zhi/
 https://pamarus.github.io/2020/05/06/hexo-bo-ke-da-jian-3-next-zhu-ti-tiao-zhuan-fen-lei-biao-qian-guan-yu-ye-bao-cuo-wu-fa-da-kai-zen-me-ban/
 https://pamarus.github.io/2020/05/05/markdown-2-ru-he-tian-jia-duo-ge-tags/
-https://pamarus.github.io/2022/05/14/an-an-cheng-chang-ri-ji-2022-nian-04-yue/
 https://pamarus.github.io/2022/07/12/an-an-cheng-chang-ri-ji-2022-nian-07-yue/
 https://pamarus.github.io/2022/06/12/an-an-cheng-chang-ri-ji-2022-nian-06-yue/
 https://pamarus.github.io/2022/05/16/an-an-cheng-chang-ri-ji-2022-nian-05-yue/
