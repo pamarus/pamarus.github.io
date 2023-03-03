@@ -6,7 +6,7 @@
   <link href="https://pamarus.github.io/atom.xml" rel="self"/>
   
   <link href="https://pamarus.github.io/"/>
-  <updated>2023-02-12T07:54:41.030Z</updated>
+  <updated>2023-03-03T07:39:38.233Z</updated>
   <id>https://pamarus.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>ChatGPT 4.0 - New Bing申请</title>
+    <link href="https://pamarus.github.io/2023/03/01/chatgpt-4.0-new-bing-shen-qing/"/>
+    <id>https://pamarus.github.io/2023/03/01/chatgpt-4.0-new-bing-shen-qing/</id>
+    <published>2023-03-01T07:25:00.000Z</published>
+    <updated>2023-03-03T07:39:38.233Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;2 月 7 日，微软 CEO Satya Nadella 在发布会上宣布，发布 ChatGPT 版搜索引擎 New Bing。最值得关注的技术突破就是它运行的是 OpenAI 为 Bing 定制的下一代大型语言模型”普罗米修斯“，基于 ChatGPT 技术，但该模型比</summary>
+        
+      
+    
+    
+    
+    <category term="编程语言" scheme="https://pamarus.github.io/categories/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/"/>
+    
+    
+    <category term="ChatGPT" scheme="https://pamarus.github.io/tags/ChatGPT/"/>
+    
+    <category term="New Bing" scheme="https://pamarus.github.io/tags/New-Bing/"/>
+    
+  </entry>
   
   <entry>
     <title>安安成长日记-2022年11月</title>
@@ -555,40 +582,6 @@
     <category term="混色模式" scheme="https://pamarus.github.io/tags/%E6%B7%B7%E8%89%B2%E6%A8%A1%E5%BC%8F/"/>
     
     <category term="增加亮度" scheme="https://pamarus.github.io/tags/%E5%A2%9E%E5%8A%A0%E4%BA%AE%E5%BA%A6/"/>
-    
-    <category term="视觉设计" scheme="https://pamarus.github.io/tags/%E8%A7%86%E8%A7%89%E8%AE%BE%E8%AE%A1/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>PS使用渐变工具让两张图片的的边缘更好地融合在一起</title>
-    <link href="https://pamarus.github.io/2020/08/04/ps-shi-yong-jian-bian-gong-ju-rang-liang-zhang-tu-pian-de-de-bian-yuan-geng-hao-di-rong-he-zai-yi-qi/"/>
-    <id>https://pamarus.github.io/2020/08/04/ps-shi-yong-jian-bian-gong-ju-rang-liang-zhang-tu-pian-de-de-bian-yuan-geng-hao-di-rong-he-zai-yi-qi/</id>
-    <published>2020-08-04T04:25:00.000Z</published>
-    <updated>2022-09-16T07:05:20.790Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;ul&gt;
-&lt;li&gt;在PS中打开需要处理的图片。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img</summary>
-        
-      
-    
-    
-    
-    <category term="视觉设计" scheme="https://pamarus.github.io/categories/%E8%A7%86%E8%A7%89%E8%AE%BE%E8%AE%A1/"/>
-    
-    
-    <category term="PS" scheme="https://pamarus.github.io/tags/PS/"/>
-    
-    <category term="渐变工具" scheme="https://pamarus.github.io/tags/%E6%B8%90%E5%8F%98%E5%B7%A5%E5%85%B7/"/>
-    
-    <category term="边缘融合" scheme="https://pamarus.github.io/tags/%E8%BE%B9%E7%BC%98%E8%9E%8D%E5%90%88/"/>
     
     <category term="视觉设计" scheme="https://pamarus.github.io/tags/%E8%A7%86%E8%A7%89%E8%AE%BE%E8%AE%A1/"/>
     

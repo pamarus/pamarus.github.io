@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://pamarus.github.io/2023/03/01/chatgpt-4.0-new-bing-shen-qing/</loc>
+    
+    <lastmod>2023-03-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://pamarus.github.io/2020/08/02/ae-xue-xi-ji-lu-13-mask-zhe-zhao-chuang-jian-hui-zhi-he-xing-zhuang-xiu-gai/</loc>
     
     <lastmod>2023-02-22</lastmod>
@@ -861,6 +870,20 @@
   
   <url>
     <loc>https://pamarus.github.io/tags/AE-Mask%E9%81%AE%E7%BD%A9/</loc>
+    <lastmod>2023-03-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://pamarus.github.io/tags/ChatGPT/</loc>
+    <lastmod>2023-03-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://pamarus.github.io/tags/New-Bing/</loc>
     <lastmod>2023-03-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
