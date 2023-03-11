@@ -1,0 +1,1750 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="AI绘画,Stable Diffusion,Web UI">
+    <meta name="description" content="Thinking Hacks">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="renderer" content="webkit|ie-stand|ie-comp">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+    <title>AI绘画介绍（2）：Stable Diffusion Web UI（SD WebUI）的设置与使用 | Pamarus</title>
+    <link rel="icon" type="image/png" href="/favicon.png">
+
+    <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
+    <link rel="stylesheet" type="text/css" href="/libs/materialize/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/aos/aos.css">
+    <link rel="stylesheet" type="text/css" href="/libs/animate/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/matery.css">
+    <link rel="stylesheet" type="text/css" href="/css/my.css">
+
+    <script src="/libs/jquery/jquery.min.js"></script>
+
+<meta name="generator" content="Hexo 6.2.0"><link rel="alternate" href="/atom.xml" title="Pamarus" type="application/atom+xml">
+
+<style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+</head>
+
+
+
+
+<body>
+    <!-- 雪花特效 -->
+    
+    <script type="text/javascript" src="/libs/others/snow.js"></script>
+    
+    
+    <header class="navbar-fixed">
+    <nav id="headNav" class="bg-color nav-transparent">
+        <div id="navContainer" class="nav-wrapper container">
+            <div class="brand-logo">
+                <a href="/" class="waves-effect waves-light">
+                    
+                    <img src="/medias/logo.png" class="logo-img" alt="LOGO">
+                    
+                    <span class="logo-span">Pamarus</span>
+                </a>
+            </div>
+            
+
+<a href="#" data-target="mobile-nav" class="sidenav-trigger button-collapse"><i class="fas fa-bars"></i></a>
+<ul class="right nav-menu">
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/" class="waves-effect waves-light">
+      
+      <i class="fas fa-home" style="zoom: 0.6;"></i>
+      
+      <span>首页</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/tags" class="waves-effect waves-light">
+      
+      <i class="fas fa-tags" style="zoom: 0.6;"></i>
+      
+      <span>标签</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/categories" class="waves-effect waves-light">
+      
+      <i class="fas fa-bookmark" style="zoom: 0.6;"></i>
+      
+      <span>分类</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/archives" class="waves-effect waves-light">
+      
+      <i class="fas fa-archive" style="zoom: 0.6;"></i>
+      
+      <span>归档</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/about" class="waves-effect waves-light">
+      
+      <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
+      
+      <span>关于</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/contact" class="waves-effect waves-light">
+      
+      <i class="fas fa-comments" style="zoom: 0.6;"></i>
+      
+      <span>留言板</span>
+    </a>
+    
+  </li>
+  
+  <li>
+    <a href="#searchModal" class="modal-trigger waves-effect waves-light">
+      <i id="searchIcon" class="fas fa-search" title="搜索" style="zoom: 0.85;"></i>
+    </a>
+  </li>
+</ul>
+
+
+<div id="mobile-nav" class="side-nav sidenav">
+
+    <div class="mobile-head bg-color">
+        
+        <img src="/medias/logo.png" class="logo-img circle responsive-img">
+        
+        <div class="logo-name">Pamarus</div>
+        <div class="logo-desc">
+            
+            Thinking Hacks
+            
+        </div>
+    </div>
+
+    
+
+    <ul class="menu-list mobile-menu-list">
+        
+        <li class="m-nav-item">
+	  
+		<a href="/" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-home"></i>
+			
+			首页
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/tags" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-tags"></i>
+			
+			标签
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/categories" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-bookmark"></i>
+			
+			分类
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/archives" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-archive"></i>
+			
+			归档
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/about" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-user-circle"></i>
+			
+			关于
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/contact" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-comments"></i>
+			
+			留言板
+		</a>
+          
+        </li>
+        
+        
+        <li><div class="divider"></div></li>
+        <li>
+            <a href="https://github.com/pamarus/" class="waves-effect waves-light" target="_blank">
+                <i class="fab fa-github-square fa-fw"></i>Fork Me
+            </a>
+        </li>
+        
+    </ul>
+</div>
+
+
+        </div>
+
+        
+            <style>
+    .nav-transparent .github-corner {
+        display: none !important;
+    }
+
+    .github-corner {
+        position: absolute;
+        z-index: 10;
+        top: 0;
+        right: 0;
+        border: 0;
+        transform: scale(1.1);
+    }
+
+    .github-corner svg {
+        color: #0f9d58;
+        fill: #fff;
+        height: 64px;
+        width: 64px;
+    }
+
+    .github-corner:hover .octo-arm {
+        animation: a 0.56s ease-in-out;
+    }
+
+    .github-corner .octo-arm {
+        animation: none;
+    }
+
+    @keyframes a {
+        0%,
+        to {
+            transform: rotate(0);
+        }
+        20%,
+        60% {
+            transform: rotate(-25deg);
+        }
+        40%,
+        80% {
+            transform: rotate(10deg);
+        }
+    }
+</style>
+
+<a href="https://github.com/pamarus/" class="github-corner tooltipped hide-on-med-and-down" target="_blank"
+   data-tooltip="Fork Me" data-position="left" data-delay="50">
+    <svg viewBox="0 0 250 250" aria-hidden="true">
+        <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+        <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
+              fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
+        <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
+              fill="currentColor" class="octo-body"></path>
+    </svg>
+</a>
+        
+    </nav>
+
+</header>
+
+    
+<script src="/libs/cryptojs/crypto-js.min.js"></script>
+<script>
+    (function() {
+        let pwd = '';
+        if (pwd && pwd.length > 0) {
+            if (pwd !== CryptoJS.SHA256(prompt('你的通行证呢，点击此处输入试试噢🫣')).toString(CryptoJS.enc.Hex)) {
+                alert('通行证看着不太对，再试试噢🤔');
+                location.href = '/';
+            }
+        }
+    })();
+</script>
+
+
+
+
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/Stable-Diffusion.png')">
+    <div class="container" style="right: 0px;left: 0px;">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="brand">
+                    <h1 class="description center-align post-title">AI绘画介绍（2）：Stable Diffusion Web UI（SD WebUI）的设置与使用</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<main class="post-container content">
+
+    
+    <link rel="stylesheet" href="/libs/tocbot/tocbot.css">
+<style>
+    #articleContent h1::before,
+    #articleContent h2::before,
+    #articleContent h3::before,
+    #articleContent h4::before,
+    #articleContent h5::before,
+    #articleContent h6::before {
+        display: block;
+        content: " ";
+        height: 100px;
+        margin-top: -100px;
+        visibility: hidden;
+    }
+
+    #articleContent :focus {
+        outline: none;
+    }
+
+    .toc-fixed {
+        position: fixed;
+        top: 64px;
+    }
+
+    .toc-widget {
+        width: 345px;
+        padding-left: 20px;
+    }
+
+    .toc-widget .toc-title {
+        padding: 35px 0 15px 17px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+
+    .toc-widget ol {
+        padding: 0;
+        list-style: none;
+    }
+
+    #toc-content {
+        padding-bottom: 30px;
+        overflow: auto;
+    }
+
+    #toc-content ol {
+        padding-left: 10px;
+    }
+
+    #toc-content ol li {
+        padding-left: 10px;
+    }
+
+    #toc-content .toc-link:hover {
+        color: #42b983;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+
+    #toc-content .toc-link::before {
+        background-color: transparent;
+        max-height: 25px;
+
+        position: absolute;
+        right: 23.5vw;
+        display: block;
+    }
+
+    #toc-content .is-active-link {
+        color: #42b983;
+    }
+
+    #floating-toc-btn {
+        position: fixed;
+        right: 15px;
+        bottom: 76px;
+        padding-top: 15px;
+        margin-bottom: 0;
+        z-index: 998;
+    }
+
+    #floating-toc-btn .btn-floating {
+        width: 48px;
+        height: 48px;
+    }
+
+    #floating-toc-btn .btn-floating i {
+        line-height: 48px;
+        font-size: 1.4rem;
+    }
+</style>
+<div class="row">
+    <div id="main-content" class="col s12 m12 l9">
+        <!-- 文章内容详情 -->
+<div id="artDetail">
+    <div class="card">
+        <div class="card-content article-info">
+            <div class="row tag-cate">
+                <div class="col s7">
+                    
+                    <div class="article-tag">
+                        
+                            <a href="/tags/AI%E7%BB%98%E7%94%BB/">
+                                <span class="chip bg-color">AI绘画</span>
+                            </a>
+                        
+                            <a href="/tags/Stable-Diffusion/">
+                                <span class="chip bg-color">Stable Diffusion</span>
+                            </a>
+                        
+                            <a href="/tags/Web-UI/">
+                                <span class="chip bg-color">Web UI</span>
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+                <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/" class="post-category">
+                                编程语言
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="post-info">
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
+                    2023-02-27
+                </div>
+                
+
+                
+
+                
+                <div class="info-break-policy">
+                    <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
+                    2.4k
+                </div>
+                
+
+                
+                <div class="info-break-policy">
+                    <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
+                    8 分
+                </div>
+                
+
+                
+                    <div id="busuanzi_container_page_pv" class="info-break-policy">
+                        <i class="far fa-eye fa-fw"></i>阅读次数:&nbsp;&nbsp;
+                        <span id="busuanzi_value_page_pv"></span>
+                    </div>
+				
+            </div>
+        </div>
+        <hr class="clearfix">
+
+        
+        <!-- 是否加载使用自带的 prismjs. -->
+        <link rel="stylesheet" href="/libs/prism/prism.css">
+        
+
+        
+        <!-- 代码块折行 -->
+        <style type="text/css">
+            code[class*="language-"], pre[class*="language-"] { white-space: pre-wrap !important; }
+        </style>
+        
+
+        <div class="card-content article-card-content">
+            <div id="articleContent">
+                <ul>
+<li>本篇主要介绍<code>Stable Diffusion Web UI（SD WebUI）</code>的基础使用以及常用参数解释调整。</li>
+</ul>
+<h1 id="默认地址">1. 默认地址</h1><p>SD WebUI的默认地址为<a target="_blank" rel="noopener" href="http://127.0.0.1:7860/">127.0.0.1:7860</a></p>
+<blockquote>
+<p>项目日常更新频繁，请定期<code>git pull</code>更新</p>
+</blockquote>
+<h1 id="汉化">2. 汉化</h1><p>目前有中文界面了，使用下面的方法安装简体中文翻译扩展进行汉化，有三种下载安装方法。</p>
+<h2 id="通过官方扩展列表安装">2.1. 通过官方扩展列表安装</h2><p>在<code>Extension</code>选项卡里面通过加载<code>官方插件列表</code>直接安装。</p>
+<ul>
+<li><p>点击<code>Extension</code>选项卡，点击<code>Avaliable</code>子选项卡，</p>
+</li>
+<li><p>取消勾选<code>localization</code>，再把其他勾上，然后点击<code>橙色按钮</code>，如下图</p>
+</li>
+</ul>
+<p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2023/AI%E7%BB%98%E7%94%BB%EF%BC%882%EF%BC%89-01.jpg" alt="AI绘画（2）-01"></p>
+<ul>
+<li>页面拉到下方，找到<code>zh_CN Localization</code>这一项，点击右侧<code>install</code>按钮安装</li>
+</ul>
+<p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2023/AI%E7%BB%98%E7%94%BB%EF%BC%882%EF%BC%89-02.jpg" alt="AI绘画（2）-02"></p>
+<h2 id="通过网址安装">2.2. 通过网址安装</h2><ul>
+<li><p>点击<code>Extension</code>选项卡，点击<code>Install from URL</code>子选项卡</p>
+</li>
+<li><p>复制以下git仓库网址并粘贴进<code>URL栏</code>，点击<code>Install</code></p>
+</li>
+</ul>
+<pre class="line-numbers language-java" data-language="java"><code class="language-java">https<span class="token operator">:</span><span class="token operator">/</span><span class="token operator">/</span>github<span class="token punctuation">.</span>com<span class="token operator">/</span>dtlnor<span class="token operator">/</span>stable<span class="token operator">-</span>diffusion<span class="token operator">-</span>webui<span class="token operator">-</span>localization<span class="token operator">-</span>zh_CN<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2023/AI%E7%BB%98%E7%94%BB%EF%BC%882%EF%BC%89-03.jpg" alt="AI绘画（2）-03"></p>
+<h2 id="直接下载然后放在对应路径">2.3. 直接下载然后放在对应路径</h2><ul>
+<li><p>浏览器打开<a target="_blank" rel="noopener" href="https://github.com/dtlnor/stable-diffusion-webui-localization-zh_CN">stable diffusion webui简体中文翻译扩展git仓库</a></p>
+</li>
+<li><p>下载<code>git仓库</code>为<code>zip档案</code>。点击右侧下拉Code，点击<code>Download ZIP</code>。</p>
+</li>
+</ul>
+<p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2023/AI%E7%BB%98%E7%94%BB%EF%BC%882%EF%BC%89-04.jpg" alt="AI绘画（2）-04"></p>
+<ul>
+<li>解压，并把文件夹放置在根目录<code>stable-diffusion-webui</code>下的<code>extensions</code>文件夹中，放好之后应该会如下图</li>
+</ul>
+<p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2023/AI%E7%BB%98%E7%94%BB%EF%BC%882%EF%BC%89-05.jpg" alt="AI绘画（2）-05"></p>
+<h2 id="设置应用">2.4. 设置应用</h2><p>下载完成之后，确保扩展已经正确安装加载</p>
+<ul>
+<li>在<code>Extensions</code>选项卡，点击<code>Installed</code>子选项卡，确定已勾选本扩展️；如未勾选，勾选后点击左上角<code>Apply and restart UI</code>橙色按钮启用本扩展。</li>
+</ul>
+<p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2023/AI%E7%BB%98%E7%94%BB%EF%BC%882%EF%BC%89-06.jpg" alt="AI绘画（2）-06"></p>
+<p>选择简体中文语言包（zh_CN）</p>
+<ul>
+<li>在<code>Settings</code>选项卡中，找到<code>User interface</code>子选项卡</li>
+</ul>
+<p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2023/AI%E7%BB%98%E7%94%BB%EF%BC%882%EF%BC%89-07.jpg" alt="AI绘画（2）-07"></p>
+<ul>
+<li>下拉到页面最底部，找到<code>Localization (requires restart) </code>小项，在下拉选单中选中<code>zh_CN</code> （如果没有就按一下右侧刷新按钮），如图</li>
+</ul>
+<p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2023/AI%E7%BB%98%E7%94%BB%EF%BC%882%EF%BC%89-08.jpg" alt="AI绘画（2）-08"></p>
+<ul>
+<li>最后页面再拉到最上方，点击页面顶部左边的橙色<code>Apply settings</code>按钮保存设置，再点击右边的 橙色<code>Reload UI</code>按钮重启webUI。</li>
+</ul>
+<p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2023/AI%E7%BB%98%E7%94%BB%EF%BC%882%EF%BC%89-09.jpg" alt="AI绘画（2）-09"></p>
+<p>此时页面汉化设置生效。界面如下。</p>
+<p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2023/AI%E7%BB%98%E7%94%BB%EF%BC%882%EF%BC%89-10.jpg" alt="AI绘画（2）-10"></p>
+<h1 id="生成第一张AI作图">3. 生成第一张AI作图</h1><ul>
+<li>页面左侧选择要使用的模型。</li>
+</ul>
+<p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2023/AI%E7%BB%98%E7%94%BB%EF%BC%882%EF%BC%89-11.jpg" alt="AI绘画（2）-11"></p>
+<ul>
+<li>在<code>提示词（Prompt）</code>中填写想要的特征点。将根据你的文字描述生成你想要的图片。比如以下。</li>
+</ul>
+<pre class="line-numbers language-java" data-language="java"><code class="language-java">masterpiece<span class="token punctuation">,</span> best quality<span class="token punctuation">,</span> in spring<span class="token punctuation">,</span> <span class="token punctuation">[</span>moon<span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>cityscape<span class="token punctuation">}</span><span class="token punctuation">,</span> artbook<span class="token punctuation">,</span> illustration<span class="token punctuation">,</span> <span class="token punctuation">{</span><span class="token punctuation">{</span><span class="token number">1</span>girl<span class="token punctuation">}</span><span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token punctuation">{</span><span class="token punctuation">{</span><span class="token keyword">long</span> hair<span class="token punctuation">}</span><span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>blue hair<span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>curly_hair<span class="token punctuation">}</span><span class="token punctuation">,</span> side braid<span class="token punctuation">,</span> hair bow<span class="token punctuation">,</span> brown eyes<span class="token punctuation">,</span> <span class="token punctuation">{</span>revealing dress<span class="token punctuation">}</span><span class="token punctuation">,</span> cross<span class="token operator">-</span>laced_footwear<span class="token punctuation">,</span> head tilt<span class="token punctuation">,</span> arms_crossed<span class="token punctuation">,</span> <span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p>以上大概意思就是<br>大师作品，最好画质，春，月亮（减权），城市风景（加权1.1倍），艺术，插画，一个女孩（加权1.1倍），长发（加权1.21倍），蓝色头发（加权1.1倍），卷发（加权1.1倍），侧辫子，蝴蝶结，棕色眼睛，礼服长裙（加权1.1倍），系带靴，歪头，手交叉于胸前</p>
+<blockquote>
+<p>以上提示词是通过 <a target="_blank" rel="noopener" href="https://wolfchen.top/tag/">tag在线生成器</a> 生成的。</p>
+</blockquote>
+<ul>
+<li><code>反向提示词（Negative prompt）</code>里填不想要的特征点</li>
+</ul>
+<pre class="line-numbers language-java" data-language="java"><code class="language-java">bad anatomy<span class="token punctuation">,</span> bad hands<span class="token punctuation">,</span> error<span class="token punctuation">,</span> missing fingers<span class="token punctuation">,</span> extra digit<span class="token punctuation">,</span> fewer digits<span class="token punctuation">,</span> cropped<span class="token punctuation">,</span> worst quality<span class="token punctuation">,</span> low quality<span class="token punctuation">,</span> normal quality<span class="token punctuation">,</span> jpeg artifacts<span class="token punctuation">,</span> watermark<span class="token punctuation">,</span> blurry<span class="token punctuation">,</span> bad feet<span class="token punctuation">,</span> missing arms<span class="token punctuation">,</span> <span class="token keyword">long</span> neck<span class="token punctuation">,</span> humpbacked<span class="token punctuation">,</span> missing limb<span class="token punctuation">,</span> too many fingers<span class="token punctuation">,</span> mutated<span class="token punctuation">,</span> poorly drawn<span class="token punctuation">,</span> bad hands<span class="token punctuation">,</span> unclear eyes<span class="token punctuation">,</span> poorly drawn<span class="token punctuation">,</span> cloned face<span class="token punctuation">,</span> bad face<span class="token punctuation">,</span> part of the head<span class="token punctuation">,</span> mutated hands and fingers<span class="token punctuation">,</span> deformed<span class="token punctuation">,</span> disfigured<span class="token punctuation">,</span> poorly drawn face<span class="token punctuation">,</span> mutation<span class="token punctuation">,</span> extra limb<span class="token punctuation">,</span> ugly<span class="token punctuation">,</span> poorly drawn hands<span class="token punctuation">,</span> missing limb<span class="token punctuation">,</span> floating limbs<span class="token punctuation">,</span> disconnected limbs<span class="token punctuation">,</span> malformed hands<span class="token punctuation">,</span> blur<span class="token punctuation">,</span> out of focus<span class="token punctuation">,</span> <span class="token keyword">long</span> body<span class="token punctuation">,</span> ugly<span class="token punctuation">,</span> fat<span class="token punctuation">,</span> obese<span class="token punctuation">,</span> chubby<span class="token punctuation">,</span> deformed<span class="token punctuation">,</span> bad anatomy<span class="token punctuation">,</span> disfigured<span class="token punctuation">,</span> poorly drawn face<span class="token punctuation">,</span> mutation<span class="token punctuation">,</span> mutated<span class="token punctuation">,</span> extra_limb<span class="token punctuation">,</span> ugly<span class="token punctuation">,</span> poorly drawn hands<span class="token punctuation">,</span> messy drawing<span class="token punctuation">,</span><span class="token number">2</span>girls<span class="token punctuation">,</span> morbid<span class="token punctuation">,</span> mutilated<span class="token punctuation">,</span> tranny<span class="token punctuation">,</span> trans<span class="token punctuation">,</span> out of frame<span class="token punctuation">,</span> bad proportions<span class="token punctuation">,</span> unreal<span class="token punctuation">,</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p><code>反向提示词（Negative prompt）</code>是用文字描述你不希望在图像中出现的东西。大概意思就是排除一些负面标签，比如奇怪的手，奇怪的肢体，减少生成奇怪图片的几率。</p>
+<p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2023/AI%E7%BB%98%E7%94%BB%EF%BC%882%EF%BC%89-12.jpg" alt="AI绘画（2）-12"></p>
+<p>此时点击右侧<code>生成</code>按钮开始生成图片。如下。</p>
+<p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2023/AI%E7%BB%98%E7%94%BB%EF%BC%882%EF%BC%89-13.jpg" alt="AI绘画（2）-13"></p>
+<p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2023/AI%E7%BB%98%E7%94%BB%EF%BC%882%EF%BC%89-14.jpg" alt="AI绘画（2）-14"></p>
+<p>会发现手有点变形，或者脸部不匀称等问题。这需要使用其他的模型，或者使用插件等。</p>
+<h1 id="常用参数介绍">4. 常用参数介绍</h1><p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2023/AI%E7%BB%98%E7%94%BB%EF%BC%882%EF%BC%89-15.jpg" alt="AI绘画（2）-15"></p>
+<h2 id="Samplers-采样器">4.1. Samplers 采样器</h2><p>AI推演的算法。</p>
+<p>目前好用的有<code>Euler</code>，<code>Euler a（更细腻）</code>，和 <code>DDIM</code>。</p>
+<p>推荐 <code>Euler a</code> 和 <code>DDIM</code>，新手推荐使用 <code>Euler a</code></p>
+<p><code>Euler a</code> 富有创造力，不同步数可以生产出不同的图片。调太高步数 (&gt;30)效果不会更好。</p>
+<p><code>DDIM</code> 收敛快，但效率相对较低，因为需要很多step才能获得好的结果，适合在重绘时候使用</p>
+<p><code>LMS</code> 和 <code>PLMS</code> 是 <code>Euler</code>的衍生，它们使用一种相关但稍有不同的方法（平均过去的几个步骤以提高准确性）。大概 30 step 可以得到稳定结果</p>
+<p><code>PLMS</code> 是一种有效的 LMS（经典方法），可以更好地处理神经网络结构中的奇异性</p>
+<p><code>DPM2</code> 是一种神奇的方法，它旨在改进 DDIM，减少步骤以获得良好的结果。它需要每一步运行两次去噪，它的速度大约是 DDIM 的两倍。但是如果你在进行调试提示词的实验，这个采样器效果不怎么样</p>
+<p><code>Euler</code> 是最简单的，因此也是最快的之一</p>
+<h2 id="Sampling-steps-迭代步数">4.2. Sampling steps 迭代步数</h2><p>AI绘画的原理就是，先随机出一个噪声图片，然后一步步的调整图片，向你的<code>提示词Prompt</code>靠拢，<code>Sampling Steps</code>就是告诉AI，这样的步骤应该进行多少次。</p>
+<p>默认是20，步骤越多，每一步移动也就越小越精确,可能会有更好的生成效果，更多细节和锐化，同时也成比例增加生成图像所需要的时间。而在实际应用中，30 步和 50 步之间的差异几乎无法区分。</p>
+<p>太多的迭代步数也可能适得其反，几乎不会有提高。</p>
+<p>进行图生图的时候，正常情况下更弱的降噪强度需要更少的迭代步数(这是工作原理决定的)。你可以在设置里更改设置，让程序确切执行滑块指定的迭代步数。</p>
+<p>下图是同一个图从1step到20step，不同step时图像的变化。</p>
+<p>不同 Step 和 采样器 的不同效果示例：</p>
+<p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2023/AI%E7%BB%98%E7%94%BB%EF%BC%882%EF%BC%89-17.webp" alt="AI绘画（2）-17"></p>
+<p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2023/AI%E7%BB%98%E7%94%BB%EF%BC%882%EF%BC%89-18.webp" alt="AI绘画（2）-18"></p>
+<h2 id="注意尺寸">4.3. 注意尺寸</h2><p>出图尺寸太宽时，图中可能会出现多个主体。</p>
+<p>要匹配好姿势，镜头和人物才不畸形，有时候需要限定量词，多人物时要处理空间关系和 prompt 遮挡优先级。人数-&gt;人物样貌-&gt;环境样式-&gt;人物状态</p>
+<p>1024 之上的尺寸可能会出现不理想的结果！推荐使用 <code>小尺寸分辨率 + 高清修复</code></p>
+<h2 id="扩展选项">4.4. 扩展选项</h2><h3 id="Highres-fix-高清修复选项">4.4.1. Highres. fix 高清修复选项</h3><p>通过勾选 <code>txt2img（文生图）</code>页面上的 <code>Highres. fix</code> 复选框来启用。</p>
+<p>默认情况下，<code>txt2img（文生图）</code>在高分辨率下会生成非常混沌的图像。该选项会使得模型首先生成一张小图片，然后通过 <code>img2img</code> 将图片分辨率扩大，以实现高清大图效果。</p>
+<p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2023/AI%E7%BB%98%E7%94%BB%EF%BC%882%EF%BC%89-16.jpg" alt="AI绘画（2）-16"></p>
+<p>其他两个扩展选项，一般不需要勾选。</p>
+<h3 id="Restore-faces-面部修复">4.4.2. Restore faces 面部修复</h3><p>勾选后可以生成更真实的脸，第一次勾选使用时，需要先下载几个G的运行库。</p>
+<h3 id="Tiling-可平铺">4.4.3. Tiling 可平铺</h3><p>让图片可以平铺（类似瓷砖，生成的图案左右上下都可以无缝衔接上自己）</p>
+<h2 id="CFG-Scale-提示词相关性">4.5. CFG Scale 提示词相关性</h2><p><code>cfg scale</code>是图像与提示词的契合度，该值越高，提示词对最终生成结果的影响越大，契合度越高，但也会有越少的创意。越低，AI就越放飞自我，随心所欲的画。</p>
+<p>一般默认的<code>7</code>就可以。</p>
+<h2 id="Batch-Count-与-Batch-Size-生成批次和每批数量">4.6. Batch Count 与 Batch Size 生成批次和每批数量</h2><p><code>Batch Count（生成批次）</code> 指定共生成几个批次。<br><code>Batch Size（每批数量）</code>指定每个批次并行生产多少张图片。</p>
+<p>比如：<code>Batch count</code>设置为4,用时<code>N分钟*4</code>，生成4张图；<code>Batch count</code>设置为4,用时N分钟，生成4张图，但是同时需要的显存也是4倍。512X512大概需要3.75GB显存，4倍就是15GB显存了。</p>
+<p>大的 <code>Batch Size</code> 需要消耗巨量显存。若您的显卡没有超过 12G 的显存，请不要调节 <code>Batch Size</code>。</p>
+<p>而对于显存极大的显卡而言，一次生成一张图片无法充分利用显卡计算容量，此时可将 <code>Batch Size</code> 提高以充分压榨算力。</p>
+<h2 id="随机种子-seed">4.7. 随机种子 seed</h2><p>AI作画从原理上其实就是用一个随机的噪声图，反推回图像。但因为计算机里也没有真随机嘛，所以实际上，AI作画的起始噪声，是可以量化为一个种子数的。</p>
+<h2 id="Denoising-strength-降噪强度">4.8. Denoising strength 降噪强度</h2><p><code>Denoising strength</code> 仅在 <code>img2img（图生图）</code>或 <code>高清修复</code>时被应用，其表征最后生成图片对原始输入图像内容的变化程度。通过调整该值，可以降低对画风的影响，但也会弱化 img2img 能力。值越高 AI 对原图的参考程度就越低 (同时增加迭代次数)。</p>
+<p>对于图生图来说，低 denoising 意味着修正原图，高 denoising 就和原图就没有大的相关性了。一般来讲阈值是 0.7 左右，超过 0.7 和原图基本上无关，0.3 以下就是稍微改一些。</p>
+<p>实际执行中，具体的执行步骤为 Denoising strength * Sampling Steps。</p>
+<h1 id="致谢">5. 致谢</h1><p><a target="_blank" rel="noopener" href="https://github.com/dtlnor/stable-diffusion-webui-localization-zh_CN">stable-diffusion-webui-localization-zh_CN 简体中文翻译扩展-GitHub</a></p>
+<p><a target="_blank" rel="noopener" href="https://guide.novelai.dev/guide/configuration/param-basic">AiDraw-Ai绘画Wiki</a></p>
+<p><a target="_blank" rel="noopener" href="http://wolf.wjiangnan.com/tag/">NovelAI tag生成器 V2.1</a></p>
+
+                
+            </div>
+            <hr/>
+
+            
+
+    <div class="reprint" id="reprint-statement">
+        
+            <div class="reprint__author">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-user">
+                        文章作者:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="/about" rel="external nofollow noreferrer">Pamarus</a>
+                </span>
+            </div>
+            <div class="reprint__type">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-link">
+                        文章链接:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="https://pamarus.github.io/2023/02/27/ai-hui-hua-jie-shao-2-stable-diffusion-web-ui-sd-webui-de-she-zhi-yu-shi-yong/">https://pamarus.github.io/2023/02/27/ai-hui-hua-jie-shao-2-stable-diffusion-web-ui-sd-webui-de-she-zhi-yu-shi-yong/</a>
+                </span>
+            </div>
+            <div class="reprint__notice">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-copyright">
+                        版权声明:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    本博客所有文章除特別声明外，均采用
+                    <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>
+                    许可协议。转载请注明来源
+                    <a href="/about" target="_blank">Pamarus</a>
+                    !
+                </span>
+            </div>
+        
+    </div>
+
+    <script async defer>
+      document.addEventListener("copy", function (e) {
+        let toastHTML = '<span>复制成功，请遵循本文的转载规则</span><button class="btn-flat toast-action" onclick="navToReprintStatement()" style="font-size: smaller">查看</a>';
+        M.toast({html: toastHTML})
+      });
+
+      function navToReprintStatement() {
+        $("html, body").animate({scrollTop: $("#reprint-statement").offset().top - 80}, 800);
+      }
+    </script>
+
+
+
+            <div class="tag_share" style="display: block;">
+                <div class="post-meta__tag-list" style="display: inline-block;">
+                    
+                        <div class="article-tag">
+                            
+                                <a href="/tags/AI%E7%BB%98%E7%94%BB/">
+                                    <span class="chip bg-color">AI绘画</span>
+                                </a>
+                            
+                                <a href="/tags/Stable-Diffusion/">
+                                    <span class="chip bg-color">Stable Diffusion</span>
+                                </a>
+                            
+                                <a href="/tags/Web-UI/">
+                                    <span class="chip bg-color">Web UI</span>
+                                </a>
+                            
+                        </div>
+                    
+                </div>
+                <div class="post_share" style="zoom: 80%; width: fit-content; display: inline-block; float: right; margin: -0.15rem 0;">
+                    <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
+<div id="article-share">
+
+    
+    <div class="social-share" data-sites="twitter,facebook,google,qq,qzone,wechat,weibo,douban,linkedin" data-wechat-qrcode-helper="<p>微信扫一扫即可分享！</p>"></div>
+    <script src="/libs/share/js/social-share.min.js"></script>
+    
+
+    
+
+</div>
+
+                </div>
+            </div>
+            
+                <style>
+    #reward {
+        margin: 40px 0;
+        text-align: center;
+    }
+
+    #reward .reward-link {
+        font-size: 1.4rem;
+        line-height: 38px;
+    }
+
+    #reward .btn-floating:hover {
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2), 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    #rewardModal {
+        width: 320px;
+        height: 350px;
+    }
+
+    #rewardModal .reward-title {
+        margin: 15px auto;
+        padding-bottom: 5px;
+    }
+
+    #rewardModal .modal-content {
+        padding: 10px;
+    }
+
+    #rewardModal .close {
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        color: rgba(0, 0, 0, 0.5);
+        font-size: 1.3rem;
+        line-height: 20px;
+        cursor: pointer;
+    }
+
+    #rewardModal .close:hover {
+        color: #ef5350;
+        transform: scale(1.3);
+        -moz-transform:scale(1.3);
+        -webkit-transform:scale(1.3);
+        -o-transform:scale(1.3);
+    }
+
+    #rewardModal .reward-tabs {
+        margin: 0 auto;
+        width: 210px;
+    }
+
+    .reward-tabs .tabs {
+        height: 38px;
+        margin: 10px auto;
+        padding-left: 0;
+    }
+
+    .reward-content ul {
+        padding-left: 0 !important;
+    }
+
+    .reward-tabs .tabs .tab {
+        height: 38px;
+        line-height: 38px;
+    }
+
+    .reward-tabs .tab a {
+        color: #fff;
+        background-color: #ccc;
+    }
+
+    .reward-tabs .tab a:hover {
+        background-color: #ccc;
+        color: #fff;
+    }
+
+    .reward-tabs .wechat-tab .active {
+        color: #fff !important;
+        background-color: #22AB38 !important;
+    }
+
+    .reward-tabs .alipay-tab .active {
+        color: #fff !important;
+        background-color: #019FE8 !important;
+    }
+
+    .reward-tabs .reward-img {
+        width: 210px;
+        height: 210px;
+    }
+</style>
+
+<div id="reward">
+    <a href="#rewardModal" class="reward-link modal-trigger btn-floating btn-medium waves-effect waves-light red">赏</a>
+
+    <!-- Modal Structure -->
+    <div id="rewardModal" class="modal">
+        <div class="modal-content">
+            <a class="close modal-close"><i class="fas fa-times"></i></a>
+            <h4 class="reward-title">你的赏识是我前进的动力</h4>
+            <div class="reward-content">
+                <div class="reward-tabs">
+                    <ul class="tabs row">
+                        <li class="tab col s6 alipay-tab waves-effect waves-light"><a href="#alipay">支付宝</a></li>
+                        <li class="tab col s6 wechat-tab waves-effect waves-light"><a href="#wechat">微 信</a></li>
+                    </ul>
+                    <div id="alipay">
+                        <img src="/medias/reward/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
+                    </div>
+                    <div id="wechat">
+                        <img src="/medias/reward/wechat.jpg" class="reward-img" alt="微信打赏二维码">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(function () {
+        $('.tabs').tabs();
+    });
+</script>
+
+            
+        </div>
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+        <style>
+    .valine-card {
+        margin: 1.5rem auto;
+    }
+
+    .valine-card .card-content {
+        padding: 20px 20px 5px 20px;
+    }
+
+    #vcomments textarea {
+        box-sizing: border-box;
+        background: url("/medias/comment_bg.png") 100% 100% no-repeat;
+    }
+
+    #vcomments p {
+        margin: 2px 2px 10px;
+        font-size: 1.05rem;
+        line-height: 1.78rem;
+    }
+
+    #vcomments blockquote p {
+        text-indent: 0.2rem;
+    }
+
+    #vcomments a {
+        padding: 0 2px;
+        color: #4cbf30;
+        font-weight: 500;
+        text-decoration: none;
+    }
+
+    #vcomments img {
+        max-width: 100%;
+        height: auto;
+        cursor: pointer;
+    }
+
+    #vcomments ol li {
+        list-style-type: decimal;
+    }
+
+    #vcomments ol,
+    ul {
+        display: block;
+        padding-left: 2em;
+        word-spacing: 0.05rem;
+    }
+
+    #vcomments ul li,
+    ol li {
+        display: list-item;
+        line-height: 1.8rem;
+        font-size: 1rem;
+    }
+
+    #vcomments ul li {
+        list-style-type: disc;
+    }
+
+    #vcomments ul ul li {
+        list-style-type: circle;
+    }
+
+    #vcomments table, th, td {
+        padding: 12px 13px;
+        border: 1px solid #dfe2e5;
+    }
+
+    #vcomments table, th, td {
+        border: 0;
+    }
+
+    table tr:nth-child(2n), thead {
+        background-color: #fafafa;
+    }
+
+    #vcomments table th {
+        background-color: #f2f2f2;
+        min-width: 80px;
+    }
+
+    #vcomments table td {
+        min-width: 80px;
+    }
+
+    #vcomments h1 {
+        font-size: 1.85rem;
+        font-weight: bold;
+        line-height: 2.2rem;
+    }
+
+    #vcomments h2 {
+        font-size: 1.65rem;
+        font-weight: bold;
+        line-height: 1.9rem;
+    }
+
+    #vcomments h3 {
+        font-size: 1.45rem;
+        font-weight: bold;
+        line-height: 1.7rem;
+    }
+
+    #vcomments h4 {
+        font-size: 1.25rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+
+    #vcomments h5 {
+        font-size: 1.1rem;
+        font-weight: bold;
+        line-height: 1.4rem;
+    }
+
+    #vcomments h6 {
+        font-size: 1rem;
+        line-height: 1.3rem;
+    }
+
+    #vcomments p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    #vcomments hr {
+        margin: 12px 0;
+        border: 0;
+        border-top: 1px solid #ccc;
+    }
+
+    #vcomments blockquote {
+        margin: 15px 0;
+        border-left: 5px solid #42b983;
+        padding: 1rem 0.8rem 0.3rem 0.8rem;
+        color: #666;
+        background-color: rgba(66, 185, 131, .1);
+    }
+
+    #vcomments pre {
+        font-family: monospace, monospace;
+        padding: 1.2em;
+        margin: .5em 0;
+        background: #272822;
+        overflow: auto;
+        border-radius: 0.3em;
+        tab-size: 4;
+    }
+
+    #vcomments code {
+        font-family: monospace, monospace;
+        padding: 1px 3px;
+        font-size: 0.92rem;
+        color: #e96900;
+        background-color: #f8f8f8;
+        border-radius: 2px;
+    }
+
+    #vcomments pre code {
+        font-family: monospace, monospace;
+        padding: 0;
+        color: #e8eaf6;
+        background-color: #272822;
+    }
+
+    #vcomments pre[class*="language-"] {
+        padding: 1.2em;
+        margin: .5em 0;
+    }
+
+    #vcomments code[class*="language-"],
+    pre[class*="language-"] {
+        color: #e8eaf6;
+    }
+
+    #vcomments [type="checkbox"]:not(:checked), [type="checkbox"]:checked {
+        position: inherit;
+        margin-left: -1.3rem;
+        margin-right: 0.4rem;
+        margin-top: -1px;
+        vertical-align: middle;
+        left: unset;
+        visibility: visible;
+    }
+
+    #vcomments b,
+    strong {
+        font-weight: bold;
+    }
+
+    #vcomments dfn {
+        font-style: italic;
+    }
+
+    #vcomments small {
+        font-size: 85%;
+    }
+
+    #vcomments cite {
+        font-style: normal;
+    }
+
+    #vcomments mark {
+        background-color: #fcf8e3;
+        padding: .2em;
+    }
+
+    #vcomments table, th, td {
+        padding: 12px 13px;
+        border: 1px solid #dfe2e5;
+    }
+
+    table tr:nth-child(2n), thead {
+        background-color: #fafafa;
+    }
+
+    #vcomments table th {
+        background-color: #f2f2f2;
+        min-width: 80px;
+    }
+
+    #vcomments table td {
+        min-width: 80px;
+    }
+
+    #vcomments [type="checkbox"]:not(:checked), [type="checkbox"]:checked {
+        position: inherit;
+        margin-left: -1.3rem;
+        margin-right: 0.4rem;
+        margin-top: -1px;
+        vertical-align: middle;
+        left: unset;
+        visibility: visible;
+    }
+</style>
+
+<div class="card valine-card" data-aos="fade-up">
+    <div class="comment_headling" style="font-size: 20px; font-weight: 700; position: relative; padding-left: 20px; top: 15px; padding-bottom: 5px;">
+        <i class="fas fa-comments fa-fw" aria-hidden="true"></i>
+        <span>评论</span>
+    </div>
+    <div id="vcomments" class="card-content" style="display: grid">
+    </div>
+</div>
+
+<script src="/libs/valine/av-min.js"></script>
+<script src="/libs/valine/Valine.min.js"></script>
+<script>
+    new Valine({
+        el: '#vcomments',
+        appId: 'vCxd4oXYJzOu37v6KrMbe5Gr-gzGzoHsz',
+        appKey: 'yaXgQSNqpmIFAoRQszUEmyz4',
+        notify: 'false' === 'true',
+        verify: 'false' === 'true',
+        visitor: 'true' === 'true',
+        avatar: 'mm',
+        pageSize: '10',
+        lang: 'zh-cn',
+        placeholder: '留下你的真知灼见....'
+    });
+</script>
+
+    
+
+    
+
+    
+
+    
+
+<article id="prenext-posts" class="prev-next articles">
+    <div class="row article-row">
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge left-badge text-color">
+                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+            <div class="card">
+                <a href="/2023/03/01/chatgpt-4.0-new-bing-xin-bi-ying-nei-ce-zi-ge-shen-qing-jiao-cheng/">
+                    <div class="card-image">
+                        
+                        <img src="/medias/featureimages/New-Bing.png" class="responsive-img" alt="ChatGPT 4.0 - New Bing新必应内测资格申请教程">
+                        
+                        <span class="card-title">ChatGPT 4.0 - New Bing新必应内测资格申请教程</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            New Bing内测资格申请方法
+                        
+                    </div>
+                    <div class="publish-info">
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2023-03-01
+                        </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/" class="post-category">
+                                    编程语言
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/ChatGPT/">
+                        <span class="chip bg-color">ChatGPT</span>
+                    </a>
+                    
+                    <a href="/tags/New-Bing/">
+                        <span class="chip bg-color">New Bing</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/2023/02/24/ai-hui-hua-jie-shao-1-zai-mac-huan-jing-xia-pei-zhi-bing-yun-xing-stable-diffusion-web-ui-sd-webui/">
+                    <div class="card-image">
+                        
+                        <img src="/medias/featureimages/Stable-Diffusion.png" class="responsive-img" alt="AI绘画介绍（1）：在Mac环境下配置并运行Stable Diffusion Web UI（SD WebUI）">
+                        
+                        <span class="card-title">AI绘画介绍（1）：在Mac环境下配置并运行Stable Diffusion Web UI（SD WebUI）</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2023-02-24
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/" class="post-category">
+                                    编程语言
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/AI%E7%BB%98%E7%94%BB/">
+                        <span class="chip bg-color">AI绘画</span>
+                    </a>
+                    
+                    <a href="/tags/Stable-Diffusion/">
+                        <span class="chip bg-color">Stable Diffusion</span>
+                    </a>
+                    
+                    <a href="/tags/Web-UI/">
+                        <span class="chip bg-color">Web UI</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+</article>
+
+</div>
+
+
+<script>
+    $('#articleContent').on('copy', function (e) {
+        // IE8 or earlier browser is 'undefined'
+        if (typeof window.getSelection === 'undefined') return;
+
+        var selection = window.getSelection();
+        // if the selection is short let's not annoy our users.
+        if (('' + selection).length < Number.parseInt('120')) {
+            return;
+        }
+
+        // create a div outside of the visible area and fill it with the selected text.
+        var bodyElement = document.getElementsByTagName('body')[0];
+        var newdiv = document.createElement('div');
+        newdiv.style.position = 'absolute';
+        newdiv.style.left = '-99999px';
+        bodyElement.appendChild(newdiv);
+        newdiv.appendChild(selection.getRangeAt(0).cloneContents());
+
+        // we need a <pre> tag workaround.
+        // otherwise the text inside "pre" loses all the line breaks!
+        if (selection.getRangeAt(0).commonAncestorContainer.nodeName === 'PRE') {
+            newdiv.innerHTML = "<pre>" + newdiv.innerHTML + "</pre>";
+        }
+
+        var url = document.location.href;
+        newdiv.innerHTML += '<br />'
+            + '来源: Pamarus<br />'
+            + '文章作者: Pamarus<br />'
+            + '文章链接: <a href="' + url + '">' + url + '</a><br />'
+            + '本文章著作权归作者所有，任何形式的转载都请注明出处。';
+
+        selection.selectAllChildren(newdiv);
+        window.setTimeout(function () {bodyElement.removeChild(newdiv);}, 200);
+    });
+</script>
+
+
+<!-- 代码块功能依赖 -->
+<script type="text/javascript" src="/libs/codeBlock/codeBlockFuction.js"></script>
+
+<!-- 代码语言 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeLang.js"></script>
+
+
+<!-- 代码块复制 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeCopy.js"></script>
+
+
+<!-- 代码块收缩 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeShrink.js"></script>
+
+
+    </div>
+    <div id="toc-aside" class="expanded col l3 hide-on-med-and-down">
+        <div class="toc-widget card" style="background-color: white;">
+            <div class="toc-title"><i class="far fa-list-alt"></i>&nbsp;&nbsp;目录</div>
+            <div id="toc-content"></div>
+        </div>
+    </div>
+</div>
+
+<!-- TOC 悬浮按钮. -->
+
+<div id="floating-toc-btn" class="hide-on-med-and-down">
+    <a class="btn-floating btn-large bg-color">
+        <i class="fas fa-list-ul"></i>
+    </a>
+</div>
+
+
+<script src="/libs/tocbot/tocbot.min.js"></script>
+<script>
+    $(function () {
+        tocbot.init({
+            tocSelector: '#toc-content',
+            contentSelector: '#articleContent',
+            headingsOffset: -($(window).height() * 0.4 - 45),
+            collapseDepth: Number('1'),
+            headingSelector: 'h1, h2, h3, h4, h5, h6'
+        });
+
+        // modify the toc link href to support Chinese.
+        let i = 0;
+        let tocHeading = 'toc-heading-';
+        $('#toc-content a').each(function () {
+            $(this).attr('href', '#' + tocHeading + (++i));
+        });
+
+        // modify the heading title id to support Chinese.
+        i = 0;
+        $('#articleContent').children('h1, h2, h3, h4, h5, h6').each(function () {
+            $(this).attr('id', tocHeading + (++i));
+        });
+
+        // Set scroll toc fixed.
+        let tocHeight = parseInt($(window).height() * 0.4 - 64);
+        let $tocWidget = $('.toc-widget');
+        $(window).scroll(function () {
+            let scroll = $(window).scrollTop();
+            /* add post toc fixed. */
+            if (scroll > tocHeight) {
+                $tocWidget.addClass('toc-fixed');
+            } else {
+                $tocWidget.removeClass('toc-fixed');
+            }
+        });
+
+        
+        /* 修复文章卡片 div 的宽度. */
+        let fixPostCardWidth = function (srcId, targetId) {
+            let srcDiv = $('#' + srcId);
+            if (srcDiv.length === 0) {
+                return;
+            }
+
+            let w = srcDiv.width();
+            if (w >= 450) {
+                w = w + 21;
+            } else if (w >= 350 && w < 450) {
+                w = w + 18;
+            } else if (w >= 300 && w < 350) {
+                w = w + 16;
+            } else {
+                w = w + 14;
+            }
+            $('#' + targetId).width(w);
+        };
+
+        // 切换TOC目录展开收缩的相关操作.
+        const expandedClass = 'expanded';
+        let $tocAside = $('#toc-aside');
+        let $mainContent = $('#main-content');
+        $('#floating-toc-btn .btn-floating').click(function () {
+            if ($tocAside.hasClass(expandedClass)) {
+                $tocAside.removeClass(expandedClass).hide();
+                $mainContent.removeClass('l9');
+            } else {
+                $tocAside.addClass(expandedClass).show();
+                $mainContent.addClass('l9');
+            }
+            fixPostCardWidth('artDetail', 'prenext-posts');
+        });
+        
+    });
+</script>
+
+    
+
+</main>
+
+
+<script src="https://cdn.bootcss.com/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script>
+    MathJax.Hub.Config({
+        tex2jax: {inlineMath: [['$', '$'], ['\(', '\)']]}
+    });
+</script>
+
+
+
+    <footer class="page-footer bg-color">
+    
+        <link rel="stylesheet" href="/libs/aplayer/APlayer.min.css">
+<style>
+    .aplayer .aplayer-lrc p {
+        
+        display: none;
+        
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 16px !important;
+    }
+
+    .aplayer .aplayer-lrc p.aplayer-lrc-current {
+        
+        display: none;
+        
+        font-size: 15px;
+        color: #42b983;
+    }
+
+    
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
+        left: -66px !important;
+    }
+
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
+        left: 0px !important;
+    }
+
+    
+</style>
+<div class="">
+    
+    <div class="row">
+        <meting-js class="col l8 offset-l2 m10 offset-m1 s12"
+                   server="tencent"
+                   type="playlist"
+                   id="8531534288"
+                   fixed='true'
+                   autoplay='false'
+                   theme='#42b983'
+                   loop='all'
+                   order='random'
+                   preload='auto'
+                   volume='0.2'
+                   list-folded='true'
+        >
+        </meting-js>
+    </div>
+</div>
+
+<script src="/libs/aplayer/APlayer.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+
+    
+    <div class="container row center-align" style="margin-bottom: 15px !important;">
+        <div class="col s12 m8 l8 copy-right">
+            Copyright&nbsp;&copy;
+            
+                <span id="year">2020-2023</span>
+            
+            <span id="year">2020</span>
+            <a href="/about" target="_blank">Pamarus</a>
+            |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
+            |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
+            <br>
+            
+            &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
+                class="white-color">56.4k</span>&nbsp;字
+            
+            
+            
+            
+            
+            
+            <span id="busuanzi_container_site_pv">
+                |&nbsp;<i class="far fa-eye"></i>&nbsp;总访问量:&nbsp;<span id="busuanzi_value_site_pv"
+                    class="white-color"></span>&nbsp;次
+            </span>
+            
+            
+            <span id="busuanzi_container_site_uv">
+                |&nbsp;<i class="fas fa-users"></i>&nbsp;总访问人数:&nbsp;<span id="busuanzi_value_site_uv"
+                    class="white-color"></span>&nbsp;人
+            </span>
+            
+            <br>
+            
+            <span id="sitetime">载入运行时间...</span>
+            <script>
+                function siteTime() {
+                    var seconds = 1000;
+                    var minutes = seconds * 60;
+                    var hours = minutes * 60;
+                    var days = hours * 24;
+                    var years = days * 365;
+                    var today = new Date();
+                    var startYear = "2020";
+                    var startMonth = "4";
+                    var startDate = "30";
+                    var startHour = "0";
+                    var startMinute = "0";
+                    var startSecond = "0";
+                    var todayYear = today.getFullYear();
+                    var todayMonth = today.getMonth() + 1;
+                    var todayDate = today.getDate();
+                    var todayHour = today.getHours();
+                    var todayMinute = today.getMinutes();
+                    var todaySecond = today.getSeconds();
+                    var t1 = Date.UTC(startYear, startMonth, startDate, startHour, startMinute, startSecond);
+                    var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond);
+                    var diff = t2 - t1;
+                    var diffYears = Math.floor(diff / years);
+                    var diffDays = Math.floor((diff / days) - diffYears * 365);
+                    var diffHours = Math.floor((diff - (diffYears * 365 + diffDays) * days) / hours);
+                    var diffMinutes = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours) /
+                        minutes);
+                    var diffSeconds = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours -
+                        diffMinutes * minutes) / seconds);
+                    if (startYear == todayYear) {
+                        document.getElementById("year").innerHTML = todayYear;
+                        document.getElementById("sitetime").innerHTML = "本站已安全运行 " + diffDays + " 天 " + diffHours +
+                            " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
+                    } else {
+                        document.getElementById("year").innerHTML = startYear + " - " + todayYear;
+                        document.getElementById("sitetime").innerHTML = "本站已安全运行 " + diffYears + " 年 " + diffDays +
+                            " 天 " + diffHours + " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
+                    }
+                }
+                setInterval(siteTime, 1000);
+            </script>
+            
+            <br>
+            
+        </div>
+        <div class="col s12 m4 l4 social-link social-statis">
+    <a href="https://github.com/pamarus/" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
+        <i class="fab fa-github"></i>
+    </a>
+
+
+
+    <a href="mailto:jiaqi0725@gmail.com" class="tooltipped" target="_blank" data-tooltip="Email联系我：jiaqi0725@gmail.com" data-position="top" data-delay="50">
+        <i class="fas fa-envelope-open"></i>
+    </a>
+
+
+
+
+
+
+
+    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=572753425" class="tooltipped" target="_blank" data-tooltip="QQ联系我: 572753425" data-position="top" data-delay="50">
+        <i class="fab fa-qq"></i>
+    </a>
+
+
+
+
+
+
+
+</div>
+    </div>
+</footer>
+
+<div class="progress-bar"></div>
+
+
+    <!-- 搜索遮罩框 -->
+<div id="searchModal" class="modal">
+    <div class="modal-content">
+        <div class="search-header">
+            <span class="title"><i class="fas fa-search"></i>&nbsp;&nbsp;搜索</span>
+            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字"
+                   class="search-input">
+        </div>
+        <div id="searchResult"></div>
+    </div>
+</div>
+
+<script type="text/javascript">
+$(function () {
+    var searchFunc = function (path, search_id, content_id) {
+        'use strict';
+        $.ajax({
+            url: path,
+            dataType: "xml",
+            success: function (xmlResponse) {
+                // get the contents from search data
+                var datas = $("entry", xmlResponse).map(function () {
+                    return {
+                        title: $("title", this).text(),
+                        content: $("content", this).text(),
+                        url: $("url", this).text()
+                    };
+                }).get();
+                var $input = document.getElementById(search_id);
+                var $resultContent = document.getElementById(content_id);
+                $input.addEventListener('input', function () {
+                    var str = '<ul class=\"search-result-list\">';
+                    var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
+                    $resultContent.innerHTML = "";
+                    if (this.value.trim().length <= 0) {
+                        return;
+                    }
+                    // perform local searching
+                    datas.forEach(function (data) {
+                        var isMatch = true;
+                        var data_title = data.title.trim().toLowerCase();
+                        var data_content = data.content.trim().replace(/<[^>]+>/g, "").toLowerCase();
+                        var data_url = data.url;
+                        data_url = data_url.indexOf('/') === 0 ? data.url : '/' + data_url;
+                        var index_title = -1;
+                        var index_content = -1;
+                        var first_occur = -1;
+                        // only match artiles with not empty titles and contents
+                        if (data_title !== '' && data_content !== '') {
+                            keywords.forEach(function (keyword, i) {
+                                index_title = data_title.indexOf(keyword);
+                                index_content = data_content.indexOf(keyword);
+                                if (index_title < 0 && index_content < 0) {
+                                    isMatch = false;
+                                } else {
+                                    if (index_content < 0) {
+                                        index_content = 0;
+                                    }
+                                    if (i === 0) {
+                                        first_occur = index_content;
+                                    }
+                                }
+                            });
+                        }
+                        // show search results
+                        if (isMatch) {
+                            str += "<li><a href='" + data_url + "' class='search-result-title'>" + data_title + "</a>";
+                            var content = data.content.trim().replace(/<[^>]+>/g, "");
+                            if (first_occur >= 0) {
+                                // cut out 100 characters
+                                var start = first_occur - 20;
+                                var end = first_occur + 80;
+                                if (start < 0) {
+                                    start = 0;
+                                }
+                                if (start === 0) {
+                                    end = 100;
+                                }
+                                if (end > content.length) {
+                                    end = content.length;
+                                }
+                                var match_content = content.substr(start, end);
+                                // highlight all keywords
+                                keywords.forEach(function (keyword) {
+                                    var regS = new RegExp(keyword, "gi");
+                                    match_content = match_content.replace(regS, "<em class=\"search-keyword\">" + keyword + "</em>");
+                                });
+
+                                str += "<p class=\"search-result\">" + match_content + "...</p>"
+                            }
+                            str += "</li>";
+                        }
+                    });
+                    str += "</ul>";
+                    $resultContent.innerHTML = str;
+                });
+            }
+        });
+    };
+
+    searchFunc('/search.xml', 'searchInput', 'searchResult');
+});
+</script>
+
+    <!-- 回到顶部按钮 -->
+<div id="backTop" class="top-scroll">
+    <a class="btn-floating btn-large waves-effect waves-light" href="#!">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+</div>
+
+
+    <script src="/libs/materialize/materialize.min.js"></script>
+    <script src="/libs/masonry/masonry.pkgd.min.js"></script>
+    <script src="/libs/aos/aos.js"></script>
+    <script src="/libs/scrollprogress/scrollProgress.min.js"></script>
+    <script src="/libs/lightGallery/js/lightgallery-all.min.js"></script>
+    <script src="/js/matery.js"></script>
+
+    <!-- Baidu Analytics -->
+
+    <!-- Baidu Push -->
+
+<script>
+    (function () {
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        } else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script>
+
+    
+    <script src="/libs/others/clicklove.js" async="async"></script>
+    
+    
+    <script async src="/libs/others/busuanzi.pure.mini.js"></script>
+    
+
+    
+
+    
+
+	
+    
+
+    
+
+    
+
+    
+    <script src="/libs/instantpage/instantpage.js" type="module"></script>
+    
+
+    <script type="text/javascript"> var OriginTitile = document.title, st; document.addEventListener("visibilitychange", function () { document.hidden ? (document.title = "Σ(‐◔◡◔‐)っ回来看看哟!", clearTimeout(st)) : (document.title = "φ(ˆ▽ˆ)♪你好啊", st = setTimeout(function () { document.title = OriginTitile }, 3e3)) })
+    </script>
+
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/live2dw/assets/hijiki.model.json"},"display":{"position":"right","width":150,"height":300},"mobile":{"show":true},"react":{"opacity":0.7}});</script></body>
+
+</html>

@@ -20,7 +20,25 @@
   </url>
   
   <url>
-    <loc>https://pamarus.github.io/2023/03/01/chatgpt-4.0-new-bing-shen-qing/</loc>
+    <loc>https://pamarus.github.io/2023/03/01/chatgpt-4.0-new-bing-xin-bi-ying-nei-ce-zi-ge-shen-qing-jiao-cheng/</loc>
+    
+    <lastmod>2023-03-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pamarus.github.io/2023/02/27/ai-hui-hua-jie-shao-2-stable-diffusion-web-ui-sd-webui-de-she-zhi-yu-shi-yong/</loc>
+    
+    <lastmod>2023-03-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pamarus.github.io/2023/02/24/ai-hui-hua-jie-shao-1-zai-mac-huan-jing-xia-pei-zhi-bing-yun-xing-stable-diffusion-web-ui-sd-webui/</loc>
     
     <lastmod>2023-03-03</lastmod>
     
@@ -884,6 +902,27 @@
   
   <url>
     <loc>https://pamarus.github.io/tags/New-Bing/</loc>
+    <lastmod>2023-03-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://pamarus.github.io/tags/AI%E7%BB%98%E7%94%BB/</loc>
+    <lastmod>2023-03-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://pamarus.github.io/tags/Stable-Diffusion/</loc>
+    <lastmod>2023-03-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://pamarus.github.io/tags/Web-UI/</loc>
     <lastmod>2023-03-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
