@@ -1,0 +1,1839 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="AE,音视频剪辑,AE面板">
+    <meta name="description" content="Thinking Hacks">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="renderer" content="webkit|ie-stand|ie-comp">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+    <title>AE学习记录（02）：AE面板介绍 | Pamarus</title>
+    <link rel="icon" type="image/png" href="/favicon.png">
+
+    <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
+    <link rel="stylesheet" type="text/css" href="/libs/materialize/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/aos/aos.css">
+    <link rel="stylesheet" type="text/css" href="/libs/animate/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/matery.css">
+    <link rel="stylesheet" type="text/css" href="/css/my.css">
+
+    <script src="/libs/jquery/jquery.min.js"></script>
+
+<meta name="generator" content="Hexo 6.2.0"><link rel="alternate" href="/atom.xml" title="Pamarus" type="application/atom+xml">
+
+<style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+</head>
+
+
+
+
+<body>
+    <!-- 雪花特效 -->
+    
+    <script type="text/javascript" src="/libs/others/snow.js"></script>
+    
+    
+    <header class="navbar-fixed">
+    <nav id="headNav" class="bg-color nav-transparent">
+        <div id="navContainer" class="nav-wrapper container">
+            <div class="brand-logo">
+                <a href="/" class="waves-effect waves-light">
+                    
+                    <img src="/medias/logo.png" class="logo-img" alt="LOGO">
+                    
+                    <span class="logo-span">Pamarus</span>
+                </a>
+            </div>
+            
+
+<a href="#" data-target="mobile-nav" class="sidenav-trigger button-collapse"><i class="fas fa-bars"></i></a>
+<ul class="right nav-menu">
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/" class="waves-effect waves-light">
+      
+      <i class="fas fa-home" style="zoom: 0.6;"></i>
+      
+      <span>首页</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/tags" class="waves-effect waves-light">
+      
+      <i class="fas fa-tags" style="zoom: 0.6;"></i>
+      
+      <span>标签</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/categories" class="waves-effect waves-light">
+      
+      <i class="fas fa-bookmark" style="zoom: 0.6;"></i>
+      
+      <span>分类</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/archives" class="waves-effect waves-light">
+      
+      <i class="fas fa-archive" style="zoom: 0.6;"></i>
+      
+      <span>归档</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/about" class="waves-effect waves-light">
+      
+      <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
+      
+      <span>关于</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/contact" class="waves-effect waves-light">
+      
+      <i class="fas fa-comments" style="zoom: 0.6;"></i>
+      
+      <span>留言板</span>
+    </a>
+    
+  </li>
+  
+  <li>
+    <a href="#searchModal" class="modal-trigger waves-effect waves-light">
+      <i id="searchIcon" class="fas fa-search" title="搜索" style="zoom: 0.85;"></i>
+    </a>
+  </li>
+</ul>
+
+
+<div id="mobile-nav" class="side-nav sidenav">
+
+    <div class="mobile-head bg-color">
+        
+        <img src="/medias/logo.png" class="logo-img circle responsive-img">
+        
+        <div class="logo-name">Pamarus</div>
+        <div class="logo-desc">
+            
+            Thinking Hacks
+            
+        </div>
+    </div>
+
+    
+
+    <ul class="menu-list mobile-menu-list">
+        
+        <li class="m-nav-item">
+	  
+		<a href="/" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-home"></i>
+			
+			首页
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/tags" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-tags"></i>
+			
+			标签
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/categories" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-bookmark"></i>
+			
+			分类
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/archives" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-archive"></i>
+			
+			归档
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/about" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-user-circle"></i>
+			
+			关于
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/contact" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-comments"></i>
+			
+			留言板
+		</a>
+          
+        </li>
+        
+        
+        <li><div class="divider"></div></li>
+        <li>
+            <a href="https://github.com/pamarus/" class="waves-effect waves-light" target="_blank">
+                <i class="fab fa-github-square fa-fw"></i>Fork Me
+            </a>
+        </li>
+        
+    </ul>
+</div>
+
+
+        </div>
+
+        
+            <style>
+    .nav-transparent .github-corner {
+        display: none !important;
+    }
+
+    .github-corner {
+        position: absolute;
+        z-index: 10;
+        top: 0;
+        right: 0;
+        border: 0;
+        transform: scale(1.1);
+    }
+
+    .github-corner svg {
+        color: #0f9d58;
+        fill: #fff;
+        height: 64px;
+        width: 64px;
+    }
+
+    .github-corner:hover .octo-arm {
+        animation: a 0.56s ease-in-out;
+    }
+
+    .github-corner .octo-arm {
+        animation: none;
+    }
+
+    @keyframes a {
+        0%,
+        to {
+            transform: rotate(0);
+        }
+        20%,
+        60% {
+            transform: rotate(-25deg);
+        }
+        40%,
+        80% {
+            transform: rotate(10deg);
+        }
+    }
+</style>
+
+<a href="https://github.com/pamarus/" class="github-corner tooltipped hide-on-med-and-down" target="_blank"
+   data-tooltip="Fork Me" data-position="left" data-delay="50">
+    <svg viewBox="0 0 250 250" aria-hidden="true">
+        <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+        <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
+              fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
+        <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
+              fill="currentColor" class="octo-body"></path>
+    </svg>
+</a>
+        
+    </nav>
+
+</header>
+
+    
+<script src="/libs/cryptojs/crypto-js.min.js"></script>
+<script>
+    (function() {
+        let pwd = '';
+        if (pwd && pwd.length > 0) {
+            if (pwd !== CryptoJS.SHA256(prompt('你的通行证呢，点击此处输入试试噢🫣')).toString(CryptoJS.enc.Hex)) {
+                alert('通行证看着不太对，再试试噢🤔');
+                location.href = '/';
+            }
+        }
+    })();
+</script>
+
+
+
+
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/AE.png')">
+    <div class="container" style="right: 0px;left: 0px;">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="brand">
+                    <h1 class="description center-align post-title">AE学习记录（02）：AE面板介绍</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<main class="post-container content">
+
+    
+    <link rel="stylesheet" href="/libs/tocbot/tocbot.css">
+<style>
+    #articleContent h1::before,
+    #articleContent h2::before,
+    #articleContent h3::before,
+    #articleContent h4::before,
+    #articleContent h5::before,
+    #articleContent h6::before {
+        display: block;
+        content: " ";
+        height: 100px;
+        margin-top: -100px;
+        visibility: hidden;
+    }
+
+    #articleContent :focus {
+        outline: none;
+    }
+
+    .toc-fixed {
+        position: fixed;
+        top: 64px;
+    }
+
+    .toc-widget {
+        width: 345px;
+        padding-left: 20px;
+    }
+
+    .toc-widget .toc-title {
+        padding: 35px 0 15px 17px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+
+    .toc-widget ol {
+        padding: 0;
+        list-style: none;
+    }
+
+    #toc-content {
+        padding-bottom: 30px;
+        overflow: auto;
+    }
+
+    #toc-content ol {
+        padding-left: 10px;
+    }
+
+    #toc-content ol li {
+        padding-left: 10px;
+    }
+
+    #toc-content .toc-link:hover {
+        color: #42b983;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+
+    #toc-content .toc-link::before {
+        background-color: transparent;
+        max-height: 25px;
+
+        position: absolute;
+        right: 23.5vw;
+        display: block;
+    }
+
+    #toc-content .is-active-link {
+        color: #42b983;
+    }
+
+    #floating-toc-btn {
+        position: fixed;
+        right: 15px;
+        bottom: 76px;
+        padding-top: 15px;
+        margin-bottom: 0;
+        z-index: 998;
+    }
+
+    #floating-toc-btn .btn-floating {
+        width: 48px;
+        height: 48px;
+    }
+
+    #floating-toc-btn .btn-floating i {
+        line-height: 48px;
+        font-size: 1.4rem;
+    }
+</style>
+<div class="row">
+    <div id="main-content" class="col s12 m12 l9">
+        <!-- 文章内容详情 -->
+<div id="artDetail">
+    <div class="card">
+        <div class="card-content article-info">
+            <div class="row tag-cate">
+                <div class="col s7">
+                    
+                    <div class="article-tag">
+                        
+                            <a href="/tags/%E9%9F%B3%E8%A7%86%E9%A2%91%E5%89%AA%E8%BE%91/">
+                                <span class="chip bg-color">音视频剪辑</span>
+                            </a>
+                        
+                            <a href="/tags/AE/">
+                                <span class="chip bg-color">AE</span>
+                            </a>
+                        
+                            <a href="/tags/AE%E9%9D%A2%E6%9D%BF/">
+                                <span class="chip bg-color">AE面板</span>
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+                <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/%E8%A7%86%E9%A2%91%E5%89%AA%E8%BE%91/" class="post-category">
+                                视频剪辑
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="post-info">
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
+                    2019-07-16
+                </div>
+                
+
+                
+
+                
+                <div class="info-break-policy">
+                    <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
+                    4.1k
+                </div>
+                
+
+                
+                <div class="info-break-policy">
+                    <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
+                    14 分
+                </div>
+                
+
+                
+                    <div id="busuanzi_container_page_pv" class="info-break-policy">
+                        <i class="far fa-eye fa-fw"></i>阅读次数:&nbsp;&nbsp;
+                        <span id="busuanzi_value_page_pv"></span>
+                    </div>
+				
+            </div>
+        </div>
+        <hr class="clearfix">
+
+        
+        <!-- 是否加载使用自带的 prismjs. -->
+        <link rel="stylesheet" href="/libs/prism/prism.css">
+        
+
+        
+        <!-- 代码块折行 -->
+        <style type="text/css">
+            code[class*="language-"], pre[class*="language-"] { white-space: pre-wrap !important; }
+        </style>
+        
+
+        <div class="card-content article-card-content">
+            <div id="articleContent">
+                <p>AE界面由各个面板组成，可以自由组合，是高自由度的，根据设计师喜好不同，可自由选择。</p>
+<h1 id="项目面板">1. 项目面板</h1><p>默认左上侧是<code>项目面板</code>，素材列表上方的区域展示所选中素材的详细信息。</p>
+<h2 id="解释素材">1.1. 解释素材</h2><p>左下角<code>解释素材</code>，可以在使用素材前修改素材的部分属性，比如可以修改帧速率匹配为工程的帧速率。比如修改时间码，有些视频素材的时间码比较乱。</p>
+<p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2019/AE%E6%95%99%E7%A8%8B02-01.jpg" alt="AE教程02-01"></p>
+<p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2019/AE%E6%95%99%E7%A8%8B02-02.jpg" alt="AE教程02-02"></p>
+<h2 id="新建文件夹">1.2. 新建文件夹</h2><p>如果有非常多的素材，可以使用文件夹进行分类管理。</p>
+<h2 id="新建合成">1.3. 新建合成</h2><p>具体合成层是什么，在图层面板时讲解。</p>
+<h2 id="项目设置">1.4. 项目设置</h2><p>加速方法、时间线样式等项目默认设置，一般使用默认即可，不需要调整。</p>
+<h2 id="8bpc">1.5. 8bpc</h2><p><code>颜色深度</code>，一般默认的8bpc即可。<br>图像会有一些颜色阶梯，因为色彩空间不足。如果对视频颜色显示高，可以将深度调高，则颜色阶梯越不明显，但是文件也会越大。</p>
+<blockquote>
+<p>按住<code>option</code>，单击切换深度设置。</p>
+</blockquote>
+<h2 id="删除素材">1.6. 删除素材</h2><p>选中素材，点击<code>delete</code>键也可以删除素材。</p>
+<h2 id="导入素材">1.7. 导入素材</h2><p>本地文件夹选中素材拖入项目面板。</p>
+<p>项目面板下方空白区域<code>右击 → 导入</code>，或者<code>双击</code>，则弹出<code>选择文件弹框</code>，选择要导入的文件或文件夹，确认即可。</p>
+<h2 id="导入序列帧">1.8. 导入序列帧</h2><p>选择序列帧第一张，在选项中勾选<code>"ImporterJPEG序列"</code>，导入后，会将一系列静态图片串联起来，生成序列帧图。</p>
+<blockquote>
+<p>不勾选的话，导入的就是选中的第一张图片</p>
+</blockquote>
+<p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2019/AE%E6%95%99%E7%A8%8B02-03.jpg" alt="AE教程02-03"></p>
+<p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2019/AE%E6%95%99%E7%A8%8B02-04.jpg" alt="AE教程02-04"></p>
+<h1 id="合成面板">2. 合成面板</h1><p>默认画面中上部是<code>合成面板</code>，此区域可以观看合成的画面效果，相当于AE的监视器面板。</p>
+<h2 id="新建合成-1">2.1. 新建合成</h2><p>相当于新建一个空画框，在里面可以插入不同的素材图层。</p>
+<h2 id="从素材新建合成">2.2. 从素材新建合成</h2><p>将项目面板的素材拖入合成面板，自动生成包含此素材的合成，且帧速率等参数和素材一致。</p>
+<p>点击右侧的<code>从素材新建合成</code>，弹出选择素材弹框，选择素材，生成合成。</p>
+<p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2019/AE%E6%95%99%E7%A8%8B02-05.jpg" alt="AE教程02-05"></p>
+<h2 id="素材面板">2.3. 素材面板</h2><p>合成面板右侧有个素材面板，<code>双击左侧素材，右侧素材面板即可展示此素材</code>，素材下方有个时间轴，可以拖动预览素材。</p>
+<p>素材面板下方按钮比合成面板少一些，但是多1个时间轴。</p>
+<p>素材面板可以对素材进行一定的编辑。</p>
+<h3 id="选中某一片段">2.3.1. 选中某一片段</h3><p>拖动时间轴，点击时间轴下方的<code>将入点设置为当前时间</code>，其范围就缩短至当前时间指示器位置。</p>
+<p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2019/AE%E6%95%99%E7%A8%8B02-06.jpg" alt="AE教程02-06"></p>
+<p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2019/AE%E6%95%99%E7%A8%8B02-07.jpg" alt="AE教程02-07"></p>
+<p>再拖动时间轴，点击<code>将出点设置为当前时间</code>，则视频结束点到此位置为止。这样就选择了某一片段。</p>
+<h3 id="叠加编辑和波纹插入编辑">2.3.2. 叠加编辑和波纹插入编辑</h3><p>点击右侧按钮<code>叠加编辑</code>，则将这一片段叠加<code>覆盖</code>原视频，叠加位置是合成面板当前时间指示器位置。</p>
+<p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2019/AE%E6%95%99%E7%A8%8B02-08.jpg" alt="AE教程02-08"></p>
+<p><code>波纹插入编辑</code>，则在当前时间指示器位置截断原视频，并插入片段。</p>
+<p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2019/AE%E6%95%99%E7%A8%8B02-09.jpg" alt="AE教程02-09"></p>
+<blockquote>
+<p>注：素材面板使用完之后记得切换到合成面板，再进行正式视频的编辑。素材面板只是进行素材的预览观看、选择、插入等。</p>
+</blockquote>
+<h2 id="放大率弹出式菜单">2.4. 放大率弹出式菜单</h2><p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2019/AE%E6%95%99%E7%A8%8B02-10.jpg" alt="AE教程02-10"></p>
+<p>设置面板中视频画面预览的大小，面板观看的范围。</p>
+<p>100%：真实尺寸大小</p>
+<blockquote>
+<p>按住<code>空格键</code>，鼠标指针变为手型，此时可以拖动视频画面进行预览。</p>
+</blockquote>
+<p>适合：视频画面按照面板最大范围展示，以高度适配，上下顶边。随着面板大小变化而变化，始终可以看到全部画面大小。</p>
+<h2 id="选择网格和参考线选项">2.5. 选择网格和参考线选项</h2><p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2019/AE%E6%95%99%E7%A8%8B02-11.jpg" alt="AE教程02-11"></p>
+<p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2019/AE%E6%95%99%E7%A8%8B02-11(02).jpg" alt="AE教程02-11_02_"></p>
+<h3 id="标题-x2F-动作安全框">2.5.1. 标题/动作安全框</h3><p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2019/AE%E6%95%99%E7%A8%8B02-12.jpg" alt="AE教程02-12"></p>
+<blockquote>
+<p>动效最好不要超过最外围框，可能在一些电视台播放等场景中被裁切。</p>
+</blockquote>
+<h3 id="对称网格">2.5.2. 对称网格</h3><p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2019/AE%E6%95%99%E7%A8%8B02-13.jpg" alt="AE教程02-13"></p>
+<p>页面元素放在什么位置，可以打开绿色的<code>对称网格</code>，作为参考。</p>
+<h3 id="网格">2.5.3. 网格</h3><p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2019/AE%E6%95%99%E7%A8%8B02-24.jpg" alt="AE教程02-24"></p>
+<p>比对称网格更加小更加细化的格子。</p>
+<blockquote>
+<p>快捷键<code>command+双引号键"</code>，显示隐藏参考线</p>
+</blockquote>
+<h3 id="标尺">2.5.4. 标尺</h3><h4 id="方便固定元素">2.5.4.1. 方便固定元素</h4><p>如果想要在固定位置添加元素，或者对齐某元素，可以使用<code>标尺和参考线</code>。<br>鼠标移动到标尺位置，按住可以拖动出参考线，文字、形状图层等可以贴近参考线，并吸附。</p>
+<p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2019/AE%E6%95%99%E7%A8%8B02-14.jpg" alt="AE教程02-14"></p>
+<h4 id="修改参考线颜色">2.5.4.2. 修改参考线颜色</h4><p><code>首选项 → 网格和参考线...</code>，可以修改网格和参考线颜色。</p>
+<h4 id="编辑坐标">2.5.4.3. 编辑坐标</h4><p>拉出一条参考线，如果想定位到中心点，</p>
+<p>选中参考线，右击，出现<code>编辑位置</code>按钮，可以编辑参考线坐标，这样可以方便将参考线定位到中心点。</p>
+<p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2019/AE%E6%95%99%E7%A8%8B02-15.jpg" alt="AE教程02-15--右击"></p>
+<p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2019/AE%E6%95%99%E7%A8%8B02-16.jpg" alt="AE教程02-16--编辑值弹框"></p>
+<blockquote>
+<p>快捷键<code>command+冒号键:</code>，显示隐藏参考线</p>
+</blockquote>
+<h2 id="切换蒙版和形状路径可见性">2.6. 切换蒙版和形状路径可见性</h2><p>点亮这个按钮，锚点可点击，可编辑蒙版的大小和形状。不点亮这个按钮，则蒙版的锚点不可选择不可点。</p>
+<p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2019/AE%E6%95%99%E7%A8%8B02-17.jpg" alt="AE教程02-17"></p>
+<h2 id="预览时间（单击可更改当前时间）">2.7. 预览时间（单击可更改当前时间）</h2><p>实时显示时间指示器所在时间点。单击弹出<code>“转到时间框”</code>，可修改想跳转的精确地时间点。</p>
+<p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2019/AE%E6%95%99%E7%A8%8B02-18.jpg" alt="AE教程02-18"></p>
+<h2 id="拍摄快照">2.8. 拍摄快照</h2><p>做了一个效果后，可以点击<code>拍摄快照</code>，拍摄下此效果界面。此时关闭效果，按住松开右侧的<code>显示快照</code>按钮，即可对比前后效果。</p>
+<h2 id="显示通道及色彩管理设置">2.9. 显示通道及色彩管理设置</h2><h3 id="查看颜色通道的信息">2.9.1. 查看颜色通道的信息</h3><p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2019/AE%E6%95%99%E7%A8%8B02-19.jpg" alt="AE教程02-19--原图"></p>
+<p>比如选择红色，图中色环会以黑白显示，越白的地方红色最多。</p>
+<p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2019/AE%E6%95%99%E7%A8%8B02-20.jpg" alt="AE教程02-20---红色通道"></p>
+<h3 id="Alpha通道">2.9.2. Alpha通道</h3><p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2019/AE%E6%95%99%E7%A8%8B02-21.jpg" alt="AE教程02-21--原图"></p>
+<blockquote>
+<p>选择显示Alpha通道，<code>黑色</code>的表示<code>透明</code>的，为0。<code>白色</code>的标识<code>不透明</code>，为1。</p>
+</blockquote>
+<p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2019/AE%E6%95%99%E7%A8%8B02-22.jpg" alt="AE教程02-22--显示Alpha通道"></p>
+<h2 id="分辨率">2.10. 分辨率</h2><p>可以设置预览的分辨率大小。比较卡时，可以选择二分之一、三分之一或四分之一，可以提高流畅度。</p>
+<h2 id="目标区域">2.11. 目标区域</h2><p>比如只想修改某文字，不想渲染其他区域，则可以使用<code>目标区域</code>按钮，单独将一区域框起来，则只需渲染这一区域内容。最后想看整体效果，点击一下关闭即可。</p>
+<h2 id="切换透明网格">2.12. 切换透明网格</h2><p>开启<code>透明网格</code>，则可以看出哪些元素是透明的，透明的元素下方显示的是黑白交间的小网格。关闭透明网格，下方显示黑色，看不出哪些元素是透明的。<br>比如文字，透明的可以叠加，比如左侧数字。不透明的则会遮住下方内容，比如右侧数字。</p>
+<p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2019/AE%E6%95%99%E7%A8%8B02-23.jpg" alt="AE教程02-23"></p>
+<h2 id="活动摄像机">2.13. 活动摄像机</h2><p>做一些3D效果，更多应用在三维空间里。</p>
+<h2 id="切换像素长宽比校正">2.14. 切换像素长宽比校正</h2><p>用在一些老视频上，像素长宽比不是1:1的情况。</p>
+<h2 id="快速预览">2.15. 快速预览</h2><p>提升渲染及预览速度。</p>
+<h2 id="时间轴">2.16. 时间轴</h2><p>合成面板中有多个合层时，且合成面板有多个合成查看器，则点击跳转至想看的合成。</p>
+<h2 id="合成流程图">2.17. 合成流程图</h2><p>用处不大，查看合成的流程步骤。</p>
+<h2 id="重置-x2F-调整曝光度">2.18. 重置/调整曝光度</h2><p>某一处比较暗，可以调整曝光度查看，但不影响实际效果，仅查看效果变化。</p>
+<h1 id="图层面板">3. 图层面板</h1><h2 id="时间点显示">3.1. 时间点显示</h2><p>左侧显示<code>时间指示器所在时间点</code>，格式是<code>时:分:秒:帧</code>，点击可以修改定位到某一固定位置，也可以鼠标左键按住左右拖动定位时间点位置。<br>但一般拖动右侧的时间指示器比较方便，也最常用，拖动时间指示器时左侧的时间显也同步变动。</p>
+<p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2019/AE%E6%95%99%E7%A8%8B02-25.jpg" alt="AE教程02-25"></p>
+<p>下方是以帧为单位，处在多少帧。按住<code>command键</code>，单击可以切换显示样式，即切换显示时分秒格式和帧数格式。</p>
+<h2 id="图层列表">3.2. 图层列表</h2><h3 id="上下位置">3.2.1. 上下位置</h3><p>上下叠加，如图，01红色在最上层，叠加在02黄色和03蓝色之上。02黄色叠加在03蓝色之上。最底层是一个绿色固态层，是作为背景。</p>
+<p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2019/AE%E6%95%99%E7%A8%8B02-26.jpg" alt="AE教程02-26"></p>
+<h3 id="列功能显示">3.2.2. 列功能显示</h3><p><code>右击 → 列数...</code>可以选择显示或不显示某一列。<br><img src="https://raw.githubusercontent.com/pamarus/Images/master/2019/AE%E6%95%99%E7%A8%8B02-27.jpg" alt="AE教程02-27"></p>
+<p>点击最下方的<code>切换开关/模式</code>，可切换显示<code>模式</code>和<code>图层开关</code>功能按键。<br><img src="https://raw.githubusercontent.com/pamarus/Images/master/2019/AE%E6%95%99%E7%A8%8B02-28.jpg" alt="AE教程02-28"></p>
+<p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2019/AE%E6%95%99%E7%A8%8B02-29.jpg" alt="AE教程02-29"></p>
+<p>点击左下方左侧第一个按键，可以显示/隐藏<code>图层开关</code>列。<br>点击左下方左侧第二个按键，可以显示/隐藏<code>转换控制</code>（即<code>模式</code>）列。<br>点击左下方左侧第三个按键，可以显示/隐藏<code>入点</code>、<code>出点</code>、<code>持续时间</code>、<code>伸缩</code>列。</p>
+<h3 id="列功能">3.2.3. 列功能</h3><h4 id="显示-x2F-隐藏图层">3.2.3.1. 显示/隐藏图层</h4><p>最左侧第一个图标<code>眼睛</code>（视频），若想隐藏某图层设置为不可见，关闭眼睛即可。</p>
+<p>显示/隐藏相邻的多行图层：点击打开第一个眼睛，同时按住<code>shift键</code>，一键往上或往下拖动，即可同时显示/隐藏多行图层。</p>
+<h4 id="打开-x2F-关闭声音">3.2.3.2. 打开/关闭声音</h4><p>点击左侧第二个图标<code>喇叭</code>（音频），即可打开/关闭声音。</p>
+<h4 id="仅显示某一图层">3.2.3.3. 仅显示某一图层</h4><p>点亮图层左侧第三个图标<code>小圆点</code>（独奏），可仅显示该图层。</p>
+<p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2019/AE%E6%95%99%E7%A8%8B02-30.jpg" alt="AE教程02-30"></p>
+<p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2019/AE%E6%95%99%E7%A8%8B02-31.jpg" alt="AE教程02-31"></p>
+<h4 id="锁定某一图层">3.2.3.4. 锁定某一图层</h4><p>点亮图层左侧第四个图标<code>锁</code>，可锁定该图层，使该图层不能被编辑。</p>
+<h4 id="标签">3.2.3.5. 标签</h4><p>选择并设置颜色标签，起到区分图层的作用。</p>
+<p>图层比较多的时候，可以在搜索框内输入某一颜色，筛选出该颜色标签的图层。</p>
+<h4 id="号">3.2.3.6. #号</h4><p>显示图层从上至下的行号。</p>
+<p>有一个作用，就是有时设置了某一图层<code>消隐</code>（隐藏），且设置在图层列表不可见，那么可以看到缺失某一行号，便知道该图层被隐藏了。</p>
+<p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2019/AE%E6%95%99%E7%A8%8B02-32.jpg" alt="AE教程02-32"></p>
+<blockquote>
+<p>也可以使用行号就行搜索，展示某一特定行号的图层。</p>
+</blockquote>
+<h4 id="源名称-x2F-图层名称">3.2.3.7. 源名称/图层名称</h4><p><code>源名称</code>显示的是<code>使用的素材名</code>称。</p>
+<blockquote>
+<p>可以修改图层名称，以区分使用同样一个素材修改的图层。</p>
+</blockquote>
+<p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2019/AE%E6%95%99%E7%A8%8B02-33.jpg" alt="AE教程02-33"></p>
+<p>下图中的命名就是修改后的图层名称。</p>
+<p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2019/AE%E6%95%99%E7%A8%8B02-34.jpg" alt="AE教程02-34"></p>
+<blockquote>
+<p>默认图层名称自带中括号，这是未修改状态，如果修改过图层名称，则中括号消失不见。</p>
+<p>修改图层名称方法：选中某一图层，<code>右击 → 重命名</code>或者点击<code>enter键</code>。</p>
+</blockquote>
+<h1 id="工具面板">4. 工具面板</h1><p>AE界面顶部的工具栏。<br>大部分是在合成面板上对视频进行操作的工具。</p>
+<h2 id="主页">4.1. 主页</h2><p>点击打开AE开启时弹出的欢迎界面。</p>
+<h2 id="位移缩放工具">4.2. 位移缩放工具</h2><h3 id="选取工具">4.2.1. 选取工具</h3><p>选择图层。</p>
+<blockquote>
+<p>快捷键<code>V</code></p>
+</blockquote>
+<h3 id="手形工具">4.2.2. 手形工具</h3><p>按住空格键，鼠标指针变为手形状，此时可以拖动上下左右移动合成面板。</p>
+<blockquote>
+<p>快捷键<code>H</code></p>
+</blockquote>
+<h3 id="缩放工具">4.2.3. 缩放工具</h3><blockquote>
+<p>快捷键<code>Z</code></p>
+</blockquote>
+<p>按住<code>option键</code>，触控板上下移动放大缩小。或者鼠标滚轮滚动放大缩小。</p>
+<blockquote>
+<p>鼠标左键按住不动，拖动选择框，选择某一部分放大查看细节。</p>
+</blockquote>
+<h2 id="方向控制功能">4.3. 方向控制功能</h2><h3 id="旋转工具">4.3.1. 旋转工具</h3><p>以<code>锚点位置</code>（默认是合成面板中心点）为中心进行左右旋转。</p>
+<h3 id="摄像机工具">4.3.2. 摄像机工具</h3><p>默认无法点击。<br>首先将图层设置为3D图层，打开图层面板上<code>3D图层</code>开关，或者<code>右击图层 → 右键菜单选择3D图层</code>。</p>
+<p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2019/AE%E6%95%99%E7%A8%8B02-35.jpg" alt="AE教程02-35"></p>
+<p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2019/AE%E6%95%99%E7%A8%8B02-36.jpg" alt="AE教程02-36"></p>
+<p>再在图层面板空白处<code>右击 → 新建 → 摄像机...</code>，新建个摄像机图层。</p>
+<p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2019/AE%E6%95%99%E7%A8%8B02-37.jpg" alt="AE教程02-37"></p>
+<p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2019/AE%E6%95%99%E7%A8%8B02-38.jpg" alt="AE教程02-38"></p>
+<p>点击选择工具栏上<code>摄像机工</code>具，鼠标指针变为<code>摄像机样式</code>，在合成面板上按住进行3维旋转。</p>
+<p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2019/AE%E6%95%99%E7%A8%8B02-39.jpg" alt="AE教程02-39"></p>
+<p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2019/AE%E6%95%99%E7%A8%8B02-40.jpg" alt="AE教程02-40"></p>
+<h3 id="锚点工具">4.3.3. 锚点工具</h3><p>可修改锚点的<code>位置</code>。</p>
+<p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2019/AE%E6%95%99%E7%A8%8B02-41.jpg" alt="AE教程02-41"></p>
+<p>比如可以改变<code>旋转</code>的方位，如下图的效果。</p>
+<p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2019/AE%E6%95%99%E7%A8%8B02-42.jpg" alt="AE教程02-42"></p>
+<p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2019/AE%E6%95%99%E7%A8%8B02-43.jpg" alt="AE教程02-43"></p>
+<p>比如可以改变缩放的方位。以锚点为基点等比例缩放。</p>
+<blockquote>
+<p>旋转、平移等位置动画都和锚点相关。</p>
+</blockquote>
+<h2 id="蒙版遮罩功能">4.4. 蒙版遮罩功能</h2><h3 id="矩形工具">4.4.1. 矩形工具</h3><p>选中图层，再使用矩形工具框选，是狂选出某一区域，起到蒙版遮罩的效果。</p>
+<p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2019/AE%E6%95%99%E7%A8%8B02-54.jpg" alt="AE教程02-54"></p>
+<p><strong>若未选中图层，使用矩形工具框选，是创建一个新的形状图层。</strong></p>
+<p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2019/AE%E6%95%99%E7%A8%8B02-55.jpg" alt="AE教程02-55"></p>
+<p>长按矩形工具，可以在弹出菜单中选择其他形状工具。</p>
+<h3 id="钢笔工具">4.4.2. 钢笔工具</h3><p>和矩形等工具的规则形状不同，钢笔工具用于创建自定义形状的蒙版。做一些抠像、边缘效果或其他路径效果时使用。</p>
+<h3 id="文字工具">4.4.3. 文字工具</h3><p>选择工具，在合成面板上，点击开始输入文字。</p>
+<h2 id="画笔擦拭功能">4.5. 画笔擦拭功能</h2><h3 id="画笔工具">4.5.1. 画笔工具</h3><p>默认情况下在合成面板上是画不出来的。要选择想要绘制的图层，双击图层，进入到图层预览界面，此时可以进行绘制，同时可以在右侧的画笔面板上设置画笔的属性参数。</p>
+<p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2019/AE%E6%95%99%E7%A8%8B02-44.jpg" alt="AE教程02-44"></p>
+<h3 id="仿制图章工具">4.5.2. 仿制图章工具</h3><p>和PS类似，只是支持动态的。</p>
+<p>将A区域的效果复制粘贴到B区域。按住<code>option键</code>，点击复制想要的点。</p>
+<p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2019/AE%E6%95%99%E7%A8%8B02-45.jpg" alt="AE教程02-45--原图"></p>
+<p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2019/AE%E6%95%99%E7%A8%8B02-46.jpg" alt="AE教程02-46--左侧仿制"></p>
+<h3 id="橡皮工具">4.5.3. 橡皮工具</h3><p>将图层某些范围进行擦除。</p>
+<p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2019/AE%E6%95%99%E7%A8%8B02-47.jpg" alt="AE教程02-47"></p>
+<h2 id="Roto笔刷工具">4.6. Roto笔刷工具</h2><p>可应用于<code>人像抠像</code>。<br>选择此工具，在图层上鼠标指针变为绿色加号，拖拉可以生成选区。</p>
+<p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2019/AE%E6%95%99%E7%A8%8B02-48.jpg" alt="AE教程02-48--生成选区"></p>
+<p>切换到合成面板，可以看到人像的抠图，此时便是把人像动态的抠像出来了，和原视频分离了。</p>
+<p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2019/AE%E6%95%99%E7%A8%8B02-49.jpg" alt="AE教程02-49--生成抠像"></p>
+<p>之后可以在人像的背后添加文字，并在图层下方叠加原视频，效果如下。可以制作类似的效果。</p>
+<p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2019/AE%E6%95%99%E7%A8%8B02-50.jpg" alt="AE教程02-50--背后添加文字"></p>
+<p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2019/AE%E6%95%99%E7%A8%8B02-51.jpg" alt="AE教程02-51--最终效果"></p>
+<h2 id="人偶位置控制工具">4.7. 人偶位置控制工具</h2><p>可以用于<code>制作比较简单的人物动画</code>，比如摆手点头之类。</p>
+<p>先使用铆钉进行定位，后续便可以改变铆钉的位置设计动画。</p>
+<p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2019/AE%E6%95%99%E7%A8%8B02-52.jpg" alt="AE教程02-52"></p>
+<p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2019/AE%E6%95%99%E7%A8%8B02-53.jpg" alt="AE教程02-53"></p>
+<blockquote>
+<p>有时候遇到不能分层的素材文件，可以使用此方法。</p>
+</blockquote>
+<h1 id="其余面板">5. 其余面板</h1><h2 id="信息面板">5.1. 信息面板</h2><p>显示一些信息，位移、RGB信息。</p>
+<p>鼠标放在合成面板上面，可以显示指针所在像素点的位置信息和RGB信息。</p>
+<p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2019/AE%E6%95%99%E7%A8%8B02-56.jpg" alt="AE教程02-56"></p>
+<h2 id="音频面板">5.2. 音频面板</h2><p>播放时，左侧显示动态频谱。<br>右侧可以调节预览时的音量大小。</p>
+<p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2019/AE%E6%95%99%E7%A8%8B02-57.jpg" alt="AE教程02-57"></p>
+<p>调节音频音量实际效果，需要在图层样式中调整。点击图层左侧的箭头，展开样式，调节<code>音频电平</code>。也可以选中图层，按下快捷键<code>L</code>，修改<code>音频电平</code>。</p>
+<p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2019/AE%E6%95%99%E7%A8%8B02-58.jpg" alt="AE教程02-58"></p>
+<h2 id="预览面板">5.3. 预览面板</h2><p>播放暂停操作，可以跳转上一帧、下一帧、第一帧以及最后一帧。</p>
+<p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2019/AE%E6%95%99%E7%A8%8B02-59.jpg" alt="AE教程02-59"></p>
+<h2 id="字符面板">5.4. 字符面板</h2><p>调节输入字体的属性。</p>
+<p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2019/AE%E6%95%99%E7%A8%8B02-60.jpg" alt="AE教程02-60"></p>
+<h2 id="段落面板">5.5. 段落面板</h2><p>承接字符面板，如果单行文字设置，使用字符面板。如果有段落了，比如换行了，可以使用段落面板进行一些相关设置。</p>
+<p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2019/AE%E6%95%99%E7%A8%8B02-61.jpg" alt="AE教程02-61"></p>
+<h2 id="效果与预设">5.6. 效果与预设</h2><p>无需在效果菜单中选择效果，可以在此输入效果名称，搜索效果，并双击选中应用效果。</p>
+<p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2019/AE%E6%95%99%E7%A8%8B02-62.jpg" alt="AE教程02-62"></p>
+<h2 id="库面板">5.7. 库面板</h2><p>如果使用了Adobe Cloud，云端的元素，比如模版、预设等存在库里面，用的使用直接调用。</p>
+<p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2019/AE%E6%95%99%E7%A8%8B02-63.jpg" alt="AE教程02-63"></p>
+<h2 id="对齐面板">5.8. 对齐面板</h2><p>可以进行对齐设置，可以选择按照选区对齐或者按照合成对齐。</p>
+<p>按照选区对齐，则是图层和图层互相对齐。<br>按照合成对齐，意思将图层以合成为基准对齐，左对齐就是图层移动至合成最左侧。</p>
+<p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2019/AE%E6%95%99%E7%A8%8B02-64.jpg" alt="AE教程02-64"></p>
+
+                
+            </div>
+            <hr/>
+
+            
+
+    <div class="reprint" id="reprint-statement">
+        
+            <div class="reprint__author">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-user">
+                        文章作者:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="/about" rel="external nofollow noreferrer">Pamarus</a>
+                </span>
+            </div>
+            <div class="reprint__type">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-link">
+                        文章链接:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="https://pamarus.github.io/2019/07/16/ae-xue-xi-ji-lu-02-ae-mian-ban-jie-shao/">https://pamarus.github.io/2019/07/16/ae-xue-xi-ji-lu-02-ae-mian-ban-jie-shao/</a>
+                </span>
+            </div>
+            <div class="reprint__notice">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-copyright">
+                        版权声明:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    本博客所有文章除特別声明外，均采用
+                    <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>
+                    许可协议。转载请注明来源
+                    <a href="/about" target="_blank">Pamarus</a>
+                    !
+                </span>
+            </div>
+        
+    </div>
+
+    <script async defer>
+      document.addEventListener("copy", function (e) {
+        let toastHTML = '<span>复制成功，请遵循本文的转载规则</span><button class="btn-flat toast-action" onclick="navToReprintStatement()" style="font-size: smaller">查看</a>';
+        M.toast({html: toastHTML})
+      });
+
+      function navToReprintStatement() {
+        $("html, body").animate({scrollTop: $("#reprint-statement").offset().top - 80}, 800);
+      }
+    </script>
+
+
+
+            <div class="tag_share" style="display: block;">
+                <div class="post-meta__tag-list" style="display: inline-block;">
+                    
+                        <div class="article-tag">
+                            
+                                <a href="/tags/%E9%9F%B3%E8%A7%86%E9%A2%91%E5%89%AA%E8%BE%91/">
+                                    <span class="chip bg-color">音视频剪辑</span>
+                                </a>
+                            
+                                <a href="/tags/AE/">
+                                    <span class="chip bg-color">AE</span>
+                                </a>
+                            
+                                <a href="/tags/AE%E9%9D%A2%E6%9D%BF/">
+                                    <span class="chip bg-color">AE面板</span>
+                                </a>
+                            
+                        </div>
+                    
+                </div>
+                <div class="post_share" style="zoom: 80%; width: fit-content; display: inline-block; float: right; margin: -0.15rem 0;">
+                    <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
+<div id="article-share">
+
+    
+    <div class="social-share" data-sites="twitter,facebook,google,qq,qzone,wechat,weibo,douban,linkedin" data-wechat-qrcode-helper="<p>微信扫一扫即可分享！</p>"></div>
+    <script src="/libs/share/js/social-share.min.js"></script>
+    
+
+    
+
+</div>
+
+                </div>
+            </div>
+            
+                <style>
+    #reward {
+        margin: 40px 0;
+        text-align: center;
+    }
+
+    #reward .reward-link {
+        font-size: 1.4rem;
+        line-height: 38px;
+    }
+
+    #reward .btn-floating:hover {
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2), 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    #rewardModal {
+        width: 320px;
+        height: 350px;
+    }
+
+    #rewardModal .reward-title {
+        margin: 15px auto;
+        padding-bottom: 5px;
+    }
+
+    #rewardModal .modal-content {
+        padding: 10px;
+    }
+
+    #rewardModal .close {
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        color: rgba(0, 0, 0, 0.5);
+        font-size: 1.3rem;
+        line-height: 20px;
+        cursor: pointer;
+    }
+
+    #rewardModal .close:hover {
+        color: #ef5350;
+        transform: scale(1.3);
+        -moz-transform:scale(1.3);
+        -webkit-transform:scale(1.3);
+        -o-transform:scale(1.3);
+    }
+
+    #rewardModal .reward-tabs {
+        margin: 0 auto;
+        width: 210px;
+    }
+
+    .reward-tabs .tabs {
+        height: 38px;
+        margin: 10px auto;
+        padding-left: 0;
+    }
+
+    .reward-content ul {
+        padding-left: 0 !important;
+    }
+
+    .reward-tabs .tabs .tab {
+        height: 38px;
+        line-height: 38px;
+    }
+
+    .reward-tabs .tab a {
+        color: #fff;
+        background-color: #ccc;
+    }
+
+    .reward-tabs .tab a:hover {
+        background-color: #ccc;
+        color: #fff;
+    }
+
+    .reward-tabs .wechat-tab .active {
+        color: #fff !important;
+        background-color: #22AB38 !important;
+    }
+
+    .reward-tabs .alipay-tab .active {
+        color: #fff !important;
+        background-color: #019FE8 !important;
+    }
+
+    .reward-tabs .reward-img {
+        width: 210px;
+        height: 210px;
+    }
+</style>
+
+<div id="reward">
+    <a href="#rewardModal" class="reward-link modal-trigger btn-floating btn-medium waves-effect waves-light red">赏</a>
+
+    <!-- Modal Structure -->
+    <div id="rewardModal" class="modal">
+        <div class="modal-content">
+            <a class="close modal-close"><i class="fas fa-times"></i></a>
+            <h4 class="reward-title">你的赏识是我前进的动力</h4>
+            <div class="reward-content">
+                <div class="reward-tabs">
+                    <ul class="tabs row">
+                        <li class="tab col s6 alipay-tab waves-effect waves-light"><a href="#alipay">支付宝</a></li>
+                        <li class="tab col s6 wechat-tab waves-effect waves-light"><a href="#wechat">微 信</a></li>
+                    </ul>
+                    <div id="alipay">
+                        <img src="/medias/reward/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
+                    </div>
+                    <div id="wechat">
+                        <img src="/medias/reward/wechat.jpg" class="reward-img" alt="微信打赏二维码">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(function () {
+        $('.tabs').tabs();
+    });
+</script>
+
+            
+        </div>
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+        <style>
+    .valine-card {
+        margin: 1.5rem auto;
+    }
+
+    .valine-card .card-content {
+        padding: 20px 20px 5px 20px;
+    }
+
+    #vcomments textarea {
+        box-sizing: border-box;
+        background: url("/medias/comment_bg.png") 100% 100% no-repeat;
+    }
+
+    #vcomments p {
+        margin: 2px 2px 10px;
+        font-size: 1.05rem;
+        line-height: 1.78rem;
+    }
+
+    #vcomments blockquote p {
+        text-indent: 0.2rem;
+    }
+
+    #vcomments a {
+        padding: 0 2px;
+        color: #4cbf30;
+        font-weight: 500;
+        text-decoration: none;
+    }
+
+    #vcomments img {
+        max-width: 100%;
+        height: auto;
+        cursor: pointer;
+    }
+
+    #vcomments ol li {
+        list-style-type: decimal;
+    }
+
+    #vcomments ol,
+    ul {
+        display: block;
+        padding-left: 2em;
+        word-spacing: 0.05rem;
+    }
+
+    #vcomments ul li,
+    ol li {
+        display: list-item;
+        line-height: 1.8rem;
+        font-size: 1rem;
+    }
+
+    #vcomments ul li {
+        list-style-type: disc;
+    }
+
+    #vcomments ul ul li {
+        list-style-type: circle;
+    }
+
+    #vcomments table, th, td {
+        padding: 12px 13px;
+        border: 1px solid #dfe2e5;
+    }
+
+    #vcomments table, th, td {
+        border: 0;
+    }
+
+    table tr:nth-child(2n), thead {
+        background-color: #fafafa;
+    }
+
+    #vcomments table th {
+        background-color: #f2f2f2;
+        min-width: 80px;
+    }
+
+    #vcomments table td {
+        min-width: 80px;
+    }
+
+    #vcomments h1 {
+        font-size: 1.85rem;
+        font-weight: bold;
+        line-height: 2.2rem;
+    }
+
+    #vcomments h2 {
+        font-size: 1.65rem;
+        font-weight: bold;
+        line-height: 1.9rem;
+    }
+
+    #vcomments h3 {
+        font-size: 1.45rem;
+        font-weight: bold;
+        line-height: 1.7rem;
+    }
+
+    #vcomments h4 {
+        font-size: 1.25rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+
+    #vcomments h5 {
+        font-size: 1.1rem;
+        font-weight: bold;
+        line-height: 1.4rem;
+    }
+
+    #vcomments h6 {
+        font-size: 1rem;
+        line-height: 1.3rem;
+    }
+
+    #vcomments p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    #vcomments hr {
+        margin: 12px 0;
+        border: 0;
+        border-top: 1px solid #ccc;
+    }
+
+    #vcomments blockquote {
+        margin: 15px 0;
+        border-left: 5px solid #42b983;
+        padding: 1rem 0.8rem 0.3rem 0.8rem;
+        color: #666;
+        background-color: rgba(66, 185, 131, .1);
+    }
+
+    #vcomments pre {
+        font-family: monospace, monospace;
+        padding: 1.2em;
+        margin: .5em 0;
+        background: #272822;
+        overflow: auto;
+        border-radius: 0.3em;
+        tab-size: 4;
+    }
+
+    #vcomments code {
+        font-family: monospace, monospace;
+        padding: 1px 3px;
+        font-size: 0.92rem;
+        color: #e96900;
+        background-color: #f8f8f8;
+        border-radius: 2px;
+    }
+
+    #vcomments pre code {
+        font-family: monospace, monospace;
+        padding: 0;
+        color: #e8eaf6;
+        background-color: #272822;
+    }
+
+    #vcomments pre[class*="language-"] {
+        padding: 1.2em;
+        margin: .5em 0;
+    }
+
+    #vcomments code[class*="language-"],
+    pre[class*="language-"] {
+        color: #e8eaf6;
+    }
+
+    #vcomments [type="checkbox"]:not(:checked), [type="checkbox"]:checked {
+        position: inherit;
+        margin-left: -1.3rem;
+        margin-right: 0.4rem;
+        margin-top: -1px;
+        vertical-align: middle;
+        left: unset;
+        visibility: visible;
+    }
+
+    #vcomments b,
+    strong {
+        font-weight: bold;
+    }
+
+    #vcomments dfn {
+        font-style: italic;
+    }
+
+    #vcomments small {
+        font-size: 85%;
+    }
+
+    #vcomments cite {
+        font-style: normal;
+    }
+
+    #vcomments mark {
+        background-color: #fcf8e3;
+        padding: .2em;
+    }
+
+    #vcomments table, th, td {
+        padding: 12px 13px;
+        border: 1px solid #dfe2e5;
+    }
+
+    table tr:nth-child(2n), thead {
+        background-color: #fafafa;
+    }
+
+    #vcomments table th {
+        background-color: #f2f2f2;
+        min-width: 80px;
+    }
+
+    #vcomments table td {
+        min-width: 80px;
+    }
+
+    #vcomments [type="checkbox"]:not(:checked), [type="checkbox"]:checked {
+        position: inherit;
+        margin-left: -1.3rem;
+        margin-right: 0.4rem;
+        margin-top: -1px;
+        vertical-align: middle;
+        left: unset;
+        visibility: visible;
+    }
+</style>
+
+<div class="card valine-card" data-aos="fade-up">
+    <div class="comment_headling" style="font-size: 20px; font-weight: 700; position: relative; padding-left: 20px; top: 15px; padding-bottom: 5px;">
+        <i class="fas fa-comments fa-fw" aria-hidden="true"></i>
+        <span>评论</span>
+    </div>
+    <div id="vcomments" class="card-content" style="display: grid">
+    </div>
+</div>
+
+<script src="/libs/valine/av-min.js"></script>
+<script src="/libs/valine/Valine.min.js"></script>
+<script>
+    new Valine({
+        el: '#vcomments',
+        appId: 'vCxd4oXYJzOu37v6KrMbe5Gr-gzGzoHsz',
+        appKey: 'yaXgQSNqpmIFAoRQszUEmyz4',
+        notify: 'false' === 'true',
+        verify: 'false' === 'true',
+        visitor: 'true' === 'true',
+        avatar: 'mm',
+        pageSize: '10',
+        lang: 'zh-cn',
+        placeholder: '留下你的真知灼见....'
+    });
+</script>
+
+    
+
+    
+
+    
+
+    
+
+<article id="prenext-posts" class="prev-next articles">
+    <div class="row article-row">
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge left-badge text-color">
+                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+            <div class="card">
+                <a href="/2019/07/17/ae-xue-xi-ji-lu-03-ae-ruan-jian-can-shu-she-zhi-shou-xuan-xiang/">
+                    <div class="card-image">
+                        
+                        <img src="/medias/featureimages/AE.png" class="responsive-img" alt="AE学习记录（03）：AE软件参数设置——首选项">
+                        
+                        <span class="card-title">AE学习记录（03）：AE软件参数设置——首选项</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            AE的首选项设置
+                        
+                    </div>
+                    <div class="publish-info">
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2019-07-17
+                        </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E8%A7%86%E9%A2%91%E5%89%AA%E8%BE%91/" class="post-category">
+                                    视频剪辑
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/%E9%9F%B3%E8%A7%86%E9%A2%91%E5%89%AA%E8%BE%91/">
+                        <span class="chip bg-color">音视频剪辑</span>
+                    </a>
+                    
+                    <a href="/tags/AE/">
+                        <span class="chip bg-color">AE</span>
+                    </a>
+                    
+                    <a href="/tags/%E9%A6%96%E9%80%89%E9%A1%B9%E8%AE%BE%E7%BD%AE/">
+                        <span class="chip bg-color">首选项设置</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/2019/07/12/ae-xue-xi-ji-lu-01-gong-zuo-liu-cheng-chu-shi/">
+                    <div class="card-image">
+                        
+                        <img src="/medias/featureimages/AE.png" class="responsive-img" alt="AE学习记录（01）：工作流程初识">
+                        
+                        <span class="card-title">AE学习记录（01）：工作流程初识</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            AE的工作流。
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2019-07-12
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E8%A7%86%E9%A2%91%E5%89%AA%E8%BE%91/" class="post-category">
+                                    视频剪辑
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/%E9%9F%B3%E8%A7%86%E9%A2%91%E5%89%AA%E8%BE%91/">
+                        <span class="chip bg-color">音视频剪辑</span>
+                    </a>
+                    
+                    <a href="/tags/AE/">
+                        <span class="chip bg-color">AE</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+</article>
+
+</div>
+
+
+<script>
+    $('#articleContent').on('copy', function (e) {
+        // IE8 or earlier browser is 'undefined'
+        if (typeof window.getSelection === 'undefined') return;
+
+        var selection = window.getSelection();
+        // if the selection is short let's not annoy our users.
+        if (('' + selection).length < Number.parseInt('120')) {
+            return;
+        }
+
+        // create a div outside of the visible area and fill it with the selected text.
+        var bodyElement = document.getElementsByTagName('body')[0];
+        var newdiv = document.createElement('div');
+        newdiv.style.position = 'absolute';
+        newdiv.style.left = '-99999px';
+        bodyElement.appendChild(newdiv);
+        newdiv.appendChild(selection.getRangeAt(0).cloneContents());
+
+        // we need a <pre> tag workaround.
+        // otherwise the text inside "pre" loses all the line breaks!
+        if (selection.getRangeAt(0).commonAncestorContainer.nodeName === 'PRE') {
+            newdiv.innerHTML = "<pre>" + newdiv.innerHTML + "</pre>";
+        }
+
+        var url = document.location.href;
+        newdiv.innerHTML += '<br />'
+            + '来源: Pamarus<br />'
+            + '文章作者: Pamarus<br />'
+            + '文章链接: <a href="' + url + '">' + url + '</a><br />'
+            + '本文章著作权归作者所有，任何形式的转载都请注明出处。';
+
+        selection.selectAllChildren(newdiv);
+        window.setTimeout(function () {bodyElement.removeChild(newdiv);}, 200);
+    });
+</script>
+
+
+<!-- 代码块功能依赖 -->
+<script type="text/javascript" src="/libs/codeBlock/codeBlockFuction.js"></script>
+
+<!-- 代码语言 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeLang.js"></script>
+
+
+<!-- 代码块复制 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeCopy.js"></script>
+
+
+<!-- 代码块收缩 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeShrink.js"></script>
+
+
+    </div>
+    <div id="toc-aside" class="expanded col l3 hide-on-med-and-down">
+        <div class="toc-widget card" style="background-color: white;">
+            <div class="toc-title"><i class="far fa-list-alt"></i>&nbsp;&nbsp;目录</div>
+            <div id="toc-content"></div>
+        </div>
+    </div>
+</div>
+
+<!-- TOC 悬浮按钮. -->
+
+<div id="floating-toc-btn" class="hide-on-med-and-down">
+    <a class="btn-floating btn-large bg-color">
+        <i class="fas fa-list-ul"></i>
+    </a>
+</div>
+
+
+<script src="/libs/tocbot/tocbot.min.js"></script>
+<script>
+    $(function () {
+        tocbot.init({
+            tocSelector: '#toc-content',
+            contentSelector: '#articleContent',
+            headingsOffset: -($(window).height() * 0.4 - 45),
+            collapseDepth: Number('1'),
+            headingSelector: 'h1, h2, h3, h4, h5, h6'
+        });
+
+        // modify the toc link href to support Chinese.
+        let i = 0;
+        let tocHeading = 'toc-heading-';
+        $('#toc-content a').each(function () {
+            $(this).attr('href', '#' + tocHeading + (++i));
+        });
+
+        // modify the heading title id to support Chinese.
+        i = 0;
+        $('#articleContent').children('h1, h2, h3, h4, h5, h6').each(function () {
+            $(this).attr('id', tocHeading + (++i));
+        });
+
+        // Set scroll toc fixed.
+        let tocHeight = parseInt($(window).height() * 0.4 - 64);
+        let $tocWidget = $('.toc-widget');
+        $(window).scroll(function () {
+            let scroll = $(window).scrollTop();
+            /* add post toc fixed. */
+            if (scroll > tocHeight) {
+                $tocWidget.addClass('toc-fixed');
+            } else {
+                $tocWidget.removeClass('toc-fixed');
+            }
+        });
+
+        
+        /* 修复文章卡片 div 的宽度. */
+        let fixPostCardWidth = function (srcId, targetId) {
+            let srcDiv = $('#' + srcId);
+            if (srcDiv.length === 0) {
+                return;
+            }
+
+            let w = srcDiv.width();
+            if (w >= 450) {
+                w = w + 21;
+            } else if (w >= 350 && w < 450) {
+                w = w + 18;
+            } else if (w >= 300 && w < 350) {
+                w = w + 16;
+            } else {
+                w = w + 14;
+            }
+            $('#' + targetId).width(w);
+        };
+
+        // 切换TOC目录展开收缩的相关操作.
+        const expandedClass = 'expanded';
+        let $tocAside = $('#toc-aside');
+        let $mainContent = $('#main-content');
+        $('#floating-toc-btn .btn-floating').click(function () {
+            if ($tocAside.hasClass(expandedClass)) {
+                $tocAside.removeClass(expandedClass).hide();
+                $mainContent.removeClass('l9');
+            } else {
+                $tocAside.addClass(expandedClass).show();
+                $mainContent.addClass('l9');
+            }
+            fixPostCardWidth('artDetail', 'prenext-posts');
+        });
+        
+    });
+</script>
+
+    
+
+</main>
+
+
+<script src="https://cdn.bootcss.com/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script>
+    MathJax.Hub.Config({
+        tex2jax: {inlineMath: [['$', '$'], ['\(', '\)']]}
+    });
+</script>
+
+
+
+    <footer class="page-footer bg-color">
+    
+        <link rel="stylesheet" href="/libs/aplayer/APlayer.min.css">
+<style>
+    .aplayer .aplayer-lrc p {
+        
+        display: none;
+        
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 16px !important;
+    }
+
+    .aplayer .aplayer-lrc p.aplayer-lrc-current {
+        
+        display: none;
+        
+        font-size: 15px;
+        color: #42b983;
+    }
+
+    
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
+        left: -66px !important;
+    }
+
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
+        left: 0px !important;
+    }
+
+    
+</style>
+<div class="">
+    
+    <div class="row">
+        <meting-js class="col l8 offset-l2 m10 offset-m1 s12"
+                   server="tencent"
+                   type="playlist"
+                   id="8531534288"
+                   fixed='true'
+                   autoplay='false'
+                   theme='#42b983'
+                   loop='all'
+                   order='random'
+                   preload='auto'
+                   volume='0.2'
+                   list-folded='true'
+        >
+        </meting-js>
+    </div>
+</div>
+
+<script src="/libs/aplayer/APlayer.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+
+    
+    <div class="container row center-align" style="margin-bottom: 15px !important;">
+        <div class="col s12 m8 l8 copy-right">
+            Copyright&nbsp;&copy;
+            
+                <span id="year">2020-2024</span>
+            
+            <span id="year">2020</span>
+            <a href="/about" target="_blank">Pamarus</a>
+            |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
+            |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
+            <br>
+            
+            &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
+                class="white-color">57.8k</span>&nbsp;字
+            
+            
+            
+            
+            
+            
+            <span id="busuanzi_container_site_pv">
+                |&nbsp;<i class="far fa-eye"></i>&nbsp;总访问量:&nbsp;<span id="busuanzi_value_site_pv"
+                    class="white-color"></span>&nbsp;次
+            </span>
+            
+            
+            <span id="busuanzi_container_site_uv">
+                |&nbsp;<i class="fas fa-users"></i>&nbsp;总访问人数:&nbsp;<span id="busuanzi_value_site_uv"
+                    class="white-color"></span>&nbsp;人
+            </span>
+            
+            <br>
+            
+            <span id="sitetime">载入运行时间...</span>
+            <script>
+                function siteTime() {
+                    var seconds = 1000;
+                    var minutes = seconds * 60;
+                    var hours = minutes * 60;
+                    var days = hours * 24;
+                    var years = days * 365;
+                    var today = new Date();
+                    var startYear = "2020";
+                    var startMonth = "4";
+                    var startDate = "30";
+                    var startHour = "0";
+                    var startMinute = "0";
+                    var startSecond = "0";
+                    var todayYear = today.getFullYear();
+                    var todayMonth = today.getMonth() + 1;
+                    var todayDate = today.getDate();
+                    var todayHour = today.getHours();
+                    var todayMinute = today.getMinutes();
+                    var todaySecond = today.getSeconds();
+                    var t1 = Date.UTC(startYear, startMonth, startDate, startHour, startMinute, startSecond);
+                    var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond);
+                    var diff = t2 - t1;
+                    var diffYears = Math.floor(diff / years);
+                    var diffDays = Math.floor((diff / days) - diffYears * 365);
+                    var diffHours = Math.floor((diff - (diffYears * 365 + diffDays) * days) / hours);
+                    var diffMinutes = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours) /
+                        minutes);
+                    var diffSeconds = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours -
+                        diffMinutes * minutes) / seconds);
+                    if (startYear == todayYear) {
+                        document.getElementById("year").innerHTML = todayYear;
+                        document.getElementById("sitetime").innerHTML = "本站已安全运行 " + diffDays + " 天 " + diffHours +
+                            " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
+                    } else {
+                        document.getElementById("year").innerHTML = startYear + " - " + todayYear;
+                        document.getElementById("sitetime").innerHTML = "本站已安全运行 " + diffYears + " 年 " + diffDays +
+                            " 天 " + diffHours + " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
+                    }
+                }
+                setInterval(siteTime, 1000);
+            </script>
+            
+            <br>
+            
+        </div>
+        <div class="col s12 m4 l4 social-link social-statis">
+    <a href="https://github.com/pamarus/" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
+        <i class="fab fa-github"></i>
+    </a>
+
+
+
+    <a href="mailto:jiaqi0725@gmail.com" class="tooltipped" target="_blank" data-tooltip="Email联系我：jiaqi0725@gmail.com" data-position="top" data-delay="50">
+        <i class="fas fa-envelope-open"></i>
+    </a>
+
+
+
+
+
+
+
+    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=572753425" class="tooltipped" target="_blank" data-tooltip="QQ联系我: 572753425" data-position="top" data-delay="50">
+        <i class="fab fa-qq"></i>
+    </a>
+
+
+
+
+
+
+
+</div>
+    </div>
+</footer>
+
+<div class="progress-bar"></div>
+
+
+    <!-- 搜索遮罩框 -->
+<div id="searchModal" class="modal">
+    <div class="modal-content">
+        <div class="search-header">
+            <span class="title"><i class="fas fa-search"></i>&nbsp;&nbsp;搜索</span>
+            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字"
+                   class="search-input">
+        </div>
+        <div id="searchResult"></div>
+    </div>
+</div>
+
+<script type="text/javascript">
+$(function () {
+    var searchFunc = function (path, search_id, content_id) {
+        'use strict';
+        $.ajax({
+            url: path,
+            dataType: "xml",
+            success: function (xmlResponse) {
+                // get the contents from search data
+                var datas = $("entry", xmlResponse).map(function () {
+                    return {
+                        title: $("title", this).text(),
+                        content: $("content", this).text(),
+                        url: $("url", this).text()
+                    };
+                }).get();
+                var $input = document.getElementById(search_id);
+                var $resultContent = document.getElementById(content_id);
+                $input.addEventListener('input', function () {
+                    var str = '<ul class=\"search-result-list\">';
+                    var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
+                    $resultContent.innerHTML = "";
+                    if (this.value.trim().length <= 0) {
+                        return;
+                    }
+                    // perform local searching
+                    datas.forEach(function (data) {
+                        var isMatch = true;
+                        var data_title = data.title.trim().toLowerCase();
+                        var data_content = data.content.trim().replace(/<[^>]+>/g, "").toLowerCase();
+                        var data_url = data.url;
+                        data_url = data_url.indexOf('/') === 0 ? data.url : '/' + data_url;
+                        var index_title = -1;
+                        var index_content = -1;
+                        var first_occur = -1;
+                        // only match artiles with not empty titles and contents
+                        if (data_title !== '' && data_content !== '') {
+                            keywords.forEach(function (keyword, i) {
+                                index_title = data_title.indexOf(keyword);
+                                index_content = data_content.indexOf(keyword);
+                                if (index_title < 0 && index_content < 0) {
+                                    isMatch = false;
+                                } else {
+                                    if (index_content < 0) {
+                                        index_content = 0;
+                                    }
+                                    if (i === 0) {
+                                        first_occur = index_content;
+                                    }
+                                }
+                            });
+                        }
+                        // show search results
+                        if (isMatch) {
+                            str += "<li><a href='" + data_url + "' class='search-result-title'>" + data_title + "</a>";
+                            var content = data.content.trim().replace(/<[^>]+>/g, "");
+                            if (first_occur >= 0) {
+                                // cut out 100 characters
+                                var start = first_occur - 20;
+                                var end = first_occur + 80;
+                                if (start < 0) {
+                                    start = 0;
+                                }
+                                if (start === 0) {
+                                    end = 100;
+                                }
+                                if (end > content.length) {
+                                    end = content.length;
+                                }
+                                var match_content = content.substr(start, end);
+                                // highlight all keywords
+                                keywords.forEach(function (keyword) {
+                                    var regS = new RegExp(keyword, "gi");
+                                    match_content = match_content.replace(regS, "<em class=\"search-keyword\">" + keyword + "</em>");
+                                });
+
+                                str += "<p class=\"search-result\">" + match_content + "...</p>"
+                            }
+                            str += "</li>";
+                        }
+                    });
+                    str += "</ul>";
+                    $resultContent.innerHTML = str;
+                });
+            }
+        });
+    };
+
+    searchFunc('/search.xml', 'searchInput', 'searchResult');
+});
+</script>
+
+    <!-- 回到顶部按钮 -->
+<div id="backTop" class="top-scroll">
+    <a class="btn-floating btn-large waves-effect waves-light" href="#!">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+</div>
+
+
+    <script src="/libs/materialize/materialize.min.js"></script>
+    <script src="/libs/masonry/masonry.pkgd.min.js"></script>
+    <script src="/libs/aos/aos.js"></script>
+    <script src="/libs/scrollprogress/scrollProgress.min.js"></script>
+    <script src="/libs/lightGallery/js/lightgallery-all.min.js"></script>
+    <script src="/js/matery.js"></script>
+
+    <!-- Baidu Analytics -->
+
+    <!-- Baidu Push -->
+
+<script>
+    (function () {
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        } else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script>
+
+    
+    <script src="/libs/others/clicklove.js" async="async"></script>
+    
+    
+    <script async src="/libs/others/busuanzi.pure.mini.js"></script>
+    
+
+    
+
+    
+
+	
+    
+
+    
+
+    
+
+    
+    <script src="/libs/instantpage/instantpage.js" type="module"></script>
+    
+
+    <script type="text/javascript"> var OriginTitile = document.title, st; document.addEventListener("visibilitychange", function () { document.hidden ? (document.title = "Σ(‐◔◡◔‐)っ回来看看哟!", clearTimeout(st)) : (document.title = "φ(ˆ▽ˆ)♪你好啊", st = setTimeout(function () { document.title = OriginTitile }, 3e3)) })
+    </script>
+
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/live2dw/assets/hijiki.model.json"},"display":{"position":"right","width":150,"height":300},"mobile":{"show":true},"react":{"opacity":0.7}});</script></body>
+
+</html>

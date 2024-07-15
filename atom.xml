@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Pamarus</title>
+  <icon>https://pamarus.github.io/icon.png</icon>
+  <subtitle>Thinking Hacks</subtitle>
+  <link href="https://pamarus.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://pamarus.github.io/"/>
+  <updated>2023-03-16T09:03:48.446Z</updated>
+  <id>https://pamarus.github.io/</id>
+  
+  <author>
+    <name>Pamarus</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>ChatGPT 4.0 - New Bing新必应内测资格申请教程</title>
+    <link href="https://pamarus.github.io/2023/03/01/chatgpt-4.0-new-bing-xin-bi-ying-nei-ce-zi-ge-shen-qing-jiao-cheng/"/>
+    <id>https://pamarus.github.io/2023/03/01/chatgpt-4.0-new-bing-xin-bi-ying-nei-ce-zi-ge-shen-qing-jiao-cheng/</id>
+    <published>2023-03-01T07:25:00.000Z</published>
+    <updated>2023-03-16T09:03:48.446Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;2 月 7 日，微软 CEO Satya Nadella 在发布会上宣布，发布 ChatGPT 版搜索引擎 New Bing。最值得关注的技术突破就是它运行的是 OpenAI 为 Bing 定制的下一代大型语言模型”普罗米修斯“，基于 ChatGPT 技术，但该模型比</summary>
+        
+      
+    
+    
+    
+    <category term="编程语言" scheme="https://pamarus.github.io/categories/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/"/>
+    
+    
+    <category term="ChatGPT" scheme="https://pamarus.github.io/tags/ChatGPT/"/>
+    
+    <category term="New Bing" scheme="https://pamarus.github.io/tags/New-Bing/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>AI绘画介绍（2）：Stable Diffusion Web UI（SD WebUI）的设置与使用</title>
+    <link href="https://pamarus.github.io/2023/02/27/ai-hui-hua-jie-shao-2-stable-diffusion-web-ui-sd-webui-de-she-zhi-yu-shi-yong/"/>
+    <id>https://pamarus.github.io/2023/02/27/ai-hui-hua-jie-shao-2-stable-diffusion-web-ui-sd-webui-de-she-zhi-yu-shi-yong/</id>
+    <published>2023-02-27T07:25:00.000Z</published>
+    <updated>2023-03-07T01:53:05.188Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;本篇主要介绍&lt;code&gt;Stable Diffusion Web UI（SD WebUI）&lt;/code&gt;的基础使用以及常用参数解释调整。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;默认地址&quot;&gt;1. 默认地址&lt;/h1&gt;&lt;p&gt;SD WebUI的默认地址为&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="编程语言" scheme="https://pamarus.github.io/categories/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/"/>
+    
+    
+    <category term="AI绘画" scheme="https://pamarus.github.io/tags/AI%E7%BB%98%E7%94%BB/"/>
+    
+    <category term="Stable Diffusion" scheme="https://pamarus.github.io/tags/Stable-Diffusion/"/>
+    
+    <category term="Web UI" scheme="https://pamarus.github.io/tags/Web-UI/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>AI绘画介绍（1）：在Mac环境下配置并运行Stable Diffusion Web UI（SD WebUI）</title>
+    <link href="https://pamarus.github.io/2023/02/24/ai-hui-hua-jie-shao-1-zai-mac-huan-jing-xia-pei-zhi-bing-yun-xing-stable-diffusion-web-ui-sd-webui/"/>
+    <id>https://pamarus.github.io/2023/02/24/ai-hui-hua-jie-shao-1-zai-mac-huan-jing-xia-pei-zhi-bing-yun-xing-stable-diffusion-web-ui-sd-webui/</id>
+    <published>2023-02-24T07:25:00.000Z</published>
+    <updated>2023-03-03T08:36:25.545Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;Stable Diffusion&lt;/code&gt;是2022年发布的深度学习文本到图像生成模型。它主要用于根据文本的描述产生详细图像。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;Stable</summary>
+        
+      
+    
+    
+    
+    <category term="编程语言" scheme="https://pamarus.github.io/categories/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/"/>
+    
+    
+    <category term="AI绘画" scheme="https://pamarus.github.io/tags/AI%E7%BB%98%E7%94%BB/"/>
+    
+    <category term="Stable Diffusion" scheme="https://pamarus.github.io/tags/Stable-Diffusion/"/>
+    
+    <category term="Web UI" scheme="https://pamarus.github.io/tags/Web-UI/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>安安成长日记-2022年12月</title>
+    <link href="https://pamarus.github.io/2022/12/18/an-an-cheng-chang-ri-ji-2022-nian-12-yue/"/>
+    <id>https://pamarus.github.io/2022/12/18/an-an-cheng-chang-ri-ji-2022-nian-12-yue/</id>
+    <published>2022-12-18T11:56:34.000Z</published>
+    <updated>2023-07-22T06:15:04.165Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;12-01&quot;&gt;1.</summary>
+        
+      
+    
+    
+    
+    <category term="生活日常" scheme="https://pamarus.github.io/categories/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/"/>
+    
+    
+    <category term="生活日常" scheme="https://pamarus.github.io/tags/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/"/>
+    
+    <category term="安安" scheme="https://pamarus.github.io/tags/%E5%AE%89%E5%AE%89/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>安安成长日记-2022年11月</title>
+    <link href="https://pamarus.github.io/2022/11/18/an-an-cheng-chang-ri-ji-2022-nian-11-yue/"/>
+    <id>https://pamarus.github.io/2022/11/18/an-an-cheng-chang-ri-ji-2022-nian-11-yue/</id>
+    <published>2022-11-18T11:56:34.000Z</published>
+    <updated>2023-03-11T07:55:29.471Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
+
+&lt;h1 id=&quot;11-01&quot;&gt;1. 11-01&lt;/h1&gt;&lt;video width=&quot;100%&quot; height=&quot;100%&quot; controls&gt;
+  &lt;source</summary>
+        
+      
+    
+    
+    
+    <category term="生活日常" scheme="https://pamarus.github.io/categories/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/"/>
+    
+    
+    <category term="生活日常" scheme="https://pamarus.github.io/tags/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/"/>
+    
+    <category term="安安" scheme="https://pamarus.github.io/tags/%E5%AE%89%E5%AE%89/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>安安成长日记-2022年10月</title>
+    <link href="https://pamarus.github.io/2022/10/23/an-an-cheng-chang-ri-ji-2022-nian-10-yue/"/>
+    <id>https://pamarus.github.io/2022/10/23/an-an-cheng-chang-ri-ji-2022-nian-10-yue/</id>
+    <published>2022-10-23T11:56:34.000Z</published>
+    <updated>2023-03-11T07:55:33.073Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;10-01&quot;&gt;1. 10-01&lt;/h1&gt;&lt;video width=&quot;100%&quot; height=&quot;100%&quot; controls&gt;
+  &lt;source</summary>
+        
+      
+    
+    
+    
+    <category term="生活日常" scheme="https://pamarus.github.io/categories/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/"/>
+    
+    
+    <category term="生活日常" scheme="https://pamarus.github.io/tags/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/"/>
+    
+    <category term="安安" scheme="https://pamarus.github.io/tags/%E5%AE%89%E5%AE%89/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>安安成长日记-2022年09月</title>
+    <link href="https://pamarus.github.io/2022/09/18/an-an-cheng-chang-ri-ji-2022-nian-09-yue/"/>
+    <id>https://pamarus.github.io/2022/09/18/an-an-cheng-chang-ri-ji-2022-nian-09-yue/</id>
+    <published>2022-09-18T11:56:34.000Z</published>
+    <updated>2023-02-12T07:12:32.028Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;09-03&quot;&gt;1. 09-03&lt;/h1&gt;&lt;p&gt;今天上午先去接外婆过来了，然后中午奶奶回家，回老家。&lt;br&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="生活日常" scheme="https://pamarus.github.io/categories/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/"/>
+    
+    
+    <category term="生活日常" scheme="https://pamarus.github.io/tags/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/"/>
+    
+    <category term="安安" scheme="https://pamarus.github.io/tags/%E5%AE%89%E5%AE%89/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>更新SSH key格式为ed25519</title>
+    <link href="https://pamarus.github.io/2022/09/12/geng-xin-ssh-key-ge-shi-wei-ed25519/"/>
+    <id>https://pamarus.github.io/2022/09/12/geng-xin-ssh-key-ge-shi-wei-ed25519/</id>
+    <published>2022-09-12T02:18:00.000Z</published>
+    <updated>2023-02-21T09:20:23.805Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;官网最新的SSH Key格式和生成方式是&lt;code&gt;ed25519&lt;/code&gt;，其比之前创建博客时使用的&lt;code&gt;rsa&lt;/code&gt;速度更快，也更加安全。&lt;/p&gt;
+&lt;p&gt;SSH很熟悉，之前Hexo博客部署时，使用SSH连接的方式，可以避免每次&lt;code&gt;hexo</summary>
+        
+      
+    
+    
+    
+    <category term="知识碎片" scheme="https://pamarus.github.io/categories/%E7%9F%A5%E8%AF%86%E7%A2%8E%E7%89%87/"/>
+    
+    
+    <category term="Hexo_Blog" scheme="https://pamarus.github.io/tags/Hexo-Blog/"/>
+    
+    <category term="GitHub" scheme="https://pamarus.github.io/tags/GitHub/"/>
+    
+    <category term="SSH验证" scheme="https://pamarus.github.io/tags/SSH%E9%AA%8C%E8%AF%81/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Mac系统如何查看图片的DPI等参数</title>
+    <link href="https://pamarus.github.io/2022/09/07/mac-xi-tong-ru-he-cha-kan-tu-pian-de-dpi-deng-can-shu/"/>
+    <id>https://pamarus.github.io/2022/09/07/mac-xi-tong-ru-he-cha-kan-tu-pian-de-dpi-deng-can-shu/</id>
+    <published>2022-09-07T14:23:00.000Z</published>
+    <updated>2023-02-21T09:21:13.671Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;有时证件照、工牌照片有DPI参数要求，但在Mac系统下，&lt;code&gt;右击图片 →</summary>
+        
+      
+    
+    
+    
+    <category term="知识碎片" scheme="https://pamarus.github.io/categories/%E7%9F%A5%E8%AF%86%E7%A2%8E%E7%89%87/"/>
+    
+    
+    <category term="macOS" scheme="https://pamarus.github.io/tags/macOS/"/>
+    
+    <category term="DPI" scheme="https://pamarus.github.io/tags/DPI/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Telegram 客户端 Proxy 代理设置</title>
+    <link href="https://pamarus.github.io/2022/09/07/telegram-ke-hu-duan-proxy-dai-li-she-zhi/"/>
+    <id>https://pamarus.github.io/2022/09/07/telegram-ke-hu-duan-proxy-dai-li-she-zhi/</id>
+    <published>2022-09-07T12:32:00.000Z</published>
+    <updated>2023-02-21T09:20:59.847Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Telegram-macOS-客户端&quot;&gt;1. Telegram macOS 客户端&lt;/h1&gt;&lt;p&gt;Telegram macOS 客户端不遵从系统代理，所以需要设置自定义代理。&lt;/p&gt;
+&lt;h2 id=&quot;自定义代理设置步骤&quot;&gt;1.1.</summary>
+        
+      
+    
+    
+    
+    <category term="知识碎片" scheme="https://pamarus.github.io/categories/%E7%9F%A5%E8%AF%86%E7%A2%8E%E7%89%87/"/>
+    
+    
+    <category term="Telegram" scheme="https://pamarus.github.io/tags/Telegram/"/>
+    
+    <category term="Proxy" scheme="https://pamarus.github.io/tags/Proxy/"/>
+    
+    <category term="代理" scheme="https://pamarus.github.io/tags/%E4%BB%A3%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如何使用tree命令生成目录树结构</title>
+    <link href="https://pamarus.github.io/2022/09/06/ru-he-shi-yong-tree-ming-ling-sheng-cheng-mu-lu-shu-jie-gou/"/>
+    <id>https://pamarus.github.io/2022/09/06/ru-he-shi-yong-tree-ming-ling-sheng-cheng-mu-lu-shu-jie-gou/</id>
+    <published>2022-09-06T04:15:00.000Z</published>
+    <updated>2023-02-21T09:20:40.958Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;安装Homebrew&quot;&gt;1. 安装Homebrew&lt;/h1&gt;&lt;p&gt;&lt;code&gt;Homebrew&lt;/code&gt;是一款macOS（或Linux）平台下的软件包管理器,具有装置、卸载、更新、查看、搜寻等很多实用的功能，官网地址：&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="知识碎片" scheme="https://pamarus.github.io/categories/%E7%9F%A5%E8%AF%86%E7%A2%8E%E7%89%87/"/>
+    
+    
+    <category term="tree" scheme="https://pamarus.github.io/tags/tree/"/>
+    
+    <category term="目录树" scheme="https://pamarus.github.io/tags/%E7%9B%AE%E5%BD%95%E6%A0%91/"/>
+    
+    <category term="macOS" scheme="https://pamarus.github.io/tags/macOS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SSH连接报错&quot;kex_exchange_identification read Connection reset by peer&quot;</title>
+    <link href="https://pamarus.github.io/2022/08/12/ssh-lian-jie-bao-cuo-kex-exchange-identification-read-connection-reset-by-peer/"/>
+    <id>https://pamarus.github.io/2022/08/12/ssh-lian-jie-bao-cuo-kex-exchange-identification-read-connection-reset-by-peer/</id>
+    <published>2022-08-12T04:45:00.000Z</published>
+    <updated>2022-09-07T09:10:43.094Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;问题&quot;&gt;1. 问题&lt;/h1&gt;&lt;p&gt;&lt;code&gt;Hexo -d&lt;/code&gt;部署的时候报错如下。&lt;/p&gt;
+&lt;pre class=&quot;line-numbers language-java&quot; data-language=&quot;java&quot;&gt;&lt;code</summary>
+        
+      
+    
+    
+    
+    <category term="Hexo博客" scheme="https://pamarus.github.io/categories/Hexo%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+    <category term="SSH报错" scheme="https://pamarus.github.io/tags/SSH%E6%8A%A5%E9%94%99/"/>
+    
+    <category term="部署问题" scheme="https://pamarus.github.io/tags/%E9%83%A8%E7%BD%B2%E9%97%AE%E9%A2%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SSH连接报错&quot;HTTP 2 stream 1 was not closed cleanly before end of the underlying stream&quot;</title>
+    <link href="https://pamarus.github.io/2022/08/12/ssh-lian-jie-bao-cuo-http-2-stream-1-was-not-closed-cleanly-before-end-of-the-underlying-stream/"/>
+    <id>https://pamarus.github.io/2022/08/12/ssh-lian-jie-bao-cuo-http-2-stream-1-was-not-closed-cleanly-before-end-of-the-underlying-stream/</id>
+    <published>2022-08-12T04:11:00.000Z</published>
+    <updated>2022-09-07T09:11:11.073Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;code&gt;Hexo -d&lt;/code&gt;部署的时候发现一直报错&lt;code&gt;HTTP/2 stream 1 was not closed cleanly before end of the underlying stream&lt;/code&gt;。</summary>
+        
+      
+    
+    
+    
+    <category term="Hexo博客" scheme="https://pamarus.github.io/categories/Hexo%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+    <category term="默认通信协议" scheme="https://pamarus.github.io/tags/%E9%BB%98%E8%AE%A4%E9%80%9A%E4%BF%A1%E5%8D%8F%E8%AE%AE/"/>
+    
+    <category term="SSH报错" scheme="https://pamarus.github.io/tags/SSH%E6%8A%A5%E9%94%99/"/>
+    
+    <category term="部署问题" scheme="https://pamarus.github.io/tags/%E9%83%A8%E7%BD%B2%E9%97%AE%E9%A2%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SSH连接报错&quot;Support for password authentication was removed&quot;</title>
+    <link href="https://pamarus.github.io/2022/08/11/ssh-lian-jie-bao-cuo-support-for-password-authentication-was-removed/"/>
+    <id>https://pamarus.github.io/2022/08/11/ssh-lian-jie-bao-cuo-support-for-password-authentication-was-removed/</id>
+    <published>2022-08-11T04:03:00.000Z</published>
+    <updated>2022-09-07T09:11:30.465Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;问题&quot;&gt;1. 问题&lt;/h1&gt;&lt;p&gt;&lt;code&gt;Hexo -d&lt;/code&gt;部署的时候报错如下。&lt;/p&gt;
+&lt;pre class=&quot;line-numbers language-java&quot; data-language=&quot;java&quot;&gt;&lt;code</summary>
+        
+      
+    
+    
+    
+    <category term="Hexo博客" scheme="https://pamarus.github.io/categories/Hexo%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+    <category term="SSH验证" scheme="https://pamarus.github.io/tags/SSH%E9%AA%8C%E8%AF%81/"/>
+    
+    <category term="Token验证" scheme="https://pamarus.github.io/tags/Token%E9%AA%8C%E8%AF%81/"/>
+    
+    <category term="SSH报错" scheme="https://pamarus.github.io/tags/SSH%E6%8A%A5%E9%94%99/"/>
+    
+    <category term="部署问题" scheme="https://pamarus.github.io/tags/%E9%83%A8%E7%BD%B2%E9%97%AE%E9%A2%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>安安成长日记-2022年08月</title>
+    <link href="https://pamarus.github.io/2022/08/08/an-an-cheng-chang-ri-ji-2022-nian-08-yue/"/>
+    <id>https://pamarus.github.io/2022/08/08/an-an-cheng-chang-ri-ji-2022-nian-08-yue/</id>
+    <published>2022-08-08T11:56:34.000Z</published>
+    <updated>2023-02-12T07:09:13.493Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;08-01&quot;&gt;1. 08-01&lt;/h1&gt;&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="生活日常" scheme="https://pamarus.github.io/categories/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/"/>
+    
+    
+    <category term="生活日常" scheme="https://pamarus.github.io/tags/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/"/>
+    
+    <category term="安安" scheme="https://pamarus.github.io/tags/%E5%AE%89%E5%AE%89/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如何在GitHub上创建文件夹</title>
+    <link href="https://pamarus.github.io/2022/08/08/ru-he-zai-github-shang-chuang-jian-wen-jian-jia/"/>
+    <id>https://pamarus.github.io/2022/08/08/ru-he-zai-github-shang-chuang-jian-wen-jian-jia/</id>
+    <published>2022-08-08T10:25:00.000Z</published>
+    <updated>2023-02-21T09:20:36.216Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;第一步，进入所要创建文件夹的库中点击右侧按钮&lt;code&gt;Add file &amp;gt; Create new file&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="知识碎片" scheme="https://pamarus.github.io/categories/%E7%9F%A5%E8%AF%86%E7%A2%8E%E7%89%87/"/>
+    
+    
+    <category term="GitHub" scheme="https://pamarus.github.io/tags/GitHub/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>安安成长日记-2022年07月</title>
+    <link href="https://pamarus.github.io/2022/07/12/an-an-cheng-chang-ri-ji-2022-nian-07-yue/"/>
+    <id>https://pamarus.github.io/2022/07/12/an-an-cheng-chang-ri-ji-2022-nian-07-yue/</id>
+    <published>2022-07-12T13:56:34.000Z</published>
+    <updated>2023-02-12T06:54:30.840Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
+&lt;h1 id=&quot;07-01&quot;&gt;1. 07-01&lt;/h1&gt;&lt;video width=&quot;100%&quot; height=&quot;100%&quot; controls&gt;
+  &lt;source</summary>
+        
+      
+    
+    
+    
+    <category term="生活日常" scheme="https://pamarus.github.io/categories/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/"/>
+    
+    
+    <category term="生活日常" scheme="https://pamarus.github.io/tags/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/"/>
+    
+    <category term="安安" scheme="https://pamarus.github.io/tags/%E5%AE%89%E5%AE%89/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>安安成长日记-2022年06月</title>
+    <link href="https://pamarus.github.io/2022/06/12/an-an-cheng-chang-ri-ji-2022-nian-06-yue/"/>
+    <id>https://pamarus.github.io/2022/06/12/an-an-cheng-chang-ri-ji-2022-nian-06-yue/</id>
+    <published>2022-06-12T13:56:34.000Z</published>
+    <updated>2023-02-12T03:29:01.866Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
+
+&lt;h1 id=&quot;06-01&quot;&gt;1. 06-01&lt;/h1&gt;&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="生活日常" scheme="https://pamarus.github.io/categories/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/"/>
+    
+    
+    <category term="生活日常" scheme="https://pamarus.github.io/tags/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/"/>
+    
+    <category term="安安" scheme="https://pamarus.github.io/tags/%E5%AE%89%E5%AE%89/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>安安成长日记-2022年05月</title>
+    <link href="https://pamarus.github.io/2022/05/16/an-an-cheng-chang-ri-ji-2022-nian-05-yue/"/>
+    <id>https://pamarus.github.io/2022/05/16/an-an-cheng-chang-ri-ji-2022-nian-05-yue/</id>
+    <published>2022-05-16T13:56:34.000Z</published>
+    <updated>2023-02-12T02:44:15.067Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
+
+&lt;h1 id=&quot;05-01&quot;&gt;1. 05-01&lt;/h1&gt;&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="生活日常" scheme="https://pamarus.github.io/categories/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/"/>
+    
+    
+    <category term="生活日常" scheme="https://pamarus.github.io/tags/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/"/>
+    
+    <category term="安安" scheme="https://pamarus.github.io/tags/%E5%AE%89%E5%AE%89/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Mac终端显示192，不显示用户名的解决方法</title>
+    <link href="https://pamarus.github.io/2022/05/15/mac-zhong-duan-xian-shi-192-bu-xian-shi-dian-nao-ming-zi-de-jie-jue-fang-fa/"/>
+    <id>https://pamarus.github.io/2022/05/15/mac-zhong-duan-xian-shi-192-bu-xian-shi-dian-nao-ming-zi-de-jie-jue-fang-fa/</id>
+    <published>2022-05-15T12:25:00.000Z</published>
+    <updated>2023-02-21T09:21:04.597Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;问题&quot;&gt;1. 问题&lt;/h1&gt;&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="知识碎片" scheme="https://pamarus.github.io/categories/%E7%9F%A5%E8%AF%86%E7%A2%8E%E7%89%87/"/>
+    
+    
+    <category term="Mac终端" scheme="https://pamarus.github.io/tags/Mac%E7%BB%88%E7%AB%AF/"/>
+    
+    <category term="192" scheme="https://pamarus.github.io/tags/192/"/>
+    
+    <category term="Mac问题" scheme="https://pamarus.github.io/tags/Mac%E9%97%AE%E9%A2%98/"/>
+    
+    <category term="macOS" scheme="https://pamarus.github.io/tags/macOS/"/>
+    
+  </entry>
+  
+</feed>
