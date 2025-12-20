@@ -6,7 +6,7 @@
   <link href="https://pamarus.github.io/atom.xml" rel="self"/>
   
   <link href="https://pamarus.github.io/"/>
-  <updated>2023-03-16T09:03:48.446Z</updated>
+  <updated>2024-07-15T09:31:24.000Z</updated>
   <id>https://pamarus.github.io/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>换电脑如何迁移博客</title>
+    <link href="https://pamarus.github.io/2024/07/15/hexo-bo-ke-da-jian-10-huan-dian-nao-ru-he-qian-yi-bo-ke/"/>
+    <id>https://pamarus.github.io/2024/07/15/hexo-bo-ke-da-jian-10-huan-dian-nao-ru-he-qian-yi-bo-ke/</id>
+    <published>2024-07-15T12:32:00.000Z</published>
+    <updated>2024-07-15T09:31:24.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;在换电脑之前将hexo根目录数据备份保存好。&lt;/p&gt;
+&lt;h1 id=&quot;安装Node-js和git&quot;&gt;1. 安装Node.js和git&lt;/h1&gt;&lt;p&gt;和第一次搭建博客时一样，确保电脑系统中安装好HomeBrew、Node.js和git。分别运行如下命令安装&lt;/p&gt;
+&lt;pre</summary>
+        
+      
+    
+    
+    
+    <category term="Hexo博客" scheme="https://pamarus.github.io/categories/Hexo%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+    <category term="Hexo_Blog" scheme="https://pamarus.github.io/tags/Hexo-Blog/"/>
+    
+    <category term="GitHub" scheme="https://pamarus.github.io/tags/GitHub/"/>
+    
+    <category term="博客教程" scheme="https://pamarus.github.io/tags/%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
   
   <entry>
     <title>ChatGPT 4.0 - New Bing新必应内测资格申请教程</title>
@@ -340,7 +371,7 @@
     <link href="https://pamarus.github.io/2022/08/12/ssh-lian-jie-bao-cuo-kex-exchange-identification-read-connection-reset-by-peer/"/>
     <id>https://pamarus.github.io/2022/08/12/ssh-lian-jie-bao-cuo-kex-exchange-identification-read-connection-reset-by-peer/</id>
     <published>2022-08-12T04:45:00.000Z</published>
-    <updated>2022-09-07T09:10:43.094Z</updated>
+    <updated>2022-09-07T09:10:42.000Z</updated>
     
     
       
@@ -368,7 +399,7 @@
     <link href="https://pamarus.github.io/2022/08/12/ssh-lian-jie-bao-cuo-http-2-stream-1-was-not-closed-cleanly-before-end-of-the-underlying-stream/"/>
     <id>https://pamarus.github.io/2022/08/12/ssh-lian-jie-bao-cuo-http-2-stream-1-was-not-closed-cleanly-before-end-of-the-underlying-stream/</id>
     <published>2022-08-12T04:11:00.000Z</published>
-    <updated>2022-09-07T09:11:11.073Z</updated>
+    <updated>2022-09-07T09:11:10.000Z</updated>
     
     
       
@@ -397,7 +428,7 @@
     <link href="https://pamarus.github.io/2022/08/11/ssh-lian-jie-bao-cuo-support-for-password-authentication-was-removed/"/>
     <id>https://pamarus.github.io/2022/08/11/ssh-lian-jie-bao-cuo-support-for-password-authentication-was-removed/</id>
     <published>2022-08-11T04:03:00.000Z</published>
-    <updated>2022-09-07T09:11:30.465Z</updated>
+    <updated>2022-09-07T09:11:30.000Z</updated>
     
     
       
@@ -561,37 +592,6 @@
     <category term="生活日常" scheme="https://pamarus.github.io/tags/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/"/>
     
     <category term="安安" scheme="https://pamarus.github.io/tags/%E5%AE%89%E5%AE%89/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Mac终端显示192，不显示用户名的解决方法</title>
-    <link href="https://pamarus.github.io/2022/05/15/mac-zhong-duan-xian-shi-192-bu-xian-shi-dian-nao-ming-zi-de-jie-jue-fang-fa/"/>
-    <id>https://pamarus.github.io/2022/05/15/mac-zhong-duan-xian-shi-192-bu-xian-shi-dian-nao-ming-zi-de-jie-jue-fang-fa/</id>
-    <published>2022-05-15T12:25:00.000Z</published>
-    <updated>2023-02-21T09:21:04.597Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;问题&quot;&gt;1. 问题&lt;/h1&gt;&lt;p&gt;&lt;img</summary>
-        
-      
-    
-    
-    
-    <category term="知识碎片" scheme="https://pamarus.github.io/categories/%E7%9F%A5%E8%AF%86%E7%A2%8E%E7%89%87/"/>
-    
-    
-    <category term="Mac终端" scheme="https://pamarus.github.io/tags/Mac%E7%BB%88%E7%AB%AF/"/>
-    
-    <category term="192" scheme="https://pamarus.github.io/tags/192/"/>
-    
-    <category term="Mac问题" scheme="https://pamarus.github.io/tags/Mac%E9%97%AE%E9%A2%98/"/>
-    
-    <category term="macOS" scheme="https://pamarus.github.io/tags/macOS/"/>
     
   </entry>
   

@@ -29,9 +29,9 @@
 
     <script src="/libs/jquery/jquery.min.js"></script>
 
-<meta name="generator" content="Hexo 6.2.0"><link rel="alternate" href="/atom.xml" title="Pamarus" type="application/atom+xml">
-
+<meta name="generator" content="Hexo 6.2.0">
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+<link rel="alternate" href="/atom.xml" title="Pamarus" type="application/atom+xml">
 </head>
 
 
@@ -472,7 +472,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    2.4k
+                    2.5k
                 </div>
                 
 
@@ -530,10 +530,30 @@
 </ul>
 </li>
 </ul>
-<h1 id="环境配置：安装Node-js和git">2. 环境配置：安装Node.js和git</h1><h2 id="下载安装Node-js">2.1. 下载安装Node.js</h2><p>Hexo 是基于 Node.js 驱动的一款博客框架，所以需安装node。</p>
-<p>前往 <a target="_blank" rel="noopener" href="https://nodejs.org/zh-cn/">Node.js官网</a> 下载软件安装。</p>
-<h2 id="下载安装git">2.2. 下载安装git</h2><p>前往 <a target="_blank" rel="noopener" href="https://git-scm.com/">git官网</a> 下载软件安装。</p>
-<h2 id="检查是否安装">2.3. 检查是否安装</h2><p>在命令行中输入相应命令验证是否成功，如果成功会有相应的版本号。</p>
+<h1 id="环境配置：安装Node-js和git">2. 环境配置：安装Node.js和git</h1><h2 id="安装brew">2.1. 安装brew</h2><p>安装brew，之后可以使用 HomeBrew 安装各类软件</p>
+<h3 id="方法1">2.1.1. 方法1</h3><p>终端中输入以下命令</p>
+<pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token operator">/</span>bin<span class="token operator">/</span>bash <span class="token operator">-</span>c <span class="token string">"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<h3 id="方法2">2.1.2. 方法2</h3><p>在 <a target="_blank" rel="noopener" href="https://github.com/Homebrew/brew/releases">Homebrew GitHub项目中</a> 下载安装包。</p>
+<h3 id="安装brew前确保Xcode-Command-Line-Tool安装">2.1.3. 安装brew前确保Xcode Command Line Tool安装</h3><p>若电脑未安装，则报错如下。</p>
+<p><img src="https://www.github.com/pamarus/Images/raw/master/2020/05/Hexo+GitHub%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A232.jpg" title="Hexo+GitHub搭建博客32"></p>
+<p>终端中输入以下命令安装 Xcode Command Line Tool。</p>
+<pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript">xcode<span class="token operator">-</span>select <span class="token operator">--</span>install<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p><img src="https://www.github.com/pamarus/Images/raw/master/2020/05/Hexo+GitHub%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A233.jpg" title="Hexo+GitHub搭建博客33"></p>
+<p><img src="https://www.github.com/pamarus/Images/raw/master/2020/05/Hexo+GitHub%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A234.jpg" title="Hexo+GitHub搭建博客34"></p>
+<p><img src="https://www.github.com/pamarus/Images/raw/master/2020/05/Hexo+GitHub%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A235.jpg" title="Hexo+GitHub搭建博客35"></p>
+<p><img src="https://www.github.com/pamarus/Images/raw/master/2020/05/Hexo+GitHub%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A236.jpg" title="Hexo+GitHub搭建博客36"></p>
+<h2 id="下载安装Node-js">2.2. 下载安装Node.js</h2><p>Hexo 是基于 Node.js 驱动的一款博客框架，所以需安装node。</p>
+<h3 id="方法1-1">2.2.1. 方法1</h3><p>终端中输入以下命令</p>
+<pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript">brew install node<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<h3 id="方法2-1">2.2.2. 方法2</h3><p>前往 <a target="_blank" rel="noopener" href="https://nodejs.org/zh-cn/">Node.js官网</a> 下载软件安装。</p>
+<h2 id="下载安装git">2.3. 下载安装git</h2><h3 id="方法1-2">2.3.1. 方法1</h3><p>终端中输入以下命令</p>
+<pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript">brew install git<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<h3 id="方法2-2">2.3.2. 方法2</h3><p>前往 <a target="_blank" rel="noopener" href="https://git-scm.com/">git官网</a> 下载软件安装。</p>
+<h2 id="检查是否安装">2.4. 检查是否安装</h2><p>在命令行中输入相应命令验证是否成功，如果成功会有相应的版本号。</p>
 <pre class="line-numbers language-jsx" data-language="jsx"><code class="language-jsx">node <span class="token operator">-</span>v
 git version
 npm <span class="token operator">-</span>v<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
@@ -725,10 +745,10 @@ The</span> key fingerprint is<span class="token operator">:</span> <span class="
 
 <h2 id="找到key">6.2. 找到key</h2><p>按照上面生成的，mac下前往文件夹<code>/Users/user/.ssh</code></p>
 <blockquote>
-<p>如何前往<br>Finder中前往 -&gt; 前往文件夹… -&gt; 填入<code>/Users/user/.ssh</code> -&gt; enter。打开文件夹后就可以看到<code>id_rsa</code>和<code>id_rsa.pub</code>这两个文件</p>
+<p>如何前往<br>Finder中前往 -&gt; 前往文件夹… -&gt; 填入<code>/Users/user/.ssh</code> -&gt; enter。打开文件夹后就可以看到<code>id_rsa</code>和<code>id_rsa.pub</code>这两个文件<br>注意将<code>user</code>替换为你的电脑用户名称</p>
 </blockquote>
 <p>打开<code>id_rsa.pub</code>文件，ssh key便在这个文件里</p>
-<h2 id="Github-上添加刚刚生成的ssh-key">6.3. Github 上添加刚刚生成的ssh key</h2><p>将key复制到GitHub的Add ssh key中。路径：<code>GitHub -&gt; Setting -&gt; SSH keys -&gt; add SSH key</code>。</p>
+<h2 id="Github-上添加刚刚生成的ssh-key">6.3. Github 上添加刚刚生成的ssh key</h2><p>将key复制到GitHub的Add ssh key中。路径：<code>GitHub -&gt; Settings -&gt; SSH and GPG keys -&gt; add SSH key</code>。</p>
 <p>Title里填写任意标题，将复制的内容粘贴到key中，点击Add key完成添加。</p>
 <p><img src="https://note.youdao.com/yws/api/personal/file/WEB2ef9be1a5af773141b889d2d8da93f3b?method=download&amp;shareKey=d1616a2bc890db2e0d74647a1f82d9ad" alt="Hexo+GitHub搭建博客28github添加key"></p>
 <p><img src="https://note.youdao.com/yws/api/personal/file/WEB94bd01e56557488331e51eb1d0718ff5?method=download&amp;shareKey=cf92e796bc06cdfa9d5be34527398a41" alt="Hexo+GitHub搭建博客29添加页面"></p>
@@ -1588,7 +1608,7 @@ The</span> key fingerprint is<span class="token operator">:</span> <span class="
         <div class="col s12 m8 l8 copy-right">
             Copyright&nbsp;&copy;
             
-                <span id="year">2020-2024</span>
+                <span id="year">2020-2025</span>
             
             <span id="year">2020</span>
             <a href="/about" target="_blank">Pamarus</a>
@@ -1597,7 +1617,7 @@ The</span> key fingerprint is<span class="token operator">:</span> <span class="
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">57.8k</span>&nbsp;字
+                class="white-color">58.1k</span>&nbsp;字
             
             
             

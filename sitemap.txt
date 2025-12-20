@@ -1,3 +1,5 @@
+https://pamarus.github.io/2024/07/15/hexo-bo-ke-da-jian-10-huan-dian-nao-ru-he-qian-yi-bo-ke/
+https://pamarus.github.io/2020/05/04/hexo-bo-ke-da-jian-1-mac-duan-shi-yong-hexo-github-pages-da-jian-mian-fei-ge-ren-bo-ke/
 https://pamarus.github.io/2022/01/23/an-an-cheng-chang-ri-ji-2023-nian-01-yue/
 https://pamarus.github.io/2022/12/18/an-an-cheng-chang-ri-ji-2022-nian-12-yue/
 https://pamarus.github.io/2023/03/01/chatgpt-4.0-new-bing-xin-bi-ying-nei-ce-zi-ge-shen-qing-jiao-cheng/
@@ -38,7 +40,6 @@ https://pamarus.github.io/2020/07/11/ps-shi-yong-ye-hua-lu-jing-shou-lian/
 https://pamarus.github.io/2022/08/11/ssh-lian-jie-bao-cuo-support-for-password-authentication-was-removed/
 https://pamarus.github.io/2022/08/12/ssh-lian-jie-bao-cuo-http-2-stream-1-was-not-closed-cleanly-before-end-of-the-underlying-stream/
 https://pamarus.github.io/2022/08/12/ssh-lian-jie-bao-cuo-kex-exchange-identification-read-connection-reset-by-peer/
-https://pamarus.github.io/2020/05/04/hexo-bo-ke-da-jian-1-mac-duan-shi-yong-hexo-github-pages-da-jian-mian-fei-ge-ren-bo-ke/
 https://pamarus.github.io/2020/06/13/processing-xue-xi-ji-lu-4-miao-bian-shu-xing-tian-chong-he-bei-jing-se/
 https://pamarus.github.io/2020/05/25/processing-xue-xi-ji-lu-3-2d-ji-he-tu-xing-hui-zhi/
 https://pamarus.github.io/2020/05/25/processing-xue-xi-ji-lu-2-shi-yong-wen-ti-ji-jie-jue-fang-fa-hui-zong/
