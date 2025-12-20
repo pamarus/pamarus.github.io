@@ -1416,6 +1416,35 @@
     
     
     <entry>
+      <title>插入图片演示</title>
+      <link href="/2020/05/04/filename/"/>
+      <url>/2020/05/04/filename/</url>
+      
+        <content type="html"><![CDATA[<p><img src="C:\Users\13156\Desktop\【生活文件】\【Blog】\新建文件夹\01.jpg" alt="11"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Hexo博客 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Hexo_Blog </tag>
+            
+            <tag> GitHub </tag>
+            
+            <tag> 博客教程 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Markdown（1）：基础语法学习及快速入门</title>
       <link href="/2020/05/03/markdown-1-ji-chu-yu-fa-xue-xi-ji-kuai-su-ru-men/"/>
       <url>/2020/05/03/markdown-1-ji-chu-yu-fa-xue-xi-ji-kuai-su-ru-men/</url>
