@@ -2,9 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://pamarus.github.io/2024/07/15/hexo-bo-ke-da-jian-10-huan-dian-nao-ru-he-qian-yi-bo-ke/</loc>
+    <loc>https://pamarus.github.io/2020/06/11/hexo-bo-ke-da-jian-8-ti-huan-shi-yong-matery-zhu-ti-ji-xiang-xi-pei-zhi/</loc>
     
-    <lastmod>2024-07-15</lastmod>
+    <lastmod>2025-12-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pamarus.github.io/2020/05/17/hexo-bo-ke-da-jian-5-next-zhu-ti-ji-cheng-valine-ping-lun-xi-tong/</loc>
+    
+    <lastmod>2025-12-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pamarus.github.io/2025/12/16/hexo-bo-ke-da-jian-10-hexo-bo-ke-cong-mac-duan-qian-yi-dao-windows/</loc>
+    
+    <lastmod>2025-12-16</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -13,7 +31,25 @@
   <url>
     <loc>https://pamarus.github.io/2020/05/04/hexo-bo-ke-da-jian-1-mac-duan-shi-yong-hexo-github-pages-da-jian-mian-fei-ge-ren-bo-ke/</loc>
     
-    <lastmod>2024-07-15</lastmod>
+    <lastmod>2025-12-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pamarus.github.io/2025/12/14/ru-he-ba-git-pei-zhi-dao-xi-tong-huan-jing-bian-liang/</loc>
+    
+    <lastmod>2025-12-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pamarus.github.io/2025/12/12/ru-he-shou-dong-tian-jia-git-bash-here-dao-you-jian-cai-dan/</loc>
+    
+    <lastmod>2025-12-16</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -443,15 +479,6 @@
   </url>
   
   <url>
-    <loc>https://pamarus.github.io/2020/06/11/hexo-bo-ke-da-jian-8-ti-huan-shi-yong-matery-zhu-ti-ji-xiang-xi-pei-zhi/</loc>
-    
-    <lastmod>2022-09-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://pamarus.github.io/2020/06/04/hexo-bo-ke-da-jian-7-next-zhu-ti-wu-custom.styl-wen-jian-ru-he-zi-ding-yi-yang-shi/</loc>
     
     <lastmod>2022-09-06</lastmod>
@@ -462,15 +489,6 @@
   
   <url>
     <loc>https://pamarus.github.io/2020/05/19/hexo-bo-ke-da-jian-6-valine-ping-lun-xi-tong-you-hua/</loc>
-    
-    <lastmod>2022-09-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pamarus.github.io/2020/05/17/hexo-bo-ke-da-jian-5-next-zhu-ti-ji-cheng-valine-ping-lun-xi-tong/</loc>
     
     <lastmod>2022-09-06</lastmod>
     
@@ -950,6 +968,27 @@
   
   <url>
     <loc>https://pamarus.github.io/tags/Web-UI/</loc>
+    <lastmod>2025-12-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://pamarus.github.io/tags/Git/</loc>
+    <lastmod>2025-12-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://pamarus.github.io/tags/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F/</loc>
+    <lastmod>2025-12-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://pamarus.github.io/tags/Git-Bash/</loc>
     <lastmod>2025-12-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

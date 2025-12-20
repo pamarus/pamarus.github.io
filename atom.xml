@@ -6,7 +6,7 @@
   <link href="https://pamarus.github.io/atom.xml" rel="self"/>
   
   <link href="https://pamarus.github.io/"/>
-  <updated>2024-07-15T09:31:24.000Z</updated>
+  <updated>2025-12-16T08:04:47.676Z</updated>
   <id>https://pamarus.github.io/</id>
   
   <author>
@@ -17,20 +17,19 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>换电脑如何迁移博客</title>
-    <link href="https://pamarus.github.io/2024/07/15/hexo-bo-ke-da-jian-10-huan-dian-nao-ru-he-qian-yi-bo-ke/"/>
-    <id>https://pamarus.github.io/2024/07/15/hexo-bo-ke-da-jian-10-huan-dian-nao-ru-he-qian-yi-bo-ke/</id>
-    <published>2024-07-15T12:32:00.000Z</published>
-    <updated>2024-07-15T09:31:24.000Z</updated>
+    <title>Hexo博客搭建（10）：Hexo博客从Mac端迁移到Windows</title>
+    <link href="https://pamarus.github.io/2025/12/16/hexo-bo-ke-da-jian-10-hexo-bo-ke-cong-mac-duan-qian-yi-dao-windows/"/>
+    <id>https://pamarus.github.io/2025/12/16/hexo-bo-ke-da-jian-10-hexo-bo-ke-cong-mac-duan-qian-yi-dao-windows/</id>
+    <published>2025-12-16T12:32:00.000Z</published>
+    <updated>2025-12-16T08:04:47.676Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;在换电脑之前将hexo根目录数据备份保存好。&lt;/p&gt;
-&lt;h1 id=&quot;安装Node-js和git&quot;&gt;1. 安装Node.js和git&lt;/h1&gt;&lt;p&gt;和第一次搭建博客时一样，确保电脑系统中安装好HomeBrew、Node.js和git。分别运行如下命令安装&lt;/p&gt;
-&lt;pre</summary>
+    <summary type="html">&lt;p&gt;具体步骤可参考&lt;/p&gt;
+&lt;h1 id=&quot;备份并迁移本地-hexo-文件夹&quot;&gt;1. 备份并迁移本地 hexo</summary>
         
       
     
@@ -44,6 +43,62 @@
     <category term="GitHub" scheme="https://pamarus.github.io/tags/GitHub/"/>
     
     <category term="博客教程" scheme="https://pamarus.github.io/tags/%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如何把 Git 配置到系统环境变量</title>
+    <link href="https://pamarus.github.io/2025/12/14/ru-he-ba-git-pei-zhi-dao-xi-tong-huan-jing-bian-liang/"/>
+    <id>https://pamarus.github.io/2025/12/14/ru-he-ba-git-pei-zhi-dao-xi-tong-huan-jing-bian-liang/</id>
+    <published>2025-12-14T10:54:48.000Z</published>
+    <updated>2025-12-16T02:23:38.319Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;在使用 Git 前，需要正确配置环境变量，以确保命令行能够识别 Git 命令。以下是详细的配置步骤：&lt;/p&gt;
+&lt;h1 id=&quot;确认-Git-已正确安装&quot;&gt;1. 确认 Git 已正确安装&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;按下&amp;nbsp;_Win +</summary>
+        
+      
+    
+    
+    
+    <category term="知识碎片" scheme="https://pamarus.github.io/categories/%E7%9F%A5%E8%AF%86%E7%A2%8E%E7%89%87/"/>
+    
+    
+    <category term="Git" scheme="https://pamarus.github.io/tags/Git/"/>
+    
+    <category term="环境变量" scheme="https://pamarus.github.io/tags/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如何手动添加Git Bash Here到右键菜单</title>
+    <link href="https://pamarus.github.io/2025/12/12/ru-he-shou-dong-tian-jia-git-bash-here-dao-you-jian-cai-dan/"/>
+    <id>https://pamarus.github.io/2025/12/12/ru-he-shou-dong-tian-jia-git-bash-here-dao-you-jian-cai-dan/</id>
+    <published>2025-12-12T10:54:48.000Z</published>
+    <updated>2025-12-16T02:23:33.496Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;在 Windows 系统中，安装Git后，默认右键菜单会有&lt;code&gt;open Git Bash here&lt;/code&gt;。若没有，可以通过修改注册表将&amp;nbsp;&lt;code&gt;Git Bash Here&lt;/code&gt;添加到右键菜单，从而快速启动 &lt;code&gt;Git</summary>
+        
+      
+    
+    
+    
+    <category term="知识碎片" scheme="https://pamarus.github.io/categories/%E7%9F%A5%E8%AF%86%E7%A2%8E%E7%89%87/"/>
+    
+    
+    <category term="Git" scheme="https://pamarus.github.io/tags/Git/"/>
+    
+    <category term="Git Bash" scheme="https://pamarus.github.io/tags/Git-Bash/"/>
     
   </entry>
   
@@ -523,64 +578,6 @@
     <summary type="html">&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
 &lt;h1 id=&quot;07-01&quot;&gt;1. 07-01&lt;/h1&gt;&lt;video width=&quot;100%&quot; height=&quot;100%&quot; controls&gt;
   &lt;source</summary>
-        
-      
-    
-    
-    
-    <category term="生活日常" scheme="https://pamarus.github.io/categories/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/"/>
-    
-    
-    <category term="生活日常" scheme="https://pamarus.github.io/tags/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/"/>
-    
-    <category term="安安" scheme="https://pamarus.github.io/tags/%E5%AE%89%E5%AE%89/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>安安成长日记-2022年06月</title>
-    <link href="https://pamarus.github.io/2022/06/12/an-an-cheng-chang-ri-ji-2022-nian-06-yue/"/>
-    <id>https://pamarus.github.io/2022/06/12/an-an-cheng-chang-ri-ji-2022-nian-06-yue/</id>
-    <published>2022-06-12T13:56:34.000Z</published>
-    <updated>2023-02-12T03:29:01.866Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
-
-&lt;h1 id=&quot;06-01&quot;&gt;1. 06-01&lt;/h1&gt;&lt;p&gt;&lt;img</summary>
-        
-      
-    
-    
-    
-    <category term="生活日常" scheme="https://pamarus.github.io/categories/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/"/>
-    
-    
-    <category term="生活日常" scheme="https://pamarus.github.io/tags/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/"/>
-    
-    <category term="安安" scheme="https://pamarus.github.io/tags/%E5%AE%89%E5%AE%89/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>安安成长日记-2022年05月</title>
-    <link href="https://pamarus.github.io/2022/05/16/an-an-cheng-chang-ri-ji-2022-nian-05-yue/"/>
-    <id>https://pamarus.github.io/2022/05/16/an-an-cheng-chang-ri-ji-2022-nian-05-yue/</id>
-    <published>2022-05-16T13:56:34.000Z</published>
-    <updated>2023-02-12T02:44:15.067Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
-
-&lt;h1 id=&quot;05-01&quot;&gt;1. 05-01&lt;/h1&gt;&lt;p&gt;&lt;img</summary>
         
       
     

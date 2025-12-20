@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Hexo,GitHub">
+    <meta name="keywords" content="Git">
     <meta name="description" content="Thinking Hacks">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>换电脑如何迁移博客 | Pamarus</title>
+    <title>如何把 Git 配置到系统环境变量 | Pamarus</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -314,7 +314,7 @@
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">换电脑如何迁移博客</h1>
+                    <h1 class="description center-align post-title">如何把 Git 配置到系统环境变量</h1>
                 </div>
             </div>
         </div>
@@ -430,16 +430,12 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/Hexo-Blog/">
-                                <span class="chip bg-color">Hexo_Blog</span>
+                            <a href="/tags/Git/">
+                                <span class="chip bg-color">Git</span>
                             </a>
                         
-                            <a href="/tags/GitHub/">
-                                <span class="chip bg-color">GitHub</span>
-                            </a>
-                        
-                            <a href="/tags/%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/">
-                                <span class="chip bg-color">博客教程</span>
+                            <a href="/tags/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F/">
+                                <span class="chip bg-color">环境变量</span>
                             </a>
                         
                     </div>
@@ -450,8 +446,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/Hexo%E5%8D%9A%E5%AE%A2/" class="post-category">
-                                Hexo博客
+                            <a href="/categories/%E7%9F%A5%E8%AF%86%E7%A2%8E%E7%89%87/" class="post-category">
+                                知识碎片
                             </a>
                         
                     </div>
@@ -463,7 +459,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2024-07-15
+                    2025-12-14
                 </div>
                 
 
@@ -472,7 +468,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    83
+                    410
                 </div>
                 
 
@@ -507,15 +503,54 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>在换电脑之前将hexo根目录数据备份保存好。</p>
-<h1 id="安装Node-js和git">1. 安装Node.js和git</h1><p>和第一次搭建博客时一样，确保电脑系统中安装好HomeBrew、Node.js和git。分别运行如下命令安装</p>
-<pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token operator">/</span>bin<span class="token operator">/</span>bash <span class="token operator">-</span>c <span class="token string">"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"</span>
+                <p>在使用 Git 前，需要正确配置环境变量，以确保命令行能够识别 Git 命令。以下是详细的配置步骤：</p>
+<h1 id="确认-Git-已正确安装">1. 确认 Git 已正确安装</h1><ul>
+<li>按下&nbsp;_Win + R_，输入&nbsp;<em>cmd</em>&nbsp;打开命令行工具，输入以下命令检查安装是否成功。</li>
+</ul>
+<pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript">git <span class="token operator">--</span>version<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
-brew install node
+<p><img src="https://github.com/pamarus/Images/blob/master/2025/%E5%A6%82%E4%BD%95%E6%8A%8A%20Git%20%E9%85%8D%E7%BD%AE%E5%88%B0%E7%B3%BB%E7%BB%9F%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F01.png?raw=true" alt="如何把 Git 配置到系统环境变量01"></p>
+<h1 id="获取-Git-安装路径">2. 获取 Git 安装路径</h1><ul>
+<li>输入以下命令获取 Git 的安装路径，并复制路径。</li>
+</ul>
+<pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript">where git<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
-brew install git<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p><img src="https://github.com/pamarus/Images/blob/master/2025/%E5%A6%82%E4%BD%95%E6%8A%8A%20Git%20%E9%85%8D%E7%BD%AE%E5%88%B0%E7%B3%BB%E7%BB%9F%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F02.png?raw=true" alt="如何把 Git 配置到系统环境变量02"></p>
+<h1 id="配置环境变量">3. 配置环境变量</h1><h2 id="打开环境变量设置界面">3.1. 打开环境变量设置界面</h2><p>右键<code>此电脑</code>，选择<code>属性</code>。 点击<code>高级系统设置</code>，然后点击<code>环境变量</code>按钮。</p>
+<p><img src="https://github.com/pamarus/Images/blob/master/2025/%E5%A6%82%E4%BD%95%E6%8A%8A%20Git%20%E9%85%8D%E7%BD%AE%E5%88%B0%E7%B3%BB%E7%BB%9F%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F03.png?raw=true" alt="如何把 Git 配置到系统环境变量03"></p>
+<p><img src="https://github.com/pamarus/Images/blob/master/2025/%E5%A6%82%E4%BD%95%E6%8A%8A%20Git%20%E9%85%8D%E7%BD%AE%E5%88%B0%E7%B3%BB%E7%BB%9F%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F04.png?raw=true" alt="如何把 Git 配置到系统环境变量04"></p>
+<h2 id="编辑-Path-系统变量">3.2. 编辑 Path 系统变量</h2><p>在<code>系统变量</code>中找到<code>Path</code>，双击或者点击<code>编辑</code>。 点击<code>新建</code>，粘贴刚刚复制的 Git 安装路径（如 D:\Program Files\Git\bin），不需要&nbsp;<code>git.exe</code>，如图，然后一直点击<code>确定</code>即可。</p>
+<p><img src="https://github.com/pamarus/Images/blob/master/2025/%E5%A6%82%E4%BD%95%E6%8A%8A%20Git%20%E9%85%8D%E7%BD%AE%E5%88%B0%E7%B3%BB%E7%BB%9F%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F05.png?raw=true" alt="如何把 Git 配置到系统环境变量05"></p>
+<h1 id="验证配置是否成功">4. 验证配置是否成功</h1><ul>
+<li>再次打开命令提示符，输入以下命令，弹出以下界面，说明安装配置成功。</li>
+</ul>
+<pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript">git<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
-<h1 id="安装Hexo">2. 安装Hexo</h1>
+<p><img src="https://github.com/pamarus/Images/blob/master/2025/%E5%A6%82%E4%BD%95%E6%8A%8A%20Git%20%E9%85%8D%E7%BD%AE%E5%88%B0%E7%B3%BB%E7%BB%9F%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F06.png?raw=true" alt="如何把 Git 配置到系统环境变量06"></p>
+<h1 id="配置全局用户名和邮箱">5. 配置全局用户名和邮箱</h1><ul>
+<li>配置用户名和邮箱是提交代码时的必要步骤。</li>
+</ul>
+<pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript">git config <span class="token operator">--</span>global user<span class="token punctuation">.</span>name <span class="token string">"你的用户名"</span>
+git config <span class="token operator">--</span>global user<span class="token punctuation">.</span>email <span class="token string">"你的邮箱"</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+
+
+<ul>
+<li>验证配置。</li>
+</ul>
+<pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript">git config <span class="token operator">--</span>global <span class="token operator">--</span>list<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p><img src="https://github.com/pamarus/Images/blob/master/2025/%E5%A6%82%E4%BD%95%E6%8A%8A%20Git%20%E9%85%8D%E7%BD%AE%E5%88%B0%E7%B3%BB%E7%BB%9F%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F07.png?raw=truee" alt="如何把 Git 配置到系统环境变量07"></p>
+<h1 id="注意事项">6. 注意事项</h1><ul>
+<li><p>确保路径中没有中文或空格，以避免不必要的问题。</p>
+</li>
+<li><p>如果使用 SourceTree 等工具，可能已自带 Git，无需重复安装。</p>
+</li>
+<li><p>完成以上步骤后，Git 环境变量已成功配置，可以正常使用！</p>
+</li>
+</ul>
+<h1 id="致谢">7. 致谢</h1><p><a target="_blank" rel="noopener" href="https://www.cnblogs.com/qingmuchuanqi48/articles/12052289.html">git之Windows10下Git环境变量配置</a></p>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/weixin_45811256/article/details/130925392">Git的安装和环境变量的配置</a></p>
+
                 
             </div>
             <hr/>
@@ -541,7 +576,7 @@ brew install git<span aria-hidden="true" class="line-numbers-rows"><span></span>
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://pamarus.github.io/2024/07/15/hexo-bo-ke-da-jian-10-huan-dian-nao-ru-he-qian-yi-bo-ke/">https://pamarus.github.io/2024/07/15/hexo-bo-ke-da-jian-10-huan-dian-nao-ru-he-qian-yi-bo-ke/</a>
+                    <a href="https://pamarus.github.io/2025/12/14/ru-he-ba-git-pei-zhi-dao-xi-tong-huan-jing-bian-liang/">https://pamarus.github.io/2025/12/14/ru-he-ba-git-pei-zhi-dao-xi-tong-huan-jing-bian-liang/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -579,16 +614,12 @@ brew install git<span aria-hidden="true" class="line-numbers-rows"><span></span>
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/Hexo-Blog/">
-                                    <span class="chip bg-color">Hexo_Blog</span>
+                                <a href="/tags/Git/">
+                                    <span class="chip bg-color">Git</span>
                                 </a>
                             
-                                <a href="/tags/GitHub/">
-                                    <span class="chip bg-color">GitHub</span>
-                                </a>
-                            
-                                <a href="/tags/%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/">
-                                    <span class="chip bg-color">博客教程</span>
+                                <a href="/tags/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F/">
+                                    <span class="chip bg-color">环境变量</span>
                                 </a>
                             
                         </div>
@@ -1021,17 +1052,16 @@ brew install git<span aria-hidden="true" class="line-numbers-rows"><span></span>
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="far fa-dot-circle"></i>&nbsp;本篇
-            </div>
+                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2024/07/15/hexo-bo-ke-da-jian-10-huan-dian-nao-ru-he-qian-yi-bo-ke/">
+                <a href="/2025/12/16/hexo-bo-ke-da-jian-10-hexo-bo-ke-cong-mac-duan-qian-yi-dao-windows/">
                     <div class="card-image">
                         
-                        <img src="/medias/featureimages/Hexo.png" class="responsive-img" alt="换电脑如何迁移博客">
+                        <img src="/medias/featureimages/Hexo.png" class="responsive-img" alt="Hexo博客搭建（10）：Hexo博客从Mac端迁移到Windows">
                         
-                        <span class="card-title">换电脑如何迁移博客</span>
+                        <span class="card-title">Hexo博客搭建（10）：Hexo博客从Mac端迁移到Windows</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -1041,9 +1071,9 @@ brew install git<span aria-hidden="true" class="line-numbers-rows"><span></span>
                         
                     </div>
                     <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2024-07-15
-                            </span>
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2025-12-16
+                        </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
@@ -1056,7 +1086,6 @@ brew install git<span aria-hidden="true" class="line-numbers-rows"><span></span>
                         </span>
                     </div>
                 </div>
-
                 
                 <div class="card-action article-tags">
                     
@@ -1083,30 +1112,30 @@ brew install git<span aria-hidden="true" class="line-numbers-rows"><span></span>
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2023/03/01/chatgpt-4.0-new-bing-xin-bi-ying-nei-ce-zi-ge-shen-qing-jiao-cheng/">
+                <a href="/2025/12/12/ru-he-shou-dong-tian-jia-git-bash-here-dao-you-jian-cai-dan/">
                     <div class="card-image">
                         
-                        <img src="/medias/featureimages/New-Bing.png" class="responsive-img" alt="ChatGPT 4.0 - New Bing新必应内测资格申请教程">
+                        <img src="/medias/featureimages/Hexo.png" class="responsive-img" alt="如何手动添加Git Bash Here到右键菜单">
                         
-                        <span class="card-title">ChatGPT 4.0 - New Bing新必应内测资格申请教程</span>
+                        <span class="card-title">如何手动添加Git Bash Here到右键菜单</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            New Bing内测资格申请方法
+                            手动添加Git Bash Here到右键菜单
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2023-03-01
+                                <i class="far fa-clock fa-fw icon-date"></i>2025-12-12
                             </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/" class="post-category">
-                                    编程语言
+                            <a href="/categories/%E7%9F%A5%E8%AF%86%E7%A2%8E%E7%89%87/" class="post-category">
+                                    知识碎片
                                 </a>
                             
                             
@@ -1116,12 +1145,12 @@ brew install git<span aria-hidden="true" class="line-numbers-rows"><span></span>
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/ChatGPT/">
-                        <span class="chip bg-color">ChatGPT</span>
+                    <a href="/tags/Git/">
+                        <span class="chip bg-color">Git</span>
                     </a>
                     
-                    <a href="/tags/New-Bing/">
-                        <span class="chip bg-color">New Bing</span>
+                    <a href="/tags/Git-Bash/">
+                        <span class="chip bg-color">Git Bash</span>
                     </a>
                     
                 </div>
@@ -1368,7 +1397,7 @@ brew install git<span aria-hidden="true" class="line-numbers-rows"><span></span>
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">58.1k</span>&nbsp;字
+                class="white-color">60.2k</span>&nbsp;字
             
             
             

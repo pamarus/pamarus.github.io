@@ -476,7 +476,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    10.6k
+                    10.7k
                 </div>
                 
 
@@ -1582,22 +1582,37 @@ snow<span class="token punctuation">.</span><span class="token function">start</
 # https<span class="token operator">:</span><span class="token operator">/</span><span class="token operator">/</span>github<span class="token punctuation">.</span>com<span class="token operator">/</span><span class="token constant">EYHN</span><span class="token operator">/</span>hexo<span class="token operator">-</span>helper<span class="token operator">-</span>live2d
 live2d<span class="token operator">:</span>
   enable<span class="token operator">:</span> <span class="token boolean">true</span>
+  # enable<span class="token operator">:</span> <span class="token boolean">false</span>
   scriptFrom<span class="token operator">:</span> local # 默认
   pluginRootPath<span class="token operator">:</span> live2dw<span class="token operator">/</span> # 插件在站点上的根目录<span class="token punctuation">(</span>相对路径<span class="token punctuation">)</span>
   pluginJsPath<span class="token operator">:</span> lib<span class="token operator">/</span> # 脚本文件相对与插件根目录路径
   pluginModelPath<span class="token operator">:</span> assets<span class="token operator">/</span> # 模型文件相对与插件根目录路径
+  # scriptFrom<span class="token operator">:</span> jsdelivr # jsdelivr <span class="token constant">CDN</span>
+  # scriptFrom<span class="token operator">:</span> unpkg # unpkg <span class="token constant">CDN</span>
+  # scriptFrom<span class="token operator">:</span> https<span class="token operator">:</span><span class="token operator">/</span><span class="token operator">/</span>cdn<span class="token punctuation">.</span>jsdelivr<span class="token punctuation">.</span>net<span class="token operator">/</span>npm<span class="token operator">/</span>live2d<span class="token operator">-</span>widget<span class="token annotation punctuation">@3.x</span><span class="token operator">/</span>lib<span class="token operator">/</span><span class="token class-name">L2Dwidget</span><span class="token punctuation">.</span>min<span class="token punctuation">.</span>js # 你的自定义 url
   tagMode<span class="token operator">:</span> <span class="token boolean">false</span> # 标签模式<span class="token punctuation">,</span> 是否仅替换 live2d tag标签而非插入到所有页面中
-  log<span class="token operator">:</span> <span class="token boolean">false</span> # 调试<span class="token punctuation">,</span> 是否在控制台输出日志
+  debug<span class="token operator">:</span> <span class="token boolean">false</span> # 调试<span class="token punctuation">,</span> 是否在控制台输出日志
   model<span class="token operator">:</span>
+    scale<span class="token operator">:</span> <span class="token number">1</span>
+    hHeadPos<span class="token operator">:</span> <span class="token number">0.5</span>
+    vHeadPos<span class="token operator">:</span> <span class="token number">0.618</span>
     use<span class="token operator">:</span> live2d<span class="token operator">-</span>widget<span class="token operator">-</span>model<span class="token operator">-</span>hijiki #修改为自己安装的模型名称
+    # use<span class="token operator">:</span> wanko # 博客根目录<span class="token operator">/</span>live2d_models<span class="token operator">/</span> 下的目录名
+    # use<span class="token operator">:</span> <span class="token punctuation">.</span>/wives<span class="token operator">/</span>wanko # 相对于博客根目录的路径
+    # use<span class="token operator">:</span> https<span class="token operator">:</span><span class="token operator">/</span><span class="token operator">/</span>cdn<span class="token punctuation">.</span>jsdelivr<span class="token punctuation">.</span>net<span class="token operator">/</span>npm<span class="token operator">/</span>live2d<span class="token operator">-</span>widget<span class="token operator">-</span>model<span class="token operator">-</span>wanko<span class="token annotation punctuation">@1.0.5</span><span class="token operator">/</span>assets<span class="token operator">/</span>wanko<span class="token punctuation">.</span>model<span class="token punctuation">.</span>json # 你的自定义 url
   display<span class="token operator">:</span>
-    position<span class="token operator">:</span> right
+    superSample<span class="token operator">:</span> <span class="token number">2</span>
     width<span class="token operator">:</span> <span class="token number">150</span>
     height<span class="token operator">:</span> <span class="token number">300</span>
+    position<span class="token operator">:</span> left
+    hOffset<span class="token operator">:</span> <span class="token number">0</span>
+    vOffset<span class="token operator">:</span> <span class="token operator">-</span><span class="token number">20</span>
   mobile<span class="token operator">:</span>
     show<span class="token operator">:</span> <span class="token boolean">true</span>
+    scale<span class="token operator">:</span> <span class="token number">0.5</span>
   react<span class="token operator">:</span>
-    opacity<span class="token operator">:</span> <span class="token number">0.7</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+    opacityDefault<span class="token operator">:</span> <span class="token number">0.7</span>
+    opacityOnHover<span class="token operator">:</span> <span class="token number">0.2</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
 <p>详细可查看<a target="_blank" rel="noopener" href="https://github.com/EYHN/hexo-helper-live2d/blob/master/README.zh-CN.md">官方文档</a></p>
 <h3 id="卸载">6.11.2. 卸载</h3><p>运行下面的命令</p>
@@ -2850,7 +2865,7 @@ div<span class="token punctuation">.</span>jqcloud a<span class="token operator"
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">58.1k</span>&nbsp;字
+                class="white-color">60.2k</span>&nbsp;字
             
             
             

@@ -1,5 +1,9 @@
-https://pamarus.github.io/2024/07/15/hexo-bo-ke-da-jian-10-huan-dian-nao-ru-he-qian-yi-bo-ke/
+https://pamarus.github.io/2020/06/11/hexo-bo-ke-da-jian-8-ti-huan-shi-yong-matery-zhu-ti-ji-xiang-xi-pei-zhi/
+https://pamarus.github.io/2020/05/17/hexo-bo-ke-da-jian-5-next-zhu-ti-ji-cheng-valine-ping-lun-xi-tong/
+https://pamarus.github.io/2025/12/16/hexo-bo-ke-da-jian-10-hexo-bo-ke-cong-mac-duan-qian-yi-dao-windows/
 https://pamarus.github.io/2020/05/04/hexo-bo-ke-da-jian-1-mac-duan-shi-yong-hexo-github-pages-da-jian-mian-fei-ge-ren-bo-ke/
+https://pamarus.github.io/2025/12/14/ru-he-ba-git-pei-zhi-dao-xi-tong-huan-jing-bian-liang/
+https://pamarus.github.io/2025/12/12/ru-he-shou-dong-tian-jia-git-bash-here-dao-you-jian-cai-dan/
 https://pamarus.github.io/2022/01/23/an-an-cheng-chang-ri-ji-2023-nian-01-yue/
 https://pamarus.github.io/2022/12/18/an-an-cheng-chang-ri-ji-2022-nian-12-yue/
 https://pamarus.github.io/2023/03/01/chatgpt-4.0-new-bing-xin-bi-ying-nei-ce-zi-ge-shen-qing-jiao-cheng/
@@ -47,10 +51,8 @@ https://pamarus.github.io/2020/05/24/processing-xue-xi-ji-lu-1-chu-xiang-shi/
 https://pamarus.github.io/2020/05/03/markdown-1-ji-chu-yu-fa-xue-xi-ji-kuai-su-ru-men/
 https://pamarus.github.io/2020/06/15/markdown-3-tu-pian-yang-shi-you-hua-mei-hua/
 https://pamarus.github.io/2022/05/14/hexo-bo-ke-da-jian-9-she-zhi-wen-zhang-jia-mi/
-https://pamarus.github.io/2020/06/11/hexo-bo-ke-da-jian-8-ti-huan-shi-yong-matery-zhu-ti-ji-xiang-xi-pei-zhi/
 https://pamarus.github.io/2020/06/04/hexo-bo-ke-da-jian-7-next-zhu-ti-wu-custom.styl-wen-jian-ru-he-zi-ding-yi-yang-shi/
 https://pamarus.github.io/2020/05/19/hexo-bo-ke-da-jian-6-valine-ping-lun-xi-tong-you-hua/
-https://pamarus.github.io/2020/05/17/hexo-bo-ke-da-jian-5-next-zhu-ti-ji-cheng-valine-ping-lun-xi-tong/
 https://pamarus.github.io/2020/05/13/hexo-bo-ke-da-jian-4-next-zhu-ti-shou-ye-bu-xian-shi-quan-bu-nei-rong-xian-shi-yu-lan/
 https://pamarus.github.io/2020/05/04/hexo-bo-ke-da-jian-2-geng-huan-zhu-ti-yang-shi-ji-ji-ben-shu-xing-pei-zhi/
 https://pamarus.github.io/2020/05/06/hexo-bo-ke-da-jian-3-next-zhu-ti-tiao-zhuan-fen-lei-biao-qian-guan-yu-ye-bao-cuo-wu-fa-da-kai-zen-me-ban/
@@ -116,6 +118,9 @@ https://pamarus.github.io/tags/New-Bing/
 https://pamarus.github.io/tags/AI%E7%BB%98%E7%94%BB/
 https://pamarus.github.io/tags/Stable-Diffusion/
 https://pamarus.github.io/tags/Web-UI/
+https://pamarus.github.io/tags/Git/
+https://pamarus.github.io/tags/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F/
+https://pamarus.github.io/tags/Git-Bash/
 https://pamarus.github.io/categories/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/
 https://pamarus.github.io/categories/Hexo%E5%8D%9A%E5%AE%A2/
 https://pamarus.github.io/categories/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/
