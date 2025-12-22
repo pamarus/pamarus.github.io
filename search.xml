@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>小书匠修改预览标题编号格式</title>
+      <link href="/2025/12/22/xiao-shu-jiang-xiu-gai-yu-lan-biao-ti-bian-hao-ge-shi/"/>
+      <url>/2025/12/22/xiao-shu-jiang-xiu-gai-yu-lan-biao-ti-bian-hao-ge-shi/</url>
+      
+        <content type="html"><![CDATA[<h1 id="开启方法">1. 开启方法</h1><p>在&nbsp;<code>左上角小书匠主按钮 &gt; 设置 &gt; 预览</code>&nbsp;里，勾选&nbsp;<code>是否自动对文章标题编号</code>&nbsp;功能，系统就会对每篇文章正文里的标题进行自动编号。或者也可以通过每篇文章的元数据<code>renderNumberedHeading</code>，把<code>标题编号</code>功能打开。</p><h1 id="如何修改标题编号规则">2. 如何修改标题编号规则</h1><h2 id="在哪设置">2.1. 在哪设置</h2><ul><li>可以在&nbsp;<code>左上角小书匠主按钮 &gt; 设置 &gt; 预览</code>&nbsp;里，对一号标题到七号标题进行规则设置。</li></ul><h2 id="规则介绍">2.2. 规则介绍</h2><ul><li><p><code>counter(hx, str, format);</code>&nbsp;该命令用来显示一个通过计数器生成的字符串，需要提供三个参数</p><ol><li><code>hx</code>&nbsp;表示要使用哪个计数器，计数器范围只能是&nbsp;<code>h1,h2,h3,h4,h5,h6,h7</code>&nbsp;中的一个</li><li><code>str</code>&nbsp;表示计数器按照指定的格式后，显示的字符串，需要提供一个&nbsp;<code>%s</code>&nbsp;占位符，用来显示当前计数器的编号值。该编号值会根据你选择的&nbsp;<code>format</code>&nbsp;格式显示最终的结果。默认值为&nbsp;<code>%s-</code></li><li><code>format</code>&nbsp;表示指定的计数器输出结果后显示的格式，比如是数字，或者中文，或者阿拉伯文等。如果为空，则默认使用数字。</li></ol></li><li><p>支持多级嵌套，比如&nbsp;<code>counter('h2');counter('h3');counter('h4', '%s. ');</code>，需要注意的是，如果&nbsp;<code>h2</code>&nbsp;没有内容，就会直接不显示。</p></li></ul><h2 id="示例">2.3. 示例</h2><p><code>counter('h1', '%s、', 'simp-chinese-informal');</code>表示大写数字<code>一、</code>。</p><p><code>counter('h2', '%s');</code>表示<code>1-</code>。<code>'%s'</code>为空时，默认显示<code>-</code>，<code>format</code>为空时，默认显示数字。</p><p><code>counter('h2', '%s ');</code>表示为<code>1 </code>。注意<code>'%s '</code>显示为空格。</p><p><code>counter('h2', '%s.');</code>表示<code>1.</code>。</p><p>嵌套格式：<br><code>counter('h2','%s.');counter('h3', '%s ');</code>表示<code>1.1 </code>。</p><h1 id="修改">3. 修改</h1><ul><li>小书匠默认的标号格式如下：</li></ul><p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2025/%E5%B0%8F%E4%B9%A6%E5%8C%A0%E4%BF%AE%E6%94%B9%E9%A2%84%E8%A7%88%E6%A0%87%E9%A2%98%E7%BC%96%E5%8F%B7%E6%A0%BC%E5%BC%8F01.jpg" alt="小书匠修改预览标题编号格式01"><br><img src="https://raw.githubusercontent.com/pamarus/Images/master/2025/%E5%B0%8F%E4%B9%A6%E5%8C%A0%E4%BF%AE%E6%94%B9%E9%A2%84%E8%A7%88%E6%A0%87%E9%A2%98%E7%BC%96%E5%8F%B7%E6%A0%BC%E5%BC%8F02.jpg" alt="小书匠修改预览标题编号格式02"></p><ul><li>修改如下：</li></ul><p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2025/%E5%B0%8F%E4%B9%A6%E5%8C%A0%E4%BF%AE%E6%94%B9%E9%A2%84%E8%A7%88%E6%A0%87%E9%A2%98%E7%BC%96%E5%8F%B7%E6%A0%BC%E5%BC%8F03.png" alt="小书匠修改预览标题编号格式03"></p><p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2025/%E5%B0%8F%E4%B9%A6%E5%8C%A0%E4%BF%AE%E6%94%B9%E9%A2%84%E8%A7%88%E6%A0%87%E9%A2%98%E7%BC%96%E5%8F%B7%E6%A0%BC%E5%BC%8F04.jpg" alt="小书匠修改预览标题编号格式04"></p><h1 id="致谢">4. 致谢</h1><p><a href="https://soft.xiaoshujiang.com/blog/numbered_heading/">官方文章——2018-10-10 正文标题编号</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Hexo博客 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 博客教程 </tag>
+            
+            <tag> Markdown </tag>
+            
+            <tag> 小书匠 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hexo博客搭建（10）：Hexo博客从Mac端迁移到Windows</title>
       <link href="/2025/12/16/hexo-bo-ke-da-jian-10-hexo-bo-ke-cong-mac-duan-qian-yi-dao-windows/"/>
       <url>/2025/12/16/hexo-bo-ke-da-jian-10-hexo-bo-ke-cong-mac-duan-qian-yi-dao-windows/</url>

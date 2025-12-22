@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Hexo,GitHub">
+    <meta name="keywords" content="小书匠,Markdown">
     <meta name="description" content="Thinking Hacks">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>插入图片演示 | Pamarus</title>
+    <title>小书匠修改预览标题编号格式 | Pamarus</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -314,7 +314,7 @@
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">插入图片演示</h1>
+                    <h1 class="description center-align post-title">小书匠修改预览标题编号格式</h1>
                 </div>
             </div>
         </div>
@@ -430,16 +430,16 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/Hexo-Blog/">
-                                <span class="chip bg-color">Hexo_Blog</span>
-                            </a>
-                        
-                            <a href="/tags/GitHub/">
-                                <span class="chip bg-color">GitHub</span>
-                            </a>
-                        
                             <a href="/tags/%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/">
                                 <span class="chip bg-color">博客教程</span>
+                            </a>
+                        
+                            <a href="/tags/Markdown/">
+                                <span class="chip bg-color">Markdown</span>
+                            </a>
+                        
+                            <a href="/tags/%E5%B0%8F%E4%B9%A6%E5%8C%A0/">
+                                <span class="chip bg-color">小书匠</span>
                             </a>
                         
                     </div>
@@ -463,7 +463,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-05-04
+                    2025-12-22
                 </div>
                 
 
@@ -472,7 +472,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    0
+                    484
                 </div>
                 
 
@@ -507,7 +507,36 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p><img src="C:\Users\13156\Desktop\【生活文件】\【Blog】\新建文件夹\01.jpg" alt="11"></p>
+                <h1 id="开启方法">1. 开启方法</h1><p>在&nbsp;<code>左上角小书匠主按钮 &gt; 设置 &gt; 预览</code>&nbsp;里，勾选&nbsp;<code>是否自动对文章标题编号</code>&nbsp;功能，系统就会对每篇文章正文里的标题进行自动编号。或者也可以通过每篇文章的元数据<code>renderNumberedHeading</code>，把<code>标题编号</code>功能打开。</p>
+<h1 id="如何修改标题编号规则">2. 如何修改标题编号规则</h1><h2 id="在哪设置">2.1. 在哪设置</h2><ul>
+<li>可以在&nbsp;<code>左上角小书匠主按钮 &gt; 设置 &gt; 预览</code>&nbsp;里，对一号标题到七号标题进行规则设置。</li>
+</ul>
+<h2 id="规则介绍">2.2. 规则介绍</h2><ul>
+<li><p><code>counter(hx, str, format);</code>&nbsp;该命令用来显示一个通过计数器生成的字符串，需要提供三个参数</p>
+<ol>
+<li><code>hx</code>&nbsp;表示要使用哪个计数器，计数器范围只能是&nbsp;<code>h1,h2,h3,h4,h5,h6,h7</code>&nbsp;中的一个</li>
+<li><code>str</code>&nbsp;表示计数器按照指定的格式后，显示的字符串，需要提供一个&nbsp;<code>%s</code>&nbsp;占位符，用来显示当前计数器的编号值。该编号值会根据你选择的&nbsp;<code>format</code>&nbsp;格式显示最终的结果。默认值为&nbsp;<code>%s-</code></li>
+<li><code>format</code>&nbsp;表示指定的计数器输出结果后显示的格式，比如是数字，或者中文，或者阿拉伯文等。如果为空，则默认使用数字。</li>
+</ol>
+</li>
+<li><p>支持多级嵌套，比如&nbsp;<code>counter('h2');counter('h3');counter('h4', '%s. ');</code>，需要注意的是，如果&nbsp;<code>h2</code>&nbsp;没有内容，就会直接不显示。</p>
+</li>
+</ul>
+<h2 id="示例">2.3. 示例</h2><p><code>counter('h1', '%s、', 'simp-chinese-informal');</code>表示大写数字<code>一、</code>。</p>
+<p><code>counter('h2', '%s');</code>表示<code>1-</code>。<code>'%s'</code>为空时，默认显示<code>-</code>，<code>format</code>为空时，默认显示数字。</p>
+<p><code>counter('h2', '%s ');</code>表示为<code>1 </code>。注意<code>'%s '</code>显示为空格。</p>
+<p><code>counter('h2', '%s.');</code>表示<code>1.</code>。</p>
+<p>嵌套格式：<br><code>counter('h2','%s.');counter('h3', '%s ');</code>表示<code>1.1 </code>。</p>
+<h1 id="修改">3. 修改</h1><ul>
+<li>小书匠默认的标号格式如下：</li>
+</ul>
+<p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2025/%E5%B0%8F%E4%B9%A6%E5%8C%A0%E4%BF%AE%E6%94%B9%E9%A2%84%E8%A7%88%E6%A0%87%E9%A2%98%E7%BC%96%E5%8F%B7%E6%A0%BC%E5%BC%8F01.jpg" alt="小书匠修改预览标题编号格式01"><br><img src="https://raw.githubusercontent.com/pamarus/Images/master/2025/%E5%B0%8F%E4%B9%A6%E5%8C%A0%E4%BF%AE%E6%94%B9%E9%A2%84%E8%A7%88%E6%A0%87%E9%A2%98%E7%BC%96%E5%8F%B7%E6%A0%BC%E5%BC%8F02.jpg" alt="小书匠修改预览标题编号格式02"></p>
+<ul>
+<li>修改如下：</li>
+</ul>
+<p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2025/%E5%B0%8F%E4%B9%A6%E5%8C%A0%E4%BF%AE%E6%94%B9%E9%A2%84%E8%A7%88%E6%A0%87%E9%A2%98%E7%BC%96%E5%8F%B7%E6%A0%BC%E5%BC%8F03.png" alt="小书匠修改预览标题编号格式03"></p>
+<p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2025/%E5%B0%8F%E4%B9%A6%E5%8C%A0%E4%BF%AE%E6%94%B9%E9%A2%84%E8%A7%88%E6%A0%87%E9%A2%98%E7%BC%96%E5%8F%B7%E6%A0%BC%E5%BC%8F04.jpg" alt="小书匠修改预览标题编号格式04"></p>
+<h1 id="致谢">4. 致谢</h1><p><a target="_blank" rel="noopener" href="https://soft.xiaoshujiang.com/blog/numbered_heading/">官方文章——2018-10-10 正文标题编号</a></p>
 
                 
             </div>
@@ -534,7 +563,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://pamarus.github.io/2020/05/04/filename/">https://pamarus.github.io/2020/05/04/filename/</a>
+                    <a href="https://pamarus.github.io/2025/12/22/xiao-shu-jiang-xiu-gai-yu-lan-biao-ti-bian-hao-ge-shi/">https://pamarus.github.io/2025/12/22/xiao-shu-jiang-xiu-gai-yu-lan-biao-ti-bian-hao-ge-shi/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -572,16 +601,16 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/Hexo-Blog/">
-                                    <span class="chip bg-color">Hexo_Blog</span>
-                                </a>
-                            
-                                <a href="/tags/GitHub/">
-                                    <span class="chip bg-color">GitHub</span>
-                                </a>
-                            
                                 <a href="/tags/%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/">
                                     <span class="chip bg-color">博客教程</span>
+                                </a>
+                            
+                                <a href="/tags/Markdown/">
+                                    <span class="chip bg-color">Markdown</span>
+                                </a>
+                            
+                                <a href="/tags/%E5%B0%8F%E4%B9%A6%E5%8C%A0/">
+                                    <span class="chip bg-color">小书匠</span>
                                 </a>
                             
                         </div>
@@ -1014,28 +1043,86 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/2020/05/04/hexo-bo-ke-da-jian-1-mac-duan-shi-yong-hexo-github-pages-da-jian-mian-fei-ge-ren-bo-ke/">
+                <a href="/2025/12/22/xiao-shu-jiang-xiu-gai-yu-lan-biao-ti-bian-hao-ge-shi/">
                     <div class="card-image">
                         
-                        <img src="/medias/featureimages/Hexo.png" class="responsive-img" alt="Hexo博客搭建（1）：Mac端使用Hexo+GitHub Pages搭建免费个人博客">
+                        <img src="/medias/featureimages/Hexo.png" class="responsive-img" alt="小书匠修改预览标题编号格式">
                         
-                        <span class="card-title">Hexo博客搭建（1）：Mac端使用Hexo+GitHub Pages搭建免费个人博客</span>
+                        <span class="card-title">小书匠修改预览标题编号格式</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Mac端使用Hexo和GitHub搭建博客的过程整理，供日后查阅。
+                            修改Markdown编辑器小书匠预览时标题编号格式
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-05-04
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2025-12-22
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/Hexo%E5%8D%9A%E5%AE%A2/" class="post-category">
+                                    Hexo博客
+                                </a>
+                            
+                            
                         </span>
+                    </div>
+                </div>
+
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/">
+                        <span class="chip bg-color">博客教程</span>
+                    </a>
+                    
+                    <a href="/tags/Markdown/">
+                        <span class="chip bg-color">Markdown</span>
+                    </a>
+                    
+                    <a href="/tags/%E5%B0%8F%E4%B9%A6%E5%8C%A0/">
+                        <span class="chip bg-color">小书匠</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/2025/12/16/hexo-bo-ke-da-jian-10-hexo-bo-ke-cong-mac-duan-qian-yi-dao-windows/">
+                    <div class="card-image">
+                        
+                        <img src="/medias/featureimages/Hexo.png" class="responsive-img" alt="Hexo博客搭建（10）：Hexo博客从Mac端迁移到Windows">
+                        
+                        <span class="card-title">Hexo博客搭建（10）：Hexo博客从Mac端迁移到Windows</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            换新电脑后如何迁移博客
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2025-12-16
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
@@ -1061,58 +1148,6 @@
                     
                     <a href="/tags/%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/">
                         <span class="chip bg-color">博客教程</span>
-                    </a>
-                    
-                </div>
-                
-            </div>
-        </div>
-        
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">
-                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
-            </div>
-            <div class="card">
-                <a href="/2020/05/03/markdown-1-ji-chu-yu-fa-xue-xi-ji-kuai-su-ru-men/">
-                    <div class="card-image">
-                        
-                        <img src="/medias/featureimages/Markdown.png" class="responsive-img" alt="Markdown（1）：基础语法学习及快速入门">
-                        
-                        <span class="card-title">Markdown（1）：基础语法学习及快速入门</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary block-with-text">
-                        
-                            Md语法编写
-                        
-                    </div>
-                    <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-05-03
-                            </span>
-                        <span class="publish-author">
-                            
-                            <i class="fas fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/Hexo%E5%8D%9A%E5%AE%A2/" class="post-category">
-                                    Hexo博客
-                                </a>
-                            
-                            
-                        </span>
-                    </div>
-                </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/Hexo-Blog/">
-                        <span class="chip bg-color">Hexo_Blog</span>
-                    </a>
-                    
-                    <a href="/tags/Markdown/">
-                        <span class="chip bg-color">Markdown</span>
                     </a>
                     
                 </div>

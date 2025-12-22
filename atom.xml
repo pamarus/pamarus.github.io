@@ -6,7 +6,7 @@
   <link href="https://pamarus.github.io/atom.xml" rel="self"/>
   
   <link href="https://pamarus.github.io/"/>
-  <updated>2025-12-16T08:04:47.676Z</updated>
+  <updated>2025-12-22T07:59:47.644Z</updated>
   <id>https://pamarus.github.io/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>小书匠修改预览标题编号格式</title>
+    <link href="https://pamarus.github.io/2025/12/22/xiao-shu-jiang-xiu-gai-yu-lan-biao-ti-bian-hao-ge-shi/"/>
+    <id>https://pamarus.github.io/2025/12/22/xiao-shu-jiang-xiu-gai-yu-lan-biao-ti-bian-hao-ge-shi/</id>
+    <published>2025-12-22T10:54:48.000Z</published>
+    <updated>2025-12-22T07:59:47.644Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;开启方法&quot;&gt;1. 开启方法&lt;/h1&gt;&lt;p&gt;在&amp;nbsp;&lt;code&gt;左上角小书匠主按钮 &amp;gt; 设置 &amp;gt;</summary>
+        
+      
+    
+    
+    
+    <category term="Hexo博客" scheme="https://pamarus.github.io/categories/Hexo%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+    <category term="博客教程" scheme="https://pamarus.github.io/tags/%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="Markdown" scheme="https://pamarus.github.io/tags/Markdown/"/>
+    
+    <category term="小书匠" scheme="https://pamarus.github.io/tags/%E5%B0%8F%E4%B9%A6%E5%8C%A0/"/>
+    
+  </entry>
   
   <entry>
     <title>Hexo博客搭建（10）：Hexo博客从Mac端迁移到Windows</title>
@@ -560,35 +589,6 @@
     
     
     <category term="GitHub" scheme="https://pamarus.github.io/tags/GitHub/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>安安成长日记-2022年07月</title>
-    <link href="https://pamarus.github.io/2022/07/12/an-an-cheng-chang-ri-ji-2022-nian-07-yue/"/>
-    <id>https://pamarus.github.io/2022/07/12/an-an-cheng-chang-ri-ji-2022-nian-07-yue/</id>
-    <published>2022-07-12T13:56:34.000Z</published>
-    <updated>2023-02-12T06:54:30.840Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
-&lt;h1 id=&quot;07-01&quot;&gt;1. 07-01&lt;/h1&gt;&lt;video width=&quot;100%&quot; height=&quot;100%&quot; controls&gt;
-  &lt;source</summary>
-        
-      
-    
-    
-    
-    <category term="生活日常" scheme="https://pamarus.github.io/categories/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/"/>
-    
-    
-    <category term="生活日常" scheme="https://pamarus.github.io/tags/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/"/>
-    
-    <category term="安安" scheme="https://pamarus.github.io/tags/%E5%AE%89%E5%AE%89/"/>
     
   </entry>
   

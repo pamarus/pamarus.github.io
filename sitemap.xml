@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://pamarus.github.io/2025/12/22/xiao-shu-jiang-xiu-gai-yu-lan-biao-ti-bian-hao-ge-shi/</loc>
+    
+    <lastmod>2025-12-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://pamarus.github.io/2020/05/04/filename/</loc>
     
     <lastmod>2025-12-20</lastmod>
@@ -598,7 +607,7 @@
 
   <url>
     <loc>https://pamarus.github.io/</loc>
-    <lastmod>2025-12-20</lastmod>
+    <lastmod>2025-12-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -606,399 +615,406 @@
   
   <url>
     <loc>https://pamarus.github.io/tags/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/</loc>
-    <lastmod>2025-12-20</lastmod>
+    <lastmod>2025-12-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://pamarus.github.io/tags/%E5%AE%89%E5%AE%89/</loc>
-    <lastmod>2025-12-20</lastmod>
+    <lastmod>2025-12-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://pamarus.github.io/tags/Hexo-Blog/</loc>
-    <lastmod>2025-12-20</lastmod>
+    <lastmod>2025-12-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://pamarus.github.io/tags/GitHub/</loc>
-    <lastmod>2025-12-20</lastmod>
+    <lastmod>2025-12-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://pamarus.github.io/tags/%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2025-12-20</lastmod>
+    <lastmod>2025-12-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://pamarus.github.io/tags/NexT/</loc>
-    <lastmod>2025-12-20</lastmod>
+    <lastmod>2025-12-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://pamarus.github.io/tags/Valine/</loc>
-    <lastmod>2025-12-20</lastmod>
+    <lastmod>2025-12-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://pamarus.github.io/tags/matery/</loc>
-    <lastmod>2025-12-20</lastmod>
+    <lastmod>2025-12-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://pamarus.github.io/tags/Mac%E7%BB%88%E7%AB%AF/</loc>
-    <lastmod>2025-12-20</lastmod>
+    <lastmod>2025-12-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://pamarus.github.io/tags/192/</loc>
-    <lastmod>2025-12-20</lastmod>
+    <lastmod>2025-12-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://pamarus.github.io/tags/Mac%E9%97%AE%E9%A2%98/</loc>
-    <lastmod>2025-12-20</lastmod>
+    <lastmod>2025-12-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://pamarus.github.io/tags/Markdown/</loc>
-    <lastmod>2025-12-20</lastmod>
+    <lastmod>2025-12-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://pamarus.github.io/tags/Processing/</loc>
-    <lastmod>2025-12-20</lastmod>
+    <lastmod>2025-12-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://pamarus.github.io/tags/tree/</loc>
-    <lastmod>2025-12-20</lastmod>
+    <lastmod>2025-12-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://pamarus.github.io/tags/%E7%9B%AE%E5%BD%95%E6%A0%91/</loc>
-    <lastmod>2025-12-20</lastmod>
+    <lastmod>2025-12-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://pamarus.github.io/tags/SSH%E9%AA%8C%E8%AF%81/</loc>
-    <lastmod>2025-12-20</lastmod>
+    <lastmod>2025-12-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://pamarus.github.io/tags/Token%E9%AA%8C%E8%AF%81/</loc>
-    <lastmod>2025-12-20</lastmod>
+    <lastmod>2025-12-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://pamarus.github.io/tags/%E9%BB%98%E8%AE%A4%E9%80%9A%E4%BF%A1%E5%8D%8F%E8%AE%AE/</loc>
-    <lastmod>2025-12-20</lastmod>
+    <lastmod>2025-12-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://pamarus.github.io/tags/Telegram/</loc>
-    <lastmod>2025-12-20</lastmod>
+    <lastmod>2025-12-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://pamarus.github.io/tags/Proxy/</loc>
-    <lastmod>2025-12-20</lastmod>
+    <lastmod>2025-12-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://pamarus.github.io/tags/%E4%BB%A3%E7%90%86/</loc>
-    <lastmod>2025-12-20</lastmod>
+    <lastmod>2025-12-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://pamarus.github.io/tags/SSH%E6%8A%A5%E9%94%99/</loc>
-    <lastmod>2025-12-20</lastmod>
+    <lastmod>2025-12-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://pamarus.github.io/tags/%E9%83%A8%E7%BD%B2%E9%97%AE%E9%A2%98/</loc>
-    <lastmod>2025-12-20</lastmod>
+    <lastmod>2025-12-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://pamarus.github.io/tags/macOS/</loc>
-    <lastmod>2025-12-20</lastmod>
+    <lastmod>2025-12-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://pamarus.github.io/tags/DPI/</loc>
-    <lastmod>2025-12-20</lastmod>
+    <lastmod>2025-12-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://pamarus.github.io/tags/PS/</loc>
-    <lastmod>2025-12-20</lastmod>
+    <lastmod>2025-12-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://pamarus.github.io/tags/%E7%98%A6%E8%84%B8/</loc>
-    <lastmod>2025-12-20</lastmod>
+    <lastmod>2025-12-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://pamarus.github.io/tags/UI%E8%AE%BE%E8%AE%A1/</loc>
-    <lastmod>2025-12-20</lastmod>
+    <lastmod>2025-12-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://pamarus.github.io/tags/%E6%B8%90%E5%8F%98%E5%B7%A5%E5%85%B7/</loc>
-    <lastmod>2025-12-20</lastmod>
+    <lastmod>2025-12-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://pamarus.github.io/tags/%E8%BE%B9%E7%BC%98%E8%9E%8D%E5%90%88/</loc>
-    <lastmod>2025-12-20</lastmod>
+    <lastmod>2025-12-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://pamarus.github.io/tags/%E6%B7%B7%E8%89%B2%E6%A8%A1%E5%BC%8F/</loc>
-    <lastmod>2025-12-20</lastmod>
+    <lastmod>2025-12-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://pamarus.github.io/tags/%E5%A2%9E%E5%8A%A0%E4%BA%AE%E5%BA%A6/</loc>
-    <lastmod>2025-12-20</lastmod>
+    <lastmod>2025-12-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://pamarus.github.io/tags/%E6%B6%B2%E5%8C%96%E6%BB%A4%E9%95%9C/</loc>
-    <lastmod>2025-12-20</lastmod>
+    <lastmod>2025-12-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://pamarus.github.io/tags/Pr/</loc>
-    <lastmod>2025-12-20</lastmod>
+    <lastmod>2025-12-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://pamarus.github.io/tags/%E9%9F%B3%E8%A7%86%E9%A2%91%E5%89%AA%E8%BE%91/</loc>
-    <lastmod>2025-12-20</lastmod>
+    <lastmod>2025-12-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://pamarus.github.io/tags/%E5%89%83%E5%88%80/</loc>
-    <lastmod>2025-12-20</lastmod>
+    <lastmod>2025-12-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://pamarus.github.io/tags/%E8%A7%86%E8%A7%89%E8%AE%BE%E8%AE%A1/</loc>
-    <lastmod>2025-12-20</lastmod>
+    <lastmod>2025-12-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://pamarus.github.io/tags/%E5%88%86%E7%A6%BB%E9%9F%B3%E9%A2%91/</loc>
-    <lastmod>2025-12-20</lastmod>
+    <lastmod>2025-12-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://pamarus.github.io/tags/%E8%B0%83%E8%8A%82%E6%92%AD%E6%94%BE%E9%80%9F%E5%BA%A6/</loc>
-    <lastmod>2025-12-20</lastmod>
+    <lastmod>2025-12-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://pamarus.github.io/tags/AE/</loc>
-    <lastmod>2025-12-20</lastmod>
+    <lastmod>2025-12-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://pamarus.github.io/tags/AE%E9%9D%A2%E6%9D%BF/</loc>
-    <lastmod>2025-12-20</lastmod>
+    <lastmod>2025-12-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://pamarus.github.io/tags/%E9%A6%96%E9%80%89%E9%A1%B9%E8%AE%BE%E7%BD%AE/</loc>
-    <lastmod>2025-12-20</lastmod>
+    <lastmod>2025-12-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://pamarus.github.io/tags/AE%E7%88%B6%E5%AD%90%E9%93%BE%E6%8E%A5/</loc>
-    <lastmod>2025-12-20</lastmod>
+    <lastmod>2025-12-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://pamarus.github.io/tags/AE%E5%BC%80%E5%85%B3%E5%8A%9F%E8%83%BD/</loc>
-    <lastmod>2025-12-20</lastmod>
+    <lastmod>2025-12-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://pamarus.github.io/tags/AE%E9%81%AE%E7%BD%A9%E5%9B%BE%E5%B1%82/</loc>
-    <lastmod>2025-12-20</lastmod>
+    <lastmod>2025-12-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://pamarus.github.io/tags/AE%E6%95%88%E6%9E%9C%E6%8E%A7%E4%BB%B6/</loc>
-    <lastmod>2025-12-20</lastmod>
+    <lastmod>2025-12-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://pamarus.github.io/tags/AE%E5%85%B3%E9%94%AE%E5%B8%A7/</loc>
-    <lastmod>2025-12-20</lastmod>
+    <lastmod>2025-12-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://pamarus.github.io/tags/AE%E5%9B%BE%E5%B1%82%E6%B7%B7%E5%90%88%E6%A8%A1%E5%BC%8F/</loc>
-    <lastmod>2025-12-20</lastmod>
+    <lastmod>2025-12-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://pamarus.github.io/tags/AE-Mask%E9%81%AE%E7%BD%A9/</loc>
-    <lastmod>2025-12-20</lastmod>
+    <lastmod>2025-12-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://pamarus.github.io/tags/ChatGPT/</loc>
-    <lastmod>2025-12-20</lastmod>
+    <lastmod>2025-12-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://pamarus.github.io/tags/New-Bing/</loc>
-    <lastmod>2025-12-20</lastmod>
+    <lastmod>2025-12-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://pamarus.github.io/tags/AI%E7%BB%98%E7%94%BB/</loc>
-    <lastmod>2025-12-20</lastmod>
+    <lastmod>2025-12-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://pamarus.github.io/tags/Stable-Diffusion/</loc>
-    <lastmod>2025-12-20</lastmod>
+    <lastmod>2025-12-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://pamarus.github.io/tags/Web-UI/</loc>
-    <lastmod>2025-12-20</lastmod>
+    <lastmod>2025-12-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://pamarus.github.io/tags/Git/</loc>
-    <lastmod>2025-12-20</lastmod>
+    <lastmod>2025-12-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://pamarus.github.io/tags/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F/</loc>
-    <lastmod>2025-12-20</lastmod>
+    <lastmod>2025-12-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://pamarus.github.io/tags/Git-Bash/</loc>
-    <lastmod>2025-12-20</lastmod>
+    <lastmod>2025-12-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://pamarus.github.io/tags/%E5%B0%8F%E4%B9%A6%E5%8C%A0/</loc>
+    <lastmod>2025-12-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -1007,42 +1023,42 @@
   
   <url>
     <loc>https://pamarus.github.io/categories/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/</loc>
-    <lastmod>2025-12-20</lastmod>
+    <lastmod>2025-12-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://pamarus.github.io/categories/Hexo%E5%8D%9A%E5%AE%A2/</loc>
-    <lastmod>2025-12-20</lastmod>
+    <lastmod>2025-12-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://pamarus.github.io/categories/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/</loc>
-    <lastmod>2025-12-20</lastmod>
+    <lastmod>2025-12-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://pamarus.github.io/categories/%E8%A7%86%E8%A7%89%E8%AE%BE%E8%AE%A1/</loc>
-    <lastmod>2025-12-20</lastmod>
+    <lastmod>2025-12-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://pamarus.github.io/categories/%E8%A7%86%E9%A2%91%E5%89%AA%E8%BE%91/</loc>
-    <lastmod>2025-12-20</lastmod>
+    <lastmod>2025-12-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://pamarus.github.io/categories/%E7%9F%A5%E8%AF%86%E7%A2%8E%E7%89%87/</loc>
-    <lastmod>2025-12-20</lastmod>
+    <lastmod>2025-12-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
