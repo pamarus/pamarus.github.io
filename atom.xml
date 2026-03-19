@@ -6,7 +6,7 @@
   <link href="https://pamarus.github.io/atom.xml" rel="self"/>
   
   <link href="https://pamarus.github.io/"/>
-  <updated>2026-03-16T09:14:13.266Z</updated>
+  <updated>2026-03-19T08:01:08.800Z</updated>
   <id>https://pamarus.github.io/</id>
   
   <author>
@@ -17,31 +17,35 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>为曼联</title>
-    <link href="https://pamarus.github.io/2026/03/16/wei-ming-ming/"/>
-    <id>https://pamarus.github.io/2026/03/16/wei-ming-ming/</id>
+    <title>Obsidian知识库：通过 GitHub + PicList + jsDelivr 创建使用免费加速图床</title>
+    <link href="https://pamarus.github.io/2026/03/16/obsidian-zhi-shi-ku-tong-guo-github-piclist-jsdelivr-chuang-jian-shi-yong-mian-fei-jia-su-tu-chuang/"/>
+    <id>https://pamarus.github.io/2026/03/16/obsidian-zhi-shi-ku-tong-guo-github-piclist-jsdelivr-chuang-jian-shi-yong-mian-fei-jia-su-tu-chuang/</id>
     <published>2026-03-16T08:32:00.000Z</published>
-    <updated>2026-03-16T09:14:13.266Z</updated>
+    <updated>2026-03-19T08:01:08.800Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;1-收到&quot;&gt;&lt;a href=&quot;#1-收到&quot; class=&quot;headerlink&quot; title=&quot;1 收到&quot;&gt;&lt;/a&gt;1 收到&lt;/h1&gt;&lt;h2 id=&quot;1-1-的方法&quot;&gt;&lt;a href=&quot;#1-1-的方法&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;配置方案：&lt;a href=&quot;https://github.com/&quot;&gt;GitHub&lt;/a&gt;&amp;nbsp;+ &lt;a href=&quot;https://github.com/Kuingsmile/PicList&quot;&gt;PicList&lt;/a&gt; +&amp;nbsp;&amp;nbsp;&lt;a</summary>
         
       
     
     
     
-    <category term="Hexo博客" scheme="https://pamarus.github.io/categories/Hexo%E5%8D%9A%E5%AE%A2/"/>
+    <category term="博客教程" scheme="https://pamarus.github.io/categories/%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/"/>
     
-    
-    <category term="Hexo_Blog" scheme="https://pamarus.github.io/tags/Hexo-Blog/"/>
     
     <category term="GitHub" scheme="https://pamarus.github.io/tags/GitHub/"/>
     
     <category term="博客教程" scheme="https://pamarus.github.io/tags/%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="PicList" scheme="https://pamarus.github.io/tags/PicList/"/>
+    
+    <category term="jsDelivr" scheme="https://pamarus.github.io/tags/jsDelivr/"/>
+    
+    <category term="Obsidian" scheme="https://pamarus.github.io/tags/Obsidian/"/>
     
   </entry>
   
@@ -50,14 +54,14 @@
     <link href="https://pamarus.github.io/2025/12/22/xiao-shu-jiang-xiu-gai-yu-lan-biao-ti-bian-hao-ge-shi/"/>
     <id>https://pamarus.github.io/2025/12/22/xiao-shu-jiang-xiu-gai-yu-lan-biao-ti-bian-hao-ge-shi/</id>
     <published>2025-12-22T10:54:48.000Z</published>
-    <updated>2025-12-22T07:59:47.644Z</updated>
+    <updated>2026-03-19T08:18:13.335Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;开启方法&quot;&gt;1. 开启方法&lt;/h1&gt;&lt;p&gt;在&amp;nbsp;&lt;code&gt;左上角小书匠主按钮 &amp;gt; 设置 &amp;gt;</summary>
+    <summary type="html">&lt;h1 id=&quot;1-开启方法&quot;&gt;&lt;a href=&quot;#1-开启方法&quot; class=&quot;headerlink&quot; title=&quot;1 开启方法&quot;&gt;&lt;/a&gt;1 开启方法&lt;/h1&gt;&lt;p&gt;在&amp;nbsp;&lt;code&gt;左上角小书匠主按钮 &amp;gt; 设置 &amp;gt;</summary>
         
       
     
@@ -79,7 +83,7 @@
     <link href="https://pamarus.github.io/2025/12/16/hexo-bo-ke-da-jian-10-hexo-bo-ke-cong-mac-duan-qian-yi-dao-windows/"/>
     <id>https://pamarus.github.io/2025/12/16/hexo-bo-ke-da-jian-10-hexo-bo-ke-cong-mac-duan-qian-yi-dao-windows/</id>
     <published>2025-12-16T12:32:00.000Z</published>
-    <updated>2025-12-16T08:04:47.676Z</updated>
+    <updated>2026-03-19T08:16:54.656Z</updated>
     
     
       
@@ -87,7 +91,7 @@
         
         
     <summary type="html">&lt;p&gt;具体步骤可参考&lt;/p&gt;
-&lt;h1 id=&quot;备份并迁移本地-hexo-文件夹&quot;&gt;1. 备份并迁移本地 hexo</summary>
+&lt;h1 id=&quot;1-备份并迁移本地-hexo-文件夹&quot;&gt;&lt;a href=&quot;#1-备份并迁移本地-hexo-文件夹&quot; class=&quot;headerlink&quot; title=&quot;1 备份并迁移本地 hexo 文件夹&quot;&gt;&lt;/a&gt;1 备份并迁移本地 hexo</summary>
         
       
     
@@ -109,7 +113,7 @@
     <link href="https://pamarus.github.io/2025/12/14/ru-he-ba-git-pei-zhi-dao-xi-tong-huan-jing-bian-liang/"/>
     <id>https://pamarus.github.io/2025/12/14/ru-he-ba-git-pei-zhi-dao-xi-tong-huan-jing-bian-liang/</id>
     <published>2025-12-14T10:54:48.000Z</published>
-    <updated>2025-12-16T02:23:38.319Z</updated>
+    <updated>2026-03-19T08:12:59.275Z</updated>
     
     
       
@@ -117,14 +121,13 @@
         
         
     <summary type="html">&lt;p&gt;在使用 Git 前，需要正确配置环境变量，以确保命令行能够识别 Git 命令。以下是详细的配置步骤：&lt;/p&gt;
-&lt;h1 id=&quot;确认-Git-已正确安装&quot;&gt;1. 确认 Git 已正确安装&lt;/h1&gt;&lt;ul&gt;
-&lt;li&gt;按下&amp;nbsp;_Win +</summary>
+&lt;h1 id=&quot;1-确认-Git-已正确安装&quot;&gt;&lt;a href=&quot;#1-确认-Git-已正确安装&quot; class=&quot;headerlink&quot; title=&quot;1 确认</summary>
         
       
     
     
     
-    <category term="知识碎片" scheme="https://pamarus.github.io/categories/%E7%9F%A5%E8%AF%86%E7%A2%8E%E7%89%87/"/>
+    <category term="Hexo博客" scheme="https://pamarus.github.io/categories/Hexo%E5%8D%9A%E5%AE%A2/"/>
     
     
     <category term="Git" scheme="https://pamarus.github.io/tags/Git/"/>
@@ -138,7 +141,7 @@
     <link href="https://pamarus.github.io/2025/12/12/ru-he-shou-dong-tian-jia-git-bash-here-dao-you-jian-cai-dan/"/>
     <id>https://pamarus.github.io/2025/12/12/ru-he-shou-dong-tian-jia-git-bash-here-dao-you-jian-cai-dan/</id>
     <published>2025-12-12T10:54:48.000Z</published>
-    <updated>2025-12-16T02:23:33.496Z</updated>
+    <updated>2026-03-19T08:13:27.885Z</updated>
     
     
       
@@ -151,12 +154,39 @@
     
     
     
-    <category term="知识碎片" scheme="https://pamarus.github.io/categories/%E7%9F%A5%E8%AF%86%E7%A2%8E%E7%89%87/"/>
+    <category term="Hexo博客" scheme="https://pamarus.github.io/categories/Hexo%E5%8D%9A%E5%AE%A2/"/>
     
     
     <category term="Git" scheme="https://pamarus.github.io/tags/Git/"/>
     
-    <category term="Git Bash" scheme="https://pamarus.github.io/tags/Git-Bash/"/>
+  </entry>
+  
+  <entry>
+    <title>ControlNet安装教程</title>
+    <link href="https://pamarus.github.io/2023/03/02/controlnet-an-zhuang-jiao-cheng/"/>
+    <id>https://pamarus.github.io/2023/03/02/controlnet-an-zhuang-jiao-cheng/</id>
+    <published>2023-03-02T07:25:00.000Z</published>
+    <updated>2026-03-19T08:03:04.652Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;2023年2月10日上传至预印本网站arXiv的论文详细介绍了一种控制预训练的大型扩散模型以支持额外的输入条件的方法，同日作者在GitHub公开源代码。&lt;/p&gt;
+&lt;p&gt;2023年2月13日，支持该方法的WebUI插件上线。&lt;/p&gt;
+&lt;h1</summary>
+        
+      
+    
+    
+    
+    <category term="Hexo博客" scheme="https://pamarus.github.io/categories/Hexo%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+    <category term="标签1" scheme="https://pamarus.github.io/tags/%E6%A0%87%E7%AD%BE1/"/>
+    
+    <category term="标签2" scheme="https://pamarus.github.io/tags/%E6%A0%87%E7%AD%BE2/"/>
     
   </entry>
   
@@ -165,7 +195,7 @@
     <link href="https://pamarus.github.io/2023/03/01/chatgpt-4.0-new-bing-xin-bi-ying-nei-ce-zi-ge-shen-qing-jiao-cheng/"/>
     <id>https://pamarus.github.io/2023/03/01/chatgpt-4.0-new-bing-xin-bi-ying-nei-ce-zi-ge-shen-qing-jiao-cheng/</id>
     <published>2023-03-01T07:25:00.000Z</published>
-    <updated>2023-03-16T09:03:48.446Z</updated>
+    <updated>2026-03-19T08:04:04.656Z</updated>
     
     
       
@@ -192,7 +222,7 @@
     <link href="https://pamarus.github.io/2023/02/27/ai-hui-hua-jie-shao-2-stable-diffusion-web-ui-sd-webui-de-she-zhi-yu-shi-yong/"/>
     <id>https://pamarus.github.io/2023/02/27/ai-hui-hua-jie-shao-2-stable-diffusion-web-ui-sd-webui-de-she-zhi-yu-shi-yong/</id>
     <published>2023-02-27T07:25:00.000Z</published>
-    <updated>2023-03-07T01:53:05.188Z</updated>
+    <updated>2026-03-19T08:02:54.666Z</updated>
     
     
       
@@ -202,7 +232,7 @@
     <summary type="html">&lt;ul&gt;
 &lt;li&gt;本篇主要介绍&lt;code&gt;Stable Diffusion Web UI（SD WebUI）&lt;/code&gt;的基础使用以及常用参数解释调整。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1 id=&quot;默认地址&quot;&gt;1. 默认地址&lt;/h1&gt;&lt;p&gt;SD WebUI的默认地址为&lt;a</summary>
+&lt;h1 id=&quot;1-默认地址&quot;&gt;&lt;a href=&quot;#1-默认地址&quot;</summary>
         
       
     
@@ -224,7 +254,7 @@
     <link href="https://pamarus.github.io/2023/02/24/ai-hui-hua-jie-shao-1-zai-mac-huan-jing-xia-pei-zhi-bing-yun-xing-stable-diffusion-web-ui-sd-webui/"/>
     <id>https://pamarus.github.io/2023/02/24/ai-hui-hua-jie-shao-1-zai-mac-huan-jing-xia-pei-zhi-bing-yun-xing-stable-diffusion-web-ui-sd-webui/</id>
     <published>2023-02-24T07:25:00.000Z</published>
-    <updated>2023-03-03T08:36:25.545Z</updated>
+    <updated>2026-03-19T08:02:24.662Z</updated>
     
     
       
@@ -252,18 +282,18 @@
   </entry>
   
   <entry>
-    <title>安安成长日记-2022年12月</title>
-    <link href="https://pamarus.github.io/2022/12/18/an-an-cheng-chang-ri-ji-2022-nian-12-yue/"/>
-    <id>https://pamarus.github.io/2022/12/18/an-an-cheng-chang-ri-ji-2022-nian-12-yue/</id>
+    <title>安安成长记录-2022年12月</title>
+    <link href="https://pamarus.github.io/2022/12/18/an-an-cheng-chang-ji-lu-2022-nian-12-yue/"/>
+    <id>https://pamarus.github.io/2022/12/18/an-an-cheng-chang-ji-lu-2022-nian-12-yue/</id>
     <published>2022-12-18T11:56:34.000Z</published>
-    <updated>2023-07-22T06:15:04.165Z</updated>
+    <updated>2026-03-19T08:30:13.015Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;12-01&quot;&gt;1.</summary>
+    <summary type="html">&lt;h1 id=&quot;1-12-01&quot;&gt;&lt;a href=&quot;#1-12-01&quot; class=&quot;headerlink&quot; title=&quot;1 12.01&quot;&gt;&lt;/a&gt;1</summary>
         
       
     
@@ -279,11 +309,11 @@
   </entry>
   
   <entry>
-    <title>安安成长日记-2022年11月</title>
-    <link href="https://pamarus.github.io/2022/11/18/an-an-cheng-chang-ri-ji-2022-nian-11-yue/"/>
-    <id>https://pamarus.github.io/2022/11/18/an-an-cheng-chang-ri-ji-2022-nian-11-yue/</id>
+    <title>安安成长记录-2022年11月</title>
+    <link href="https://pamarus.github.io/2022/11/18/an-an-cheng-chang-ji-lu-2022-nian-11-yue/"/>
+    <id>https://pamarus.github.io/2022/11/18/an-an-cheng-chang-ji-lu-2022-nian-11-yue/</id>
     <published>2022-11-18T11:56:34.000Z</published>
-    <updated>2023-03-11T07:55:29.471Z</updated>
+    <updated>2026-03-19T08:30:08.047Z</updated>
     
     
       
@@ -292,8 +322,7 @@
         
     <summary type="html">&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
 
-&lt;h1 id=&quot;11-01&quot;&gt;1. 11-01&lt;/h1&gt;&lt;video width=&quot;100%&quot; height=&quot;100%&quot; controls&gt;
-  &lt;source</summary>
+&lt;h1 id=&quot;11-01&quot;&gt;&lt;a href=&quot;#11-01&quot; class=&quot;headerlink&quot; title=&quot;11-01&quot;&gt;&lt;/a&gt;11-01&lt;/h1&gt;&lt;video width=&quot;100%&quot; height=&quot;100%&quot;</summary>
         
       
     
@@ -309,19 +338,19 @@
   </entry>
   
   <entry>
-    <title>安安成长日记-2022年10月</title>
-    <link href="https://pamarus.github.io/2022/10/23/an-an-cheng-chang-ri-ji-2022-nian-10-yue/"/>
-    <id>https://pamarus.github.io/2022/10/23/an-an-cheng-chang-ri-ji-2022-nian-10-yue/</id>
+    <title>安安成长记录-2022年10月</title>
+    <link href="https://pamarus.github.io/2022/10/23/an-an-cheng-chang-ji-lu-2022-nian-10-yue/"/>
+    <id>https://pamarus.github.io/2022/10/23/an-an-cheng-chang-ji-lu-2022-nian-10-yue/</id>
     <published>2022-10-23T11:56:34.000Z</published>
-    <updated>2023-03-11T07:55:33.073Z</updated>
+    <updated>2026-03-19T08:30:03.515Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;10-01&quot;&gt;1. 10-01&lt;/h1&gt;&lt;video width=&quot;100%&quot; height=&quot;100%&quot; controls&gt;
-  &lt;source</summary>
+    <summary type="html">&lt;h1 id=&quot;1-10-01&quot;&gt;&lt;a href=&quot;#1-10-01&quot; class=&quot;headerlink&quot; title=&quot;1 10-01&quot;&gt;&lt;/a&gt;1 10-01&lt;/h1&gt;&lt;video width=&quot;100%&quot; height=&quot;100%&quot; controls=&quot;&quot;&gt;
+ </summary>
         
       
     
@@ -337,18 +366,18 @@
   </entry>
   
   <entry>
-    <title>安安成长日记-2022年09月</title>
-    <link href="https://pamarus.github.io/2022/09/18/an-an-cheng-chang-ri-ji-2022-nian-09-yue/"/>
-    <id>https://pamarus.github.io/2022/09/18/an-an-cheng-chang-ri-ji-2022-nian-09-yue/</id>
+    <title>安安成长记录-2022年09月</title>
+    <link href="https://pamarus.github.io/2022/09/18/an-an-cheng-chang-ji-lu-2022-nian-09-yue/"/>
+    <id>https://pamarus.github.io/2022/09/18/an-an-cheng-chang-ji-lu-2022-nian-09-yue/</id>
     <published>2022-09-18T11:56:34.000Z</published>
-    <updated>2023-02-12T07:12:32.028Z</updated>
+    <updated>2026-03-19T08:29:59.866Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;09-03&quot;&gt;1. 09-03&lt;/h1&gt;&lt;p&gt;今天上午先去接外婆过来了，然后中午奶奶回家，回老家。&lt;br&gt;&lt;img</summary>
+    <summary type="html">&lt;h1 id=&quot;1-09-03&quot;&gt;&lt;a href=&quot;#1-09-03&quot; class=&quot;headerlink&quot; title=&quot;1 09-03&quot;&gt;&lt;/a&gt;1 09-03&lt;/h1&gt;&lt;p&gt;今天上午先去接外婆过来了，然后中午奶奶回家，回老家。&lt;br&gt;&lt;img</summary>
         
       
     
@@ -368,7 +397,7 @@
     <link href="https://pamarus.github.io/2022/09/12/geng-xin-ssh-key-ge-shi-wei-ed25519/"/>
     <id>https://pamarus.github.io/2022/09/12/geng-xin-ssh-key-ge-shi-wei-ed25519/</id>
     <published>2022-09-12T02:18:00.000Z</published>
-    <updated>2023-02-21T09:20:23.805Z</updated>
+    <updated>2026-03-19T08:09:04.652Z</updated>
     
     
       
@@ -425,15 +454,14 @@
     <link href="https://pamarus.github.io/2022/09/07/telegram-ke-hu-duan-proxy-dai-li-she-zhi/"/>
     <id>https://pamarus.github.io/2022/09/07/telegram-ke-hu-duan-proxy-dai-li-she-zhi/</id>
     <published>2022-09-07T12:32:00.000Z</published>
-    <updated>2023-02-21T09:20:59.847Z</updated>
+    <updated>2026-03-19T08:25:14.641Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;Telegram-macOS-客户端&quot;&gt;1. Telegram macOS 客户端&lt;/h1&gt;&lt;p&gt;Telegram macOS 客户端不遵从系统代理，所以需要设置自定义代理。&lt;/p&gt;
-&lt;h2 id=&quot;自定义代理设置步骤&quot;&gt;1.1.</summary>
+    <summary type="html">&lt;h1 id=&quot;1-Telegram-macOS-客户端&quot;&gt;&lt;a href=&quot;#1-Telegram-macOS-客户端&quot; class=&quot;headerlink&quot; title=&quot;1 Telegram macOS 客户端&quot;&gt;&lt;/a&gt;1 Telegram macOS</summary>
         
       
     
@@ -455,14 +483,14 @@
     <link href="https://pamarus.github.io/2022/09/06/ru-he-shi-yong-tree-ming-ling-sheng-cheng-mu-lu-shu-jie-gou/"/>
     <id>https://pamarus.github.io/2022/09/06/ru-he-shi-yong-tree-ming-ling-sheng-cheng-mu-lu-shu-jie-gou/</id>
     <published>2022-09-06T04:15:00.000Z</published>
-    <updated>2023-02-21T09:20:40.958Z</updated>
+    <updated>2026-03-17T02:46:36.956Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;安装Homebrew&quot;&gt;1. 安装Homebrew&lt;/h1&gt;&lt;p&gt;&lt;code&gt;Homebrew&lt;/code&gt;是一款macOS（或Linux）平台下的软件包管理器,具有装置、卸载、更新、查看、搜寻等很多实用的功能，官网地址：&lt;a</summary>
+    <summary type="html">&lt;h1 id=&quot;1-安装Homebrew&quot;&gt;&lt;a href=&quot;#1-安装Homebrew&quot; class=&quot;headerlink&quot; title=&quot;1 安装Homebrew&quot;&gt;&lt;/a&gt;1</summary>
         
       
     
@@ -484,15 +512,15 @@
     <link href="https://pamarus.github.io/2022/08/12/ssh-lian-jie-bao-cuo-kex-exchange-identification-read-connection-reset-by-peer/"/>
     <id>https://pamarus.github.io/2022/08/12/ssh-lian-jie-bao-cuo-kex-exchange-identification-read-connection-reset-by-peer/</id>
     <published>2022-08-12T04:45:00.000Z</published>
-    <updated>2022-09-07T09:10:42.000Z</updated>
+    <updated>2026-03-19T08:13:54.324Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;问题&quot;&gt;1. 问题&lt;/h1&gt;&lt;p&gt;&lt;code&gt;Hexo -d&lt;/code&gt;部署的时候报错如下。&lt;/p&gt;
-&lt;pre class=&quot;line-numbers language-java&quot; data-language=&quot;java&quot;&gt;&lt;code</summary>
+    <summary type="html">&lt;h1 id=&quot;1-问题&quot;&gt;&lt;a href=&quot;#1-问题&quot; class=&quot;headerlink&quot; title=&quot;1 问题&quot;&gt;&lt;/a&gt;1 问题&lt;/h1&gt;&lt;p&gt;&lt;code&gt;Hexo -d&lt;/code&gt;部署的时候报错如下。&lt;/p&gt;
+&lt;pre class=&quot;line-numbers</summary>
         
       
     
@@ -512,7 +540,7 @@
     <link href="https://pamarus.github.io/2022/08/12/ssh-lian-jie-bao-cuo-http-2-stream-1-was-not-closed-cleanly-before-end-of-the-underlying-stream/"/>
     <id>https://pamarus.github.io/2022/08/12/ssh-lian-jie-bao-cuo-http-2-stream-1-was-not-closed-cleanly-before-end-of-the-underlying-stream/</id>
     <published>2022-08-12T04:11:00.000Z</published>
-    <updated>2022-09-07T09:11:10.000Z</updated>
+    <updated>2026-03-19T08:14:15.117Z</updated>
     
     
       
@@ -528,8 +556,6 @@
     <category term="Hexo博客" scheme="https://pamarus.github.io/categories/Hexo%E5%8D%9A%E5%AE%A2/"/>
     
     
-    <category term="默认通信协议" scheme="https://pamarus.github.io/tags/%E9%BB%98%E8%AE%A4%E9%80%9A%E4%BF%A1%E5%8D%8F%E8%AE%AE/"/>
-    
     <category term="SSH报错" scheme="https://pamarus.github.io/tags/SSH%E6%8A%A5%E9%94%99/"/>
     
     <category term="部署问题" scheme="https://pamarus.github.io/tags/%E9%83%A8%E7%BD%B2%E9%97%AE%E9%A2%98/"/>
@@ -541,15 +567,15 @@
     <link href="https://pamarus.github.io/2022/08/11/ssh-lian-jie-bao-cuo-support-for-password-authentication-was-removed/"/>
     <id>https://pamarus.github.io/2022/08/11/ssh-lian-jie-bao-cuo-support-for-password-authentication-was-removed/</id>
     <published>2022-08-11T04:03:00.000Z</published>
-    <updated>2022-09-07T09:11:30.000Z</updated>
+    <updated>2026-03-19T08:14:04.647Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;问题&quot;&gt;1. 问题&lt;/h1&gt;&lt;p&gt;&lt;code&gt;Hexo -d&lt;/code&gt;部署的时候报错如下。&lt;/p&gt;
-&lt;pre class=&quot;line-numbers language-java&quot; data-language=&quot;java&quot;&gt;&lt;code</summary>
+    <summary type="html">&lt;h1 id=&quot;1-问题&quot;&gt;&lt;a href=&quot;#1-问题&quot; class=&quot;headerlink&quot; title=&quot;1 问题&quot;&gt;&lt;/a&gt;1 问题&lt;/h1&gt;&lt;p&gt;&lt;code&gt;Hexo -d&lt;/code&gt;部署的时候报错如下。&lt;/p&gt;
+&lt;pre class=&quot;line-numbers</summary>
         
       
     
@@ -565,33 +591,6 @@
     <category term="SSH报错" scheme="https://pamarus.github.io/tags/SSH%E6%8A%A5%E9%94%99/"/>
     
     <category term="部署问题" scheme="https://pamarus.github.io/tags/%E9%83%A8%E7%BD%B2%E9%97%AE%E9%A2%98/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>安安成长日记-2022年08月</title>
-    <link href="https://pamarus.github.io/2022/08/08/an-an-cheng-chang-ri-ji-2022-nian-08-yue/"/>
-    <id>https://pamarus.github.io/2022/08/08/an-an-cheng-chang-ri-ji-2022-nian-08-yue/</id>
-    <published>2022-08-08T11:56:34.000Z</published>
-    <updated>2023-02-12T07:09:13.493Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;08-01&quot;&gt;1. 08-01&lt;/h1&gt;&lt;p&gt;&lt;img</summary>
-        
-      
-    
-    
-    
-    <category term="生活日常" scheme="https://pamarus.github.io/categories/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/"/>
-    
-    
-    <category term="生活日常" scheme="https://pamarus.github.io/tags/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/"/>
-    
-    <category term="安安" scheme="https://pamarus.github.io/tags/%E5%AE%89%E5%AE%89/"/>
     
   </entry>
   

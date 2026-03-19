@@ -29,9 +29,9 @@
 
     <script src="/libs/jquery/jquery.min.js"></script>
 
-<meta name="generator" content="Hexo 6.2.0">
+<meta name="generator" content="Hexo 6.2.0"><link rel="alternate" href="/atom.xml" title="Pamarus" type="application/atom+xml">
+
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
-<link rel="alternate" href="/atom.xml" title="Pamarus" type="application/atom+xml">
 </head>
 
 
@@ -513,7 +513,7 @@
 </blockquote>
 <span id="more"></span>
 
-<h1 id="基本介绍">1. 基本介绍</h1><ul>
+<h1 id="1-基本介绍"><a href="#1-基本介绍" class="headerlink" title="1 基本介绍"></a>1 基本介绍</h1><ul>
 <li><p>选择哪种方案搭建博客</p>
 <ul>
 <li>参考这篇文章，<a target="_blank" rel="noopener" href="http://arrfu.com/blog-build-jekyll-hexo-wordpress.html">免费搭建个人博客的几种高效方案</a>，最终选定<code>hexo+Github</code>的方式。</li>
@@ -530,8 +530,8 @@
 </ul>
 </li>
 </ul>
-<h1 id="环境配置：安装Node-js和git">2. 环境配置：安装Node.js和git</h1><h2 id="安装brew">2.1. 安装brew</h2><p>安装brew，之后可以使用 HomeBrew 安装各类软件</p>
-<h3 id="方法1">2.1.1. 方法1</h3><p>终端中输入以下命令</p>
+<h1 id="2-环境配置：安装Node-js和git"><a href="#2-环境配置：安装Node-js和git" class="headerlink" title="2 环境配置：安装Node.js和git"></a>2 环境配置：安装Node.js和git</h1><h2 id="2-1-安装brew"><a href="#2-1-安装brew" class="headerlink" title="2.1 安装brew"></a>2.1 安装brew</h2><p>安装brew，之后可以使用 HomeBrew 安装各类软件</p>
+<h3 id="2-1-1-方法1"><a href="#2-1-1-方法1" class="headerlink" title="2.1.1 方法1"></a>2.1.1 方法1</h3><p>终端中输入以下命令</p>
 <pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token operator">/</span>bin<span class="token operator">/</span>bash <span class="token operator">-</span>c <span class="token string">"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
 <p>若GitHub无法连接，可以使用HomeBrew国内源，比如清华镜像（可自行百度）。</p>
@@ -539,8 +539,8 @@
 <span class="token operator">/</span>bin<span class="token operator">/</span>bash brew<span class="token operator">-</span>install<span class="token operator">/</span>install<span class="token punctuation">.</span>sh
 rm <span class="token operator">-</span>rf brew<span class="token operator">-</span>install<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
 
-<h3 id="方法2">2.1.2. 方法2</h3><p>在 <a target="_blank" rel="noopener" href="https://github.com/Homebrew/brew/releases">Homebrew GitHub项目</a> 中下载安装包。</p>
-<h3 id="安装brew前确保Xcode-Command-Line-Tool安装">2.1.3. 安装brew前确保Xcode Command Line Tool安装</h3><p>若电脑未安装，则报错如下。</p>
+<h3 id="2-1-2-方法2"><a href="#2-1-2-方法2" class="headerlink" title="2.1.2 方法2"></a>2.1.2 方法2</h3><p>在 <a target="_blank" rel="noopener" href="https://github.com/Homebrew/brew/releases">Homebrew GitHub项目</a> 中下载安装包。</p>
+<h3 id="2-1-3-安装brew前确保Xcode-Command-Line-Tool安装"><a href="#2-1-3-安装brew前确保Xcode-Command-Line-Tool安装" class="headerlink" title="2.1.3 安装brew前确保Xcode Command Line Tool安装"></a>2.1.3 安装brew前确保Xcode Command Line Tool安装</h3><p>若电脑未安装，则报错如下。</p>
 <p><img src="https://www.github.com/pamarus/Images/raw/master/2020/05/Hexo+GitHub%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A232.jpg" title="Hexo+GitHub搭建博客32"></p>
 <p>终端中输入以下命令安装 Xcode Command Line Tool。</p>
 <pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript">xcode<span class="token operator">-</span>select <span class="token operator">--</span>install<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
@@ -549,22 +549,22 @@ rm <span class="token operator">-</span>rf brew<span class="token operator">-</s
 <p><img src="https://www.github.com/pamarus/Images/raw/master/2020/05/Hexo+GitHub%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A234.jpg" title="Hexo+GitHub搭建博客34"></p>
 <p><img src="https://www.github.com/pamarus/Images/raw/master/2020/05/Hexo+GitHub%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A235.jpg" title="Hexo+GitHub搭建博客35"></p>
 <p><img src="https://www.github.com/pamarus/Images/raw/master/2020/05/Hexo+GitHub%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A236.jpg" title="Hexo+GitHub搭建博客36"></p>
-<h2 id="下载安装Node-js">2.2. 下载安装Node.js</h2><p>Hexo 是基于 Node.js 驱动的一款博客框架，所以需安装node。</p>
-<h3 id="方法1-1">2.2.1. 方法1</h3><p>终端中输入以下命令</p>
+<h2 id="2-2-下载安装Node-js"><a href="#2-2-下载安装Node-js" class="headerlink" title="2.2 下载安装Node.js"></a>2.2 下载安装Node.js</h2><p>Hexo 是基于 Node.js 驱动的一款博客框架，所以需安装node。</p>
+<h3 id="2-2-1-方法1"><a href="#2-2-1-方法1" class="headerlink" title="2.2.1 方法1"></a>2.2.1 方法1</h3><p>终端中输入以下命令</p>
 <pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript">brew install node<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
-<h3 id="方法2-1">2.2.2. 方法2</h3><p>前往 <a target="_blank" rel="noopener" href="https://nodejs.org/zh-cn/">Node.js官网</a> 下载软件安装。</p>
-<h2 id="下载安装git">2.3. 下载安装git</h2><h3 id="方法1-2">2.3.1. 方法1</h3><p>终端中输入以下命令</p>
+<h3 id="2-2-2-方法2"><a href="#2-2-2-方法2" class="headerlink" title="2.2.2 方法2"></a>2.2.2 方法2</h3><p>前往 <a target="_blank" rel="noopener" href="https://nodejs.org/zh-cn/">Node.js官网</a> 下载软件安装。</p>
+<h2 id="2-3-下载安装git"><a href="#2-3-下载安装git" class="headerlink" title="2.3 下载安装git"></a>2.3 下载安装git</h2><h3 id="2-3-1-方法1"><a href="#2-3-1-方法1" class="headerlink" title="2.3.1 方法1"></a>2.3.1 方法1</h3><p>终端中输入以下命令</p>
 <pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript">brew install git<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
-<h3 id="方法2-2">2.3.2. 方法2</h3><p>前往 <a target="_blank" rel="noopener" href="https://git-scm.com/">git官网</a> 下载软件安装。</p>
-<h2 id="检查是否安装">2.4. 检查是否安装</h2><p>在命令行中输入相应命令验证是否成功，如果成功会有相应的版本号。</p>
+<h3 id="2-3-2-方法2"><a href="#2-3-2-方法2" class="headerlink" title="2.3.2 方法2"></a>2.3.2 方法2</h3><p>前往 <a target="_blank" rel="noopener" href="https://git-scm.com/">git官网</a> 下载软件安装。</p>
+<h2 id="2-4-检查是否安装"><a href="#2-4-检查是否安装" class="headerlink" title="2.4 检查是否安装"></a>2.4 检查是否安装</h2><p>在命令行中输入相应命令验证是否成功，如果成功会有相应的版本号。</p>
 <pre class="line-numbers language-jsx" data-language="jsx"><code class="language-jsx">node <span class="token operator">-</span>v
 git version
 npm <span class="token operator">-</span>v<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
 
 <p><img src="https://note.youdao.com/yws/api/personal/file/WEBdb227fbdc1bbe14b6271c1278f225f74?method=download&amp;shareKey=ad976171ccc504e5f5417511cdffe18f" alt="01验证是否安装node、git"></p>
-<h1 id="使用npm安装Hexo">3. 使用npm安装Hexo</h1><h2 id="安装Hexo">3.1. 安装Hexo</h2><p>终端中输入命令</p>
+<h1 id="3-使用npm安装Hexo"><a href="#3-使用npm安装Hexo" class="headerlink" title="3 使用npm安装Hexo"></a>3 使用npm安装Hexo</h1><h2 id="3-1-安装Hexo"><a href="#3-1-安装Hexo" class="headerlink" title="3.1 安装Hexo"></a>3.1 安装Hexo</h2><p>终端中输入命令</p>
 <pre class="line-numbers language-python" data-language="python"><code class="language-python">sudo npm install <span class="token operator">-</span>g hexo<span class="token operator">-</span>cli<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 <blockquote>
 <p>hexo-cli：CLI就是命令行接口的意思，Command Line Interface。会安装Hexo和hexo的一些命令，也就是说可以使用命令行操作hexo</p>
@@ -579,7 +579,7 @@ npm <span class="token operator">-</span>v<span aria-hidden="true" class="line-n
 <blockquote>
 <p>根据报错信息的最后一行，使用<code>sudo</code>命令root执行即可。</p>
 </blockquote>
-<h2 id="本地初始化操作">3.2. 本地初始化操作</h2><ul>
+<h2 id="3-2-本地初始化操作"><a href="#3-2-本地初始化操作" class="headerlink" title="3.2 本地初始化操作"></a>3.2 本地初始化操作</h2><ul>
 <li>执行hexo init命令，复制文件到本地</li>
 </ul>
 <pre class="line-numbers language-java" data-language="java"><code class="language-java">hexo init <span class="token class-name">Hexo_Blog</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
@@ -612,12 +612,12 @@ npm <span class="token operator">-</span>v<span aria-hidden="true" class="line-n
 <blockquote>
 <p>这些文件哪儿来的。这就是要先安装git的原因，hexo的github有个叫hexo-starter的仓库，这里面有所有的hexo包文件</p>
 </blockquote>
-<h2 id="安装npm">3.3. 安装npm</h2><p>cd到“Hexo_Blog”文件夹下，执行命令</p>
+<h2 id="3-3-安装npm"><a href="#3-3-安装npm" class="headerlink" title="3.3 安装npm"></a>3.3 安装npm</h2><p>cd到“Hexo_Blog”文件夹下，执行命令</p>
 <p><img src="https://note.youdao.com/yws/api/personal/file/WEB4c85cb1fd5f632de6b40e7a2a707f62e?method=download&amp;shareKey=9e3fb128012811f2a7c4155fb22024d4" alt="Hexo+GitHub搭建博客06CD"></p>
 <pre class="line-numbers language-java" data-language="java"><code class="language-java">npm install<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
 <p><img src="https://note.youdao.com/yws/api/personal/file/WEBbc786d959adce69c680c693b6907322e?method=download&amp;shareKey=0bf5667e24ef18f37c72d83c806bbb69" alt="Hexo+GitHub搭建博客07安装npm"></p>
-<h2 id="执行下述命令生成本地网页文件并开启服务器：">3.4. 执行下述命令生成本地网页文件并开启服务器：</h2><blockquote>
+<h2 id="3-4-执行下述命令生成本地网页文件并开启服务器："><a href="#3-4-执行下述命令生成本地网页文件并开启服务器：" class="headerlink" title="3.4 执行下述命令生成本地网页文件并开启服务器："></a>3.4 执行下述命令生成本地网页文件并开启服务器：</h2><blockquote>
 <p><code>hexo g</code> 或 <code>hexo generate</code>  生成静态文件<br><code>hexo s</code> 或者 <code>hexo server</code>    在服务器上运行</p>
 </blockquote>
 <p><img src="https://note.youdao.com/yws/api/personal/file/WEB8419fc9e3308694d53f07bef01b48f40?method=download&amp;shareKey=174f030cac32336bed8c418401e7f54f" alt="Hexo+GitHub搭建博客08本地运行"></p>
@@ -626,7 +626,7 @@ npm <span class="token operator">-</span>v<span aria-hidden="true" class="line-n
 <blockquote>
 <p>上图中是Hexo默认主题，后续可以修改，参考我的博客文章：</p>
 </blockquote>
-<h2 id="初次写作文章">3.5. 初次写作文章</h2><p><code>control+C</code>,暂时关闭服务器，回到命令行输入界面</p>
+<h2 id="3-5-初次写作文章"><a href="#3-5-初次写作文章" class="headerlink" title="3.5 初次写作文章"></a>3.5 初次写作文章</h2><p><code>control+C</code>,暂时关闭服务器，回到命令行输入界面</p>
 <p>输入命令行</p>
 <pre class="line-numbers language-java" data-language="java"><code class="language-java">hexo <span class="token keyword">new</span> <span class="token string">"My First Post"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
@@ -642,8 +642,8 @@ npm <span class="token operator">-</span>v<span aria-hidden="true" class="line-n
 <p>网页效果如下。</p>
 </blockquote>
 <p><img src="https://note.youdao.com/yws/api/personal/file/WEB93d80a6894c9bf97754ce8d44fe50994?method=download&amp;shareKey=596011a1847fe74dd62d5aace5a195b8" alt="Hexo+GitHub搭建博客12网页效果"></p>
-<h1 id="本地博客关联部署到GitHub上">4. 本地博客关联部署到GitHub上</h1><h2 id="创建GitHub仓库">4.1. 创建GitHub仓库</h2><h3 id="注册登录GitHub">4.1.1. 注册登录GitHub</h3><p>点击打开 <a target="_blank" rel="noopener" href="https://github.com/">GitHub</a>，注册登录</p>
-<h3 id="GitHub创建个人仓库">4.1.2. GitHub创建个人仓库</h3><p>用于存放构建后的网站文件。</p>
+<h1 id="4-本地博客关联部署到GitHub上"><a href="#4-本地博客关联部署到GitHub上" class="headerlink" title="4 本地博客关联部署到GitHub上"></a>4 本地博客关联部署到GitHub上</h1><h2 id="4-1-创建GitHub仓库"><a href="#4-1-创建GitHub仓库" class="headerlink" title="4.1 创建GitHub仓库"></a>4.1 创建GitHub仓库</h2><h3 id="4-1-1-注册登录GitHub"><a href="#4-1-1-注册登录GitHub" class="headerlink" title="4.1.1 注册登录GitHub"></a>4.1.1 注册登录GitHub</h3><p>点击打开 <a target="_blank" rel="noopener" href="https://github.com/">GitHub</a>，注册登录</p>
+<h3 id="4-1-2-GitHub创建个人仓库"><a href="#4-1-2-GitHub创建个人仓库" class="headerlink" title="4.1.2 GitHub创建个人仓库"></a>4.1.2 GitHub创建个人仓库</h3><p>用于存放构建后的网站文件。</p>
 <p>点击右上角加号，选择New repository，或者直接点击 <a target="_blank" rel="noopener" href="https://github.com/new">仓库新建页</a> 创建一个公开仓库</p>
 <p><img src="https://note.youdao.com/yws/api/personal/file/WEB8d46ae2f230211d08dd97bc31a825ac6?method=download&amp;shareKey=10a2283591f29b63816902f468089d3f" alt="Hexo+GitHub搭建博客13开始创建仓库"></p>
 <p><img src="https://note.youdao.com/yws/api/personal/file/WEB42b3c2e228224fc27984ea950b5c5481?method=download&amp;shareKey=943a86e960c05d9ee54f6a57822a9e95" alt="Hexo+GitHub搭建博客14创建页"></p>
@@ -658,7 +658,7 @@ npm <span class="token operator">-</span>v<span aria-hidden="true" class="line-n
 <li>创建成功后，以后你的博客所有代码都可以放在这个仓库里。</li>
 </ul>
 <p><img src="https://note.youdao.com/yws/api/personal/file/WEB63c8597f046f631c658e198d1f45390f?method=download&amp;shareKey=2fa29dfa515c7cdc42f12203080bd0b5" alt="Hexo+GitHub搭建博客15创建成功"></p>
-<h2 id="本地博客代码上传GitHub">4.2. 本地博客代码上传GitHub</h2><h3 id="修改配置">4.2.1. 修改配置</h3><p>编辑自己创建的本地博客文件夹中的<code>_config.yml</code>中的<code>deploy</code>节点</p>
+<h2 id="4-2-本地博客代码上传GitHub"><a href="#4-2-本地博客代码上传GitHub" class="headerlink" title="4.2 本地博客代码上传GitHub"></a>4.2 本地博客代码上传GitHub</h2><h3 id="4-2-1-修改配置"><a href="#4-2-1-修改配置" class="headerlink" title="4.2.1 修改配置"></a>4.2.1 修改配置</h3><p>编辑自己创建的本地博客文件夹中的<code>_config.yml</code>中的<code>deploy</code>节点</p>
 <p>终端cd到<code>Hexo_Blog</code>文件夹下，使用命令打开<code>_config.yml</code>文件。也可以在本地使用编辑器软件直接打开文件。</p>
 <pre class="line-numbers language-java" data-language="java"><code class="language-java">vim _config<span class="token punctuation">.</span>yml<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 <p>修改配置如下：</p>
@@ -680,7 +680,7 @@ npm <span class="token operator">-</span>v<span aria-hidden="true" class="line-n
 <blockquote>
 <p>注意：repo这一行，若没有配置SSH Key，使用https形式的地址，配置了使用下面那一种。注意type、repository、branch后均有空格。</p>
 </blockquote>
-<h3 id="安装部署插件-hexo-deployer-git">4.2.2. 安装部署插件 hexo-deployer-git</h3><pre class="line-numbers language-java" data-language="java"><code class="language-java">npm install hexo<span class="token operator">-</span>deployer<span class="token operator">-</span>git <span class="token operator">--</span>save<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<h3 id="4-2-2-安装部署插件-hexo-deployer-git"><a href="#4-2-2-安装部署插件-hexo-deployer-git" class="headerlink" title="4.2.2 安装部署插件 hexo-deployer-git"></a>4.2.2 安装部署插件 hexo-deployer-git</h3><pre class="line-numbers language-java" data-language="java"><code class="language-java">npm install hexo<span class="token operator">-</span>deployer<span class="token operator">-</span>git <span class="token operator">--</span>save<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
 <p><img src="https://note.youdao.com/yws/api/personal/file/WEB68a33bc0769c1586736beac3b735569f?method=download&amp;shareKey=4417a3e742850ce5c122460f6a6384b9" alt="Hexo+GitHub搭建博客17部署插件 hexo-deployer-git"></p>
 <blockquote>
@@ -689,7 +689,7 @@ npm <span class="token operator">-</span>v<span aria-hidden="true" class="line-n
 </code></pre>
 </blockquote>
 <p><img src="https://note.youdao.com/yws/api/personal/file/WEBdcfb814b1af427053c47a9d607fe1617?method=download&amp;shareKey=339125a9efbbeae5339549baaf9fe3f6" alt="Hexo+GitHub搭建博客19hexo d报错"></p>
-<h3 id="生成静态文件并上传到服务器">4.2.3. 生成静态文件并上传到服务器</h3><p>使用命令：（cd到博客的对应文件夹路径下）</p>
+<h3 id="4-2-3-生成静态文件并上传到服务器"><a href="#4-2-3-生成静态文件并上传到服务器" class="headerlink" title="4.2.3 生成静态文件并上传到服务器"></a>4.2.3 生成静态文件并上传到服务器</h3><p>使用命令：（cd到博客的对应文件夹路径下）</p>
 <blockquote>
 <p><code>hexo g</code> 或 <code>hexo generate</code>  生成静态文件<br><code>hexo d</code> 或 <code>hexo deploy</code>      将网站部署到服务器上</p>
 <p>或 <code>hexo g -d</code></p>
@@ -698,7 +698,7 @@ npm <span class="token operator">-</span>v<span aria-hidden="true" class="line-n
 <blockquote>
 <p>若执行<code>hexo g</code>出错则执行<code>npm install hexo --save</code>，若执行<code>hexo d</code>出错（即2.2可能出现的错误）则执行<code>npm install hexo-deployer-git --save</code>。错误修正后再次执行<code>hexo g</code>和<code>hexo d</code>上传到服务器。</p>
 </blockquote>
-<h3 id="填写username和password">4.2.4. 填写username和password</h3><p>之后终端会显示下列代码，依序输入用户名，点击enter，输入密码，enter即可。</p>
+<h3 id="4-2-4-填写username和password"><a href="#4-2-4-填写username和password" class="headerlink" title="4.2.4 填写username和password"></a>4.2.4 填写username和password</h3><p>之后终端会显示下列代码，依序输入用户名，点击enter，输入密码，enter即可。</p>
 <pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token class-name">Username</span> <span class="token keyword">for</span> '<span class="token punctuation">[</span>https<span class="token operator">:</span><span class="token operator">/</span><span class="token operator">/</span>github<span class="token punctuation">.</span>com<span class="token punctuation">]</span><span class="token punctuation">(</span>https<span class="token operator">:</span><span class="token operator">/</span><span class="token operator">/</span>github<span class="token punctuation">.</span>com<span class="token operator">/</span><span class="token punctuation">)</span>'<span class="token operator">:</span>
 <span class="token class-name">Password</span> <span class="token keyword">for</span> '<span class="token punctuation">[</span>https<span class="token operator">:</span><span class="token operator">/</span><span class="token operator">/</span><span class="token class-name">Pamarus</span><span class="token annotation punctuation">@github.com</span><span class="token punctuation">]</span><span class="token punctuation">(</span>https<span class="token operator">:</span><span class="token operator">/</span><span class="token operator">/</span><span class="token class-name">Pamarus</span><span class="token annotation punctuation">@github.com</span><span class="token operator">/</span><span class="token punctuation">)</span>'<span class="token operator">:</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 
@@ -707,7 +707,7 @@ npm <span class="token operator">-</span>v<span aria-hidden="true" class="line-n
 <p><img src="https://note.youdao.com/yws/api/personal/file/WEB8b1a22099b92d1d687b9fd14fc871ed0?method=download&amp;shareKey=2b17d250594faefa49177b9d2cb54018" alt="Hexo+GitHub搭建博客22完成部署"></p>
 <p>deploy成功后，便可通过 <a href="https://pamarus.github.io/">https://pamarus.github.io</a> （你的GitHun博客域名）访问博客，看到的内容和 <a target="_blank" rel="noopener" href="http://localhost:4000/">http://localhost:4000</a> 相同了。如下图（浏览器中域名）</p>
 <p><img src="https://note.youdao.com/yws/api/personal/file/WEB779fba0be0aa9d030cc89075da911c67?method=download&amp;shareKey=1f0c2e5df362a24fade97761ac348180" alt="Hexo+GitHub搭建博客23打开github域名网站"></p>
-<h1 id="博客写作">5. 博客写作</h1><ul>
+<h1 id="5-博客写作"><a href="#5-博客写作" class="headerlink" title="5 博客写作"></a>5 博客写作</h1><ul>
 <li>终端内cd到博客目录，依次输入命令：</li>
 </ul>
 <pre class="line-numbers language-java" data-language="java"><code class="language-java">hexo <span class="token keyword">new</span> <span class="token string">"My Second Post"</span>
@@ -727,18 +727,18 @@ hexo d<span aria-hidden="true" class="line-numbers-rows"><span></span><span></sp
 <blockquote>
 <p>部署前最好能先执行一下 hexo clean 命令，清除缓存文件 (db.json) 和已生成的静态文件 (public)。在某些情况（尤其是更换主题后），如果发现您对站点的更改无论如何也不生效，您可能需要运行该命令。</p>
 </blockquote>
-<h1 id="配置-SSH-key">6. 配置 SSH key</h1><blockquote>
+<h1 id="6-配置-SSH-key"><a href="#6-配置-SSH-key" class="headerlink" title="6 配置 SSH key"></a>6 配置 SSH key</h1><blockquote>
 <p>这一步不是必须的，所以我放在后面了。配置<code>SSH Key</code>的话之后每次更新博客就不用都输入用户名和密码，可以方便一些。</p>
 </blockquote>
 <blockquote>
 <p>为什么要配置这个呢？因为提交代码肯定要拥有你的<code>github权限</code>才可以，但是直接使用用户名和密码太不安全了，也很麻烦，所以我们使用<code>SSH key</code>来解决本地和服务器的连接问题。</p>
 </blockquote>
-<h2 id="配置用户名和邮箱">6.1. 配置用户名和邮箱</h2><p>配置用户名和邮箱是提交代码时的必要步骤。打开终端，输入以下命令。</p>
+<h2 id="6-1-配置用户名和邮箱"><a href="#6-1-配置用户名和邮箱" class="headerlink" title="6.1 配置用户名和邮箱"></a>6.1 配置用户名和邮箱</h2><p>配置用户名和邮箱是提交代码时的必要步骤。打开终端，输入以下命令。</p>
 <pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript">git config <span class="token operator">--</span>global user<span class="token punctuation">.</span>name <span class="token string">"你的用户名"</span>
 git config <span class="token operator">--</span>global user<span class="token punctuation">.</span>email <span class="token string">"你的邮箱"</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 
 
-<h2 id="生成SSH-key">6.2. 生成SSH key</h2><ul>
+<h2 id="6-2-生成SSH-key"><a href="#6-2-生成SSH-key" class="headerlink" title="6.2 生成SSH key"></a>6.2 生成SSH key</h2><ul>
 <li>终端中输入命令：</li>
 </ul>
 <pre class="line-numbers language-java" data-language="java"><code class="language-java">ssh<span class="token operator">-</span>keygen <span class="token operator">-</span>t rsa <span class="token operator">-</span><span class="token class-name">C</span> <span class="token string">"你的GitHub注册邮箱"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
@@ -753,16 +753,16 @@ The</span> key fingerprint is<span class="token operator">:</span> <span class="
 <span class="token class-name">The</span> <span class="token class-name">Key</span>'s randomart image is<span class="token operator">:</span>
 <span class="token operator">*</span><span class="token operator">*</span><span class="token operator">*</span><span class="token operator">*</span><span class="token operator">*</span><span class="token operator">*</span><span class="token operator">*</span><span class="token operator">*</span><span class="token operator">*</span><span class="token operator">*</span><span class="token operator">*</span><span class="token operator">*</span><span class="token operator">*</span><span class="token operator">*</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
-<h2 id="找到key">6.3. 找到key</h2><p>按照上面生成的，mac下前往文件夹<code>/Users/user/.ssh</code></p>
+<h2 id="6-3-找到key"><a href="#6-3-找到key" class="headerlink" title="6.3 找到key"></a>6.3 找到key</h2><p>按照上面生成的，mac下前往文件夹<code>/Users/user/.ssh</code></p>
 <blockquote>
 <p>如何前往<br>Finder中前往 -&gt; 前往文件夹… -&gt; 填入<code>/Users/user/.ssh</code> -&gt; enter。打开文件夹后就可以看到<code>id_rsa</code>和<code>id_rsa.pub</code>这两个文件<br>注意将<code>user</code>替换为你的电脑用户名称</p>
 </blockquote>
 <p>打开<code>id_rsa.pub</code>文件，ssh key便在这个文件里</p>
-<h2 id="Github-上添加刚刚生成的ssh-key">6.4. Github 上添加刚刚生成的ssh key</h2><p>将key复制到GitHub的Add ssh key中。路径：<code>GitHub -&gt; Settings -&gt; SSH and GPG keys -&gt; add SSH key</code>。</p>
+<h2 id="6-4-Github-上添加刚刚生成的ssh-key"><a href="#6-4-Github-上添加刚刚生成的ssh-key" class="headerlink" title="6.4 Github 上添加刚刚生成的ssh key"></a>6.4 Github 上添加刚刚生成的ssh key</h2><p>将key复制到GitHub的Add ssh key中。路径：<code>GitHub -&gt; Settings -&gt; SSH and GPG keys -&gt; add SSH key</code>。</p>
 <p>Title里填写任意标题，将复制的内容粘贴到key中，点击Add key完成添加。</p>
 <p><img src="https://note.youdao.com/yws/api/personal/file/WEB2ef9be1a5af773141b889d2d8da93f3b?method=download&amp;shareKey=d1616a2bc890db2e0d74647a1f82d9ad" alt="Hexo+GitHub搭建博客28github添加key"></p>
 <p><img src="https://note.youdao.com/yws/api/personal/file/WEB94bd01e56557488331e51eb1d0718ff5?method=download&amp;shareKey=cf92e796bc06cdfa9d5be34527398a41" alt="Hexo+GitHub搭建博客29添加页面"></p>
-<h2 id="检验SSH-Key是否配置成功">6.5. 检验SSH Key是否配置成功</h2><p>终端输入命令：</p>
+<h2 id="6-5-检验SSH-Key是否配置成功"><a href="#6-5-检验SSH-Key是否配置成功" class="headerlink" title="6.5 检验SSH Key是否配置成功"></a>6.5 检验SSH Key是否配置成功</h2><p>终端输入命令：</p>
 <pre class="line-numbers language-java" data-language="java"><code class="language-java">ssh <span class="token operator">-</span><span class="token class-name">T</span> git<span class="token annotation punctuation">@github.com</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
 <p>出现：</p>
@@ -773,7 +773,7 @@ The</span> key fingerprint is<span class="token operator">:</span> <span class="
 
 <p>就说明你的SSHKey配置成功了。</p>
 <p><img src="https://note.youdao.com/yws/api/personal/file/WEBbd9e794c9883fecf89f9dbf9975d2d65?method=download&amp;shareKey=ef71b66239b3f4d791e419971db35a1f" alt="Hexo+GitHub搭建博客31检测"></p>
-<h1 id="致谢">7. 致谢</h1><p>安装过程中其他问题见其他文章。</p>
+<h1 id="7-致谢"><a href="#7-致谢" class="headerlink" title="7 致谢"></a>7 致谢</h1><p>安装过程中其他问题见其他文章。</p>
 <p><a target="_blank" rel="noopener" href="https://www.jianshu.com/p/cbf8ba8af532">Mac+Hexo+GitHub博客搭建教程</a></p>
 <p><a target="_blank" rel="noopener" href="https://segmentfault.com/a/1190000017986794#item-14">超详细Hexo+Github Page搭建技术博客教程【持续更新】</a></p>
 
@@ -1627,7 +1627,7 @@ The</span> key fingerprint is<span class="token operator">:</span> <span class="
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">60.7k</span>&nbsp;字
+                class="white-color">64.9k</span>&nbsp;字
             
             
             

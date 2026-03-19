@@ -29,9 +29,9 @@
 
     <script src="/libs/jquery/jquery.min.js"></script>
 
-<meta name="generator" content="Hexo 6.2.0">
+<meta name="generator" content="Hexo 6.2.0"><link rel="alternate" href="/atom.xml" title="Pamarus" type="application/atom+xml">
+
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
-<link rel="alternate" href="/atom.xml" title="Pamarus" type="application/atom+xml">
 </head>
 
 
@@ -514,9 +514,7 @@
                 <p>打开next文件夹内的配置文件<code>_config.yml</code>，找到 <code>Comments Settings</code>，选择一个评论系统，设置为<code>true</code>。可选的有：<code>changyan</code>，<code>disqus</code>，<code>disqusjs</code>，<code>gitalk</code>，<code>livere</code>，<code>valine</code>，这几个都是方便配置的。</p>
 <span id="more"></span>
 
-<h1>1. 选择哪种评论系统</h1>
-
-<p>参考以下文章，选择适合自己的：<br><a target="_blank" rel="noopener" href="https://www.zhihu.com/question/267598518">Hexo（NexT 主题）评论系统哪个好？</a><br><a target="_blank" rel="noopener" href="https://3mile.github.io/archives/128/">第三方评论系统推荐</a></p>
+<h1 id="1-选择哪种评论系统"><a href="#1-选择哪种评论系统" class="headerlink" title="1 选择哪种评论系统"></a>1 选择哪种评论系统</h1><p>参考以下文章，选择适合自己的：<br><a target="_blank" rel="noopener" href="https://www.zhihu.com/question/267598518">Hexo（NexT 主题）评论系统哪个好？</a><br><a target="_blank" rel="noopener" href="https://3mile.github.io/archives/128/">第三方评论系统推荐</a></p>
 <ul>
 <li><a target="_blank" rel="noopener" href="http://changyan.kuaizhan.com/">changyan（畅言）</a> ，原搜狐畅言，安装 <a target="_blank" rel="noopener" href="http://changyan.kuaizhan.com/static/help/o-beian.html">需要备案号</a>。</li>
 </ul>
@@ -527,10 +525,10 @@
 <li><a target="_blank" rel="noopener" href="https://livere.com/">livere（来必力）</a> 来自韩国的产品，中国本土化做的不错，支持微信、QQ、豆瓣等多种登录方式。</li>
 <li><a target="_blank" rel="noopener" href="https://valine.js.org/">valine</a>，无后端，无需登录，轻量，看了一下别的博客，样式也蛮喜欢，最终决定用这个。</li>
 </ul>
-<h1 id="获取APP-ID-和-APP-Key">2. 获取APP ID 和 APP Key</h1><h2 id="注册登录LeanCloud">2.1. 注册登录LeanCloud</h2><p>评论系统其实是放在Leancloud上的，因此首先需要去注册一个账号</p>
+<h1 id="2-获取APP-ID-和-APP-Key"><a href="#2-获取APP-ID-和-APP-Key" class="headerlink" title="2 获取APP ID 和 APP Key"></a>2 获取APP ID 和 APP Key</h1><h2 id="2-1-注册登录LeanCloud"><a href="#2-1-注册登录LeanCloud" class="headerlink" title="2.1 注册登录LeanCloud"></a>2.1 注册登录LeanCloud</h2><p>评论系统其实是放在Leancloud上的，因此首先需要去注册一个账号</p>
 <p>[Leancloud官网，点我注册]<a target="_blank" rel="noopener" href="https://console.leancloud.cn/">(https://tab.leancloud.cn/login.html#/signup</a>)</p>
 <p><img src="https://note.youdao.com/yws/api/personal/file/WEB7bcdca9bf1d712b8d155d90428c9b168?method=download&amp;shareKey=7624997176d465915ce81f3614e045e8" alt="集成valine评论系统02-注册LeanCould"></p>
-<h2 id="实名认证和邮箱认证">2.2. 实名认证和邮箱认证</h2><p>注册成功后，根据提示，需要分别完成实名认证和邮箱验证</p>
+<h2 id="2-2-实名认证和邮箱认证"><a href="#2-2-实名认证和邮箱认证" class="headerlink" title="2.2 实名认证和邮箱认证"></a>2.2 实名认证和邮箱认证</h2><p>注册成功后，根据提示，需要分别完成实名认证和邮箱验证</p>
 <p><img src="https://note.youdao.com/yws/api/personal/file/WEB3d50989b5873ff55eb54bd515427f0a1?method=download&amp;shareKey=2af2c0f687a1692c471a200ddadf4381" alt="集成valine评论系统03"></p>
 <ul>
 <li>实名认证——选择个人认证</li>
@@ -548,7 +546,7 @@
 <ul>
 <li>认证成功<br><img src="https://note.youdao.com/yws/api/personal/file/WEB1f9af6a75d396a10790c37d2403bef85?method=download&amp;shareKey=551d87e224dcf63bdce0dd7df84ce307" alt="集成valine评论系统07"></li>
 </ul>
-<h2 id="创建应用">2.3. 创建应用</h2><ul>
+<h2 id="2-3-创建应用"><a href="#2-3-创建应用" class="headerlink" title="2.3 创建应用"></a>2.3 创建应用</h2><ul>
 <li>进入控制台后点击左下角创建应用：</li>
 </ul>
 <blockquote>
@@ -567,7 +565,7 @@
 <li>点击名称，进入刚刚创建的应用，选择左下角的<code>设置</code> &gt; <code>应用Key</code>，然后就能看到你的<code>APP ID</code>和<code>APP Key</code>了：</li>
 </ul>
 <p><img src="https://note.youdao.com/yws/api/personal/file/WEB42d5fb6486dc3c80894e4d30e043296f?method=download&amp;shareKey=5668164b48cef42a4ce4559987a605f0" alt="集成valine评论系统12"></p>
-<h1 id="配置">3. 配置</h1><h2 id="填写appid-和-appkey">3.1. 填写appid 和 appkey</h2><p>打开next文件夹内的配置文件<code>_config.yml</code>，找到<code>Valine</code>配置项，设置为<code>true</code>，填入<code>appid</code> 和 <code>appkey</code></p>
+<h1 id="3-配置"><a href="#3-配置" class="headerlink" title="3 配置"></a>3 配置</h1><h2 id="3-1-填写appid-和-appkey"><a href="#3-1-填写appid-和-appkey" class="headerlink" title="3.1 填写appid 和 appkey"></a>3.1 填写<code>appid</code> 和 <code>appkey</code></h2><p>打开next文件夹内的配置文件<code>_config.yml</code>，找到<code>Valine</code>配置项，设置为<code>true</code>，填入<code>appid</code> 和 <code>appkey</code></p>
 <pre class="line-numbers language-jsx" data-language="jsx"><code class="language-jsx"># Valine
 # For more information<span class="token operator">:</span> https<span class="token operator">:</span><span class="token operator">/</span><span class="token operator">/</span>valine<span class="token punctuation">.</span>js<span class="token punctuation">.</span>org<span class="token punctuation">,</span> <span class="token literal-property property">https</span><span class="token operator">:</span><span class="token operator">/</span><span class="token operator">/</span>github<span class="token punctuation">.</span>com<span class="token operator">/</span>xCss<span class="token operator">/</span>Valine
 <span class="token literal-property property">valine</span><span class="token operator">:</span>
@@ -575,14 +573,14 @@
   <span class="token literal-property property">appid</span><span class="token operator">:</span> # Your leancloud application appid
   <span class="token literal-property property">appkey</span><span class="token operator">:</span> # Your leancloud application appkey<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
-<h2 id="添加-Web-安全域名">3.2. 添加 Web 安全域名</h2><p>在<code>Leancloud -&gt; 设置 -&gt; 安全中心 -&gt; Web 安全域名</code> 把你的域名加进去</p>
+<h2 id="3-2-添加-Web-安全域名"><a href="#3-2-添加-Web-安全域名" class="headerlink" title="3.2 添加 Web 安全域名"></a>3.2 添加 Web 安全域名</h2><p>在<code>Leancloud -&gt; 设置 -&gt; 安全中心 -&gt; Web 安全域名</code> 把你的域名加进去</p>
 <p><img src="https://note.youdao.com/yws/api/personal/file/WEB4aa6821dfac551d5d35292e5ca8ca99c?method=download&amp;shareKey=fc27b851294e1ae96be2f23ffa6bc16f" alt="集成valine评论系统13-添加web安全域名"></p>
 <p>最后，<code>hexo g -d</code>命令部署，文章页面底部显示评论文本框。无需登录就可以进行评论，还支持Emoji。</p>
 <p><img src="https://note.youdao.com/yws/api/personal/file/WEBf89e1ca3e0c95cefe25ad2ee596a6601?method=download&amp;shareKey=31250eef4e8502f36519e9eafe097091" alt="集成valine评论系统14-成功"></p>
-<h1 id="评论数据管理">4. 评论数据管理</h1><p>由于Valine 是无后端评论系统，所以也就没有开发评论数据管理功能。请自行登录Leancloud应用管理。</p>
+<h1 id="4-评论数据管理"><a href="#4-评论数据管理" class="headerlink" title="4 评论数据管理"></a>4 评论数据管理</h1><p>由于Valine 是无后端评论系统，所以也就没有开发评论数据管理功能。请自行登录Leancloud应用管理。</p>
 <p>具体步骤：<code>登录 -&gt; 选择你创建的应用 -&gt; 存储 -&gt; 选择Class Comment</code>，就可以看见评论数据了。</p>
 <p><img src="https://note.youdao.com/yws/api/personal/file/WEBfe38a9b4aea8cb63646760bb59b3108e?method=download&amp;shareKey=07d70d15eb122ea3909ff1a86af4cb8b" alt="集成valine评论系统15-查看评论数据"></p>
-<h1 id="致谢">5. 致谢</h1><p><a target="_blank" rel="noopener" href="https://valine.js.org/quickstart.html">valine文档-快速开始</a></p>
+<h1 id="5-致谢"><a href="#5-致谢" class="headerlink" title="5 致谢"></a>5 致谢</h1><p><a target="_blank" rel="noopener" href="https://valine.js.org/quickstart.html">valine文档-快速开始</a></p>
 
                 
             </div>
@@ -1446,7 +1444,7 @@
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">60.7k</span>&nbsp;字
+                class="white-color">64.9k</span>&nbsp;字
             
             
             

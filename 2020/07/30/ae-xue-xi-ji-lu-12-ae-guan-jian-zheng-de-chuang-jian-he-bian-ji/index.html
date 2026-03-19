@@ -29,9 +29,9 @@
 
     <script src="/libs/jquery/jquery.min.js"></script>
 
-<meta name="generator" content="Hexo 6.2.0">
+<meta name="generator" content="Hexo 6.2.0"><link rel="alternate" href="/atom.xml" title="Pamarus" type="application/atom+xml">
+
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
-<link rel="alternate" href="/atom.xml" title="Pamarus" type="application/atom+xml">
 </head>
 
 
@@ -511,7 +511,7 @@
 <p>关键帧被用于大量动画软件中，是记录一个变化动态数值动画的一个关键数值<br>关键帧在有两个以上时，电脑会根据两个关键帧的差值，以及时间的变化运算出当中的过度数值。</p>
 <p>比如做一个从位置0到位置100的动画，过渡时间是10s。我们要设置两个关键帧，第一个是第0s时在位置0，第10s时在位置100。<br>电脑会进行计算，从0s到10s进行一个位移的过渡，从位置0到位置100。这是一个最基础的关键帧动画。</p>
 </blockquote>
-<h1 id="如何创建关键帧">1. 如何创建关键帧</h1><p>图层属性左侧有个<code>秒表</code>图标，这就是创建关键帧的关键所在。</p>
+<h1 id="1-如何创建关键帧"><a href="#1-如何创建关键帧" class="headerlink" title="1 如何创建关键帧"></a>1 如何创建关键帧</h1><p>图层属性左侧有个<code>秒表</code>图标，这就是创建关键帧的关键所在。</p>
 <p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2019/AE%E6%95%99%E7%A8%8B12-01.jpg" alt="AE教程12-01"></p>
 <p>右侧时间指示器定位在哪里，点击<code>秒表</code>图标，就可以在此位置创建一个关键帧。比如在0s位置创建起始关键帧。</p>
 <p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2019/AE%E6%95%99%E7%A8%8B12-02.jpg" alt="AE教程12-02"></p>
@@ -523,9 +523,9 @@
 <blockquote>
 <p>如果时间指示器的位置在关键帧上，则修改属性，是修改关键帧的状态。而不是创建。</p>
 </blockquote>
-<h1 id="加快的方法">2. 加快的方法</h1><p>将两个关键帧之间的间隔变小，缩短时间。</p>
+<h1 id="2-加快的方法"><a href="#2-加快的方法" class="headerlink" title="2 加快的方法"></a>2 加快的方法</h1><p>将两个关键帧之间的间隔变小，缩短时间。</p>
 <p>时间指示器移动到上一关键帧更近的位置，比如调整为1s的长度。选中2s位置的关键帧，移动到1s位置，此时动效加快了。</p>
-<h1 id="删除关键帧">3. 删除关键帧</h1><p>选中关键帧，第一种方法，按<code>delete</code>键即可。</p>
+<h1 id="3-删除关键帧"><a href="#3-删除关键帧" class="headerlink" title="3 删除关键帧"></a>3 删除关键帧</h1><p>选中关键帧，第一种方法，按<code>delete</code>键即可。</p>
 <p>第二种方法，点击图层最左侧中间的蓝色菱形小按钮，即可删除此关键帧。</p>
 <p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2019/AE%E6%95%99%E7%A8%8B12-04.jpg" alt="AE教程12-04"></p>
 <blockquote>
@@ -536,7 +536,7 @@
 </blockquote>
 <p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2019/AE%E6%95%99%E7%A8%8B12-05.jpg" alt="AE教程12-05"></p>
 <p>第三种方法，关闭<code>秒表</code>图标，此时以时间指示器所在位置的图层状态为这个图层在整个时间轴上的状态。</p>
-<h1 id="关键帧辅助">4. 关键帧辅助</h1><h2 id="缓入">4.1. 缓入</h2><p>想让球最后慢停下来，不是始终匀速。</p>
+<h1 id="4-关键帧辅助"><a href="#4-关键帧辅助" class="headerlink" title="4 关键帧辅助"></a>4 关键帧辅助</h1><h2 id="4-1-缓入"><a href="#4-1-缓入" class="headerlink" title="4.1 缓入"></a>4.1 缓入</h2><p>想让球最后慢停下来，不是始终匀速。</p>
 <p>可以使用关键帧辅助的<code>缓入</code>功能。</p>
 <p>选中结束的关键帧，<code>右击 → 关键帧辅助 → 缓入</code>，此时关键帧变成一个向右的小箭头，播放动画，小球结束时有个缓慢停止的效果。</p>
 <p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2019/AE%E6%95%99%E7%A8%8B12-06.jpg" alt="AE教程12-06"></p>
@@ -544,26 +544,26 @@
 <blockquote>
 <p>缓入意思就是到达这个关键帧位置时，慢慢进入。</p>
 </blockquote>
-<h2 id="缓出">4.2. 缓出</h2><p>同样，可以在小球运动的起始帧增加<code>缓出</code>效果。</p>
-<video width="100%" height="100%" controls>
+<h2 id="4-2-缓出"><a href="#4-2-缓出" class="headerlink" title="4.2 缓出"></a>4.2 缓出</h2><p>同样，可以在小球运动的起始帧增加<code>缓出</code>效果。</p>
+<video width="100%" height="100%" controls="">
   <source src="https://github.com/pamarus/Images/blob/master/2019/videos/12-07%E7%BC%93%E5%85%A5%E7%BC%93%E5%87%BA.mp4?raw=true" type="video/mp4">
 </video>
 
 
-<h2 id="缓动">4.3. 缓动</h2><p>既缓入，又缓出</p>
+<h2 id="4-3-缓动"><a href="#4-3-缓动" class="headerlink" title="4.3 缓动"></a>4.3 缓动</h2><p>既缓入，又缓出</p>
 <p>在1s时，添加一个关键帧，将小球的位置高度拉高。</p>
 <p>添加关键帧后，默认是个漏斗形状，这就是缓动，但是和右击添加的<code>缓动</code>不太一样，先回复默认帧，按住<code>command</code>，点击关键帧即可。</p>
 <p>再添加<code>缓动</code>，效果如下。</p>
-<video width="100%" height="100%" controls>
+<video width="100%" height="100%" controls="">
   <source src="https://github.com/pamarus/Images/blob/master/2019/videos/12-07%E7%BC%93%E5%8A%A8.mp4?raw=true" type="video/mp4">
 </video>
 
-<h2 id="取消缓入缓出缓动效果">4.4. 取消缓入缓出缓动效果</h2><p>按住<code>command键</code>+鼠标左键点一下添加了的帧</p>
-<h1 id="动画曲线编辑器">5. 动画曲线编辑器</h1><p>但这样的效果自定义还是不太行，起步结束的效果还是不明显，我想要更自定义的效果，此时需要用到动画曲线编辑器。</p>
-<h2 id="打开曲线编辑器">5.1. 打开曲线编辑器</h2><p>选中图层属性，点击<code>图表编辑器</code>按钮，在右侧就可以打开动画曲线编辑器窗口了。</p>
+<h2 id="4-4-取消缓入缓出缓动效果"><a href="#4-4-取消缓入缓出缓动效果" class="headerlink" title="4.4 取消缓入缓出缓动效果"></a>4.4 取消缓入缓出缓动效果</h2><p>按住<code>command键</code>+鼠标左键点一下添加了的帧</p>
+<h1 id="5-动画曲线编辑器"><a href="#5-动画曲线编辑器" class="headerlink" title="5 动画曲线编辑器"></a>5 动画曲线编辑器</h1><p>但这样的效果自定义还是不太行，起步结束的效果还是不明显，我想要更自定义的效果，此时需要用到动画曲线编辑器。</p>
+<h2 id="5-1-打开曲线编辑器"><a href="#5-1-打开曲线编辑器" class="headerlink" title="5.1 打开曲线编辑器"></a>5.1 打开曲线编辑器</h2><p>选中图层属性，点击<code>图表编辑器</code>按钮，在右侧就可以打开动画曲线编辑器窗口了。</p>
 <p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2019/AE%E6%95%99%E7%A8%8B12-08.jpg" alt="AE教程12-08"></p>
 <p>此时看到一个倒U行的曲线，是<code>时间-速度图表</code>，这个曲线的横坐标表示时间，纵坐标表示速度。其和匀速运动不同，不同时间点运动速度不同。</p>
-<h2 id="切换图表类型">5.2. 切换图表类型</h2><p>点击<code>选择图表类型和选项</code>，选择<code>编辑值图表</code>，可以切换到另一种图表类型，<code>时间距离图表</code>。此时绿色是Y轴，表示合成中图层Y的位置，红线是X轴，表示合成中图层X的位置。</p>
+<h2 id="5-2-切换图表类型"><a href="#5-2-切换图表类型" class="headerlink" title="5.2 切换图表类型"></a>5.2 切换图表类型</h2><p>点击<code>选择图表类型和选项</code>，选择<code>编辑值图表</code>，可以切换到另一种图表类型，<code>时间距离图表</code>。此时绿色是Y轴，表示合成中图层Y的位置，红线是X轴，表示合成中图层X的位置。</p>
 <p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2019/AE%E6%95%99%E7%A8%8B12-09.jpg" alt="AE教程12-09"></p>
 <p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2019/AE%E6%95%99%E7%A8%8B12-10.jpg" alt="AE教程12-10"></p>
 <p>因为图层属性的关键帧之前添加了<code>缓入</code>、<code>缓出</code>，所以曲线的出入点是有一点弯曲的，是一个S形的图形。</p>
@@ -578,7 +578,7 @@
 </blockquote>
 <p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2019/AE%E6%95%99%E7%A8%8B12-14.jpg" alt="AE教程12-14"></p>
 <p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2019/AE%E6%95%99%E7%A8%8B12-15.jpg" alt="AE教程12-15"></p>
-<h2 id="控制速度">5.3. 控制速度</h2><p>切换到<code>时间-速度图表</code>，如果想控制速度，选中关键帧所在位置的锚点，选中后会出现一个<code>黄色手柄</code>，点中拖动可以控制曲线控制曲率。</p>
+<h2 id="5-3-控制速度"><a href="#5-3-控制速度" class="headerlink" title="5.3 控制速度"></a>5.3 控制速度</h2><p>切换到<code>时间-速度图表</code>，如果想控制速度，选中关键帧所在位置的锚点，选中后会出现一个<code>黄色手柄</code>，点中拖动可以控制曲线控制曲率。</p>
 <p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2019/AE%E6%95%99%E7%A8%8B12-16.jpg" alt="AE教程12-16"></p>
 <p>想小球开始时速度更慢，中间快速运动，将手柄往右拖动，改变曲率即可。</p>
 <blockquote>
@@ -1442,7 +1442,7 @@
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">60.7k</span>&nbsp;字
+                class="white-color">64.9k</span>&nbsp;字
             
             
             

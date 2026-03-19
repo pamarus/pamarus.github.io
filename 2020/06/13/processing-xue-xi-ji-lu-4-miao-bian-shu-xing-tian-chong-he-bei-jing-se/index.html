@@ -29,9 +29,9 @@
 
     <script src="/libs/jquery/jquery.min.js"></script>
 
-<meta name="generator" content="Hexo 6.2.0">
+<meta name="generator" content="Hexo 6.2.0"><link rel="alternate" href="/atom.xml" title="Pamarus" type="application/atom+xml">
+
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
-<link rel="alternate" href="/atom.xml" title="Pamarus" type="application/atom+xml">
 </head>
 
 
@@ -504,8 +504,8 @@
 </blockquote>
 <span id="more"></span>
 
-<h1 id="描边函数及类型表">1. 描边函数及类型表</h1><p><img src="https://note.youdao.com/yws/api/personal/file/WEBc7efbf7717ce0867d9fa6f13569e0309?method=download&amp;shareKey=05d5db41bc3beb05a1d67084ba826b90" alt="Processing学习记录（4）-01描边属性函数"></p>
-<h1 id="描边粗细">2. 描边粗细</h1><h2 id="函数及代码">2.1. 函数及代码</h2><p>这个属性在上一节点的绘制时介绍过，如下。</p>
+<h1 id="1-描边函数及类型表"><a href="#1-描边函数及类型表" class="headerlink" title="1 描边函数及类型表"></a>1 描边函数及类型表</h1><p><img src="https://note.youdao.com/yws/api/personal/file/WEBc7efbf7717ce0867d9fa6f13569e0309?method=download&amp;shareKey=05d5db41bc3beb05a1d67084ba826b90" alt="Processing学习记录（4）-01描边属性函数"></p>
+<h1 id="2-描边粗细"><a href="#2-描边粗细" class="headerlink" title="2 描边粗细"></a>2 描边粗细</h1><h2 id="2-1-函数及代码"><a href="#2-1-函数及代码" class="headerlink" title="2.1 函数及代码"></a>2.1 函数及代码</h2><p>这个属性在上一节点的绘制时介绍过，如下。</p>
 <pre class="line-numbers language-jsx" data-language="jsx"><code class="language-jsx"><span class="token function">strokeWeight</span><span class="token punctuation">(</span>x<span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
 <ul>
@@ -523,8 +523,8 @@
 <li>必要时候要设置回原来的值，否则在后面的绘图中，描边属性将一直不变。</li>
 <li>此时看，中心点的圆就很大很明显了。</li>
 </ul>
-<h2 id="效果">2.2. 效果</h2><p><img src="https://note.youdao.com/yws/api/personal/file/WEB854332be3b2debbffa90a3e42e95b5da?method=download&amp;shareKey=ca3ea71efa14cedd6b23cc48f0f386f2" alt="Processing学习记录（3）-03"></p>
-<h2 id="以椭圆为例">2.3. 以椭圆为例</h2><pre class="line-numbers language-jsx" data-language="jsx"><code class="language-jsx"><span class="token keyword">void</span> <span class="token function">setup</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<h2 id="2-2-效果"><a href="#2-2-效果" class="headerlink" title="2.2 效果"></a>2.2 效果</h2><p><img src="https://note.youdao.com/yws/api/personal/file/WEB854332be3b2debbffa90a3e42e95b5da?method=download&amp;shareKey=ca3ea71efa14cedd6b23cc48f0f386f2" alt="Processing学习记录（3）-03"></p>
+<h2 id="2-3-以椭圆为例"><a href="#2-3-以椭圆为例" class="headerlink" title="2.3 以椭圆为例"></a>2.3 以椭圆为例</h2><pre class="line-numbers language-jsx" data-language="jsx"><code class="language-jsx"><span class="token keyword">void</span> <span class="token function">setup</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
   <span class="token function">size</span><span class="token punctuation">(</span><span class="token number">200</span><span class="token punctuation">,</span><span class="token number">200</span><span class="token punctuation">)</span><span class="token punctuation">;</span>        <span class="token comment">// 设置画布大小为200*200  </span>
 <span class="token punctuation">}</span>
 <span class="token keyword">void</span> <span class="token function">draw</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
@@ -533,11 +533,11 @@
 <span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
 <p><img src="https://note.youdao.com/yws/api/personal/file/WEBd48106cc3982c3605ce67c46c3169a86?method=download&amp;shareKey=7e9d59afbd6b0e896e0a5d50f1d35292" alt="Processing学习记录（4）-02描边粗细"></p>
-<h1 id="直线的端点形状">3. 直线的端点形状</h1><h2 id="函数及代码-1">3.1. 函数及代码</h2><pre class="line-numbers language-jsx" data-language="jsx"><code class="language-jsx"><span class="token function">strokeCap</span><span class="token punctuation">(</span>Mode<span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<h1 id="3-直线的端点形状"><a href="#3-直线的端点形状" class="headerlink" title="3 直线的端点形状"></a>3 直线的端点形状</h1><h2 id="3-1-函数及代码"><a href="#3-1-函数及代码" class="headerlink" title="3.1 函数及代码"></a>3.1 函数及代码</h2><pre class="line-numbers language-jsx" data-language="jsx"><code class="language-jsx"><span class="token function">strokeCap</span><span class="token punctuation">(</span>Mode<span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
-<h2 id="三种模式">3.2. 三种模式</h2><p>见下图</p>
+<h2 id="3-2-三种模式"><a href="#3-2-三种模式" class="headerlink" title="3.2 三种模式"></a>3.2 三种模式</h2><p>见下图</p>
 <p><img src="https://note.youdao.com/yws/api/personal/file/WEB649b9994af7d6b14dcc92b156eb44cf5?method=download&amp;shareKey=9f1f84f97239b927df9881c93e226a0d" alt="Processing学习记录（4）-03直线端点三种模式"></p>
-<h2 id="示例及效果">3.3. 示例及效果</h2><pre class="line-numbers language-jsx" data-language="jsx"><code class="language-jsx"><span class="token punctuation">}</span>
+<h2 id="3-3-示例及效果"><a href="#3-3-示例及效果" class="headerlink" title="3.3 示例及效果"></a>3.3 示例及效果</h2><pre class="line-numbers language-jsx" data-language="jsx"><code class="language-jsx"><span class="token punctuation">}</span>
 <span class="token keyword">void</span> <span class="token function">draw</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
   <span class="token function">strokeWeight</span><span class="token punctuation">(</span><span class="token number">10</span><span class="token punctuation">)</span><span class="token punctuation">;</span>       <span class="token comment">// 描边5</span>
   <span class="token function">strokeCap</span><span class="token punctuation">(</span><span class="token constant">ROUND</span><span class="token punctuation">)</span><span class="token punctuation">;</span>       <span class="token comment">// 圆形，大于实际直线长度</span>
@@ -551,10 +551,10 @@
 <span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
 <p><img src="https://note.youdao.com/yws/api/personal/file/WEB7d61f491a295d85ce5d34e3f24199581?method=download&amp;shareKey=df7444cafb63eeb3f8d9f12462bf3f53" alt="Processing学习记录（4）-04上圆大、中方等、下方大"></p>
-<h1 id="描边颜色">4. 描边颜色</h1><h2 id="函数及代码-2">4.1. 函数及代码</h2><pre class="line-numbers language-jsx" data-language="jsx"><code class="language-jsx"><span class="token function">stroke</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<h1 id="4-描边颜色"><a href="#4-描边颜色" class="headerlink" title="4 描边颜色"></a>4 描边颜色</h1><h2 id="4-1-函数及代码"><a href="#4-1-函数及代码" class="headerlink" title="4.1 函数及代码"></a>4.1 函数及代码</h2><pre class="line-numbers language-jsx" data-language="jsx"><code class="language-jsx"><span class="token function">stroke</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
 <p>如果没有定义，默认色是0，黑色。</p>
-<h2 id="示例及效果-1">4.2. 示例及效果</h2><pre class="line-numbers language-jsx" data-language="jsx"><code class="language-jsx"><span class="token keyword">void</span> <span class="token function">setup</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<h2 id="4-2-示例及效果"><a href="#4-2-示例及效果" class="headerlink" title="4.2 示例及效果"></a>4.2 示例及效果</h2><pre class="line-numbers language-jsx" data-language="jsx"><code class="language-jsx"><span class="token keyword">void</span> <span class="token function">setup</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
   <span class="token function">size</span><span class="token punctuation">(</span><span class="token number">200</span><span class="token punctuation">,</span><span class="token number">200</span><span class="token punctuation">)</span><span class="token punctuation">;</span>        <span class="token comment">// 设置画布大小为200*200  </span>
 <span class="token punctuation">}</span>
 <span class="token keyword">void</span> <span class="token function">draw</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
@@ -564,10 +564,10 @@
 <span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
 <p><img src="https://note.youdao.com/yws/api/personal/file/WEB89ad53e824c06b6d0e1c1c7866264a1c?method=download&amp;shareKey=176961271d9f8e2cb9d90aedc3592a52" alt="Processing学习记录（4）-05蓝色描边"></p>
-<h1 id="拐角形状">5. 拐角形状</h1><h2 id="函数及代码-3">5.1. 函数及代码</h2><pre class="line-numbers language-jsx" data-language="jsx"><code class="language-jsx"><span class="token function">strokeJoin</span><span class="token punctuation">(</span>Mode<span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<h1 id="5-拐角形状"><a href="#5-拐角形状" class="headerlink" title="5 拐角形状"></a>5 拐角形状</h1><h2 id="5-1-函数及代码"><a href="#5-1-函数及代码" class="headerlink" title="5.1 函数及代码"></a>5.1 函数及代码</h2><pre class="line-numbers language-jsx" data-language="jsx"><code class="language-jsx"><span class="token function">strokeJoin</span><span class="token punctuation">(</span>Mode<span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
-<h2 id="三种模式-1">5.2. 三种模式</h2><p><img src="https://note.youdao.com/yws/api/personal/file/WEBae84945a413d26baf4c94d0606ca3f40?method=download&amp;shareKey=8a47fa1c5ad91ccb040284dfa7ebc078" alt="Processing学习记录（4）-06拐角三种模式"></p>
-<h2 id="示例及效果-2">5.3. 示例及效果</h2><pre class="line-numbers language-jsx" data-language="jsx"><code class="language-jsx">  <span class="token function">size</span><span class="token punctuation">(</span><span class="token number">800</span><span class="token punctuation">,</span><span class="token number">600</span><span class="token punctuation">)</span><span class="token punctuation">;</span>         <span class="token comment">// 设置画布大小为800*600  </span>
+<h2 id="5-2-三种模式"><a href="#5-2-三种模式" class="headerlink" title="5.2 三种模式"></a>5.2 三种模式</h2><p><img src="https://note.youdao.com/yws/api/personal/file/WEBae84945a413d26baf4c94d0606ca3f40?method=download&amp;shareKey=8a47fa1c5ad91ccb040284dfa7ebc078" alt="Processing学习记录（4）-06拐角三种模式"></p>
+<h2 id="5-3-示例及效果"><a href="#5-3-示例及效果" class="headerlink" title="5.3 示例及效果"></a>5.3 示例及效果</h2><pre class="line-numbers language-jsx" data-language="jsx"><code class="language-jsx">  <span class="token function">size</span><span class="token punctuation">(</span><span class="token number">800</span><span class="token punctuation">,</span><span class="token number">600</span><span class="token punctuation">)</span><span class="token punctuation">;</span>         <span class="token comment">// 设置画布大小为800*600  </span>
 <span class="token punctuation">}</span>
 <span class="token keyword">void</span> <span class="token function">draw</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
   <span class="token function">strokeWeight</span><span class="token punctuation">(</span><span class="token number">10</span><span class="token punctuation">)</span><span class="token punctuation">;</span>       <span class="token comment">// 描边10</span>
@@ -582,8 +582,8 @@
 <span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
 <p><img src="https://note.youdao.com/yws/api/personal/file/WEBbae398ca4c0df081c4d80d662487e615?method=download&amp;shareKey=f4a404edf4bb14c572f92d5f52ae6904" alt="Processing学习记录（4）-07拐角三种模式"></p>
-<h1 id="平滑处理">6. 平滑处理</h1><h2 id="函数及代码-4">6.1. 函数及代码</h2><p>使用<code>smooth()</code>和<code>noSmooth()</code>作描边的平滑处理。<br>与<code>size()</code>类似，使用时一般在<code>setup()</code>中调用一次即可。</p>
-<h2 id="示例及效果-3">6.2. 示例及效果</h2><pre class="line-numbers language-jsx" data-language="jsx"><code class="language-jsx"><span class="token keyword">void</span> <span class="token function">setup</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<h1 id="6-平滑处理"><a href="#6-平滑处理" class="headerlink" title="6 平滑处理"></a>6 平滑处理</h1><h2 id="6-1-函数及代码"><a href="#6-1-函数及代码" class="headerlink" title="6.1 函数及代码"></a>6.1 函数及代码</h2><p>使用<code>smooth()</code>和<code>noSmooth()</code>作描边的平滑处理。<br>与<code>size()</code>类似，使用时一般在<code>setup()</code>中调用一次即可。</p>
+<h2 id="6-2-示例及效果"><a href="#6-2-示例及效果" class="headerlink" title="6.2 示例及效果"></a>6.2 示例及效果</h2><pre class="line-numbers language-jsx" data-language="jsx"><code class="language-jsx"><span class="token keyword">void</span> <span class="token function">setup</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
   <span class="token function">size</span><span class="token punctuation">(</span><span class="token number">800</span><span class="token punctuation">,</span><span class="token number">400</span><span class="token punctuation">)</span><span class="token punctuation">;</span>         <span class="token comment">// 设置画布大小为800*800</span>
   <span class="token function">background</span><span class="token punctuation">(</span>#<span class="token number">000000</span><span class="token punctuation">)</span><span class="token punctuation">;</span>   <span class="token comment">// 背景黑色</span>
   <span class="token function">noStroke</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>            <span class="token comment">// 不显示描边</span>
@@ -606,9 +606,9 @@
 </ul>
 <p><img src="https://note.youdao.com/yws/api/personal/file/WEBc571ecdebd7542936c0c7e0809994bcb?method=download&amp;shareKey=0db24a3a7fb2cbcfefec2ec14c80e58c" alt="Processing学习记录（4）-08描边平滑处理"></p>
 <p><img src="https://note.youdao.com/yws/api/personal/file/WEB6db6afd410ec2edb5538c9c82939d4ea?method=download&amp;shareKey=f3fcbcf5d59373fbaeb035ebe76b20f1" alt="Processing学习记录（4）-09描边不作平滑处理"></p>
-<h1 id="背景色函数">7. 背景色函数</h1><p>函数<code>background()</code>可以设置显示窗口的背景颜色。</p>
+<h1 id="7-背景色函数"><a href="#7-背景色函数" class="headerlink" title="7 背景色函数"></a>7 背景色函数</h1><p>函数<code>background()</code>可以设置显示窗口的背景颜色。</p>
 <p>参数值可设置为0~255。0表示黑色，255表示白色，二者之间是各种灰度值。如果没有定义，默认背景色是204浅灰色。</p>
-<h1 id="填充色函数">8. 填充色函数</h1><p>函数<code>fill()</code>可以设置填充色。如果没有定义，默认填充色是255，即白色。</p>
+<h1 id="8-填充色函数"><a href="#8-填充色函数" class="headerlink" title="8 填充色函数"></a>8 填充色函数</h1><p>函数<code>fill()</code>可以设置填充色。如果没有定义，默认填充色是255，即白色。</p>
 <pre class="line-numbers language-jsx" data-language="jsx"><code class="language-jsx"><span class="token keyword">void</span> <span class="token function">setup</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
   <span class="token function">size</span><span class="token punctuation">(</span><span class="token number">200</span><span class="token punctuation">,</span><span class="token number">200</span><span class="token punctuation">)</span><span class="token punctuation">;</span>        <span class="token comment">// 设置画布大小为200*200</span>
   <span class="token function">background</span><span class="token punctuation">(</span><span class="token number">235</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
@@ -1177,30 +1177,31 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2020/06/11/hexo-bo-ke-da-jian-8-ti-huan-shi-yong-matery-zhu-ti-ji-xiang-xi-pei-zhi/">
+                <a href="/2020/06/13/ban-gong-ruan-jian-shi-yong-ji-qiao/">
                     <div class="card-image">
                         
-                        <img src="/medias/featureimages/Hexo.png" class="responsive-img" alt="Hexo博客搭建（8）：替换使用matery主题及详细配置">
                         
-                        <span class="card-title">Hexo博客搭建（8）：替换使用matery主题及详细配置</span>
+                        <img src="/medias/featureimages/11.jpg" class="responsive-img" alt="办公软件使用技巧">
+                        
+                        <span class="card-title">办公软件使用技巧</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Hexo博客的matery主题设置
+                            
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-06-11
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-06-13
                             </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Hexo%E5%8D%9A%E5%AE%A2/" class="post-category">
-                                    Hexo博客
+                            <a href="/categories/%E8%AE%BE%E8%AE%A1%E8%BD%AF%E4%BB%B6/" class="post-category">
+                                    设计软件
                                 </a>
                             
                             
@@ -1210,20 +1211,8 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Hexo-Blog/">
-                        <span class="chip bg-color">Hexo_Blog</span>
-                    </a>
-                    
-                    <a href="/tags/GitHub/">
-                        <span class="chip bg-color">GitHub</span>
-                    </a>
-                    
-                    <a href="/tags/%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/">
-                        <span class="chip bg-color">博客教程</span>
-                    </a>
-                    
-                    <a href="/tags/matery/">
-                        <span class="chip bg-color">matery</span>
+                    <a href="/tags/Mac/">
+                        <span class="chip bg-color">Mac</span>
                     </a>
                     
                 </div>
@@ -1470,7 +1459,7 @@
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">60.7k</span>&nbsp;字
+                class="white-color">64.9k</span>&nbsp;字
             
             
             

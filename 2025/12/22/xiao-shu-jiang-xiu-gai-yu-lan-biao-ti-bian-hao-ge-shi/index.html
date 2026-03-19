@@ -29,9 +29,9 @@
 
     <script src="/libs/jquery/jquery.min.js"></script>
 
-<meta name="generator" content="Hexo 6.2.0">
+<meta name="generator" content="Hexo 6.2.0"><link rel="alternate" href="/atom.xml" title="Pamarus" type="application/atom+xml">
+
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
-<link rel="alternate" href="/atom.xml" title="Pamarus" type="application/atom+xml">
 </head>
 
 
@@ -507,11 +507,11 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="开启方法">1. 开启方法</h1><p>在&nbsp;<code>左上角小书匠主按钮 &gt; 设置 &gt; 预览</code>&nbsp;里，勾选&nbsp;<code>是否自动对文章标题编号</code>&nbsp;功能，系统就会对每篇文章正文里的标题进行自动编号。或者也可以通过每篇文章的元数据<code>renderNumberedHeading</code>，把<code>标题编号</code>功能打开。</p>
-<h1 id="如何修改标题编号规则">2. 如何修改标题编号规则</h1><h2 id="在哪设置">2.1. 在哪设置</h2><ul>
+                <h1 id="1-开启方法"><a href="#1-开启方法" class="headerlink" title="1 开启方法"></a>1 开启方法</h1><p>在&nbsp;<code>左上角小书匠主按钮 &gt; 设置 &gt; 预览</code>&nbsp;里，勾选&nbsp;<code>是否自动对文章标题编号</code>&nbsp;功能，系统就会对每篇文章正文里的标题进行自动编号。或者也可以通过每篇文章的元数据<code>renderNumberedHeading</code>，把<code>标题编号</code>功能打开。</p>
+<h1 id="2-如何修改标题编号规则"><a href="#2-如何修改标题编号规则" class="headerlink" title="2 如何修改标题编号规则"></a>2 如何修改标题编号规则</h1><h2 id="2-1-在哪设置"><a href="#2-1-在哪设置" class="headerlink" title="2.1 在哪设置"></a>2.1 在哪设置</h2><ul>
 <li>可以在&nbsp;<code>左上角小书匠主按钮 &gt; 设置 &gt; 预览</code>&nbsp;里，对一号标题到七号标题进行规则设置。</li>
 </ul>
-<h2 id="规则介绍">2.2. 规则介绍</h2><ul>
+<h2 id="2-2-规则介绍"><a href="#2-2-规则介绍" class="headerlink" title="2.2 规则介绍"></a>2.2 规则介绍</h2><ul>
 <li><p><code>counter(hx, str, format);</code>&nbsp;该命令用来显示一个通过计数器生成的字符串，需要提供三个参数</p>
 <ol>
 <li><code>hx</code>&nbsp;表示要使用哪个计数器，计数器范围只能是&nbsp;<code>h1,h2,h3,h4,h5,h6,h7</code>&nbsp;中的一个</li>
@@ -522,12 +522,12 @@
 <li><p>支持多级嵌套，比如&nbsp;<code>counter('h2');counter('h3');counter('h4', '%s. ');</code>，需要注意的是，如果&nbsp;<code>h2</code>&nbsp;没有内容，就会直接不显示。</p>
 </li>
 </ul>
-<h2 id="示例">2.3. 示例</h2><p><code>counter('h1', '%s、', 'simp-chinese-informal');</code>表示大写数字<code>一、</code>。</p>
+<h2 id="2-3-示例"><a href="#2-3-示例" class="headerlink" title="2.3 示例"></a>2.3 示例</h2><p><code>counter('h1', '%s、', 'simp-chinese-informal');</code>表示大写数字<code>一、</code>。</p>
 <p><code>counter('h2', '%s');</code>表示<code>1-</code>。<code>'%s'</code>为空时，默认显示<code>-</code>，<code>format</code>为空时，默认显示数字。</p>
 <p><code>counter('h2', '%s ');</code>表示为<code>1 </code>。注意<code>'%s '</code>显示为空格。</p>
 <p><code>counter('h2', '%s.');</code>表示<code>1.</code>。</p>
 <p>嵌套格式：<br><code>counter('h2','%s.');counter('h3', '%s ');</code>表示<code>1.1 </code>。</p>
-<h1 id="修改">3. 修改</h1><ul>
+<h1 id="3-修改"><a href="#3-修改" class="headerlink" title="3 修改"></a>3 修改</h1><ul>
 <li>小书匠默认的标号格式如下：</li>
 </ul>
 <p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2025/%E5%B0%8F%E4%B9%A6%E5%8C%A0%E4%BF%AE%E6%94%B9%E9%A2%84%E8%A7%88%E6%A0%87%E9%A2%98%E7%BC%96%E5%8F%B7%E6%A0%BC%E5%BC%8F01.jpg" alt="小书匠修改预览标题编号格式01"><br><img src="https://raw.githubusercontent.com/pamarus/Images/master/2025/%E5%B0%8F%E4%B9%A6%E5%8C%A0%E4%BF%AE%E6%94%B9%E9%A2%84%E8%A7%88%E6%A0%87%E9%A2%98%E7%BC%96%E5%8F%B7%E6%A0%BC%E5%BC%8F02.jpg" alt="小书匠修改预览标题编号格式02"></p>
@@ -536,7 +536,7 @@
 </ul>
 <p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2025/%E5%B0%8F%E4%B9%A6%E5%8C%A0%E4%BF%AE%E6%94%B9%E9%A2%84%E8%A7%88%E6%A0%87%E9%A2%98%E7%BC%96%E5%8F%B7%E6%A0%BC%E5%BC%8F03.png" alt="小书匠修改预览标题编号格式03"></p>
 <p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2025/%E5%B0%8F%E4%B9%A6%E5%8C%A0%E4%BF%AE%E6%94%B9%E9%A2%84%E8%A7%88%E6%A0%87%E9%A2%98%E7%BC%96%E5%8F%B7%E6%A0%BC%E5%BC%8F04.jpg" alt="小书匠修改预览标题编号格式04"></p>
-<h1 id="致谢">4. 致谢</h1><p><a target="_blank" rel="noopener" href="https://soft.xiaoshujiang.com/blog/numbered_heading/">官方文章——2018-10-10 正文标题编号</a></p>
+<h1 id="4-致谢"><a href="#4-致谢" class="headerlink" title="4 致谢"></a>4 致谢</h1><p><a target="_blank" rel="noopener" href="https://soft.xiaoshujiang.com/blog/numbered_heading/">官方文章——2018-10-10 正文标题编号</a></p>
 
                 
             </div>
@@ -1047,18 +1047,18 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2026/03/16/wei-ming-ming/">
+                <a href="/2026/03/16/obsidian-zhi-shi-ku-tong-guo-github-piclist-jsdelivr-chuang-jian-shi-yong-mian-fei-jia-su-tu-chuang/">
                     <div class="card-image">
                         
-                        <img src="/medias/featureimages/Hexo.png" class="responsive-img" alt="为曼联">
+                        <img src="/medias/featureimages/GitHub.png" class="responsive-img" alt="Obsidian知识库：通过 GitHub + PicList + jsDelivr 创建使用免费加速图床">
                         
-                        <span class="card-title">为曼联</span>
+                        <span class="card-title">Obsidian知识库：通过 GitHub + PicList + jsDelivr 创建使用免费加速图床</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            换新电脑后如何迁移博客
+                            Obsidian知识库：通过 GitHub + PicList + jsDelivr 方式在Obsidian中配置使用免费加速图床
                         
                     </div>
                     <div class="publish-info">
@@ -1069,8 +1069,8 @@
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Hexo%E5%8D%9A%E5%AE%A2/" class="post-category">
-                                    Hexo博客
+                            <a href="/categories/%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/" class="post-category">
+                                    博客教程
                                 </a>
                             
                             
@@ -1080,16 +1080,24 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Hexo-Blog/">
-                        <span class="chip bg-color">Hexo_Blog</span>
-                    </a>
-                    
                     <a href="/tags/GitHub/">
                         <span class="chip bg-color">GitHub</span>
                     </a>
                     
                     <a href="/tags/%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/">
                         <span class="chip bg-color">博客教程</span>
+                    </a>
+                    
+                    <a href="/tags/PicList/">
+                        <span class="chip bg-color">PicList</span>
+                    </a>
+                    
+                    <a href="/tags/jsDelivr/">
+                        <span class="chip bg-color">jsDelivr</span>
+                    </a>
+                    
+                    <a href="/tags/Obsidian/">
+                        <span class="chip bg-color">Obsidian</span>
                     </a>
                     
                 </div>
@@ -1392,7 +1400,7 @@
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">60.7k</span>&nbsp;字
+                class="white-color">64.9k</span>&nbsp;字
             
             
             

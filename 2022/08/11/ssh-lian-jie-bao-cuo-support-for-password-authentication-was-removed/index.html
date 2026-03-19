@@ -29,9 +29,9 @@
 
     <script src="/libs/jquery/jquery.min.js"></script>
 
-<meta name="generator" content="Hexo 6.2.0">
+<meta name="generator" content="Hexo 6.2.0"><link rel="alternate" href="/atom.xml" title="Pamarus" type="application/atom+xml">
+
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
-<link rel="alternate" href="/atom.xml" title="Pamarus" type="application/atom+xml">
 </head>
 
 
@@ -511,18 +511,18 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="问题">1. 问题</h1><p><code>Hexo -d</code>部署的时候报错如下。</p>
+                <h1 id="1-问题"><a href="#1-问题" class="headerlink" title="1 问题"></a>1 问题</h1><p><code>Hexo -d</code>部署的时候报错如下。</p>
 <pre class="line-numbers language-java" data-language="java"><code class="language-java">remote<span class="token operator">:</span> <span class="token class-name">Support</span> <span class="token keyword">for</span> password authentication was removed on <span class="token class-name">August</span> <span class="token number">13</span><span class="token punctuation">,</span> <span class="token number">2021.</span> <span class="token class-name">Please</span> use a personal access token instead<span class="token punctuation">.</span>
 remote<span class="token operator">:</span> <span class="token class-name">Please</span> see https<span class="token operator">:</span><span class="token operator">/</span><span class="token operator">/</span>github<span class="token punctuation">.</span>blog<span class="token operator">/</span><span class="token number">2020</span><span class="token operator">-</span><span class="token number">12</span><span class="token operator">-</span><span class="token number">15</span><span class="token operator">-</span>token<span class="token operator">-</span>authentication<span class="token operator">-</span>requirements<span class="token operator">-</span><span class="token keyword">for</span><span class="token operator">-</span>git<span class="token operator">-</span>operations<span class="token operator">/</span> <span class="token keyword">for</span> more information<span class="token punctuation">.</span>
 fatal<span class="token operator">:</span> unable <span class="token keyword">to</span> <span class="token namespace">access</span> 'https<span class="token operator">:</span><span class="token operator">/</span><span class="token operator">/</span>github<span class="token punctuation">.</span>com<span class="token comment">/***/</span><span class="token operator">*</span><span class="token operator">*</span><span class="token operator">*</span><span class="token punctuation">.</span>git<span class="token operator">/</span>'<span class="token operator">:</span> <span class="token class-name">The</span> requested <span class="token constant">URL</span> returned error<span class="token operator">:</span> <span class="token number">403</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
 
 <p>大概意思是：对密码身份验证的支持已于2021年8月13日移除。请改用个人访问令牌（personal access token）。<br>请参阅<a target="_blank" rel="noopener" href="https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/">https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/</a> 了解更多信息。</p>
-<h1 id="官方说明">2. 官方说明</h1><p>上面网站有官方说明和解决方法。</p>
+<h1 id="2-官方说明"><a href="#2-官方说明" class="headerlink" title="2 官方说明"></a>2 官方说明</h1><p>上面网站有官方说明和解决方法。</p>
 <blockquote>
 <p>近年来，GitHub客户受益于GitHub.com的多项安全增强功能，例如双重身份验证、登录警报、验证设备、防止使用泄露的密码以及WebAuthn支持。这些功能使攻击者更难获取在多个网站上重复使用的密码并使用它来尝试访问您的GitHub帐户。尽管有这些改进，但由于历史原因，未启用双因素身份验证的客户仍然能够仅使用其 GitHub 用户名和密码继续对 Git 和 API 操作进行身份验证。</p>
 <p>从2021年8月13日开始，我们在对Git操作进行身份验证时将<code>不再接受帐户密码</code>，并将要求<code>使用基于令牌的身份验证</code>，例如<code>个人访问令牌</code>（针对开发人员）或适用于GitHub.com上所有经过身份验证的Git操作的OAuth或GitHub应用程序安装令牌（针对集成商）。您也可以在您喜欢的地方继续使用<code>SSH密钥</code>。</p>
 </blockquote>
-<h1 id="使用SSH-Key进行部署验证">3. 使用SSH Key进行部署验证</h1><p>参考之前的博客搭建文章，<a href="https://pamarus.github.io/2020/05/04/hexo-bo-ke-da-jian-1-mac-duan-shi-yong-hexo-github-pages-da-jian-mian-fei-ge-ren-bo-ke/#toc-heading-17">Hexo博客搭建（1）：Mac端使用Hexo+GitHub Pages搭建免费个人博客</a></p>
+<h1 id="3-使用SSH-Key进行部署验证"><a href="#3-使用SSH-Key进行部署验证" class="headerlink" title="3 使用SSH Key进行部署验证"></a>3 使用SSH Key进行部署验证</h1><p>参考之前的博客搭建文章，<a href="https://pamarus.github.io/2020/05/04/hexo-bo-ke-da-jian-1-mac-duan-shi-yong-hexo-github-pages-da-jian-mian-fei-ge-ren-bo-ke/#toc-heading-17">Hexo博客搭建（1）：Mac端使用Hexo+GitHub Pages搭建免费个人博客</a></p>
 <p>根据教程，生成<code>SSH Key</code>，并在GitHub上添加<code>SSH Key</code>，修改<code>博客配置文件</code>中的<code>deploy</code>节点即可。</p>
 <p>将</p>
 <pre class="line-numbers language-java" data-language="java"><code class="language-java">deploy<span class="token operator">:</span>
@@ -537,8 +537,8 @@ fatal<span class="token operator">:</span> unable <span class="token keyword">to
   branch<span class="token operator">:</span> master<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
 
 <p>因为<code>https</code>方式适用于用户名密码验证，而<code>git</code>的部署方式适用于<code>SSH Key</code>验证。</p>
-<h1 id="使用personal-access-token">4. 使用personal access token</h1><h2 id="创建token">4.1. 创建token</h2><p>参考历史文章<a href="https://pamarus.github.io/2020/05/04/xiao-shu-jiang-md-bian-ji-qi-pei-zhi-github-tu-chuang/#toc-heading-2">小书匠MD编辑器配置GitHub图床</a>，创建个人访问令牌。</p>
-<h2 id="修改deploy节点">4.2. 修改deploy节点</h2><pre class="line-numbers language-java" data-language="java"><code class="language-java">deploy<span class="token operator">:</span>
+<h1 id="4-使用personal-access-token"><a href="#4-使用personal-access-token" class="headerlink" title="4 使用personal access token"></a>4 使用personal access token</h1><h2 id="4-1-创建token"><a href="#4-1-创建token" class="headerlink" title="4.1 创建token"></a>4.1 创建token</h2><p>参考历史文章<a href="https://pamarus.github.io/2020/05/04/xiao-shu-jiang-md-bian-ji-qi-pei-zhi-github-tu-chuang/#toc-heading-2">小书匠MD编辑器配置GitHub图床</a>，创建个人访问令牌。</p>
+<h2 id="4-2-修改deploy节点"><a href="#4-2-修改deploy节点" class="headerlink" title="4.2 修改deploy节点"></a>4.2 修改<code>deploy</code>节点</h2><pre class="line-numbers language-java" data-language="java"><code class="language-java">deploy<span class="token operator">:</span>
   type<span class="token operator">:</span> <span class="token char">'git'</span>
   repository<span class="token operator">:</span> https<span class="token operator">:</span><span class="token operator">/</span><span class="token operator">/</span>your_token<span class="token annotation punctuation">@github.com</span><span class="token operator">/</span>用户名<span class="token operator">/</span>仓库名<span class="token punctuation">.</span>git
   branch<span class="token operator">:</span> master<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
@@ -1090,10 +1090,6 @@ fatal<span class="token operator">:</span> unable <span class="token keyword">to
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E9%BB%98%E8%AE%A4%E9%80%9A%E4%BF%A1%E5%8D%8F%E8%AE%AE/">
-                        <span class="chip bg-color">默认通信协议</span>
-                    </a>
-                    
                     <a href="/tags/SSH%E6%8A%A5%E9%94%99/">
                         <span class="chip bg-color">SSH报错</span>
                     </a>
@@ -1113,18 +1109,18 @@ fatal<span class="token operator">:</span> unable <span class="token keyword">to
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2022/08/08/an-an-cheng-chang-ri-ji-2022-nian-08-yue/">
+                <a href="/2022/08/08/an-an-cheng-chang-ji-lu-2022-nian-08-yue/">
                     <div class="card-image">
                         
-                        <img src="/medias/featureimages/%E5%B0%81%E9%9D%A2-%E5%AE%89%E5%AE%892022-08.jpg" class="responsive-img" alt="安安成长日记-2022年08月">
+                        <img src="/medias/featureimages/%E5%B0%81%E9%9D%A2-%E5%AE%89%E5%AE%892022-08.jpg" class="responsive-img" alt="安安成长记录-2022年08月">
                         
-                        <span class="card-title">安安成长日记-2022年08月</span>
+                        <span class="card-title">安安成长记录-2022年08月</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            这儿有东西被加密了，点击看看😵
+                            记忆每一个成长的瞬间。
                         
                     </div>
                     <div class="publish-info">
@@ -1398,7 +1394,7 @@ fatal<span class="token operator">:</span> unable <span class="token keyword">to
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">60.7k</span>&nbsp;字
+                class="white-color">64.9k</span>&nbsp;字
             
             
             

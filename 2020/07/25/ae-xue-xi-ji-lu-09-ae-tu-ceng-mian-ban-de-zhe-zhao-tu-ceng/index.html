@@ -29,9 +29,9 @@
 
     <script src="/libs/jquery/jquery.min.js"></script>
 
-<meta name="generator" content="Hexo 6.2.0">
+<meta name="generator" content="Hexo 6.2.0"><link rel="alternate" href="/atom.xml" title="Pamarus" type="application/atom+xml">
+
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
-<link rel="alternate" href="/atom.xml" title="Pamarus" type="application/atom+xml">
 </head>
 
 
@@ -520,7 +520,7 @@
 <blockquote>
 <p>如果图层上方没有图层，<code>TrkMat（轨道遮罩）</code>出是不可点击不可选择的状态，只有上方有图层时才可以制作遮罩效果，以上方图层的轮廓显示下方图层内容。</p>
 </blockquote>
-<h1 id="Alpha-遮罩">1. Alpha 遮罩</h1><p>Alpha通道规定哪些是透明的，哪些是不透明的。有些图片看似透明的，但没有Alpha通道。只有遮罩图层有Alpha通道，这种遮罩方式才可以起作用。</p>
+<h1 id="1-Alpha-遮罩"><a href="#1-Alpha-遮罩" class="headerlink" title="1 Alpha 遮罩"></a>1 Alpha 遮罩</h1><p>Alpha通道规定哪些是透明的，哪些是不透明的。有些图片看似透明的，但没有Alpha通道。只有遮罩图层有Alpha通道，这种遮罩方式才可以起作用。</p>
 <blockquote>
 <p>以上方图层<code>樱花</code>的Alpha通道显示下方内容，同时关闭上方图层<code>樱花</code>。</p>
 </blockquote>
@@ -528,7 +528,7 @@
 <blockquote>
 <p>为什么关闭上方图层，因为上方图层本身有填充颜色，如果未关闭，会遮住下方内容。</p>
 </blockquote>
-<h1 id="Alpha-反转遮罩">2. Alpha 反转遮罩</h1><p>以Alpha通道以外的区域显示内容，则<code>樱花</code>Alpha通道区域显示为透明的。</p>
+<h1 id="2-Alpha-反转遮罩"><a href="#2-Alpha-反转遮罩" class="headerlink" title="2 Alpha 反转遮罩"></a>2 Alpha 反转遮罩</h1><p>以Alpha通道以外的区域显示内容，则<code>樱花</code>Alpha通道区域显示为透明的。</p>
 <p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2019/AE%E6%95%99%E7%A8%8B09-04.jpg" alt="AE教程09-04"></p>
 <p>此时可以在下方显示其他内容，比如下方的树荫。如下图所示。</p>
 <p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2019/AE%E6%95%99%E7%A8%8B09-05.jpg" alt="AE教程09-05"></p>
@@ -537,7 +537,7 @@
 <p>也可以添加渐变色等，更加好看。</p>
 <p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2019/AE%E6%95%99%E7%A8%8B09-07.jpg" alt="AE教程09-07"></p>
 <p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2019/AE%E6%95%99%E7%A8%8B09-08.jpg" alt="AE教程09-08"></p>
-<h1 id="亮度遮罩">3. 亮度遮罩</h1><p>以图层的黑白亮度生成遮罩效果，黑色地方就是透明的，白色就是不透明，其他颜色不同的灰度，显示为相应的不透明度。</p>
+<h1 id="3-亮度遮罩"><a href="#3-亮度遮罩" class="headerlink" title="3 亮度遮罩"></a>3 亮度遮罩</h1><p>以图层的黑白亮度生成遮罩效果，黑色地方就是透明的，白色就是不透明，其他颜色不同的灰度，显示为相应的不透明度。</p>
 <p>如果<code>樱花</code>文字颜色是白色的，则显示100%不透明度的内容。</p>
 <p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2019/AE%E6%95%99%E7%A8%8B09-10.jpg" alt="AE教程09-10"></p>
 <p>如果<code>樱花</code>文字颜色是纯黑色的，则显示0%不透明度的内容，即显示为空白。</p>
@@ -546,13 +546,13 @@
 <p>使用黑白滴墨视频制作晕开消失的效果。</p>
 <p>黑白滴墨视频放在视频上方，下方樱花视频选择<code>亮度遮罩</code>，则生成晕开消失的效果。</p>
 <p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2019/AE%E6%95%99%E7%A8%8B09-11.jpg" alt="AE教程09-11"></p>
-<video width="100%" height="100%" controls>
+<video width="100%" height="100%" controls="">
   <source src="https://github.com/pamarus/Images/blob/master/2019/videos/09-11%E9%81%AE%E7%BD%A9%E5%9B%BE%E5%B1%82-%E4%BA%AE%E5%BA%A6%E9%81%AE%E7%BD%A9.mp4?raw=true" type="video/mp4">
 </video>
 
 
-<h1 id="亮度反转遮罩">4. 亮度反转遮罩</h1><p>和亮度遮罩的效果相反。</p>
-<h1 id="T">5. T</h1><p>T：保留基础透明度</p>
+<h1 id="4-亮度反转遮罩"><a href="#4-亮度反转遮罩" class="headerlink" title="4 亮度反转遮罩"></a>4 亮度反转遮罩</h1><p>和亮度遮罩的效果相反。</p>
+<h1 id="5-T"><a href="#5-T" class="headerlink" title="5 T"></a>5 T</h1><p>T：保留基础透明度</p>
 <p>举例说明，创建几个形状图层，以这些图层作为Alpha通道制作遮罩效果。</p>
 <blockquote>
 <p>AE创建的图层自带Alpha通道，图形是什么样子，Alpha通道就是什么样子的。</p>
@@ -1422,7 +1422,7 @@
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">60.7k</span>&nbsp;字
+                class="white-color">64.9k</span>&nbsp;字
             
             
             

@@ -29,9 +29,9 @@
 
     <script src="/libs/jquery/jquery.min.js"></script>
 
-<meta name="generator" content="Hexo 6.2.0">
+<meta name="generator" content="Hexo 6.2.0"><link rel="alternate" href="/atom.xml" title="Pamarus" type="application/atom+xml">
+
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
-<link rel="alternate" href="/atom.xml" title="Pamarus" type="application/atom+xml">
 </head>
 
 
@@ -510,12 +510,12 @@
                 <ul>
 <li>本篇主要介绍<code>Stable Diffusion Web UI（SD WebUI）</code>的基础使用以及常用参数解释调整。</li>
 </ul>
-<h1 id="默认地址">1. 默认地址</h1><p>SD WebUI的默认地址为<a target="_blank" rel="noopener" href="http://127.0.0.1:7860/">127.0.0.1:7860</a></p>
+<h1 id="1-默认地址"><a href="#1-默认地址" class="headerlink" title="1 默认地址"></a>1 默认地址</h1><p>SD WebUI的默认地址为<a target="_blank" rel="noopener" href="http://127.0.0.1:7860/">127.0.0.1:7860</a></p>
 <blockquote>
 <p>项目日常更新频繁，请定期<code>git pull</code>更新</p>
 </blockquote>
-<h1 id="汉化">2. 汉化</h1><p>目前有中文界面了，使用下面的方法安装简体中文翻译扩展进行汉化，有三种下载安装方法。</p>
-<h2 id="通过官方扩展列表安装">2.1. 通过官方扩展列表安装</h2><p>在<code>Extension</code>选项卡里面通过加载<code>官方插件列表</code>直接安装。</p>
+<h1 id="2-汉化"><a href="#2-汉化" class="headerlink" title="2 汉化"></a>2 汉化</h1><p>目前有中文界面了，使用下面的方法安装简体中文翻译扩展进行汉化，有三种下载安装方法。</p>
+<h2 id="2-1-通过官方扩展列表安装"><a href="#2-1-通过官方扩展列表安装" class="headerlink" title="2.1 通过官方扩展列表安装"></a>2.1 通过官方扩展列表安装</h2><p>在<code>Extension</code>选项卡里面通过加载<code>官方插件列表</code>直接安装。</p>
 <ul>
 <li><p>点击<code>Extension</code>选项卡，点击<code>Avaliable</code>子选项卡，</p>
 </li>
@@ -527,7 +527,7 @@
 <li>页面拉到下方，找到<code>zh_CN Localization</code>这一项，点击右侧<code>install</code>按钮安装</li>
 </ul>
 <p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2023/AI%E7%BB%98%E7%94%BB%EF%BC%882%EF%BC%89-02.jpg" alt="AI绘画（2）-02"></p>
-<h2 id="通过网址安装">2.2. 通过网址安装</h2><ul>
+<h2 id="2-2-通过网址安装"><a href="#2-2-通过网址安装" class="headerlink" title="2.2 通过网址安装"></a>2.2 通过网址安装</h2><ul>
 <li><p>点击<code>Extension</code>选项卡，点击<code>Install from URL</code>子选项卡</p>
 </li>
 <li><p>复制以下git仓库网址并粘贴进<code>URL栏</code>，点击<code>Install</code></p>
@@ -536,7 +536,7 @@
 <pre class="line-numbers language-java" data-language="java"><code class="language-java">https<span class="token operator">:</span><span class="token operator">/</span><span class="token operator">/</span>github<span class="token punctuation">.</span>com<span class="token operator">/</span>dtlnor<span class="token operator">/</span>stable<span class="token operator">-</span>diffusion<span class="token operator">-</span>webui<span class="token operator">-</span>localization<span class="token operator">-</span>zh_CN<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
 <p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2023/AI%E7%BB%98%E7%94%BB%EF%BC%882%EF%BC%89-03.jpg" alt="AI绘画（2）-03"></p>
-<h2 id="直接下载然后放在对应路径">2.3. 直接下载然后放在对应路径</h2><ul>
+<h2 id="2-3-直接下载然后放在对应路径"><a href="#2-3-直接下载然后放在对应路径" class="headerlink" title="2.3 直接下载然后放在对应路径"></a>2.3 直接下载然后放在对应路径</h2><ul>
 <li><p>浏览器打开<a target="_blank" rel="noopener" href="https://github.com/dtlnor/stable-diffusion-webui-localization-zh_CN">stable diffusion webui简体中文翻译扩展git仓库</a></p>
 </li>
 <li><p>下载<code>git仓库</code>为<code>zip档案</code>。点击右侧下拉Code，点击<code>Download ZIP</code>。</p>
@@ -547,7 +547,7 @@
 <li>解压，并把文件夹放置在根目录<code>stable-diffusion-webui</code>下的<code>extensions</code>文件夹中，放好之后应该会如下图</li>
 </ul>
 <p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2023/AI%E7%BB%98%E7%94%BB%EF%BC%882%EF%BC%89-05.jpg" alt="AI绘画（2）-05"></p>
-<h2 id="设置应用">2.4. 设置应用</h2><p>下载完成之后，确保扩展已经正确安装加载</p>
+<h2 id="2-4-设置应用"><a href="#2-4-设置应用" class="headerlink" title="2.4 设置应用"></a>2.4 设置应用</h2><p>下载完成之后，确保扩展已经正确安装加载</p>
 <ul>
 <li>在<code>Extensions</code>选项卡，点击<code>Installed</code>子选项卡，确定已勾选本扩展️；如未勾选，勾选后点击左上角<code>Apply and restart UI</code>橙色按钮启用本扩展。</li>
 </ul>
@@ -567,7 +567,7 @@
 <p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2023/AI%E7%BB%98%E7%94%BB%EF%BC%882%EF%BC%89-09.jpg" alt="AI绘画（2）-09"></p>
 <p>此时页面汉化设置生效。界面如下。</p>
 <p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2023/AI%E7%BB%98%E7%94%BB%EF%BC%882%EF%BC%89-10.jpg" alt="AI绘画（2）-10"></p>
-<h1 id="生成第一张AI作图">3. 生成第一张AI作图</h1><ul>
+<h1 id="3-生成第一张AI作图"><a href="#3-生成第一张AI作图" class="headerlink" title="3 生成第一张AI作图"></a>3 生成第一张AI作图</h1><ul>
 <li>页面左侧选择要使用的模型。</li>
 </ul>
 <p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2023/AI%E7%BB%98%E7%94%BB%EF%BC%882%EF%BC%89-11.jpg" alt="AI绘画（2）-11"></p>
@@ -591,8 +591,8 @@
 <p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2023/AI%E7%BB%98%E7%94%BB%EF%BC%882%EF%BC%89-13.jpg" alt="AI绘画（2）-13"></p>
 <p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2023/AI%E7%BB%98%E7%94%BB%EF%BC%882%EF%BC%89-14.jpg" alt="AI绘画（2）-14"></p>
 <p>会发现手有点变形，或者脸部不匀称等问题。这需要使用其他的模型，或者使用插件等。</p>
-<h1 id="常用参数介绍">4. 常用参数介绍</h1><p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2023/AI%E7%BB%98%E7%94%BB%EF%BC%882%EF%BC%89-15.jpg" alt="AI绘画（2）-15"></p>
-<h2 id="Samplers-采样器">4.1. Samplers 采样器</h2><p>AI推演的算法。</p>
+<h1 id="4-常用参数介绍"><a href="#4-常用参数介绍" class="headerlink" title="4 常用参数介绍"></a>4 常用参数介绍</h1><p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2023/AI%E7%BB%98%E7%94%BB%EF%BC%882%EF%BC%89-15.jpg" alt="AI绘画（2）-15"></p>
+<h2 id="4-1-Samplers-采样器"><a href="#4-1-Samplers-采样器" class="headerlink" title="4.1 Samplers 采样器"></a>4.1 Samplers 采样器</h2><p>AI推演的算法。</p>
 <p>目前好用的有<code>Euler</code>，<code>Euler a（更细腻）</code>，和 <code>DDIM</code>。</p>
 <p>推荐 <code>Euler a</code> 和 <code>DDIM</code>，新手推荐使用 <code>Euler a</code></p>
 <p><code>Euler a</code> 富有创造力，不同步数可以生产出不同的图片。调太高步数 (&gt;30)效果不会更好。</p>
@@ -601,7 +601,7 @@
 <p><code>PLMS</code> 是一种有效的 LMS（经典方法），可以更好地处理神经网络结构中的奇异性</p>
 <p><code>DPM2</code> 是一种神奇的方法，它旨在改进 DDIM，减少步骤以获得良好的结果。它需要每一步运行两次去噪，它的速度大约是 DDIM 的两倍。但是如果你在进行调试提示词的实验，这个采样器效果不怎么样</p>
 <p><code>Euler</code> 是最简单的，因此也是最快的之一</p>
-<h2 id="Sampling-steps-迭代步数">4.2. Sampling steps 迭代步数</h2><p>AI绘画的原理就是，先随机出一个噪声图片，然后一步步的调整图片，向你的<code>提示词Prompt</code>靠拢，<code>Sampling Steps</code>就是告诉AI，这样的步骤应该进行多少次。</p>
+<h2 id="4-2-Sampling-steps-迭代步数"><a href="#4-2-Sampling-steps-迭代步数" class="headerlink" title="4.2 Sampling steps 迭代步数"></a>4.2 Sampling steps 迭代步数</h2><p>AI绘画的原理就是，先随机出一个噪声图片，然后一步步的调整图片，向你的<code>提示词Prompt</code>靠拢，<code>Sampling Steps</code>就是告诉AI，这样的步骤应该进行多少次。</p>
 <p>默认是20，步骤越多，每一步移动也就越小越精确,可能会有更好的生成效果，更多细节和锐化，同时也成比例增加生成图像所需要的时间。而在实际应用中，30 步和 50 步之间的差异几乎无法区分。</p>
 <p>太多的迭代步数也可能适得其反，几乎不会有提高。</p>
 <p>进行图生图的时候，正常情况下更弱的降噪强度需要更少的迭代步数(这是工作原理决定的)。你可以在设置里更改设置，让程序确切执行滑块指定的迭代步数。</p>
@@ -609,26 +609,26 @@
 <p>不同 Step 和 采样器 的不同效果示例：</p>
 <p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2023/AI%E7%BB%98%E7%94%BB%EF%BC%882%EF%BC%89-17.webp" alt="AI绘画（2）-17"></p>
 <p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2023/AI%E7%BB%98%E7%94%BB%EF%BC%882%EF%BC%89-18.webp" alt="AI绘画（2）-18"></p>
-<h2 id="注意尺寸">4.3. 注意尺寸</h2><p>出图尺寸太宽时，图中可能会出现多个主体。</p>
+<h2 id="4-3-注意尺寸"><a href="#4-3-注意尺寸" class="headerlink" title="4.3 注意尺寸"></a>4.3 注意尺寸</h2><p>出图尺寸太宽时，图中可能会出现多个主体。</p>
 <p>要匹配好姿势，镜头和人物才不畸形，有时候需要限定量词，多人物时要处理空间关系和 prompt 遮挡优先级。人数-&gt;人物样貌-&gt;环境样式-&gt;人物状态</p>
 <p>1024 之上的尺寸可能会出现不理想的结果！推荐使用 <code>小尺寸分辨率 + 高清修复</code></p>
-<h2 id="扩展选项">4.4. 扩展选项</h2><h3 id="Highres-fix-高清修复选项">4.4.1. Highres. fix 高清修复选项</h3><p>通过勾选 <code>txt2img（文生图）</code>页面上的 <code>Highres. fix</code> 复选框来启用。</p>
+<h2 id="4-4-扩展选项"><a href="#4-4-扩展选项" class="headerlink" title="4.4 扩展选项"></a>4.4 扩展选项</h2><h3 id="4-4-1-Highres-fix-高清修复选项"><a href="#4-4-1-Highres-fix-高清修复选项" class="headerlink" title="4.4.1 Highres. fix 高清修复选项"></a>4.4.1 Highres. fix 高清修复选项</h3><p>通过勾选 <code>txt2img（文生图）</code>页面上的 <code>Highres. fix</code> 复选框来启用。</p>
 <p>默认情况下，<code>txt2img（文生图）</code>在高分辨率下会生成非常混沌的图像。该选项会使得模型首先生成一张小图片，然后通过 <code>img2img</code> 将图片分辨率扩大，以实现高清大图效果。</p>
 <p><img src="https://raw.githubusercontent.com/pamarus/Images/master/2023/AI%E7%BB%98%E7%94%BB%EF%BC%882%EF%BC%89-16.jpg" alt="AI绘画（2）-16"></p>
 <p>其他两个扩展选项，一般不需要勾选。</p>
-<h3 id="Restore-faces-面部修复">4.4.2. Restore faces 面部修复</h3><p>勾选后可以生成更真实的脸，第一次勾选使用时，需要先下载几个G的运行库。</p>
-<h3 id="Tiling-可平铺">4.4.3. Tiling 可平铺</h3><p>让图片可以平铺（类似瓷砖，生成的图案左右上下都可以无缝衔接上自己）</p>
-<h2 id="CFG-Scale-提示词相关性">4.5. CFG Scale 提示词相关性</h2><p><code>cfg scale</code>是图像与提示词的契合度，该值越高，提示词对最终生成结果的影响越大，契合度越高，但也会有越少的创意。越低，AI就越放飞自我，随心所欲的画。</p>
+<h3 id="4-4-2-Restore-faces-面部修复"><a href="#4-4-2-Restore-faces-面部修复" class="headerlink" title="4.4.2 Restore faces 面部修复"></a>4.4.2 Restore faces 面部修复</h3><p>勾选后可以生成更真实的脸，第一次勾选使用时，需要先下载几个G的运行库。</p>
+<h3 id="4-4-3-Tiling-可平铺"><a href="#4-4-3-Tiling-可平铺" class="headerlink" title="4.4.3 Tiling 可平铺"></a>4.4.3 Tiling 可平铺</h3><p>让图片可以平铺（类似瓷砖，生成的图案左右上下都可以无缝衔接上自己）</p>
+<h2 id="4-5-CFG-Scale-提示词相关性"><a href="#4-5-CFG-Scale-提示词相关性" class="headerlink" title="4.5 CFG Scale 提示词相关性"></a>4.5 CFG Scale 提示词相关性</h2><p><code>cfg scale</code>是图像与提示词的契合度，该值越高，提示词对最终生成结果的影响越大，契合度越高，但也会有越少的创意。越低，AI就越放飞自我，随心所欲的画。</p>
 <p>一般默认的<code>7</code>就可以。</p>
-<h2 id="Batch-Count-与-Batch-Size-生成批次和每批数量">4.6. Batch Count 与 Batch Size 生成批次和每批数量</h2><p><code>Batch Count（生成批次）</code> 指定共生成几个批次。<br><code>Batch Size（每批数量）</code>指定每个批次并行生产多少张图片。</p>
+<h2 id="4-6-Batch-Count-与-Batch-Size-生成批次和每批数量"><a href="#4-6-Batch-Count-与-Batch-Size-生成批次和每批数量" class="headerlink" title="4.6 Batch Count 与 Batch Size 生成批次和每批数量"></a>4.6 Batch Count 与 Batch Size 生成批次和每批数量</h2><p><code>Batch Count（生成批次）</code> 指定共生成几个批次。<br><code>Batch Size（每批数量）</code>指定每个批次并行生产多少张图片。</p>
 <p>比如：<code>Batch count</code>设置为4,用时<code>N分钟*4</code>，生成4张图；<code>Batch count</code>设置为4,用时N分钟，生成4张图，但是同时需要的显存也是4倍。512X512大概需要3.75GB显存，4倍就是15GB显存了。</p>
 <p>大的 <code>Batch Size</code> 需要消耗巨量显存。若您的显卡没有超过 12G 的显存，请不要调节 <code>Batch Size</code>。</p>
 <p>而对于显存极大的显卡而言，一次生成一张图片无法充分利用显卡计算容量，此时可将 <code>Batch Size</code> 提高以充分压榨算力。</p>
-<h2 id="随机种子-seed">4.7. 随机种子 seed</h2><p>AI作画从原理上其实就是用一个随机的噪声图，反推回图像。但因为计算机里也没有真随机嘛，所以实际上，AI作画的起始噪声，是可以量化为一个种子数的。</p>
-<h2 id="Denoising-strength-降噪强度">4.8. Denoising strength 降噪强度</h2><p><code>Denoising strength</code> 仅在 <code>img2img（图生图）</code>或 <code>高清修复</code>时被应用，其表征最后生成图片对原始输入图像内容的变化程度。通过调整该值，可以降低对画风的影响，但也会弱化 img2img 能力。值越高 AI 对原图的参考程度就越低 (同时增加迭代次数)。</p>
+<h2 id="4-7-随机种子-seed"><a href="#4-7-随机种子-seed" class="headerlink" title="4.7 随机种子 seed"></a>4.7 随机种子 seed</h2><p>AI作画从原理上其实就是用一个随机的噪声图，反推回图像。但因为计算机里也没有真随机嘛，所以实际上，AI作画的起始噪声，是可以量化为一个种子数的。</p>
+<h2 id="4-8-Denoising-strength-降噪强度"><a href="#4-8-Denoising-strength-降噪强度" class="headerlink" title="4.8 Denoising strength 降噪强度"></a>4.8 Denoising strength 降噪强度</h2><p><code>Denoising strength</code> 仅在 <code>img2img（图生图）</code>或 <code>高清修复</code>时被应用，其表征最后生成图片对原始输入图像内容的变化程度。通过调整该值，可以降低对画风的影响，但也会弱化 img2img 能力。值越高 AI 对原图的参考程度就越低 (同时增加迭代次数)。</p>
 <p>对于图生图来说，低 denoising 意味着修正原图，高 denoising 就和原图就没有大的相关性了。一般来讲阈值是 0.7 左右，超过 0.7 和原图基本上无关，0.3 以下就是稍微改一些。</p>
 <p>实际执行中，具体的执行步骤为 Denoising strength * Sampling Steps。</p>
-<h1 id="致谢">5. 致谢</h1><p><a target="_blank" rel="noopener" href="https://github.com/dtlnor/stable-diffusion-webui-localization-zh_CN">stable-diffusion-webui-localization-zh_CN 简体中文翻译扩展-GitHub</a></p>
+<h1 id="5-致谢"><a href="#5-致谢" class="headerlink" title="5 致谢"></a>5 致谢</h1><p><a target="_blank" rel="noopener" href="https://github.com/dtlnor/stable-diffusion-webui-localization-zh_CN">stable-diffusion-webui-localization-zh_CN 简体中文翻译扩展-GitHub</a></p>
 <p><a target="_blank" rel="noopener" href="https://guide.novelai.dev/guide/configuration/param-basic">AiDraw-Ai绘画Wiki</a></p>
 <p><a target="_blank" rel="noopener" href="http://wolf.wjiangnan.com/tag/">NovelAI tag生成器 V2.1</a></p>
 
@@ -1482,7 +1482,7 @@
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">60.7k</span>&nbsp;字
+                class="white-color">64.9k</span>&nbsp;字
             
             
             

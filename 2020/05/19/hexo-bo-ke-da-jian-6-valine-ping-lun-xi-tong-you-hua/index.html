@@ -29,9 +29,9 @@
 
     <script src="/libs/jquery/jquery.min.js"></script>
 
-<meta name="generator" content="Hexo 6.2.0">
+<meta name="generator" content="Hexo 6.2.0"><link rel="alternate" href="/atom.xml" title="Pamarus" type="application/atom+xml">
+
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
-<link rel="alternate" href="/atom.xml" title="Pamarus" type="application/atom+xml">
 </head>
 
 
@@ -511,11 +511,11 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="统计数字小标题处如何显示中文“评论数”，而不是valine">1. 统计数字小标题处如何显示中文“评论数”，而不是valine</h1><h2 id="实际显示">1.1. 实际显示</h2><p><img src="https://note.youdao.com/yws/api/personal/file/WEB3b996455ac5c265079968bad9976363c?method=download&amp;shareKey=f1c1268ed9850b1d749444a60a44f579" alt="Valine评论系统优化01-问题1"></p>
+                <h1 id="1-统计数字小标题处如何显示中文“评论数”，而不是valine"><a href="#1-统计数字小标题处如何显示中文“评论数”，而不是valine" class="headerlink" title="1 统计数字小标题处如何显示中文“评论数”，而不是valine"></a>1 统计数字小标题处如何显示中文“评论数”，而不是valine</h1><h2 id="1-1-实际显示"><a href="#1-1-实际显示" class="headerlink" title="1.1 实际显示"></a>1.1 实际显示</h2><p><img src="https://note.youdao.com/yws/api/personal/file/WEB3b996455ac5c265079968bad9976363c?method=download&amp;shareKey=f1c1268ed9850b1d749444a60a44f579" alt="Valine评论系统优化01-问题1"></p>
 <p>这是默认行为。因为NexT允许同时开启多个评论系统（例如同时启用valine和gitalk），这时显示「评论数」文字会造成混乱。</p>
-<h2 id="期望效果">1.2. 期望效果</h2><pre class="line-numbers language-java" data-language="java"><code class="language-java">发表于 <span class="token number">2020</span><span class="token operator">-</span><span class="token number">05</span><span class="token operator">-</span><span class="token number">18</span>   分类于 博客教程  评论数： <span class="token number">1</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<h2 id="1-2-期望效果"><a href="#1-2-期望效果" class="headerlink" title="1.2 期望效果"></a>1.2 期望效果</h2><pre class="line-numbers language-java" data-language="java"><code class="language-java">发表于 <span class="token number">2020</span><span class="token operator">-</span><span class="token number">05</span><span class="token operator">-</span><span class="token number">18</span>   分类于 博客教程  评论数： <span class="token number">1</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
-<h2 id="解决">1.3. 解决</h2><p>打开<code>themes -&gt; next -&gt; languages -&gt; zh-CN.yml</code></p>
+<h2 id="1-3-解决"><a href="#1-3-解决" class="headerlink" title="1.3 解决"></a>1.3 解决</h2><p>打开<code>themes -&gt; next -&gt; languages -&gt; zh-CN.yml</code></p>
 <p>在<code>post:</code>标签下添加:</p>
 <p><code>comments.valine: 评论数</code> (显示的汉字自定义，最好和其他评论系统有所区分）</p>
 <pre class="line-numbers language-jsx" data-language="jsx"><code class="language-jsx"><span class="token literal-property property">post</span><span class="token operator">:</span>
@@ -523,11 +523,11 @@
   <span class="token literal-property property">posted</span><span class="token operator">:</span> 发表于
   <span class="token literal-property property">edited</span><span class="token operator">:</span> 更新于<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
 
-<h2 id="结果">1.4. 结果</h2><p><img src="https://note.youdao.com/yws/api/personal/file/WEBa0fefcc9aa92878ca7ab17d0796b57e6?method=download&amp;shareKey=dd1e44e4adbb215f9356341de13ccae8" alt="Valine评论系统优化02-问题1"></p>
+<h2 id="1-4-结果"><a href="#1-4-结果" class="headerlink" title="1.4 结果"></a>1.4 结果</h2><p><img src="https://note.youdao.com/yws/api/personal/file/WEBa0fefcc9aa92878ca7ab17d0796b57e6?method=download&amp;shareKey=dd1e44e4adbb215f9356341de13ccae8" alt="Valine评论系统优化02-问题1"></p>
 <p>如 <a href="https://pamarus.github.io/">此博客：https://pamarus.github.io/</a> 所示，正常显示中文<code>评论数</code>。</p>
-<h1 id="如何隐藏浏览器版本和操作系统版本">2. 如何隐藏浏览器版本和操作系统版本</h1><h2 id="问题">2.1. 问题</h2><p>评论数据的用户名右侧显示了浏览器版本和操作系统版本，我认为这是多余的，目标是隐藏不显示</p>
+<h1 id="2-如何隐藏浏览器版本和操作系统版本"><a href="#2-如何隐藏浏览器版本和操作系统版本" class="headerlink" title="2 如何隐藏浏览器版本和操作系统版本"></a>2 如何隐藏浏览器版本和操作系统版本</h1><h2 id="2-1-问题"><a href="#2-1-问题" class="headerlink" title="2.1 问题"></a>2.1 问题</h2><p>评论数据的用户名右侧显示了浏览器版本和操作系统版本，我认为这是多余的，目标是隐藏不显示</p>
 <p><img src="https://note.youdao.com/yws/api/personal/file/WEBb22656d0d4b4690d44c84e2b28ede09f?method=download&amp;shareKey=ff417dc7dae09cbf22df70a73060fb6e" alt="Valine评论系统优化03-问题2"></p>
-<h2 id="解决-1">2.2. 解决</h2><ul>
+<h2 id="2-2-解决"><a href="#2-2-解决" class="headerlink" title="2.2 解决"></a>2.2 解决</h2><ul>
 <li>进入theme目录下面的<code>source/css</code>文件夹，新建一个文件 <code>custom.styl</code>，如下图</li>
 </ul>
 <p><img src="https://note.youdao.com/yws/api/personal/file/WEBaa711a3298e6500776c458e9c02d74f6?method=download&amp;shareKey=34e8e12d2e130862919282a9f2f061fe" alt="Valine评论系统优化04-问题2"></p>
@@ -548,9 +548,9 @@
 <ul>
 <li>hexo g -d部署完成</li>
 </ul>
-<h2 id="最终效果">2.3. 最终效果</h2><p><img src="https://note.youdao.com/yws/api/personal/file/WEBc43fd7509fd84a851fd8b1133e2191dd?method=download&amp;shareKey=491bd2439059d3941df87e0c5aff30c4" alt="Valine评论系统优化05-问题2"></p>
-<h1 id="分类、标签、关于页关闭评论功能">3. 分类、标签、关于页关闭评论功能</h1><h2 id="需求">3.1. 需求</h2><p>在NexT主题中，Valine配置之后，默认所有页面都开启评论功能。在部分页面不想或不需要显示评论功能。那么如何隐藏呢？</p>
-<h2 id="设置">3.2. 设置</h2><p>在 分类、标签、关于页面的本地md文件中，添加comments属性，属性值设置为true或false，来控制打开或关闭该页面的评论功能。</p>
+<h2 id="2-3-最终效果"><a href="#2-3-最终效果" class="headerlink" title="2.3 最终效果"></a>2.3 最终效果</h2><p><img src="https://note.youdao.com/yws/api/personal/file/WEBc43fd7509fd84a851fd8b1133e2191dd?method=download&amp;shareKey=491bd2439059d3941df87e0c5aff30c4" alt="Valine评论系统优化05-问题2"></p>
+<h1 id="3-分类、标签、关于页关闭评论功能"><a href="#3-分类、标签、关于页关闭评论功能" class="headerlink" title="3 分类、标签、关于页关闭评论功能"></a>3 分类、标签、关于页关闭评论功能</h1><h2 id="3-1-需求"><a href="#3-1-需求" class="headerlink" title="3.1 需求"></a>3.1 需求</h2><p>在NexT主题中，Valine配置之后，默认所有页面都开启评论功能。在部分页面不想或不需要显示评论功能。那么如何隐藏呢？</p>
+<h2 id="3-2-设置"><a href="#3-2-设置" class="headerlink" title="3.2 设置"></a>3.2 设置</h2><p>在 分类、标签、关于页面的本地md文件中，添加comments属性，属性值设置为true或false，来控制打开或关闭该页面的评论功能。</p>
 <p>比如分类页，这样设置：</p>
 <pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token operator">--</span><span class="token operator">-</span>
 <span class="token literal-property property">title</span><span class="token operator">:</span> 分类
@@ -560,7 +560,7 @@
 <span class="token operator">--</span><span class="token operator">-</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
 <p>标签页和关于页等同理。</p>
-<h1 id="致谢">4. 致谢</h1><p><a target="_blank" rel="noopener" href="https://blog.csdn.net/a1059526327/article/details/104266761">hexo博客next主题使用valine评论标题部分无法显示中文评论数</a></p>
+<h1 id="4-致谢"><a href="#4-致谢" class="headerlink" title="4 致谢"></a>4 致谢</h1><p><a target="_blank" rel="noopener" href="https://blog.csdn.net/a1059526327/article/details/104266761">hexo博客next主题使用valine评论标题部分无法显示中文评论数</a></p>
 <p><a target="_blank" rel="noopener" href="https://github.com/theme-next/hexo-theme-next/issues/1267">使用 valine 不显示“评论数“文字 #1267</a></p>
 <p><a target="_blank" rel="noopener" href="https://hjxlog.com/posts/20191203a1.html">hexo-Next主题valine评论系统不显示浏览器版本和操作系统版本</a></p>
 
@@ -1418,7 +1418,7 @@
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">60.7k</span>&nbsp;字
+                class="white-color">64.9k</span>&nbsp;字
             
             
             

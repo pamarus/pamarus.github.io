@@ -29,9 +29,9 @@
 
     <script src="/libs/jquery/jquery.min.js"></script>
 
-<meta name="generator" content="Hexo 6.2.0">
+<meta name="generator" content="Hexo 6.2.0"><link rel="alternate" href="/atom.xml" title="Pamarus" type="application/atom+xml">
+
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
-<link rel="alternate" href="/atom.xml" title="Pamarus" type="application/atom+xml">
 </head>
 
 
@@ -446,8 +446,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/%E7%9F%A5%E8%AF%86%E7%A2%8E%E7%89%87/" class="post-category">
-                                知识碎片
+                            <a href="/categories/Hexo%E5%8D%9A%E5%AE%A2/" class="post-category">
+                                Hexo博客
                             </a>
                         
                     </div>
@@ -504,30 +504,30 @@
         <div class="card-content article-card-content">
             <div id="articleContent">
                 <p>在使用 Git 前，需要正确配置环境变量，以确保命令行能够识别 Git 命令。以下是详细的配置步骤：</p>
-<h1 id="确认-Git-已正确安装">1. 确认 Git 已正确安装</h1><ul>
+<h1 id="1-确认-Git-已正确安装"><a href="#1-确认-Git-已正确安装" class="headerlink" title="1 确认 Git 已正确安装"></a>1 确认 Git 已正确安装</h1><ul>
 <li>按下&nbsp;_Win + R_，输入&nbsp;<em>cmd</em>&nbsp;打开命令行工具，输入以下命令检查安装是否成功。</li>
 </ul>
 <pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript">git <span class="token operator">--</span>version<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
 <p><img src="https://github.com/pamarus/Images/blob/master/2025/%E5%A6%82%E4%BD%95%E6%8A%8A%20Git%20%E9%85%8D%E7%BD%AE%E5%88%B0%E7%B3%BB%E7%BB%9F%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F01.png?raw=true" alt="如何把 Git 配置到系统环境变量01"></p>
-<h1 id="获取-Git-安装路径">2. 获取 Git 安装路径</h1><ul>
+<h1 id="2-获取-Git-安装路径"><a href="#2-获取-Git-安装路径" class="headerlink" title="2 获取 Git 安装路径"></a>2 获取 Git 安装路径</h1><ul>
 <li>输入以下命令获取 Git 的安装路径，并复制路径。</li>
 </ul>
 <pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript">where git<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
 <p><img src="https://github.com/pamarus/Images/blob/master/2025/%E5%A6%82%E4%BD%95%E6%8A%8A%20Git%20%E9%85%8D%E7%BD%AE%E5%88%B0%E7%B3%BB%E7%BB%9F%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F02.png?raw=true" alt="如何把 Git 配置到系统环境变量02"></p>
-<h1 id="配置环境变量">3. 配置环境变量</h1><h2 id="打开环境变量设置界面">3.1. 打开环境变量设置界面</h2><p>右键<code>此电脑</code>，选择<code>属性</code>。 点击<code>高级系统设置</code>，然后点击<code>环境变量</code>按钮。</p>
+<h1 id="3-配置环境变量"><a href="#3-配置环境变量" class="headerlink" title="3 配置环境变量"></a>3 配置环境变量</h1><h2 id="3-1-打开环境变量设置界面"><a href="#3-1-打开环境变量设置界面" class="headerlink" title="3.1 打开环境变量设置界面"></a>3.1 打开环境变量设置界面</h2><p>右键<code>此电脑</code>，选择<code>属性</code>。 点击<code>高级系统设置</code>，然后点击<code>环境变量</code>按钮。</p>
 <p><img src="https://github.com/pamarus/Images/blob/master/2025/%E5%A6%82%E4%BD%95%E6%8A%8A%20Git%20%E9%85%8D%E7%BD%AE%E5%88%B0%E7%B3%BB%E7%BB%9F%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F03.png?raw=true" alt="如何把 Git 配置到系统环境变量03"></p>
 <p><img src="https://github.com/pamarus/Images/blob/master/2025/%E5%A6%82%E4%BD%95%E6%8A%8A%20Git%20%E9%85%8D%E7%BD%AE%E5%88%B0%E7%B3%BB%E7%BB%9F%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F04.png?raw=true" alt="如何把 Git 配置到系统环境变量04"></p>
-<h2 id="编辑-Path-系统变量">3.2. 编辑 Path 系统变量</h2><p>在<code>系统变量</code>中找到<code>Path</code>，双击或者点击<code>编辑</code>。 点击<code>新建</code>，粘贴刚刚复制的 Git 安装路径（如 D:\Program Files\Git\bin），不需要&nbsp;<code>git.exe</code>，如图，然后一直点击<code>确定</code>即可。</p>
+<h2 id="3-2-编辑-Path-系统变量"><a href="#3-2-编辑-Path-系统变量" class="headerlink" title="3.2 编辑 Path 系统变量"></a>3.2 编辑 Path 系统变量</h2><p>在<code>系统变量</code>中找到<code>Path</code>，双击或者点击<code>编辑</code>。 点击<code>新建</code>，粘贴刚刚复制的 Git 安装路径（如 D:\Program Files\Git\bin），不需要&nbsp;<code>git.exe</code>，如图，然后一直点击<code>确定</code>即可。</p>
 <p><img src="https://github.com/pamarus/Images/blob/master/2025/%E5%A6%82%E4%BD%95%E6%8A%8A%20Git%20%E9%85%8D%E7%BD%AE%E5%88%B0%E7%B3%BB%E7%BB%9F%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F05.png?raw=true" alt="如何把 Git 配置到系统环境变量05"></p>
-<h1 id="验证配置是否成功">4. 验证配置是否成功</h1><ul>
+<h1 id="4-验证配置是否成功"><a href="#4-验证配置是否成功" class="headerlink" title="4 验证配置是否成功"></a>4 验证配置是否成功</h1><ul>
 <li>再次打开命令提示符，输入以下命令，弹出以下界面，说明安装配置成功。</li>
 </ul>
 <pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript">git<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
 <p><img src="https://github.com/pamarus/Images/blob/master/2025/%E5%A6%82%E4%BD%95%E6%8A%8A%20Git%20%E9%85%8D%E7%BD%AE%E5%88%B0%E7%B3%BB%E7%BB%9F%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F06.png?raw=true" alt="如何把 Git 配置到系统环境变量06"></p>
-<h1 id="配置全局用户名和邮箱">5. 配置全局用户名和邮箱</h1><ul>
+<h1 id="5-配置全局用户名和邮箱"><a href="#5-配置全局用户名和邮箱" class="headerlink" title="5 配置全局用户名和邮箱"></a>5 配置全局用户名和邮箱</h1><ul>
 <li>配置用户名和邮箱是提交代码时的必要步骤。</li>
 </ul>
 <pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript">git config <span class="token operator">--</span>global user<span class="token punctuation">.</span>name <span class="token string">"你的用户名"</span>
@@ -540,7 +540,7 @@ git config <span class="token operator">--</span>global user<span class="token p
 <pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript">git config <span class="token operator">--</span>global <span class="token operator">--</span>list<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
 <p><img src="https://github.com/pamarus/Images/blob/master/2025/%E5%A6%82%E4%BD%95%E6%8A%8A%20Git%20%E9%85%8D%E7%BD%AE%E5%88%B0%E7%B3%BB%E7%BB%9F%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F07.png?raw=truee" alt="如何把 Git 配置到系统环境变量07"></p>
-<h1 id="注意事项">6. 注意事项</h1><ul>
+<h1 id="6-注意事项"><a href="#6-注意事项" class="headerlink" title="6 注意事项"></a>6 注意事项</h1><ul>
 <li><p>确保路径中没有中文或空格，以避免不必要的问题。</p>
 </li>
 <li><p>如果使用 SourceTree 等工具，可能已自带 Git，无需重复安装。</p>
@@ -548,7 +548,7 @@ git config <span class="token operator">--</span>global user<span class="token p
 <li><p>完成以上步骤后，Git 环境变量已成功配置，可以正常使用！</p>
 </li>
 </ul>
-<h1 id="致谢">7. 致谢</h1><p><a target="_blank" rel="noopener" href="https://www.cnblogs.com/qingmuchuanqi48/articles/12052289.html">git之Windows10下Git环境变量配置</a></p>
+<h1 id="7-致谢"><a href="#7-致谢" class="headerlink" title="7 致谢"></a>7 致谢</h1><p><a target="_blank" rel="noopener" href="https://www.cnblogs.com/qingmuchuanqi48/articles/12052289.html">git之Windows10下Git环境变量配置</a></p>
 <p><a target="_blank" rel="noopener" href="https://blog.csdn.net/weixin_45811256/article/details/130925392">Git的安装和环境变量的配置</a></p>
 
                 
@@ -1134,8 +1134,8 @@ git config <span class="token operator">--</span>global user<span class="token p
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/%E7%9F%A5%E8%AF%86%E7%A2%8E%E7%89%87/" class="post-category">
-                                    知识碎片
+                            <a href="/categories/Hexo%E5%8D%9A%E5%AE%A2/" class="post-category">
+                                    Hexo博客
                                 </a>
                             
                             
@@ -1147,10 +1147,6 @@ git config <span class="token operator">--</span>global user<span class="token p
                     
                     <a href="/tags/Git/">
                         <span class="chip bg-color">Git</span>
-                    </a>
-                    
-                    <a href="/tags/Git-Bash/">
-                        <span class="chip bg-color">Git Bash</span>
                     </a>
                     
                 </div>
@@ -1397,7 +1393,7 @@ git config <span class="token operator">--</span>global user<span class="token p
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">60.7k</span>&nbsp;字
+                class="white-color">64.9k</span>&nbsp;字
             
             
             

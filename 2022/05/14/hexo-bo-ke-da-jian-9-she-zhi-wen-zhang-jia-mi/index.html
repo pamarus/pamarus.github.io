@@ -29,9 +29,9 @@
 
     <script src="/libs/jquery/jquery.min.js"></script>
 
-<meta name="generator" content="Hexo 6.2.0">
+<meta name="generator" content="Hexo 6.2.0"><link rel="alternate" href="/atom.xml" title="Pamarus" type="application/atom+xml">
+
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
-<link rel="alternate" href="/atom.xml" title="Pamarus" type="application/atom+xml">
 </head>
 
 
@@ -510,7 +510,7 @@
                 <p>计划写宝宝成长日记，希望其他人不能浏览，通过密码验证的方式查看。而Hexo编写的md文章发布生成的静态页面默认是公开不加密的，所有人多可以访问，所以这就需要对博客文章进行加密，有两种方法，其一，通过matery主题中自带的<code>verifyPassword</code>配置项实现；其二，使用插件<code>hexo-blog-encrypt</code>。</p>
 <span id="more"></span>
 
-<h1 id="matery主题中的verifyPassword配置项">1. matery主题中的verifyPassword配置项</h1><p>第一步：在matery主题文件夹中的<code>config.yml</code>文件 中找到<code>verifyPassword</code>配置项，默认是<code>false</code>，设置为<code>true</code>进行激活。</p>
+<h1 id="1-matery主题中的verifyPassword配置项"><a href="#1-matery主题中的verifyPassword配置项" class="headerlink" title="1 matery主题中的verifyPassword配置项"></a>1 matery主题中的<code>verifyPassword</code>配置项</h1><p>第一步：在matery主题文件夹中的<code>config.yml</code>文件 中找到<code>verifyPassword</code>配置项，默认是<code>false</code>，设置为<code>true</code>进行激活。</p>
 <pre class="line-numbers language-jsx" data-language="jsx"><code class="language-jsx"><span class="token literal-property property">verifyPassword</span><span class="token operator">:</span>
   <span class="token literal-property property">enable</span><span class="token operator">:</span> <span class="token boolean">false</span>
   <span class="token literal-property property">promptMessage</span><span class="token operator">:</span> 请输入访问本文章的密码
@@ -537,7 +537,7 @@
 <ul>
 <li>但是这种方式并不安全，别人查看md文件可以看见密码，可以被解密，特别是较短位数的数字串很容易被解密。所以一定要将密码设置得复杂一点。</li>
 </ul>
-<h1 id="插件hexo-blog-encrypt">2. 插件hexo-blog-encrypt</h1><p>主题自带的<code>verifyPassword</code>配置项已能满足基本需求，使用插件功能更加丰富。</p>
+<h1 id="2-插件hexo-blog-encrypt"><a href="#2-插件hexo-blog-encrypt" class="headerlink" title="2 插件hexo-blog-encrypt"></a>2 插件<code>hexo-blog-encrypt</code></h1><p>主题自带的<code>verifyPassword</code>配置项已能满足基本需求，使用插件功能更加丰富。</p>
 <ul>
 <li>1.安装插件</li>
 </ul>
@@ -559,7 +559,7 @@
 <blockquote>
 <p>不过这种密码是明文放在md文件中的，不安全。</p>
 </blockquote>
-<h1 id="encrypt插件的更多功能">3. encrypt插件的更多功能</h1><h2 id="自定义密码输入界面的提示语">3.1. 自定义密码输入界面的提示语</h2><p>两种方式：<br>（1）在博客根目录配置文件中添加配置项和<code>message</code>属性</p>
+<h1 id="3-encrypt插件的更多功能"><a href="#3-encrypt插件的更多功能" class="headerlink" title="3 encrypt插件的更多功能"></a>3 encrypt插件的更多功能</h1><h2 id="3-1-自定义密码输入界面的提示语"><a href="#3-1-自定义密码输入界面的提示语" class="headerlink" title="3.1 自定义密码输入界面的提示语"></a>3.1 自定义密码输入界面的提示语</h2><p>两种方式：<br>（1）在博客根目录配置文件中添加配置项和<code>message</code>属性</p>
 <pre class="line-numbers language-jsx" data-language="jsx"><code class="language-jsx"># 文章加密
 # hexo<span class="token operator">-</span>blog<span class="token operator">-</span>encrypt
 # https<span class="token operator">:</span><span class="token operator">/</span><span class="token operator">/</span>github<span class="token punctuation">.</span>com<span class="token operator">/</span>D0n9X1n<span class="token operator">/</span>hexo<span class="token operator">-</span>blog<span class="token operator">-</span>encrypt
@@ -580,7 +580,7 @@
 <blockquote>
 <p>此种方法，每篇文章可以配置不同的提示语。<br>优先级高于<code>config.yml</code>配置，所以想配置不一样的提示文案，每篇文章单独添加<code>message</code>属性即可。</p>
 </blockquote>
-<h2 id="自定义文章摘要">3.2. 自定义文章摘要</h2><p>默认的文章摘要是一串数字串，可以通在配置文件中过添加<code>abstract</code>属性修改。</p>
+<h2 id="3-2-自定义文章摘要"><a href="#3-2-自定义文章摘要" class="headerlink" title="3.2 自定义文章摘要"></a>3.2 自定义文章摘要</h2><p>默认的文章摘要是一串数字串，可以通在配置文件中过添加<code>abstract</code>属性修改。</p>
 <pre class="line-numbers language-jsx" data-language="jsx"><code class="language-jsx"># 文章加密
 # hexo<span class="token operator">-</span>blog<span class="token operator">-</span>encrypt
 # https<span class="token operator">:</span><span class="token operator">/</span><span class="token operator">/</span>github<span class="token punctuation">.</span>com<span class="token operator">/</span>D0n9X1n<span class="token operator">/</span>hexo<span class="token operator">-</span>blog<span class="token operator">-</span>encrypt
@@ -592,7 +592,7 @@
 <blockquote>
 <p>注：在matery主题中，<code>abstract</code>属性不显示，似乎<code>文章头Front-matter</code>的<code>summary</code>属性冲突。我填写<code>summary</code>属性值生效了。</p>
 </blockquote>
-<h2 id="修改密码错误提示语">3.3. 修改密码错误提示语</h2><p>在博客根目录配置文件或文章Front-matter中添加<code>wrong_pass_message</code>属性。优先级级别和<code>message</code>属性一样。</p>
+<h2 id="3-3-修改密码错误提示语"><a href="#3-3-修改密码错误提示语" class="headerlink" title="3.3 修改密码错误提示语"></a>3.3 修改密码错误提示语</h2><p>在博客根目录配置文件或文章Front-matter中添加<code>wrong_pass_message</code>属性。优先级级别和<code>message</code>属性一样。</p>
 <pre class="line-numbers language-jsx" data-language="jsx"><code class="language-jsx"># 文章加密
 # hexo<span class="token operator">-</span>blog<span class="token operator">-</span>encrypt
 # https<span class="token operator">:</span><span class="token operator">/</span><span class="token operator">/</span>github<span class="token punctuation">.</span>com<span class="token operator">/</span>D0n9X1n<span class="token operator">/</span>hexo<span class="token operator">-</span>blog<span class="token operator">-</span>encrypt
@@ -604,8 +604,8 @@
   <span class="token literal-property property">wrong_hash_message</span><span class="token operator">:</span> 抱歉<span class="token punctuation">,</span> 这个文章不能被校验<span class="token punctuation">,</span> 不过您还是能看看解密后的内容。<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
 <p><img src="https://note.youdao.com/yws/api/personal/file/WEB1d4bf117262af437838600b9cff78233?method=download&amp;shareKey=52afd7e8c2d89cc281b92f72ed0c3bc9" alt="07修改密码错误提示语"></p>
-<h2 id="按tags标签加密">3.4. 按tags标签加密</h2><p>在<code>Front-matter</code>中设置<code>password</code>值，虽然很灵活，但是配置或者修改起来非常麻烦，若需要修改密码，则需要一篇文章一篇文章按个修改。为此，可以通过<code>按tags标签加密</code>的方式实现全局加密，只需要提前在文章的<code>Front-matter</code>中添加加密的<code>tag</code>值，修改时只需修改一次。</p>
-<h3 id="加密方法">3.4.1. 加密方法</h3><p>修改文章Front-matter如下</p>
+<h2 id="3-4-按tags标签加密"><a href="#3-4-按tags标签加密" class="headerlink" title="3.4 按tags标签加密"></a>3.4 按tags标签加密</h2><p>在<code>Front-matter</code>中设置<code>password</code>值，虽然很灵活，但是配置或者修改起来非常麻烦，若需要修改密码，则需要一篇文章一篇文章按个修改。为此，可以通过<code>按tags标签加密</code>的方式实现全局加密，只需要提前在文章的<code>Front-matter</code>中添加加密的<code>tag</code>值，修改时只需修改一次。</p>
+<h3 id="3-4-1-加密方法"><a href="#3-4-1-加密方法" class="headerlink" title="3.4.1 加密方法"></a>3.4.1 加密方法</h3><p>修改文章Front-matter如下</p>
 <pre class="line-numbers language-jsx" data-language="jsx"><code class="language-jsx"><span class="token literal-property property">title</span><span class="token operator">:</span> Hexo博客搭建（<span class="token number">9</span>）：设置文章加密
 <span class="token literal-property property">date</span><span class="token operator">:</span> <span class="token number">2022</span><span class="token operator">-</span><span class="token number">05</span><span class="token operator">-</span><span class="token number">14</span> <span class="token number">09</span><span class="token operator">:</span><span class="token number">35</span><span class="token operator">:</span><span class="token number">08</span>
 <span class="token literal-property property">tags</span><span class="token operator">:</span> <span class="token punctuation">[</span>加密文章<span class="token punctuation">]</span>
@@ -628,13 +628,13 @@
 <blockquote>
 <p>(1) 此时表示，写有标签<code>加密文章</code>的文章都需要输入密码<code>123456</code>才可以访问，无需每一篇文章都重复填写密码。<br>(2) 可以对多个标签设置不同的密码。<br>(3) 文章Front-matter中设置的password优先级<strong>高于</strong>，所以每个文章仍可以设置单独的密码。</p>
 </blockquote>
-<h3 id="对博文禁用-Tag-加密">3.4.2. 对博文禁用 Tag 加密</h3><p>只需要将博文头部的 password 设置为 “” 即可取消 Tag 加密.</p>
+<h3 id="3-4-2-对博文禁用-Tag-加密"><a href="#3-4-2-对博文禁用-Tag-加密" class="headerlink" title="3.4.2 对博文禁用 Tag 加密"></a>3.4.2 对博文禁用 Tag 加密</h3><p>只需要将博文头部的 password 设置为 “” 即可取消 Tag 加密.</p>
 <pre class="line-numbers language-jsx" data-language="jsx"><code class="language-jsx"><span class="token literal-property property">title</span><span class="token operator">:</span> Hexo博客搭建（<span class="token number">9</span>）：设置文章加密
 <span class="token literal-property property">date</span><span class="token operator">:</span> <span class="token number">2022</span><span class="token operator">-</span><span class="token number">05</span><span class="token operator">-</span><span class="token number">14</span> <span class="token number">09</span><span class="token operator">:</span><span class="token number">35</span><span class="token operator">:</span><span class="token number">08</span>
 <span class="token literal-property property">tags</span><span class="token operator">:</span> <span class="token punctuation">[</span>加密文章<span class="token punctuation">]</span>
 <span class="token literal-property property">password</span><span class="token operator">:</span> <span class="token string">""</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
 
-<h2 id="自定义主题样式">3.5. 自定义主题样式</h2><p>在在博客根目录配置文件或文章Front-matter中添加<code>theme</code>属性。优先级级别和<code>message</code>属性一样。</p>
+<h2 id="3-5-自定义主题样式"><a href="#3-5-自定义主题样式" class="headerlink" title="3.5 自定义主题样式"></a>3.5 自定义主题样式</h2><p>在在博客根目录配置文件或文章Front-matter中添加<code>theme</code>属性。优先级级别和<code>message</code>属性一样。</p>
 <pre class="line-numbers language-jsx" data-language="jsx"><code class="language-jsx"># 文章加密
 # hexo<span class="token operator">-</span>blog<span class="token operator">-</span>encrypt
 # https<span class="token operator">:</span><span class="token operator">/</span><span class="token operator">/</span>github<span class="token punctuation">.</span>com<span class="token operator">/</span>D0n9X1n<span class="token operator">/</span>hexo<span class="token operator">-</span>blog<span class="token operator">-</span>encrypt
@@ -651,9 +651,9 @@
 <blockquote>
 <p>有<a target="_blank" rel="noopener" href="https://mhexo.github.io/2020/12/23/Theme-Test-Default/">default</a>、<a target="_blank" rel="noopener" href="https://mhexo.github.io/2020/12/23/Theme-Test-Blink/">blink</a>、<a target="_blank" rel="noopener" href="https://mhexo.github.io/2020/12/23/Theme-Test-Shrink/">shrink</a>、<a target="_blank" rel="noopener" href="https://mhexo.github.io/2020/12/23/Theme-Test-Flip/">flip</a>、<a target="_blank" rel="noopener" href="https://mhexo.github.io/2020/12/23/Theme-Test-Up/">up</a>、<a target="_blank" rel="noopener" href="https://mhexo.github.io/2020/12/23/Theme-Test-Surge/">surge</a>、<a target="_blank" rel="noopener" href="https://mhexo.github.io/2020/12/23/Theme-Test-Wave/">wave</a>、<a target="_blank" rel="noopener" href="https://mhexo.github.io/2020/12/23/Theme-Test-Xray/">xray</a>等主题可供选择，可在线看看，挑选自己喜欢的。</p>
 </blockquote>
-<h2 id="文章重新激活密码">3.6. 文章重新激活密码</h2><p>输入密码后，同一浏览器再次打开无需密码。点击底部的<code>Encrypt again</code>按钮，重新加密，再次打开又需要输入密码了。</p>
+<h2 id="3-6-文章重新激活密码"><a href="#3-6-文章重新激活密码" class="headerlink" title="3.6 文章重新激活密码"></a>3.6 文章重新激活密码</h2><p>输入密码后，同一浏览器再次打开无需密码。点击底部的<code>Encrypt again</code>按钮，重新加密，再次打开又需要输入密码了。</p>
 <p><img src="https://note.youdao.com/yws/api/personal/file/WEB5ff0168e1d42a5a867fc50faba6d927a?method=download&amp;shareKey=727d7b41f7af2da018ba3393d8957596" alt="08重新加密"></p>
-<h1 id="致谢">4. 致谢</h1><p><a target="_blank" rel="noopener" href="https://github.com/D0n9X1n/hexo-blog-encrypt/blob/master/ReadMe.zh.md#_configyml">encrypt插件-Github官方说明</a></p>
+<h1 id="4-致谢"><a href="#4-致谢" class="headerlink" title="4 致谢"></a>4 致谢</h1><p><a target="_blank" rel="noopener" href="https://github.com/D0n9X1n/hexo-blog-encrypt/blob/master/ReadMe.zh.md#_configyml">encrypt插件-Github官方说明</a></p>
 
                 
             </div>
@@ -1164,18 +1164,18 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2022/05/14/an-an-cheng-chang-ri-ji-2022-nian-04-yue/">
+                <a href="/2022/05/14/an-an-cheng-chang-ji-lu-2022-nian-04-yue/">
                     <div class="card-image">
                         
-                        <img src="/medias/featureimages/%E5%B0%81%E9%9D%A2-%E5%AE%89%E5%AE%892022-04.jpg" class="responsive-img" alt="安安成长日记-2022年04月">
+                        <img src="/medias/featureimages/%E5%B0%81%E9%9D%A2-%E5%AE%89%E5%AE%892022-04.jpg" class="responsive-img" alt="安安成长记录-2022年04月">
                         
-                        <span class="card-title">安安成长日记-2022年04月</span>
+                        <span class="card-title">安安成长记录-2022年04月</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            这儿有东西被加密了，点击看看😵
+                            记忆每一个成长的瞬间。
                         
                     </div>
                     <div class="publish-info">
@@ -1501,7 +1501,7 @@
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">60.7k</span>&nbsp;字
+                class="white-color">64.9k</span>&nbsp;字
             
             
             

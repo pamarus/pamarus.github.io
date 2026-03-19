@@ -29,9 +29,9 @@
 
     <script src="/libs/jquery/jquery.min.js"></script>
 
-<meta name="generator" content="Hexo 6.2.0">
+<meta name="generator" content="Hexo 6.2.0"><link rel="alternate" href="/atom.xml" title="Pamarus" type="application/atom+xml">
+
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
-<link rel="alternate" href="/atom.xml" title="Pamarus" type="application/atom+xml">
 </head>
 
 
@@ -507,14 +507,14 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="安装Homebrew">1. 安装Homebrew</h1><p><code>Homebrew</code>是一款macOS（或Linux）平台下的软件包管理器,具有装置、卸载、更新、查看、搜寻等很多实用的功能，官网地址：<a target="_blank" rel="noopener" href="https://brew.sh/index_zh-cn.html">Homebrew官网</a></p>
+                <h1 id="1-安装Homebrew"><a href="#1-安装Homebrew" class="headerlink" title="1 安装Homebrew"></a>1 安装Homebrew</h1><p><code>Homebrew</code>是一款macOS（或Linux）平台下的软件包管理器,具有装置、卸载、更新、查看、搜寻等很多实用的功能，官网地址：<a target="_blank" rel="noopener" href="https://brew.sh/index_zh-cn.html">Homebrew官网</a></p>
 <p>将以下命令粘贴至终端进行安装。</p>
 <pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token operator">/</span>bin<span class="token operator">/</span>bash <span class="token operator">-</span>c <span class="token string">"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
-<h1 id="安装tree命令">2. 安装tree命令</h1><p>使用以下命令安装</p>
+<h1 id="2-安装tree命令"><a href="#2-安装tree命令" class="headerlink" title="2 安装tree命令"></a>2 安装tree命令</h1><p>使用以下命令安装</p>
 <pre class="line-numbers language-java" data-language="java"><code class="language-java">brew install tree<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
-<h1 id="基础操作">3. 基础操作</h1><p>在命令行输入tree和要生成目录树结构的本地目录地址，enter生成目录树，如</p>
+<h1 id="3-基础操作"><a href="#3-基础操作" class="headerlink" title="3 基础操作"></a>3 基础操作</h1><p>在命令行输入tree和要生成目录树结构的本地目录地址，enter生成目录树，如</p>
 <pre class="line-numbers language-java" data-language="java"><code class="language-java">tree <span class="token operator">/</span><span class="token class-name">Users</span><span class="token operator">/</span>user<span class="token operator">/</span><span class="token class-name">Hexo_Blog</span><span class="token operator">/</span>source<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
 <p>这是生成目录所有层级的树状结构。</p>
@@ -558,11 +558,11 @@
 
 <span class="token number">7</span> directories<span class="token punctuation">,</span> <span class="token number">29</span> files<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
-<h1 id="其他命令操作">4. 其他命令操作</h1><h2 id="输出版本号">4.1. 输出版本号</h2><pre class="line-numbers language-java" data-language="java"><code class="language-java">tree <span class="token operator">--</span>version<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<h1 id="4-其他命令操作"><a href="#4-其他命令操作" class="headerlink" title="4 其他命令操作"></a>4 其他命令操作</h1><h2 id="4-1-输出版本号"><a href="#4-1-输出版本号" class="headerlink" title="4.1 输出版本号"></a>4.1 输出版本号</h2><pre class="line-numbers language-java" data-language="java"><code class="language-java">tree <span class="token operator">--</span>version<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
 <pre class="line-numbers language-java" data-language="java"><code class="language-java">tree v2<span class="token punctuation">.</span><span class="token number">0.2</span> <span class="token punctuation">(</span>c<span class="token punctuation">)</span> <span class="token number">1996</span> <span class="token operator">-</span> <span class="token number">2022</span> by <span class="token class-name">Steve</span> <span class="token class-name">Baker</span><span class="token punctuation">,</span> <span class="token class-name">Thomas</span> <span class="token class-name">Moore</span><span class="token punctuation">,</span> <span class="token class-name">Francesc</span> <span class="token class-name">Rocher</span><span class="token punctuation">,</span> <span class="token class-name">Florian</span> <span class="token class-name">Sesser</span><span class="token punctuation">,</span> <span class="token class-name">Kyosuke</span> <span class="token class-name">Tokoro</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
-<h2 id="显示指定深度">4.2. 显示指定深度</h2><p>使用<code>tree -L</code>命令实现目录树的最大显示深度。<br><code>tree -L 1</code>显示一层结构，<code>tree -L 2</code>显示二层结构，<code>tree -L n</code>显示n层结构。</p>
+<h2 id="4-2-显示指定深度"><a href="#4-2-显示指定深度" class="headerlink" title="4.2 显示指定深度"></a>4.2 显示指定深度</h2><p>使用<code>tree -L</code>命令实现目录树的最大显示深度。<br><code>tree -L 1</code>显示一层结构，<code>tree -L 2</code>显示二层结构，<code>tree -L n</code>显示n层结构。</p>
 <pre class="line-numbers language-java" data-language="java"><code class="language-java">tree <span class="token operator">-</span><span class="token class-name">L</span> <span class="token number">1</span> <span class="token operator">/</span><span class="token class-name">Users</span><span class="token operator">/</span>user<span class="token operator">/</span><span class="token class-name">Hexo_Blog</span><span class="token operator">/</span><span class="token keyword">public</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
 <pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token operator">/</span><span class="token class-name">Users</span><span class="token operator">/</span>user<span class="token operator">/</span><span class="token class-name">Hexo_Blog</span><span class="token operator">/</span><span class="token keyword">public</span>
@@ -591,7 +591,7 @@
 
 <span class="token number">15</span> directories<span class="token punctuation">,</span> <span class="token number">7</span> files<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
-<h2 id="为文件夹附加一个">4.3. 为文件夹附加一个/</h2><p>输出的目录和文件没有区分，且是按照首字母升序排列，更加难以区分。一种方法是可以使用<code>tree -F</code>命令，为文件夹附加一个<code>/</code>符号，以示区分。</p>
+<h2 id="4-3-为文件夹附加一个"><a href="#4-3-为文件夹附加一个" class="headerlink" title="4.3 为文件夹附加一个/"></a>4.3 为文件夹附加一个<code>/</code></h2><p>输出的目录和文件没有区分，且是按照首字母升序排列，更加难以区分。一种方法是可以使用<code>tree -F</code>命令，为文件夹附加一个<code>/</code>符号，以示区分。</p>
 <pre class="line-numbers language-java" data-language="java"><code class="language-java">tree <span class="token operator">-</span><span class="token class-name">F</span> <span class="token operator">-</span><span class="token class-name">L</span> <span class="token number">1</span> <span class="token operator">/</span><span class="token class-name">Users</span><span class="token operator">/</span>user<span class="token operator">/</span><span class="token class-name">Hexo_Blog</span><span class="token operator">/</span><span class="token keyword">public</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
 <pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token operator">/</span><span class="token class-name">Users</span><span class="token operator">/</span>user<span class="token operator">/</span><span class="token class-name">Hexo_Blog</span><span class="token operator">/</span><span class="token keyword">public</span><span class="token operator">/</span>
@@ -620,7 +620,7 @@
 
 <span class="token number">15</span> directories<span class="token punctuation">,</span> <span class="token number">7</span> files<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
-<h2 id="将文件夹排在文件前面">4.4. 将文件夹排在文件前面</h2><p>使用<code>tree --dirsfirst</code>命令，将文件夹排在文件前面。命令可以结合起来使用，这样目录结果会更加清晰。如下：</p>
+<h2 id="4-4-将文件夹排在文件前面"><a href="#4-4-将文件夹排在文件前面" class="headerlink" title="4.4 将文件夹排在文件前面"></a>4.4 将文件夹排在文件前面</h2><p>使用<code>tree --dirsfirst</code>命令，将文件夹排在文件前面。命令可以结合起来使用，这样目录结果会更加清晰。如下：</p>
 <pre class="line-numbers language-java" data-language="java"><code class="language-java">tree <span class="token operator">--</span>dirsfirst <span class="token operator">-</span><span class="token class-name">F</span> <span class="token operator">-</span><span class="token class-name">L</span> <span class="token number">1</span> <span class="token operator">/</span><span class="token class-name">Users</span><span class="token operator">/</span>user<span class="token operator">/</span><span class="token class-name">Hexo_Blog</span><span class="token operator">/</span><span class="token keyword">public</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
 <pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token operator">/</span><span class="token class-name">Users</span><span class="token operator">/</span>user<span class="token operator">/</span><span class="token class-name">Hexo_Blog</span><span class="token operator">/</span><span class="token keyword">public</span><span class="token operator">/</span>
@@ -649,7 +649,7 @@
 
 <span class="token number">15</span> directories<span class="token punctuation">,</span> <span class="token number">7</span> file<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
-<h2 id="仅显示目录">4.5. 仅显示目录</h2><p>使用<code>tree -d</code>命令实现显示文件夹不显示内容，显示的是所有层级的文件夹。</p>
+<h2 id="4-5-仅显示目录"><a href="#4-5-仅显示目录" class="headerlink" title="4.5 仅显示目录"></a>4.5 仅显示目录</h2><p>使用<code>tree -d</code>命令实现显示文件夹不显示内容，显示的是所有层级的文件夹。</p>
 <pre class="line-numbers language-java" data-language="java"><code class="language-java">tree <span class="token operator">-</span>d <span class="token operator">/</span><span class="token class-name">Users</span><span class="token operator">/</span>user<span class="token operator">/</span><span class="token class-name">Hexo_Blog</span><span class="token operator">/</span>source<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
 <pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token operator">/</span><span class="token class-name">Users</span><span class="token operator">/</span>user<span class="token operator">/</span><span class="token class-name">Hexo_Blog</span><span class="token operator">/</span>source
@@ -685,7 +685,7 @@
 
 15 directories<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
-<h2 id="屏蔽文件或文件夹">4.6. 屏蔽文件或文件夹</h2><p>使用<code>tree -I ""</code>命令屏蔽文件或文件夹。写法是tree -I “想要屏蔽的文件或文件夹名称”。</p>
+<h2 id="4-6-屏蔽文件或文件夹"><a href="#4-6-屏蔽文件或文件夹" class="headerlink" title="4.6 屏蔽文件或文件夹"></a>4.6 屏蔽文件或文件夹</h2><p>使用<code>tree -I ""</code>命令屏蔽文件或文件夹。写法是tree -I “想要屏蔽的文件或文件夹名称”。</p>
 <p>比如你想要过滤中的<code>categories文件夹</code>，可以使用<code>tree -I "categories"</code>,如果想要过滤多个目录文件,也可以<code>tree -I "categories|contact|li*"</code>,最后一个使用到正则匹配，这样以<code>li</code>开头的文件夹都不会被显示出来,目录与目录之间用竖线隔开,中间不要有空格。如下</p>
 <pre class="line-numbers language-java" data-language="java"><code class="language-java">tree <span class="token operator">-</span><span class="token class-name">I</span> <span class="token string">"categories|contact|li*"</span> <span class="token operator">-</span><span class="token class-name">L</span> <span class="token number">1</span> <span class="token operator">/</span><span class="token class-name">Users</span><span class="token operator">/</span>user<span class="token operator">/</span><span class="token class-name">Hexo_Blog</span><span class="token operator">/</span><span class="token keyword">public</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
@@ -711,7 +711,7 @@
 <span class="token number">10</span> directories<span class="token punctuation">,</span> <span class="token number">7</span> files<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
 <p>注意要区分大小写,而且要过滤的文件名必须得用双引号或者单引号包裹起来，否则无效。</p>
-<h2 id="查看帮助">4.7. 查看帮助</h2><p>使用<code>tree --help</code>命令查看帮助，查看更多指令。遇到不正确指令也可以查看帮助进行解决。</p>
+<h2 id="4-7-查看帮助"><a href="#4-7-查看帮助" class="headerlink" title="4.7 查看帮助"></a>4.7 查看帮助</h2><p>使用<code>tree --help</code>命令查看帮助，查看更多指令。遇到不正确指令也可以查看帮助进行解决。</p>
 
                 
             </div>
@@ -1563,7 +1563,7 @@
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">60.7k</span>&nbsp;字
+                class="white-color">64.9k</span>&nbsp;字
             
             
             

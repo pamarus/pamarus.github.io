@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Git,Git Bash">
+    <meta name="keywords" content="Git,Git Bash Here">
     <meta name="description" content="Thinking Hacks">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -29,9 +29,9 @@
 
     <script src="/libs/jquery/jquery.min.js"></script>
 
-<meta name="generator" content="Hexo 6.2.0">
+<meta name="generator" content="Hexo 6.2.0"><link rel="alternate" href="/atom.xml" title="Pamarus" type="application/atom+xml">
+
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
-<link rel="alternate" href="/atom.xml" title="Pamarus" type="application/atom+xml">
 </head>
 
 
@@ -434,10 +434,6 @@
                                 <span class="chip bg-color">Git</span>
                             </a>
                         
-                            <a href="/tags/Git-Bash/">
-                                <span class="chip bg-color">Git Bash</span>
-                            </a>
-                        
                     </div>
                     
                 </div>
@@ -446,8 +442,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/%E7%9F%A5%E8%AF%86%E7%A2%8E%E7%89%87/" class="post-category">
-                                知识碎片
+                            <a href="/categories/Hexo%E5%8D%9A%E5%AE%A2/" class="post-category">
+                                Hexo博客
                             </a>
                         
                     </div>
@@ -504,21 +500,21 @@
         <div class="card-content article-card-content">
             <div id="articleContent">
                 <p>在 Windows 系统中，安装Git后，默认右键菜单会有<code>open Git Bash here</code>。若没有，可以通过修改注册表将&nbsp;<code>Git Bash Here</code>添加到右键菜单，从而快速启动 <code>Git Bash</code>。以下是具体步骤：</p>
-<h1 id="打开注册表编辑器">1. 打开注册表编辑器</h1><p>通过<code>Windows+R</code>快捷键可以打开运行窗口，在窗口中输入<code>regedit</code>，点击确定打开注册表。</p>
+<h1 id="1-打开注册表编辑器"><a href="#1-打开注册表编辑器" class="headerlink" title="1 打开注册表编辑器"></a>1 打开注册表编辑器</h1><p>通过<code>Windows+R</code>快捷键可以打开运行窗口，在窗口中输入<code>regedit</code>，点击确定打开注册表。</p>
 <p><img src="https://github.com/pamarus/Images/blob/master/2025/%E5%A6%82%E4%BD%95%E6%89%8B%E5%8A%A8%E6%B7%BB%E5%8A%A0Git%20Bash%20Here%E5%88%B0%E5%8F%B3%E9%94%AE%E8%8F%9C%E5%8D%9501.png?raw=true" alt="如何手动添加Git Bash Here到右键菜单01"></p>
 <p>在搜索栏直接输入<code>\HKEY_CLASSES_ROOT\Directory\Background</code>，回车确定或者点击计算机下拉图标逐级查找，定位到此位置。</p>
 <p><img src="https://github.com/pamarus/Images/blob/master/2025/%E5%A6%82%E4%BD%95%E6%89%8B%E5%8A%A8%E6%B7%BB%E5%8A%A0Git%20Bash%20Here%E5%88%B0%E5%8F%B3%E9%94%AE%E8%8F%9C%E5%8D%9502.png?raw=true" alt="如何手动添加Git Bash Here到右键菜单02"></p>
-<h1 id="创建右键菜单项">2. 创建右键菜单项</h1><p>在<code>Background</code>目录下如果没有<code>shell</code>，则右键&nbsp;<strong>新建 &gt; 项</strong>，命名为<code>shell</code>。</p>
+<h1 id="2-创建右键菜单项"><a href="#2-创建右键菜单项" class="headerlink" title="2 创建右键菜单项"></a>2 创建右键菜单项</h1><p>在<code>Background</code>目录下如果没有<code>shell</code>，则右键&nbsp;<strong>新建 &gt; 项</strong>，命名为<code>shell</code>。</p>
 <p><img src="https://github.com/pamarus/Images/blob/master/2025/%E5%A6%82%E4%BD%95%E6%89%8B%E5%8A%A8%E6%B7%BB%E5%8A%A0Git%20Bash%20Here%E5%88%B0%E5%8F%B3%E9%94%AE%E8%8F%9C%E5%8D%9503.png?raw=true" alt="如何手动添加Git Bash Here到右键菜单03"></p>
-<h1 id="设置右键菜单显示名称">3. 设置右键菜单显示名称</h1><p>在<code>shell</code>目录下右键&nbsp;<strong>新建 &gt; 项</strong>，命名为<code>open in Git</code>，双击默认名称，修改默认值为<code>Git Bash&nbsp;Here</code>，此为右键菜单显示名称。</p>
+<h1 id="3-设置右键菜单显示名称"><a href="#3-设置右键菜单显示名称" class="headerlink" title="3 设置右键菜单显示名称"></a>3 设置右键菜单显示名称</h1><p>在<code>shell</code>目录下右键&nbsp;<strong>新建 &gt; 项</strong>，命名为<code>open in Git</code>，双击默认名称，修改默认值为<code>Git Bash&nbsp;Here</code>，此为右键菜单显示名称。</p>
 <p><img src="https://github.com/pamarus/Images/blob/master/2025/%E5%A6%82%E4%BD%95%E6%89%8B%E5%8A%A8%E6%B7%BB%E5%8A%A0Git%20Bash%20Here%E5%88%B0%E5%8F%B3%E9%94%AE%E8%8F%9C%E5%8D%9504.png?raw=true" alt="如何手动添加Git Bash Here到右键菜单04"></p>
-<h1 id="设置图标">4. 设置图标</h1><p>在<code>open in Git</code>目录下（右侧空白）<strong>右键 &gt; 新建 &gt; 字符串值</strong>，双击编辑，数值名称设置为<code>Icon</code>。</p>
+<h1 id="4-设置图标"><a href="#4-设置图标" class="headerlink" title="4 设置图标"></a>4 设置图标</h1><p>在<code>open in Git</code>目录下（右侧空白）<strong>右键 &gt; 新建 &gt; 字符串值</strong>，双击编辑，数值名称设置为<code>Icon</code>。</p>
 <p>双击<code>Icon</code>名称，将其数值数据设置为 Git 安装路径下的图标文件，具体是<code>D:\Program Files\Git\mingw64\share\git\git-for-windows.ico</code>。需要按照您的实际安装路径修改。</p>
 <p><img src="https://github.com/pamarus/Images/blob/master/2025/%E5%A6%82%E4%BD%95%E6%89%8B%E5%8A%A8%E6%B7%BB%E5%8A%A0Git%20Bash%20Here%E5%88%B0%E5%8F%B3%E9%94%AE%E8%8F%9C%E5%8D%9505.png?raw=true" alt="如何手动添加Git Bash Here到右键菜单05"></p>
-<h1 id="配置命令">5. 配置命令</h1><p>在<code>open in git</code>目录下右键&nbsp;<strong>新建 &gt; 项</strong>，命名为<code>command</code>。</p>
+<h1 id="5-配置命令"><a href="#5-配置命令" class="headerlink" title="5 配置命令"></a>5 配置命令</h1><p>在<code>open in git</code>目录下右键&nbsp;<strong>新建 &gt; 项</strong>，命名为<code>command</code>。</p>
 <p>双击<code>command</code>名称，修改数值数据为Git Bash 的实际路径，具体是<code>D:\Program Files\Git\git-bash.exe</code>，需要按照您的实际安装路径修改。</p>
-<h1 id="验证效果">6. 验证效果</h1><p>完成上述操作后，右键单击桌面或文件夹背景时，应能看到&nbsp;<strong>Git Bash Here</strong>&nbsp;选项。点击即可快速启动 Git Bash。</p>
-<h1 id="致谢">7. 致谢</h1><p><a target="_blank" rel="noopener" href="https://blog.csdn.net/Passerby_Wang/article/details/120881670">手动添加Git Bash Here到右键菜单（超详细）</a></p>
+<h1 id="6-验证效果"><a href="#6-验证效果" class="headerlink" title="6 验证效果"></a>6 验证效果</h1><p>完成上述操作后，右键单击桌面或文件夹背景时，应能看到&nbsp;<strong>Git Bash Here</strong>&nbsp;选项。点击即可快速启动 Git Bash。</p>
+<h1 id="7-致谢"><a href="#7-致谢" class="headerlink" title="7 致谢"></a>7 致谢</h1><p><a target="_blank" rel="noopener" href="https://blog.csdn.net/Passerby_Wang/article/details/120881670">手动添加Git Bash Here到右键菜单（超详细）</a></p>
 
                 
             </div>
@@ -585,10 +581,6 @@
                             
                                 <a href="/tags/Git/">
                                     <span class="chip bg-color">Git</span>
-                                </a>
-                            
-                                <a href="/tags/Git-Bash/">
-                                    <span class="chip bg-color">Git Bash</span>
                                 </a>
                             
                         </div>
@@ -1047,8 +1039,8 @@
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/%E7%9F%A5%E8%AF%86%E7%A2%8E%E7%89%87/" class="post-category">
-                                    知识碎片
+                            <a href="/categories/Hexo%E5%8D%9A%E5%AE%A2/" class="post-category">
+                                    Hexo博客
                                 </a>
                             
                             
@@ -1077,30 +1069,30 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2023/03/01/chatgpt-4.0-new-bing-xin-bi-ying-nei-ce-zi-ge-shen-qing-jiao-cheng/">
+                <a href="/2023/03/02/controlnet-an-zhuang-jiao-cheng/">
                     <div class="card-image">
                         
-                        <img src="/medias/featureimages/New-Bing.png" class="responsive-img" alt="ChatGPT 4.0 - New Bing新必应内测资格申请教程">
+                        <img src="/medias/featureimages/Mac.png" class="responsive-img" alt="ControlNet安装教程">
                         
-                        <span class="card-title">ChatGPT 4.0 - New Bing新必应内测资格申请教程</span>
+                        <span class="card-title">ControlNet安装教程</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            New Bing内测资格申请方法
+                            
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2023-03-01
+                                <i class="far fa-clock fa-fw icon-date"></i>2023-03-02
                             </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/" class="post-category">
-                                    编程语言
+                            <a href="/categories/Hexo%E5%8D%9A%E5%AE%A2/" class="post-category">
+                                    Hexo博客
                                 </a>
                             
                             
@@ -1110,12 +1102,12 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/ChatGPT/">
-                        <span class="chip bg-color">ChatGPT</span>
+                    <a href="/tags/%E6%A0%87%E7%AD%BE1/">
+                        <span class="chip bg-color">标签1</span>
                     </a>
                     
-                    <a href="/tags/New-Bing/">
-                        <span class="chip bg-color">New Bing</span>
+                    <a href="/tags/%E6%A0%87%E7%AD%BE2/">
+                        <span class="chip bg-color">标签2</span>
                     </a>
                     
                 </div>
@@ -1362,7 +1354,7 @@
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">60.7k</span>&nbsp;字
+                class="white-color">64.9k</span>&nbsp;字
             
             
             

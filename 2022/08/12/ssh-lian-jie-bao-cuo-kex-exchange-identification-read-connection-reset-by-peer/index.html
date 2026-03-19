@@ -29,9 +29,9 @@
 
     <script src="/libs/jquery/jquery.min.js"></script>
 
-<meta name="generator" content="Hexo 6.2.0">
+<meta name="generator" content="Hexo 6.2.0"><link rel="alternate" href="/atom.xml" title="Pamarus" type="application/atom+xml">
+
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
-<link rel="alternate" href="/atom.xml" title="Pamarus" type="application/atom+xml">
 </head>
 
 
@@ -503,21 +503,21 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="问题">1. 问题</h1><p><code>Hexo -d</code>部署的时候报错如下。</p>
+                <h1 id="1-问题"><a href="#1-问题" class="headerlink" title="1 问题"></a>1 问题</h1><p><code>Hexo -d</code>部署的时候报错如下。</p>
 <pre class="line-numbers language-java" data-language="java"><code class="language-java">kex_exchange_identification<span class="token operator">:</span> read<span class="token operator">:</span> <span class="token class-name">Connection</span> reset by peer
 <span class="token class-name">Connection</span> reset by <span class="token number">140.82</span><span class="token punctuation">.</span>*<span class="token operator">*</span><span class="token operator">*</span><span class="token punctuation">.</span>*<span class="token operator">*</span><span class="token operator">*</span> port <span class="token number">22</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 
 <p>查阅文章，尝试了好多种方法，都无效。但经过排查，初步原因可能是网络端口阻断了，公司网络有所限制，使用手机热点网络，部署正常。</p>
 <p>最终是通过修改ssh文件夹中<code>config</code>文件内容，解决了此问题。</p>
-<h1 id="解决">2. 解决</h1><p>找到文件<code>~/.ssh/config</code>，编辑文件添加以下部分内容。若ssh’文件夹里没有此文件，新建一个即可。</p>
+<h1 id="2-解决"><a href="#2-解决" class="headerlink" title="2 解决"></a>2 解决</h1><p>找到文件<code>~/.ssh/config</code>，编辑文件添加以下部分内容。若ssh’文件夹里没有此文件，新建一个即可。</p>
 <pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token class-name">Host</span> github<span class="token punctuation">.</span>com
 <span class="token class-name">Hostname</span> ssh<span class="token punctuation">.</span>github<span class="token punctuation">.</span>com
 <span class="token class-name">Port</span> <span class="token number">443</span>
 <span class="token class-name">User</span> git<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
 
 <p>添加好之后，重新部署即可。</p>
-<h1 id="其他可能的解决方法">3. 其他可能的解决方法</h1><p>当然也可以试试以下方法，根本原因不同，不一定有个方法就有用了。</p>
-<h2 id="修改hosts-allow文件">3.1. 修改hosts.allow文件</h2><p>第一，在<code>/etc/hosts.allow</code>文件中添加<code>sshd: ALL</code>，就是允许所有ip主机均能连接本机</p>
+<h1 id="3-其他可能的解决方法"><a href="#3-其他可能的解决方法" class="headerlink" title="3 其他可能的解决方法"></a>3 其他可能的解决方法</h1><p>当然也可以试试以下方法，根本原因不同，不一定有个方法就有用了。</p>
+<h2 id="3-1-修改hosts-allow文件"><a href="#3-1-修改hosts-allow文件" class="headerlink" title="3.1 修改hosts.allow文件"></a>3.1 修改<code>hosts.allow</code>文件</h2><p>第一，在<code>/etc/hosts.allow</code>文件中添加<code>sshd: ALL</code>，就是允许所有ip主机均能连接本机</p>
 <p>第二，重启<code>ssh</code>，输入命令<code>systemctl restart sshd</code></p>
 <p>若是要限制只有某些IP地址可以连接该主机，则在<code>/etc/hosts.allow</code>文件中添加允许的主机IP（如：<code>sshd:192.168.2.130:allow</code>），然后再到<code>/etc/hosts.deny</code>文件中添加<code>sshd:ALL</code>，拒绝所有（除了<code>/etc/hosts.allow</code>文件中允许的IP地址），这样就可以达到除了设置允许的IP地址可以连接，其他的IP主机都无法连接的效果。</p>
 <p>第三，配置完成后使用<code>git clone</code>命令拉取代码。</p>
@@ -527,10 +527,10 @@
 <pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token class-name">Are</span> you sure you want <span class="token keyword">to</span> <span class="token keyword">continue</span> connecting <span class="token punctuation">(</span>yes<span class="token operator">/</span>no<span class="token operator">/</span><span class="token punctuation">[</span>fingerprint<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token operator">?</span> yes <span class="token class-name">Warning</span><span class="token operator">:</span> <span class="token class-name">Permanently</span> added 'github<span class="token punctuation">.</span>com<span class="token punctuation">,</span>xx<span class="token punctuation">.</span>xx<span class="token punctuation">.</span>xx<span class="token punctuation">.</span><span class="token number">166</span>' <span class="token punctuation">(</span><span class="token constant">ECDSA</span><span class="token punctuation">)</span> <span class="token keyword">to</span> <span class="token namespace">the</span> list of known hosts<span class="token punctuation">.</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
 <p>输入<code>yes</code>，之后即可正常部署。</p>
-<h2 id="使用ssh-keygen-R">3.2. 使用ssh-keygen -R</h2><p>可能原因是SSH无法登陆主机，更新指令即可。</p>
+<h2 id="3-2-使用ssh-keygen-R"><a href="#3-2-使用ssh-keygen-R" class="headerlink" title="3.2 使用ssh-keygen -R"></a>3.2 使用<code>ssh-keygen -R</code></h2><p>可能原因是SSH无法登陆主机，更新指令即可。</p>
 <pre class="line-numbers language-java" data-language="java"><code class="language-java">ssh<span class="token operator">-</span>keygen <span class="token operator">-</span><span class="token class-name">R</span> <span class="token constant">XXX</span><span class="token punctuation">.</span><span class="token constant">XXX</span><span class="token punctuation">.</span><span class="token constant">XXX</span><span class="token punctuation">.</span><span class="token constant">XXX</span>   <span class="token comment">//XXX.XXX.XXX.XXX为要登陆主机的IP地址</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
-<h2 id="修改known-hosts文件">3.3. 修改known_hosts文件</h2><h3 id="解决方法">3.3.1. 解决方法</h3><p>首先使用以下命令debug登录过程，以便定位问题：</p>
+<h2 id="3-3-修改known-hosts文件"><a href="#3-3-修改known-hosts文件" class="headerlink" title="3.3 修改known_hosts文件"></a>3.3 修改<code>known_hosts</code>文件</h2><h3 id="3-3-1-解决方法"><a href="#3-3-1-解决方法" class="headerlink" title="3.3.1 解决方法"></a>3.3.1 解决方法</h3><p>首先使用以下命令debug登录过程，以便定位问题：</p>
 <pre class="line-numbers language-java" data-language="java"><code class="language-java">ssh <span class="token operator">-</span>v <span class="token generics"><span class="token punctuation">&lt;</span>username<span class="token punctuation">&gt;</span></span>@<span class="token generics"><span class="token punctuation">&lt;</span>password<span class="token punctuation">&gt;</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
 <p>如果你从此时返回的信息中能够发现大量的提示都指向：</p>
@@ -541,7 +541,7 @@
 <span class="token operator">~</span><span class="token operator">/</span><span class="token punctuation">.</span>ssh<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 
 <p>找到known_hosts文件，将其清空，然后重新通过终端访问服务器主机。</p>
-<h3 id="known-hosts是什么">3.3.2. known_hosts是什么</h3><p>果然顺利解决了问题，但这个<code>known_hosts</code>是个啥引起了我的注意，于是去查了一下，这里连同ssh登录一并写下。</p>
+<h3 id="3-3-2-known-hosts是什么"><a href="#3-3-2-known-hosts是什么" class="headerlink" title="3.3.2 known_hosts是什么"></a>3.3.2 <code>known_hosts</code>是什么</h3><p>果然顺利解决了问题，但这个<code>known_hosts</code>是个啥引起了我的注意，于是去查了一下，这里连同ssh登录一并写下。</p>
 <p>（1）远程主机收到本地机的登录请求后会将自己的公钥发给本地机；</p>
 <p>（2）本地机使用这个公钥将密码加密后，发送回远程主机；</p>
 <p>（3）远程主机用自己的私钥解密登录密码，如果密码正确，则同意登录。</p>
@@ -555,7 +555,7 @@
 
 <p>然后输入远程主机密码就可以正常登录了。</p>
 <p>此时意味着本地机已经接受了远程主机，并且会将此公钥保存在<code>/.ssh/known_hosts</code>中，以便之后的验证。</p>
-<h2 id="修改默认DNS">3.4. 修改默认DNS</h2><p>默认DNS修改为<code>114.114.114.114</code>。修改方法参考文章，<a href="https://pamarus.github.io/2022/05/15/mac-zhong-duan-xian-shi-192-bu-xian-shi-dian-nao-ming-zi-de-jie-jue-fang-fa/#toc-heading-3">Mac终端显示192，不显示用户名的解决方法</a></p>
+<h2 id="3-4-修改默认DNS"><a href="#3-4-修改默认DNS" class="headerlink" title="3.4 修改默认DNS"></a>3.4 修改默认<code>DNS</code></h2><p>默认DNS修改为<code>114.114.114.114</code>。修改方法参考文章，<a href="https://pamarus.github.io/2022/05/15/mac-zhong-duan-xian-shi-192-bu-xian-shi-dian-nao-ming-zi-de-jie-jue-fang-fa/#toc-heading-3">Mac终端显示192，不显示用户名的解决方法</a></p>
 
                 
             </div>
@@ -1151,10 +1151,6 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E9%BB%98%E8%AE%A4%E9%80%9A%E4%BF%A1%E5%8D%8F%E8%AE%AE/">
-                        <span class="chip bg-color">默认通信协议</span>
-                    </a>
-                    
                     <a href="/tags/SSH%E6%8A%A5%E9%94%99/">
                         <span class="chip bg-color">SSH报错</span>
                     </a>
@@ -1407,7 +1403,7 @@
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">60.7k</span>&nbsp;字
+                class="white-color">64.9k</span>&nbsp;字
             
             
             

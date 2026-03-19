@@ -29,9 +29,9 @@
 
     <script src="/libs/jquery/jquery.min.js"></script>
 
-<meta name="generator" content="Hexo 6.2.0">
+<meta name="generator" content="Hexo 6.2.0"><link rel="alternate" href="/atom.xml" title="Pamarus" type="application/atom+xml">
+
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
-<link rel="alternate" href="/atom.xml" title="Pamarus" type="application/atom+xml">
 </head>
 
 
@@ -508,14 +508,14 @@
         <div class="card-content article-card-content">
             <div id="articleContent">
                 <p>具体步骤可参考</p>
-<h1 id="备份并迁移本地-hexo-文件夹">1. 备份并迁移本地 hexo 文件夹</h1><p>在换电脑之前将hexo根目录数据备份保存好。</p>
+<h1 id="1-备份并迁移本地-hexo-文件夹"><a href="#1-备份并迁移本地-hexo-文件夹" class="headerlink" title="1 备份并迁移本地 hexo 文件夹"></a>1 备份并迁移本地 hexo 文件夹</h1><p>在换电脑之前将hexo根目录数据备份保存好。</p>
 <p>需要拷贝原电脑项目文件中的_config.yml，themes，source，scaffolds，package.json，.gitignore 等文件到新电脑新建的文件夹中或者建议直接将原文件夹整个打包拷贝到新电脑上。</p>
-<h1 id="安装Node-js和git">2. 安装Node.js和git</h1><p>和第一次搭建博客时一样，确保windows电脑系统中安装好Node.js和git。</p>
-<h2 id="下载安装Node-js">2.1. 下载安装Node.js</h2><p>Hexo 是基于 Node.js 驱动的一款博客框架，所以需安装node。</p>
+<h1 id="2-安装Node-js和git"><a href="#2-安装Node-js和git" class="headerlink" title="2 安装Node.js和git"></a>2 安装Node.js和git</h1><p>和第一次搭建博客时一样，确保windows电脑系统中安装好Node.js和git。</p>
+<h2 id="2-1-下载安装Node-js"><a href="#2-1-下载安装Node-js" class="headerlink" title="2.1 下载安装Node.js"></a>2.1 下载安装Node.js</h2><p>Hexo 是基于 Node.js 驱动的一款博客框架，所以需安装node。</p>
 <p>前往 <a target="_blank" rel="noopener" href="https://nodejs.org/zh-cn/download">Node.js官网</a> 下载软件安装。下面这个，选择自己电脑的架构。</p>
 <p><img src="https://github.com/pamarus/Images/blob/master/2025/Hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%EF%BC%8810%EF%BC%89%EF%BC%9AHexo%E5%8D%9A%E5%AE%A2%E4%BB%8EMac%E7%AB%AF%E8%BF%81%E7%A7%BB%E5%88%B0Windows01.png?raw=true" alt="Hexo博客搭建（10）：Hexo博客从Mac端迁移到Windows01"></p>
-<h2 id="下载安装Git">2.2. 下载安装Git</h2><p>前往 <a target="_blank" rel="noopener" href="https://git-scm.com/">git官网</a> 下载软件安装。</p>
-<h2 id="检查是否安装">2.3. 检查是否安装</h2><p>在命令行中输入相应命令验证是否成功，如果成功会有相应的版本号。</p>
+<h2 id="2-2-下载安装Git"><a href="#2-2-下载安装Git" class="headerlink" title="2.2 下载安装Git"></a>2.2 下载安装Git</h2><p>前往 <a target="_blank" rel="noopener" href="https://git-scm.com/">git官网</a> 下载软件安装。</p>
+<h2 id="2-3-检查是否安装"><a href="#2-3-检查是否安装" class="headerlink" title="2.3 检查是否安装"></a>2.3 检查是否安装</h2><p>在命令行中输入相应命令验证是否成功，如果成功会有相应的版本号。</p>
 <pre class="line-numbers language-jsx" data-language="jsx"><code class="language-jsx">node <span class="token operator">-</span>v
 git version<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 
@@ -523,13 +523,13 @@ git version<span aria-hidden="true" class="line-numbers-rows"><span></span><span
 <p>安装Git后记住两个点，一个是要添加&nbsp;<a target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?content_id=240772217&amp;content_type=Article&amp;match_order=1&amp;q=Git+Bash+Here&amp;zd_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ6aGlkYV9zZXJ2ZXIiLCJleHAiOjE3NjYwMjQ0MTksInEiOiJHaXQgQmFzaCBIZXJlIiwiemhpZGFfc291cmNlIjoiZW50aXR5IiwiY29udGVudF9pZCI6MjQwNzcyMjE3LCJjb250ZW50X3R5cGUiOiJBcnRpY2xlIiwibWF0Y2hfb3JkZXIiOjEsInpkX3Rva2VuIjpudWxsfQ.ZZl5RAIKbSXnzVFYaqkhQsjtqAcjtOXhDnHzWvpaSRs&amp;zhida_source=entity">Git Bash Here</a>&nbsp;到右键菜单，一个是要把 Git 添加到全局变量。检查与操作步骤参考文章：</p>
 <p><a href="https://pamarus.github.io/2025/12/12/ru-he-shou-dong-tian-jia-git-bash-here-dao-you-jian-cai-dan/">如何手动添加Git Bash Here到右键菜单</a></p>
 <p><a href="https://pamarus.github.io/2025/12/14/ru-he-ba-git-pei-zhi-dao-xi-tong-huan-jing-bian-liang/">如何把 Git 配置到系统环境变量</a></p>
-<h1 id="本地Git与Github公钥连接">3. 本地Git与Github公钥连接</h1><p>安装好 git 的目的在于，我们执行命’<code>hexo d</code>后，能将我们本地文档推送到 GitHub 上，所以需要建立本地 Git 与 Github 的连接，我们通过生成 ssh 公钥，让 GitHub 能够认识我们本地的电脑，具体操作如下：</p>
+<h1 id="3-本地Git与Github公钥连接"><a href="#3-本地Git与Github公钥连接" class="headerlink" title="3 本地Git与Github公钥连接"></a>3 本地Git与Github公钥连接</h1><p>安装好 git 的目的在于，我们执行命’<code>hexo d</code>后，能将我们本地文档推送到 GitHub 上，所以需要建立本地 Git 与 Github 的连接，我们通过生成 ssh 公钥，让 GitHub 能够认识我们本地的电脑，具体操作如下：</p>
 <p>可参考文章 <a href="https://pamarus.github.io/2020/05/04/hexo-bo-ke-da-jian-1-mac-duan-shi-yong-hexo-github-pages-da-jian-mian-fei-ge-ren-bo-ke/">Hexo博客搭建（1）：Mac端使用Hexo+GitHub Pages搭建免费个人博客</a> </p>
-<h2 id="配置用户名和邮箱">3.1. 配置用户名和邮箱</h2><p>配置用户名和邮箱是提交代码时的必要步骤。打开<code>cmd</code>，输入以下命令。</p>
+<h2 id="3-1-配置用户名和邮箱"><a href="#3-1-配置用户名和邮箱" class="headerlink" title="3.1 配置用户名和邮箱"></a>3.1 配置用户名和邮箱</h2><p>配置用户名和邮箱是提交代码时的必要步骤。打开<code>cmd</code>，输入以下命令。</p>
 <pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript">git config <span class="token operator">--</span>global user<span class="token punctuation">.</span>name <span class="token string">"你的用户名"</span>
 git config <span class="token operator">--</span>global user<span class="token punctuation">.</span>email <span class="token string">"你的邮箱"</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 
-<h2 id="生成密钥">3.2. 生成密钥</h2><ul>
+<h2 id="3-2-生成密钥"><a href="#3-2-生成密钥" class="headerlink" title="3.2 生成密钥"></a>3.2 生成密钥</h2><ul>
 <li>再输入以下命令：</li>
 </ul>
 <pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript">ssh<span class="token operator">-</span>keygen <span class="token operator">-</span>t rsa <span class="token operator">-</span><span class="token constant">C</span> <span class="token string">"你的邮箱"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
@@ -542,7 +542,7 @@ git config <span class="token operator">--</span>global user<span class="token p
 <li>记得查看这个绿框里的地址，找到<code>id_rsa.pub</code>这个文件，即shh key公钥。一般在  <code>C:\Users\你的电脑用户名/.ssh/</code>文件夹下（记得显示隐藏文件夹），可以先用记事本打开，把里面的字符串保存一下，稍后会用到。</li>
 </ul>
 <p>之后的参考文章 <a href="https://pamarus.github.io/2020/05/04/hexo-bo-ke-da-jian-1-mac-duan-shi-yong-hexo-github-pages-da-jian-mian-fei-ge-ren-bo-ke/">Hexo博客搭建（1）：Mac端使用Hexo+GitHub Pages搭建免费个人博客</a> 第六小节，步骤一致。两个系统仅保存路径不同，上面已经说明windows系统保存路径。</p>
-<h1 id="使用npm安装Hexo">4. 使用npm安装Hexo</h1><h2 id="安装Hexo">4.1. 安装Hexo</h2><ul>
+<h1 id="4-使用npm安装Hexo"><a href="#4-使用npm安装Hexo" class="headerlink" title="4 使用npm安装Hexo"></a>4 使用npm安装Hexo</h1><h2 id="4-1-安装Hexo"><a href="#4-1-安装Hexo" class="headerlink" title="4.1 安装Hexo"></a>4.1 安装Hexo</h2><ul>
 <li>检查npm是否已安装。<code>cmd</code>中输入&nbsp;<code>npm -v</code>&nbsp;，如显示版本号，即正常安装。</li>
 </ul>
 <blockquote>
@@ -555,7 +555,7 @@ git config <span class="token operator">--</span>global user<span class="token p
 <pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript">npm install <span class="token operator">-</span>g hexo<span class="token operator">-</span>cli<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
 <p>可以用<code>hexo -v</code>验证一下是否成功。如果显示版本号，说明成功</p>
-<h2 id="本地初始化操作（复制文件到本地）">4.2. 本地初始化操作（复制文件到本地）</h2><ul>
+<h2 id="4-2-本地初始化操作（复制文件到本地）"><a href="#4-2-本地初始化操作（复制文件到本地）" class="headerlink" title="4.2 本地初始化操作（复制文件到本地）"></a>4.2 本地初始化操作（复制文件到本地）</h2><ul>
 <li><p>在电脑上创建你想要存放博客项目的文件夹。</p>
 </li>
 <li><p>cd 到文件夹</p>
@@ -571,10 +571,10 @@ git config <span class="token operator">--</span>global user<span class="token p
 </ul>
 <pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript">hexo init<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
-<h2 id="复制替换旧文件">4.3. 复制替换旧文件</h2><ul>
+<h2 id="4-3-复制替换旧文件"><a href="#4-3-复制替换旧文件" class="headerlink" title="4.3 复制替换旧文件"></a>4.3 复制替换旧文件</h2><ul>
 <li>将 mac 上原来的 hexo 博客项目下的相关文件拷贝到新建的 blog 根目录下，这些文件有：_config.yml，theme/，source/，scaffolds/，package.json，.gitignore。（这些文件如果提示要替换，都替换掉）</li>
 </ul>
-<h2 id="安装依赖">4.4. 安装依赖</h2><ul>
+<h2 id="4-4-安装依赖"><a href="#4-4-安装依赖" class="headerlink" title="4.4 安装依赖"></a>4.4 安装依赖</h2><ul>
 <li>在<code>cmd</code>中执行 <code>npm install</code>命令安装一些必要组件。</li>
 </ul>
 <ol>
@@ -582,7 +582,7 @@ git config <span class="token operator">--</span>global user<span class="token p
 <li>为了建立 RSS 订阅，需要安装 <code>npm install hexo-generator-feed --save</code></li>
 <li>为了建立站点地图，需要安装 <code>npm install hexo-generator-sitemap --save</code></li>
 </ol>
-<h1 id="致谢">5. 致谢</h1><p><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/686890167">更换电脑后，如何迁移 hexo 博客？包括建立本地 Git 与 Github 的公钥连接步骤详解</a></p>
+<h1 id="5-致谢"><a href="#5-致谢" class="headerlink" title="5 致谢"></a>5 致谢</h1><p><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/686890167">更换电脑后，如何迁移 hexo 博客？包括建立本地 Git 与 Github 的公钥连接步骤详解</a></p>
 <p><a target="_blank" rel="noopener" href="https://blog.csdn.net/Zzz_Zzz_Z/article/details/97395399">hexo 博客迁移</a></p>
 <p><a target="_blank" rel="noopener" href="https://blog.trotyl.xyz/post/61834/">Hexo 迁移｜mac 到 windows</a></p>
 
@@ -1173,8 +1173,8 @@ git config <span class="token operator">--</span>global user<span class="token p
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/%E7%9F%A5%E8%AF%86%E7%A2%8E%E7%89%87/" class="post-category">
-                                    知识碎片
+                            <a href="/categories/Hexo%E5%8D%9A%E5%AE%A2/" class="post-category">
+                                    Hexo博客
                                 </a>
                             
                             
@@ -1436,7 +1436,7 @@ git config <span class="token operator">--</span>global user<span class="token p
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">60.7k</span>&nbsp;字
+                class="white-color">64.9k</span>&nbsp;字
             
             
             
