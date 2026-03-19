@@ -50,6 +50,31 @@
   </entry>
   
   <entry>
+    <title>Obsidian 插件：Number Headings - 标题自动编号及动态目录</title>
+    <link href="https://pamarus.github.io/2026/03/16/obsidian-cha-jian-number-headings-biao-ti-zi-dong-bian-hao-ji-dong-tai-mu-lu/"/>
+    <id>https://pamarus.github.io/2026/03/16/obsidian-cha-jian-number-headings-biao-ti-zi-dong-bian-hao-ji-dong-tai-mu-lu/</id>
+    <published>2026-03-16T08:32:00.000Z</published>
+    <updated>2026-03-19T08:56:18.306Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;1-呃呃&quot;&gt;&lt;a href=&quot;#1-呃呃&quot; class=&quot;headerlink&quot; title=&quot;1 呃呃&quot;&gt;&lt;/a&gt;1 呃呃&lt;/h1&gt;&lt;h2 id=&quot;1-1-发个广告&quot;&gt;&lt;a href=&quot;#1-1-发个广告&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Hexo博客" scheme="https://pamarus.github.io/categories/Hexo%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+    <category term="Obsidian" scheme="https://pamarus.github.io/tags/Obsidian/"/>
+    
+  </entry>
+  
+  <entry>
     <title>小书匠修改预览标题编号格式</title>
     <link href="https://pamarus.github.io/2025/12/22/xiao-shu-jiang-xiu-gai-yu-lan-biao-ti-bian-hao-ge-shi/"/>
     <id>https://pamarus.github.io/2025/12/22/xiao-shu-jiang-xiu-gai-yu-lan-biao-ti-bian-hao-ge-shi/</id>
@@ -555,38 +580,6 @@
     
     <category term="Hexo博客" scheme="https://pamarus.github.io/categories/Hexo%E5%8D%9A%E5%AE%A2/"/>
     
-    
-    <category term="SSH报错" scheme="https://pamarus.github.io/tags/SSH%E6%8A%A5%E9%94%99/"/>
-    
-    <category term="部署问题" scheme="https://pamarus.github.io/tags/%E9%83%A8%E7%BD%B2%E9%97%AE%E9%A2%98/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>SSH连接报错&quot;Support for password authentication was removed&quot;</title>
-    <link href="https://pamarus.github.io/2022/08/11/ssh-lian-jie-bao-cuo-support-for-password-authentication-was-removed/"/>
-    <id>https://pamarus.github.io/2022/08/11/ssh-lian-jie-bao-cuo-support-for-password-authentication-was-removed/</id>
-    <published>2022-08-11T04:03:00.000Z</published>
-    <updated>2026-03-19T08:14:04.647Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;1-问题&quot;&gt;&lt;a href=&quot;#1-问题&quot; class=&quot;headerlink&quot; title=&quot;1 问题&quot;&gt;&lt;/a&gt;1 问题&lt;/h1&gt;&lt;p&gt;&lt;code&gt;Hexo -d&lt;/code&gt;部署的时候报错如下。&lt;/p&gt;
-&lt;pre class=&quot;line-numbers</summary>
-        
-      
-    
-    
-    
-    <category term="Hexo博客" scheme="https://pamarus.github.io/categories/Hexo%E5%8D%9A%E5%AE%A2/"/>
-    
-    
-    <category term="SSH验证" scheme="https://pamarus.github.io/tags/SSH%E9%AA%8C%E8%AF%81/"/>
-    
-    <category term="Token验证" scheme="https://pamarus.github.io/tags/Token%E9%AA%8C%E8%AF%81/"/>
     
     <category term="SSH报错" scheme="https://pamarus.github.io/tags/SSH%E6%8A%A5%E9%94%99/"/>
     
