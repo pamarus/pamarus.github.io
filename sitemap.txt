@@ -1,5 +1,6 @@
-https://pamarus.github.io/2026/03/20/obsidian-cha-jian-number-headings-biao-ti-zi-dong-bian-hao-ji-dong-tai-mu-lu/
+https://pamarus.github.io/2026/03/20/obsidian-cha-jian-number-headings-biao-ti-zi-dong-bian-hao/
 https://pamarus.github.io/2026/03/16/obsidian-zhi-shi-ku-tong-guo-github-piclist-jsdelivr-chuang-jian-shi-yong-mian-fei-jia-su-tu-chuang/
+https://pamarus.github.io/2020/06/11/hexo-bo-ke-da-jian-8-ti-huan-shi-yong-matery-zhu-ti-ji-xiang-xi-pei-zhi/
 https://pamarus.github.io/2020/05/04/xiao-shu-jiang-md-bian-ji-qi-pei-zhi-github-tu-chuang/
 https://pamarus.github.io/2022/08/08/ru-he-zai-github-shang-chuang-jian-wen-jian-jia/
 https://pamarus.github.io/2022/12/18/an-an-cheng-chang-ji-lu-2022-nian-12-yue/
@@ -21,7 +22,6 @@ https://pamarus.github.io/2020/07/11/mac-xi-tong-zhong-duan-bao-cuo-command-not-
 https://pamarus.github.io/2025/12/22/xiao-shu-jiang-xiu-gai-yu-lan-biao-ti-bian-hao-ge-shi/
 https://pamarus.github.io/2022/05/14/hexo-bo-ke-da-jian-9-she-zhi-wen-zhang-jia-mi/
 https://pamarus.github.io/2025/12/16/hexo-bo-ke-da-jian-10-hexo-bo-ke-cong-mac-duan-qian-yi-dao-windows/
-https://pamarus.github.io/2020/06/11/hexo-bo-ke-da-jian-8-ti-huan-shi-yong-matery-zhu-ti-ji-xiang-xi-pei-zhi/
 https://pamarus.github.io/2020/06/04/hexo-bo-ke-da-jian-7-next-zhu-ti-wu-custom.styl-wen-jian-ru-he-zi-ding-yi-yang-shi/
 https://pamarus.github.io/2020/05/19/hexo-bo-ke-da-jian-6-valine-ping-lun-xi-tong-you-hua/
 https://pamarus.github.io/2020/05/17/hexo-bo-ke-da-jian-5-next-zhu-ti-ji-cheng-valine-ping-lun-xi-tong/

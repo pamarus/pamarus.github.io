@@ -29,9 +29,9 @@
 
     <script src="/libs/jquery/jquery.min.js"></script>
 
-<meta name="generator" content="Hexo 6.2.0">
+<meta name="generator" content="Hexo 6.2.0"><link rel="alternate" href="/atom.xml" title="Pamarus" type="application/atom+xml">
+
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
-<link rel="alternate" href="/atom.xml" title="Pamarus" type="application/atom+xml">
 </head>
 
 
@@ -937,21 +937,16 @@
   <span class="token literal-property property">enable</span><span class="token operator">:</span> <span class="token boolean">true</span>
   <span class="token literal-property property">heading</span><span class="token operator">:</span> h1<span class="token punctuation">,</span> h2<span class="token punctuation">,</span> h3<span class="token punctuation">,</span> h4<span class="token punctuation">,</span> h5<span class="token punctuation">,</span> h6
   <span class="token literal-property property">collapseDepth</span><span class="token operator">:</span> <span class="token number">1</span> # 目录默认展开层级
-  <span class="token literal-property property">showToggleBtn</span><span class="token operator">:</span> <span class="token boolean">true</span> # 是否显示切换<span class="token constant">TOC</span>目录展开收缩的按钮
-<span class="token template-string"><span class="token template-punctuation string">`</span><span class="token template-punctuation string">`</span></span><span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">  
+  <span class="token literal-property property">showToggleBtn</span><span class="token operator">:</span> <span class="token boolean">true</span> # 是否显示切换<span class="token constant">TOC</span>目录展开收缩的按钮<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
-## 5.3 修改文章底部转载规则中显示的文章链接
-
-在站点配置文件中，找到以下代码块，将url改为自己的博客地址即可。
-
-</span><span class="token template-punctuation string">`</span></span><span class="token template-string"><span class="token template-punctuation string">`</span><span class="token template-punctuation string">`</span></span>javascript
-<span class="token literal-property property">url</span><span class="token operator">:</span> https<span class="token operator">:</span><span class="token operator">/</span><span class="token regex"><span class="token regex-delimiter">/</span><span class="token regex-source language-regex">pamarus.github.io</span><span class="token regex-delimiter">/</span></span>
+<h2 id="5-3-修改文章底部转载规则中显示的文章链接"><a href="#5-3-修改文章底部转载规则中显示的文章链接" class="headerlink" title="5.3 修改文章底部转载规则中显示的文章链接"></a>5.3 修改文章底部转载规则中显示的文章链接</h2><p>在站点配置文件中，找到以下代码块，将url改为自己的博客地址即可。</p>
+<pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token literal-property property">url</span><span class="token operator">:</span> https<span class="token operator">:</span><span class="token operator">/</span><span class="token regex"><span class="token regex-delimiter">/</span><span class="token regex-source language-regex">pamarus.github.io</span><span class="token regex-delimiter">/</span></span>
 <span class="token literal-property property">root</span><span class="token operator">:</span> <span class="token operator">/</span>
 <span class="token literal-property property">permalink</span><span class="token operator">:</span> <span class="token operator">:</span>year<span class="token operator">/</span><span class="token operator">:</span>month<span class="token operator">/</span><span class="token operator">:</span>day<span class="token operator">/</span><span class="token operator">:</span>title<span class="token operator">/</span>
 <span class="token literal-property property">permalink_defaults</span><span class="token operator">:</span>
 <span class="token literal-property property">pretty_urls</span><span class="token operator">:</span>
   <span class="token literal-property property">trailing_index</span><span class="token operator">:</span> <span class="token boolean">true</span> # Set to <span class="token boolean">false</span> to remove trailing <span class="token string">'index.html'</span> from permalinks
-  <span class="token literal-property property">trailing_html</span><span class="token operator">:</span> <span class="token boolean">true</span> # Set to <span class="token boolean">false</span> to remove trailing <span class="token string">'.html'</span> from permalinks<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+  <span class="token literal-property property">trailing_html</span><span class="token operator">:</span> <span class="token boolean">true</span> # Set to <span class="token boolean">false</span> to remove trailing <span class="token string">'.html'</span> from permalinks<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
 <h2 id="5-4-修改打赏的二维码图片"><a href="#5-4-修改打赏的二维码图片" class="headerlink" title="5.4 修改打赏的二维码图片"></a>5.4 修改打赏的二维码图片</h2><ul>
 <li><p>在 <code>~/blog/themes/hexo-theme-matery/source/medias/reward</code> 文件夹中，将图片替换成自己的微信和支付宝的收款二维码图片。</p>
