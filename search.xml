@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>Obsidian 插件：Number Headings - 标题自动编号及动态目录</title>
+      <link href="/2026/03/20/obsidian-cha-jian-number-headings-biao-ti-zi-dong-bian-hao-ji-dong-tai-mu-lu/"/>
+      <url>/2026/03/20/obsidian-cha-jian-number-headings-biao-ti-zi-dong-bian-hao-ji-dong-tai-mu-lu/</url>
+      
+        <content type="html"><![CDATA[<ul><li>Number Headings Plugin for Obsidian是一个用于自动编号或重新编号Obsidian文档中标题的插件。用户可以选择添加类似”1.1.2”的大纲样式编号。</li><li>用户可以通过打开命令面板，输入相应命令或设置快捷键，快速实现对文档中所有标题的编号、移除编号等操作。</li><li>插件还支持自定义起始编号、自定义分隔符等功能，帮助用户更灵活地管理文档结构。</li></ul><h1 id="1-下载和安装"><a href="#1-下载和安装" class="headerlink" title="1 下载和安装"></a>1 下载和安装</h1><p>在第三方插件 =&gt; 社区插件广场中，输入 <code># Number heading</code>，下载插件，并启用。</p><h1 id="2-配置"><a href="#2-配置" class="headerlink" title="2 配置"></a>2 配置</h1><h2 id="2-1-配置项说明"><a href="#2-1-配置项说明" class="headerlink" title="2.1 配置项说明"></a>2.1 配置项说明</h2><h3 id="2-1-1-电动"><a href="#2-1-1-电动" class="headerlink" title="2.1.1 电动"></a>2.1.1 电动</h3><p>① ==Skip top heading level==：如果勾选，则最高级标题不编号，默认 <code>关闭</code>。</p><p>② ==First heading level==：从第 X 级标题开始编号。默认为 <code>1</code>。</p><p>③ ==Start numbering at==：编号从多少开始计数，默认为 <code>1</code>。</p><ul><li>通俗讲，设置为2，从2开始编号，一般保持默认1不变，应该不会有从2开始编号的情况。</li><li>要注意的是这里编号体系要和⑤一致，比如⑤设置的是数字，这里也只能是数字，如果⑤设置的是大写字母，那这里也只能是大写字母。</li></ul><p>④ ==Maximum heading level==：设置最大编号到几级标题，默认为<code>6</code>。</p><ul><li>如果设置为 5，那 6 级标题就不会被编号。</li><li>可不关注，因为 Markdown 也默认支持 6 级标题</li></ul><p>⑤ ==Style for level 1 headings==：第一级标题编号样式。支持三种样式：数字（1），大写英文字母（A）和罗马数字（I）。</p><p>⑥ ==Style for lower level headings (below level 1)==：设置低级标题的编号样式，同⑤；</p><p>⑦ ==Automatic numbering==：是否开启自动编号，默认关闭。</p><ul><li>建议开启，临时增加或者删减标题，移动标题的时候，编号会自动更新。</li><li>部分无需编号的文章，临时关闭，使用命令移除编号即可。</li><li>若关闭，想添加标题编号，使用命令手动触发刷新编号即可。</li></ul><p>⑧ ==Separator style==：设置编号和标题间的连字符，有以下几种：<code>冒号 " : "，英文句号 " . "，短破折号 "-"，长破折号 "——"，右括号 “ ) ”，当然也可以是 "空格"</code>。</p><p>⑨ Table of Contents Anchor：添加目录，带跳转（锚点）这个也不是太明白，比如我设置成&nbsp;<code>^toc</code>&nbsp;，然后在标题后面插入&nbsp;<code>^toc</code>，就会生成一个目录，但是如果是普通文字就不行；</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Hexo博客 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Obsidian </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Obsidian知识库：通过 GitHub + PicList + jsDelivr 创建使用免费加速图床</title>
       <link href="/2026/03/16/obsidian-zhi-shi-ku-tong-guo-github-piclist-jsdelivr-chuang-jian-shi-yong-mian-fei-jia-su-tu-chuang/"/>
       <url>/2026/03/16/obsidian-zhi-shi-ku-tong-guo-github-piclist-jsdelivr-chuang-jian-shi-yong-mian-fei-jia-su-tu-chuang/</url>
@@ -13,7 +38,7 @@
       
       <categories>
           
-          <category> 博客教程 </category>
+          <category> Hexo博客 </category>
           
       </categories>
       
@@ -27,31 +52,6 @@
             <tag> PicList </tag>
             
             <tag> jsDelivr </tag>
-            
-            <tag> Obsidian </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Obsidian 插件：Number Headings - 标题自动编号及动态目录</title>
-      <link href="/2026/03/16/obsidian-cha-jian-number-headings-biao-ti-zi-dong-bian-hao-ji-dong-tai-mu-lu/"/>
-      <url>/2026/03/16/obsidian-cha-jian-number-headings-biao-ti-zi-dong-bian-hao-ji-dong-tai-mu-lu/</url>
-      
-        <content type="html"><![CDATA[<h1 id="1-呃呃"><a href="#1-呃呃" class="headerlink" title="1 呃呃"></a>1 呃呃</h1><h2 id="1-1-发个广告"><a href="#1-1-发个广告" class="headerlink" title="1.1 发个广告"></a>1.1 发个广告</h2><h3 id="1-1-1-嘎嘎嘎"><a href="#1-1-1-嘎嘎嘎" class="headerlink" title="1.1.1 嘎嘎嘎"></a>1.1.1 嘎嘎嘎</h3>]]></content>
-      
-      
-      <categories>
-          
-          <category> Hexo博客 </category>
-          
-      </categories>
-      
-      
-        <tags>
             
             <tag> Obsidian </tag>
             
@@ -627,7 +627,7 @@
       
       <categories>
           
-          <category> 知识碎片 </category>
+          <category> Hexo博客 </category>
           
       </categories>
       
@@ -1552,7 +1552,7 @@
       
       <categories>
           
-          <category> 知识碎片 </category>
+          <category> Hexo博客 </category>
           
       </categories>
       

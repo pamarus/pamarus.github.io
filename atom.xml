@@ -6,7 +6,7 @@
   <link href="https://pamarus.github.io/atom.xml" rel="self"/>
   
   <link href="https://pamarus.github.io/"/>
-  <updated>2026-03-19T08:01:08.800Z</updated>
+  <updated>2026-03-20T07:16:34.197Z</updated>
   <id>https://pamarus.github.io/</id>
   
   <author>
@@ -17,11 +17,37 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Obsidian 插件：Number Headings - 标题自动编号及动态目录</title>
+    <link href="https://pamarus.github.io/2026/03/20/obsidian-cha-jian-number-headings-biao-ti-zi-dong-bian-hao-ji-dong-tai-mu-lu/"/>
+    <id>https://pamarus.github.io/2026/03/20/obsidian-cha-jian-number-headings-biao-ti-zi-dong-bian-hao-ji-dong-tai-mu-lu/</id>
+    <published>2026-03-20T08:32:00.000Z</published>
+    <updated>2026-03-20T07:16:34.197Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;Number Headings Plugin for</summary>
+        
+      
+    
+    
+    
+    <category term="Hexo博客" scheme="https://pamarus.github.io/categories/Hexo%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+    <category term="Obsidian" scheme="https://pamarus.github.io/tags/Obsidian/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Obsidian知识库：通过 GitHub + PicList + jsDelivr 创建使用免费加速图床</title>
     <link href="https://pamarus.github.io/2026/03/16/obsidian-zhi-shi-ku-tong-guo-github-piclist-jsdelivr-chuang-jian-shi-yong-mian-fei-jia-su-tu-chuang/"/>
     <id>https://pamarus.github.io/2026/03/16/obsidian-zhi-shi-ku-tong-guo-github-piclist-jsdelivr-chuang-jian-shi-yong-mian-fei-jia-su-tu-chuang/</id>
     <published>2026-03-16T08:32:00.000Z</published>
-    <updated>2026-03-19T08:01:08.800Z</updated>
+    <updated>2026-03-20T07:14:57.801Z</updated>
     
     
       
@@ -34,7 +60,7 @@
     
     
     
-    <category term="博客教程" scheme="https://pamarus.github.io/categories/%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/"/>
+    <category term="Hexo博客" scheme="https://pamarus.github.io/categories/Hexo%E5%8D%9A%E5%AE%A2/"/>
     
     
     <category term="GitHub" scheme="https://pamarus.github.io/tags/GitHub/"/>
@@ -44,31 +70,6 @@
     <category term="PicList" scheme="https://pamarus.github.io/tags/PicList/"/>
     
     <category term="jsDelivr" scheme="https://pamarus.github.io/tags/jsDelivr/"/>
-    
-    <category term="Obsidian" scheme="https://pamarus.github.io/tags/Obsidian/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Obsidian 插件：Number Headings - 标题自动编号及动态目录</title>
-    <link href="https://pamarus.github.io/2026/03/16/obsidian-cha-jian-number-headings-biao-ti-zi-dong-bian-hao-ji-dong-tai-mu-lu/"/>
-    <id>https://pamarus.github.io/2026/03/16/obsidian-cha-jian-number-headings-biao-ti-zi-dong-bian-hao-ji-dong-tai-mu-lu/</id>
-    <published>2026-03-16T08:32:00.000Z</published>
-    <updated>2026-03-19T08:56:18.306Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;1-呃呃&quot;&gt;&lt;a href=&quot;#1-呃呃&quot; class=&quot;headerlink&quot; title=&quot;1 呃呃&quot;&gt;&lt;/a&gt;1 呃呃&lt;/h1&gt;&lt;h2 id=&quot;1-1-发个广告&quot;&gt;&lt;a href=&quot;#1-1-发个广告&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="Hexo博客" scheme="https://pamarus.github.io/categories/Hexo%E5%8D%9A%E5%AE%A2/"/>
-    
     
     <category term="Obsidian" scheme="https://pamarus.github.io/tags/Obsidian/"/>
     
