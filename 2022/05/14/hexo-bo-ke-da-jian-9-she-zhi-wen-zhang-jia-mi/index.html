@@ -29,9 +29,9 @@
 
     <script src="/libs/jquery/jquery.min.js"></script>
 
-<meta name="generator" content="Hexo 6.2.0"><link rel="alternate" href="/atom.xml" title="Pamarus" type="application/atom+xml">
-
+<meta name="generator" content="Hexo 6.2.0">
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+<link rel="alternate" href="/atom.xml" title="Pamarus" type="application/atom+xml">
 </head>
 
 
@@ -516,19 +516,20 @@
   <span class="token literal-property property">promptMessage</span><span class="token operator">:</span> 请输入访问本文章的密码
   <span class="token literal-property property">errorMessage</span><span class="token operator">:</span> 密码错误，将返回主页！<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
 
-<blockquote>
-<p><code>promptMessage</code>是打开文章，显示的阻断提示语。<br><code>errorMessage</code>是密码输入错误后的提示语。密码输入错误后将返回首页。<br>可以在<code>config.yml</code>文件中修改博客页面中显示的文字。</p>
-</blockquote>
+<ul>
+<li><code>promptMessage</code>是打开文章，显示的阻断提示语。</li>
+<li><code>errorMessage</code>是密码输入错误后的提示语。密码输入错误后将返回首页。</li>
+<li>可以在<code>config.yml</code>文件中修改博客页面中显示的文字。</li>
+</ul>
 <p>第二步：在对应文章的信息头Front-matter中写上<code>password</code>属性和<code>SHA256</code>加密的<code>password</code>的值即可，比如下面这样。</p>
 <pre class="line-numbers language-jsx" data-language="jsx"><code class="language-jsx"><span class="token literal-property property">title</span><span class="token operator">:</span> Hexo博客搭建（<span class="token number">9</span>）：设置文章加密
 <span class="token literal-property property">date</span><span class="token operator">:</span> <span class="token number">2022</span><span class="token operator">-</span><span class="token number">05</span><span class="token operator">-</span><span class="token number">14</span> <span class="token number">09</span><span class="token operator">:</span><span class="token number">35</span><span class="token operator">:</span><span class="token number">08</span>
-<span class="token literal-property property">password</span><span class="token operator">:</span> 0a0667865bc17f9d624bcf11088057bbab46336e7dae65f3d5366f4f7a18333e<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+<span class="token literal-property property">password</span><span class="token operator">:</span> <span class="token number">1234567890</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
 
 <ul>
 <li>有些在线的<code>SHA256</code>加密的地址，可供你使用：<a target="_blank" rel="noopener" href="https://tool.oschina.net/encrypt?type=2">开源中国在线工具</a>、<a target="_blank" rel="noopener" href="http://encode.chahuo.com/">chahuo</a>、<a target="_blank" rel="noopener" href="https://tool.chinaz.com/tools/hash.aspx">站长工具</a>。</li>
 </ul>
-<p>实际的效果如下：</p>
-<p><img src="https://note.youdao.com/yws/api/personal/file/WEBf3dce21ccb0137f9ece512ff29fd4ef5?method=download&amp;shareKey=d773fbf87e547c7ac18cd6362297f35e" alt="00卡片的文章摘要显示效果"></p>
+<p>加密后点击，实际的效果如下：</p>
 <p><img src="https://note.youdao.com/yws/api/personal/file/WEBe6102b748bdc21af6c5ef7731fa4ffef?method=download&amp;shareKey=ec540f88ea8ab623a36f7e57c6d91b94" alt="01弹框提示"></p>
 <ul>
 <li><code>password</code>的值如果填写明文密码，则无效。</li>
