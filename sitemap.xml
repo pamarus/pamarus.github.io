@@ -2,15 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://pamarus.github.io/2023/01/23/an-an-cheng-chang-ji-lu-2023-nian-01-yue/</loc>
-    
-    <lastmod>2026-03-25</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://pamarus.github.io/2022/05/14/hexo-bo-ke-da-jian-9-she-zhi-wen-zhang-jia-mi/</loc>
     
     <lastmod>2026-03-20</lastmod>
@@ -1101,13 +1092,6 @@
   
   <url>
     <loc>https://pamarus.github.io/tags/Mac/</loc>
-    <lastmod>2026-03-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://pamarus.github.io/tags/%E5%AE%89%E5%AE%89%E6%88%90%E9%95%BF%E8%AE%B0%E5%BD%95/</loc>
     <lastmod>2026-03-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

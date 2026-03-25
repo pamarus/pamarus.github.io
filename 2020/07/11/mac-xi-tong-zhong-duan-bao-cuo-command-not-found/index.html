@@ -293,6 +293,19 @@
 </header>
 
     
+<script src="/libs/cryptojs/crypto-js.min.js"></script>
+<script>
+    (function() {
+        let pwd = '';
+        if (pwd && pwd.length > 0) {
+            if (pwd !== CryptoJS.SHA256(prompt('你的通行证呢，点击此处输入试试噢🫣')).toString(CryptoJS.enc.Hex)) {
+                alert('通行证看着不太对，再试试噢🤔');
+                location.href = '/';
+            }
+        }
+    })();
+</script>
+
 
 
 

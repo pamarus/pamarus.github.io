@@ -308,27 +308,6 @@
   </entry>
   
   <entry>
-    <title>安安成长记录-2023年01月</title>
-    <link href="https://pamarus.github.io/2023/01/23/an-an-cheng-chang-ji-lu-2023-nian-01-yue/"/>
-    <id>https://pamarus.github.io/2023/01/23/an-an-cheng-chang-ji-lu-2023-nian-01-yue/</id>
-    <published>2023-01-23T11:56:34.000Z</published>
-    <updated>2026-03-25T08:29:07.610Z</updated>
-    
-    
-    <summary type="html">这儿有东西被加密了，点击看看😵</summary>
-    
-    
-    
-    <category term="生活日常" scheme="https://pamarus.github.io/categories/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/"/>
-    
-    
-    <category term="生活日常" scheme="https://pamarus.github.io/tags/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/"/>
-    
-    <category term="安安成长记录" scheme="https://pamarus.github.io/tags/%E5%AE%89%E5%AE%89%E6%88%90%E9%95%BF%E8%AE%B0%E5%BD%95/"/>
-    
-  </entry>
-  
-  <entry>
     <title>安安成长记录-2022年12月</title>
     <link href="https://pamarus.github.io/2022/12/18/an-an-cheng-chang-ji-lu-2022-nian-12-yue/"/>
     <id>https://pamarus.github.io/2022/12/18/an-an-cheng-chang-ji-lu-2022-nian-12-yue/</id>
@@ -568,6 +547,33 @@
         
     <summary type="html">&lt;h1 id=&quot;1-问题&quot;&gt;&lt;a href=&quot;#1-问题&quot; class=&quot;headerlink&quot; title=&quot;1 问题&quot;&gt;&lt;/a&gt;1 问题&lt;/h1&gt;&lt;p&gt;&lt;code&gt;Hexo -d&lt;/code&gt;部署的时候报错如下。&lt;/p&gt;
 &lt;pre class=&quot;line-numbers</summary>
+        
+      
+    
+    
+    
+    <category term="Hexo博客" scheme="https://pamarus.github.io/categories/Hexo%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+    <category term="SSH报错" scheme="https://pamarus.github.io/tags/SSH%E6%8A%A5%E9%94%99/"/>
+    
+    <category term="部署问题" scheme="https://pamarus.github.io/tags/%E9%83%A8%E7%BD%B2%E9%97%AE%E9%A2%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SSH连接报错&quot;HTTP 2 stream 1 was not closed cleanly before end of the underlying stream&quot;</title>
+    <link href="https://pamarus.github.io/2022/08/12/ssh-lian-jie-bao-cuo-http-2-stream-1-was-not-closed-cleanly-before-end-of-the-underlying-stream/"/>
+    <id>https://pamarus.github.io/2022/08/12/ssh-lian-jie-bao-cuo-http-2-stream-1-was-not-closed-cleanly-before-end-of-the-underlying-stream/</id>
+    <published>2022-08-12T04:11:00.000Z</published>
+    <updated>2026-03-19T08:14:15.117Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;code&gt;Hexo -d&lt;/code&gt;部署的时候发现一直报错&lt;code&gt;HTTP/2 stream 1 was not closed cleanly before end of the underlying stream&lt;/code&gt;。</summary>
         
       
     
